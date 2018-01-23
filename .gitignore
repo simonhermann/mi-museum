@@ -1,0 +1,8 @@
+node_modules/
+.nuxt/
+dist/
+.DS_Store
+*/.DS_Store
+assets/.DS_Store
+npm-debug.log
+notes.md
