@@ -1,0 +1,24 @@
+{
+  "links": {
+    "index": "mi-museum",
+    "about": "About",
+    "english": "English version",
+    "german": "Deutsche Version"
+  },
+  "page": {
+    "index": {
+      "meta": {
+        "title": "mi-museum",
+        "description": "tbd"
+      },
+      "title": "Welcome!"
+    },
+    "about": {
+      "meta": {
+        "title": "About us",
+        "description": "tbd"
+      },
+      "title": "About"
+    }
+  }
+}
