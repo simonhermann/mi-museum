@@ -1,5 +1,5 @@
 <template>
-<main class="page-about">
+<main class="page page-about">
   <header>
     <h1>  </h1>
   </header>

@@ -1,4 +1,5 @@
 <template>
+
 <nav class="navigation" role="navigation">
   <ul class="nav-ul">
     <li class="nav-li">
@@ -11,13 +12,13 @@
         Artikel
       </nuxt-link>
       <no-ssr>
-          <affix relative-element-selector="#example-content" style="width: 100%">
-              <ul>
-                <li><a href="#markup-1">1</a></li>
-                <li><a href="#markup-2">2</a></li>
-                <li><a href="#markup-3">3</a></li>
-              </ul>
-          </affix>
+        <scrollactive activeClass="is-scroll-active" :offset="100">
+          <ul>
+            <li><a class="scrollactive-item" href="#markup-1">1</a></li>
+            <li><a class="scrollactive-item" href="#markup-2">2</a></li>
+            <li><a class="scrollactive-item" href="#markup-3">3</a></li>
+          </ul>
+        </scrollactive>
       </no-ssr>
     </li>
     <li>
@@ -26,9 +27,8 @@
       </nuxt-link>
     </li>
   </ul>
-
-
 </nav>
+
 </template>
 
 <style lang="scss">
@@ -36,7 +36,7 @@
 
 .navigation {
   // positioning is defined in layout.scss
-  background-color: lightgray;
+  background-color: rgba(0, 0, 0, 0.2);
   font-weight: bold;
 }
 .nav-ul {
@@ -55,6 +55,10 @@
 .nav-li {
   margin: 0;
   padding: 0;
+}
+
+.scrollactive-item.is-scroll-active {
+  background: green;
 }
 
 .nuxt-link-exact-active,
