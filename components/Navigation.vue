@@ -10,6 +10,15 @@
       <nuxt-link class="nav-link" to="/article" exact>
         Artikel
       </nuxt-link>
+      <no-ssr>
+          <affix relative-element-selector="#example-content" style="width: 100%">
+              <ul>
+                <li><a href="#markup-1">1</a></li>
+                <li><a href="#markup-2">2</a></li>
+                <li><a href="#markup-3">3</a></li>
+              </ul>
+          </affix>
+      </no-ssr>
     </li>
     <li>
       <nuxt-link class="nav-link" to="/about" exact>
@@ -17,6 +26,8 @@
       </nuxt-link>
     </li>
   </ul>
+
+
 </nav>
 </template>
 
@@ -24,38 +35,31 @@
 @import '../assets/styles/mixins.scss';
 
 .navigation {
-  width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 100;
+  // positioning is defined in layout.scss
   background-color: lightgray;
   font-weight: bold;
-  @include grid {
-    @include mq-md {
-      position: initial;
-      bottom: initial;
-      left: initial;
-    }
-  }
 }
 .nav-ul {
-  margin: 0;
+  margin: 2em;
   padding: 0;
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin: 0 2em;
 
   @include grid {
     @include mq-md {
-      display: initial;
+      display: block;
     }
   }
 }
 .nav-li {
   margin: 0;
   padding: 0;
+}
+
+.nuxt-link-exact-active,
+.nuxt-link-active {
+  border-bottom: 3px solid red;
 }
 </style>
 

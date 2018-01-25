@@ -11,6 +11,13 @@
     max-width: 45em;
   }
 }
+.navigation {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
 
 @include grid {
   @include mq-md {
@@ -26,6 +33,14 @@
 
     .navigation {
       grid-area: navigation;
+      position: relative;
+      height: 100vh;
+      width: 16.5em;
+      overflow-y: auto;
+
+      & .nav-ul{
+        position: fixed;
+      }
     }
 
     .page {
