@@ -80,6 +80,18 @@ module.exports = {
     CTF_BLOG_POST_TYPE_ID: config.CTF_BLOG_POST_TYPE_ID,
   },
   markdownit: {
-    injected: true,
+    preset: 'default',
+    breaks: true, // Convert '\n' in paragraphs into <br>
+    linkify: true, // Autoconvert URL-like text to links
+    use: [
+      'markdown-it-mark',
+      'markdown-it-footnote',
+      'markdown-it-attrs',
+      'markdown-it-smartarrows',
+      'markdown-it-hashmention',
+      'markdown-it-include',
+      'mdfigcaption',
+    ],
   },
 }
+

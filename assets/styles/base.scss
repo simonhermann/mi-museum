@@ -86,6 +86,9 @@ textarea {
 
 img {
   max-width: 100%;
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 p,
@@ -111,4 +114,16 @@ pre, code {
 pre {
   display: block;
   margin: 1em 0;
+}
+
+blockquote {
+  font-family: cursive;
+}
+
+cite {
+  font-family: cursive;
+}
+
+cite::before {
+  content: "— "
 }
