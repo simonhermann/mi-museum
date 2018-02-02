@@ -7,6 +7,7 @@
 
       <!-- intro text -->
       <!-- cards with teaser to chapters / MIs -->
+      <div v-html="hello"></div>
 
   </div>
 </main>
@@ -16,15 +17,19 @@
 h1.home-title {
   font-size: 50px;
 }
-
 </style>
 
 <script>
+import hello from '~/content/hello.md'
+
 export default {
   data() {
-    return {
-      
-    }
+    return {}
+  },
+  computed: {
+    hello() {
+      return hello
+    },
   },
 
   // html meta data for page

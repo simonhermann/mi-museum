@@ -30,7 +30,7 @@
 }
 .page-enter, .page-leave-to {
   opacity: 0;
-  transform: translate(0, 10%);
+  //transform: translate(0, 10%);
   // transform: scale(0.95); 
   //transform-origin: 50% 50%;
 }
@@ -60,6 +60,7 @@ export default {
       htmlAttrs: {
         // set html lang tag
         // lang: this.$store.state.locale,
+        lang: "de"
       },
     }
   },

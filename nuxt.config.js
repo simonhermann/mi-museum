@@ -61,6 +61,7 @@ module.exports = {
   router: {
     //middleware: 'i18n',
   },
+  modules: ['@nuxtjs/markdownit'],
   /*
   ** Plugins
   */
@@ -77,5 +78,8 @@ module.exports = {
     CTF_SPACE_ID: config.CTF_SPACE_ID,
     CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
     CTF_BLOG_POST_TYPE_ID: config.CTF_BLOG_POST_TYPE_ID,
+  },
+  markdownit: {
+    injected: true,
   },
 }

@@ -15,7 +15,6 @@
   --color-text: var(--grey-dark);
 
   --shadow-btn: inset 0.2em 0.2em 0 0 hsla(0, 0%, 100%, 0.3);
-
 }
 
 html,
@@ -59,7 +58,7 @@ a:hover {
   color: var(--color-highlight);
 }
 a:active {
-  filter: brightness(.875)
+  filter: brightness(0.875);
 }
 
 // reset outline of inputs
@@ -102,4 +101,14 @@ i {
   overflow-wrap: break-word;
   word-break: break-word;
   word-wrap: break-word;
+}
+
+pre, code {
+  font-family: monospace;
+  white-space: pre;
+  background: rgb(228, 228, 228);
+}
+pre {
+  display: block;
+  margin: 1em 0;
 }
