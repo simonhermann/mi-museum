@@ -1,15 +1,31 @@
-.page {
-  padding: 1em;
-  max-width: 40em;
+.site {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.page-wrapper {
+  background-color: rgb(240, 240, 240);
+  position: relative;
+  max-width: 80vw;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 
+    [full-start] minmax(1em, 1fr) 
+    [wide-start] minmax(0, 1fr)
+    [content-start] minmax(0, 40em) [content-end]
+    minmax(0, 1fr) [wide-end]
+    minmax(1em, 1fr) [full-end];
+}
 
-  @include mq-sm {
-    padding: 2em;
-  }
+.page {
+  //margin: 0 auto;
+  grid-column: full;
+  display: inherit;
+  grid-template-columns: inherit;
 
-  @include mq-lg {
-    max-width: 45em;
-  }
+}
+.page > * {
+  grid-column: content;
 }
 .navigation {
   width: 100%;
@@ -34,16 +50,18 @@
     .navigation {
       grid-area: navigation;
       position: relative;
-      height: 100vh;
-      width: 16.5em;
+      bottom: unset;
+      left: unset;
+      //height: 100vh;
+      width: 100%;
       overflow-y: auto;
 
-      & .nav-ul{
+      .nav-ul {
         position: fixed;
       }
     }
 
-    .page {
+    .page-wrapper {
       grid-area: main;
     }
 
@@ -70,3 +88,39 @@
     }
   }
 }
+
+/*
+** figures and figcaptions
+*/
+
+figure {
+  margin: 0 0 1.5em 0;
+}
+
+figcaption {
+  padding-top: 0.5em;
+  text-align: center;
+  font-style: italic;
+}
+
+
+.align-left {
+  width: 50%;
+  margin-right: 1em;
+  float: left;
+}
+
+.align-right {
+  width: 50%;
+  margin-left: 1em;
+  float: right;
+}
+
+.align-half {
+  grid-column: wide;
+}
+
+.align-full {
+  grid-column: full;
+}
+

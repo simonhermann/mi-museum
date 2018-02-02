@@ -86,11 +86,11 @@ module.exports = {
     use: [
       'markdown-it-mark',
       'markdown-it-footnote',
-      'markdown-it-attrs',
       'markdown-it-smartarrows',
       'markdown-it-hashmention',
       'markdown-it-include',
       'mdfigcaption',
+      'markdown-it-attrs',
     ],
   },
 }

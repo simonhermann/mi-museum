@@ -5,7 +5,9 @@
     </noscript>
     
     <Navigation></Navigation>
-    <nuxt/>
+    <div class="page-wrapper">
+      <nuxt/>
+    </div>
     
   </div>
 </template>
@@ -21,20 +23,20 @@
 @import '../assets/styles/transitions.scss';
 @import '../assets/styles/objects/buttons.scss';
 
-
 /*
 ** page transitions
 */
-.page-enter-active, .page-leave-active {
-  transition: all .15s ease-out;
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.15s ease-out;
 }
-.page-enter, .page-leave-to {
+.page-enter,
+.page-leave-to {
   opacity: 0;
   //transform: translate(0, 10%);
-  // transform: scale(0.95); 
+  // transform: scale(0.95);
   //transform-origin: 50% 50%;
 }
-
 
 noscript {
   margin: 0 auto 1rem;
@@ -60,7 +62,7 @@ export default {
       htmlAttrs: {
         // set html lang tag
         // lang: this.$store.state.locale,
-        lang: "de"
+        lang: 'de',
       },
     }
   },

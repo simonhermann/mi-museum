@@ -3,7 +3,7 @@
   <header class="page-header">
     <h1 class="index-title">Museum of Microinteractions</h1>
   </header>
-  <div class="page">
+  
       <div :class="[titleVisible ? blurClass : '', blurElClass]">
         <h3>Blurme</h3>
       </div>
@@ -20,7 +20,14 @@
       <!-- intro text -->
       <!-- cards with teaser to chapters / MIs -->
 
-  </div>
+      <figure class="align-full">
+      <a href="https://unsplash.com/@andozo?photo=i9FLJwYhVQs" target="_blank" rel="nofollow">
+        <img src="https://source.unsplash.com/i9FLJwYhVQs/2600x800" alt="">
+      </a>
+      <figcaption class="caption">Lake. Photo by Andreas Rønningen</figcaption>
+    </figure>
+
+  
 </main>
 </template>
 

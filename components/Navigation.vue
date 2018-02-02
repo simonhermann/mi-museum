@@ -12,11 +12,11 @@
         Artikel
       </nuxt-link>
       <no-ssr>
-        <scrollactive activeClass="is-scroll-active" :offset="100">
+        <scrollactive class="subnav" activeClass="is-scroll-active" :offset="100">
           <ul>
-            <li><a class="scrollactive-item" href="#markup-1">1</a></li>
-            <li><a class="scrollactive-item" href="#markup-2">2</a></li>
-            <li><a class="scrollactive-item" href="#markup-3">3</a></li>
+            <li><a class="scrollactive-item" href="#markup-1">eins</a></li>
+            <li><a class="scrollactive-item" href="#markup-2">zwei</a></li>
+            <li><a class="scrollactive-item" href="#markup-3">drei</a></li>
           </ul>
         </scrollactive>
       </no-ssr>
@@ -60,6 +60,17 @@
 .nav-li {
   margin: 0;
   padding: 0;
+}
+
+/*
+** Subnav / scrollactive
+*/
+
+.subnav {
+  display: none;
+  @include mq-md {
+    display: block;
+  }
 }
 
 .scrollactive-item.is-scroll-active {
