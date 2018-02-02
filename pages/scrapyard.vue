@@ -21,9 +21,7 @@
       <!-- cards with teaser to chapters / MIs -->
 
       <figure class="align-full">
-      <a href="https://unsplash.com/@andozo?photo=i9FLJwYhVQs" target="_blank" rel="nofollow">
         <img src="https://source.unsplash.com/i9FLJwYhVQs/2600x800" alt="">
-      </a>
       <figcaption class="caption">Lake. Photo by Andreas Rønningen</figcaption>
     </figure>
 

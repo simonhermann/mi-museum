@@ -27,6 +27,9 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       // { href: '/styles/pure-min.css', rel: 'stylesheet' },
     ],
+    script: [
+      { src: '/js/medium-zoom.min.js', body: true},
+    ]
   },
   //css: ['assets/styles/main.scss'],
   /*
@@ -37,12 +40,12 @@ module.exports = {
   ** Build configuration
   */
   build: {
-    postcss: [
-      require('postcss-cssnext')(),
-      // require('autoprefixer')({
-      //   browsers: ['> 5%'],
-      // }),
-    ],
+    // postcss: [
+    //   require('postcss-cssnext')(),
+    //   // require('autoprefixer')({
+    //   //   browsers: ['> 5%'],
+    //   // }),
+    // ],
     /*
     ** Run ESLint on save
     */
@@ -70,15 +73,19 @@ module.exports = {
     '~/plugins/contentful.js',
     '~/plugins/vue-js-modal.js',
     '~/plugins/global.js',
+    //{ src: '~/plugins/medium-zoom.min.js', ssr: false },
   ],
   generate: {
-    routes: ['/', '/about'], // these routes will be pre-rendered on build
+    routes: ['/', '/about'], // these routes will be pre-rendered on "build"
   },
   env: {
     CTF_SPACE_ID: config.CTF_SPACE_ID,
     CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
     CTF_BLOG_POST_TYPE_ID: config.CTF_BLOG_POST_TYPE_ID,
   },
+  /*
+  ** Markdown-it
+  */
   markdownit: {
     preset: 'default',
     breaks: true, // Convert '\n' in paragraphs into <br>

@@ -1,5 +1,5 @@
 <template>
-  <div class="site">
+  <div class="site" id="zoom-container">
     <noscript>
       Please enable Javascript in your browser.
     </noscript>
@@ -8,7 +8,7 @@
     <div class="page-wrapper">
       <nuxt/>
     </div>
-    
+
   </div>
 </template>
 
@@ -48,6 +48,14 @@ noscript {
   font-weight: bold;
   font-size: 0.7em;
 }
+
+.medium-zoom--open .medium-zoom-overlay {
+  z-index: 100;
+  opacity: 0.8;
+}
+.medium-zoom--open .medium-zoom-image--open {
+  z-index: 101;
+}
 </style>
 
 <script>
@@ -65,6 +73,11 @@ export default {
         lang: 'de',
       },
     }
+  },
+  mounted() {
+    // initialize image zoom
+    // docs: https://github.com/francoischalifour/medium-zoom
+    mediumZoom(document.images)
   },
 }
 </script>
