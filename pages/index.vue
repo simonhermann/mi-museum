@@ -1,5 +1,5 @@
 <template>
-<main class="page page-index" role="main">
+<main class="page page-home" role="main">
   <header class="page-header">
     <h1 class="index-title">Museum of Microinteractions</h1>
   </header>
@@ -12,8 +12,21 @@
 </main>
 </template>
 
+<style lang="scss">
+h1.home-title {
+  font-size: 50px;
+}
+
+</style>
+
 <script>
 export default {
+  data() {
+    return {
+      
+    }
+  },
+
   // html meta data for page
   head() {
     return {
@@ -22,16 +35,11 @@ export default {
         {
           hid: 'description',
           name: 'description',
-          content: 'Geschichte und Zukunft der kleinsten Bausteine des Interactiondesign',
+          content:
+            'Geschichte und Zukunft der kleinsten Bausteine im Interactiondesign',
         },
       ],
     }
   },
 }
 </script>
-
-<style lang="scss">
-h1.home-title {
-  font-size: 50px;
-}
-</style>

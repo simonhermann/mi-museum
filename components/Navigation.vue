@@ -26,6 +26,11 @@
         Über
       </nuxt-link>
     </li>
+    <li>
+      <nuxt-link class="nav-link" to="/scrapyard" exact>
+        scrapyard
+      </nuxt-link>
+    </li>
   </ul>
 </nav>
 

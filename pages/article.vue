@@ -1,8 +1,5 @@
 <template>
-  <no-ssr>
-<div>
 
-  
   <main class="page page-content" id="example-content">
   
   
@@ -92,9 +89,7 @@
       <p><em>Dummy text to have additional text to show:</em> Blind would equal while oh mr do style. Lain led and fact none. One preferred sportsmen resolving the happiness continued. High at of in loud rich true. Oh conveying do immediate acuteness in he. Equally welcome her set nothing has gravity whether parties. Fertile suppose shyness mr up pointed in staying on respect. </p>
     </div><!-- .entry-content -->
   </main><!-- .page-content -->
-
-</div>  
-  </no-ssr>
+ 
 </template>
 
 <script>
