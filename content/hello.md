@@ -27,7 +27,7 @@ note.]
 
 [link with title](http://nodeca.github.io/ "title text!")
 
-~[this is a caption](/images/home/Patent_617,592.png)
+~[this is a caption](/images/home/torch-patent.png)
 
 ![Stormtroopocat](https://octodex.github.com/images/stormtroopocat.jpg "The Stormtroopocat")
 

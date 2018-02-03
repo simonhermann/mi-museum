@@ -21,8 +21,11 @@
       <!-- cards with teaser to chapters / MIs -->
 
       <figure class="align-full">
-        <img src="https://source.unsplash.com/i9FLJwYhVQs/2600x800" alt="">
-      <figcaption class="caption">Lake. Photo by Andreas Rønningen</figcaption>
+        <img src="/images/home/torch-patent" alt="">
+      <figcaption class="caption">
+        Patentzeichnung Taschenlampe <br>
+        <a href="https://en.wikipedia.org/wiki/File:Patent_617,592.png" target="_blank" rel="noopener">Quelle</a>
+      </figcaption>
     </figure>
 
   

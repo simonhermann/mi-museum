@@ -1,21 +1,23 @@
 <template>
 <main class="page page-home" role="main">
-  <header class="page-header">
-    <h1 class="index-title">Museum of Microinteractions</h1>
+  <header class="page__header">
+    <h1 class="page__title">Museum of Microinteractions</h1>
   </header>
-  <div class="page">
+
 
       <!-- intro text -->
       <!-- cards with teaser to chapters / MIs -->
       <div v-html="hello"></div>
 
-  </div>
+
 </main>
 </template>
 
 <style lang="scss">
-h1.home-title {
-  font-size: 50px;
+.page-home {
+  .page__title {
+    font-size: 50px;
+  }
 }
 </style>
 

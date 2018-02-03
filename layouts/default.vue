@@ -51,7 +51,7 @@ noscript {
 
 .medium-zoom--open .medium-zoom-overlay {
   z-index: 100;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 .medium-zoom--open .medium-zoom-image--open {
   z-index: 101;
@@ -77,7 +77,8 @@ export default {
   mounted() {
     // initialize image zoom
     // docs: https://github.com/francoischalifour/medium-zoom
-    mediumZoom(document.images)
+    // TODO: needs to refresh on page change...
+    mediumZoom('img')
   },
 }
 </script>
