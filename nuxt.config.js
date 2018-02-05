@@ -61,9 +61,9 @@ module.exports = {
     // },
     // vendor: ['vue-i18n'],
   },
-  router: {
-    //middleware: 'i18n',
-  },
+  // router: {
+  //   middleware: 'mediumZoom',
+  // },
   modules: ['@nuxtjs/markdownit'],
   /*
   ** Plugins

@@ -21,7 +21,7 @@
       <!-- cards with teaser to chapters / MIs -->
 
       <figure class="align-full">
-        <img src="/images/home/torch-patent" alt="">
+        <img src="/images/home/torch-patent.png" alt="">
       <figcaption class="caption">
         Patentzeichnung Taschenlampe <br>
         <a href="https://en.wikipedia.org/wiki/File:Patent_617,592.png" target="_blank" rel="noopener">Quelle</a>
@@ -33,11 +33,12 @@
 </template>
 
 <style lang="scss">
-
-.fade-enter-active, .fade-leave-active {
-  transition: opacity .5s ease-out;
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease-out;
 }
-.fade-enter, .fade-leave-to {
+.fade-enter,
+.fade-leave-to {
   opacity: 0;
 }
 
@@ -60,11 +61,10 @@
   100% {
     transform: scale(1);
   }
-  
 }
 
 .blur-el {
-  transition: all .5s ease-out;
+  transition: all 0.5s ease-out;
 }
 .blur {
   filter: blur(2px);
@@ -77,8 +77,12 @@ export default {
     return {
       titleVisible: 'false',
       blurElClass: 'blur-el',
-      blurClass: 'blur'
+      blurClass: 'blur',
     }
+  },
+  mounted() {
+    // initialize image zoom
+    mediumZoom('img')
   },
 
   // html meta data for page

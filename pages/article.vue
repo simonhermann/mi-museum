@@ -59,6 +59,12 @@
 </template>
 
 <script>
+export default {
+  mounted() {
+    // initialize image zoom
+    mediumZoom('img')
+  },
+}
 </script>
 
 <style>

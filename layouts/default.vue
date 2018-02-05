@@ -74,11 +74,12 @@ export default {
       },
     }
   },
-  mounted() {
+  routeChanged() {
     // initialize image zoom
     // docs: https://github.com/francoischalifour/medium-zoom
     // TODO: needs to refresh on page change...
-    mediumZoom('img')
+    // mediumZoom('img')
+    // console.log("routeChanged") // not working
   },
 }
 </script>

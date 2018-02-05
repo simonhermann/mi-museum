@@ -34,6 +34,10 @@ export default {
       ],
     }
   },
+  mounted() {
+    // initialize image zoom
+    mediumZoom('img')
+  },
 
   // `env` is available in the context object
   asyncData({ env, store }) {

@@ -50,6 +50,7 @@ a:active,
 a:visited {
   text-decoration: none;
   color: currentColor;
+  color: var(--color-highlight);
   text-decoration-skip: ink;
 }
 a:hover {
@@ -105,7 +106,8 @@ i {
   word-wrap: break-word;
 }
 
-pre, code {
+pre,
+code {
   font-family: monospace;
   white-space: pre;
   background: rgb(228, 228, 228);
@@ -124,5 +126,5 @@ cite {
 }
 
 cite::before {
-  content: "— "
+  content: '— ';
 }
