@@ -26,6 +26,7 @@ module.exports = {
       // { rel: 'alternate', hreflang: 'en', href: 'https://www.my-url.com/en' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       // { href: '/styles/pure-min.css', rel: 'stylesheet' },
+      { href: 'https://fonts.googleapis.com/css?family=Arbutus+Slab', rel: 'stylesheet' },
     ],
     script: [
       { src: '/js/medium-zoom.min.js', body: true},

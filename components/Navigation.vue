@@ -38,11 +38,14 @@
 
 <style lang="scss">
 @import '../assets/styles/mixins.scss';
+@import '../assets/styles/base.scss';
 
+  /*
+  ** Main Nav
+  */
 .navigation {
   // positioning is defined in layout.scss
-  background-color: rgba(0, 0, 0, 0.2);
-  font-weight: bold;
+  // background-color: rgba(0, 0, 0, 0.2);
 }
 .nav-ul {
   margin: 2em;
@@ -60,7 +63,15 @@
 .nav-li {
   margin: 0;
   padding: 0;
+  color: var(--color-highlight);
 }
+.nuxt-link-exact-active,
+.nuxt-link-active {
+  background-color: var(--color-highlight);
+  color: #fff;
+}
+
+
 
 /*
 ** Subnav / scrollactive
@@ -74,23 +85,14 @@
 }
 
 .scrollactive-item.is-scroll-active {
-  background: green;
+  // background-color: var(--color-highlight);
+  // color: #fff;
+  text-decoration: underline;
 }
 
-.nuxt-link-exact-active,
-.nuxt-link-active {
-  border-bottom: 3px solid red;
-}
 </style>
 
 <script>
 export default {
-  components: {},
-  methods: {
-    // return localized path for links
-    // path(url) {
-    //   return this.$i18n.locale === 'de' ? url : '/' + this.$i18n.locale + url
-    // },
-  },
 }
 </script>

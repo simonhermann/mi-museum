@@ -23,7 +23,7 @@ Here is an inline note.^[Inlines notes are easier to write, since
 you don't have to pick an identifier and move down to type the
 note.]
 
-==this== is marked [fn3] <kbd>STRG</kbd> + <kbd>x</kbd>
+==this== is marked [^fn3] <kbd>STRG</kbd> + <kbd>x</kbd>
 
 [link with title](http://nodeca.github.io/ "title text!")
 
@@ -40,14 +40,12 @@ note.]
 
 
 
-### Footnotes
-
 [^fn1]: Here is the footnote.
 
 [^longnote]: Here's one with multiple blocks.
     Subsequent paragraphs are indented to show that they
 belong to the previous footnote.
 
-[fn3] [@saffer13]: Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013
+[^fn3]: [@saffer13] Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013
 
 

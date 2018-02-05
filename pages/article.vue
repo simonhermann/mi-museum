@@ -1,7 +1,7 @@
 <template>
 
 <main class="page">
-  <h1 class="post-title">The Image Alignment Conundrum</h1>
+  <h1 class="post-title" id="markup-1">The Image Alignment Conundrum</h1>
     <p class="intro">The challenge seems simple on paper but hard in CSS: Without changing the HTML markup, allow for various alignments in a single view, including centered elements, floated elements, half-bleed elements, and full-bleed elements. It seems the best approach to half- and full-bleed is using CSS Grid, but that stands in the way of floats.</p>
     <p><em>Note: The classic solution of 1XX% width and negative left margin is not an option here. Assume we don't know the width of the outermost container and the solution has to be fluid and responsive when only the outermost container width changes.</em></p>
     <p class="intro">Descriptions of each alignment are found under each image.</p>
@@ -14,7 +14,7 @@
     </figure>
     <p>Elements with the class <code>align-center</code> are centered with a max width matching the max width of the main content. If an element is narrower than the width, it is center aligned leaving equal space on both sides.</p> 
     
-    <h2>Left-aligned</h2>
+    <h2 id="markup-2">Left-aligned</h2>
     <figure class="align-left">
         <img src="https://source.unsplash.com/xkMArBuwK44/400x400" alt="">
       <figcaption class="caption">Pyramid. Photo by Andreas Rønningen</figcaption>
@@ -37,9 +37,9 @@
         <img src="https://source.unsplash.com/KUfkX6gVwBU/2600x800" alt="">
       <figcaption class="caption">Oslo. Photo by Andreas Rønningen</figcaption>
     </figure>
-    <p>Elements with the class <code>align-half</code> are displayed as "half-bleed" meaning they extend on the left and right to fill <em>half the available space</em> between the outer edge of the <code>main</code> container and the <code>entry content</code>.</p>
+    <p>Elements with the class <code>align-half</code> are displayed as "half-bleed" meaning they extend on the left and right to fill <em>half the available space</em> between the outer edge of the.</p>
     
-    <h2>Full-bleed</h2> 
+    <h2 id="markup-3">Full-bleed</h2> 
     <figure class="align-full">
         <img src="https://source.unsplash.com/i9FLJwYhVQs/2600x800" alt="">
       <figcaption class="caption">Lake. Photo by Andreas Rønningen</figcaption>
