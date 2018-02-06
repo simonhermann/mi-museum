@@ -1,22 +1,3 @@
-:root {
-  // --sm-width: 568px; /* 35.5em; */
-  // --md-width: 768px; /* 28em; */
-  // --lg-width: 1024px; /* 64em; */
-  // --xl-width: 1280px; /* 80em; */
-
-  --red: #dd0000;
-  --red-dark: #440000;
-  --green: #269610;
-  --green-dark: #1e6d0f;
-  --grey-light: #f8f8f8;
-  --grey-dark: #424242;
-
-  --color-highlight: var(--green-dark);
-  --color-text: var(--grey-dark);
-
-  --shadow-btn: inset 0.2em 0.2em 0 0 hsla(0, 0%, 100%, 0.3);
-}
-
 html,
 body {
   min-height: 100vh;
@@ -67,7 +48,8 @@ h3,
 h4,
 h5 {
   line-height: 1;
-  font-family: 'Arbutus Slab', serif;
+  font-weight: 900;
+  //font-family: 'Arbutus Slab', serif;
 }
 h2, h3 {
   text-decoration: underline;

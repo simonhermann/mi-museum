@@ -12,7 +12,7 @@
         Artikel
       </nuxt-link>
       <no-ssr>
-        <scrollactive class="subnav" activeClass="is-scroll-active" :offset="100">
+        <scrollactive class="subnav" activeClass="is-scroll-active" :offset="500">
           <ul>
             <li><a class="scrollactive-item" href="#markup-1">eins</a></li>
             <li><a class="scrollactive-item" href="#markup-2">zwei</a></li>
@@ -38,11 +38,11 @@
 
 <style lang="scss">
 @import '../assets/styles/mixins.scss';
-@import '../assets/styles/base.scss';
+@import '../assets/styles/vars.scss';
 
-  /*
-  ** Main Nav
-  */
+/*
+** Main Nav
+*/
 .navigation {
   // positioning is defined in layout.scss
   // background-color: rgba(0, 0, 0, 0.2);
@@ -65,8 +65,7 @@
   padding: 0;
   color: var(--color-highlight);
 }
-.nuxt-link-exact-active,
-.nuxt-link-active {
+.nuxt-link-exact-active {
   background-color: var(--color-highlight);
   color: #fff;
 }

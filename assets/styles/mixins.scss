@@ -5,16 +5,10 @@
   }
 }
 
-
 /*
  * mixins for media queries
  using same widths as pure.css
 */
-
-$sm-width: 568px; /* 35.5em; */
-$md-width: 768px; /* 28em; */
-$lg-width: 1024px; /* 64em; */
-$xl-width: 1280px; /* 80em; */
 
 @mixin mq-sm {
   @media (min-width: #{$sm-width}) {

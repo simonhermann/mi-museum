@@ -25,11 +25,11 @@ module.exports = {
       // { rel: 'alternate', hreflang: 'de', href: 'https://www.my-url.com/' },
       // { rel: 'alternate', hreflang: 'en', href: 'https://www.my-url.com/en' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      // { href: '/styles/pure-min.css', rel: 'stylesheet' },
-      { href: 'https://fonts.googleapis.com/css?family=Arbutus+Slab', rel: 'stylesheet' },
+      //{ href: 'https://fonts.googleapis.com/css?family=Bitter:400,400i,700', rel: 'stylesheet' },
+      { href: 'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900,900i', rel: 'stylesheet' },
     ],
     script: [
-      { src: '/js/medium-zoom.min.js', body: true},
+      { src: '/js/medium-zoom.min.js', defer: true},
     ]
   },
   //css: ['assets/styles/main.scss'],
