@@ -22,13 +22,14 @@
 @import '../assets/styles/transitions.scss';
 @import '../assets/styles/objects/buttons.scss';
 
-
 /*
 ** page transitions
 */
-.page-enter-active,
 .page-leave-active {
   transition: all 0.15s ease-out;
+}
+.page-enter-active {
+  transition: all 0.5s ease-out;
 }
 .page-enter,
 .page-leave-to {
@@ -71,13 +72,6 @@ export default {
         lang: 'de',
       },
     }
-  },
-  routeChanged() {
-    // initialize image zoom
-    // docs: https://github.com/francoischalifour/medium-zoom
-    // TODO: needs to refresh on page change...
-    // mediumZoom('img')
-    // console.log("routeChanged") // not working
   },
 }
 </script>

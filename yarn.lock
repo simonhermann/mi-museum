@@ -3816,6 +3816,10 @@ markdown-it-attrs@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/markdown-it-attrs/-/markdown-it-attrs-1.2.1.tgz#5e1560f47e896f6c21650e3abc1b12ce9f967d09"
 
+markdown-it-container@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-container/-/markdown-it-container-2.0.0.tgz#0019b43fd02eefece2f1960a2895fba81a404695"
+
 markdown-it-footnote@^3.0.1:
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/markdown-it-footnote/-/markdown-it-footnote-3.0.1.tgz#7f3730747cacc86e2fe0bf8a17a710f34791517a"
@@ -3823,6 +3827,10 @@ markdown-it-footnote@^3.0.1:
 markdown-it-hashmention@^0.3.9:
   version "0.3.9"
   resolved "https://registry.yarnpkg.com/markdown-it-hashmention/-/markdown-it-hashmention-0.3.9.tgz#0dcfc33da95de9b9da919cb1a1d7b19108e70dd6"
+
+markdown-it-implicit-figures@^0.6.0:
+  version "0.6.0"
+  resolved "https://registry.yarnpkg.com/markdown-it-implicit-figures/-/markdown-it-implicit-figures-0.6.0.tgz#ef591a4a9682462d5be9e050b37debd0284850a1"
 
 markdown-it-include@^1.0.0:
   version "1.0.0"

@@ -109,7 +109,16 @@ pre {
 }
 
 blockquote {
-  font-family: cursive;
+  font-family: inherit;
+  font-style: italic;
+  width: 75%;
+  
+  cite {
+    font-family: inherit;
+    font-style: normal;
+    font-size: 70%;
+    float: right;
+  }
 }
 
 cite {

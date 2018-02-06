@@ -26,11 +26,13 @@ module.exports = {
       // { rel: 'alternate', hreflang: 'en', href: 'https://www.my-url.com/en' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       //{ href: 'https://fonts.googleapis.com/css?family=Bitter:400,400i,700', rel: 'stylesheet' },
-      { href: 'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900,900i', rel: 'stylesheet' },
+      {
+        href:
+          'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900,900i',
+        rel: 'stylesheet',
+      },
     ],
-    script: [
-      { src: '/js/medium-zoom.min.js', defer: true},
-    ]
+    script: [{ src: '/js/medium-zoom.min.js', defer: true }],
   },
   //css: ['assets/styles/main.scss'],
   /*
@@ -92,13 +94,15 @@ module.exports = {
     breaks: true, // Convert '\n' in paragraphs into <br>
     linkify: true, // Autoconvert URL-like text to links
     use: [
-      'markdown-it-mark',
       'markdown-it-footnote',
+      'markdown-it-include',
+      'markdown-it-container',
+      'markdown-it-implicit-figures',
+      //'markdown-it-implicit-figures, figcaption=true',
+      'markdown-it-attrs',
+      'markdown-it-mark',
       'markdown-it-smartarrows',
       'markdown-it-hashmention',
-      'markdown-it-include',
-      'mdfigcaption',
-      'markdown-it-attrs',
     ],
   },
 }

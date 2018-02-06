@@ -47,7 +47,7 @@
     <p>Elements with the class <code>align-full</code> are displayed as full-bleed meaning they extend on the left and right to fill <em>all available space</em> between the outer edge of the <code>main</code> container.</p>
     
     <h2>No alignment</h2>
-    <figure class="card align-none">
+    <figure class="align-none">
         <img src="https://source.unsplash.com/S2YssLw97l4/2600x1600" alt="">
       <figcaption class="caption">Sparklers and Warm Souls. Photo by Andreas Rønningen</figcaption>
     </figure>
