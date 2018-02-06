@@ -8,11 +8,10 @@ Vue.config.productionTip = false
 ** Global Vue components
 */
 
+// makes a elements scroll, but always stay in viewport [UNUSED]
 import VueAffix from 'vue-affix'
 Vue.use(VueAffix)
 
+// highlights subnav links and make links in subnav scroll smooth to respective anchor
 import VueScrollactive from 'vue-scrollactive'
 Vue.use(VueScrollactive)
-
-// import myComp from '~/components/sections/myComp'
-// Vue.component('myComp', myComp)

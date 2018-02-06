@@ -32,7 +32,10 @@ module.exports = {
         rel: 'stylesheet',
       },
     ],
-    script: [{ src: '/js/medium-zoom.min.js', defer: true }],
+    script: [
+      { src: '/js/medium-zoom.min.js', defer: true },
+      { src: '/js/smoothscroll.min.js', defer: true }
+    ],
   },
   //css: ['assets/styles/main.scss'],
   /*
@@ -103,6 +106,7 @@ module.exports = {
       'markdown-it-mark',
       'markdown-it-smartarrows',
       'markdown-it-hashmention',
+      //'markdown-it-container', // container class needs to be defined before use
     ],
   },
 }

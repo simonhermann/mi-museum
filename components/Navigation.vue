@@ -66,8 +66,9 @@
   color: var(--color-highlight);
 }
 .nuxt-link-exact-active {
-  background-color: var(--color-highlight);
+  background-color: lightgreen;
   color: #fff;
+  text-decoration: underline;
 }
 
 
