@@ -80,24 +80,5 @@ export default {
       blurClass: 'blur',
     }
   },
-  mounted() {
-    // initialize image zoom
-    mediumZoom('img')
-  },
-
-  // html meta data for page
-  head() {
-    return {
-      title: 'Museum of Microinteractions',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Geschichte und Zukunft der kleinsten Bausteine im Interactiondesign',
-        },
-      ],
-    }
-  },
 }
 </script>

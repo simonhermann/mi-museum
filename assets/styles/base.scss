@@ -119,14 +119,14 @@ blockquote {
     font-size: 70%;
     float: right;
   }
-}
-
-cite {
-  font-family: cursive;
-}
-
-cite::before {
-  content: '— ';
+  cite::before {
+    content: '— ';
+  }
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
 }
 
 /*
