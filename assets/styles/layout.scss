@@ -94,13 +94,16 @@
 */
 
 figure {
-  margin: 0 0 1.5em 0;
+  margin: 2em 0;
+  display: inline-block;
 }
 
 figcaption {
   padding-top: 0.5em;
   text-align: center;
   font-style: italic;
+  color: gray;
+  font-size: 75%;
 }
 
 
@@ -108,12 +111,20 @@ figcaption {
   width: 50%;
   margin-right: 1em;
   float: left;
+
+  ~figcaption {
+    text-align: left;
+  }
 }
 
 .align-right {
   width: 50%;
   margin-left: 1em;
   float: right;
+
+  ~figcaption {
+    text-align: right;
+  }
 }
 
 .align-half {

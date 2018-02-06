@@ -34,7 +34,7 @@ module.exports = {
     ],
     script: [
       { src: '/js/medium-zoom.min.js', defer: true },
-      { src: '/js/smoothscroll.min.js', defer: true }
+      { src: '/js/smoothscroll.min.js', defer: true },
     ],
   },
   //css: ['assets/styles/main.scss'],
@@ -100,13 +100,12 @@ module.exports = {
       'markdown-it-footnote',
       'markdown-it-include',
       'markdown-it-container',
-      'markdown-it-implicit-figures',
-      //'markdown-it-implicit-figures, figcaption=true',
       'markdown-it-attrs',
+      ['markdown-it-implicit-figures', { figcaption: true }],
       'markdown-it-mark',
       'markdown-it-smartarrows',
-      'markdown-it-hashmention',
-      //'markdown-it-container', // container class needs to be defined before use
+      ['markdown-it-container', 'spoiler'], // makes container .spoiler available
+      //'markdown-it-hashmention',
     ],
   },
 }

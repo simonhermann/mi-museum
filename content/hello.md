@@ -16,16 +16,13 @@
 <==> ⇔
 ```
 
-
-
-
 Here is a footnote reference, [^fn1] and another.[^longnote] 
 
 Here is an inline note.^[Inlines notes are easier to write, since
 you don't have to pick an identifier and move down to type the
 note.]
 
-::: mycontainer
+::: spoiler
 some text
 blablaba
 [link with title](http://nodeca.github.io/ "title text!") 
@@ -36,11 +33,13 @@ asd
 
 
 
-![Alttext+Captiontext](https://octodex.github.com/images/stormtroopocat.jpg "TitleText") {.align-center}
+![AlttextCaptiontext](https://octodex.github.com/images/stormtroopocat.jpg "TitleText"){.align-left} 
 
 
 
-> .. within ten Minutes, it was obvious to me that all computers would work like this some day.
+
+
+> ".. within ten Minutes, it was obvious to me that all computers would work like this some day."
 > <cite>Steve Jobs über seinen ersten Eindruck der Grafischen Nutzeroberfläche des Xerox Alto</cite> {#markup-3}
 
 
