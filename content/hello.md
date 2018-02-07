@@ -1,5 +1,5 @@
 ## To do
-- [ ] re-initialize smoothscroll after pagechange
+- [x] re-initialize smoothscroll after pagechange
 
 ---
 
@@ -39,7 +39,7 @@ asd
 
 
 
-> ".. within ten Minutes, it was obvious to me that all computers would work like this some day."
+> .. within ten Minutes, it was obvious to me that all computers would work like this some day.
 > <cite>Steve Jobs über seinen ersten Eindruck der Grafischen Nutzeroberfläche des Xerox Alto</cite> {#markup-3}
 
 

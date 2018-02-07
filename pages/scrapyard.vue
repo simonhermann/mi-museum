@@ -17,8 +17,7 @@
 
 
 
-      <!-- intro text -->
-      <!-- cards with teaser to chapters / MIs -->
+      <div v-html="hello"></div>
 
       <figure class="align-full">
         <img src="/images/home/torch-patent.png" alt="">
@@ -72,6 +71,8 @@
 </style>
 
 <script>
+import hello from '~/content/hello.md'
+
 export default {
   data() {
     return {
@@ -79,6 +80,11 @@ export default {
       blurElClass: 'blur-el',
       blurClass: 'blur',
     }
+  },
+  computed: {
+    hello() {
+      return hello
+    },
   },
 }
 </script>

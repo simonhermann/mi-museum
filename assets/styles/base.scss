@@ -51,10 +51,10 @@ h5 {
   font-weight: 900;
   //font-family: 'Arbutus Slab', serif;
 }
-h2, h3 {
+h2,
+h3 {
   text-decoration: underline;
 }
-
 
 // reset outline of inputs
 input,
@@ -112,12 +112,31 @@ blockquote {
   font-family: inherit;
   font-style: italic;
   width: 75%;
-  
+  quotes: "»" "«"; 
+
+  p::before {
+    content: open-quote;
+    position: absolute;
+    font-size: 200%;
+    font-size: 400%;
+    margin-left: -.5em;
+    margin-top: -.7em;
+    opacity: .3;
+  }
+
   cite {
     font-family: inherit;
     font-style: normal;
-    font-size: 70%;
+    font-size: var(--font-size-small);
+    text-align: right;
     float: right;
+    
+    @include mq-sm {
+      width: 80%;
+    }
+    @include mq-md {
+      width: 60%;
+    }
   }
   cite::before {
     content: '— ';
@@ -127,6 +146,14 @@ blockquote {
     display: table;
     clear: both;
   }
+}
+
+kbd {
+  white-space: pre;
+  background: rgb(209, 209, 209);
+  border-radius: 3px;
+  padding: 0 3px;
+  box-shadow: 0px 0px 0px 1px rgb(117, 117, 117) inset;
 }
 
 /*
@@ -139,5 +166,19 @@ blockquote {
   border-style: dashed;
 }
 .footnotes {
-  font-size: .7em;
+  font-size: var(--font-size-small);
+}
+
+.footnote-ref a {
+  color: inherit;
+}
+.footnote-ref a:hover {
+  color: var(--color-highlight);
+}
+
+// webpack or sass or something else behaves weird and inserts a space afer 'ü'. this hack solves it...
+//content: 'zurück'; // is converted to 'zur\FC ck' and redered as 'zurü ck'
+.footnote-backref:hover::after,
+.footnote-backref:focus::after {
+  content: " zur\FC" "ck";
 }
