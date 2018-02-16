@@ -11,7 +11,7 @@
       <nuxt-link class="nav-link" to="/article" exact>
         Artikel
       </nuxt-link>
-      <no-ssr>
+      <!-- <no-ssr> -->
         <scrollactive class="subnav" activeClass="is-scroll-active" :offset="500">
           <ul>
             <li><a class="scrollactive-item" href="#markup-1">eins</a></li>
@@ -19,7 +19,7 @@
             <li><a class="scrollactive-item" href="#markup-3">drei</a></li>
           </ul>
         </scrollactive>
-      </no-ssr>
+      <!-- </no-ssr> -->
     </li>
     <li>
       <nuxt-link class="nav-link" to="/about" exact>

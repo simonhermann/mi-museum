@@ -1,3 +1,20 @@
+:root {
+
+  --red: #dd0000;
+  --red-dark: #440000;
+  --green: #269610;
+  --green-dark: #1e6d0f;
+  --grey-light: #f8f8f8;
+  --grey-dark: #424242;
+
+  --color-highlight: var(--green-dark);
+  --color-text: var(--grey-dark);
+
+  --shadow-btn: inset 0.2em 0.2em 0 0 hsla(0, 0%, 100%, 0.3);
+
+  --font-size-small: .75rem;
+}
+
 html,
 body {
   min-height: 100vh;

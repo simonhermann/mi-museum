@@ -26,7 +26,7 @@
 ** page transitions
 */
 .page-leave-active {
-  transition: all 0.15s ease-out;
+  transition: all 0.5s ease-out;
 }
 .page-enter-active {
   transition: all 0.5s ease-out;
@@ -63,6 +63,7 @@ noscript {
 import Navigation from '~/components/Navigation.vue'
 
 export default {
+  scrollToTop: false,
   components: {
     Navigation,
   },

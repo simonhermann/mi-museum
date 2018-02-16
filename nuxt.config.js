@@ -67,18 +67,33 @@ module.exports = {
     // },
     // vendor: ['vue-i18n'],
   },
-  // router: {
-  //   middleware: 'mediumZoom',
-  // },
+  router: {
+    //   middleware: 'mediumZoom',
+    scrollBehavior: function(to, from, savedPosition) {
+      // delay scrollin to top after page change to match fade-out time
+      return new Promise((resolve, reject) => {
+        setTimeout(() => {
+          resolve({ x: 0, y: 0 })
+        }, 500)
+      })
+    },
+  },
+  transition: {
+    name: 'page',
+    mode: 'out-in',
+    beforeEnter(el) {
+      console.log('Before enter...')
+    },
+  },
   modules: ['@nuxtjs/markdownit'],
   /*
   ** Plugins
   */
   plugins: [
-    //'~/plugins/i18n.js',
     '~/plugins/contentful.js',
     '~/plugins/vue-js-modal.js',
     '~/plugins/global.js',
+    //'~/plugins/i18n.js',
     //{ src: '~/plugins/medium-zoom.min.js', ssr: false },
   ],
   generate: {
