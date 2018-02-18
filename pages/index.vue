@@ -1,9 +1,8 @@
 <template>
 <main class="page page-home" role="main">
   <header class="page__header">
-    <h1 class="page__title">Museum of Microinteractions</h1>
+      <h1 class="page__title">Museum of Microinteractions</h1>
   </header>
-
 
       <!-- intro text -->
       <!-- cards with teaser to chapters / MIs -->
@@ -22,12 +21,11 @@
 </style>
 
 <script>
-
-
 export default {
   data() {
     return {}
   },
+  components: {},
 
   // html meta data for page
   head() {

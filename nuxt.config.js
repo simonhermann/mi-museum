@@ -68,13 +68,17 @@ module.exports = {
     // vendor: ['vue-i18n'],
   },
   router: {
-    //   middleware: 'mediumZoom',
+    // middleware: 'mediumZoom',
     scrollBehavior: function(to, from, savedPosition) {
-      // delay scrollin to top after page change to match fade-out time
+      // delay scrolling to top after page change to match fade-out time
       return new Promise((resolve, reject) => {
-        setTimeout(() => {
-          resolve({ x: 0, y: 0 })
-        }, 500)
+        if (window.location.hash){
+          // do nothing if the link is a page-internal anchor
+        } else {
+          setTimeout(() => {
+            resolve({ x: 0, y: 0 })
+          }, 500)
+        }
       })
     },
   },
@@ -82,7 +86,7 @@ module.exports = {
     name: 'page',
     mode: 'out-in',
     beforeEnter(el) {
-      console.log('Before enter...')
+      //console.log('route change imminent')
     },
   },
   modules: ['@nuxtjs/markdownit'],

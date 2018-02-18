@@ -5,7 +5,7 @@
     <p class="intro">The challenge seems simple on paper but hard in CSS: Without changing the HTML markup, allow for various alignments in a single view, including centered elements, floated elements, half-bleed elements, and full-bleed elements. It seems the best approach to half- and full-bleed is using CSS Grid, but that stands in the way of floats.</p>
     <p><em>Note: The classic solution of 1XX% width and negative left margin is not an option here. Assume we don't know the width of the outermost container and the solution has to be fluid and responsive when only the outermost container width changes.</em></p>
     <p class="intro">Descriptions of each alignment are found under each image.</p>
-    <p class="intro">Please fork and send your suggested solutions to <a href="https://twitter.com/mor10">@mor10 on Twitter</a>.</p>
+    <p class="intro">Please fork and send your suggested solutions to <a href="#">Twitter</a>.</p>
     
     <h2>Centered</h2>
     <figure class="align-center">  

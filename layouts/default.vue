@@ -74,5 +74,19 @@ export default {
       },
     }
   },
+  mounted: function () {
+    // this.$nextTick(function () { // nextTick = wait until dom is fully updated
+    //   window.addEventListener('resize', this.handleResize)
+    //   window.addEventListener('scroll', this.handleScroll)
+    // })
+  },
+  methods: {
+    handleResize: function () {
+      console.log('window resized')
+    },
+    handleScroll: function () {
+      console.log('window scrolled')
+    }
+  }
 }
 </script>

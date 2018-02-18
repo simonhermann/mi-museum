@@ -25,7 +25,7 @@ note.]
 ::: spoiler
 some text
 blablaba
-[link with title](http://nodeca.github.io/ "title text!") 
+[link with title](# "title text!") 
 asd
 :::
 

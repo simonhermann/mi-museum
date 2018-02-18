@@ -1,5 +1,4 @@
 :root {
-
   --red: #dd0000;
   --red-dark: #440000;
   --green: #269610;
@@ -12,7 +11,7 @@
 
   --shadow-btn: inset 0.2em 0.2em 0 0 hsla(0, 0%, 100%, 0.3);
 
-  --font-size-small: .75rem;
+  --font-size-small: 0.75rem;
 }
 
 html,
@@ -43,20 +42,34 @@ body {
 }
 
 // remove underlining from links
+
 a,
+a:hover,
 a:focus,
 a:active,
 a:visited {
   text-decoration: none;
   color: currentColor;
   color: var(--color-highlight);
+  transition: all 0.1s ease-out;
 }
 a:hover {
-  text-decoration: underline;
-  color: var(--color-highlight);
+  filter: brightness(0.5);
+  outline-offset: 3px;
+}
+a:focus {
+  filter: brightness(0.5);
+  outline-style: dotted;
+  outline-color: currentColor;
+  outline-offset: 2px;
+  outline-width: 1px;
 }
 a:active {
   filter: brightness(0.875);
+  outline-style: dotted;
+  outline-color: currentColor;
+  outline-offset: 2px;
+  outline-width: 2px;
 }
 
 h1,
@@ -83,13 +96,6 @@ textarea {
 ::selection {
   background: var(--color-highlight);
   color: #fff;
-}
-
-:focus {
-  outline-style: dotted;
-  outline-width: 2px;
-  outline-offset: 2px;
-  outline-color: var(--color-highlight);
 }
 
 img {
@@ -129,16 +135,16 @@ blockquote {
   font-family: inherit;
   font-style: italic;
   width: 75%;
-  quotes: "»" "«"; 
+  quotes: '»' '«';
 
   p::before {
     content: open-quote;
     position: absolute;
     font-size: 200%;
     font-size: 400%;
-    margin-left: -.5em;
-    margin-top: -.7em;
-    opacity: .3;
+    margin-left: -0.5em;
+    margin-top: -0.7em;
+    opacity: 0.3;
   }
 
   cite {
@@ -147,7 +153,7 @@ blockquote {
     font-size: var(--font-size-small);
     text-align: right;
     float: right;
-    
+
     @include mq-sm {
       width: 80%;
     }
@@ -197,5 +203,5 @@ kbd {
 //content: 'zurück'; // is converted to 'zur\FC ck' and redered as 'zurü ck'
 .footnote-backref:hover::after,
 .footnote-backref:focus::after {
-  content: " zur\FC" "ck";
+  content: ' zur\FC' 'ck';
 }

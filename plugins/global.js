@@ -15,13 +15,21 @@ Vue.use(VueAffix)
 import VueScrollactive from 'vue-scrollactive'
 Vue.use(VueScrollactive)
 
+// various scroll-related tools
+// import ScrollView from 'vue-scrollview'
+// Vue.use(ScrollView)
 
 /**
  * initialize DOM-dependent plugins after page change
  */
+const initAfterMount = () => {
+  mediumZoom('img')
+  initSmoothScroll(scrollLinkHandler)
+}
+
 Vue.mixin({
   mounted: function() {
-    // this will be called when any component is mounted
-    mediumZoom('img'), initSmoothScroll(scrollLinkHandler)
+    // this will be called when any component is mounted!
+    initAfterMount()
   },
 })
