@@ -3,33 +3,33 @@
 <nav class="navigation" role="navigation">
   <ul class="nav-ul">
     <li class="nav-li">
-      <nuxt-link class="nav-link" to="/" exact>
-        Home
-      </nuxt-link>
+      <nuxt-link class="nav-link" to="/" exact>Home</nuxt-link>
+    </li>
+    <li class="nav-li">
+      <nuxt-link class="nav-link" to="/triggers" exact>Auslöser</nuxt-link>
+    </li>
+    <li class="nav-li">
+      <nuxt-link class="nav-link" to="/rules" exact>Regeln</nuxt-link>
+    </li>
+    <li class="nav-li">
+      <nuxt-link class="nav-link" to="/loops-and-modes" exact>Schleifen und Modi</nuxt-link>
     </li>
     <li>
-      <nuxt-link class="nav-link" to="/article" exact>
-        Artikel
-      </nuxt-link>
-      <!-- <no-ssr> -->
-        <scrollactive class="subnav" activeClass="is-scroll-active" :offset="500">
-          <ul>
-            <li><a class="scrollactive-item" href="#markup-1">eins</a></li>
-            <li><a class="scrollactive-item" href="#markup-2">zwei</a></li>
-            <li><a class="scrollactive-item" href="#markup-3">drei</a></li>
-          </ul>
-        </scrollactive>
-      <!-- </no-ssr> -->
+      <nuxt-link class="nav-link" to="/article" exact>Artikel</nuxt-link>
+      <!-- TODO: move scrollactive to respective page -->
+      <scrollactive class="subnav" activeClass="is-scroll-active" :offset="500">
+        <ul>
+          <li><a class="scrollactive-item" href="#markup-1">eins</a></li>
+          <li><a class="scrollactive-item" href="#markup-2">zwei</a></li>
+          <li><a class="scrollactive-item" href="#markup-3">drei</a></li>
+        </ul>
+      </scrollactive>
     </li>
     <li>
-      <nuxt-link class="nav-link" to="/about" exact>
-        Über
-      </nuxt-link>
+      <nuxt-link class="nav-link" to="/about" exact>Über</nuxt-link>
     </li>
     <li>
-      <nuxt-link class="nav-link" to="/scrapyard" exact>
-        scrapyard
-      </nuxt-link>
+      <nuxt-link class="nav-link" to="/scrapyard" exact>scrapyard</nuxt-link>
     </li>
   </ul>
 </nav>
@@ -71,8 +71,6 @@
   text-decoration: underline;
 }
 
-
-
 /*
 ** Subnav / scrollactive
 */
@@ -89,10 +87,8 @@
   // color: #fff;
   text-decoration: underline;
 }
-
 </style>
 
 <script>
-export default {
-}
+export default {}
 </script>

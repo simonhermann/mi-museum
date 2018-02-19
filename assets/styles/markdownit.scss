@@ -1,0 +1,26 @@
+/*
+** classes applied by markdownit
+*/
+
+.footnotes-sep {
+  margin-top: 3em;
+  color: rgb(90, 90, 90);
+  border-style: dashed;
+}
+.footnotes {
+  font-size: var(--font-size-small);
+}
+
+.footnote-ref a {
+  color: inherit;
+}
+.footnote-ref a:hover {
+  color: var(--color-highlight);
+}
+
+// webpack or sass or something else behaves weird and inserts a space afer 'ü'. this hack solves it...
+//content: 'zurück'; // is converted to 'zur\FC ck' and redered as 'zurü ck'
+.footnote-backref:hover::after,
+.footnote-backref:focus::after {
+  content: ' zur\FC' 'ck';
+}

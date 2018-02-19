@@ -17,6 +17,7 @@
 @import '../assets/styles/fonts.scss';
 @import '../assets/styles/mixins.scss';
 @import '../assets/styles/base.scss';
+@import '../assets/styles/markdownit.scss';
 @import '../assets/styles/util.scss';
 @import '../assets/styles/layout.scss';
 @import '../assets/styles/transitions.scss';
@@ -26,7 +27,7 @@
 ** page transitions
 */
 .page-leave-active {
-  transition: all 0.5s ease-out;
+  transition: all 0.25s ease-out;
 }
 .page-enter-active {
   transition: all 0.5s ease-out;

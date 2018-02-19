@@ -1,11 +1,11 @@
-const config = require('./.contentful.json')
+const contentful = require('./.contentful.json')
 
 module.exports = {
   /*
   ** Headers of the page
   */
   head: {
-    title: 'mi-museum',
+    title: 'Microinteractions',
     meta: [
       {
         hid: 'description',
@@ -77,7 +77,7 @@ module.exports = {
         } else {
           setTimeout(() => {
             resolve({ x: 0, y: 0 })
-          }, 500)
+          }, 250)
         }
       })
     },
@@ -104,9 +104,9 @@ module.exports = {
     routes: ['/', '/about'], // these routes will be pre-rendered on "build"
   },
   env: {
-    CTF_SPACE_ID: config.CTF_SPACE_ID,
-    CTF_CDA_ACCESS_TOKEN: config.CTF_CDA_ACCESS_TOKEN,
-    CTF_BLOG_POST_TYPE_ID: config.CTF_BLOG_POST_TYPE_ID,
+    CTF_SPACE_ID: contentful.CTF_SPACE_ID,
+    CTF_CDA_ACCESS_TOKEN: contentful.CTF_CDA_ACCESS_TOKEN,
+    CTF_BLOG_POST_TYPE_ID: contentful.CTF_BLOG_POST_TYPE_ID,
   },
   /*
   ** Markdown-it
@@ -117,7 +117,7 @@ module.exports = {
     linkify: true, // Autoconvert URL-like text to links
     use: [
       'markdown-it-footnote',
-      'markdown-it-include',
+      //'markdown-it-include',
       'markdown-it-container',
       'markdown-it-attrs',
       ['markdown-it-implicit-figures', { figcaption: true }],
