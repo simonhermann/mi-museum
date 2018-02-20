@@ -1,4 +1,4 @@
-const contentful = require('./.contentful.json')
+//const contentful = require('./.contentful.json')
 
 module.exports = {
   /*
@@ -31,6 +31,10 @@ module.exports = {
           'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900,900i',
         rel: 'stylesheet',
       },
+      {
+        href: '/styles/vuetify.min.css',
+        rel: 'stylesheet',
+      },
     ],
     script: [
       { src: '/js/medium-zoom.min.js', defer: true },
@@ -38,10 +42,11 @@ module.exports = {
     ],
   },
   //css: ['assets/styles/main.scss'],
+  //css: ['node_modules/vuetify/dist/vuetify.min.css'],
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#E50134' },
+  loading: { color: '#1E8A08' },
   /*
   ** Build configuration
   */
@@ -66,13 +71,14 @@ module.exports = {
     //   }
     // },
     // vendor: ['vue-i18n'],
+    vendor: ['vuetify'],
   },
   router: {
     // middleware: 'mediumZoom',
     scrollBehavior: function(to, from, savedPosition) {
       // delay scrolling to top after page change to match fade-out time
       return new Promise((resolve, reject) => {
-        if (window.location.hash){
+        if (window.location.hash) {
           // do nothing if the link is a page-internal anchor
         } else {
           setTimeout(() => {
@@ -94,19 +100,18 @@ module.exports = {
   ** Plugins
   */
   plugins: [
-    '~/plugins/contentful.js',
-    '~/plugins/vue-js-modal.js',
+    //'~/plugins/contentful.js',
+    '~/plugins/vuetify.js',
     '~/plugins/global.js',
-    //'~/plugins/i18n.js',
     //{ src: '~/plugins/medium-zoom.min.js', ssr: false },
   ],
   generate: {
     routes: ['/', '/about'], // these routes will be pre-rendered on "build"
   },
   env: {
-    CTF_SPACE_ID: contentful.CTF_SPACE_ID,
-    CTF_CDA_ACCESS_TOKEN: contentful.CTF_CDA_ACCESS_TOKEN,
-    CTF_BLOG_POST_TYPE_ID: contentful.CTF_BLOG_POST_TYPE_ID,
+    // CTF_SPACE_ID: contentful.CTF_SPACE_ID,
+    // CTF_CDA_ACCESS_TOKEN: contentful.CTF_CDA_ACCESS_TOKEN,
+    // CTF_BLOG_POST_TYPE_ID: contentful.CTF_BLOG_POST_TYPE_ID,
   },
   /*
   ** Markdown-it
@@ -128,4 +133,3 @@ module.exports = {
     ],
   },
 }
-
