@@ -75,11 +75,14 @@
 ** Subnav / scrollactive
 */
 
-.subnav {
-  display: none;
+.nuxt-link-active ~ .subnav {
   @include mq-md {
     display: block;
   }
+}
+
+.subnav {
+  display: none;
 }
 
 .scrollactive-item.is-scroll-active {

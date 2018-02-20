@@ -1,16 +1,21 @@
 :root {
-  --red: #dd0000;
-  --red-dark: #440000;
-  --green: #269610;
-  --green-dark: #1e6d0f;
-  --grey-light: #f8f8f8;
-  --grey-dark: #424242;
+  // colors
+  --red: rgba(221, 0, 0, 1);
+  --red-dark: rgba(68, 0, 0, 1);
+  --green: rgb(30, 138, 8);
+  --green-dark: rgba(30, 109, 15, 1);
+  --grey-light: rgba(248, 248, 248, 1);
+  --grey-dark: rgba(66, 66, 66, 1);
 
+  // colors in use
   --color-highlight: var(--green-dark);
+
+  --color-headings: var(--grey-dark);
   --color-text: var(--grey-dark);
+  --color-link: var(--green-dark);
 
+  // other vars
   --shadow-btn: inset 0.2em 0.2em 0 0 hsla(0, 0%, 100%, 0.3);
-
   --font-size-small: 0.75rem;
 }
 
@@ -48,7 +53,7 @@ a:active,
 a:visited {
   text-decoration: none;
   color: currentColor;
-  color: var(--color-highlight);
+  color: var(--color-link);
   transition: all 0.1s ease-out;
 }
 a:hover {

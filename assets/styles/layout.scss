@@ -22,7 +22,7 @@
   grid-column: full;
   display: inherit;
   grid-template-columns: inherit;
-
+  min-height: 100vh;
 }
 .page > * {
   grid-column: content;
