@@ -28,7 +28,7 @@ module.exports = {
       //{ href: 'https://fonts.googleapis.com/css?family=Bitter:400,400i,700', rel: 'stylesheet' },
       {
         href:
-          'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900,900i',
+          'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900,900i|Material+Icons',
         rel: 'stylesheet',
       },
       {

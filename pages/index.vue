@@ -5,8 +5,6 @@
   </header>
 
   <!-- intro text -->
-
-  <v-btn color="success">Success</v-btn>
   
   <!-- cards with teaser to chapters -->
   <tile link="triggers" topline="Trigger" heading="Auslöser" text="Wie kommt die Interaktion zu Stande?"></tile>

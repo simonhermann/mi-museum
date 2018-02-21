@@ -12,7 +12,7 @@
 
   --color-headings: var(--grey-dark);
   --color-text: var(--grey-dark);
-  --color-link: var(--green-dark);
+  --color-link: var(--grey-dark);
 
   // other vars
   --shadow-btn: inset 0.2em 0.2em 0 0 hsla(0, 0%, 100%, 0.3);
@@ -44,6 +44,17 @@ body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-decoration-skip: ink;
+}
+
+noscript {
+  margin: 0 auto 1rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(182, 70, 70);
+  color: white;
+  font-weight: bold;
+  font-size: 0.7em;
 }
 
 a,

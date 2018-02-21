@@ -12,6 +12,9 @@
       <nuxt-link class="nav-link" to="/rules" exact>Regeln</nuxt-link>
     </li>
     <li class="nav-li">
+      <nuxt-link class="nav-link" to="/feedback" exact>Rückmeldung</nuxt-link>
+    </li>
+    <li class="nav-li">
       <nuxt-link class="nav-link" to="/loops-and-modes" exact>Schleifen und Modi</nuxt-link>
     </li>
     <li>
