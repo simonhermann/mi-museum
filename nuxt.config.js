@@ -31,10 +31,10 @@ module.exports = {
           'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900,900i|Material+Icons',
         rel: 'stylesheet',
       },
-      {
-        href: '/styles/vuetify.min.css',
-        rel: 'stylesheet',
-      },
+      // {
+      //   href: '/styles/vuetify.min.css',
+      //   rel: 'stylesheet',
+      // },
     ],
     script: [
       { src: '/js/medium-zoom.min.js', defer: true },
@@ -43,6 +43,7 @@ module.exports = {
   },
   //css: ['assets/styles/main.scss'],
   //css: ['node_modules/vuetify/dist/vuetify.min.css'],
+  css: ['assets/styles/vuetify-custom/main.styl'],
   /*
   ** Customize the progress bar color
   */
@@ -96,6 +97,9 @@ module.exports = {
     },
   },
   modules: ['@nuxtjs/markdownit'],
+  loaders: [
+    { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' }
+  ],
   /*
   ** Plugins
   */

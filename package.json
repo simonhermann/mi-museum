@@ -40,6 +40,8 @@
     "eslint-plugin-standard": "^3.0.1",
     "node-sass": "^4.7.2",
     "postcss": "^6.0.16",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^6.0.6",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
   }
 }

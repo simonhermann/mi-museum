@@ -5,7 +5,7 @@
   </header>
 
   <!-- intro text -->
-  
+
   <!-- cards with teaser to chapters -->
   <tile link="triggers" topline="Trigger" heading="Auslöser" text="Wie kommt die Interaktion zu Stande?"></tile>
 
