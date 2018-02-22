@@ -1,11 +1,9 @@
 <template>
 
-  <v-card>
-    <nuxt-link class="o-tile" :to="link" exact>
+  <v-card class="o-tile" :to="link" nuxt>
     <span class="o-tile__topline"> {{ topline }} </span>
     <h3 class="o-tile__heading"> {{ heading }} </h3>
     <p class="o-tile__text"> {{ text }} </p>
-    </nuxt-link>
   </v-card>
 
 </template>

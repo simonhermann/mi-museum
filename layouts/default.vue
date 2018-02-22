@@ -10,17 +10,19 @@
       </ul>
     </v-navigation-drawer>
 
-    <v-toolbar fixed scroll-off-screen app dense flat scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
+    <v-toolbar fixed scroll-off-screen app dense flat :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
       <v-toolbar-side-icon class="hidden-lg-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
-      <v-toolbar-title v-show="$vuetify.breakpoint.mdAndDown">Microinteractions</v-toolbar-title>
+      <v-toolbar-title v-show="$vuetify.breakpoint.mdAndDown">
+        <nuxt-link to="/">
+          Microinteractions
+        </nuxt-link>
+      </v-toolbar-title>
     </v-toolbar>
 
     <v-content>
       <v-container>
-        <noscript>
-          Please enable Javascript in your browser.
-        </noscript>
+        <noscript> Please enable Javascript in your browser. </noscript>
         <nuxt />
       </v-container>
     </v-content>
@@ -86,6 +88,7 @@ export default {
         { title: 'Regeln', to: '/rules' },
         { title: 'Rückmeldung', to: '/feedback' },
         { title: 'Schleifen und Modi', to: '/loops-and-modes' },
+        { title: 'Historie', to: '/history' },
         { title: '_article', to: '/article' },
         { title: '_scrap', to: '/scrapyard' },
         //{ title: 'about', to: '/about' },
