@@ -1,5 +1,5 @@
 <template>
-<main class="page page-scrapyard" role="main">
+<div class="page page-scrapyard">
   <header class="page-header">
     <h1 class="index-title">Museum of Microinteractions</h1>
   </header>
@@ -28,7 +28,7 @@
     </figure>
 
   
-</main>
+</div>
 </template>
 
 <style lang="scss">

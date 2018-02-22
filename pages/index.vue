@@ -1,5 +1,5 @@
 <template>
-<main class="page page-home" role="main">
+<div class="page page-home">
   <header class="page__header">
       <h1 class="page__title">Museum of Microinteractions</h1>
   </header>
@@ -12,7 +12,7 @@
   <!-- cards with teaser to MIs -->
   <tile link="#" topline="topline" heading="Buttons" text="the basic"></tile>
 
-</main>
+</div>
 </template>
 
 <style lang="scss">

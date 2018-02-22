@@ -10,7 +10,7 @@ module.exports = {
       {
         hid: 'description',
         name: 'description',
-        content: 'Museum of Microinteractions',
+        content: 'Microinteractions',
       },
       { charset: 'utf-8' },
       {

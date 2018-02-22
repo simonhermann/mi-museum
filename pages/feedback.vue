@@ -1,7 +1,7 @@
 <template>
-  <main class="page">
+  <div class="page">
     <div v-html=feedback01></div>
-  </main>
+  </div>
 </template>
 
 <script>

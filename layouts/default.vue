@@ -10,10 +10,10 @@
       </ul>
     </v-navigation-drawer>
 
-    <v-toolbar fixed scroll-off-screen app dense floating flat>
+    <v-toolbar fixed scroll-off-screen app dense flat scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
       <v-toolbar-side-icon class="hidden-lg-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
-      <v-toolbar-title>MI Museum</v-toolbar-title>
+      <v-toolbar-title v-show="$vuetify.breakpoint.mdAndDown">Microinteractions</v-toolbar-title>
     </v-toolbar>
 
     <v-content>
@@ -42,7 +42,7 @@
 
 .navigation-drawer{
   .nuxt-link-exact-active {
-    color: red;
+    text-decoration: underline;
   }
 } 
 </style>
@@ -80,7 +80,8 @@ export default {
     return {
       drawer: undefined,
       items: [
-        { title: 'Welcome', to: '/' },
+        { title: '_Home', to: '/' },
+        { title: 'Was sind Microinteractions?', to: '/intro' },
         { title: 'Auslöser', to: '/triggers' },
         { title: 'Regeln', to: '/rules' },
         { title: 'Rückmeldung', to: '/feedback' },

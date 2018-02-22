@@ -3,7 +3,7 @@
 <div>
 
   
-  <main class="page page-content" id="example-content">
+  <div class="page page-content" id="example-content">
   
   
     TODO: https://cloudfour.com/thinks/breaking-out-with-css-grid-layout/
@@ -91,7 +91,7 @@
       <p>Elements with the class <code>align-none</code> have no alignment and should appear as part of the normal content flow.</p>
       <p><em>Dummy text to have additional text to show:</em> Blind would equal while oh mr do style. Lain led and fact none. One preferred sportsmen resolving the happiness continued. High at of in loud rich true. Oh conveying do immediate acuteness in he. Equally welcome her set nothing has gravity whether parties. Fertile suppose shyness mr up pointed in staying on respect. </p>
     </div><!-- .entry-content -->
-  </main><!-- .page-content -->
+  </div><!-- .page-content -->
 
 </div>  
   </no-ssr>

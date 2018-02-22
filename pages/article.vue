@@ -1,6 +1,6 @@
 <template>
 
-<main class="page">
+<div class="page">
   <h1 class="post-title" id="markup-1">1 The Image Alignment Conundrum</h1>
     <p class="intro">The challenge seems simple on paper but hard in CSS: Without changing the HTML markup, allow for various alignments in a single view, including centered elements, floated elements, half-bleed elements, and full-bleed elements. It seems the best approach to half- and full-bleed is using CSS Grid, but that stands in the way of floats.</p>
     <p><em>Note: The classic solution of 1XX% width and negative left margin is not an option here. Assume we don't know the width of the outermost container and the solution has to be fluid and responsive when only the outermost container width changes.</em></p>
@@ -54,7 +54,7 @@
     <p>Elements with the class <code>align-none</code> have no alignment and should appear as part of the normal content flow.</p>
     <p><em>Dummy text to have additional text to show:</em> Blind would equal while oh mr do style. Lain led and fact none. One preferred sportsmen resolving the happiness continued. High at of in loud rich true. Oh conveying do immediate acuteness in he. Equally welcome her set nothing has gravity whether parties. Fertile suppose shyness mr up pointed in staying on respect. </p>
 
-</main><!-- .main-content -->
+</div><!-- .main-content -->
  
 </template>
 

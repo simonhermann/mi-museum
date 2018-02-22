@@ -8,86 +8,35 @@
   position: relative;
   max-width: 80vw;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: 
-    [full-start] minmax(1em, 1fr) 
-    [wide-start] minmax(0, 1fr)
-    [content-start] minmax(0, 40em) [content-end]
-    minmax(0, 1fr) [wide-end]
-    minmax(1em, 1fr) [full-end];
 }
 
 .page {
-  //margin: 0 auto;
-  grid-column: full;
-  display: inherit;
-  grid-template-columns: inherit;
-  min-height: 100vh;
-}
-.page > * {
-  grid-column: content;
-}
-.navigation {
+  margin-left: auto;
+  margin-right: auto;
   width: 100%;
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  z-index: 10;
-}
+  max-width: 50rem;
+  min-height: 100vh;
 
-@include grid {
-  @include mq-md {
-    .site {
-      display: grid;
-      grid-template-columns: 16.5em 1fr;
-      grid-template-rows: 1fr minmax(1em, auto);
-      grid-template-areas:
-        'navigation main'
-        'navigation sidebar'
-        'navigation footer';
-    }
-
-    .navigation {
-      grid-area: navigation;
-      position: relative;
-      bottom: unset;
-      left: unset;
-      //height: 100vh;
-      width: 100%;
-      overflow-y: auto;
-
-      .nav-ul {
-        position: fixed;
-      }
-    }
-
-    .page-wrapper {
-      grid-area: main;
-    }
-
-    .widget-area {
-      grid-area: sidebar;
-    }
-
-    .site-footer {
-      grid-area: footer;
-    }
+  p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 38rem;
   }
 
-  // @include mq-xl {
-  //   .site {
-  //     grid-template-columns: 16.5em 1fr 16.5em;
-  //     grid-template-rows: 1fr minmax(1em, auto);
-  //     grid-template-areas:
-  //       'navigation main sidebar'
-  //       'navigation footer footer';
-  //   }
-
-  //   .widget-area {
-  //     // border-left: 1px solid $color__grey_black;
-  //   }
-  // }
+  h1, h2, h3 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 42rem;
+  }
+  ul {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
 }
+
 
 /*
 ** figures and figcaptions

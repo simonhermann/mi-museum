@@ -1,8 +1,8 @@
 <template>
-  <main class="page">
+  <div class="page">
     <div v-html=rules01></div>
     <nextPage link="#" heading="Buttons"></nextPage>
-  </main>
+  </div>
 </template>
 
 <script>
