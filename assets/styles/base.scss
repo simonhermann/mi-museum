@@ -57,13 +57,8 @@ noscript {
   font-size: 0.7em;
 }
 
-a,
-a:hover,
-a:focus,
-a:active,
-a:visited {
+a {
   text-decoration: none;
-  color: currentColor;
   color: var(--color-link);
   transition: all 0.1s ease-out;
 }
@@ -72,14 +67,12 @@ a:hover {
   outline-offset: 3px;
 }
 a:focus {
-  filter: brightness(0.5);
   outline-style: dotted;
   outline-color: currentColor;
   outline-offset: 2px;
   outline-width: 1px;
 }
 a:active {
-  filter: brightness(0.875);
   outline-style: dotted;
   outline-color: currentColor;
   outline-offset: 2px;

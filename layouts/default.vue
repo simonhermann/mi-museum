@@ -1,27 +1,19 @@
 <template>
   <v-app>
-    <v-navigation-drawer
-      v-model="drawer"
-      fixed
-      app
-    >
-      <v-list>
-        <v-list-tile
-          router
-          :to="item.to"
-          :key="i"
-          v-for="(item, i) in items"
-          exact
-        >
-          <v-list-tile-content>
-            <v-list-tile-title v-text="item.title"></v-list-tile-title>
-          </v-list-tile-content>
-        </v-list-tile>
-      </v-list>
+    <v-navigation-drawer v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
+      <ul>
+        <li :key="i" v-for="(item, i) in items">
+          <nuxt-link :to="item.to">
+            {{ item.title }}
+          </nuxt-link>
+        </li>
+      </ul>
     </v-navigation-drawer>
-    <v-toolbar fixed app>
-      <!-- <v-button @click="drawer = !drawer">Menu</v-button> -->
-      <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
+
+    <v-toolbar fixed scroll-off-screen app dense floating flat>
+      <v-toolbar-side-icon class="hidden-lg-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
+      <v-spacer></v-spacer>
+      <v-toolbar-title>MI Museum</v-toolbar-title>
     </v-toolbar>
 
     <v-content>
@@ -47,14 +39,46 @@
 @import '../assets/styles/layout.scss';
 @import '../assets/styles/transitions.scss';
 @import '../assets/styles/objects/buttons.scss';
+
+.navigation-drawer{
+  .nuxt-link-exact-active {
+    color: red;
+  }
+} 
 </style>
 
 
 <script>
+/*
+Menu- und Seitenstruktur:
+- Über Microinteractions
+  - Vorwort / Intro zu Saffer
+  - Auslöser
+  - Regeln
+  - Rückmeldung
+  - Schleifen und Modi
+  - Historie
+  - Animationen
+
+
+- Anwendung im Designprozess
+  - Intro Anwendung
+  - Allgemeine MIs (+Erklärung was gemeint ist)
+    - Button
+    - ..
+
+  - Spezielle MIs (+Erklärung was gemeint ist)
+    - ..
+
+- Quellen
+- Über
+
+*/
+
 export default {
   data() {
     return {
-      drawer: true,
+      drawer: undefined,
       items: [
         { title: 'Welcome', to: '/' },
         { title: 'Auslöser', to: '/triggers' },
@@ -68,9 +92,7 @@ export default {
     }
   },
   head() {
-    return {
-      
-    }
+    return {}
   },
 }
 </script>
