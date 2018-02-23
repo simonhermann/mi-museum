@@ -2,3 +2,26 @@ $sm-width: 568px; /* 35.5em; */
 $md-width: 768px; /* 28em; */
 $lg-width: 1024px; /* 64em; */
 $xl-width: 1280px; /* 80em; */
+
+:root {
+  // colors
+  --red: rgba(221, 0, 0, 1);
+  --red-dark: rgba(68, 0, 0, 1);
+  --green: rgb(30, 138, 8);
+  --green-dark: rgba(30, 109, 15, 1);
+  --grey-light: rgba(248, 248, 248, 1);
+  --grey-mid: #777777;
+  --grey-dark: rgba(66, 66, 66, 1);
+
+  // colors in use
+  --color-highlight: var(--green-dark);
+
+  --color-headings: var(--grey-dark);
+  --color-text: var(--grey-dark);
+  --color-text-light: var(--grey-mid);
+  --color-link: var(--grey-dark);
+
+  // other vars
+  --shadow-btn: inset 0.2em 0.2em 0 0 hsla(0, 0%, 100%, 0.3);
+  --font-size-small: 0.75rem;
+}

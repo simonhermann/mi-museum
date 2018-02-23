@@ -4,11 +4,22 @@
 
 .footnotes-sep {
   margin-top: 3em;
-  color: rgb(90, 90, 90);
+  color: var(--color-text-light);
   border-style: dashed;
+  border-width: 1px;
+  opacity: 0.8;
 }
 .footnotes {
   font-size: var(--font-size-small);
+  color: var(--color-text-light);
+
+  ol {
+    padding: 0 0 0 1em;
+  }
+
+  p {
+    margin: 0;
+  }
 }
 
 .footnote-ref a {
