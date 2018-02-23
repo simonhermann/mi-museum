@@ -3,11 +3,8 @@
 
     <navdrawer></navdrawer>
 
-
-    
-
     <v-content>
-      <v-container grid-list-lg>
+      <v-container>
         <noscript> Please enable Javascript in your browser. </noscript>
         <nuxt />
       </v-container>

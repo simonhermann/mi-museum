@@ -8,14 +8,16 @@
   <!-- intro text -->
 
   <!-- cards with teaser to chapters -->
-  <section>
+  <v-container grid-list-md>
     <v-layout row wrap>
       <tile link="triggers" topline="Trigger" heading="Auslöser" text="Wie kommt die Interaktion zu Stande?"></tile>
       <tile link="#" topline="topline" heading="Buttons" text="the basic"></tile>
     </v-layout>
-  </section>
+  </v-container>
 
   <!-- cards with teaser to MIs -->
+
+  <!-- footer -->
 
 </div>
 </template>

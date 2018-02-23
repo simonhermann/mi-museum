@@ -1,11 +1,19 @@
 <template>
   <div>
     <v-navigation-drawer v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
-      <nuxt-link class="nav-homelink" to="/">
+     
+      <button type="button" class="btn btn--icon" @click="drawer = !drawer" style="margin-left:-1em">
+        <div class="btn__content">
+          <i aria-hidden="true" class="icon material-icons">chevron_left</i>
+        </div>
+      </button>
+
+
+     <nuxt-link class="nav-homelink" to="/">
         Microinteractions
       </nuxt-link>
 
-      <p>(lesen)</p>
+      <p><b>(lesen)</b></p>
       <ul class="nav-ul">
         <li class="nav-li" :key="i" v-for="(theoryPage, i) in theoryPages">
           <nuxt-link class="nav-link" :to="theoryPage.to">
@@ -14,7 +22,7 @@
         </li>
       </ul>
 
-      <p>(ausprobieren)</p>
+      <p><b>(ausprobieren)</b></p>
       <ul class="nav-ul">
         <li class="nav-li" :key="i" v-for="(practicePage, i) in practicePages">
           <nuxt-link class="nav-link" :to="practicePage.to">
@@ -26,7 +34,13 @@
 
     <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense flat :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp" color="transparent">
       <!-- <v-toolbar-side-icon class="hidden-lg-and-up" @click="drawer = !drawer"></v-toolbar-side-icon> -->
-      <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
+
+      <button type="button" class="toolbar__side-icon btn btn--icon" @click="drawer = !drawer" v-if="!drawer" style="position: relative;">
+        <div class="btn__content">
+          <i aria-hidden="true" class="icon material-icons">menu</i>
+        </div>
+      </button>
+
       <v-spacer></v-spacer>
       <!-- <v-toolbar-title v-show="$vuetify.breakpoint.mdAndDown">
         <nuxt-link to="/"> Microinteractions </nuxt-link>
@@ -38,7 +52,11 @@
 
 <style lang="scss">
 .navigation-drawer {
-  padding: 1em;
+  padding: 1em .5em 2em 2em;
+  background-color: transparent;
+  &--is-mobile{
+    background-color: #fff;
+  }
 
   .nav-homelink {
     display: block;
@@ -50,6 +68,7 @@
 
   .nav-ul {
     list-style: none;
+    line-height: 2em;
     .nuxt-link-active {
       text-decoration: underline;
     }
@@ -58,6 +77,9 @@
   .nuxt-link-exact-active {
     color: green;
   }
+}
+.toolbar {
+  margin-top: 1rem !important;
 }
 </style>
 

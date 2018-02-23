@@ -3,11 +3,16 @@
 */
 
 .footnotes-sep {
+  $border-color: #333;
   margin-top: 3em;
-  color: var(--color-text-light);
-  border-style: dashed;
+  height: 0.25em;
+  border-top-style: solid;
+  border-top-color: lighten($border-color, 20%);
+  border-bottom-style: dashed;
+  border-bottom-color: $border-color;
+  border-left: none;
+  border-right: none;
   border-width: 1px;
-  opacity: 0.8;
 }
 .footnotes {
   font-size: var(--font-size-small);
