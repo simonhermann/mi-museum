@@ -71,10 +71,13 @@ h4,
 h5 {
   line-height: 1;
   font-weight: 900;
+  display: inline-block;
   //font-family: 'Arbutus Slab', serif;
 }
 h1 {
   font-size: 2rem;
+  // color: #fff;
+  // background-color: var(--color-highlight);
 }
 h2 {
   font-size: 1.5rem;
@@ -103,7 +106,7 @@ textarea {
 }
 
 ::selection {
-  background: var(--color-highlight);
+  background-color: var(--color-highlight);
   color: #fff;
 }
 

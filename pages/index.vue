@@ -8,7 +8,7 @@
   <!-- intro text -->
 
   <!-- cards with teaser to chapters -->
-  <v-container grid-list-md>
+  <v-container style="padding: 0;" grid-list-md>
     <v-layout row wrap>
       <tile link="triggers" topline="Trigger" heading="Auslöser" text="Wie kommt die Interaktion zu Stande?"></tile>
       <tile link="#" topline="topline" heading="Buttons" text="the basic"></tile>

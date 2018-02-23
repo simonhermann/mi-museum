@@ -9,9 +9,11 @@
       </button>
 
 
-     <nuxt-link class="nav-homelink" to="/">
-        Microinteractions
-      </nuxt-link>
+      <header>
+        <nuxt-link class="nav-homelink" to="/">
+          Microinteractions
+        </nuxt-link>
+      </header>
 
       <p><b>(lesen)</b></p>
       <ul class="nav-ul">
@@ -54,16 +56,29 @@
 .navigation-drawer {
   padding: 1em .5em 2em 2em;
   background-color: transparent;
+  color: var(--color-text-light);
+
   &--is-mobile{
     background-color: #fff;
   }
 
   .nav-homelink {
-    display: block;
+    display: inline-block;
     margin-top: 10vh;
     font-weight: 900;
     letter-spacing: .05em;
     font-size: 1.25em;
+  }
+
+  .nav-link {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: all 0.5s ease-out;
+    color: inherit;
+  }
+  .nuxt-link-exact-active {
+    color: green;
+    text-decoration-color: currentColor;
   }
 
   .nav-ul {
@@ -74,9 +89,6 @@
     }
   }
 
-  .nuxt-link-exact-active {
-    color: green;
-  }
 }
 .toolbar {
   margin-top: 1rem !important;
