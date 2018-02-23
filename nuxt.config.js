@@ -43,7 +43,10 @@ module.exports = {
   },
   //css: ['assets/styles/main.scss'],
   //css: ['node_modules/vuetify/dist/vuetify.min.css'],
-  css: ['assets/styles/vuetify-custom/main.styl'],
+  css: [
+    'assets/styles/vuetify-custom/main.styl',
+    'assets/styles/main.scss'
+  ],
   /*
   ** Customize the progress bar color
   */
