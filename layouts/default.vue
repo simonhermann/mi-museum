@@ -7,7 +7,7 @@
     
 
     <v-content>
-      <v-container>
+      <v-container grid-list-lg>
         <noscript> Please enable Javascript in your browser. </noscript>
         <nuxt />
       </v-container>

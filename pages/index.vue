@@ -8,10 +8,14 @@
   <!-- intro text -->
 
   <!-- cards with teaser to chapters -->
-  <tile link="triggers" topline="Trigger" heading="Auslöser" text="Wie kommt die Interaktion zu Stande?"></tile>
+  <section>
+    <v-layout row wrap>
+      <tile link="triggers" topline="Trigger" heading="Auslöser" text="Wie kommt die Interaktion zu Stande?"></tile>
+      <tile link="#" topline="topline" heading="Buttons" text="the basic"></tile>
+    </v-layout>
+  </section>
 
   <!-- cards with teaser to MIs -->
-  <tile link="#" topline="topline" heading="Buttons" text="the basic"></tile>
 
 </div>
 </template>
@@ -21,7 +25,7 @@
 
 .page-home {
   &__title {
-    font-size: 2.8em;
+    font-size: 3em;
     margin: 20vh 0 .1em 0;
 
     @include mq-md{
@@ -30,7 +34,7 @@
   }
   &__subtitle{
     margin: 0 0 10vh 0;
-    font-size: 2em;
+    font-size: 1.5em;
     font-style: italic;
   }
 }

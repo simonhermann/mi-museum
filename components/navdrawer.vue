@@ -1,8 +1,8 @@
 <template>
   <div>
     <v-navigation-drawer v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
-      <nuxt-link to="/">
-        home
+      <nuxt-link class="nav-homelink" to="/">
+        Microinteractions
       </nuxt-link>
 
       <p>(lesen)</p>
@@ -29,9 +29,7 @@
       <v-toolbar-side-icon @click="drawer = !drawer"></v-toolbar-side-icon>
       <v-spacer></v-spacer>
       <!-- <v-toolbar-title v-show="$vuetify.breakpoint.mdAndDown">
-        <nuxt-link to="/">
-          microinteraction.design
-        </nuxt-link>
+        <nuxt-link to="/"> Microinteractions </nuxt-link>
       </v-toolbar-title> -->
     </v-toolbar>
 
@@ -41,25 +39,33 @@
 <style lang="scss">
 .navigation-drawer {
   padding: 1em;
-  .nav-ul{    
+
+  .nav-homelink {
+    display: block;
+    margin-top: 10vh;
+    font-weight: 900;
+    letter-spacing: .05em;
+    font-size: 1.25em;
+  }
+
+  .nav-ul {
     list-style: none;
     .nuxt-link-active {
       text-decoration: underline;
     }
   }
-  
+
   .nuxt-link-exact-active {
     color: green;
   }
 }
-
 </style>
 
 <script>
 export default {
   data() {
     return {
-      drawer: undefined,
+      drawer: undefined, // set to false in production
       theoryPages: [
         { title: 'Was sind Microinteractions?', to: '/intro' },
         { title: 'Auslöser', to: '/triggers' },
@@ -72,6 +78,17 @@ export default {
         //{ title: 'about', to: '/about' },
       ],
       practicePages: [
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/buttons' },
         { title: 'buttons', to: '/buttons' },
       ],
     }
@@ -103,4 +120,3 @@ Menu- und Seitenstruktur:
 
 */
 </script>
-
