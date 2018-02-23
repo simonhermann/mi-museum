@@ -102,7 +102,7 @@ var scrollLinkHandler = function(ev) {
     ev.preventDefault()
 
     if (location.hash !== this.hash)
-      window.history.pushState(null, null, this.hash)
+      //window.history.pushState(null, null, this.hash) // CHANGED BY ME
     // using the history api to solve issue #1 - back doesn't work
     // most browser don't update :target when the history api is used:
     // THIS IS A BUG FROM THE BROWSERS.
@@ -111,7 +111,7 @@ var scrollLinkHandler = function(ev) {
     if (!node) return // Do not scroll to non-existing node
 
     smoothScroll(node, 500, function(el) {
-      location.replace('#' + el.id)
+      //location.replace('#' + el.id) // CHANGED BY ME
       // this will cause the :target to be activated.
     })
   }
