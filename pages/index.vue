@@ -1,7 +1,8 @@
 <template>
 <div class="page page-home">
-  <header class="page__header">
-      <h1 class="page__title">Museum of Microinteractions</h1>
+  <header class="page-home__header">
+      <h1 class="page-home__title">Micro&shy;interactions</h1>
+      <p class="page-home__subtitle">Interaktives Museum, blababl und lasdunudvievnu eunvneuvn unevinevu ne </p>
   </header>
 
   <!-- intro text -->
@@ -16,9 +17,21 @@
 </template>
 
 <style lang="scss">
+@import './assets/styles/mixins.scss';
+
 .page-home {
-  .page__title {
-    font-size: 3em;
+  &__title {
+    font-size: 2.8em;
+    margin: 20vh 0 .1em 0;
+
+    @include mq-md{
+      font-size: 4em;
+    }
+  }
+  &__subtitle{
+    margin: 0 0 10vh 0;
+    font-size: 2em;
+    font-style: italic;
   }
 }
 </style>
@@ -38,7 +51,7 @@ export default {
   // html meta data for page
   head() {
     return {
-      title: 'Museum of Microinteractions',
+      title: 'Microinteractiondesign',
       meta: [
         {
           hid: 'description',

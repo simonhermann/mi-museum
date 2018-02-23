@@ -1,7 +1,12 @@
-$sm-width: 568px; /* 35.5em; */
-$md-width: 768px; /* 28em; */
-$lg-width: 1024px; /* 64em; */
-$xl-width: 1280px; /* 80em; */
+/*
+ * mixins for media queries
+ using same widths as vuetify
+*/
+
+$sm-width: 600px;
+$md-width: 960px;
+$lg-width: (1280px - 16px); // Desktop gets a 16dp reduction
+$xl-width: (1920px - 16px);
 
 @mixin grid {
   @supports (grid-area: auto) {
@@ -11,16 +16,11 @@ $xl-width: 1280px; /* 80em; */
 
 @mixin cf {
   &::after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
   }
 }
-
-/*
- * mixins for media queries
- using same widths as pure.css
-*/
 
 @mixin mq-sm {
   @media (min-width: #{$sm-width}) {

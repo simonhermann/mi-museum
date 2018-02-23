@@ -43,10 +43,7 @@ module.exports = {
   },
   //css: ['assets/styles/main.scss'],
   //css: ['node_modules/vuetify/dist/vuetify.min.css'],
-  css: [
-    'assets/styles/vuetify-custom/main.styl',
-    'assets/styles/main.scss'
-  ],
+  css: ['assets/styles/vuetify-custom/main.styl', 'assets/styles/main.scss'],
   /*
   ** Customize the progress bar color
   */
@@ -101,7 +98,7 @@ module.exports = {
   },
   modules: ['@nuxtjs/markdownit'],
   loaders: [
-    { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' }
+    { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' },
   ],
   /*
   ** Plugins

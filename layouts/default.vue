@@ -18,17 +18,15 @@
 
 <style lang="scss">
 
-
-
 </style>
 
 
 <script>
-import navdrawer from '~/components/navdrawer.vue';
+import navdrawer from '~/components/navdrawer.vue'
 
 export default {
   components: {
-    navdrawer
-  }
+    navdrawer,
+  },
 }
 </script>

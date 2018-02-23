@@ -40,7 +40,9 @@
 
 <style lang="scss">
 .navigation-drawer {
+  padding: 1em;
   .nav-ul{    
+    list-style: none;
     .nuxt-link-active {
       text-decoration: underline;
     }
