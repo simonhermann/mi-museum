@@ -47,7 +47,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#1E8A08' },
+  loading: '~/components/nuxtLoading.vue',
   /*
   ** Build configuration
   */

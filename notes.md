@@ -6,7 +6,10 @@
 - sollte menu drawer zu Beginn geöffnet sein?
 - dynamische Rahmenfarbe
 - Footer?
-- custom loading animation https://nuxtjs.org/api/configuration-loading/
+- custom loading animation 
+  https://nuxtjs.org/api/configuration-loading/
+  https://github.com/nuxt/nuxt.js/tree/dev/lib/app/views/loading
+- vuetify a-la-carte components
 
 - [ ] Meta desicription
 
