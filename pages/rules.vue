@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <div v-html=rules01></div>
-    <nextPage link="#" heading="Buttons"></nextPage>
+    <nextPage link="/feedback" heading="Rückmeldung"></nextPage>
   </div>
 </template>
 

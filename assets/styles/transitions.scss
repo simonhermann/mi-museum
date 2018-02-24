@@ -1,11 +1,12 @@
 /*
 * page transitions
 */
+
 .page-leave-active {
-  transition: all 0.25s ease-out;
+  transition: all 0.25s var(--transition-curve1);
 }
 .page-enter-active {
-  transition: all 0.5s ease-out;
+  transition: all 0.5s var(--transition-curve1);
 }
 .page-enter{
   opacity: 0;
@@ -13,20 +14,5 @@
 }
 .page-leave-to {
   opacity: 0;
-  //transform: translate(0, 10%);
-  // transform: scale(0.95);
-  //transform-origin: 50% 50%;
 }
 
-/*
-* nuxt loading
-*/
-
-// .nuxt-progress {
-//     top: 0px;
-//     left: 0px;
-//     right: 0px;
-//     height: calc(var(--body-border-width, 4px) + .3vw) !important;
-//     // height: 100vh !important;
-//     width: 0%;
-// }

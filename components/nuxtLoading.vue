@@ -18,7 +18,7 @@ export default {
       duration: '.5s',
       height: '0%',
       width: '100vw',
-      color: '#78b86a',
+      color: 'rgba(192, 192, 192, 0.5)',
       failedColor: 'darkred',
     }
   },
@@ -97,7 +97,7 @@ export default {
   width: 100vw;
   transition: height 1s, opacity 0.4s;
   opacity: 1;
-  background-color: #78b86a;
+  background-color: rgba(192, 192, 192, 0.5);
   /* background-color: red; */
   z-index: -1;
 }
