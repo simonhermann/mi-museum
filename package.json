@@ -26,7 +26,7 @@
     "nuxt": "^1.0.0",
     "vue-affix": "^0.2.4",
     "vue-scrollactive": "^0.5.3",
-    "vuetify": "^1.0.2"
+    "vuetify": "^1.0.5"
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
