@@ -2,25 +2,27 @@
 
 ## TODO:
 
-- einteilung MIs zusätzlich in Trigger/Rules/usw
-- sollte menu drawer zu Beginn geöffnet sein?
-- dynamische Rahmenfarbe
-- Footer?
-- custom loading animation 
-  https://nuxtjs.org/api/configuration-loading/
-  https://github.com/nuxt/nuxt.js/tree/dev/lib/app/views/loading
-- vuetify a-la-carte components
+- [ ] Konzept f. Darstellung MIs
+- [ ] Timeline?
+- [ ] text content
+- [ ] einteilung MIs zusätzlich in Trigger/Rules/usw
+
+- [ ] sollte menu drawer zu Beginn geöffnet sein?
+- [ ] prev + next links
+- [ ] dynamische Rahmenfarbe
+- [ ] Layout für Bilder in Text
+- [ ] Impressum
+- [ ] Footer? 
+- [ ] favicon
+- [ ] vuetify a-la-carte components
+- [ ] update vuetify to enable deactivation of theme
 
 - [ ] Meta desicription
 
 -----
 Done/not now:
 
-- [ ] contentful environments / set env in netlify
-      https://www.contentful.com/developers/docs/concepts/multiple-environments/
-      https://github.com/stefanjudis/stefan-judis-website/blob/master/plugins/contentful.js
-- [ ] https://www.contentful.com/blog/2018/01/23/how-to-write-reusable-sane-api-based-components/
-- [ ] netlifycms?
+- [x]custom loading animation 
 - [x] Image Zoom
     - https://github.com/francoischalifour/medium-zoom
     - https://www.npmjs.com/package/vue-image-zoom
@@ -28,6 +30,11 @@ Done/not now:
     - https://codepen.io/ktsn/pen/GMxwrm
 
 
+- [ ] contentful environments / set env in netlify
+      https://www.contentful.com/developers/docs/concepts/multiple-environments/
+      https://github.com/stefanjudis/stefan-judis-website/blob/master/plugins/contentful.js
+- [ ] https://www.contentful.com/blog/2018/01/23/how-to-write-reusable-sane-api-based-components/
+- [ ] netlifycms?
 
 
 
@@ -130,23 +137,4 @@ Promise.reject   // failed promise
 // --------------------------------------------------
 
 
-
-## Build Setup
-
-``` bash
-# install dependencies
-$ npm install # Or yarn install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm start
-
-# generate static project
-$ npm run generate
-```
-
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 

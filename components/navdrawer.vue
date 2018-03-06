@@ -54,11 +54,17 @@
 
 <style lang="scss">
 .navigation-drawer {
-  padding: 1em .5em 2em 2em;
+  padding: 1em 0.5em 2em 2em;
   background-color: transparent;
   color: var(--color-text-light);
 
-  &--is-mobile{
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  &--is-mobile {
     background-color: #fff;
   }
 
@@ -66,7 +72,7 @@
     display: inline-block;
     margin-top: 10vh;
     font-weight: 900;
-    letter-spacing: .05em;
+    letter-spacing: 0.05em;
     font-size: 1.25em;
   }
 
@@ -88,7 +94,6 @@
       text-decoration: underline;
     }
   }
-
 }
 .toolbar {
   margin-top: 1rem !important;
