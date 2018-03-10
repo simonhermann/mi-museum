@@ -35,7 +35,6 @@
     </v-navigation-drawer>
 
     <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense flat :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp" color="transparent">
-      <!-- <v-toolbar-side-icon class="hidden-lg-and-up" @click="drawer = !drawer"></v-toolbar-side-icon> -->
 
       <button type="button" class="toolbar__side-icon btn btn--icon" @click="drawer = !drawer" v-if="!drawer" style="position: relative;">
         <div class="btn__content">
@@ -43,16 +42,14 @@
         </div>
       </button>
 
-      <v-spacer></v-spacer>
-      <!-- <v-toolbar-title v-show="$vuetify.breakpoint.mdAndDown">
-        <nuxt-link to="/"> Microinteractions </nuxt-link>
-      </v-toolbar-title> -->
     </v-toolbar>
 
   </div>
 </template>
 
 <style lang="scss">
+@import '../assets/styles/vars.scss';
+
 .navigation-drawer {
   padding: 1em 0.5em 2em 2em;
   background-color: transparent;
@@ -75,6 +72,9 @@
     font-weight: 900;
     letter-spacing: 0.05em;
     font-size: 1.25em;
+    &.nuxt-link-exact-active {
+      color: var(--color-highlight);
+    }
   }
 
   .nav-link {
@@ -84,14 +84,14 @@
     color: inherit;
   }
   .nuxt-link-exact-active {
-    color: green;
-    text-decoration-color: currentColor;
   }
 
   .nav-ul {
     list-style: none;
     line-height: 2em;
-    .nuxt-link-active {
+    .nuxt-link-exact-active {
+      color: var(--color-highlight);
+      text-decoration-color: currentColor;
       text-decoration: underline;
     }
   }
@@ -107,7 +107,11 @@ export default {
     return {
       drawer: undefined, // set to false in production
       theoryPages: [
-        { title: 'Was sind Microinteractions?', to: '/what-are-microinteractions' },
+        { title: 'Vorwort', to: '/preface' },
+        {
+          title: 'Was sind Microinteractions?',
+          to: '/what-are-microinteractions',
+        },
         { title: 'Auslöser', to: '/triggers' },
         { title: 'Regeln', to: '/rules' },
         { title: 'Rückmeldung', to: '/feedback' },

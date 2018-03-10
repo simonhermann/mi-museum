@@ -132,7 +132,7 @@ module.exports = {
       ['markdown-it-implicit-figures', { figcaption: true }],
       'markdown-it-mark',
       'markdown-it-smartarrows',
-      ['markdown-it-container', 'spoiler'], // makes container .spoiler available
+      ['markdown-it-container', 'standout'], // makes container .standout available
       //'markdown-it-hashmention',
     ],
   },

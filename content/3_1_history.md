@@ -3,11 +3,11 @@
 Die Geschichte der Mensch-Maschine-Interaktion ist tatsächlich die Geschichte der Mikro-Interaktionen, da sich diese über viele Jahrzehnte erhalten und weiterentwickelt haben. Auch heute selbstversändliche, grundlegende Dinge wie XXXX wurden irgendwann erfunden.
 
 
-Die Evolution der Mensch-Computer-Interaktion kann nach Andries van Damm in vier Hauptphasen eingeteilt werden [@vanDam97], [@vanDam2001].
+Die Evolution der Mensch-Computer-Interaktion kann nach Andries van Damm in vier Hauptphasen eingeteilt werden ^[@vanDam97] ^[@vanDam2001].
 In der ersten Phase, den 1950er und 60er Jahren, werden Computer im *batch*-Modus bedient. Mit Hilfe von Lochkarten werden Befehle stapelweise nacheinander verarbeitet.
-Die zweite Phase, in den 60er bis 80er Jahren, ist dominiert durch die *Kommandozeile* [^Glossar]; Befehle werden in textform in über ein CLI (Command Line Interface) eingegeben.
+Die zweite Phase, in den 60er bis 80er Jahren, ist dominiert durch die *Kommandozeile* ^[Glossar]; Befehle werden in textform in über ein CLI (Command Line Interface) eingegeben.
 Die bis heute andauernde dritte Phase beginnt in den 70er Jahren mit der Erfindung der Computermaus und den ersten grafischen Benutzeroberflächen. Metaphern wie *Desktop* bzw. *Schreibtisch* und (Programm-)Fenster machen Computer massentauglich.
-Die vierte Phase steckt noch in den Anfängen, doch Spracherkennung, Gestenkontrolle und Künstliche Intelligenz sollen hier die Nutzung allerhand "smarter" Geräte vereinfachen. [@prove]
+Die vierte Phase steckt noch in den Anfängen, doch Spracherkennung, Gestenkontrolle und Künstliche Intelligenz sollen hier die Nutzung allerhand "smarter" Geräte vereinfachen. ^[@prove]
 
 Die geschichtliche Betrachtung soll Einblicke ermöglichen, warum bestimmte Interaktionen so erfolgreich sind, dass sie die letzten Jahrzehnte trotz enormem technischem Fortschritt überdauert haben und wie sich diese weiterentwickelt haben.
 
@@ -35,7 +35,7 @@ Auch in Deutschland wird das System weiterentwickelt, in Berlin entsteht die *Ho
 [https://youtu.be/2_73R_MrDIQ, 07.09.17]
 [https://youtu.be/aUXnhVrT4CI]
 
-Der nächste herausragende Schritt war die Entwicklung des ersten elektronischen Rechenmaschinen von Konrad Zuse in den 1940ern. Diese basierten im Gegensatz zu ihren Vorgängern, welche weitgehend mechanisch arbeiteten, ausschließlich auf elektromechanischen *Relais*[Glossar].
+Der nächste herausragende Schritt war die Entwicklung des ersten elektronischen Rechenmaschinen von Konrad Zuse in den 1940ern. Diese basierten im Gegensatz zu ihren Vorgängern, welche weitgehend mechanisch arbeiteten, ausschließlich auf elektromechanischen *Relais*.
 Die *Schreibende Tabelliermaschine* wurde programmiert, in dem Stifte in eine eingebaute Schalttafel gesteckt wurden. Je nach Position der Stifte produzierte das System ein anderes Ergebnis und druckt diese aus.
 
 Andere frühe Rechenmaschinen wie der von der US-Armee entwickelte *ENIAC* wurden hauptsächlich durch das Umstecken zahlreicher Kabel und verstellen hunderter, direkt auf dem Schaltungsaufbau angebrachter Kippschalter bedient. Für jede neue Aufgabe musste die Maschine neu "verdrahtet" werden und war dafür für viele Stunden oder Tage außer Betrieb. Nachfolgede Entwicklungen nahmen sich dieses Problemes an, in dem sie Arbeitsbefehlte zusammen mit den Daten im Speicher ablegten.
@@ -47,14 +47,14 @@ Auch abgesehen davon war die Bedienung aus heutiger Sicht sehr komplex und erfor
 Als erster Computer, dessen Ziel eine – für damalige Verhältnisse – einfache Benutzung war, wurde ende der 1940er vom Engländer Maurice Wilkes vorgestellt. Das *EDVAC* genannte System überzeigte zahlreiche Universitäten von der Nützlichkeit der Rechenmaschinen und sorgte dafür, dass Computer mehr und mehr zu Forschungszwecken eingesetzt wurden.
 
 
-Elektromechanische Relais wurden zunächst durch Elektronenröhren [--> Glossar] und später durch Transistoren [--> Glossar] ersetzt, was die Geschwindigkeit von Computern ums milliardenfache steigerte. Die technische Grundprinzip ist jedoch bei heutigen Computern noch immer das Selbe ("Von-Neumann-Architektur").
+Elektromechanische Relais wurden zunächst durch Elektronenröhren [--> Glossar] und später durch Transistoren ersetzt, was die Geschwindigkeit von Computern ums milliardenfache steigerte. Die technische Grundprinzip ist jedoch bei heutigen Computern noch immer das Selbe ("Von-Neumann-Architektur").
 Von den damals gängigen Fernschreibern wurden Tastatureinheit, welche weitgehend einer Schreibmaschine entsprach, und Druckwerk mit Papierrolle übernommen. Zwischen 1950er und 1970er Jahren blieb dies die günstigste Methode der Datenausgabe von Rechnern.
 Der Fernschreiber wurde wie eine Schreibmaschine bedient, wobei beispielsweise durch Farbliche hervorhebung der gesendete vom Empfangenen Text unterschieden werden konnte.
 Kathodenstrahlröhren ersetzen in den frühen 60ern das Druckwerk, und dienten als "virtuelles Papier".
 [http://www.teleprinter.net/german/index.html]
 [https://www.pcworld.com/article/209224/displays/historic-monitors-slideshow.html]
-Diese Röhrenbildschirme wurden auch an Computer angeschlossen, und ermöglichten eine flexiblere Ausgabe als die vielfach verwendeten Indikationsleuchten, die jeweils nur den Status eines einzigen Elements anzeigen konnten. Bei frühen Vertretern dieser Computer mit Bildschirm wie dem IBM "SAGE"[https://youtu.be/_qq-SX9KEkw] oder der "PDP-1"[https://youtu.be/1EWQYAfuMYw] wurde dieser eher zur Anzeige spezieller Ergebnisse, als zur Rückmeldung von Status genutzt.
-Beim militärisch eingesetzten SAGE konnte eine spezielle Lichtpistole direkt auf den Bildschirm gerichtet werden, um eine Stelle auf der angezeigten Landkarte zu markieren [https://youtu.be/U1Oy4X5Ni8Y?t=2m29s] – der Vorgänger der später in Spielkonsolen eingesetzten "Lightguns".
+Diese Röhrenbildschirme wurden auch an Computer angeschlossen, und ermöglichten eine flexiblere Ausgabe als die vielfach verwendeten Indikationsleuchten, die jeweils nur den Status eines einzigen Elements anzeigen konnten. Bei frühen Vertretern dieser Computer mit Bildschirm wie dem IBM "SAGE"^[https://youtu.be/_qq-SX9KEkw] oder der "PDP-1"^[https://youtu.be/1EWQYAfuMYw] wurde dieser eher zur Anzeige spezieller Ergebnisse, als zur Rückmeldung von Status genutzt.
+Beim militärisch eingesetzten SAGE konnte eine spezielle Lichtpistole direkt auf den Bildschirm gerichtet werden, um eine Stelle auf der angezeigten Landkarte zu markieren ^[https://youtu.be/U1Oy4X5Ni8Y?t=2m29s] – der Vorgänger der später in Spielkonsolen eingesetzten "Lightguns".
 Auf dem PDP-1 wurde am Massachusetts Institute of Technology (MIT) eines der ersten der Unterhaltung dienende Programm entwickelt. "Spacewar!" XXXX
 OXO: erstes grafisches Computerspiel
 
@@ -72,7 +72,9 @@ Beispielsweise werden mit dem Befehl `ls` unter UNIX-Systemen die Inhalte des mo
 
 Befehle sind nicht auswählbar, sondern müssen eingegeben werden. Die Nutzung dieser "versteckten" Funktionen erfordert also, dass der Nutzer diesen bereits kennt.
 
-> Ein (--> Modus XXXX) Modus ist ein Status eines Programmes, in dem Befehle in dessen Kontext ausgeführt werden. Bekanntestes Beispiel ist die *Shift*-Taste, die schon bei Schreibmaschinen zum Einsatz kam, und typischerweise den Modus von *Kleinschreibung* zu *Großschreibung* wechselt.
+::: standout
+Ein [Modus](/loops-and-modes) ist ein Status eines Programmes, in dem Befehle in dessen Kontext ausgeführt werden. Bekanntestes Beispiel ist die <kbd>Shift</kbd>-Taste, die schon bei Schreibmaschinen zum Einsatz kam, und typischerweise den Modus von *Kleinschreibung* zu *Großschreibung* wechselt.
+:::
 
 Unter Nutzerfreundlichkeit wird heute oft verstanden als Bedienkonzept, bei dem der Nutzer möglichst wenig nachdenken muss. Wer dem Kunden erst etwas beibringen muss, macht etwas falsch.
 Doch es kommt darauf an, die Nutzer und deren Arbeitsweise zu kennen, und die art Bedienung entsprechend zu entwickeln. Meist wird man einen Kompromiss zwischen Präzision und Geschwindigkeit auf der einen Seite und Übersichtlichkeit und Erlernbarkeit auf der anderen Seite eingehen müssen.
@@ -97,7 +99,9 @@ Auch wenn sich Micro-Interaktionen nicht auf Nutzung von grafischen Benutzerober
 Die Metapher des virtuellen Schreibtisches dirigiert jetzt den den Aufbau der Benutzeroberflächen: Daten werden als "Dokumente" gespeichert und in "Ordnern" abgelegt. Ordner können "geöffnet" und Dokumente "verschoben" werden. Dokumente können gelöscht werden, in dem sie in den "Papierkorb" gelegt werden und verbleiben dort, bis dieser "entleert" wird.
 Aus der physischen Welt entlehnte Bezeichnungen und Ikonografie erzeugen bei Nutzern ein Gefühl von Bekanntheit. Die Regeln, wie ein Computer zu benutzen ist, sind stark an die bereits bekannten Regeln der Realwelt angelehnt. Erst durch diese Parallelen zur bereits Bekanntem, konnte eine Intuitivität erzeugt werden, die den Siegeszug des Computers als Alltagsobjekt herbeigeführt hat.
 
->Tipp: Bei der Definition von Regeln für Mikro-Interaktionen sollte möglichst auf dem Nutzer bereits bekannte Regeln zurückgegriffen werden.
+::: standout
+Tipp: Bei der Definition von Regeln für Mikro-Interaktionen sollte möglichst auf dem Nutzer bereits bekannte Regeln zurückgegriffen werden.
+:::
 
 
 
@@ -140,7 +144,7 @@ Außerdem involviert in erste Netzwerktechnik, Hypertext, Videokonferenzen und E
 
 Am 9. Dezember 1968 zeigte Engelbart in einer Vorführung, die als "The Mother of all Demos" in die Geschichte eingehen sollte, die Ergebnsse der Arbeit seines Projektteams. Die einflussreichste Neuerung war die Erfindung der Computermaus, daneben wurden jedoch auch revolutionäre Konzepte der Textbearbeitung und XXX vorgeführt. Vor etwa eintausend Computerspezialisten zeigten Engelbart und sein Team, was damals als Sensation aufgefasst wurde. 
 Der erste Teil der Demonstration befasst sich mit diversen Möglichkeiten, Texte zu bearbeiten; darunter Methoden, Textbausteine zu kopieren und zu verschieben, Listen neu zu ordnen und verschachtelte Listen zu erstellen. XXXX. 
-Anhand der als Beispiel erdachten Einkaufsliste zeigt er, wie Verlinkungen (-->Hyperlinks) innerhalb des Dokuments erstellt werden können, und wie mit Hilfe dieser Grafiken und Text verknüpfen lassen. Er demonstriert die Erstellung von verknüpften "Ansichtsketten" und veranschaulicht das Erstellen von Links die das "Springen" zwischen verschiedenen Ansichten ermöglichen. Ziel dieses NLS (oNline system) genannten Systems war es, die Handhabung (heute auch "User Experience") von komplexen Informationsstrukturen zu vereinfachen. Die verzweigte Struktur des Inhalts wird erstmals nicht linear, sondern dem menschlichen Denken nachempfunden "Netzartig" (XXX?) aufgebaut. Das NLS gilt als einer der wichtigsten Vorfahren des heutigen Internets.
+Anhand der als Beispiel erdachten Einkaufsliste zeigt er, wie Verlinkungen (-->Hyperlinks) innerhalb des Dokuments erstellt werden können, und wie mit Hilfe dieser Grafiken und Text verknüpfen lassen. Er demonstriert die Erstellung von verknüpften "Ansichtsketten" und veranschaulicht das Erstellen von Links die das "Springen" zwischen verschiedenen Ansichten ermöglichen. Ziel dieses NLS (oNline system) genannten Systems war es, die Handhabung (heute auch "User Experience") von komplexen Informationsstrukturen zu vereinfachen. Die verzweigte Struktur des Inhalts wird erstmals nicht linear, sondern dem menschlichen Denken nachempfunden und *netzartig* aufgebaut. Das NLS gilt als einer der wichtigsten Vorfahren des heutigen Internets.
 - easy to compose, study, modify
 Im zweiten Teil der Vorführung zeigt Engelbart die genutzen Eingabegeräte: Die neuartige "Maus" als Zeigegerät, ein spiezielles Gerät mit fünf Tasten (Chording-Tastatur) und eine damals übliche Computertastatur mit 61 Tasten.
 
@@ -163,9 +167,7 @@ https://heise.de/-187657
 
 
 > "I tried a mouse, it was too hard to use and it never worked." It was alomst 20 years after it was invented before it startet to roll.
->> Engelbart zitiert die Rezensionen der ersten Entwürfe für die Maus
-
-http://dougengelbart.org/
+> <cite> Engelbart zitiert die Rezensionen der ersten Entwürfe für die Maus ^[http://dougengelbart.org/]</cite>
 
 > Bild: Engelbarts Maus
 http://dougengelbart.org/firsts/mouse.html
@@ -176,7 +178,7 @@ Ohne die "Mother of all demos" und die Begeisterung, die diese ausgelöst hat, w
 Seine arbeit machte Computer interaktive, vernetzt, grafisch und persönlich.
 
 > "It's the next thing after acid"
->> LSD-Aktivist Ken Kesey kommentiert die "Mother of all Demos"
+> <cite>LSD-Aktivist Ken Kesey kommentiert die "Mother of all Demos"</cite>
 
 
 
@@ -194,14 +196,13 @@ Das Layoutprogramm *Bravo* hingegen unterscheidet sich deutlich von seinen Nachf
 Nachdem eine Zeile Text eingegeben wurde, muss diese mit der Escape-Taste bestätigt und ausgewählt werden. Nun kann die Formatierung eines Textes geändert werden, indem mit der Taste `l` der "Look"-Modus aufgerufen wird. Anschließend wird der Text mit beispielsweise mit der Taste `i` in Kursivtext umgewandelt.
 Um vorhandenen Text zu editieren, musste dieser mit Hilfe der Maus ausgewählt werden. Im "Command"-Modus konnte dieser anschließend beispielsweise mit mit der Taste `R` ersetzt werden oder mit `D` gelöscht werden.
 Um Text zu kopieren und einzufügen, musste zuerst das Ziel mit der Maus ausgewählt werden, dann mit `i` in den "insert"-Modus gewechselt werden. Nun konnte mit der Maus die zu kopierende Quelle innerhalb des Dokumentes ausgewählt und der Vorgang mit `Escape` bestätigt werden.
-Mit Hilfe der Maus konnte zwar Text markiert (--> XXXX) werden, jedoch gab es keinerlei grafisches Menü. Bei der Nutzung von Bravo musste man daher stets das Handbuch verfügbar haben oder die Tastaturbefehle auswendig kennen.
-[https://youtu.be/OKakermaQ68?t=10m30s] [@Smith99]
+Mit Hilfe der Maus konnte zwar Text markiert (--> XXXX) werden, jedoch gab es keinerlei grafisches Menü. Bei der Nutzung von Bravo musste man daher stets das Handbuch verfügbar haben oder die Tastaturbefehle auswendig kennen. ^[https://youtu.be/OKakermaQ68?t=10m30s] ^[@Smith99]
 
 
 > [http://bitsavers.trailing-edge.com/pdf/xerox/alto/Alto_Users_Handbook_Sep79.pdf - S. 69]
-> Bild: Auszug aus dem Handbuch zu Bravo, auch dieses könnte intuitiver gestaltet sein.
+> Bild: Auszug aus dem Handbuch zu Bravo (auch dieses könnte intuitiver gestaltet sein)
 
-Nachfolger von Bravo wird 1975 *Gypsy*. Dieses bot einen ähnlichen Funktionsumfang wie sein Vorgänger, jedoch eine vollkommen andere Benutzeroberfläche. Diese basierte nicht mehr auf Modi, sondern wurde komlett per GUI bedient. Sein Erfinder Larry Tesler war geradezu versessen darauf, die Modi loszuwerden, wie seine Website http://nomodes.com, sein Twitter-Account *@nomodes* und die Beschriftung seines Nummernschildes *NOMODES* (bit.ly/11KzyKV) beweisen. Wenn die Taste eines Buchstabens gedrückt wurde, sollte dieser auch im Dokument erscheinen.
+Nachfolger von Bravo wird 1975 *Gypsy*. Dieses bot einen ähnlichen Funktionsumfang wie sein Vorgänger, jedoch eine vollkommen andere Benutzeroberfläche. Diese basierte nicht mehr auf Modi, sondern wurde komlett per GUI bedient. Sein Erfinder Larry Tesler war geradezu versessen darauf, die Modi loszuwerden, wie seine Website http://nomodes.com, sein Twitter-Account *@nomodes* und die Beschriftung seines Nummernschildes *NOMODES* ^[bit.ly/11KzyKV] beweisen. Wenn die Taste eines Buchstabens gedrückt wurde, sollte dieser auch im Dokument erscheinen.
 Auch das Einfügen oder Ersetzen von Text wurde deutlich intuitiver und entsprach in etwa heutigen Textverarbeitungsprogrammen: Mit der Maus wird einfach an die stelle geklickt, an der Text hinzugefügt werden soll. 
 Um Text in Bravo zu selektieren, klickte auf der Benutzer in der Regel das erste und das letzte Zeichen, jeweils mit einer anderen Maustaste. In Gypsy konnte Text nun einfach ausgewählt werden, in dem der Cursor mit gedrückter Maustaste über den zu markierenden Text gezogen wurde. Außerdem konnte komfortabel ein Wort per Doppelklick, selektiert werden. Formatierungen wie Fett, Kursiv oder Unterstrichen wurden mit den Tastenkürzeln `Control + b / i / u` vorgenommen. Auch die Kopierfunktion entsprach nun weitgehend heutigen Gewohnheiten und bestand aus einem *Kopieren-* und einem *Einfügen*-Befehl. 
 Damit sich Nutzer weniger merken mussten, waren viele Funktionen außerdem über ein klickbares Menü zu erreichen. Weniger Modi bedeuteten weniger Unklarheiten darüber, in welchem Modus sich das System befand und welchen Effekt ein bestimmter Tastendruck haben würde.

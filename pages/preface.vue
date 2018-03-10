@@ -1,12 +1,12 @@
 <template>
   <div class="page">
     <html-parser :content=text01></html-parser>
-    <nextPage link="/triggers" heading="Auslöser"></nextPage>
+    <nextPage link="/what-are-microinteractions" heading="Was sind Microinteractions?" nextText="Los geht's:"></nextPage>
   </div>
 </template>
 
 <script>
-import text01 from '~/content/2_0_intro.md'
+import text01 from '~/content/1_2_vorwort.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
 export default {
@@ -20,7 +20,7 @@ export default {
   },
   head() {
     return {
-      title: "Was sind Microinteractions?",
+      title: "Vorwort - Microinteractions",
     }
   },
 }

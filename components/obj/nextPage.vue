@@ -10,6 +10,8 @@
 
 <style lang="scss" scoped>
 .o-next-page {
+  display: inline-block;
+  margin-top: 4em;
   width: 100%;
   height: 5em;
   box-sizing: border-box;
@@ -35,7 +37,7 @@ export default {
     nextText: {
       type: String,
       required: false,
-      default: 'Nächstes Kapitel:'
+      default: 'Nächstes Kapitel:',
     },
     link: {
       type: String,
