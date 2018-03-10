@@ -1,16 +1,20 @@
 <template>
   <div class="page">
-    <div v-html=feedback01></div>
+    <html-parser :content=text01></html-parser>
   </div>
 </template>
 
 <script>
-import feedback_md from '~/content/2_3_feedback.md'
+import text01 from '~/content/2_3_feedback.md'
+import HtmlParser from '~/components/HtmlParser.vue';
 export default {
   computed: {
-    feedback01() {
-      return feedback_md
+    text01() {
+      return text01
     },
+  },
+  components: {
+    HtmlParser
   },
   head() {
     return {

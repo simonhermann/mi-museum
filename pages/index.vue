@@ -2,10 +2,15 @@
 <div class="page page-home">
   <header class="page-home__header">
       <h1 class="page-home__title">Micro&shy;interactions</h1>
-      <p class="page-home__subtitle">Interaktives Museum, blababl und lasdunudvievnu eunvneuvn unevinevu ne </p>
+      <p class="page-home__subtitle">Interaktives Museum, Best Practices, blababl und lasdunudvievnu eunvneuvn unevinevu ne </p>
   </header>
 
   <!-- intro text -->
+  <html-parser :content=text01></html-parser>
+
+    
+  <div style="height:4em;"></div>
+
 
   <!-- cards with teaser to chapters -->
   <v-container style="padding: 0;" grid-list-md>
@@ -28,13 +33,13 @@
 .page-home {
   &__title {
     font-size: 3em;
-    margin: 20vh 0 .1em 0;
+    margin: 20vh 0 0.1em 0;
 
-    @include mq-md{
+    @include mq-md {
       font-size: 4em;
     }
   }
-  &__subtitle{
+  &__subtitle {
     margin: 0 0 10vh 0;
     font-size: 1.5em;
     font-style: italic;
@@ -44,14 +49,20 @@
 
 <script>
 import tile from '~/components/obj/tile.vue'
+import text01 from '~/content/1_1_homepage.md'
+import HtmlParser from '~/components/HtmlParser.vue'
 
 export default {
   data() {
-    return {
-    }
+    return {}
   },
   components: {
-    'tile': tile
+    tile: tile, HtmlParser
+  },
+  computed: {
+    text01() {
+      return text01
+    },
   },
 
   // html meta data for page

@@ -19,6 +19,12 @@
 
 - [ ] Meta desicription
 
+
+
+- Vue Stagger https://codepen.io/dizzyluo/pen/yJLwWm
+- 3D Parallax https://codepen.io/futekov/pen/JLGDr
+
+
 -----
 Done/not now:
 

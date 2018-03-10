@@ -1,17 +1,20 @@
 <template>
   <div class="page">
-    <div v-html=triggers01></div>
+    <html-parser :content=text01></html-parser>
   </div>
 </template>
 
 <script>
-import triggers_md from '~/content/2_1_triggers.md'
-
+import text01 from '~/content/2_1_triggers.md'
+import HtmlParser from '~/components/HtmlParser.vue';
 export default {
   computed: {
-    triggers01() {
-      return triggers_md
+    text01() {
+      return text01
     },
+  },
+  components: {
+    HtmlParser
   },
   head() {
     return {

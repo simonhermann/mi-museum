@@ -106,7 +106,7 @@ export default {
     return {
       drawer: undefined, // set to false in production
       theoryPages: [
-        { title: 'Was sind Microinteractions?', to: '/intro' },
+        { title: 'Was sind Microinteractions?', to: '/what-are-microinteractions' },
         { title: 'Auslöser', to: '/triggers' },
         { title: 'Regeln', to: '/rules' },
         { title: 'Rückmeldung', to: '/feedback' },

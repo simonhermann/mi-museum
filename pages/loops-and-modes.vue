@@ -1,16 +1,20 @@
 <template>
   <div class="page">
-    <div v-html=loopsmodes01></div>
+    <html-parser :content=text01></html-parser>
   </div>
 </template>
 
 <script>
-import loopsmodes_md from '~/content/2_4_loopsmodes.md'
+import text01 from '~/content/2_4_loopsmodes.md'
+import HtmlParser from '~/components/HtmlParser.vue';
 export default {
   computed: {
-    loopsmodes01() {
-      return loopsmodes_md
+    text01() {
+      return text01
     },
+  },
+  components: {
+    HtmlParser
   },
   head() {
     return {

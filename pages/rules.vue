@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <div v-html=rules01></div>
+    <html-parser :content=text01></html-parser>
     <nextPage link="/feedback" heading="Rückmeldung"></nextPage>
   </div>
 </template>
@@ -8,15 +8,15 @@
 <script>
 import rules_md from '~/content/2_2_rules.md'
 import nextPage from '~/components/obj/nextPage.vue'
-
+import HtmlParser from '~/components/HtmlParser.vue';
 export default {
-  components: {
-    nextPage
-  },
   computed: {
-    rules01() {
-      return rules_md
+    text01() {
+      return text01
     },
+  },
+  components: {
+    HtmlParser, nextPage
   },
   head() {
     return {
