@@ -69,6 +69,7 @@
   }
 
   .nav-homelink {
+    text-decoration: none;
     display: inline-block;
     margin-top: 10vh;
     font-weight: 900;

@@ -8,9 +8,7 @@
   <!-- intro text -->
   <html-parser :content=text01></html-parser>
 
-    
-  <div style="height:4em;"></div>
-
+  <div class="spacer4"></div>
 
   <!-- cards with teaser to chapters -->
   <v-container style="padding: 0;" grid-list-md>
@@ -19,6 +17,8 @@
       <tile link="#" topline="topline" heading="Buttons" text="the basic"></tile>
     </v-layout>
   </v-container>
+
+  <div class="spacer16"></div>
 
   <!-- cards with teaser to MIs -->
 

@@ -5,6 +5,7 @@
 
 <script>
 // this component makes site-internal links in markdown work with nuxt-router
+// https://github.com/nuxt/nuxtjs.org/blob/master/components/HtmlParser.vue
 export default {
   props: ['content'],
   mounted() {
