@@ -133,6 +133,7 @@ module.exports = {
       'markdown-it-mark',
       'markdown-it-smartarrows',
       ['markdown-it-container', 'standout'], // makes container .standout available
+      //['markdown-it-hashmention', { href: 'http://twitter.com' }],
       //'markdown-it-hashmention',
     ],
   },
