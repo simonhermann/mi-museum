@@ -22,12 +22,15 @@ export default {
       const href = event.target.getAttribute('href')
       if (href && href[0] === '/') {
         event.preventDefault()
+        // open link via nuxt router:
         this.$router.push(href)
       } else if (href.indexOf("#fn") == -1) { // TODO: improve this XXXX
-        // open all external links in new tab
+        // I actually just check if the link contains "#fn", since this is my indicator for footnote links
+        // needs changes if other page-internal links are used in future
+        // fails for external links that contain the string "#fn" 
         event.preventDefault()
+        // open all external links in new tab:
         return window.open(event.target)
-        debugger
       }
     },
     addListeners() {

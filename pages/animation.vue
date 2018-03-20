@@ -1,12 +1,12 @@
 <template>
   <div class="page">
     <html-parser :content=text01></html-parser>
-    <nextPage link="/skeuomorphism" heading="Skeuomorphismus"></nextPage>
+    <nextPage link="/xxxx" heading="xxxx"></nextPage>
   </div>
 </template>
 
 <script>
-import text01 from '~/content/4_1_skeuomorphismus.md'
+import text01 from '~/content/4_3_animation.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
 export default {
@@ -20,7 +20,7 @@ export default {
   },
   head() {
     return {
-      title: "Signature Moments durch Microinteractions",
+      title: "Animationen und Microinteractions",
     }
   },
 }

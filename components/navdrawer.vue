@@ -80,11 +80,25 @@
   .nav-link {
     text-decoration: underline;
     text-decoration-color: transparent;
-    transition: all 0.5s ease-out;
+    transition: all 300ms var(--transition-curve1);
     color: inherit;
+    &::before {
+      content: '›';
+      color: transparent;
+      transition: margin 200ms var(--transition-curve1);
+      text-decoration: none !important;
+      position: absolute;
+      font-size: 1.5em;
+      margin-left: -0.75em;
+      margin-top: -0.1em;
+    }
     &:hover {
       color: var(--color-highlight);
       text-decoration: underline;
+      &::before {
+        color: inherit;
+        margin-left: -0.85em;
+      }
     }
   }
   .nuxt-link-exact-active {
@@ -97,10 +111,7 @@
       color: var(--color-highlight);
       //text-decoration-color: currentColor;
       &::before {
-        content: ">";
-        text-decoration: none;
-        position: absolute;
-        margin-left: -1em;
+        color: inherit;
       }
     }
   }
@@ -126,8 +137,9 @@ export default {
         { title: 'Rückmeldung', to: '/feedback' },
         { title: 'Schleifen und Modi', to: '/loops-and-modes' },
         { title: 'Historie', to: '/history' },
-        { title: 'Signature Moments', to: '/signature-moments' },
         { title: 'Skeuomorphismus', to: '/skeuomorphism' },
+        { title: 'Signature Moments', to: '/signature-moments' },
+        { title: 'Animation', to: '/animation' },
         { title: '_article', to: '/article' },
         { title: '_scrap', to: '/scrapyard' },
         //{ title: 'about', to: '/about' },

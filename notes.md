@@ -6,6 +6,7 @@
 - [ ] Timeline?
 - [ ] text content
 - [ ] einteilung MIs zusätzlich in Trigger/Rules/usw
+- [ ] target blank für externe Links
 
 - [ ] sollte menu drawer zu Beginn geöffnet sein?
 - [ ] prev + next links
@@ -17,7 +18,7 @@
 - [ ] vuetify a-la-carte components
 - [ ] update vuetify to enable deactivation of theme
 - [ ] foldable footnotes?
-- [ ] Bilderquellen in figcaption bug
+- [ ] Bug: Bilderquellen in figcaption
 
 - [ ] Meta desicription
 
