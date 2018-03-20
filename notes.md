@@ -16,6 +16,8 @@
 - [ ] favicon
 - [ ] vuetify a-la-carte components
 - [ ] update vuetify to enable deactivation of theme
+- [ ] foldable footnotes?
+- [ ] Bilderquellen in figcaption bug
 
 - [ ] Meta desicription
 

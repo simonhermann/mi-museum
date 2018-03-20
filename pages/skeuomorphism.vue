@@ -1,12 +1,12 @@
 <template>
   <div class="page">
     <html-parser :content=text01></html-parser>
-    <nextPage link="/loops-and-modes" heading="Schleifen und Modi"></nextPage>
+    <nextPage link="/XXX" heading="XXX"></nextPage>
   </div>
 </template>
 
 <script>
-import text01 from '~/content/2_3_feedback.md'
+import text01 from '~/content/4_2_skeuomorphismus.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
 export default {
@@ -20,7 +20,7 @@ export default {
   },
   head() {
     return {
-      title: "Rückmeldung von Microinteractions",
+      title: "Signature Moments durch Microinteractions",
     }
   },
 }

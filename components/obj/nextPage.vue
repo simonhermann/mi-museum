@@ -8,7 +8,9 @@
 
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
+@import '../../assets/styles/vars.scss';
+
 .o-next-page {
   display: inline-block;
   margin-top: 4em;
@@ -16,18 +18,23 @@
   height: 5em;
   box-sizing: border-box;
   text-align: center;
-  background: rgba(0, 0, 0, 0.2);
   transition: all 0.2s ease-out;
-  color: var(--text-color);
+  color: var(--color-text);
+  text-decoration: none;
 
   &__nexttext {
     margin: 0;
   }
   &__heading {
     margin: 0;
+    text-decoration: underline;
   }
 }
 .o-next-page:hover {
+  color: var(--color-highlight);
+  &__heading {
+    text-decoration: underline;
+  }
 }
 </style>
 

@@ -22,6 +22,12 @@ $content-full: 50rem;
   width: 100%;
   max-width: $content-full;
 
+  .content-skinny {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: $content-skinny;
+  }
   .content-narrow {
     margin-left: auto;
     margin-right: auto;
@@ -36,7 +42,7 @@ $content-full: 50rem;
       width: 100%;
       max-width: $content-full;
     }
-  
+
     p,
     h1,
     h2,
@@ -45,15 +51,23 @@ $content-full: 50rem;
     h5 {
       max-width: $content-narrow;
     }
-  
-    ul, ol {
+
+    ul,
+    ol {
       max-width: $content-narrow;
     }
-    blockquote, .standout {
+    blockquote,
+    .standout {
       max-width: $content-skinny;
     }
   }
 
+  .footnotes-sep, .footnotes {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: $content-narrow;
+  }
 }
 
 /*

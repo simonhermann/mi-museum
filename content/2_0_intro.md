@@ -85,12 +85,6 @@ Sind Micro-Interaktionen überhaupt klein?
 XXXX
 
 
-## Kritik an Saffer:
-Beispiele zeigen sehr oft Edge Cases, wo doch gerade diese herausgenommen werden sollen aus MIs --> S. 71
-
-
----
-
 
 Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
 
