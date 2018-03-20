@@ -15,7 +15,7 @@ export default {
     this.removeListeners()
   },
   watch: {
-    'content': 'contentUpdated'
+    content: 'contentUpdated',
   },
   methods: {
     navigate(event) {
@@ -23,13 +23,12 @@ export default {
       if (href && href[0] === '/') {
         event.preventDefault()
         this.$router.push(href)
+      } else if (href.indexOf("#fn") == -1) { // TODO: improve this XXXX
+        // open all external links in new tab
+        event.preventDefault()
+        return window.open(event.target)
+        debugger
       }
-    },
-    contentUpdated() {
-      this.removeListeners()
-      this.$nextTick(() => {
-        this.addListeners()
-      })
     },
     addListeners() {
       this._links = this.$el.getElementsByTagName('a')
@@ -42,7 +41,7 @@ export default {
         this._links[i].removeEventListener('click', this.navigate, false)
       }
       this._links = []
-    }
-  }
+    },
+  },
 }
 </script>
