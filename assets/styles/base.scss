@@ -72,11 +72,13 @@ h4,
 h5 {
   line-height: 1;
   font-weight: 900;
-  display: inline-block;
+  display: block;
+  margin-top: 2em;
+  margin-bottom: 1em;
   //font-family: 'Arbutus Slab', serif;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   // color: #fff;
   // background-color: var(--color-highlight);
 }
@@ -85,17 +87,19 @@ h2 {
   text-decoration: underline;
 }
 h3 {
-  font-size: 1.3rem;
-  margin-bottom: 0;
+  font-size: 1.25rem;
 }
 h4 {
   font-size: 1rem;
+}
+h5 {
+  font-size: .75rem;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-  margin-bottom: 0;
+  letter-spacing: .1em;
 }
 p{
   margin-top: .5em;
+  margin-top: 1em;
   margin-bottom: 1em;
 }
 

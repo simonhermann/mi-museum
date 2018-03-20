@@ -82,6 +82,10 @@
     text-decoration-color: transparent;
     transition: all 0.5s ease-out;
     color: inherit;
+    &:hover {
+      color: var(--color-highlight);
+      text-decoration: underline;
+    }
   }
   .nuxt-link-exact-active {
   }
@@ -91,8 +95,13 @@
     line-height: 2em;
     .nuxt-link-exact-active {
       color: var(--color-highlight);
-      text-decoration-color: currentColor;
-      text-decoration: underline;
+      //text-decoration-color: currentColor;
+      &::before {
+        content: ">";
+        text-decoration: none;
+        position: absolute;
+        margin-left: -1em;
+      }
     }
   }
 }
@@ -105,7 +114,7 @@
 export default {
   data() {
     return {
-      drawer: undefined, // set to false in production
+      drawer: false, // set to false in production, undefined=open on bigger screens
       theoryPages: [
         { title: 'Vorwort', to: '/preface' },
         {
@@ -117,23 +126,26 @@ export default {
         { title: 'Rückmeldung', to: '/feedback' },
         { title: 'Schleifen und Modi', to: '/loops-and-modes' },
         { title: 'Historie', to: '/history' },
+        { title: 'Skeuomorphismus', to: '/skeuomorphism' },
+        { title: 'Signature Moments', to: '/signature-moments' },
         { title: '_article', to: '/article' },
         { title: '_scrap', to: '/scrapyard' },
         //{ title: 'about', to: '/about' },
       ],
       practicePages: [
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
-        { title: 'buttons', to: '/buttons' },
+        { title: 'buttons', to: '/mi/buttons' },
+        { title: 'Pull-to-refresh', to: '/mi/' },
+        { title: 'Fenster', to: '/mi/' },
+        { title: 'Copy & Paste', to: '/mi/' },
+        { title: 'Drag & Drop', to: '/mi/' },
+        { title: 'Rückgängig (undo) & Wiederholen (redo)', to: '/mi/' },
+        { title: 'Switch (Kipp-Schalter)', to: '/mi/' },
+        { title: 'Radiobutton', to: '/mi/' },
+        { title: 'Checkbox', to: '/mi/' },
+        { title: 'Hover', to: '/mi/' },
+        { title: 'Zoom', to: '/mi/' },
+        { title: 'Handlebars', to: '/mi/' },
+        { title: 'xyz', to: '/mi/' },
       ],
     }
   },

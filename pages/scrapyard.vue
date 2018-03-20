@@ -63,7 +63,7 @@
 </style>
 
 <script>
-import hello from '~/content/hello.md'
+import hello from '~/content/scrap.md'
 
 export default {
   data() {

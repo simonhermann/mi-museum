@@ -56,8 +56,6 @@ Sie meist nur für ein definiertes Szenario XXXX
 
 
 
-> The Details are not Details, they make the Design.
-> <cite>Charles Eames</cite>
 
 Designer denken gerne an das große Ganze und Begriffe wie *Konsistenz* und *Flow* XXXX sind allgegenwärtig. Doch die Details eines Produktes machen die Wahrnehmung dessen von Moment zu Moment aus. Diese nahtlosen Interaktionen
 Werden die Details eines digitalen Produktes nicht ausreichend gut umgesetzt, kann daraus entstehende Frustration schnell den Gesamteidruck der Nutzererfahrung zerstören. Der Mensch erinnert sich leichter an das schlechte XXXX

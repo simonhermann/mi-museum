@@ -1,14 +1,14 @@
 <template>
 <div class="page page-home">
-  <header class="page-home__header">
+  <header class="page-home__header content-narrow">
       <h1 class="page-home__title">Micro&shy;interactions</h1>
-      <p class="page-home__subtitle">Interaktives Museum, Best Practices, blababl und lasdunudvievnu eunvneuvn unevinevu ne </p>
+      <p class="page-home__subtitle">Geniale Subhead, die Microinteractions zusammenfasst</p>
   </header>
 
   <!-- intro text -->
   <html-parser :content=text01></html-parser>
 
-  <div class="spacer4"></div>
+  <div class="spacer2"></div>
 
   <!-- cards with teaser to chapters -->
   <v-container style="padding: 0;" grid-list-md>
