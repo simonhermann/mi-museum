@@ -72,8 +72,12 @@
     font-weight: 900;
     letter-spacing: 0.05em;
     font-size: 1.25em;
-    &.nuxt-link-exact-active {
+    color: var(--color-text-light);
+    &:hover {
       color: var(--color-highlight);
+    }
+    &.nuxt-link-exact-active {
+      color: transparent;
     }
   }
 

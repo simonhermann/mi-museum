@@ -6,7 +6,9 @@
 - [ ] Timeline?
 - [ ] text content
 - [ ] einteilung MIs zusätzlich in Trigger/Rules/usw
-- [ ] target blank für externe Links
+- [ ] Kapitel-Fortschrittsbalken?
+- [ ] oben: vorheriges Kapitel?
+- [x] target blank für externe Links
 
 - [ ] sollte menu drawer zu Beginn geöffnet sein?
 - [ ] prev + next links

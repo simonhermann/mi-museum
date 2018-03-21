@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <html-parser :content=text01></html-parser>
-    <nextPage link="/skeuomorphism" heading="Skeuomorphismus"></nextPage>
+    <nextPage link="/signature-moments" heading="Signature Moments"></nextPage>
   </div>
 </template>
 
