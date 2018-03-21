@@ -8,6 +8,8 @@
 - [ ] einteilung MIs zusätzlich in Trigger/Rules/usw
 - [ ] Kapitel-Fortschrittsbalken?
 - [ ] oben: vorheriges Kapitel?
+- [ ] vue-lazyload images
+- [ ] add noreferrer noopener _blank to external links (webpack plugin?)
 - [x] target blank für externe Links
 
 - [ ] sollte menu drawer zu Beginn geöffnet sein?

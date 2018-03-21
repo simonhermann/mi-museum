@@ -3,6 +3,11 @@
   z-index: 100;
   opacity: 0.9;
 }
+
+body:not(.medium-zoom--open) .medium-zoom-overlay {
+  pointer-events: none;
+}
+
 .medium-zoom--open .medium-zoom-image--open {
   z-index: 101;
 }
