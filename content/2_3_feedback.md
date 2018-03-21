@@ -7,3 +7,5 @@ Die einzige Rückmeldung des Produktes an den Nutzer ist das gewünschte Ergebni
 XXXX
 Dieses ist meist visuell oder akustisch, manchmal haptisch und nur selten über Geschmak oder Geruch.
 
+"Black Box" der technischen Geräte zugänglich machen
+

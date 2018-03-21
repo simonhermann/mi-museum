@@ -3,25 +3,23 @@
 ## TODO:
 
 - [ ] bug: klick auf medium-zoom-overlay schließt zoom nicht
+- [ ] vuetify a-la-carte components
+- [ ] update vuetify to enable deactivation of theme
 - [ ] Konzept f. Darstellung MIs
 - [ ] Timeline?
-- [ ] text content
-- [ ] einteilung MIs zusätzlich in Trigger/Rules/usw
+- [ ] Icons für Trigger/Rules/usw
 - [ ] Kapitel-Fortschrittsbalken?
 - [ ] oben: vorheriges Kapitel?
 - [ ] vue-lazyload images
 - [ ] add noreferrer noopener _blank to external links (webpack plugin?)
-- [x] target blank für externe Links
+- [ ] obtimize images https://github.com/Klathmon/imagemin-webpack-plugin
 
 - [ ] sollte menu drawer zu Beginn geöffnet sein?
 - [ ] prev + next links
 - [ ] dynamische Rahmenfarbe
-- [ ] Layout für Bilder in Text
-- [ ] Impressum
+- [ ] Impressum+About
 - [ ] Footer? 
 - [ ] favicon
-- [ ] vuetify a-la-carte components
-- [ ] update vuetify to enable deactivation of theme
 - [ ] foldable footnotes?
 - [ ] Bug: Bilderquellen in figcaption
 
@@ -36,6 +34,8 @@
 -----
 Done/not now:
 
+- [ ] Layout für Bilder in Text
+- [x] target blank für externe Links
 - [x]custom loading animation 
 - [x] Image Zoom
     - https://github.com/francoischalifour/medium-zoom

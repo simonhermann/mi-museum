@@ -8,6 +8,7 @@
 - Interaktionen fühlen sich flüssig und angenehm an
 - mehrere Funktionen gleichzeitig erfüllen (XXXX)
 - die Geschwindikeit der Interaktion erhöhen (besonders für neue Nutzer)
+- gefühlte Geschwindikeit erhöhen (skeleton UI, ..)
 - klares Feedback geben und die richtige Erwartungshaltung schaffen
 :::
 

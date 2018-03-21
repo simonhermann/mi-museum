@@ -12,10 +12,6 @@ Mikrointeraktionen, insbesondere in Kombination mit kleinen Animationen, können
 
 Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar '[belohnt](/signature-moments)'.
 
-Übersetzt mit www.DeepL.com/Translator
-
-Übersetzt mit www.DeepL.com/Translator
-
 Die kleinen Dinge machen den Unterschied.
 
 [Weiterlesen](/what-are-microinteractions)
