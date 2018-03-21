@@ -9,6 +9,12 @@ Je überzeugender die Microinteractions sind, desto flüssiger fühlt sich die A
 
 ![XXXX^[https://codepen.io/davidkpiano/full/ByNPQw] ](/images/signature-moments/weather-app.gif ""){.content-skinny} 
 
-![XXXX^[https://dribbble.com/shots/2111739-Pull-To-Refresh] ](/images/signature-moments/pull-to-refresh-planet.gif ""){.content-skinny} 
+![XXXX^[https://dribbble.com/shots/2111739-Pull-To-Refresh] ](/images/signature-moments/pull-to-refresh-planet.gifxx ""){.content-skinny} 
+
+<figure v-lazy-container="{ selector: 'img' }">
+    <img data-src="images/signature-moments/pull-to-refresh-planet.gif" class="content-skinny medium-zoom-image">
+    <figcaption>XXXX</figcaption>
+</figure>
+
 
 ## Mehr zum Thema Signature Moments

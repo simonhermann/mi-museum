@@ -15,6 +15,7 @@
   position: relative;
   &__link {
     background-color: white;
+    padding: 1em;
     // z-index: 2;
     // &:before {
     //   box-sizing: border-box;
@@ -29,8 +30,12 @@
     //   background-image: url('data:image/svg+xml;utf8,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg" version="1.1"><defs><pattern id="Pattern2" patternUnits="userSpaceOnUse" width="5" height="5"><path d="M 0,5 l 5,-5 M -1,1 l 2.5,-2.5 M 4,6 l 2.5,-2.5" stroke-width="1" shape-rendering="auto" stroke="#788080" stroke-linecap="square"></path></pattern></defs><rect fill="url(#Pattern2)" x="0" y="0" width="100" height="100"/></svg>');
     // }
   }
-  &__link {
-    padding: 1em;
+  &__heading {
+    margin-bottom: 0;
+  }
+  &__text {
+    margin-top: 0;
+    font-style: italic;
   }
 }
 // .o-tile {

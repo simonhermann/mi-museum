@@ -2,6 +2,7 @@
 
 ## TODO:
 
+- [ ] bug: klick auf medium-zoom-overlay schließt zoom nicht
 - [ ] Konzept f. Darstellung MIs
 - [ ] Timeline?
 - [ ] text content
