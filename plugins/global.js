@@ -15,6 +15,10 @@ Vue.use(VueAffix)
 import VueScrollactive from 'vue-scrollactive'
 Vue.use(VueScrollactive)
 
+// vue-lazyload
+// import VueLazyload from 'vue-lazyload'
+// Vue.use(VueLazyload)
+
 // various scroll-related tools
 // import ScrollView from 'vue-scrollview'
 // Vue.use(ScrollView)

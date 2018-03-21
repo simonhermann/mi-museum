@@ -55,7 +55,7 @@
   background-color: transparent;
   color: var(--color-text-light);
 
-  overflow: -moz-scrollbars-none;
+  //overflow: -moz-scrollbars-none;
   -ms-overflow-style: none;
   &::-webkit-scrollbar {
     display: none;
@@ -83,7 +83,11 @@
 
   .nav-link {
     text-decoration: underline;
-    text-decoration-color: transparent;
+    text-decoration-color: rgba(0, 0, 0, 0);
+    // hack for Edge:
+    @supports (-ms-ime-align: auto) {
+      text-decoration: none;
+    }
     transition: all 300ms var(--transition-curve1);
     color: inherit;
     &::before {
