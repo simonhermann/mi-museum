@@ -1,5 +1,3 @@
-//const contentful = require('./.contentful.json')
-
 module.exports = {
   /*
   ** Headers of the page
@@ -104,7 +102,6 @@ module.exports = {
   ** Plugins
   */
   plugins: [
-    //'~/plugins/contentful.js',
     '~/plugins/vuetify.js',
     '~/plugins/global.js',
     //{ src: '~/plugins/medium-zoom.min.js', ssr: false },
@@ -113,9 +110,6 @@ module.exports = {
     routes: ['/', '/about'], // these routes will be pre-rendered on "build"
   },
   env: {
-    // CTF_SPACE_ID: contentful.CTF_SPACE_ID,
-    // CTF_CDA_ACCESS_TOKEN: contentful.CTF_CDA_ACCESS_TOKEN,
-    // CTF_BLOG_POST_TYPE_ID: contentful.CTF_BLOG_POST_TYPE_ID,
   },
   /*
   ** Markdown-it

@@ -11,9 +11,9 @@ Vue.config.productionTip = false
 import VueAffix from 'vue-affix'
 Vue.use(VueAffix)
 
-// highlights subnav links and make links in subnav scroll smooth to respective anchor
-import VueScrollactive from 'vue-scrollactive'
-Vue.use(VueScrollactive)
+// highlights subnav links and make links in subnav scroll smooth to respective anchor [UNUSED]
+// import VueScrollactive from 'vue-scrollactive'
+// Vue.use(VueScrollactive)
 
 // vue-lazyload
 // import VueLazyload from 'vue-lazyload'
