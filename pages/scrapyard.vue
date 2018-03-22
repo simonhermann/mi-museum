@@ -14,6 +14,7 @@
       <!-- <transition name="animate">
         <h2 v-if="titleVisible">WOW?</h2>
       </transition> -->
+      <button @click="changeColor">color change</button>
 
 
 
@@ -32,7 +33,6 @@
 </template>
 
 <style lang="scss">
-
 .animate-enter-active {
   animation: bounceIn 2s;
 }
@@ -72,6 +72,12 @@ export default {
       blurElClass: 'blur-el',
       blurClass: 'blur',
     }
+  },
+  methods: {
+    changeColor() {
+      console.log('color changed')
+      document.documentElement.style.setProperty('--color-highlight', '#aaff00');
+    },
   },
   computed: {
     hello() {

@@ -40,6 +40,9 @@
   color: var(--color-highlight);
 }
 
+.footnote-backref {
+  color: inherit;
+}
 // webpack or sass or something else behaves weird and inserts a space afer 'ü'. this hack solves it...
 //content: 'zurück'; // is converted to 'zur\FC ck' and redered as 'zurü ck'
 .footnote-backref:hover::after,

@@ -148,7 +148,7 @@ export default {
         { title: 'Skeuomorphismus', to: '/skeuomorphism' },
         { title: 'Signature Moments', to: '/signature-moments' },
         { title: 'Animation', to: '/animation' },
-        { title: '_article', to: '/article' },
+        //{ title: '_article', to: '/article' },
         { title: '_scrap', to: '/scrapyard' },
         //{ title: 'about', to: '/about' },
       ],

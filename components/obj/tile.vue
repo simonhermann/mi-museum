@@ -32,10 +32,12 @@
   }
   &__heading {
     margin-bottom: 0;
+    color: inherit;
   }
   &__text {
     margin-top: 0;
     font-style: italic;
+    color: inherit;
   }
 }
 // .o-tile {

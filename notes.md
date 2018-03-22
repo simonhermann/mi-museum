@@ -11,7 +11,7 @@
 - [ ] Kapitel-Fortschrittsbalken?
 - [ ] oben: vorheriges Kapitel?
 - [ ] vue-lazyload images
-- [ ] add noreferrer noopener _blank to external links (webpack plugin?)
+- [ ] add noreferrer noopener _blank to external links (https://github.com/Va1/string-replace-loader ?)
 - [ ] obtimize images https://github.com/Klathmon/imagemin-webpack-plugin
 
 - [ ] sollte menu drawer zu Beginn geöffnet sein?
@@ -24,6 +24,7 @@
 - [ ] Bug: Bilderquellen in figcaption
 
 - [ ] Meta desicription
+- [ ] Anmeldung VGWort https://tom.vgwort.de/portal/index
 
 
 

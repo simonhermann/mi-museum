@@ -11,3 +11,6 @@ Das Problem beim Skeuomorphismus ist ihre hohe Geschmacks- und Kulturabhängigke
 
 Heute, nachdem der Großteil der Nutzer mit Smartphones und co. vertraut sind, ist es nicht mehr so wichtig, visuelle Elemente zu entwerfen, die einen direkten Bezug zur analogen Welt in herstellen. Der digitale Alltag hat sich etabliert und bedarf keiner Erklärung durch Holzhammermethoden. Dennoch nimmt die Bedeutung von Mikrointeraktionen stetig zu. Der Grund ist einfach.
 Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher und andere möglichkeiten der Markenbildung sind erforderlich.
+
+## Mehr zum Thema Skeumorphismus:
+- Artikel: [The New Skeuomorphism is in Your Voice Assistant](https://uxdesign.cc/the-new-skeuomorphism-is-in-your-voice-assistant-3b14a6553a0e) von Bert Brautigam

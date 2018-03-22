@@ -20,7 +20,7 @@ Problem: Werkzeug und Hand beschränken das Denken
 
 
 
-## Phase_1: Microinteractions in Mechanischen Mensch-Maschine-Schnittstellen
+## Phase_1: Microinteractions in mechanischen Mensch-Maschine-Schnittstellen
 
 Erstmals in großem Maßstab eingesetzt wurde die Erfindung des Deutsch-Amerikaners Hermann Hollerith bei der amerikanischen Volkszählung im Jahre 1890. Die "Hollerithmaschine" war gebaut für Experten, die sich mit der technischen Funktionsweise und deren Tücken genau auskannten.
 Holleriths Erfindung war weltweit erfolgreich und er gründete die *Computing Tabulating Recording Corporation*, welche 1924 in *International Business Machines Corporation*, IBM umbenannt wurde und bis heute besteht.
