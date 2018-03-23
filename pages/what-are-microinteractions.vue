@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import text01 from '~/content/2_0_intro.md'
+import text01 from '~/content/2_0_was-sind.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
 export default {

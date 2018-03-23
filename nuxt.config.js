@@ -96,10 +96,12 @@ module.exports = {
   },
   modules: [
     '@nuxtjs/markdownit',
-    '@nuxtjs/google-analytics',
-    {
-      id: 'UA-116314873-1',
-    },
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-12301-2',
+      },
+    ],
   ],
   loaders: [
     { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' },

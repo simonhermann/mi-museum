@@ -4,7 +4,10 @@ Im Interactiondesign werden die atomaren Bausteine von Interaktionen als Microin
 
 Wo kommen die grundlegenden Regeln und Muster her, denen digitale Knöpfe, Schalter oder Fenster entlehnt sind? Wie lassen sich diese sogenannten Microinteractions anders gestalten als wir es gewohnt sind? und wie sieht deren Zukunft aus?
 
-Wo kommen allgegenwärtige Microinteractions wie digitale Buttons, Schalter und Fenster her? Welche Verbidung haben sie zu ihren physischen Vorfahren? Wie sieht die Zukunft dieser atomaren Bausteine im Interactiondesign aus?
+Microinteractions definieren, wie die Interaktion zwischen Mensch und Maschine 
+Worin differenziert sich die Nutzung von iPhones von Android-Smartphones, MacOS von Windows, Photoshop von GIMP oder XXXX von YYYY? Mit den meisten modernen Werkzeugen lassen sich ähnliche Ergebnisse erzielen – aber auf unterschiedliche Weise. 
+Meist werden diese kleinen Interaktionsbausteine kaum oder nicht bewusst wahrgenommen, es sei denn, sie funktionieren nicht wie erwartet. 
+Microinteractions haben zwei Hauptaufgaben: Erstens sollte die Nutzung sollte [intuitiv und logisch](/what-are-microinteractions) sein, zweitens haben sie Potential Momente mit enormem [Wiedererkennungswert](/signature-moments) plattformübergreifend zu schaffen.
 
 Auch kleine Interaktionen wie das Betätigen eines Schalters, das Nutzen eines Suchfelds oder das Absenden einer Nachricht wurden von Designern gestaltet und bestehen aus [Auslöser](/triggers), [Regeln](/rules), [Rückmeldung](/feedback) und [Meta-Regeln](/loops-and-modes).
 
@@ -18,13 +21,13 @@ Die kleinen Dinge machen den Unterschied.
 
 ### Wer sollte diese Arbeit lesen?
 
-asdasd
+XXXX
 
 ### Weitere Hinweise
 
 Sammlung kann niemals vollständig sein, Beispiele ausgewählt
 
-*Nutzer* und *Nutzerin* und andere nicht-geschlechtsneutrale Begriffe werden
+Die Begriffe *Nutzer* und *Nutzerin* und andere nicht-geschlechtsneutrale Worte werden austauschbar verwendet.
 
 Verschiedene schreibweisen von *Microinteractions*
 
