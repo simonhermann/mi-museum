@@ -23,7 +23,7 @@ Mein Ziel ist es, ein Verständnis von Interaktionen zu schaffen, das über Saff
 
 *Microinteractions* oder Mikro-Interaktionen eignen sich nach Saffer gut für folgende Zwecke:
 
-- Bewältigung eine einzige Aufgabe
+- Bewältigung eine einzigen Aufgabe
 - Verbinden von Geräten
 - interagieren mit einer einzigen Datenelement wie z.B. einem Aktienpreis oder der Temparatur
 - Kontrolle eines laufenden Prozesses wie z.B. das Wechseln eines Fernsehkanals

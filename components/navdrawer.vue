@@ -15,7 +15,6 @@
         </nuxt-link>
       </header>
 
-      <p><b>(lesen)</b></p>
       <ul class="nav-ul">
         <li class="nav-li" :key="i" v-for="(theoryPage, i) in theoryPages">
           <nuxt-link class="nav-link" :to="theoryPage.to">
@@ -73,7 +72,7 @@
   .nav-homelink {
     text-decoration: none;
     display: inline-block;
-    margin-top: 10vh;
+    margin-top: 4vh;
     font-weight: 900;
     letter-spacing: 0.05em;
     font-size: 1.25em;

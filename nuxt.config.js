@@ -94,7 +94,13 @@ module.exports = {
       //console.log('route change imminent')
     },
   },
-  modules: ['@nuxtjs/markdownit'],
+  modules: [
+    '@nuxtjs/markdownit',
+    '@nuxtjs/google-analytics',
+    {
+      id: 'UA-116314873-1',
+    },
+  ],
   loaders: [
     { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' },
   ],
@@ -109,8 +115,7 @@ module.exports = {
   generate: {
     routes: ['/', '/about'], // these routes will be pre-rendered on "build"
   },
-  env: {
-  },
+  env: {},
   /*
   ** Markdown-it
   */

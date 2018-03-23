@@ -13,6 +13,7 @@
     "precommit": "npm run lint"
   },
   "dependencies": {
+    "@nuxtjs/google-analytics": "^2.0.2",
     "@nuxtjs/markdownit": "^1.2.0",
     "markdown-it-attrs": "^1.2.1",
     "markdown-it-container": "^2.0.0",
