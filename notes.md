@@ -13,6 +13,7 @@
 - [ ] vue-lazyload images
 - [ ] add noreferrer noopener _blank to external links (https://github.com/Va1/string-replace-loader ?)
 - [ ] obtimize images https://github.com/Klathmon/imagemin-webpack-plugin
+- [ ] less FOUT/FOIT https://css-tricks.com/font-display-masses/
 
 - [ ] sollte menu drawer zu Beginn geöffnet sein?
 - [ ] prev + next links

@@ -75,7 +75,8 @@ export default {
     return {}
   },
   components: {
-    tile: tile, HtmlParser
+    tile: tile,
+    HtmlParser,
   },
   computed: {
     text01() {
@@ -96,6 +97,9 @@ export default {
         },
       ],
     }
+  },
+  mounted() {
+    console.log('frontpage mounted')
   },
 }
 </script>

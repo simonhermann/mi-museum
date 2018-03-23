@@ -27,16 +27,20 @@ module.exports = {
       // { rel: 'alternate', hreflang: 'de', href: 'https://www.my-url.com/' },
       // { rel: 'alternate', hreflang: 'en', href: 'https://www.my-url.com/en' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      //{ href: 'https://fonts.googleapis.com/css?family=Bitter:400,400i,700', rel: 'stylesheet' },
       {
-        href:
-          'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900',
+        rel: 'preconnect',
+        href: 'href="https://fonts.googleapis.com/',
+        crossorigin: 'anonymous',
+      },
+      {
+        rel: 'preconnect',
+        href: 'href="https://fonts.gstatic.com/',
+        crossorigin: 'anonymous',
+      },
+      {
+        href: 'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900',
         rel: 'stylesheet',
       },
-      // {
-      //   href: '/styles/vuetify.min.css',
-      //   rel: 'stylesheet',
-      // },
     ],
     script: [
       { src: '/js/medium-zoom.min.js', defer: true },

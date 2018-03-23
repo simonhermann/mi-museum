@@ -2,20 +2,44 @@
  * Webfonts
 */
 
-
-
-
 /* System Font Stack to reduce FOUT / FOIT */
 @font-face {
   font-family: system;
   font-style: normal;
   font-weight: 300;
-  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+  src: local('.SFNSText-Light'), local('.HelveticaNeueDeskInterface-Light'),
+    local('.LucidaGrandeUI'), local('Ubuntu Light'), local('Segoe UI Light'),
+    local('Roboto-Light'), local('DroidSans'), local('Tahoma');
 }
 
 body {
-  font-family: "Alegreya", "system-ui", "system";
+  font-family: 'Alegreya', 'Georgia', 'system-ui', 'system';
   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.75; // =28px
+  text-rendering: optimizeLegibility;
+  font-feature-settings: "kern", "liga", "clig", "calt";
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.05);
+  text-decoration-skip: ink;
 }
 
 
+// FALLBACK FONT https://meowni.ca/font-style-matcher/
+// TODO: Load system font by default and swap to webfont via js
+// _Georgia
+// font-size: 16px
+// line-height: 1.75
+// letter-spacing: -0.7px
+// word-spacing: 0.5px
+// visibility: visible
+// font-family: Georgia
+// font-weight: 500;
+// -> matching:
+// _Alegreya
+// font-size: 16px
+// line-height: 1.75
+// font-weight: 500;
