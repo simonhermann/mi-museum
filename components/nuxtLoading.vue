@@ -18,7 +18,7 @@ export default {
       duration: '.5s',
       height: '0%',
       width: '100vw',
-      color: 'rgba(192, 192, 192, 0.5)',
+      color: 'rgba(192, 192, 192, 0.65)',
       failedColor: 'darkred',
     }
   },
@@ -97,8 +97,12 @@ export default {
   width: 100vw;
   transition: height 1s, opacity 0.4s;
   opacity: 1;
-  background-color: rgba(192, 192, 192, 0.5);
-  /* background-color: red; */
+  background-color: rgba(192, 192, 192, .65); /* actual value is in js */
   z-index: -1;
+}
+@media screen and (prefers-reduced-motion: reduce) {
+  .nuxt-progress {
+    opacity: 0 !important;
+  }
 }
 </style>

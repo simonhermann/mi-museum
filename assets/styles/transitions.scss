@@ -10,7 +10,10 @@
 }
 .page-enter{
   opacity: 0;
-  transform: translate(0, 1em);
+  transform: translate(0, -1em);
+  @media screen and (prefers-reduced-motion: reduce) {
+    transform: translate(0, 0);
+  }
 }
 .page-leave-to {
   opacity: 0;

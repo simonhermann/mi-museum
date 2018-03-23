@@ -32,6 +32,11 @@
           </nuxt-link>
         </li>
       </ul>
+
+      <div class="secondary-links">
+        <nuxt-link class="nav-link" to="/about"> Über & Impressum</nuxt-link>
+      </div>
+
     </v-navigation-drawer>
 
     <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense flat :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp" color="transparent">
@@ -115,13 +120,17 @@
   .nav-ul {
     list-style: none;
     line-height: 2em;
-    .nuxt-link-exact-active {
-      color: var(--color-highlight);
-      //text-decoration-color: currentColor;
-      &::before {
-        color: inherit;
-      }
+  }
+  .nuxt-link-exact-active {
+    color: var(--color-highlight);
+    //text-decoration-color: currentColor;
+    &::before {
+      color: inherit;
     }
+  }
+  .secondary-links {
+    line-height: 2em;
+    margin-top: 2em;
   }
 }
 .toolbar {
