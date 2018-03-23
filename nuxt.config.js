@@ -108,7 +108,11 @@ module.exports = {
     ],
   ],
   loaders: [
-    { test: /\.styl$/, loader: 'style-loader!css-loader!stylus-loader' },
+    {
+      test: /\.styl$/,
+      loader: 'style-loader!css-loader!stylus-loader',
+      options: { sourceMap: true },
+    },
   ],
   /*
   ** Plugins
