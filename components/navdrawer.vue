@@ -4,7 +4,8 @@
      
       <button type="button" class="btn btn--icon" @click="drawer = !drawer" style="margin-left:-1em">
         <div class="btn__content">
-          <i aria-hidden="true" class="icon material-icons">chevron_left</i>
+          <!-- <i aria-hidden="true" class="icon material-icons">chevron_left</i> -->
+          <i aria-hidden="true" class="icon__chevron-left">‹</i>
         </div>
       </button>
 
@@ -36,13 +37,21 @@
         <nuxt-link class="nav-link" to="/about"> Über & Impressum</nuxt-link>
       </div>
 
+      <div class="spacer8"></div>
+
     </v-navigation-drawer>
 
     <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense flat :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp" color="transparent">
 
       <button type="button" class="toolbar__side-icon btn btn--icon" @click="drawer = !drawer" v-if="!drawer" style="position: relative;">
         <div class="btn__content">
-          <i aria-hidden="true" class="icon material-icons">menu</i>
+          <!-- <i aria-hidden="true" class="icon material-icons">menu</i> -->
+          <i class="icon__menu">
+            <svg fill="#424242" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 0h24v24H0z" fill="none"/>
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+            </svg>
+          </i>
         </div>
       </button>
 
@@ -135,6 +144,31 @@
 .toolbar {
   margin-top: 1rem !important;
 }
+.icon__chevron-left {
+  content: '‹';
+  color: inherit;
+  font-size: 3em;
+  line-height: 3em;
+  display: block;
+  margin-top: -0.27em;
+}
+.icon__menu {
+  color: inherit;
+  height: 2em;
+  width: 2em;
+  margin-top: 0.2em;
+
+  &::after {
+    content: "Menü";
+    color: inherit;
+    position: absolute;
+    font-size: 1.25em;
+    margin-top: -.18em;
+    margin-left: .4em;
+    display: inline-block;
+    text-transform: none;
+  }
+}
 </style>
 
 <script>
@@ -178,29 +212,4 @@ export default {
     }
   },
 }
-/*
-Menu- und Seitenstruktur:
-- Über Microinteractions
-  - Vorwort / Intro zu Saffer
-  - Auslöser
-  - Regeln
-  - Rückmeldung
-  - Schleifen und Modi
-  - Historie
-  - Animationen
-
-
-- Anwendung im Designprozess
-  - Intro Anwendung
-  - Allgemeine MIs (+Erklärung was gemeint ist)
-    - Button
-    - ..
-
-  - Spezielle MIs (+Erklärung was gemeint ist)
-    - ..
-
-- Quellen
-- Über
-
-*/
 </script>

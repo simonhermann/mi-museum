@@ -16,8 +16,12 @@ module.exports = {
         content: 'width=device-width, initial-scale=1, shrink-to-fit=no',
       },
       { 'http-equiv': 'x-ua-compatible', content: 'ie=edge' },
-      { name: 'robots', content: 'index, follow' },
       { name: 'format-detection', content: 'telephone=no' },
+      { name: 'robots', content: 'index, follow' },
+      {
+        name: 'google-site-verification',
+        content: 'zFfzzzExdtmkb2XdhzZizsw40H-_tzzYgA0VTGZTqf8',
+      },
     ],
     link: [
       // { rel: 'alternate', hreflang: 'de', href: 'https://www.my-url.com/' },
@@ -26,7 +30,7 @@ module.exports = {
       //{ href: 'https://fonts.googleapis.com/css?family=Bitter:400,400i,700', rel: 'stylesheet' },
       {
         href:
-          'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900|Material+Icons',
+          'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900',
         rel: 'stylesheet',
       },
       // {
@@ -73,7 +77,6 @@ module.exports = {
     vendor: ['vuetify'],
   },
   router: {
-    // middleware: 'mediumZoom',
     scrollBehavior: function(to, from, savedPosition) {
       // delay scrolling to top after page change to match fade-out time
       return new Promise((resolve, reject) => {
@@ -101,7 +104,7 @@ module.exports = {
       {
         id: 'UA-12301-2',
         debug: {
-          // disable in development
+          // disable in ga in development
           sendHitTask: process.env.NODE_ENV === 'production',
         },
       },

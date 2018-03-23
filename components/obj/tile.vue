@@ -16,6 +16,7 @@
   &__link {
     background-color: white;
     padding: 1em;
+    color: inherit;
     // z-index: 2;
     // &:before {
     //   box-sizing: border-box;
