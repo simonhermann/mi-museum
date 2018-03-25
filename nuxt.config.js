@@ -29,18 +29,13 @@ module.exports = {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'preconnect',
-        href: 'href="https://fonts.googleapis.com/',
-        crossorigin: 'anonymous',
-      },
-      {
-        rel: 'preconnect',
         href: 'href="https://fonts.gstatic.com/',
         crossorigin: 'anonymous',
       },
-      {
-        href: 'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900',
-        rel: 'stylesheet',
-      },
+      // {
+      //   href: 'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900',
+      //   rel: 'stylesheet',
+      // },
     ],
     script: [
       { src: '/js/medium-zoom.min.js', defer: true },
@@ -49,6 +44,7 @@ module.exports = {
   },
   css: [
     'assets/styles/vuetify-custom/main.styl',
+    'assets/styles/alegreya.css',
     //'assets/styles/main.scss'
   ],
   loading: '~/components/nuxtLoading.vue',
