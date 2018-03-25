@@ -93,7 +93,6 @@ export default {
   left: 0px;
   right: 0px;
   height: 0%;
-  /* height: calc(var(--body-border-width, 4px) + 0.3vw) !important; */
   width: 100vw;
   transition: height 1s, opacity 0.4s;
   opacity: 1;
