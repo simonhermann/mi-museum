@@ -9,8 +9,6 @@
 </template>
 
 <style lang="scss">
-@import '../../assets/styles/vars.scss';
-
 .o-next-page {
   display: inline-block;
   margin-top: 4em;

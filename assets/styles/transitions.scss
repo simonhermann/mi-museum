@@ -6,9 +6,9 @@
   transition: all 0.25s var(--transition-curve1);
 }
 .page-enter-active {
-  transition: all 0.5s var(--transition-curve1);
+  transition: all 0.35s var(--transition-curve1);
 }
-.page-enter{
+.page-enter {
   opacity: 0;
   transform: translate(0, -1em);
   @media screen and (prefers-reduced-motion: reduce) {
@@ -18,4 +18,3 @@
 .page-leave-to {
   opacity: 0;
 }
-

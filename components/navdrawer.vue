@@ -61,8 +61,6 @@
 </template>
 
 <style lang="scss">
-@import '../assets/styles/vars.scss';
-
 .navigation-drawer {
   padding: 1em 0.5em 2em 2em;
   background-color: transparent;
@@ -159,12 +157,12 @@
   margin-top: 0.2em;
 
   &::after {
-    content: "Menü";
+    content: 'Menü';
     color: inherit;
     position: absolute;
     font-size: 1.25em;
-    margin-top: -.18em;
-    margin-left: .4em;
+    margin-top: -0.18em;
+    margin-left: 0.4em;
     display: inline-block;
     text-transform: none;
   }

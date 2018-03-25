@@ -13,7 +13,7 @@ Bsp https://youtu.be/Y3qg6P3grWk?t=9m24s XXXX
 Die Unterteilung von Microinteractions in Aktionsphasen macht Saffers Konzept so herausragend, da sie zu einem intensiven Nachdenken über jeden einzelnen Teilschritt der Nutzerinteraktion innerhalb einer einizgen Mikro-Interaktion anregt.
 Die Analyse, wie Interaktionen und Mikro-Interaktionen tatsächlich funktionieren erfolgt in einer nicht da gewesenen Tiefe.
 
-Die Qualität des Werkes veranlasste zahlreiche Mitglieder der Design-Community dazu, Blog-Posts zum Thema Microinteractions zu verfassen, und einige Zeit schien es die XXXX zu dominieren.
+Das Buch veranlasste zahlreiche Mitglieder der Design-Community dazu, Blog-Posts zum Thema Microinteractions zu verfassen.
 
 Leider beschränken sich die allermeisten Artikel darauf, die Grundlagen von Saffers Buch in wenigen Absätzen zusammenzufassen und mit einigen Beispielen auszuschmücken.
 Mein Ziel ist es, ein Verständnis von Interaktionen zu schaffen, das über Saffers Microinteractions hinausgeht, das nicht nur Screen- sondern auch XXXX *tangible*, *Virtual* und *Augmented Reality* oder analoges Produktdesign mit einbezieht. Die Ansätze Saffers können tatsächlich auf fast alle Bereiche des Kommunikationsdesigns und XXXX angewendet werden.

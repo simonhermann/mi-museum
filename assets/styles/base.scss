@@ -10,7 +10,12 @@ html {
   overflow-y: scroll;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  background-color: var(--color-highlight); // TODO: dynamic
+  background-color: var(--color-highlight);
+  transition: all 300ms ease-out;
+  
+  &:not(.app-mounted) {
+    background-color: #fff;
+  }
 }
 
 body {

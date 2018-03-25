@@ -14,12 +14,31 @@
 </template>
 
 <style lang="scss">
+@import './assets/styles/vars.scss';
+@import './assets/styles/hacks';
+@import './assets/styles/fonts';
+@import './assets/styles/mixins';
+@import './assets/styles/base';
+@import './assets/styles/markdownit';
+@import './assets/styles/util';
+@import './assets/styles/layout';
+@import './assets/styles/transitions';
+@import './assets/styles/objects/buttons';
 #app {
   z-index: 3;
-  // border: calc(var(--body-border-width, 4px) + .3vw) solid transparent;
-  // border-bottom-width: 2rem;
+  opacity: 0;
+  transition: opacity 100ms var(--transition-curve1);
+  html.app-mounted & {
+    opacity: 1;
+  }
 }
-
+.container {
+  transition: all 500ms var(--transition-curve1);
+  transform: translate(0, -1em);
+  html.app-mounted & {
+    transform: translate(0, 0);
+  }
+}
 </style>
 
 
@@ -29,6 +48,12 @@ import navdrawer from '~/components/navdrawer.vue'
 export default {
   components: {
     navdrawer,
+  },
+  mounted: function() {
+    this.$nextTick(function() {
+      const el = document.getElementsByTagName('html')[0]
+      el.classList.add('app-mounted')
+    })
   },
 }
 </script>

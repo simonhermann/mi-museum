@@ -47,23 +47,23 @@ module.exports = {
       { src: '/js/smoothscroll.js', defer: true },
     ],
   },
-  //css: ['assets/styles/main.scss'],
-  //css: ['node_modules/vuetify/dist/vuetify.min.css'],
-  css: ['assets/styles/vuetify-custom/main.styl', 'assets/styles/main.scss'],
-  /*
-  ** Customize the progress bar color
-  */
+  css: [
+    'assets/styles/vuetify-custom/main.styl',
+    //'assets/styles/main.scss'
+  ],
   loading: '~/components/nuxtLoading.vue',
   /*
   ** Build configuration
   */
   build: {
-    // postcss: [
-    //   require('postcss-cssnext')(),
-    //   // require('autoprefixer')({
-    //   //   browsers: ['> 5%'],
-    //   // }),
-    // ],
+    postcss: [
+      require('postcss-custom-properties')({
+        preserve: true,
+      }),
+      // require('autoprefixer')({
+      //   browsers: ['> 5%'],
+      // }),
+    ],
     /*
     ** Run ESLint on save
     */
@@ -77,7 +77,6 @@ module.exports = {
     //     })
     //   }
     // },
-    // vendor: ['vue-i18n'],
     vendor: ['vuetify'],
   },
   router: {
