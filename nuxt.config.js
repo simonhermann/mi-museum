@@ -114,7 +114,7 @@ module.exports = {
         ],
       ],
     },
-    extractCSS: false,
+    extractCSS: true,
     vendor: ['vuetify'],
     extend(config, ctx) {
       // if (ctx.isDev && ctx.isClient) {

@@ -2,9 +2,8 @@
   <div>
     <v-navigation-drawer v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
      
-      <button type="button" class="btn btn--icon" @click="drawer = !drawer" aria-label="Close" style="margin-left:-1em">
+      <button type="button" class="btn btn--icon" @click="drawer = !drawer" style="margin-left:-1em" aria-label="Close">
         <div class="btn__content">
-          <!-- <i aria-hidden="true" class="icon material-icons">chevron_left</i> -->
           <i aria-hidden="true" class="icon__chevron-left">‹</i>
         </div>
       </button>
@@ -43,9 +42,8 @@
 
     <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense flat :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp" color="transparent">
 
-      <button type="button" class="toolbar__side-icon btn btn--icon" @click="drawer = !drawer" v-if="!drawer" style="position: relative;">
+      <button type="button" class="toolbar__side-icon btn btn--icon" @click="drawer = !drawer" v-if="!drawer" style="position: relative;" aria-label="Menu">
         <div class="btn__content">
-          <!-- <i aria-hidden="true" class="icon material-icons">menu</i> -->
           <i class="icon__menu">
             <svg fill="#424242" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
                 <path d="M0 0h24v24H0z" fill="none"/>
@@ -63,7 +61,7 @@
 <style lang="scss">
 .navigation-drawer {
   padding: 1em 0.5em 2em 2em;
-  background-color: transparent;
+  background-color: transparent !important; //waiting for vuetify to allow theme disableling
   color: var(--color-text-light);
 
   //overflow: -moz-scrollbars-none;
@@ -73,7 +71,7 @@
   }
 
   &--is-mobile {
-    background-color: #fff;
+    background-color: #fff !important;
   }
 
   .nav-homelink {
