@@ -2,7 +2,7 @@
   <div>
     <v-navigation-drawer v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
      
-      <button type="button" class="btn btn--icon" @click="drawer = !drawer" style="margin-left:-1em">
+      <button type="button" class="btn btn--icon" @click="drawer = !drawer" aria-label="Close" style="margin-left:-1em">
         <div class="btn__content">
           <!-- <i aria-hidden="true" class="icon material-icons">chevron_left</i> -->
           <i aria-hidden="true" class="icon__chevron-left">‹</i>

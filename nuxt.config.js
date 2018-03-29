@@ -2,9 +2,6 @@ const nodeExternals = require('webpack-node-externals')
 const resolve = dir => require('path').join(__dirname, dir)
 
 module.exports = {
-  /*
-  ** Headers of the page
-  */
   head: {
     title: 'Microinteractions',
     meta: [
@@ -27,18 +24,12 @@ module.exports = {
       },
     ],
     link: [
-      // { rel: 'alternate', hreflang: 'de', href: 'https://www.my-url.com/' },
-      // { rel: 'alternate', hreflang: 'en', href: 'https://www.my-url.com/en' },
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'preconnect',
         href: 'href="https://fonts.gstatic.com/',
         crossorigin: 'anonymous',
       },
-      // {
-      //   href: 'https://fonts.googleapis.com/css?family=Alegreya:500,500i,900',
-      //   rel: 'stylesheet',
-      // },
     ],
     script: [
       { src: '/js/medium-zoom.min.js', defer: true },
@@ -48,7 +39,6 @@ module.exports = {
   css: [
     'assets/styles/vuetify-custom/vuetify-custom.styl',
     'assets/styles/alegreya.css',
-    //'assets/styles/main.scss'
   ],
   loading: '~/components/nuxtLoading.vue',
   /*
@@ -124,7 +114,7 @@ module.exports = {
         ],
       ],
     },
-    extractCSS: true,
+    extractCSS: false,
     vendor: ['vuetify'],
     extend(config, ctx) {
       // if (ctx.isDev && ctx.isClient) {
