@@ -127,6 +127,10 @@ module.exports = {
   generate: {
     routes: ['/', '/about'], // these routes will be pre-rendered on "build"
   },
+  render: {
+    resourceHints: false, // don't prefetch+preload pages
+    // http2: { push: true },
+  },
   env: {},
   /*
   ** Markdown-it

@@ -87,7 +87,7 @@ export default {
   // html meta data for page
   head() {
     return {
-      title: 'Microinteractiondesign',
+      title: 'Microinteractions.design',
       meta: [
         {
           hid: 'description',
@@ -99,7 +99,7 @@ export default {
     }
   },
   mounted() {
-    console.log('frontpage mounted')
+    //console.log('frontpage mounted')
   },
 }
 </script>
