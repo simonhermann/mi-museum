@@ -1,3 +1,6 @@
+const nodeExternals = require('webpack-node-externals')
+const resolve = dir => require('path').join(__dirname, dir)
+
 module.exports = {
   /*
   ** Headers of the page
@@ -43,7 +46,7 @@ module.exports = {
     ],
   },
   css: [
-    'assets/styles/vuetify-custom/main.styl',
+    'assets/styles/vuetify-custom/vuetify-custom.styl',
     'assets/styles/alegreya.css',
     //'assets/styles/main.scss'
   ],
@@ -51,30 +54,6 @@ module.exports = {
   /*
   ** Build configuration
   */
-  build: {
-    postcss: [
-      require('postcss-custom-properties')({
-        preserve: true,
-      }),
-      // require('autoprefixer')({
-      //   browsers: ['> 5%'],
-      // }),
-    ],
-    /*
-    ** Run ESLint on save
-    */
-    // extend(config, ctx)
-    //   if (ctx.dev && ctx.isClient) {
-    //     config.module.rules.push({
-    //       enforce: 'pre',
-    //       test: /\.(js|vue)$/,
-    //       // loader: 'eslint-loader',
-    //       exclude: /(node_modules)/,
-    //     })
-    //   }
-    // },
-    vendor: ['vuetify'],
-  },
   router: {
     scrollBehavior: function(to, from, savedPosition) {
       // delay scrolling to top after page change to match fade-out time
@@ -113,23 +92,68 @@ module.exports = {
     {
       test: /\.styl$/,
       loader: 'style-loader!css-loader!stylus-loader',
-      options: { sourceMap: true },
+      options: { sourceMap: false },
     },
   ],
   /*
   ** Plugins
   */
-  plugins: [
-    '~/plugins/vuetify.js',
-    '~/plugins/global.js',
-    //{ src: '~/plugins/medium-zoom.min.js', ssr: false },
-  ],
+  plugins: ['~/plugins/vuetify.js', '~/plugins/global.js'],
+  /*
+  ** build, generate, render
+  */
+  build: {
+    postcss: [
+      require('postcss-custom-properties')({
+        preserve: true,
+      }),
+      // require('autoprefixer')({
+      //   browsers: ['> 5%'],
+      // }),
+    ],
+    babel: {
+      plugins: [
+        [
+          'transform-imports',
+          {
+            vuetify: {
+              transform: 'vuetify/es5/components/${member}',
+              preventFullImport: true,
+            },
+          },
+        ],
+      ],
+    },
+    extractCSS: true,
+    vendor: ['vuetify'],
+    extend(config, ctx) {
+      // if (ctx.isDev && ctx.isClient) {
+      //   config.module.rules.push({
+      //     enforce: 'pre',
+      //     test: /\.(js|vue)$/,
+      //     loader: 'eslint-loader',
+      //     exclude: /(node_modules)/,
+      //   })
+      // }
+
+      if (ctx.isServer) {
+        config.externals = [
+          nodeExternals({
+            whitelist: [/^vuetify/],
+          }),
+        ]
+      }
+    },
+  },
   generate: {
     routes: ['/', '/about'], // these routes will be pre-rendered on "build"
+    minifiy: {
+      removeComments: true,
+    },
   },
   render: {
     resourceHints: false, // don't prefetch+preload pages
-    // http2: { push: true },
+    http2: { push: true },
   },
   env: {},
   /*
