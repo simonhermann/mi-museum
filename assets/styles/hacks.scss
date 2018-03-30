@@ -1,13 +1,15 @@
-
 .medium-zoom--open .medium-zoom-overlay {
   z-index: 100;
-  opacity: 0.9;
-}
-
-body:not(.medium-zoom--open) .medium-zoom-overlay {
-  pointer-events: none;
+  opacity: 0.93;
 }
 
 .medium-zoom--open .medium-zoom-image--open {
   z-index: 101;
 }
+
+// body:not(.medium-zoom--open) .medium-zoom-image--open {
+// display: none;
+// opacity: 0;
+// pointer-events: none;
+// border: 2px dashed red;
+// }

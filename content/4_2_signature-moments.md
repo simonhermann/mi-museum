@@ -16,7 +16,7 @@ Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es
 ![XXXX^[https://dribbble.com/shots/2111739-Pull-To-Refresh] ](/images/signature-moments/pull-to-refresh-planet.gifxx ""){.content-skinny} 
 
 <figure v-lazy-container="{ selector: 'img' }">
-    <img data-src="images/signature-moments/pull-to-refresh-planet.gif" class="content-skinny medium-zoom-image">
+    <img data-src="images/signature-moments/pull-to-refresh-planet.gif" class="content-skinny">
     <figcaption>XXXX</figcaption>
 </figure>
 

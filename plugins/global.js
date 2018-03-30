@@ -27,7 +27,7 @@ Vue.use(VueAffix)
  * initialize DOM-dependent plugins after page change
  */
 const initAfterMount = () => {
-  mediumZoom('img')
+  mediumZoom('.page img:not(.medium-zoom-image)')
   initSmoothScroll(scrollLinkHandler)
 }
 
