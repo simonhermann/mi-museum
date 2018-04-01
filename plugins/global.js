@@ -1,6 +1,6 @@
 import Vue from 'vue'
 
-// disable "development mode" warning (not working, seems to late)
+// disable "development mode" warning (not working)
 Vue.config.productionTip = false
 
 /*
@@ -8,8 +8,8 @@ Vue.config.productionTip = false
  */
 
 // makes a elements scroll, but always stay in viewport [UNUSED]
-import VueAffix from 'vue-affix'
-Vue.use(VueAffix)
+// import VueAffix from 'vue-affix'
+// Vue.use(VueAffix)
 
 // highlights subnav links and make links in subnav scroll smooth to respective anchor [UNUSED]
 // import VueScrollactive from 'vue-scrollactive'

@@ -1,8 +1,32 @@
-.medium-zoom--open .medium-zoom-overlay {
+.medium-zoom-overlay {
+  opacity: 0;
+  background-color: #fff;
   z-index: 100;
-  opacity: 0.93;
+  box-shadow: 0 0 0 0 transparent;
+  transition: box-shadow 300ms ease-out, border-radius 300ms ease-out,
+    opacity 300ms ease-out;
+  border-radius: 0;
+  margin: var(--body-border-width);
+  &::after {
+    content: '✕';
+    color: var(--grey-mid);
+    font-size: 2em;
+    position: absolute;
+    right: 1rem;
+    top: 0;
+  }
+}
+.medium-zoom--open .medium-zoom-overlay {
+  opacity: 1;
+  // background-color: rgba(192,192,192,.93);
+  box-shadow: 0 0 0 5vw var(--color-highlight);
+  border-radius: 1rem;
 }
 
+.medium-zoom-image {
+  z-index: 101;
+  padding: calc(var(--body-border-width) * 2);
+}
 .medium-zoom--open .medium-zoom-image--open {
   z-index: 101;
 }

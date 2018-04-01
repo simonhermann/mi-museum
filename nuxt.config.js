@@ -92,6 +92,7 @@ module.exports = {
   ** Plugins
   */
   plugins: ['~/plugins/vuetify.js', '~/plugins/global.js'],
+  vendor: ['vuetify'],
   /*
   ** build, generate, render
   */
@@ -117,8 +118,7 @@ module.exports = {
         ],
       ],
     },
-    extractCSS: true,
-    vendor: ['vuetify'],
+    extractCSS: false,
     extend(config, ctx) {
       // if (ctx.isDev && ctx.isClient) {
       //   config.module.rules.push({

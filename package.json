@@ -27,7 +27,6 @@
     "markdown-it-smartarrows": "^1.0.1",
     "nuxt": "^1.0.0",
     "postcss-custom-properties": "^7.0.0",
-    "vue-affix": "^0.2.4",
     "vue-scrollactive": "^0.5.3",
     "vuetify": "^1.0.5"
   },

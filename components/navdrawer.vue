@@ -167,9 +167,11 @@
     background-color: transparent;
   }
   &__title {
-    font-weight: bold;
+    color: inherit;
     a {
+      font-weight: bold;
       text-decoration: none;
+      color: inherit;
     }
     @include mq-md {
       display: none;
@@ -255,7 +257,7 @@ export default {
   methods: {
     scrollToTop() {
       smoothScroll(0)
-    }
-  }
+    },
+  },
 }
 </script>
