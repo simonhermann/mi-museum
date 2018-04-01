@@ -28,6 +28,7 @@
   z-index: 3;
   opacity: 0;
   transition: opacity 100ms var(--transition-curve1);
+  background-color: rgb(250, 250, 250);
   html.app-mounted & {
     opacity: 1;
   }
@@ -51,8 +52,10 @@ export default {
   },
   mounted: function() {
     this.$nextTick(function() {
-      const el = document.getElementsByTagName('html')[0]
-      el.classList.add('app-mounted')
+      const el1 = document.getElementsByTagName('html')[0]
+      el1.classList.add('app-mounted')
+      const el2 = document.getElementById('app')
+      el2.classList.remove('theme--light')
     })
   },
 }

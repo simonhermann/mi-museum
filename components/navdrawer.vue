@@ -40,7 +40,8 @@
 
     </v-navigation-drawer>
 
-    <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense flat :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp" color="transparent">
+    <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense :flat="$vuetify.breakpoint.mdAndUp" 
+    :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
 
       <button type="button" class="toolbar__side-icon btn btn--icon" @click="drawer = !drawer" v-if="!drawer" style="position: relative;" aria-label="Menu">
         <div class="btn__content">
@@ -53,21 +54,31 @@
         </div>
       </button>
 
+      <div class="toplink" v-on:click="scrollToTop"></div>
+
+      <v-toolbar-title class="right">
+        <nuxt-link to="/">Microinteractions</nuxt-link>
+      </v-toolbar-title>
+
     </v-toolbar>
 
   </div>
 </template>
 
 <style lang="scss">
+@import '../assets/styles/mixins.scss';
+
 .navigation-drawer {
   padding: 1em 0.5em 2em 2em;
   background-color: transparent !important; //waiting for vuetify to allow theme disableling
   color: var(--color-text-light);
 
-  //overflow: -moz-scrollbars-none;
-  -ms-overflow-style: none;
-  &::-webkit-scrollbar {
-    display: none;
+  &:not(&--is-mobile) {
+    //overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   &--is-mobile {
@@ -137,8 +148,41 @@
     margin-top: 2em;
   }
 }
+/*
+ * Toolbar
+*/
 .toolbar {
-  margin-top: 1rem !important;
+  background-color: rgba(245, 245, 245, 1);
+  @include mq-md {
+    padding-top: 1rem !important;
+  }
+  &__content {
+    background-color: inherit;
+    justify-content: space-between;
+  }
+  &--floating {
+    background-color: transparent !important;
+  }
+  &.elevation-0 {
+    background-color: transparent;
+  }
+  &__title {
+    font-weight: bold;
+    a {
+      text-decoration: none;
+    }
+    @include mq-md {
+      display: none;
+    }
+  }
+  .toplink {
+    flex-grow: 1;
+    height: inherit;
+    display: block;
+    @include mq-md {
+      display: none;
+    }
+  }
 }
 .icon__chevron-left {
   content: '‹';
@@ -154,15 +198,17 @@
   width: 2em;
   margin-top: 0.2em;
 
-  &::after {
-    content: 'Menü';
-    color: inherit;
-    position: absolute;
-    font-size: 1.25em;
-    margin-top: -0.18em;
-    margin-left: 0.4em;
-    display: inline-block;
-    text-transform: none;
+  @include mq-md {
+    &::after {
+      content: 'Menü';
+      color: inherit;
+      position: absolute;
+      font-size: 1.25em;
+      margin-top: -0.18em;
+      margin-left: 0.4em;
+      display: inline-block;
+      text-transform: none;
+    }
   }
 }
 </style>
@@ -206,5 +252,10 @@ export default {
       ],
     }
   },
+  methods: {
+    scrollToTop() {
+      smoothScroll(0)
+    }
+  }
 }
 </script>

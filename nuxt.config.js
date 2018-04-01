@@ -67,6 +67,8 @@ module.exports = {
   },
   modules: [
     '@nuxtjs/markdownit',
+    '@nuxtjs/sitemap',
+    '@nuxtjs/pwa',
     [
       '@nuxtjs/google-analytics',
       {
@@ -166,5 +168,10 @@ module.exports = {
       //['markdown-it-hashmention', { href: 'http://twitter.com' }],
       //'markdown-it-hashmention',
     ],
+  },
+  manifest: {
+    name: 'Microinteractions.design',
+    short_name: 'Microinteractions',
+    lang: 'de',
   },
 }

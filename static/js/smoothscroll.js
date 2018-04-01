@@ -1,3 +1,5 @@
+// https://github.com/alicelieutier/smoothScroll
+
 (function (root, smoothScroll) {
   'use strict';
 
