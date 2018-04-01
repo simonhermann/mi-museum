@@ -29,6 +29,7 @@
   opacity: 0;
   transition: opacity 100ms var(--transition-curve1);
   background-color: rgb(250, 250, 250);
+  border-radius: 1em;
   html.app-mounted & {
     opacity: 1;
   }

@@ -18,6 +18,7 @@ module.exports = {
       { 'http-equiv': 'x-ua-compatible', content: 'ie=edge' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'robots', content: 'index, follow' },
+      { name: 'theme-color', content: '#1e6d0f' },
       {
         name: 'google-site-verification',
         content: 'zFfzzzExdtmkb2XdhzZizsw40H-_tzzYgA0VTGZTqf8',
@@ -171,7 +172,12 @@ module.exports = {
   },
   manifest: {
     name: 'Microinteractions.design',
-    short_name: 'Microinteractions',
+    short_name: 'µ-ix',
     lang: 'de',
+    display: 'standalone',
+    orientation: 'portrait-primary',
+    start_url: '/',
+    background_color: '#fff',
+    theme_color: '#1e6d0f',
   },
 }
