@@ -172,7 +172,7 @@ module.exports = {
   },
   manifest: {
     name: 'Microinteractions.design',
-    short_name: 'µ-ix',
+    short_name: 'Microinteractions',
     lang: 'de',
     display: 'standalone',
     orientation: 'portrait-primary',

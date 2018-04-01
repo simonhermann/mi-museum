@@ -181,6 +181,18 @@
     flex-grow: 1;
     height: inherit;
     display: block;
+    position: relative;
+    &:active {
+      background: var(--grey-vlight);
+      &::after {
+        content: '⤒';
+        font-size: 2rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    }
     @include mq-md {
       display: none;
     }
