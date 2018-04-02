@@ -26,6 +26,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'preconnect',
         href: 'href="https://fonts.gstatic.com/',
@@ -139,7 +140,7 @@ module.exports = {
     },
   },
   generate: {
-    routes: ['/', '/about'], // these routes will be pre-rendered on "build"
+    routes: ['/', '/about'], // ?
     minifiy: {
       removeComments: true,
     },

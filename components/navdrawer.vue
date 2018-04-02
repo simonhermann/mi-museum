@@ -112,7 +112,7 @@
       text-decoration: none;
     }
     transition: all 300ms var(--transition-curve1);
-    color: inherit;
+    color: inherit; // vuetify hack XXXX
     &::before {
       content: '›';
       color: transparent;
@@ -170,11 +170,11 @@
     background-color: transparent;
   }
   &__title {
-    color: inherit;
+    color: inherit; // vuetify hack XXXX
     a {
       font-weight: bold;
       text-decoration: none;
-      color: inherit;
+      color: inherit; // vuetify hack XXXX
     }
     @include mq-md {
       display: none;

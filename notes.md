@@ -1,40 +1,41 @@
+# To Do:
 
-
-## TODO:
-
-- [ ] bug: klick auf medium-zoom-overlay schließt zoom nicht
-- [ ] vuetify a-la-carte components
-- [ ] update vuetify to enable deactivation of theme
+## Content
+- [ ] Impressum+About
+- [ ] Icons für Trigger/Rules/usw
 - [ ] Konzept f. Darstellung MIs
 - [ ] Timeline?
-- [ ] Icons für Trigger/Rules/usw
+- [ ] Meta desicription
+
+## Featues
 - [ ] Kapitel-Fortschrittsbalken?
 - [ ] oben: vorheriges Kapitel?
-- [ ] vue-lazyload images
-- [ ] add noreferrer noopener _blank to external links (https://github.com/Va1/string-replace-loader ?)
-- [ ] obtimize images https://github.com/Klathmon/imagemin-webpack-plugin
-- [ ] less FOUT/FOIT https://css-tricks.com/font-display-masses/
-
-- [ ] sollte menu drawer zu Beginn geöffnet sein?
-- [ ] prev + next links
 - [ ] dynamische Rahmenfarbe
-- [ ] Impressum+About
 - [ ] Footer? 
-- [ ] favicon
 - [ ] foldable footnotes?
+
+## Bugs
 - [ ] Bug: Bilderquellen in figcaption
 
-- [ ] Meta desicription
-- [ ] Anmeldung VGWort https://tom.vgwort.de/portal/index
+## Technical
+- [ ] upgrade to nuxt 2 https://medium.com/nuxt/nuxt-2-is-coming-oh-yeah-212c1a9e1a67
+- [ ] update vuetify to enable deactivation of theme
+- [ ] vue-lazyload images
+- [ ] obtimize images https://github.com/Klathmon/imagemin-webpack-plugin
+- [ ] add purgeCSS to strip unused styles https://github.com/FullHuman/purgecss/tree/master/examples/with-nuxt
+- [ ] add noreferrer noopener _blank to external links (https://github.com/Va1/string-replace-loader ?)
 
 
-
+## Ideas
 - Vue Stagger https://codepen.io/dizzyluo/pen/yJLwWm
 - 3D Parallax https://codepen.io/futekov/pen/JLGDr
 
+## Misc
+- [ ] Anmeldung VGWort https://tom.vgwort.de/portal/index
+
 
 -----
-Done/not now:
+## Done/not now:
 
 - [ ] Layout für Bilder in Text
 - [x] target blank für externe Links

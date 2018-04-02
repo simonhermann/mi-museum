@@ -35,7 +35,7 @@
   }
 }
 .container {
-  transition: all 500ms var(--transition-curve1);
+  transition: all 800ms var(--transition-curve1);
   transform: translate(0, -1em);
   html.app-mounted & {
     transform: translate(0, 0);
@@ -56,7 +56,7 @@ export default {
       const el1 = document.getElementsByTagName('html')[0]
       el1.classList.add('app-mounted')
       const el2 = document.getElementById('app')
-      el2.classList.remove('theme--light')
+      el2.classList.remove('theme--light') // vuetify hack XXXX
     })
   },
 }

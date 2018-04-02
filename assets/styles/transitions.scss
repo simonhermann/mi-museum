@@ -3,10 +3,10 @@
 */
 
 .page-leave-active {
-  transition: all 0.25s var(--transition-curve1);
+  transition: all 230ms var(--transition-curve1);
 }
 .page-enter-active {
-  transition: all 0.35s var(--transition-curve1);
+  transition: all 330ms var(--transition-curve1);
 }
 .page-enter {
   opacity: 0;

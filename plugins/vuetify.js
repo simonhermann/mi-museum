@@ -1,22 +1,14 @@
 // Vuetify framework
 import Vue from 'vue'
-// import Vuetify from 'vuetify'
-// Vue.use(Vuetify)
-// Vue.use(Vuetify, {
-//   theme: false,
-// })
 
 import {
   Vuetify,
   VApp,
   VCard,
   VNavigationDrawer,
-  VList,
   VBtn,
-  VIcon,
   VGrid,
   VToolbar,
-  // transitions,
 } from 'vuetify'
 
 Vue.use(Vuetify, {
@@ -24,12 +16,9 @@ Vue.use(Vuetify, {
     VApp,
     VCard,
     VNavigationDrawer,
-    VList,
     VBtn,
-    VIcon,
     VGrid,
     VToolbar,
-    // transitions,
   },
   theme: false,
   // theme: {

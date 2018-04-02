@@ -1,10 +1,14 @@
+body a {
+  color: inherit; // vuetify hack XXXX
+}
+
 .medium-zoom-overlay {
   opacity: 0;
   background-color: #fff;
   z-index: 100;
   box-shadow: 0 0 0 0 transparent;
   transition: box-shadow 250ms var(--transition-curve1),
-    border-radius 400ms var(--transition-curve1),
+    border-radius 500ms var(--transition-curve1),
     opacity 300ms var(--transition-curve1);
   border-radius: 0;
   margin: var(--body-border-width);
@@ -15,6 +19,7 @@
     position: absolute;
     right: 1rem;
     top: 0;
+    cursor: pointer;
   }
 }
 .medium-zoom--open .medium-zoom-overlay {
