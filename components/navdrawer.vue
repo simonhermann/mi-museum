@@ -73,6 +73,9 @@
   background-color: transparent !important; //waiting for vuetify to allow theme disableling
   color: var(--color-text-light);
 
+  @extend .ex-nice-scrollbar;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
   &:not(&--is-mobile) {
     //overflow: -moz-scrollbars-none;
     -ms-overflow-style: none;

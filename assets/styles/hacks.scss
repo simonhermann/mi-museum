@@ -3,8 +3,9 @@
   background-color: #fff;
   z-index: 100;
   box-shadow: 0 0 0 0 transparent;
-  transition: box-shadow 300ms ease-out, border-radius 300ms ease-out,
-    opacity 300ms ease-out;
+  transition: box-shadow 250ms var(--transition-curve1),
+    border-radius 400ms var(--transition-curve1),
+    opacity 300ms var(--transition-curve1);
   border-radius: 0;
   margin: var(--body-border-width);
   &::after {

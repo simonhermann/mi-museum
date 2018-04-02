@@ -16,7 +16,7 @@ import {
   VIcon,
   VGrid,
   VToolbar,
-  transitions,
+  // transitions,
 } from 'vuetify'
 
 Vue.use(Vuetify, {
@@ -29,7 +29,7 @@ Vue.use(Vuetify, {
     VIcon,
     VGrid,
     VToolbar,
-    transitions,
+    // transitions,
   },
   theme: false,
   // theme: {
