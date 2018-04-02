@@ -18,15 +18,34 @@ module.exports = {
       { 'http-equiv': 'x-ua-compatible', content: 'ie=edge' },
       { name: 'format-detection', content: 'telephone=no' },
       { name: 'robots', content: 'index, follow' },
-      { name: 'theme-color', content: '#1e6d0f' },
       {
         name: 'google-site-verification',
         content: 'zFfzzzExdtmkb2XdhzZizsw40H-_tzzYgA0VTGZTqf8',
       },
+      { name: 'theme-color', content: '#1e6d0f' },
+      { name: 'msapplication-TileColor', content: '#00a300' },
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico?v=3' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=3' },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '32x32',
+        href: '/favicon-32x32.png',
+      },
+      {
+        rel: 'icon',
+        type: 'image/png',
+        sizes: '16x16',
+        href: '/favicon-16x16.png',
+      },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#1e6d0f' },
+      {
+        rel: 'apple-touch-icon',
+        href: '/apple-touch-icon.png',
+        sizes: '180x180',
+      },
       {
         rel: 'preconnect',
         href: 'href="https://fonts.gstatic.com/',
