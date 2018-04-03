@@ -30,7 +30,7 @@ export default {
         // fails for external links that contain the string "#fn" 
         event.preventDefault()
         // open all external links in new tab:
-        return window.open(event.target)
+        return window.open(href, '_blank')
       }
     },
     addListeners() {

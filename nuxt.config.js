@@ -26,8 +26,8 @@ module.exports = {
       { name: 'msapplication-TileColor', content: '#00a300' },
     ],
     link: [
-      { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico?v=3' },
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v=3' },
+      { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'icon',
         type: 'image/png',
