@@ -1,8 +1,8 @@
 <template>
 <div class="page page-home">
   <header class="page-home__header content-narrow">
-      <h1 class="page-home__title">Micro&shy;interactions</h1>
-      <p class="page-home__subtitle">Geniale Subhead, die Microinteractions zusammenfasst</p>
+    <h1 class="page-home__title">Micro&shy;interactions</h1>
+    <p class="page-home__subtitle">Geniale Subhead, die Microinteractions zusammenfasst</p>
   </header>
 
   <!-- intro text -->
@@ -23,11 +23,16 @@
 
       <tile link="history" topline="" heading="Historie" text="Eine kurze Geschichte der Mensch-Maschine-Interaktion"></tile>
       <v-flex align-start class="o-tile" xs12 sm6></v-flex>
+    </v-layout>
 
+    <div class="spacer2"></div>
+    <h2>Beispiele für grundlegende Microinteractions</h2>
+
+    <v-layout row wrap>
       <tile link="skeuomorphism" topline="" heading="Skeuomorphismus" text=""></tile>
       <tile link="animation" topline="" heading="Animation" text=""></tile>
-
     </v-layout>
+
   </v-container>
   <div class="spacer4"></div>
   <v-container style="padding: 0;" grid-list-md>

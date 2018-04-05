@@ -6,5 +6,5 @@
 - Principle http://principleformac.com
 - Adobe After Effects
 - ProtoPie
-- Invision
+- Invision Studio
 - ...

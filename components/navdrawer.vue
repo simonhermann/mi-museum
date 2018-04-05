@@ -23,7 +23,7 @@
         </li>
       </ul>
 
-      <p><b>(ausprobieren)</b></p>
+      <p><b>Grundlegende Beispiele</b></p>
       <ul class="nav-ul">
         <li class="nav-li" :key="i" v-for="(practicePage, i) in practicePages">
           <nuxt-link class="nav-link" :to="practicePage.to">
