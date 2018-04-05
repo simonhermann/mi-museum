@@ -35,27 +35,26 @@
     <h2>Beispiele für grundlegende Microinteractions</h2>
 
     <v-layout row wrap>
-      <tile link="buttons" topline="" heading="Buttons" text=""></tile>
+      <tile link="mi/buttons" topline="" heading="Buttons" text=""></tile>
     </v-layout>
-    
+
   </v-container>
 
   <div class="spacer16"></div>
 
-  <!-- cards with teaser to MIs -->
-
-  <!-- footer -->
+  <!-- footer? -->
 
 </div>
 </template>
 
 <style lang="scss">
-@import './assets/styles/mixins.scss';
+@import "./assets/styles/mixins.scss";
 
 .page-home {
+  margin-top: 16vh;
   &__title {
     font-size: 3em;
-    margin: 20vh 0 0.1em 0;
+    margin-bottom: 0.1em;
 
     @include mq-md {
       font-size: 4em;
@@ -70,40 +69,40 @@
 </style>
 
 <script>
-import tile from '~/components/obj/tile.vue'
-import text01 from '~/content/1_1_homepage.md'
-import HtmlParser from '~/components/HtmlParser.vue'
+import tile from "~/components/obj/tile.vue";
+import text01 from "~/content/1_1_homepage.md";
+import HtmlParser from "~/components/HtmlParser.vue";
 
 export default {
   data() {
-    return {}
+    return {};
   },
   components: {
     tile: tile,
-    HtmlParser,
+    HtmlParser
   },
   computed: {
     text01() {
-      return text01
-    },
+      return text01;
+    }
   },
 
   // html meta data for page
   head() {
     return {
-      title: 'Microinteractions.design',
+      title: "Microinteractions.design",
       meta: [
         {
-          hid: 'description',
-          name: 'description',
+          hid: "description",
+          name: "description",
           content:
-            'Geschichte und Zukunft der kleinsten Bausteine im Interactiondesign',
-        },
-      ],
-    }
+            "Geschichte und Zukunft der kleinsten Bausteine im Interactiondesign"
+        }
+      ]
+    };
   },
   mounted() {
     //console.log('frontpage mounted')
-  },
-}
+  }
+};
 </script>

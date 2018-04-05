@@ -4,8 +4,15 @@
 
 .standout {
   background: var(--grey-light);
-  padding: .5em;
+  margin-top: 1em;
+  padding: 1em;
   border-radius: .5em;
+  *:first-child {
+    margin-top: 0;
+  }
+  *:last-child {
+    margin-bottom: 0;
+  }
 }
 
 .footnotes-sep {
