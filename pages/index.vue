@@ -23,22 +23,21 @@
 
       <tile link="history" topline="" heading="Historie" text="Eine kurze Geschichte der Mensch-Maschine-Interaktion"></tile>
       <v-flex align-start class="o-tile" xs12 sm6></v-flex>
-    </v-layout>
 
-    <div class="spacer2"></div>
-    <h2>Beispiele für grundlegende Microinteractions</h2>
-
-    <v-layout row wrap>
       <tile link="skeuomorphism" topline="" heading="Skeuomorphismus" text=""></tile>
       <tile link="animation" topline="" heading="Animation" text=""></tile>
     </v-layout>
-
   </v-container>
+
   <div class="spacer4"></div>
+
   <v-container style="padding: 0;" grid-list-md>
+    <h2>Beispiele für grundlegende Microinteractions</h2>
+
     <v-layout row wrap>
       <tile link="buttons" topline="" heading="Buttons" text=""></tile>
     </v-layout>
+    
   </v-container>
 
   <div class="spacer16"></div>
