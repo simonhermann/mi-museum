@@ -91,13 +91,6 @@ module.exports = {
     '@nuxtjs/sitemap',
     '@nuxtjs/pwa',
     '@nuxtjs/google-analytics',
-    {
-      id: 'UA-116314873-1',
-      debug: {
-        // disable in ga in development
-        sendHitTask: process.env.NODE_ENV === 'production',
-      },
-    },
   ],
   loaders: [
     {
@@ -202,5 +195,12 @@ module.exports = {
     hostname: 'https://www.microinteractions.design',
     exclude: ['/scrapyard'],
     generate: true,
+  },
+  'google-analytics': {
+    id: 'UA-116314873-1',
+    debug: {
+      // disable in ga in development
+      sendHitTask: process.env.NODE_ENV === 'production',
+    },
   },
 };
