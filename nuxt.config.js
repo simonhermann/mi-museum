@@ -203,8 +203,7 @@ module.exports = {
   sitemap: {
     path: '/sitemap.xml',
     hostname: 'https://www.microinteractions.design',
-    exclude: [
-      '/scrapyard'
-    ]
+    exclude: ['/scrapyard'],
+    generate: true,
   },
 };
