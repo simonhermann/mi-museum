@@ -198,9 +198,9 @@ module.exports = {
   },
   'google-analytics': {
     id: 'UA-116314873-1',
-    debug: {
-      // disable in ga in development
-      sendHitTask: process.env.NODE_ENV === 'production',
-    },
+    // debug: {
+    //   // disable in ga in development
+    //   sendHitTask: process.env.NODE_ENV === 'production',
+    // },
   },
 };
