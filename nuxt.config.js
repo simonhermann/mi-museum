@@ -198,8 +198,8 @@ module.exports = {
   },
   'google-analytics': {
     id: 'UA-116314873-1',
-    // debug: {
-    //   sendHitTask: false, // disable in ga in development mode - not working, conflict with generate command? XXXX
-    // },
+    debug: {
+      sendHitTask: false, // disable in ga in development mode - conflict with generate command? XXXX
+    },
   },
 };
