@@ -2,7 +2,7 @@
   <div>
     <v-navigation-drawer v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
      
-      <button type="button" class="btn btn--icon" @click="drawer = !drawer" style="margin-left:-1em" aria-label="Close">
+      <button type="button" class="btn btn--icon" @click="drawer = !drawer" style="margin-left:-1em" aria-label="Close" tabindex="0">
         <div class="btn__content">
           <i aria-hidden="true" class="icon__chevron-left">‹</i>
         </div>
@@ -43,7 +43,7 @@
     <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense :flat="$vuetify.breakpoint.mdAndUp" 
     :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
 
-      <button type="button" class="toolbar__side-icon btn btn--icon" @click="drawer = !drawer" v-if="!drawer" style="position: relative;" aria-label="Menu">
+      <button type="button" class="toolbar__side-icon btn btn--icon btn__menu" :class="{ transparent : drawer }" @click="drawer = !drawer" style="position: relative;" aria-label="Menu" tabindex="0">
         <div class="btn__content">
           <i class="icon__menu">
             <svg fill="#424242" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -66,7 +66,7 @@
 </template>
 
 <style lang="scss">
-@import '../assets/styles/mixins.scss';
+@import "../assets/styles/mixins.scss";
 
 .navigation-drawer {
   padding: 1em 0.5em 2em 2em;
@@ -87,7 +87,14 @@
   &--is-mobile {
     background-color: #fff !important;
   }
-
+  .icon__chevron-left {
+    content: "‹";
+    color: inherit;
+    font-size: 3em;
+    line-height: 3em;
+    display: block;
+    margin-top: -0.27em;
+  }
   .nav-homelink {
     text-decoration: none;
     display: inline-block;
@@ -114,7 +121,7 @@
     transition: all 300ms var(--transition-curve1);
     color: inherit; // vuetify hack XXXX
     &::before {
-      content: '›';
+      content: "›";
       color: transparent;
       transition: margin 200ms var(--transition-curve1);
       text-decoration: none !important;
@@ -162,6 +169,32 @@
   &__content {
     background-color: inherit;
     justify-content: space-between;
+
+    .btn__menu {
+      transition: opacity 150ms ease-out;
+      &.transparent {
+        opacity: 0;
+      }
+      .icon__menu {
+        color: inherit;
+        height: 2em;
+        width: 2em;
+        margin-top: 0.2em;
+
+        @include mq-md {
+          &::after {
+            content: "Menü";
+            color: inherit;
+            position: absolute;
+            font-size: 1.25em;
+            margin-top: -0.18em;
+            margin-left: 0.4em;
+            display: inline-block;
+            text-transform: none;
+          }
+        }
+      }
+    }
   }
   &--floating {
     background-color: transparent !important;
@@ -188,7 +221,7 @@
     &:active {
       background: var(--grey-vlight);
       &::after {
-        content: '⤒';
+        content: "⤒";
         font-size: 2rem;
         position: absolute;
         top: 50%;
@@ -201,33 +234,6 @@
     }
   }
 }
-.icon__chevron-left {
-  content: '‹';
-  color: inherit;
-  font-size: 3em;
-  line-height: 3em;
-  display: block;
-  margin-top: -0.27em;
-}
-.icon__menu {
-  color: inherit;
-  height: 2em;
-  width: 2em;
-  margin-top: 0.2em;
-
-  @include mq-md {
-    &::after {
-      content: 'Menü';
-      color: inherit;
-      position: absolute;
-      font-size: 1.25em;
-      margin-top: -0.18em;
-      margin-left: 0.4em;
-      display: inline-block;
-      text-transform: none;
-    }
-  }
-}
 </style>
 
 <script>
@@ -236,43 +242,43 @@ export default {
     return {
       drawer: false, // set to false in production, undefined=open on bigger screens
       theoryPages: [
-        { title: 'Vorwort', to: '/preface' },
+        { title: "Vorwort", to: "/preface" },
         {
-          title: 'Was sind Microinteractions?',
-          to: '/what-are-microinteractions',
+          title: "Was sind Microinteractions?",
+          to: "/what-are-microinteractions"
         },
-        { title: 'Auslöser', to: '/triggers' },
-        { title: 'Regeln', to: '/rules' },
-        { title: 'Rückmeldung', to: '/feedback' },
-        { title: 'Schleifen und Modi', to: '/loops-and-modes' },
-        { title: 'Historie', to: '/history' },
-        { title: 'Skeuomorphismus', to: '/skeuomorphism' },
-        { title: 'Signature Moments', to: '/signature-moments' },
-        { title: 'Animation', to: '/animation' },
+        { title: "Auslöser", to: "/triggers" },
+        { title: "Regeln", to: "/rules" },
+        { title: "Rückmeldung", to: "/feedback" },
+        { title: "Schleifen und Modi", to: "/loops-and-modes" },
+        { title: "Historie", to: "/history" },
+        { title: "Skeuomorphismus", to: "/skeuomorphism" },
+        { title: "Signature Moments", to: "/signature-moments" },
+        { title: "Animation", to: "/animation" },
         //{ title: '_article', to: '/article' },
-        { title: '_scrap', to: '/scrapyard' },
+        { title: "_scrap", to: "/scrapyard" }
       ],
       practicePages: [
-        { title: 'buttons', to: '/mi/buttons' },
-        { title: 'Pull-to-refresh', to: '/mi/' },
-        { title: 'Fenster', to: '/mi/' },
-        { title: 'Copy & Paste', to: '/mi/' },
-        { title: 'Drag & Drop', to: '/mi/' },
-        { title: 'Rückgängig (undo) & Wiederholen (redo)', to: '/mi/' },
-        { title: 'Switch (Kipp-Schalter)', to: '/mi/' },
-        { title: 'Radiobutton', to: '/mi/' },
-        { title: 'Checkbox', to: '/mi/' },
-        { title: 'Hover', to: '/mi/' },
-        { title: 'Zoom', to: '/mi/' },
-        { title: 'Handlebars', to: '/mi/' },
-        { title: 'xyz', to: '/mi/' },
-      ],
-    }
+        { title: "buttons", to: "/mi/buttons" },
+        { title: "Pull-to-refresh", to: "/mi/" },
+        { title: "Fenster", to: "/mi/" },
+        { title: "Copy & Paste", to: "/mi/" },
+        { title: "Drag & Drop", to: "/mi/" },
+        { title: "Rückgängig (undo) & Wiederholen (redo)", to: "/mi/" },
+        { title: "Switch (Kipp-Schalter)", to: "/mi/" },
+        { title: "Radiobutton", to: "/mi/" },
+        { title: "Checkbox", to: "/mi/" },
+        { title: "Hover", to: "/mi/" },
+        { title: "Zoom", to: "/mi/" },
+        { title: "Handlebars", to: "/mi/" },
+        { title: "xyz", to: "/mi/" }
+      ]
+    };
   },
   methods: {
     scrollToTop() {
-      smoothScroll(0)
-    },
-  },
-}
+      smoothScroll(0);
+    }
+  }
+};
 </script>

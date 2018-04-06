@@ -2,7 +2,9 @@
 <div class="page page-home">
   <header class="page-home__header content-narrow">
     <h1 class="page-home__title">Micro&shy;interactions</h1>
-    <p class="page-home__subtitle">Geniale Subhead, die Microinteractions zusammenfasst</p>
+    <p class="page-home__subtitle">
+      <span style="font-style: italic; color:darkred;">Work in progress, please come back later</span>
+    </p>
   </header>
 
   <!-- intro text -->
