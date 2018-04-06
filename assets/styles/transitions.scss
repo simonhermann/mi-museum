@@ -11,10 +11,14 @@
 .page-enter {
   opacity: 0;
   transform: translate(0, -1em);
-  @media screen and (prefers-reduced-motion: reduce) {
+  @include reduced-motion {
     transform: translate(0, 0);
   }
 }
 .page-leave-to {
   opacity: 0;
+  transform: translate(0, 0.3em);
+  @include reduced-motion {
+    transform: translate(0, 0);
+  }
 }

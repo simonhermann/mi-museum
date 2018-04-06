@@ -28,6 +28,12 @@ $xl-width: (1920px - 16px);
   }
 }
 
+@mixin reduced-motion {
+  @media screen and (prefers-reduced-motion: reduce) {
+    @content;
+  }
+}
+
 @mixin mq-md {
   @media (min-width: #{$md-width}) {
     @content;
