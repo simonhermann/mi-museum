@@ -16,15 +16,16 @@
 
 ## Bugs
 - [ ] Bug: Bilderquellen in figcaption
-- [ ] prevent keybeard access (tabindex) in navdrawer if drawer is open
 
 ## Technical
+- [ ] prevent keybeard access (tabindex) in navdrawer if drawer is open
 - [ ] upgrade to nuxt 2 https://medium.com/nuxt/nuxt-2-is-coming-oh-yeah-212c1a9e1a67
 - [ ] update vuetify to enable deactivation of theme
 - [ ] vue-lazyload images
 - [ ] obtimize images https://github.com/Klathmon/imagemin-webpack-plugin
 - [ ] add purgeCSS to strip unused styles https://github.com/FullHuman/purgecss/tree/master/examples/with-nuxt
-- [ ] add noreferrer noopener _blank to external links (https://github.com/Va1/string-replace-loader ?)
+- [ ] add noreferrer noopener _blank to external links 
+- [ ] (https://github.com/Va1/string-replace-loader ?)
 
 
 ## Ideas
@@ -33,6 +34,7 @@
 
 ## Misc
 - [ ] Anmeldung VGWort https://tom.vgwort.de/portal/index
+- [ ] remove scrapyard page
 
 
 -----

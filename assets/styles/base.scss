@@ -51,13 +51,14 @@ a:hover {
 }
 a:focus {
   outline-style: dotted;
-  outline-color: currentColor;
+  color: var(--color-highlight);
   outline-offset: 2px;
   outline-width: 1px;
 }
 a:active {
+  text-decoration: none;
   outline-style: dotted;
-  outline-color: currentColor;
+  color: var(--color-highlight);
   outline-offset: 2px;
   outline-width: 2px;
 }

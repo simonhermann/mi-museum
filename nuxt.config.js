@@ -1,5 +1,5 @@
-const nodeExternals = require('webpack-node-externals')
-const resolve = dir => require('path').join(__dirname, dir)
+const nodeExternals = require('webpack-node-externals');
+const resolve = dir => require('path').join(__dirname, dir);
 
 module.exports = {
   head: {
@@ -73,10 +73,10 @@ module.exports = {
           // do nothing if the link is a page-internal anchor
         } else {
           setTimeout(() => {
-            resolve({ x: 0, y: 0 })
-          }, 250)
+            resolve({ x: 0, y: 0 });
+          }, 250);
         }
-      })
+      });
     },
   },
   transition: {
@@ -154,7 +154,7 @@ module.exports = {
           nodeExternals({
             whitelist: [/^vuetify/],
           }),
-        ]
+        ];
       }
     },
   },
@@ -170,7 +170,7 @@ module.exports = {
   },
   env: {},
   /*
-  ** Markdown-it
+  ** Extension options
   */
   markdownit: {
     preset: 'default',
@@ -200,4 +200,11 @@ module.exports = {
     background_color: '#fff',
     theme_color: '#1e6d0f',
   },
-}
+  sitemap: {
+    path: '/sitemap.xml',
+    hostname: 'https://www.microinteractions.design',
+    exclude: [
+      '/scrapyard'
+    ]
+  },
+};

@@ -2,7 +2,7 @@
 
 > The difference between a good product and a great one are its details
 
-Dan Saffer schuf mit dem Buch [*Microinteractions - Designing with Details*](http://microinteractions.com/about-the-book/)  die Grundlage für den breiten Diskurs über Mikro-Interaktionen. Erschienen ist es bereits im Mai 2013, der Großteil der Branche wurde meines Wissens nach aber erst Anfang 2015 auf das Thema aufmerksam.
+Dan Saffer schuf mit dem Buch _[Microinteractions - Designing with Details](http://microinteractions.com/about-the-book/)_  die Grundlage für den breiten Diskurs über Mikro-Interaktionen. Erschienen ist es bereits im Mai 2013, der Großteil der Branche wurde meines Wissens nach aber erst Anfang 2015 auf das Thema aufmerksam.
 
 Doch auch vor Saffer wurde das Thema bereits behandelt, beispielsweise hielt Jeannie Walters bereits 2012 Vorträge dazu ^[@walters12]. Sie legt den Fokus jedoch haupsächlich auf die in Benutzoberflächen genutzte Sprache, und wie diese die Beuntzererfahrung ruinieren kann.
 Beispielsweise die Fehlermeldung "You entered incorrect logon information." (etwa: Sie haben falsche Anmelde-Daten eingegeben.)

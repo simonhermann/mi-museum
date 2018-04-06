@@ -114,7 +114,11 @@
   .nav-link {
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0);
-    // hack for Edge:
+    // hack for Safari:
+    @supports not (text-decoration-color:  rgba(0, 0, 0, 0)) {
+      text-decoration: none;
+    }
+    // hack for Edge - obolete?:
     @supports (-ms-ime-align: auto) {
       text-decoration: none;
     }
@@ -256,7 +260,7 @@ export default {
         { title: "Signature Moments", to: "/signature-moments" },
         { title: "Animation", to: "/animation" },
         //{ title: '_article', to: '/article' },
-        { title: "_scrap", to: "/scrapyard" }
+        //{ title: "_scrap", to: "/scrapyard" }
       ],
       practicePages: [
         { title: "buttons", to: "/mi/buttons" },
