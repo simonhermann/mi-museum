@@ -90,16 +90,14 @@ module.exports = {
     '@nuxtjs/markdownit',
     '@nuxtjs/sitemap',
     '@nuxtjs/pwa',
-    [
-      '@nuxtjs/google-analytics',
-      {
-        id: 'UA-116314873-1',
-        debug: {
-          // disable in ga in development
-          sendHitTask: process.env.NODE_ENV === 'production',
-        },
+    '@nuxtjs/google-analytics',
+    {
+      id: 'UA-116314873-1',
+      debug: {
+        // disable in ga in development
+        sendHitTask: process.env.NODE_ENV === 'production',
       },
-    ],
+    },
   ],
   loaders: [
     {
@@ -201,7 +199,6 @@ module.exports = {
     theme_color: '#1e6d0f',
   },
   sitemap: {
-    path: '/sitemap.xml',
     hostname: 'https://www.microinteractions.design',
     exclude: ['/scrapyard'],
     generate: true,
