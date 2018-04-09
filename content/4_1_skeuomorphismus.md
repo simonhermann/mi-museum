@@ -6,11 +6,13 @@ Ein Digitaler Schalter sah genau aus wie sein physisches Vorbild und verhielt si
 <figure class="content-skinny">
     <img src="/images/skeuomorphismus/switchanimation.gif">
     <figcaption>Skeumorphistische Darstellung eines Kippschalters
-    <sup><a href="https://dribbble.com/shots/787974-Switch-Animation">Quelle</a></sup>
+    <sup>
+        <a href="https://dribbble.com/shots/787974-Switch-Animation">Quelle</a>
+    </sup>
     </figcaption>
 </figure>
 
-Während der visuelle heute oft Bezug nur noch zu erahnen ist, bleiben doch die [Regeln](/rules) digitaler Interaktionen meist nahe an XXXX
+Während der visuelle heute oft Bezug nur noch zu erahnen ist, bleiben doch die [Regeln](/rules) digitaler Interaktionen meist nahe an an den Regeln ihrer gegenständlichen Equivalente.
 Die Regeln der uns Menschen seit Jahrtausenden umgebenden Welt haben sich so in unser unterbewusstsein eingeprägt, dass diese unmöglich zu ignorieren sind. Aus diesem Grund könnte man sich als Designer die Frage stellen:
 ==_Wie würde diese Interaktionen funktionieren, fände sie nicht in der digitalen Welt statt?_==
 Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction sinnvoll erscheinen, kann davon ausgegangen werden, dass sie unserem intuitiven Verständnis von Konzepten wie Schwerkraft, Material, Bewegung, Trägheit, usw. nicht wiederspricht. Besonders zu beachten sind diese "Naturgesetze" bei der Gestaltung von [Animation](/animation).
@@ -20,7 +22,7 @@ Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction s
     <figcaption>Der Papierkorb besteht seit den Anfängen von Windows ohne Änderung der Regeln. Gefüllter Zustand aus Windows 95 (links) und Entleerter Zustand aus Windows 10 (rechts) </figcaption>
 </figure>
 
-Bei der Entwicklung von neuartigen Interaktionsmedien, ist zu beobachten, dass wieder vermehrt auf Skeumorphistische Prinzipien zurückgegriffen wird. Aktuelles Beispiel hierfür sind sprachgesteuerte digitale Assistenten wie Apple Siri, Google Now, Amazon Echo und Co. Hier wird angestrebt, die "Unterhaltung" möglichst einer Unterhaltung von Mensch zu Mensch nachzuempfinden, während eine visuelle Benutzeroberfläche (wenn überhaupt) nur unterstützende Funktion hat. Zusätzliche Hürde sind also nicht nur Wahrnehmung, Verständnis und Einhaltung von Gepflogenheiten menschlicher Umgebungen, sondern die Nachbildung des menschlichen Verstandes selbst. Während sich einzelne Sätze der dieser KI-Systeme im Jahre 2018 kaum noch als künstlich erkennen lassen, macht der oft mangelnde Kontext eine natürliche Unterhaltung unmöglich.^[vgl. [The Voice Assistant Battle! (2017) - MKBHD](https://youtu.be/BkpAro4zIwU)]
+Bei der Entwicklung von neuartigen Interaktionsmedien, ist zu beobachten, dass wieder vermehrt auf Skeumorphistische Prinzipien zurückgegriffen wird. Aktuelles Beispiel hierfür sind sprachgesteuerte digitale Assistenten wie Apple Siri, Google Now, Amazon Echo und Co. Hier wird angestrebt, die "Unterhaltung" möglichst einer Unterhaltung von Mensch zu Mensch nachzuempfinden, während eine visuelle Benutzeroberfläche (wenn überhaupt) nur unterstützende Funktion hat. Zusätzliche Hürde sind also nicht nur Wahrnehmung, Verständnis und Einhaltung von Gepflogenheiten menschlicher Umgebungen, sondern die Nachbildung des menschlichen Verstandes selbst. Während sich einzelne Sätze der dieser KI-Systeme im Jahre 2018 kaum noch als künstlich erkennen lassen, macht der oft mangelnde Kontext eine natürliche Unterhaltung unmöglich.^[vgl. [The Voice Assistant Battle! (2017) - MKBHD/youtube](https://youtu.be/BkpAro4zIwU)]
 
 XXXX uncanny valley
 

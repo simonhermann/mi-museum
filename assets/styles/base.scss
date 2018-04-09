@@ -211,3 +211,8 @@ kbd {
   padding: 0 3px;
   box-shadow: 0px 0px 0px 1px rgb(117, 117, 117) inset;
 }
+
+mark {
+  background-color: var(--green-trans);;
+  color: inherit;
+}

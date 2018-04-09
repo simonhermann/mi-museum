@@ -15,7 +15,7 @@
         <figcaption>XXXX</figcaption>
     </figure> -->
 
-    <nextPage link="/XXX" heading="XXX"></nextPage>
+    <nextPage link="/animation" heading="Animation"></nextPage>
   </div>
 </template>
 

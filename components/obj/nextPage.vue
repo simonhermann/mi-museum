@@ -15,7 +15,7 @@
   width: 100%;
   height: 5em;
   box-sizing: border-box;
-  text-align: right;
+  text-align: center;
   transition: all 0.2s ease-out;
   color: var(--color-text);
   text-decoration: none;
