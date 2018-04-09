@@ -73,10 +73,10 @@ module.exports = {
           // do nothing if the link is a page-internal anchor
         } else {
           setTimeout(() => {
-            resolve({ x: 0, y: 0 });
-          }, 250);
+            resolve({ x: 0, y: 0 })
+          }, 250)
         }
-      });
+      })
     },
   },
   transition: {
@@ -145,7 +145,7 @@ module.exports = {
           nodeExternals({
             whitelist: [/^vuetify/],
           }),
-        ];
+        ]
       }
     },
   },
@@ -166,8 +166,6 @@ module.exports = {
   markdownit: {
     preset: 'default',
     breaks: true, // Convert '\n' in paragraphs into <br>
-    linkify: true, // Autoconvert URL-like text to links
-    html: true,
     use: [
       //'markdown-it-include',
       'markdown-it-container',
@@ -180,10 +178,15 @@ module.exports = {
       //['markdown-it-hashmention', { href: 'http://twitter.com' }],
       //'markdown-it-hashmention',
     ],
+    linkify: true, // Autoconvert URL-like text to links
+    html: true,
+    typographer: true,
+    // quotes: '“”‘’',
+    quotes: '„“‚‘',
   },
   manifest: {
     name: 'Microinteractions.design',
-    short_name: 'Microinteractions',
+    short_name: 'Mcrintractns',
     lang: 'de',
     display: 'standalone',
     orientation: 'portrait-primary',
@@ -202,4 +205,4 @@ module.exports = {
     //   sendHitTask: false, // disable in ga in development mode - not working: conflict with generate command? XXXX
     // },
   },
-};
+}

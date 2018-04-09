@@ -12,7 +12,7 @@ html {
   -webkit-overflow-scrolling: touch;
   background-color: var(--color-highlight);
   transition: all 300ms ease-out;
-  
+
   &:not(.app-mounted) {
     background-color: #fff;
   }
@@ -38,7 +38,7 @@ noscript {
 }
 
 a,
-a:not([class]) //hack to overwrite vuetify color
+//a:not([class]) //hack to overwrite vuetify color
  {
   text-decoration: underline;
   color: var(--color-link);
@@ -186,6 +186,21 @@ blockquote {
     content: '';
     display: table;
     clear: both;
+  }
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+  font-size: var(--font-size-small);
+  sup a {
+    text-decoration: none;
+    &:before {
+      content: '[';
+    }
+    &:after {
+      content: ']';
+    }
   }
 }
 

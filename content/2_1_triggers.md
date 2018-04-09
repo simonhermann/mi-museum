@@ -40,3 +40,15 @@ Welche Art von Auslöser für eine Interaktion geeignet ist, hängt direkt von d
 Trigger könnte die Ankuft einer neuen Nachricht, eine festgelegte Uhrzeit oder ein bestimmter Ort sein. Eine Integration mit dem Kalender des Nutzers könnte nun dessen Gerät automatisch stumm schalten, wenn dieser sich in einem Meeting oder in der Oper befindet. Dieser Trend zur Automatisierung hat in den letzen Jahren zugenommen und von _Künstlicher Intelligenz_ gesteuerte _persönliche Assistenten_ übernehmen immer mehr Entscheidungen, die vorher der Nutzer selbst getroffen hat.
 
 ### Unsichtbare Auslöser
+
+### Dark Patterns
+
+Sogenannte Dark Patterns sind Methoden und Muster von im Interactiondesign, die Nutzer dazu verführen, etwas zu tun, das nicht deren (bewusste) Absicht ist.^[vgl. [https://darkpatterns.org](https://darkpatterns.org/)]
+Dark Patterns können sich nicht nur Teil des Triggers einer Microinteraction sein, sondern sich auch auf Rückmeldung, Regeln, Schleifen und Modi auswirken und Sie können nicht nur beeinflussen _etwas_ zu tun, sondern auch _davon abhalten_.
+
+<figure class="content-skinny">
+    <img src="/images/feedback/darkpattern-dirt.jpg">
+    <figcaption>Ein Fleck auf dem Werbebanner verleitet Nutzer, diesen wegzuwischen und versehentlich auf die Anzeige zu klicken.
+    <sup><a href="https://www.reddit.com/r/mildlyinfuriating/comments/7tzwz8/this_mobile_ad_designed_to_make_it_look_like_you/">Quelle</a></sup>
+    </figcaption>
+</figure>

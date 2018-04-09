@@ -6,7 +6,7 @@
   background: var(--grey-light);
   margin-top: 1em;
   padding: 1em;
-  border-radius: .5em;
+  border-radius: 0.5em;
   *:first-child {
     margin-top: 0;
   }
@@ -52,18 +52,23 @@
   color: inherit;
   text-decoration: none;
   color: transparent;
-  &:hover {
-    color: transparent;
-  }
   &::before {
     content: '⤴';
+    position: absolute;
     color: var(--color-text-light);
   }
-}
-// webpack or sass or something else behaves weird and inserts a space afer 'ü'. this hack solves it...
-//content: 'zurück'; // is converted to 'zur\FC ck' and redered as 'zurü ck'
-.footnote-backref:hover::after,
-.footnote-backref:focus::after {
-  content: ' zur\FC' 'ck zum Text';
-  color: var(--color-highlight);
+  &:hover,
+  &:focus {
+    color: transparent;
+    &::before {
+      color: var(--color-highlight);
+      transform: translateY(-.2em);
+    }
+    &::after {
+      color: var(--color-highlight);
+      content: ' zur\FC' 'ck zum Text';
+      // webpack or sass or something else behaves weird and inserts a space afer 'ü'. this hack solves it...
+      //content: 'zurück'; // is converted to 'zur\FC ck' and redered as 'zurü ck'
+    }
+  }
 }

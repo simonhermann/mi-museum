@@ -1,4 +1,4 @@
-// https://github.com/alicelieutier/smoothScroll
+// based on https://github.com/alicelieutier/smoothScroll
 
 (function (root, smoothScroll) {
   'use strict';

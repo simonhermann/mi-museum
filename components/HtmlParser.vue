@@ -8,6 +8,10 @@
 // https://github.com/nuxt/nuxtjs.org/blob/master/components/HtmlParser.vue
 export default {
   props: ['content'],
+  // beforeMount() {
+  //   this.content = this.content.replace(/<img src=/g, '<img v-lazy=')
+  //   console.log(this.content)
+  // },
   mounted() {
     this.addListeners()
   },
@@ -24,10 +28,11 @@ export default {
         event.preventDefault()
         // open link via nuxt router:
         this.$router.push(href)
-      } else if (href.indexOf("#fn") == -1) { // TODO: improve this XXXX
+      } else if (href.indexOf('#fn') == -1) {
+        // TODO: improve this XXXX
         // I actually just check if the link contains "#fn", since this is my indicator for footnote links
         // needs changes if other page-internal links are used in future
-        // fails for external links that contain the string "#fn" 
+        // fails for external links that contain the string "#fn"
         event.preventDefault()
         // open all external links in new tab:
         return window.open(href, '_blank')

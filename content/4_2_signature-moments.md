@@ -11,14 +11,14 @@ Je überzeugender die Microinteractions sind, desto flüssiger fühlt sich die A
 Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es wirklich auf.
 
 
-![XXXX^[https://codepen.io/davidkpiano/full/ByNPQw] ](/images/signature-moments/weather-app.gif ""){.content-skinny} 
+![XXXX https://codepen.io/davidkpiano/full/ByNPQw ](/images/signature-moments/weather-app.gif ""){.content-skinny} 
 
-![XXXX^[https://dribbble.com/shots/2111739-Pull-To-Refresh] ](/images/signature-moments/pull-to-refresh-planet.gifxx ""){.content-skinny} 
+![XXXX^[https://dribbble.com/shots/2111739-Pull-To-Refresh] ](/images/signature-moments/pull-to-refresh-planet.gif ""){.content-skinny} 
 
-<figure v-lazy-container="{ selector: 'img' }">
-    <img data-src="images/signature-moments/pull-to-refresh-planet.gif" class="content-skinny">
+<!-- <figure>
+    <img v-lazy="images/signature-moments/pull-to-refresh-planet.gif" class="content-skinny">
     <figcaption>XXXX</figcaption>
-</figure>
+</figure> -->
 
 
 ## Mehr zum Thema Signature Moments
