@@ -53,8 +53,8 @@ module.exports = {
       },
     ],
     script: [
-      { src: '/js/medium-zoom.min.js', defer: true },
-      { src: '/js/smoothscroll.js', defer: true },
+      { src: '/js/medium-zoom.min.js', body: true },
+      { src: '/js/smoothscroll.js', body: true },
     ],
   },
   css: [
