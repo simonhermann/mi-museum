@@ -82,9 +82,9 @@ module.exports = {
   transition: {
     name: 'page',
     mode: 'out-in',
-    beforeEnter(el) {
-      //console.log('route change imminent')
-    },
+    //beforeEnter(el) {
+    //console.log('route change imminent')
+    //},
   },
   modules: [
     '@nuxtjs/markdownit',
@@ -175,6 +175,7 @@ module.exports = {
       'markdown-it-mark',
       'markdown-it-smartarrows',
       ['markdown-it-container', 'standout'], // makes container .standout available
+      'markdown-it-named-headers',
       //['markdown-it-hashmention', { href: 'http://twitter.com' }],
       //'markdown-it-hashmention',
     ],
