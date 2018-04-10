@@ -1,4 +1,5 @@
 <template>
+
 <figure class="content-skinny">
   <img src="/image.jpg">
   <figcaption>

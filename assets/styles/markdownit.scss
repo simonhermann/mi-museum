@@ -66,6 +66,7 @@
   &::before {
     content: '⤴';
     position: absolute;
+    margin-left: 0.4em;
     color: var(--color-text-light);
   }
   &:hover,

@@ -171,6 +171,7 @@ blockquote {
     font-size: var(--font-size-small);
     text-align: right;
     float: right;
+    hyphens: none;
 
     @include mq-sm {
       width: 80%;
