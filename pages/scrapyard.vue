@@ -24,7 +24,7 @@
         <img src="/images/home/torch-patent.png" alt="">
       <figcaption class="caption">
         Patentzeichnung Taschenlampe <br>
-        <a href="https://en.wikipedia.org/wiki/File:Patent_617,592.png" target="_blank" rel="noopener">Quelle</a>
+        <a href="https://en.wikipedia.org/wiki/File:Patent_617,592.png" target="_blank" rel="noopener">Bildquelle</a>
       </figcaption>
     </figure>
 

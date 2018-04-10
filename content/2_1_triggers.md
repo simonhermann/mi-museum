@@ -49,6 +49,6 @@ Dark Patterns können sich nicht nur Teil des Triggers einer Microinteraction se
 <figure class="content-skinny">
     <img src="/images/feedback/darkpattern-dirt.jpg">
     <figcaption>Ein Fleck auf dem Werbebanner verleitet Nutzer, diesen wegzuwischen und versehentlich auf die Anzeige zu klicken.
-    <sup><a href="https://www.reddit.com/r/mildlyinfuriating/comments/7tzwz8/this_mobile_ad_designed_to_make_it_look_like_you/">Quelle</a></sup>
+    <sup><a href="https://www.reddit.com/r/mildlyinfuriating/comments/7tzwz8/this_mobile_ad_designed_to_make_it_look_like_you/">Bildquelle</a></sup>
     </figcaption>
 </figure>

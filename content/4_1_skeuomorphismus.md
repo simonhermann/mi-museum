@@ -7,7 +7,7 @@ Ein Digitaler Schalter sah genau aus wie sein physisches Vorbild und verhielt si
     <img src="/images/skeuomorphismus/switchanimation.gif">
     <figcaption>Skeumorphistische Darstellung eines Kippschalters
     <sup>
-        <a href="https://dribbble.com/shots/787974-Switch-Animation">Quelle</a>
+        <a href="https://dribbble.com/shots/787974-Switch-Animation">Bildquelle</a>
     </sup>
     </figcaption>
 </figure>

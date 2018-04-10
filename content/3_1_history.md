@@ -16,13 +16,10 @@ Die Idee führt die Hand
 Problem: Werkzeug und Hand beschränken das Denken
 XXXX -->
 
-## Phase_1: Microinteractions in mechanischen Mensch-Maschine-Schnittstellen
+## Phase 1: Microinteractions in mechanischen Mensch-Maschine-Schnittstellen
 
-Erstmals in großem Maßstab eingesetzt wurde die Erfindung des Deutsch-Amerikaners Hermann Hollerith bei der amerikanischen Volkszählung im Jahre 1890. Die "Hollerithmaschine" war gebaut für Experten, die sich mit der technischen Funktionsweise und deren Tücken genau auskannten.
-Holleriths Erfindung war weltweit erfolgreich und er gründete die _Computing Tabulating Recording Corporation_, welche 1924 in _International Business Machines Corporation_, IBM umbenannt wurde und bis heute besteht.
-Die Bedienung erfolgte durch _Lochkarten_, welche XXXX
-Händisch wurden nach vorgegebenen Mustern Löcher in Karten gestanzt, welche anschließend von einer Maschine erkannt werden können.
-Auch in Deutschland wird das System weiterentwickelt, in Berlin entsteht die _Hollerith Maschinen-Gesellschaft_. Locher bekommen Tastaturen, Karten werden automatisch zugeführt und automatisch sortiert und darauf befindliche Daten addiert.^[vgl. [Thomas Willenberg: Die Geschichte der Computertechnik](http://privat.swol.de/SvenBandel/Hollerith.htm), [Stefan Winterstein: Von Hollerith zu IBM -Die Geschichte der kommerziellen Datenverarbeitung](http://stefan-winterstein.de/papers/hollerith-ibm/), [Zeitnahtv: Von der Lochkarte zum Computer](https://youtu.be/2_73R_MrDIQ)]
+Erstmals in großem Maßstab eingesetzt wurde die Erfindung des Deutsch-Amerikaners Hermann Hollerith bei der amerikanischen Volkszählung im Jahre 1890. Die "Hollerithmaschine" war gebaut für Experten, die sich mit der technischen Funktionsweise und deren Tücken genau auskannten. Die Bedienung, beziehungsweise Programmierung erfolgte durch _Lochkarten_, welche händisch nach vorgegebenen Mustern gelocht wurden, um anschließend von einer Maschine gelsen zu werden. 
+Holleriths Erfindung war weltweit erfolgreich und er gründete die _Computing Tabulating Recording Corporation_, welche 1924 in _International Business Machines Corporation_, IBM umbenannt wurde und bis heute besteht. Auch in Deutschland wurde das System weiterentwickelt, in Berlin entstand die _Hollerith Maschinen-Gesellschaft_. Locher bekamen Tastaturen, Karten wurden automatisch zugeführt und sortiert und darauf befindliche Daten addiert.^[vgl. [Thomas Willenberg: Die Geschichte der Computertechnik](http://privat.swol.de/SvenBandel/Hollerith.htm), [Stefan Winterstein: Von Hollerith zu IBM -Die Geschichte der kommerziellen Datenverarbeitung](http://stefan-winterstein.de/papers/hollerith-ibm/), [Zeitnahtv: Von der Lochkarte zum Computer](https://youtu.be/2_73R_MrDIQ)]
 
 Der nächste herausragende Schritt war die Entwicklung des ersten elektronischen Rechenmaschinen von Konrad Zuse in den 1940ern. Diese basierten im Gegensatz zu ihren Vorgängern, welche weitgehend mechanisch arbeiteten, ausschließlich auf elektromechanischen _Relais_.
 Die _Schreibende Tabelliermaschine_ wurde programmiert, in dem Stifte in eine eingebaute Schalttafel gesteckt wurden. Je nach Position der Stifte produzierte das System ein anderes Ergebnis und druckt diese aus.^[vgl. [Deutsches Museum: Die Z3 von Konrad Zuse im Deutschen Museum](https://youtu.be/aUXnhVrT4CI)]
@@ -47,7 +44,7 @@ OXO: erstes grafisches Computerspiel
 
 <!-- XXXX Fazit Phase 1 -->
 
-## Phase_2: CLI - Microinteractions in Command Line Interfaces / Tastatur & Text
+## Phase 2: CLI – Microinteractions in Command Line Interfaces / Tastatur & Text
 
 Der Computer entwickelte sich langsam von einem Werkzeug des Mathematikers zum Universalwerkzeug. Doch noch immer waren Computer raumfüllend und tonnenschwer. Ob sie zur Forschung, im Militärbereich oder zur elektronischen Datenverarbeitung in Firmen eingesetzt wurden, sie blieben ein Werkzeug, das von Experten bedient wurde. Je kleiner Computer wurden, desto üblicher wurde die uns heute bekannte Computertastatur. Befehle wurden textbasiert eingegeben und die Darstellung erfolgte auf Röhrenbildschirmen.
 Tastatur+Text:> Command line interface (CLI)
@@ -70,7 +67,7 @@ Ein Command Line Interface lässt sich Vorfahre von Chatbots (Conversational Int
 
 <!-- XXXX Fazit Phase 2 -->
 
-## Phase_3: GUI - Microinteractions in Grafischen Benutzeroberflächen
+## Phase 3: GUI – Microinteractions in Grafischen Benutzeroberflächen
 
 WIMP & WYSIWYG
 GUIs erlauben dem Nutzer, die Funktionen eines Programmes zu entdecken, anstatt diese zu wissen (oder in einer Dokumentation nachzulesen).
@@ -88,7 +85,7 @@ Mit Hilfe des kürzlich erfundenen _Lichtgriffels_ war es möglich, grafische Gr
   <img src="/images/history/sketchpad.jpg">
   <figcaption>
     Arbeitsumgebung für Sketchpad: Die rechte Hand hält den Lichtgriffel, die linke bedient die Box mit etwa 40 Befehlstasten. Mit den schwarzen Drehknöpfen werden Skalierung und Position verändert.
-    <sup><a href="https://mprove.de/diplom/_media/fig3.1_Sketchpad.jpg">Quelle</a></sup>
+    <sup><a href="https://mprove.de/diplom/_media/fig3.1_Sketchpad.jpg">Bildquelle</a></sup>
   </figcaption>
 </figure>
 
@@ -129,8 +126,8 @@ Im zweiten Teil der Vorführung zeigt Engelbart die genutzen Eingabegeräte: Die
 Es wird demonstriert, wie sich der Mauszeiger, genannt "bug" (Käfer), auf dem Bildschirm analog zur Maus auf dem Tisch bewegt. Die erste Maus besteht aus zwei rechtwinklig zueinander angebrachten Rädern, die über den Untergrund rollen beziehungsweise rutschen.
 Um der natürlichen Bewegung des Handgelenks zu entsprechen, wurde die Steuerung der Maus so angepasst, dass eine leicht bogenförmige Bewegung der Maus, einer honrizontalen Bewegung des Mauszeigers entsprach. Laut Engelbart passten sich Testnutzern diesem Verhalten intuitiv an und es wurde nicht bewusst wahrgenommen [Clip 11].
 
-> "I tried a mouse, it was too hard to use and it never worked." It was alomst 20 years after it was invented before it startet to roll.
-> <cite> Engelbart zitiert die Rezensionen der ersten Entwürfe für die Maus ^[[http://dougengelbart.org](http://dougengelbart.org/)]</cite>
+> "I tried a mouse, it was too hard to use and it never worked." It was alomst 20 years after it was invented before it startet to roll.^[[http://dougengelbart.org](http://dougengelbart.org/)]
+> <cite style="width:80%;"> Engelbart zitiert die Rezensionen der ersten Entwürfe für die Maus</cite>
 
 Die Positionsrückmeldung auf dem Bildschirm erfolgt bei der Nutzung einer Maus an einem Anderen Ort der Aufmerksamkeit als die Eingabe. Was von der Tastatur seit Zeiten der Schreibmaschine bekannt war, wurde von Engelbarts Team auf das Zeigegerät übertragen. Obwohl Lichtgriffel oder Lichtpistole eine augenscheinlich intuitivere Einfabemöglichekeit darstellen, da das Gerät direkt den gewünschten Punkt gerichtet wird, setzte sich die Maus schnell weltweit als Zeigegerät für Computer durch. Zum einen war dies der Fall, weil Mäuse in der Herstellung deutlich billiger waren. Außerdem ist längeres Arbeiten mit der Maus deutlich angenehmer, da Arm und Hand abgelegt werden können. Im Wechsel mit mit der Tastatur sind weniger Auf- und Ab-Bewegungen nötig als mit dem Lichtgriffel.
 Zum Anderen bietet sie den Vorteil, dass der Nutzer sich nicht selbst einen Teil des Bildschirms verdeckt, in dem er darauf Zeigt. (--> Touchscreen XXXX)
@@ -147,7 +144,7 @@ http://dougengelbart.org/firsts/mouse.html
   <img src="/images/history/engelbart-mouse-replica.jpg">
   <figcaption>
     Replik des des Maus-Prototypen von Doug Engelbart und Bill English
-    <sup><a href="http://www.computerhistory.org/revolution/input-output/14/350">Quelle</a></sup>
+    <sup><a href="http://www.computerhistory.org/revolution/input-output/14/350">Bildquelle</a></sup>
   </figcaption>
 </figure>
 
@@ -160,26 +157,20 @@ Ohne die "Mother of all demos" und die Begeisterung, die diese ausgelöst hat, w
 
 ### Xerox Alto und Xerox Star
 
-Im Silicon Valley der 1970er Jahre, noch bevor Apple oder Microsoft überhaupt gegründet wurden, war Xerox das wohl innovativste Unternehmen hinsichtlich innovativer Schnittstellen zwischen Mensch und Maschine.
-
-Bob Tailor: beanbag chairs und kreative freiheit für Nerds
-^[https://youtu.be/1p954cqfTHY]
-
-Der Xerox Alto 1973 war der Prototyp des folgenden Serienmodells Star.
-Ziel war, die Benutzung "freundlich und intuitiv" zu machen und so Computer einer breiteren Zielgruppe zugänglich zu machen.
-Die Nutzeroberfläche des Betriebssystems selbst war jedoch noch nicht grafisch, um beispielsweise das Zeichenprogramm zu starten, tippte man `draw` ein und bestätigte mit der Entertaste. Das Programm _Draw_ bot neuartige Möglichkeiten zur Erstellung und Manipulation von Zeichnungen. Revolutionär war die _undo_-Funktion (--> XXXX), welche erstmals nicht nur auf den letzen Schritt beschränkt war. Es lässt sich als Vorgänger von heutiger Software wie Adobe Illustrator oder Microsoft Paint beschreiben und deren grundlegende Nutzung ist nicht unähnlich.^[Demonsration des Zeichenprogrammes _Draw_: [Xerox Alto Restoration - CuriousMarc/Youtube](https://youtu.be/OKakermaQ68?t=6m54s)]
+Im Silicon Valley der 1970er Jahre, noch bevor Apple oder Microsoft überhaupt gegründet wurden, war Xerox das wohl innovativste Unternehmen hinsichtlich innovativer Schnittstellen zwischen Mensch und Maschine. <!-- Bob Tailor: beanbag chairs und kreative freiheit für Nerds^[https://youtu.be/1p954cqfTHY] -->
+Der Xerox Alto 1973 war der Prototyp des folgenden Serienmodells Star. Ziel war, die Benutzung "freundlich und intuitiv" zu machen und so Computer einer breiteren Zielgruppe zugänglich zu machen. Die Nutzeroberfläche des Betriebssystems selbst war jedoch noch nicht grafisch, um beispielsweise das Zeichenprogramm zu starten, tippte man `draw` ein und bestätigte mit der Entertaste. Das Programm _Draw_ bot neuartige Möglichkeiten zur Erstellung und Manipulation von Zeichnungen. Revolutionär war die _undo_-Funktion (--> XXXX), welche erstmals nicht nur auf den letzen Schritt beschränkt war. Es lässt sich als Vorgänger von heutiger Software wie Adobe Illustrator oder Microsoft Paint beschreiben und deren grundlegende Nutzung ist nicht unähnlich.^[Demonsration des Zeichenprogrammes _Draw_: [Xerox Alto Restoration - CuriousMarc/Youtube](https://youtu.be/OKakermaQ68?t=6m54s)]
 
 Das Layoutprogramm _Bravo_ hingegen unterscheidet sich deutlich von seinen Nachfahren wie Microsoft Word oder Adobe InDesign. Es war das erste Textverarbeitungsprogramm, in dem verschiedene Schriften ausgewählt werden konnten und bei dem das Druckerzeugnis und dessen Representation am Bildschirm weitgehend übereinstimmten. Währen die Ausgabe dem WYSIWYG-Prinzip entsprach, erinnert die Eingabe oftmals an die Nutzung einer _Kommandozeile_ und beruht auf der Verwendung von Modi.
 Nachdem eine Zeile Text eingegeben wurde, muss diese mit der Escape-Taste bestätigt und ausgewählt werden. Nun kann die Formatierung eines Textes geändert werden, indem mit der Taste `l` der "Look"-Modus aufgerufen wird. Anschließend wird der Text mit beispielsweise mit der Taste `i` in Kursivtext umgewandelt.
 Um vorhandenen Text zu editieren, musste dieser mit Hilfe der Maus ausgewählt werden. Im "Command"-Modus konnte dieser anschließend beispielsweise mit mit der Taste `R` ersetzt werden oder mit `D` gelöscht werden.
 Um Text zu kopieren und einzufügen, musste zuerst das Ziel mit der Maus ausgewählt werden, dann mit `i` in den "insert"-Modus gewechselt werden. Nun konnte mit der Maus die zu kopierende Quelle innerhalb des Dokumentes ausgewählt und der Vorgang mit `Escape` bestätigt werden.
-Mit Hilfe der Maus konnte zwar Text markiert (--> XXXX) werden, jedoch gab es keinerlei grafisches Menü. Bei der Nutzung von Bravo musste man daher stets das Handbuch verfügbar haben oder die Tastaturbefehle auswendig kennen.^[Demonsration des Layoutprogrammes _Bravo_: [Xerox Alto Restoration - CuriousMarc/Youtube](https://youtu.be/OKakermaQ68?t=10m30s)] ^[@Smith99]
+Mit Hilfe der Maus konnte zwar Text markiert (--> XXXX) werden, jedoch gab es keinerlei grafisches Menü. Bei der Nutzung von Bravo musste man daher stets das Handbuch verfügbar haben oder die Tastaturbefehle auswendig kennen.^[Demonsration des Layoutprogrammes _Bravo_: [Xerox Alto Restoration - CuriousMarc/Youtube](https://youtu.be/OKakermaQ68?t=10m30s)]^[[Xerox Alto Bravo Demo - Meadhbh Hamrick/Youtube](https://youtu.be/390hhDkiJFM)]^[@Smith99]
 
 <figure class="content-skinny">
   <img src="/images/history/bravo-manual-summary.jpg">
   <figcaption>
     Kurzanleitung für Bravo 7.2 (Ausschnitt). Aus dem Benutzerhandbuch des Xerox Alto zur Nutzung von Bravo (aus Seite 69/161), 1979
-    <sup><a href="http://bitsavers.trailing-edge.com/pdf/xerox/alto/Alto_Users_Handbook_Sep79.pdf ">Quelle</a></sup>
+    <sup><a href="http://bitsavers.trailing-edge.com/pdf/xerox/alto/Alto_Users_Handbook_Sep79.pdf ">Bildquelle</a></sup>
   </figcaption>
 </figure>
 
@@ -193,8 +184,7 @@ Zahlreiche erstmals in Gypsy eingeführte Konzepte (und Mikro-Interaktionen) wur
 > ... within ten Minutes, it was obvious to me that all computers would work like this some day.
 > <cite>Steve Jobs über seinen ersten Eindruck der Grafischen Nutzeroberfläche des Xerox Alto</cite>
 
-Der Xerox 8010, genannt "Star" war das erste kommerzielle System, das verschiedene Technologien, die mittlerweile zum Standard in Personalcomputern geworden sind, wie eine fensterbasierte grafische Benutzeroberfläche, Symbole, Ordner, Zwei-Tasten-Maus, Ethernet-Vernetzung, Dateiserver, Druckserver und E-Mail integriert hat.
-https://youtu.be/Cn4vC80Pv6Q
+Der Xerox 8010, genannt "Star" war das erste kommerzielle System, das verschiedene Technologien, die mittlerweile zum Standard in Personalcomputern geworden sind, wie eine fensterbasierte grafische Benutzeroberfläche, Symbole, Ordner, Zwei-Tasten-Maus, Ethernet-Vernetzung, Dateiserver, Druckserver und E-Mail integriert hat.^[vgl .[Xerox Star User Interface (1982) 1 of 2 - VintageCG/Youtube](https://youtu.be/Cn4vC80Pv6Q)]
 WYSIWYG screen=print --> seiner Zeit voraus
 
 Zahlreiche Mitarbeiter aus dem Forschungsteam von Engelbart
@@ -203,7 +193,6 @@ Drucken
 [@XeroxStarUI82a, 6:55]
 
 Bravo + Gypsy
-[https://youtu.be/390hhDkiJFM]
 
 ### Apple Lisa und Apple Macintosh
 
@@ -218,7 +207,7 @@ Stylus/Lichtgriffel: https://youtu.be/r18i-uR6BD4, https://youtu.be/1EWQYAfuMYw?
 
 XXXX Fazit Phase 3
 
-## Phase_4: NUI - Microinteractions in Post-WIMP / SILK / Natural User Interfaces
+## Phase 4: NUI – Microinteractions in Post-WIMP / SILK / Natural User Interfaces
 
 Seit Anbeginn der grafischen Benutzeroberflächen verwenden wir Buttons. Die ursprüngliche Benutzeroberfläche von Xerox PARC ist 44 Jahre alt, aber unsere Benutzeroberflächen sehen trotzdem noch verblüffend ähnlich aus. Obwohl sich Buttons im Einklang mit aktuellen Trends und Technologien entwickelt haben, ist ihr Ursprung zweifellos inspiriert durch reale Objekte der Vergangenheit.
 Warum halten wir daran fest, Interaktionsformen zu entwickeln, die auf den bekannten Objekten basieren, die uns umgeben? Die Form eines digitalen Knopfes ist nach wie vor an Werkzeugen und Mechanismen angelehnt, die wir im 19. Jahrhundert entwickelt haben.
@@ -236,8 +225,7 @@ http://rosenfeldmedia.com/wp-content/uploads/2014/11/Make-It-So-Excerpt.pdf
 <figure class="content-wide">
   <img src="/images/history/Amidala-Anykey.jpg">
   <figcaption>
-    Im Film Star Wars Episode I nutzt Königin Amidala den selben Button um eine Hologramm-Verbindung aufzubauen, eine Sternenkarte aufzurufen und das Raumschiff zu landen. 
-    <sup><a href="https://99percentinvisible.org/episode/future-screens-are-mostly-blue/">Quelle</a></sup>
+    Im Film Star Wars Episode I nutzt Königin Amidala den selben Button um eine Hologramm-Verbindung aufzubauen, eine Sternenkarte aufzurufen und das Raumschiff zu landen. <sup><a href="https://99percentinvisible.org/episode/future-screens-are-mostly-blue/">Bildquelle</a></sup>
   </figcaption>
 </figure>
 

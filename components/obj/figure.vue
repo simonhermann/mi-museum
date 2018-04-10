@@ -4,7 +4,7 @@
   <img src="/image.jpg">
   <figcaption>
     Caption text
-    <sup><a href="https://path-to-source">Quelle</a></sup>
+    <sup><a href="https://path-to-source">Bildquelle</a></sup>
   </figcaption>
 </figure>
 
