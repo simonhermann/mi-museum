@@ -1,12 +1,13 @@
 # To Do:
 
 ## Content
-- [ ] Impressum+About
+- [ ] aus Pocket
 - [ ] Icons für Trigger/Rules/usw
 - [ ] Konzept f. Darstellung MIs
 - [ ] Timeline?
 - [ ] Meta desicription
 - [ ] einheitlicher meta title
+- [ ] Impressum+About
 
 ## Featues
 - [ ] Kapitel-Fortschrittsbalken?
@@ -37,6 +38,7 @@
 - [ ] Anmeldung VGWort https://tom.vgwort.de/portal/index
 - [ ] remove scrapyard page
 - [ ] svg stroke animation (Vivus.js)
+- [ ] Vue Design System: Patterns/DevStyleguide/etc www.vueds.com
 
 
 -----

@@ -20,5 +20,12 @@ Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es
     <figcaption>XXXX</figcaption>
 </figure> -->
 
+<figure class="content-skinny">
+  <img src="/images/signature-moments/1password-open.gif">
+  <figcaption>
+    Caption text
+  </figcaption>
+</figure>
+
 
 ## Mehr zum Thema Signature Moments

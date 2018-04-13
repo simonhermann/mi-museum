@@ -21,6 +21,13 @@ Da die Rückmeldung, um die es hier geht, von Maschinen an Menschen ist, übertr
 
 XXXX
 
+<figure class="content-skinny">
+  <img src="/images/feedback/1password-shake.gif">
+  <figcaption>
+  Rückmeldung von 1password bei eingabe eines falschen Master-Passwortes 
+  </figcaption>
+</figure>
+
 --> [Animation](/animation)
 
 Die Art von Rückmeldung, die an einen Nutzer gegeben wird, kann diesen stark beeinflussen und sogar manipulieren. So ist das Feedback eines Spielautomaten darauf ausgelegt, den Spieler zu überzeugen, immer mehr zu spielen. Auf jede Eingabe reagiert das Gerät mit übermäßigem Feedback und sorgt dafür, dass sich der Nutzer in seiner Aktion bestätigt fühlt. Selbst kleine Gewinne werden durch zahlreiche blinkende Lichter und Fanfaren untermalt und dem Nutzer suggeriert, er hätte einen Jackpot gewonnen. Als Designer sollte man sich der Macht über Nutzer stets bewusst sein und [Dark Patterns](/triggers#dark-patterns) vermeiden.
