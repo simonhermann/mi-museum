@@ -2,8 +2,9 @@
 ** classes applied by markdownit
 */
 
-.standout {
-  background: var(--grey-light);
+
+// Containers
+.ext-md-container {
   margin-top: 1em;
   padding: 1em;
   border-radius: 0.5em;
@@ -13,8 +14,27 @@
   *:last-child {
     margin-bottom: 0;
   }
+  
+  ul, ol {
+    padding-left: 1em;
+  }
+}
+.md-container-standout {
+  @extend .ext-md-container;
+  color: white;
+  background: var(--color-highlight);
+}
+.md-container-more {
+  @extend .ext-md-container;
+  background: var(--grey-light);
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
 }
 
+
+// Footnotes
 .footnotes-line {
   height: 0.25em;
   $border-color: #777; // = var(--grey-mid);

@@ -54,7 +54,7 @@ Beispielsweise werden mit dem Befehl `ls` unter UNIX-Systemen die Inhalte des mo
 
 Befehle sind nicht auswählbar, sondern müssen eingegeben werden. Die Nutzung dieser "versteckten" Funktionen erfordert also, dass der Nutzer diesen bereits kennt.
 
-::: standout
+::: md-container-standout
 Ein [Modus](/loops-and-modes) ist ein Status eines Programmes, in dem Befehle in dessen Kontext ausgeführt werden. Prominentes Beispiel ist die <kbd>Shift</kbd>-Taste, die schon bei Schreibmaschinen zum Einsatz kam, und typischerweise den Modus von _Kleinschreibung_ zu _Großschreibung_ wechselt.
 :::
 

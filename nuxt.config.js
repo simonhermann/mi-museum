@@ -174,7 +174,8 @@ module.exports = {
       'markdown-it-footnote',
       'markdown-it-mark',
       'markdown-it-smartarrows',
-      ['markdown-it-container', 'standout'], // makes container .standout available
+      ['markdown-it-container', 'md-container-standout'], // makes container .standout available
+      ['markdown-it-container', 'md-container-more'], // makes container .more available
       'markdown-it-named-headers',
       //['markdown-it-hashmention', { href: 'http://twitter.com' }],
       //'markdown-it-hashmention',

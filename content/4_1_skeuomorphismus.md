@@ -22,7 +22,7 @@ Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction s
     <figcaption>Der Papierkorb besteht seit den Anfängen von Windows ohne Änderung der Regeln. Gefüllter Zustand aus Windows 95 (links) und Entleerter Zustand aus Windows 10 (rechts) </figcaption>
 </figure>
 
-Bei der Entwicklung von neuartigen Interaktionsmedien, ist zu beobachten, dass wieder vermehrt auf Skeumorphistische Prinzipien zurückgegriffen wird. Aktuelles Beispiel hierfür sind sprachgesteuerte digitale Assistenten wie Apple Siri, Google Now, Amazon Echo und Co. Hier wird angestrebt, die "Unterhaltung" möglichst einer Unterhaltung von Mensch zu Mensch nachzuempfinden, während eine visuelle Benutzeroberfläche (wenn überhaupt) nur unterstützende Funktion hat. Die Geräte sollen mit Namen angesprochen werden ("Hey Siri"), haben Persönlichkeit und Humor. Zusätzliche Hürde sind also nicht nur Wahrnehmung, Verständnis und Einhaltung von Gepflogenheiten menschlicher Umgebungen, sondern die Nachbildung des menschlichen Verstandes selbst. 
+Bei der Entwicklung von neuartigen Interaktionsmedien, ist zu beobachten, dass wieder vermehrt auf Skeumorphistische Prinzipien zurückgegriffen wird. Aktuelles Beispiel hierfür sind sprachgesteuerte digitale Assistenten wie Apple Siri, Google Now, Amazon Echo und Co. Hier wird angestrebt, die "Unterhaltung" möglichst einer Unterhaltung von Mensch zu Mensch nachzuempfinden, während eine visuelle Benutzeroberfläche (wenn überhaupt) nur unterstützende Funktion hat. Die Geräte sollen mit Namen angesprochen werden ("Hey Siri"), haben Persönlichkeit und Humor. Zusätzliche Hürde sind also nicht nur Wahrnehmung, Verständnis und Einhaltung von Gepflogenheiten menschlicher Umgebungen, sondern die Nachbildung des menschlichen Verstandes selbst.
 Während sich einzelne Sätze der dieser KI-Systeme im Jahre 2018 kaum noch als künstlich erkennen lassen, macht der oft mangelnde Kontext eine natürliche Unterhaltung unmöglich^[vgl. [The Voice Assistant Battle! (2017) - Marques Brownlee/youtube](https://youtu.be/BkpAro4zIwU)]. --> XXXX Unsichtbare Trigger
 
 XXXX uncanny valley
@@ -32,6 +32,10 @@ Ein Problem des visuellen Skeuomorphismus ist seine hohe Geschmacks- und Kultura
 Heute, nachdem der Großteil der Nutzer mit Smartphones und co. vertraut sind, ist es nicht mehr so wichtig, visuelle Elemente zu entwerfen, die einen direkten Bezug zur analogen Welt in herstellen. Der digitale Alltag hat sich etabliert und bedarf keiner Erklärung durch Holzhammermethoden. Dennoch nimmt die Bedeutung von Mikrointeraktionen stetig zu.
 Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher und andere möglichkeiten der Markenbildung sind erforderlich.
 
-## Mehr zum Thema Skeumorphismus:
+::: md-container-more
+
+### Mehr zum Thema Skeumorphismus:
 
 * Artikel: [The New Skeuomorphism is in Your Voice Assistant](https://uxdesign.cc/the-new-skeuomorphism-is-in-your-voice-assistant-3b14a6553a0e) von Bert Brautigam
+
+:::

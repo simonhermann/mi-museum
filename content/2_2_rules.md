@@ -6,7 +6,7 @@ Sobald eine Microinteraction initiiert wurde, wird eine Sequenz von Verhaltensmu
 
 ##### Regeln eines simplen Lichtschalters: 
 
-::: standout
+::: md-container-standout
 - Schalter auf *ein* --> Licht *an*
 - Schalter auf *aus* --> Licht *aus*
 :::
@@ -15,7 +15,7 @@ Die Regeln eines Lichtschalters bilden die wohl grundlegendendste Microinteracti
 
 #### Beispiel für Regeln eines Lichtschalters mit Dimmer:
 
-::: standout
+::: md-container-standout
 - Drehregler auf Stufe 0 --> Licht *aus*
 - Drehregler auf Stufe 1-9 --> Licht *an*
 - Wenn *an*: Helligkeit entspricht Stufe, wobei Stufe 1 am wenigsten hell und Stufe 9 am hellsten ist
@@ -23,7 +23,7 @@ Die Regeln eines Lichtschalters bilden die wohl grundlegendendste Microinteracti
 
 #### Beispiel für Regeln einer von Bewegungssensor gesteuerten Beleuchtung:
 
-::: standout
+::: md-container-standout
 Tag = Zwischen 8:00 und 18:00 Uhr
 Nacht = Zwischen 18:00 und 08:00 Uhr
 

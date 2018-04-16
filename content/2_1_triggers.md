@@ -7,13 +7,13 @@ In Beiden fällen
 
 Nutzerseitige Trigger entstehen aus Bedürfnissen:
 
-::: standout
+::: md-container-standout
 Bedürfnis/Trigger:
 _Nutzer will nachts etwas sehen können_
 --> Interkation: _schaltet Licht ein_
 :::
 
-::: standout
+::: md-container-standout
 Bedürfnis/Trigger:
 _Nutzer will jemanden anrufen_
 --> Interkation: _tippt auf Namen in Adressbuch_
@@ -21,7 +21,7 @@ _Nutzer will jemanden anrufen_
 
 ### Geräteseitige Auslöser
 
-::: standout
+::: md-container-standout
 Trigger bei eingehender Nachricht auf Handy:
 
 * _Ton_
