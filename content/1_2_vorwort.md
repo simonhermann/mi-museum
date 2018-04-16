@@ -13,11 +13,9 @@ Auch kleine Interaktionen wie das Betätigen eines Schalters, das Nutzen eines S
 
 Mikrointeraktionen, insbesondere in Kombination mit kleinen Animationen, können den Eindruck vermitteln, dass sich ein digitales Produkt sehr ähnlich wie ein analoges Produkt verhält. Dies kann durch unmittelbares Feedback erfolgen, wie z.B. das Klicken auf einen Button, das Ziehen eines Sliders, das Anzeigen eines rotierenden Spinners während eines Downloads oder das Füllen eines Einkaufswagens nach dem Klicken auf Kaufen.
 
-Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar '[belohnt](/signature-moments)'.
+Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar ["belohnt"](/signature-moments).
 
 Die kleinen Dinge machen den Unterschied.
-
-[Weiterlesen](/what-are-microinteractions)
 
 ### Wer sollte diese Arbeit lesen?
 

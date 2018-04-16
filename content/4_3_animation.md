@@ -38,6 +38,9 @@ zb exponentiell statt linear
 
 ### Animation kann auch schaden
 
+Animationen sollten immer eine Aufgabe erfüllen. Wenn eine Animation keinen funktionalen Zweck hat, kann sie sich unangenehm oder lästig anfühlen, besonders wenn sie einen Prozess verlangsamt, der ohne Animation schneller sein könnte.
+Bei der Planung und Gestaltung von Animationen in Microinteractions und generell in Interfaces sollte man sich die Frage stellen: _Wie hilft die Anmation ein Problem zu lösen, wie bereichert sie die Positive Erfahrung oder hilft dem Nutzer anderweitig?_ Wenn die Frage nicht zufriedenstellend beantwortet werden kann, sollte von der betrachteten Animation vermutlich abgesehen werden.
+
 <figure class="content-skinny">
   <img src="/images/animation/paypal-reciept.gif">
   <figcaption>
@@ -46,10 +49,7 @@ zb exponentiell statt linear
   </figcaption>
 </figure>
 
-Animationen sollten immer eine Aufgabe erfüllen. Wenn eine Animation keinen funktionalen Zweck hat, kann sie sich unangenehm oder lästig anfühlen, besonders wenn sie einen Prozess verlangsamt, der ohne Animation schneller sein könnte.
-Bei der Planung und Gestaltung von Animationen in Microinteractions und generell in Interfaces sollte man sich die Frage stellen: _Wie hilft die Anmation ein Problem zu lösen, wie bereichert sie die Positive Erfahrung oder hilft dem Nutzer anderweitig?_ Wenn die Frage nicht zufriedenstellend beantwortet werden kann, sollte von der betrachteten Animation vermutlich abgesehen werden.
-
-![XXXX^[https://dribbble.com/shots/2440217-Fluid-Switch] ](/images/animation/switch-fluidswitch.gif){.content-skinny}
+<!-- ![XXXX^[https://dribbble.com/shots/2440217-Fluid-Switch] ](/images/animation/switch-fluidswitch.gif){.content-skinny} -->
 
 <!-- ![Beispiel für eine misslungene UI-Animation^[https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97] ](/images/animation/poormotiondesign.gif ""){.content-skinny}  -->
 
@@ -79,7 +79,7 @@ Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling 
 
 ::: md-container-more
 
-### Sehens- und lesenswert zum Thema Animation
+### Sehens-, hörens- und lesenswert zum Thema Animation
 
 * Buch: [Designing Interface Animation](https://rosenfeldmedia.com/books/designing-interface-animation/) von Val Head
 * Podcast: [Motion and Meaning](http://www.motionandmeaning.io/) mit Val Head & Cennydd Bowles

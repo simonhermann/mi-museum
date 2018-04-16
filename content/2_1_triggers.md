@@ -48,6 +48,12 @@ Trigger könnte die Ankuft einer neuen Nachricht, eine festgelegte Uhrzeit oder 
 
 ### Unsichtbare Auslöser
 
+<figure class="content-skinny">
+    <img src="/images/triggers/pocket-copied-url.jpg">
+    <figcaption>Wenn Pocket geöffnet wird, während sich ein Link in der Zwischenablage befindet, fragt die App, ob man den Link zur Leseliste hinzufügen möchte
+    </figcaption>
+</figure>
+
 ### Dark Patterns
 
 Sogenannte Dark Patterns sind Methoden und Muster von im Interactiondesign, die Nutzer dazu verführen, etwas zu tun, das nicht deren (bewusste) Absicht ist.^[vgl. [https://darkpatterns.org](https://darkpatterns.org/)]

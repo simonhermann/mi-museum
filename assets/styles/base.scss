@@ -40,25 +40,27 @@ noscript {
 a,
 //a:not([class]) //hack to overwrite vuetify color
  {
-  text-decoration: underline;
   color: var(--color-link);
+  text-decoration: underline;
+  text-decoration-color: var(--grey-mid);
   transition: all 0.1s ease-out;
 }
 a:hover {
-  //filter: brightness(0.5);
   color: var(--color-highlight);
+  text-decoration-color: inherit;
   outline-offset: 3px;
 }
 a:focus {
-  outline-style: dotted;
   color: var(--color-highlight);
+  text-decoration-color: inherit;
+  outline-style: dotted;
   outline-offset: 2px;
   outline-width: 1px;
 }
 a:active {
-  text-decoration: none;
   outline-style: dotted;
   color: var(--color-highlight);
+  text-decoration: none;
   outline-offset: 2px;
   outline-width: 2px;
 }
