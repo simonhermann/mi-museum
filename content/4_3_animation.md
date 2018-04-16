@@ -28,6 +28,14 @@ XXXX
 zb exponentiell statt linear
 --> Bezug auf Regeln der Physischen Welt
 
+<figure class="content-narrow">
+  <img src="/images/animation/ios-open-folder-distance.gif">
+  <figcaption>
+    Veranschaulichung der Distanz, die ein phyisches Objekt zurücklegen würde, dessen wahrgenommenes Größenwachstum dem Öffnen einer App in iOS 7 entspricht. (24.62 ft ≈ 7,5 m) 
+    <sup><a href="https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+
 ### Animation kann auch schaden
 
 <figure class="content-skinny">
@@ -56,7 +64,7 @@ Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling 
 
 --> XXXX Prototypen & Testen
 
-## Die Möglichkeiten von Animationen in Microinteractions zusammengefasst:
+## Die Möglichkeiten von Animation in Microinteractions zusammengefasst:
 
 * Interaktionen fühlen sich flüssig und angenehm an
 * schaffen von Personlichkeit
@@ -71,14 +79,18 @@ Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling 
 
 ::: md-container-more
 
-### Mehr zum Thema Animation
+### Sehens- und lesenswert zum Thema Animation
 
 * Buch: [Designing Interface Animation](https://rosenfeldmedia.com/books/designing-interface-animation/) von Val Head
 * Podcast: [Motion and Meaning](http://www.motionandmeaning.io/) mit Val Head & Cennydd Bowles
 * Video: [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus
 * Abschnitt [_Motion_ in den Material Design Guidlines](https://material.io/guidelines/motion/material-motion.html) von Google
 * Artikel: [Stop Gratuitous UI Animation](https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97) von Sophie Paxton
-* Artikel: [How Functional Animation Helps Improve User Experience](https://www.smashingmagazine.com/2017/01/how-functional-animation-helps-improve-user-experience/) von Nick Babich
-    <!-- - Artikel: [The Force of Motion](https://medium.com/@tubikstudio/interface-animation-the-force-of-motion-598b84734e69#.1kwmtqwqm) von Tubik Studio (mit einigen exzessiven Beispielen) -->
+
+<!-- * Artikel: [The Weird, Terrifying Physics Of iOS 7](https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7) von John Herrman & Jake Levy -->
+
+<!-- * Artikel: [How Functional Animation Helps Improve User Experience](https://www.smashingmagazine.com/2017/01/how-functional-animation-helps-improve-user-experience/) von Nick Babich -->
+
+<!-- - Artikel: [The Force of Motion](https://medium.com/@tubikstudio/interface-animation-the-force-of-motion-598b84734e69#.1kwmtqwqm) von Tubik Studio (mit einigen exzessiven Beispielen) -->
 
 :::

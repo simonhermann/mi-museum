@@ -12,6 +12,9 @@ Bei der Definition von Regeln für Mikro-Interaktionen sollte möglichst auf dem
 Nur weil sich eine MI durchsetzt, heißt das nicht, dass sie perfekt ist. Beispielsweise wird von vielen Nutzern nicht verstanden wann ein Doppel- und wann ein einfacher Klick benötigt wird. XXXX
 
 
+::: md-container-more
 
-## Links
+### Mehr zum Thema Microinteractions in der Praxis:
 - Artikel: [Designing for Fingers, Touch and People](https://www.uxmatters.com/mt/archives/2017/03/design-for-fingers-touch-and-people-part-1.php) von Steven Hoober
+
+:::

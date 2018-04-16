@@ -21,8 +21,9 @@
 }
 .md-container-standout {
   @extend .ext-md-container;
-  color: white;
-  background: var(--color-highlight);
+  /*color: white;*/
+  /*background: var(--color-highlight);*/
+  background: var(--grey-light);
 }
 .md-container-more {
   @extend .ext-md-container;
