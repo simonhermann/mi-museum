@@ -65,6 +65,8 @@ Die _Kommandozeile_ ist minimalistisch, nicht nur was die verwendeten grafischen
 
 Ein Command Line Interface lässt sich Vorfahre von Chatbots (Conversational Interfaces) sehen. Hauptunterschied ist, dass ein Chatbot darauf ausgerichtet ist, den Nutzer zu einer Aktion aufzufordern und diesen aktiv anzusprechen, während die Kommandozeile eher eine passive Rolle einnimmt. Anders ausgedrückt: Der _Auslöser_ der (mikro-)Interaktion ist beim CLI meist auf Nutzerseite während er bei Chatbots öfter auf Seiten des Interfaces liegt.
 
+http://www.zeit.de/digital/internet/2018-03/sxsw-konferenz-plato-system-computer-geschichte
+
 <!-- XXXX Fazit Phase 2 -->
 
 ## Phase 3: GUI – Microinteractions in Grafischen Benutzeroberflächen

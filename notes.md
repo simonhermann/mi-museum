@@ -28,11 +28,13 @@
 - [ ] add purgeCSS to strip unused styles https://github.com/FullHuman/purgecss/tree/master/examples/with-nuxt
 - [ ] add noreferrer noopener _blank to external links 
 - [ ] (https://github.com/Va1/string-replace-loader ?)
+- [ ] replace all gifs with videos (cloudinary: https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4)
 
 
 ## Ideas
 - Vue Stagger https://codepen.io/dizzyluo/pen/yJLwWm
 - 3D Parallax https://codepen.io/futekov/pen/JLGDr
+- Footnotes as Tooltip?
 
 ## Misc
 - [ ] Anmeldung VGWort https://tom.vgwort.de/portal/index

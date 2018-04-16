@@ -23,9 +23,9 @@ Animation ist oft eine visuelle Bestätigung einer Nutzereingabe. Dies bedeutet,
 XXXX
 (skeleton UI, ..)
 
-#### Natürliche aussehende Bewegung
+#### Natürliche Bewegung
 
-zb exponentiell statt linear
+XXXX zb exponentiell statt linear, Kurven statt Geraden
 --> Bezug auf Regeln der Physischen Welt
 
 <figure class="content-narrow">
@@ -36,7 +36,11 @@ zb exponentiell statt linear
   </figcaption>
 </figure>
 
-### Animation kann auch schaden
+#### Markenbildung
+
+XXXX Branding durch Verspieltheit: bekannte/standard Interaktionen (die eher seltener genutzt werden) aufwerten durch verspielte Animation --> Nutzererfahrung verbessern ohne Usability zu beeinträchtigen, Nutzer überraschen und erheitern --> [Signature Moments](/signature-moments)
+
+### Balance ist entscheidend
 
 Animationen sollten immer eine Aufgabe erfüllen. Wenn eine Animation keinen funktionalen Zweck hat, kann sie sich unangenehm oder lästig anfühlen, besonders wenn sie einen Prozess verlangsamt, der ohne Animation schneller sein könnte.
 Bei der Planung und Gestaltung von Animationen in Microinteractions und generell in Interfaces sollte man sich die Frage stellen: _Wie hilft die Anmation ein Problem zu lösen, wie bereichert sie die Positive Erfahrung oder hilft dem Nutzer anderweitig?_ Wenn die Frage nicht zufriedenstellend beantwortet werden kann, sollte von der betrachteten Animation vermutlich abgesehen werden.
@@ -74,8 +78,8 @@ Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling 
 * die richtige Erwartungshaltung schaffen und Hinweise geben, was passieren wird
 * klares Feedback auf Eingaben geben
 * Orientierung über die momentane "Position" im Interface geben
-* Aufmerksamkeit auf den zu diesem Zeitpunkt wichtigsten Teil des Interfaces lenken
-* mehrere Funktionen gleichzeitig erfüllen (XXXX)
+* Verdeutlichen von Hierarchie
+* den Fokus auf des Nutzers lenken
 
 ::: md-container-more
 
@@ -86,6 +90,7 @@ Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling 
 * Video: [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus
 * Abschnitt [_Motion_ in den Material Design Guidlines](https://material.io/guidelines/motion/material-motion.html) von Google
 * Artikel: [Stop Gratuitous UI Animation](https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97) von Sophie Paxton
+* Artikel: [Animation Principles in UI](https://www.invisionapp.com/blog/animation-principles-in-ui/) von Brittany Layton
 
 <!-- * Artikel: [The Weird, Terrifying Physics Of iOS 7](https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7) von John Herrman & Jake Levy -->
 
