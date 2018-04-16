@@ -7,3 +7,6 @@ https://dribbble.com/shots/1824088-GIF-for-the-Weather-App
 
 showpassword
 https://dribbble.com/shots/4298963-Show-password
+
+encryption
+https://www.smashingmagazine.com/2018/04/designing-emotional-interfaces-boring-apps/

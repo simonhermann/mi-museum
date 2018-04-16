@@ -9,15 +9,29 @@
 - mehrere Funktionen gleichzeitig erfüllen (XXXX)
 - die Geschwindikeit der Interaktion erhöhen (besonders für neue Nutzer)
 - gefühlte Geschwindikeit erhöhen (skeleton UI, ..)
-- klares Feedback geben und die richtige Erwartungshaltung schaffen
+- die richtige Erwartungshaltung schaffen und Hinweise geben, was passieren wird
+- klares Feedback auf Eingaben geben 
+- Orientierung über die momentane "Position" im Interface geben
 :::
+
+
+
+Erstbenutzer benötigen meist Hinweise, die zeigen, wie eine Microinteraction zu benutzen ist. Dies gilt insbesondere für Interfaces, die unbekannte oder einzigartige Interaktionen enthalten (z.B. gestengesteuerte Interfaces).
+Wenn es darum geht, den Benutzern die Verwendung einer Benutzungsoberfläche beizubringen, sollten eine Reihe von visuellen Hinweisen zeigen, welche Interaktionen möglich sind. Diese Art der funktionalen Animation lenkt die Aufmerksamkeit des Benutzers auf die möglichen Interaktionen.
+
+<figure class="content-skinny">
+  <img src="">
+  <figcaption>
+  Animierte Übergänge zeigen die Relation zwischen einzelnen Elementen und schafft so Orientierung XXXX
+  </figcaption>
+</figure>
 
 ## Don't overdo it
 
 Was beim ersten Mal als nette Überraschung empfunden wird, kann beim zehnten Mal langweilig oder sogar lästig erscheinen.
 
-- Keine Animation, wenn die Animation kein Problem löst, nicht die positive Erfahrung bereichert und dem Nutzer nicht hilft
-- Problem für Manche Nutzer: Augen müssen neu Fokussieren
+Keine Animation, wenn die Animation kein Problem löst, nicht die positive Erfahrung bereichert und dem Nutzer nicht hilft.
+Problem für Manche Nutzer: Augen müssen neu Fokussieren
 
 ![Beispiel für eine misslungene UI-Animation^[https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97] ](/images/animation/poormotiondesign.gif ""){.content-skinny} 
 
@@ -33,4 +47,5 @@ Was beim ersten Mal als nette Überraschung empfunden wird, kann beim zehnten Ma
 - Video: [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus
 - Abschnitt [*Motion* in den Material Design Guidlines](https://material.io/guidelines/motion/material-motion.html) von Google
 - Artikel: [Stop Gratuitous UI Animation](https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97)  von Sophie Paxton
-- Artikel: [The Force of Motion](https://medium.com/@tubikstudio/interface-animation-the-force-of-motion-598b84734e69#.1kwmtqwqm) von Tubik Studio (mit einigen exzessiven Beispielen)
+- Artikel: [How Functional Animation Helps Improve User Experience](https://www.smashingmagazine.com/2017/01/how-functional-animation-helps-improve-user-experience/) von Nick Babich
+<!-- - Artikel: [The Force of Motion](https://medium.com/@tubikstudio/interface-animation-the-force-of-motion-598b84734e69#.1kwmtqwqm) von Tubik Studio (mit einigen exzessiven Beispielen) -->
