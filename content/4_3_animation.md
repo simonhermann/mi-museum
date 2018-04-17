@@ -22,6 +22,9 @@ Animation ist oft eine visuelle Bestätigung einer Nutzereingabe. Dies bedeutet,
 
 XXXX
 (skeleton UI, ..)
+200-500ms^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head]
+Bei Responsiven Webseiten sollte in Erwägung gezogen werden, bei großflächigen Übergängen die Dauer der Animation an die Größe des Ausgabemediums anzupassen.
+Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Zahlen dahinter.
 
 #### Natürliche Bewegung
 
@@ -36,14 +39,15 @@ XXXX zb exponentiell statt linear, Kurven statt Geraden
   </figcaption>
 </figure>
 
-#### Markenbildung
+#### Branding durch Animationen
 
-XXXX Branding durch Verspieltheit: bekannte/standard Interaktionen (die eher seltener genutzt werden) aufwerten durch verspielte Animation --> Nutzererfahrung verbessern ohne Usability zu beeinträchtigen, Nutzer überraschen und erheitern --> [Signature Moments](/signature-moments)
+XXXX Markenbindung durch Verspieltheit: bekannte/standard Interaktionen (die eher seltener genutzt werden) aufwerten durch verspielte Animation --> Nutzererfahrung verbessern ohne Usability zu beeinträchtigen, Nutzer überraschen und erheitern --> [Signature Moments](/signature-moments)
 
-### Balance ist entscheidend
+### Bewegung sinn- und verantwortungsvoll einsetzen
 
 Animationen sollten immer eine Aufgabe erfüllen. Wenn eine Animation keinen funktionalen Zweck hat, kann sie sich unangenehm oder lästig anfühlen, besonders wenn sie einen Prozess verlangsamt, der ohne Animation schneller sein könnte.
 Bei der Planung und Gestaltung von Animationen in Microinteractions und generell in Interfaces sollte man sich die Frage stellen: _Wie hilft die Anmation ein Problem zu lösen, wie bereichert sie die Positive Erfahrung oder hilft dem Nutzer anderweitig?_ Wenn die Frage nicht zufriedenstellend beantwortet werden kann, sollte von der betrachteten Animation vermutlich abgesehen werden.
+Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegangen werden: Nutzer werden nach und nach und in einer bestimmten Reihenfolge an einzelne Elemente herangeführt. Mehrere Handlungsstränge gleichzeitig zu erzählen, erfordert sehr viel Aufmerksamkeit von Nutzern, daher sollte eindeutig sein, was im Mittelpunkt steht.
 
 <figure class="content-skinny">
   <img src="/images/animation/paypal-reciept.gif">
@@ -66,7 +70,7 @@ Als Faustregel gilt: Je größer die animierte Fläche, je ausschweifender und a
 
 Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling bedeutet die formalästhetische Überarbeitung eines Produkts im Sinne einer Verschönerung mit dem Ziel besserer Verkäuflichkeit. Funktionale Verbesserungen werden dabei nicht angestrebt. [...] Der Funktionalismus kritisierte das Styling als oberflächlich und nicht von einer funktionalen Notwendigkeit getragen. [...] - Quelle: [Designlexikon.net](http://www.designlexikon.net/Fachbegriffe/S/styling.html) ] abzurutschen. Der eigentliche Inhalt eines Produktes sollte immer im Vordergrund stehen.
 
---> XXXX Prototypen & Testen
+--> XXXX Animation immer durchdacht und zweckmäßig. Prototypen & Testen.
 
 ## Die Möglichkeiten von Animation in Microinteractions zusammengefasst:
 
