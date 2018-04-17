@@ -28,10 +28,13 @@
   z-index: 3;
   opacity: 0;
   transition: opacity 100ms var(--transition-curve1);
-  background-color: rgb(250, 250, 250);
-  border-radius: 1rem;
   html.app-mounted & {
     opacity: 1;
+  }
+  .content--wrap {
+  background-color: rgb(250, 250, 250);
+  border-radius: 1rem;
+
   }
 }
 .container {

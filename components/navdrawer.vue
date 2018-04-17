@@ -40,7 +40,7 @@
 
     </v-navigation-drawer>
 
-    <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense :flat="$vuetify.breakpoint.mdAndUp" 
+    <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense :flat="true" 
     :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
 
       <button type="button" class="toolbar__side-icon btn btn--icon btn__menu" :class="{ transparent : drawer }" @click="drawer = !drawer" style="position: relative;" aria-label="Menu" tabindex="0">
@@ -71,7 +71,13 @@
 .navigation-drawer {
   padding: 1em 0.5em 2em 2em;
   background-color: transparent !important; //waiting for vuetify to allow theme disableling
-  color: var(--color-text-light);
+  /*color: var(--color-text-light);*/
+  color: var(--grey-vlight);
+
+  &--is-mobile {
+    //background-color: #fff !important;
+    background-color: var(--color-highlight) !important;
+  }
 
   @extend .ext-nice-scrollbar;
   -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -84,9 +90,6 @@
     }
   }
 
-  &--is-mobile {
-    background-color: #fff !important;
-  }
   .icon__chevron-left {
     content: "‹";
     color: inherit;
@@ -102,9 +105,9 @@
     font-weight: 900;
     letter-spacing: 0.05em;
     font-size: 1.25em;
-    color: var(--color-text-light);
+    color: var(--grey-vlight);
     &:hover {
-      color: var(--color-highlight);
+      color: #fff;
     }
     &.nuxt-link-exact-active {
       color: transparent;
@@ -135,7 +138,7 @@
       margin-top: -0.1em;
     }
     &:hover {
-      color: var(--color-highlight);
+      color: var(--grey-vlight);
       text-decoration: underline;
       &::before {
         color: inherit;
@@ -151,7 +154,7 @@
     line-height: 2em;
   }
   .nuxt-link-exact-active {
-    color: var(--color-highlight);
+    color: var(--grey-vlight);
     //text-decoration-color: currentColor;
     &::before {
       color: inherit;
@@ -166,7 +169,9 @@
  * Toolbar
 */
 .toolbar {
-  background-color: rgba(245, 245, 245, 1);
+  /*background-color: rgba(245, 245, 245, 1);*/
+  background-color: var(--color-highlight);
+  color: var(--grey-vlight);
   @include mq-md {
     padding-top: 1rem !important;
   }
@@ -184,6 +189,10 @@
         height: 2em;
         width: 2em;
         margin-top: 0.2em;
+
+        svg {
+          fill: var(--grey-vlight);
+        }
 
         @include mq-md {
           &::after {
@@ -204,7 +213,7 @@
     background-color: transparent !important;
   }
   &.elevation-0 {
-    background-color: transparent;
+    //background-color: transparent;
   }
   &__title {
     color: inherit; // vuetify hack XXXX
