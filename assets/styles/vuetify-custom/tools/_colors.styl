@@ -1,17 +1,17 @@
 global-color(color_name, color_value)
   .{color_name}
-    background-color color_value !important
-    border-color: color_value !important
+    background-color color_value
+    border-color: color_value
 
   .{color_name}--text
-    color color_value !important
+    color color_value
 
 global-color-accent(color_name, color_value)
   .{color_name}
     &.{color_type}
-      background-color color_value !important
-      border-color: color_value !important
+      background-color color_value
+      border-color: color_value
 
   .{color_name}--text
     &.text--{color_type}
-      color: color_value !important
+      color: color_value
