@@ -3,6 +3,8 @@
     <div class="content-narrow">   
       <h1> Button / Knopf</h1>
 
+      <laddaButton></laddaButton>
+
       <v-btn large>Klick me</v-btn>
       
       <ul>
@@ -17,7 +19,12 @@
 </template>
 
 <script>
-export default {}
+import laddaButton from '~/components/mi/buttons/laddaButton.vue';
+export default {
+  components: {
+    laddaButton
+  }
+}
 </script>
 
 <style lang="scss">
