@@ -2,6 +2,14 @@
 
 Die Hauptaufgabe der Rückmeldung (engl. Feedback) das eine Benutzerschnittstelle an den Nutzer gibt, ist diesem zu helfen, die [Regeln](/rules) einer (Mikro-)Interkation zu verstehen. Wenn ein Nutzer beispielsweise einen Button antippt, sollte gezeigt werden, _dass_ dieser gedrückt wurde und _was das Ergebnis_ der Eingabe ist.
 
+Für Nutzer sollten die [Regeln](/rules) einer Microinteraction keinerlei oder nur wenig Aufmerksamkeit einfordern. Am Beispiel des Lichtes mit Bewegungsmelder: allein wichtig ist, dass das Licht an geht sobald Nutzer es benötigen und sie sich nicht darum kümmern müssen, es wieder auszuschalten. Die einzige Rückmeldung des Produktes an den Nutzer ist hier das gewünschte Ergebnis selbst: Licht. Die meisten Microinteractions benötigen jedoch mehr Feedback. 
+XXXX
+
+#### Unmittelbarkeit
+
+Rückmeldung sollte ohne merkliche Verzögerung auf Nutzereingaben sein.
+Wenn der Befehl aus technischen Gründen nicht unmittalbar ausgeführt werden kann, sollte stattdessen eine Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen.
+
 #### Feedback sollte üblicherweise vorhanden sein, wenn:
 
 * eine Eingabe von Seiten des Nutzers stattfindet.
@@ -19,6 +27,8 @@ In einigen fällen kann es dagegen besser sein, dem Nutzer keinerlei Feedback zu
 
 Da die Rückmeldung, um die es hier geht, von Maschinen an Menschen ist, überträgt sie sich über die menschlichen Sinne an Nutzer. Sie ist bei heutigen digitalen Geräten meist visuell oder akustisch, manchmal haptisch und nur selten über Geschmak oder Geruch. Doch ein wichtiges das wichtigste Ziel ist immer, die "Black Box" der Technik zugänglich machen.
 
+### Visuell
+
 XXXX
 
 <figure class="content-skinny">
@@ -29,6 +39,14 @@ XXXX
 </figure>
 
 --> [Animation](/animation)
+
+### Auditiv
+
+^[[Twenty Thousand Hertz Podcast #30: The bleeps, the sweeps, and the creeps!](https://www.20k.org/episodes/the-bleeps-the-sweeps-and-the-creeps)]
+
+Car sound enhancement
+
+### Feedback ist direkte Beeinflussung von Nutzern
 
 Die Art von Rückmeldung, die an einen Nutzer gegeben wird, kann diesen stark beeinflussen und sogar manipulieren. So ist das Feedback eines Spielautomaten darauf ausgelegt, den Spieler zu überzeugen, immer mehr zu spielen. Auf jede Eingabe reagiert das Gerät mit übermäßigem Feedback und sorgt dafür, dass sich der Nutzer in seiner Aktion bestätigt fühlt. Selbst kleine Gewinne werden durch zahlreiche blinkende Lichter und Fanfaren untermalt und dem Nutzer suggeriert, er hätte einen Jackpot gewonnen. Als Designer sollte man sich der Macht über Nutzer stets bewusst sein und [Dark Patterns](/triggers#dark-patterns) vermeiden.
 
@@ -43,9 +61,12 @@ Die Art von Rückmeldung, die an einen Nutzer gegeben wird, kann diesen stark be
 4.  _Werden nutzer dazu gebracht, etwas zu tun, das diese nicht wirklich wollen?_
     --> Gestalter sollten für Nutzer arbeiten, nicht für Geld.
 
----
+::: md-container-more
 
-TODO:
+### Sehens-, hörens- und lesenswert zum Thema Feedback
 
-Für Nutzer sollten diese Regeln jedoch keinerlei Aufmerksamkeit erfordern; allein wichtig ist, dass das Licht an geht sobald sie es benötigen und sie sich nicht darum kümmern müssen, es wieder auszuschalten.
-Die einzige Rückmeldung des Produktes an den Nutzer ist das gewünschte Ergebnis selbst: Licht. Meist benötigt eine Microinteraction jedoch mehr Feedback: XXXX
+* Kapitel _Feedback_ im Buch: Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [www.microinteractions.com](http://microinteractions.com/)
+* Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von
+  Ilya Birman
+
+:::

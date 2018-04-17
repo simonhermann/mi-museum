@@ -50,6 +50,6 @@ asd
     Subsequent paragraphs are indented to show that they
 belong to the previous footnote.
 
-[^fn3]: [@saffer13] Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013
+[^fn3]: [@saffer13] Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [www.microinteractions.com](http://microinteractions.com/)
 
 
