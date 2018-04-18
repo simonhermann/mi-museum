@@ -84,7 +84,7 @@ Ivan Sutherland, einer der Pioniere der Computergrafik entwickelte 1962/63 am MI
 Mit Hilfe des kürzlich erfundenen _Lichtgriffels_ war es möglich, grafische Grundformen zu zeichnen und diese zu manipulieren.
 
 <figure class="content-skinny">
-  <img src="/images/history/sketchpad.jpg">
+  <img data-src="/images/history/sketchpad.jpg">
   <figcaption>
     Arbeitsumgebung für Sketchpad: Die rechte Hand hält den Lichtgriffel, die linke bedient die Box mit etwa 40 Befehlstasten. Mit den schwarzen Drehknöpfen werden Skalierung und Position verändert.
     <sup><a href="https://mprove.de/diplom/_media/fig3.1_Sketchpad.jpg">Bildquelle</a></sup>
@@ -143,7 +143,7 @@ https://heise.de/-187657
 http://dougengelbart.org/firsts/mouse.html
 
 <figure class="content-skinny">
-  <img src="/images/history/engelbart-mouse-replica.jpg">
+  <img data-src="/images/history/engelbart-mouse-replica.jpg">
   <figcaption>
     Replik des des Maus-Prototypen von Doug Engelbart und Bill English
     <sup><a href="http://www.computerhistory.org/revolution/input-output/14/350">Bildquelle</a></sup>
@@ -169,7 +169,7 @@ Um Text zu kopieren und einzufügen, musste zuerst das Ziel mit der Maus ausgew�
 Mit Hilfe der Maus konnte zwar Text markiert (--> XXXX) werden, jedoch gab es keinerlei grafisches Menü. Bei der Nutzung von Bravo musste man daher stets das Handbuch verfügbar haben oder die Tastaturbefehle auswendig kennen.^[Demonsration des Layoutprogrammes _Bravo_: [Xerox Alto Restoration - CuriousMarc/Youtube](https://youtu.be/OKakermaQ68?t=10m30s)]^[[Xerox Alto Bravo Demo - Meadhbh Hamrick/Youtube](https://youtu.be/390hhDkiJFM)]^[@Smith99]
 
 <figure class="content-skinny">
-  <img src="/images/history/bravo-manual-summary.jpg">
+  <img data-src="/images/history/bravo-manual-summary.jpg">
   <figcaption>
     Kurzanleitung für Bravo 7.2 (Ausschnitt). Aus dem Benutzerhandbuch des Xerox Alto zur Nutzung von Bravo (aus Seite 69/161), 1979
     <sup><a href="http://bitsavers.trailing-edge.com/pdf/xerox/alto/Alto_Users_Handbook_Sep79.pdf ">Bildquelle</a></sup>
@@ -225,7 +225,7 @@ https://scifiinterfaces.com/
 http://rosenfeldmedia.com/wp-content/uploads/2014/11/Make-It-So-Excerpt.pdf
 
 <figure class="content-wide">
-  <img src="/images/history/Amidala-Anykey.jpg">
+  <img data-src="/images/history/Amidala-Anykey.jpg">
   <figcaption>
     Im Film Star Wars Episode I nutzt Königin Amidala den selben Button um eine Hologramm-Verbindung aufzubauen, eine Sternenkarte aufzurufen und das Raumschiff zu landen. <sup><a href="https://99percentinvisible.org/episode/future-screens-are-mostly-blue/">Bildquelle</a></sup>
   </figcaption>

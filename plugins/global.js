@@ -15,13 +15,15 @@ Vue.config.productionTip = false
 // import VueScrollactive from 'vue-scrollactive'
 // Vue.use(VueScrollactive)
 
-// vue-lazyload
-// import VueLazyload from 'vue-lazyload'
-// Vue.use(VueLazyload)
-
 // various scroll-related tools
 // import ScrollView from 'vue-scrollview'
 // Vue.use(ScrollView)
+
+// vue-lazyload
+import VueLazyload from 'vue-lazyload'
+Vue.use(VueLazyload, {
+  loading: '/images/loading.svg',
+})
 
 /**
  * initialize DOM-dependent plugins after page change

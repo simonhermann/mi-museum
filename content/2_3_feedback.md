@@ -35,7 +35,7 @@ Ist es nicht möglich, eine Verbindung herzustellen, sollte trotzdem in jedem Fa
 XXXX
 
 <figure class="content-skinny">
-  <img src="/images/feedback/1password-shake.gif">
+  <img data-src="/images/feedback/1password-shake.gif">
   <figcaption>
   Rückmeldung von 1password bei Eingabe eines falschen Master-Passwortes 
   </figcaption>

@@ -2,6 +2,7 @@
   <div class="page">
     <html-parser :content=text01></html-parser>
     <nextPage link="/signature-moments" heading="Signature Moments"></nextPage>
+    <!-- <img data-src="/images/skeuomorphismus/recyclebin.jpg"> -->
   </div>
 </template>
 

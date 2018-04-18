@@ -10,7 +10,7 @@ Eine Benutzerschnittstelle mit Personlichkeit hilft, einen Bezug herzustellen un
 Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es wirklich auf.
 
 <figure class="content-skinny">
-  <img src="/images/signature-moments/weather-app.gif">
+  <img data-src="/images/signature-moments/weather-app.gif">
   <figcaption>
     XXXX
     <sup><a href="https://codepen.io/davidkpiano/full/ByNPQw">Bildquelle</a></sup>
@@ -18,7 +18,7 @@ Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es
 </figure>
 
 <figure class="content-skinny">
-  <img src="/images/signature-moments/pull-to-refresh-planet.gif">
+  <img data-src="/images/signature-moments/pull-to-refresh-planet.gif">
   <figcaption>
     XXXX
     <sup><a href="https://dribbble.com/shots/2111739-Pull-To-Refresh">Bildquelle</a></sup>
@@ -26,7 +26,7 @@ Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es
 </figure>
 
 <figure class="content-skinny">
-  <img src="/images/signature-moments/1password-open.gif">
+  <img data-src="/images/signature-moments/1password-open.gif">
   <figcaption>
     Der Signature Moment beim öffnen des Passwort-Managers 1password soll zeigen, dass gespeicherte Passwörter so sicher wie in einem Tresor verwahrt werden.
   </figcaption>

@@ -35,7 +35,7 @@ Trigger bei eingehender Nachricht auf Handy:
 Wie auch bei nutzerseitigen Auslösern, können unterschiedliche Trigger natürlich zur selben Interaktion führen.
 
 <figure class="content-skinny">
-    <img src="/images/triggers/incoming-call.gif">
+    <img data-src="/images/triggers/incoming-call.gif">
     <figcaption>Diese Animation für einen eingehenden Anruf ist dem klassischen klingeln eines analogen Telefons nachempfunden
     <sup><a href="https://material.io/">Bildquelle</a></sup>
     </figcaption>
@@ -49,7 +49,7 @@ Trigger könnte die Ankuft einer neuen Nachricht, eine festgelegte Uhrzeit oder 
 ### Unsichtbare Auslöser
 
 <figure class="content-skinny">
-    <img src="/images/triggers/pocket-copied-url.jpg">
+    <img data-src="/images/triggers/pocket-copied-url.jpg">
     <figcaption>Wenn Pocket geöffnet wird, während sich ein Link in der Zwischenablage befindet, fragt die App, ob man den Link zur Leseliste hinzufügen möchte
     </figcaption>
 </figure>
@@ -60,7 +60,7 @@ Sogenannte Dark Patterns sind Methoden und Muster von im Interactiondesign, die 
 Dark Patterns können sich nicht nur Teil des Triggers einer Microinteraction sein, sondern sich auch auf Rückmeldung, Regeln, Schleifen und Modi auswirken und Sie können nicht nur beeinflussen _etwas_ zu tun, sondern auch _davon abhalten_.
 
 <figure class="content-skinny">
-    <img src="/images/triggers/darkpattern-dirt.jpg">
+    <img data-src="/images/triggers/darkpattern-dirt.jpg">
     <figcaption>Ein Fleck auf dem Werbebanner verleitet Nutzer, diesen wegzuwischen und versehentlich auf die Anzeige zu klicken.
     <sup><a href="https://www.reddit.com/r/mildlyinfuriating/comments/7tzwz8/this_mobile_ad_designed_to_make_it_look_like_you/">Bildquelle</a></sup>
     </figcaption>

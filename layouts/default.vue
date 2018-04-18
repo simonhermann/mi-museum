@@ -6,7 +6,7 @@
     <v-content>
       <v-container>
         <noscript> Please enable Javascript in your browser. </noscript>
-        <nuxt />
+        <nuxt v-lazy-container="{ selector: 'img' }"/>
       </v-container>
     </v-content>
     

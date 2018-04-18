@@ -4,7 +4,7 @@ In der Vergangenheit haben sich Designer bei der Gestaltung von Interaktionen ge
 Ein Digitaler Schalter sah genau aus wie sein physisches Vorbild und verhielt sich auch so.
 
 <figure class="content-skinny">
-    <img src="/images/skeuomorphismus/switchanimation.gif">
+    <img data-src="/images/skeuomorphismus/switchanimation.gif">
     <figcaption>Skeumorphistische Darstellung eines Kippschalters
     <sup>
         <a href="https://dribbble.com/shots/787974-Switch-Animation">Bildquelle</a>
@@ -18,8 +18,8 @@ Die Regeln der uns Menschen seit Jahrtausenden umgebenden Welt haben sich so in 
 Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction sinnvoll erscheinen, kann davon ausgegangen werden, dass sie unserem intuitiven Verständnis von Konzepten wie Gewicht, Material, Bewegung, Trägheit, Reibung, usw. nicht wiederspricht. Besonders zu beachten sind diese "Naturgesetze" bei der Gestaltung von [Animation](/animation).
 
 <figure class="content-skinny" style="max-width:16rem;">
-    <img src="/images/skeuomorphismus/reorder-movies.gif">
-    <figcaption>Die UI-Elemente hier verhalten sich in gewisser weise physikalischen Gesetzen entsprechend und die Interaktion fühlt sich dadurch natürlich an und ist intuitiv zu verstehen
+    <img data-src="/images/skeuomorphismus/reorder-movies.gif">
+    <figcaption>Die UI-Elemente hier verhalten sich in gewisser weise physikalischen Gesetzen entsprechend – die Interaktion fühlt sich dadurch natürlich an und ist intuitiv zu verstehen
     <sup>
         <a href="https://www.invisionapp.com/blog/animation-principles-in-ui/">Bildquelle</a>
     </sup>
@@ -34,7 +34,7 @@ XXXX uncanny valley
 Ein Problem des visuellen Skeuomorphismus ist seine hohe Geschmacks- und Kulturabhängigkeit. Außerdem werden zu exakte Kopien sehr schnell langweilig.
 
 <figure class="content-skinny">
-    <img src="/images/skeuomorphismus/recyclebin.jpg">
+    <img data-src="images/skeuomorphismus/recyclebin.jpg">
     <figcaption>Der Papierkorb besteht seit den Anfängen von Windows ohne Änderung der Regeln. Gefüllter Zustand aus Windows 95 (links) und Entleerter Zustand aus Windows 10 (rechts) </figcaption>
 </figure>
 

@@ -13,7 +13,7 @@ Animation ist oft eine visuelle Bestätigung einer Nutzereingabe. Dies bedeutet,
 <!-- Wenn ein Teil des Interfaces entweder autonom arbeitet oder nicht standardkonforme Aktionen ausführt, kann es seine Benutzer verwirren oder sogar irritieren. Da die Bewegung der Objekte im wirklichen Leben bekannt ist, erwartet der Nutzer von einem Smartphone dies. -->
 
 <figure class="content-skinny">
-  <img src="">
+  <img data-src="">
   <figcaption>
   Animierte Übergänge zeigen die Relation zwischen einzelnen Elementen und helfen so bei der Orientierung XXXX
   </figcaption>
@@ -33,7 +33,7 @@ XXXX zb exponentiell statt linear, Kurven statt Geraden
 --> Bezug auf Regeln der Physischen Welt
 
 <figure class="content-narrow">
-  <img src="/images/animation/ios-open-folder-distance.gif">
+  <img data-src="/images/animation/ios-open-folder-distance.gif">
   <figcaption>
     Veranschaulichung der Distanz, die ein phyisches Objekt zurücklegen würde, dessen wahrgenommenes Größenwachstum dem Öffnen einer App in iOS 7 entspricht. (24.62 ft ≈ 7,5 m) 
     <sup><a href="https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7">Bildquelle</a></sup>
@@ -51,7 +51,7 @@ Bei der Planung und Gestaltung von Animationen in Microinteractions und generell
 Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegangen werden: Nutzer werden nach und nach und in einer bestimmten Reihenfolge an einzelne Elemente herangeführt. Mehrere Handlungsstränge gleichzeitig zu erzählen, erfordert sehr viel Aufmerksamkeit von Nutzern, daher sollte eindeutig sein, was im Mittelpunkt steht.
 
 <figure class="content-skinny">
-  <img src="/images/animation/paypal-reciept.gif">
+  <img data-src="/images/animation/paypal-reciept.gif">
   <figcaption>
     Diese Animation mag auf den ersten Blick ansprechend wirken, jedoch dauert sie viel zu lange und geht weit über ihren Zweck hinaus. 
     <sup><a href="https://vimeo.com/197761851">Bildquelle</a></sup>

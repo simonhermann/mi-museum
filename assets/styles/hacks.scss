@@ -32,6 +32,9 @@ body a {
 .medium-zoom-image {
   z-index: 101;
   padding: calc(var(--body-border-width) * 2);
+  &[lazy="loading"]{
+    pointer-events: none;
+  }
 }
 .medium-zoom--open .medium-zoom-image--open {
   z-index: 101;
