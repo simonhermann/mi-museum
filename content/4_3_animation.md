@@ -3,6 +3,9 @@
 XXXX
 vA Form von Feedback
 
+> Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic ease.^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]
+> <cite>"Motion" im Microsoft Fluent Design System</cite>
+
 Erstbenutzer benötigen meist Hinweise, die zeigen, wie eine Microinteraction zu benutzen ist. Dies gilt insbesondere für Interfaces, die unbekannte oder einzigartige Interaktionen enthalten (z.B. gestengesteuerte Interfaces).
 Wenn es darum geht, den Benutzern die Verwendung einer Benutzungsoberfläche beizubringen, sollten eine Reihe von visuellen Hinweisen zeigen, welche Interaktionen möglich sind. Diese Art der funktionalen Animation lenkt die Aufmerksamkeit des Benutzers auf die möglichen Interaktionen.
 
@@ -21,14 +24,45 @@ Animation ist oft eine visuelle Bestätigung einer Nutzereingabe. Dies bedeutet,
 
 #### Nutzungsgeschwindigkeit und gefühlte Geschwindikeit
 
+> Wenn man zwei Stunden lang mit einem Mädchen zusammensitzt, meint man, es wäre eine Minute. Sitzt man jedoch eine Minute auf einem heißen Ofen, meint man, es wären zwei Stunden. Das ist Relativität.^[[zitate-online.de](http://www.zitate-online.de/sprueche/wissenschaftler/689/wenn-man-zwei-stunden-lang-mit-einem-maedchen.html)]
+> <cite> Albert Einstein</cite>
+
+Einer Studie des MIT zufolge werden passive Wartezeiten durchschnittlich 36% länger eingeschätzt, als sie tatsächlich sind^[[Perspectives on Queues: Social Justice and psychology of Queueing](http://www.jstor.org/stable/171439?seq=1#page_scan_tab_contents) von Richard Larson, MIT].
+
+-->Aktive Phasen verlängern
+
 XXXX
 (skeleton UI, ..)
-200-500ms^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head]
+200-500ms
+
+^[[Making CSS Animations Feel More Natural](https://css-tricks.com/making-css-animations-feel-natural/) von Brandon Gregory]
+^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head]
 Bei Responsiven Webseiten sollte in Erwägung gezogen werden, bei großflächigen Übergängen die Dauer der Animation an die Größe des Ausgabemediums anzupassen.
 Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Zahlen dahinter.
 
+::: md-container-standout
+
+Die Reaktionszeit einer Schnittstelle hat große Einfluss darauf, wie sie sich anfuhlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
+* 0.1 Sekunde: fühlt sich sofortig an
+* 1 Sekunde: fühlt sich überganslos an
+* 10 Sekunden: maximale Aufmerksamkeitsdauer
+
+:::
+
+Flow/Tunnel
+People who experience flow: 
+  - sense of clarity, extasy and feels highly rewarding
+  - --> thats how a designer wants people to feel
+
+Fortschrittsbalken mit beschleunigenden, quer verlaufenden Streifen fühlt sich 12% schneller an ^[[Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations](http://www.chrisharrison.net/projects/progressbars2/ProgressBarsHarrison.pdf) von Chris Harrison, Zhiquan Yeo & Scott E. Hudson, Carnegie Mellon University]
+
+^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen]
+
+^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen]
+
 #### Natürliche Bewegung
 
+In der physischen Welt gibt es kaum gerdade Bewegungen, abrupte Statusänderungen oder 
 XXXX zb exponentiell statt linear, Kurven statt Geraden
 --> Bezug auf Regeln der Physischen Welt
 
@@ -95,6 +129,7 @@ Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling 
 * Video: [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus
 * Abschnitt [_Motion_ in den Material Design Guidlines](https://material.io/guidelines/motion/material-motion.html) von Google
 * Artikel: [Stop Gratuitous UI Animation](https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97) von Sophie Paxton
+* Vortrag: [Designing Motion: Smart Transitions in UI Design](https://youtu.be/NaqKjp14Xbg) von Adrian Zumbrunnen
 * Artikel: [Animation Principles in UI](https://www.invisionapp.com/blog/animation-principles-in-ui/) von Brittany Layton
 
 <!-- * Artikel: [The Weird, Terrifying Physics Of iOS 7](https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7) von John Herrman & Jake Levy -->

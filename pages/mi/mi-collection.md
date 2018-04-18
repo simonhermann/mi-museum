@@ -13,6 +13,12 @@
 
 Selbstverständlich+erwartet seit Touchscreen
 
+## Swipe
+
+## Sider 
+
+https://ilyabirman.net/meanwhile/all/slider/
+
 ### Jef Raskin / ZUI / THE / Archy
 
 Buch: The Humane Interface

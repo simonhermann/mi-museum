@@ -20,7 +20,7 @@
 
 ## Bugs
 
-* [ ] Bug: Bilderquellen in figcaption
+* [ ] 
 
 ## Technical
 
@@ -32,7 +32,14 @@
 * [ ] add noreferrer noopener \_blank to external links
 * [ ] (https://github.com/Va1/string-replace-loader ?)
 * [ ] replace all gifs with videos (cloudinary: https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4)
-* [ ] cloudinary for blurry placehoder images
+
+## Misc
+
+* [ ] remove scrapyard page
+* [ ] svg stroke animation (Vivus.js)
+* [ ] Layout für Bilder in Text
+
+---
 
 ## Ideas
 
@@ -40,18 +47,16 @@
 * 3D Parallax https://codepen.io/futekov/pen/JLGDr
 * Footnotes as Tooltip?
 
-## Misc
-
-* [ ] Anmeldung VGWort https://tom.vgwort.de/portal/index
-* [ ] remove scrapyard page
-* [ ] svg stroke animation (Vivus.js)
-* [ ] Vue Design System: Patterns/DevStyleguide/etc www.vueds.com
-
 ---
 
-## Done/not now:
+## Not now
 
-* [ ] Layout für Bilder in Text
+* [ ] loading placehoder images (blurry, svg, ..) [cloudinary]
+* [ ] Anmeldung VGWort https://tom.vgwort.de/portal/index
+* [ ] Vue Design System: Patterns/DevStyleguide/etc www.vueds.com
+
+## Done but keep
+
 * [x] target blank für externe Links
 * [x]custom loading animation
 * [x] Image Zoom

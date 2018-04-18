@@ -2,22 +2,10 @@
 
 Die Hauptaufgabe der Rückmeldung (engl. Feedback) das eine Benutzerschnittstelle an den Nutzer gibt, ist diesem zu helfen, die [Regeln](/rules) einer (Mikro-)Interkation zu verstehen. Wenn ein Nutzer beispielsweise einen Button antippt, sollte gezeigt werden, _dass_ dieser gedrückt wurde und _was das Ergebnis_ der Eingabe ist. Allein dadurch können Nutzer wissen, ob eine eine Eingabe erfolgreich war. Wäre keinerlei Feedback vorhanden, bestünde für Nutzer kaum eine Möglichkeit zu wissen, was passiert und wie eine Benutzerschnittstelle funktioniert.
 
-Für Nutzer sollten die [Regeln](/rules) einer Microinteraction keinerlei oder nur wenig Aufmerksamkeit einfordern. Am Beispiel des Lichtes mit Bewegungsmelder: allein wichtig ist, dass das Licht an geht sobald Nutzer es benötigen und sie sich nicht darum kümmern müssen, es wieder auszuschalten. Die einzige Rückmeldung des Produktes an den Nutzer ist hier das gewünschte Ergebnis selbst: Licht. Die meisten Microinteractions benötigen jedoch mehr Feedback. 
+Für Nutzer sollten die [Regeln](/rules) einer Microinteraction keinerlei oder nur wenig Aufmerksamkeit einfordern. Am Beispiel des Lichtes mit Bewegungsmelder: allein wichtig ist, dass das Licht an geht sobald Nutzer es benötigen und sie sich nicht darum kümmern müssen, es wieder auszuschalten. Die einzige Rückmeldung des Produktes an den Nutzer ist hier das gewünschte Ergebnis selbst: Licht. Die meisten Microinteractions benötigen jedoch mehr Feedback.
 XXXX
 
-#### Unmittelbarkeit
-
-Rückmeldung sollte ohne merkliche Verzögerung auf Nutzereingaben sein.
-Wenn der Befehl aus technischen Gründen nicht unmittalbar ausgeführt werden kann, sollte stattdessen eine form von Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen.
-Wenn ein Nutzer den Schließen-Buttons eines Fensters betätigt, sollte ebendieser Button sein Erscheinungsbild verändern. Das mag unnötig erscheinen, da das Fenster und damit der Button im Moment des Ausführens nicht mehr zu sehen sind – normalerweise. Auf veralteter Hardware, durch laufende Hintergrundprozesse oder aus zahlreichen anderen Gründen kann es vorkommen, dass ein Vorgang, der auf den Testgeräten der Gestalter und Programmierer sofort geschieht, hier etwas Zeit braucht. Aus diesem Grund sollte Rückmeldung ausnahmslos unmittelbar geschehen und technisch losgelöst von der Befehlausführung sein. Ein Nutzer, der auch nur eine Sekunde der kein Feedback bekommt, wird versuchen, den Button erneut zu drücken und damit vermutlich das System noch mehr überlasten oder Fehler auslösen.
-
-::: md-container-standout
-Als Gestalter sollte man zwischen zwei Arten von Rückmeldung auf Aktionen des Nutzers unterscheiden: 
-1. Eine **Eingabe** ist erfolgt
-2. Ein **Befehl** wurde ausgeführt
-:::
-
--->Optimistic UI XXXX
+<!-- Kontiuierlich + Authentisch => direkte Manipulation -->
 
 #### Feedback sollte üblicherweise vorhanden sein, wenn:
 
@@ -32,10 +20,44 @@ Als Gestalter sollte man zwischen zwei Arten von Rückmeldung auf Aktionen des N
 
 In einigen fällen kann es dagegen besser sein, dem Nutzer keinerlei Feedback zu geben. Wenn zum Beispiel im Hintergrund (durch einen unsichtbaren, systembasierten [Trigger](/triggers)) überprüft wird, ob neue E-Mails eingetroffen sind, sollte nur Rückmeldung stattfinden, **wenn tatsächlich ein relevantes Ereignis stattfindet**, in diesem Fall das Vorhandensein neuer Nachrichten. In allen anderen Fällen, wenn es also keine neuen E-Mails gibt, ist es nicht nötig, dies dem Nutzer jedes mal explizit mitzuteilen.
 
+#### Unmittelbarkeit
+
+Rückmeldung sollte ohne merkliche Verzögerung auf Nutzereingaben sein.
+Wenn der Befehl aus technischen Gründen nicht unmittalbar ausgeführt werden kann, sollte stattdessen eine form von Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen.
+Wenn ein Nutzer den Schließen-Buttons eines Fensters betätigt, sollte ebendieser Button sein Erscheinungsbild verändern. Das mag unnötig erscheinen, da das Fenster und damit der Button im Moment des Ausführens nicht mehr zu sehen sind – normalerweise. Auf veralteter Hardware, durch laufende Hintergrundprozesse oder aus zahlreichen anderen Gründen kann es vorkommen, dass ein Vorgang, der auf den Testgeräten der Gestalter und Programmierer sofort geschieht, hier etwas Zeit braucht. Aus diesem Grund sollte Rückmeldung ausnahmslos unmittelbar geschehen und technisch losgelöst von der Befehlausführung sein. Ein Nutzer, der auch nur eine Sekunde der kein Feedback bekommt, wird versuchen, den Button erneut zu drücken und damit vermutlich das System noch mehr überlasten oder Fehler auslösen.
+
+::: md-container-standout
+
+Als Gestalter sollte man zwischen zwei Arten von Rückmeldung auf Aktionen des Nutzers unterscheiden:
+
+1.  Eine **Eingabe** ist erfolgt
+2.  Ein **Befehl** wurde ausgeführt
+
+:::
+
+XXXX
+Fake Data/Behelfslösungen, 
+Optimistic UI (keep the flow!)
+
+> Don’t design to prove you're clever. Design to make the user think _she_ is.^[[Jeffrey Zeldman: The Year in Design](https://medium.com/let-me-repost-that-for-you-zeldman/the-year-in-design-9c06acf55b88)]
+> <cite>Jeffrey Zeldman</cite>
+
+<figure class="content-skinny">
+  <img data-src="/images/feedback/windows3.1-drag.jpg">
+  <figcaption>
+  In Windows 3.1 war es technisch noch nicht möglich, die Verschiebung eines Fensters mit Hilfe des Cursors flüssig darzustellen, daher wurde in Echtzeit nur ein leerer Rahmen als als Platzhalter verschoben und das eigentiche Fenster beim Loslassen der Maustaste.
+  <sup><a href="http://toastytech.com/guis/win31.html">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+
+#### Microcopy und Tonalität
+
+XXXX
+
 ## Arten von Feedback
 
 Da die Rückmeldung, um die es hier geht, von Maschinen an Menschen ist, überträgt sie sich über die menschlichen Sinne an Nutzer. Sie ist bei heutigen digitalen Geräten meist visuell oder akustisch, manchmal haptisch und nur selten über Geschmak oder Geruch. Doch ein wichtiges das wichtigste Ziel ist immer, die "Black Box" der Technik zugänglich machen.
-Bei Verbreiteten Interaktionsmustern sollte meist aauf deren konvetnionelle Art der Rückmeldung zurückgegriffen werden, um nötige Lernzeit für Nutzer kurz zu halten. 
+Bei Verbreiteten Interaktionsmustern sollte meist aauf deren konvetnionelle Art der Rückmeldung zurückgegriffen werden, um nötige Lernzeit für Nutzer kurz zu halten.
 Wenn möglich, sollte ein direkter Bezug zwischen Eingabe und Rückmeldung hergestellt werden, zB XXXX
 Ist es nicht möglich, eine Verbindung herzustellen, sollte trotzdem in jedem Fall eine Veränderung des Zustandes des Objektes stattfinden, zum Beispiel durch Änderung der Farbe.
 

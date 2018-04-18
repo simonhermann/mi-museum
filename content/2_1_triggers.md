@@ -65,3 +65,5 @@ Dark Patterns können sich nicht nur Teil des Triggers einer Microinteraction se
     <sup><a href="https://www.reddit.com/r/mildlyinfuriating/comments/7tzwz8/this_mobile_ad_designed_to_make_it_look_like_you/">Bildquelle</a></sup>
     </figcaption>
 </figure>
+
+XXXX Fitt's Law --> Bildschirmränder ermöglichen unendlich große Schaltflächen bei Nutzung von Cursor

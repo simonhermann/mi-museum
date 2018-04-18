@@ -1,7 +1,7 @@
 <template>
 
 <figure class="content-skinny">
-  <img src="/image.jpg">
+  <img data-src="/image.jpg">
   <figcaption>
     Caption text
     <sup><a href="https://path-to-source">Bildquelle</a></sup>

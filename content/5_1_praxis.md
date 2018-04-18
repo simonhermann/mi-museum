@@ -11,6 +11,15 @@ Bei der Definition von Regeln für Mikro-Interaktionen sollte möglichst auf dem
 
 Nur weil sich eine MI durchsetzt, heißt das nicht, dass sie perfekt ist. Beispielsweise wird von vielen Nutzern nicht verstanden wann ein Doppel- und wann ein einfacher Klick benötigt wird. XXXX
 
+Sicht des designers auf app: klar, perfekt. Sicht eines users: verschwommen, da geringere Aufmerksamkeit --> tipp: blurry eye test
+
+<figure class="content-skinny">
+  <img data-src="/images/practical/what-users-see.jpg">
+  <figcaption>
+    XXXX
+    <sup><a href="https://youtu.be/Qpz5jpRnEho">Bildquelle</a></sup>
+  </figcaption>
+</figure>
 
 ::: md-container-more
 
