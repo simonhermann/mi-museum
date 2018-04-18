@@ -8,7 +8,16 @@ XXXX
 #### Unmittelbarkeit
 
 Rückmeldung sollte ohne merkliche Verzögerung auf Nutzereingaben sein.
-Wenn der Befehl aus technischen Gründen nicht unmittalbar ausgeführt werden kann, sollte stattdessen eine Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen.
+Wenn der Befehl aus technischen Gründen nicht unmittalbar ausgeführt werden kann, sollte stattdessen eine form von Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen.
+Wenn ein Nutzer den Schließen-Buttons eines Fensters betätigt, sollte ebendieser Button sein Erscheinungsbild verändern. Das mag unnötig erscheinen, da das Fenster und damit der Button im Moment des Ausführens nicht mehr zu sehen sind – normalerweise. Auf veralteter Hardware, durch laufende Hintergrundprozesse oder aus zahlreichen anderen Gründen kann es vorkommen, dass ein Vorgang, der auf den Testgeräten der Gestalter und Programmierer sofort geschieht, hier etwas Zeit braucht. Aus diesem Grund sollte Rückmeldung ausnahmslos unmittelbar geschehen und technisch losgelöst von der Befehlausführung sein. Ein Nutzer, der auch nur eine Sekunde der kein Feedback bekommt, wird versuchen, den Button erneut zu drücken und damit vermutlich das System noch mehr überlasten oder Fehler auslösen.
+
+::: md-container-standout
+Als Gestalter sollte man zwischen zwei Arten von Rückmeldung auf Aktionen des Nutzers unterscheiden: 
+1. Eine **Eingabe** ist erfolgt
+2. Ein **Befehl** wurde ausgeführt
+:::
+
+-->Optimistic UI XXXX
 
 #### Feedback sollte üblicherweise vorhanden sein, wenn:
 
@@ -37,7 +46,8 @@ XXXX
 <figure class="content-skinny">
   <img data-src="/images/feedback/1password-shake.gif">
   <figcaption>
-  Rückmeldung von 1password bei Eingabe eines falschen Master-Passwortes 
+  "Shake"-Feedback von 1password bei Eingabe eines falschen Master-Passwortes.
+  Die Darstellung von Punkten für eingegebene Zeichen ist eine Form von Rückmeldung, die in der Kommandozeile üblicherweise nicht vorhanden&nbsp;ist.
   </figcaption>
 </figure>
 

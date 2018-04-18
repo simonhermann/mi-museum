@@ -27,12 +27,12 @@
 * [ ] prevent keybeard access (tabindex) in navdrawer if drawer is open
 * [ ] upgrade to nuxt 2 https://medium.com/nuxt/nuxt-2-is-coming-oh-yeah-212c1a9e1a67
 * [ ] update vuetify to enable deactivation of theme
-* [ ] vue-lazyload images (maybe convert via htmlparser?)
 * [ ] obtimize images https://github.com/Klathmon/imagemin-webpack-plugin
 * [ ] add purgeCSS to strip unused styles https://github.com/FullHuman/purgecss/tree/master/examples/with-nuxt
 * [ ] add noreferrer noopener \_blank to external links
 * [ ] (https://github.com/Va1/string-replace-loader ?)
 * [ ] replace all gifs with videos (cloudinary: https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4)
+* [ ] cloudinary for blurry placehoder images
 
 ## Ideas
 

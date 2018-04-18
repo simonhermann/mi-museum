@@ -17,14 +17,20 @@ Die Regeln der uns Menschen seit Jahrtausenden umgebenden Welt haben sich so in 
 ==_Wie würde diese Interaktionen funktionieren, fände sie nicht in der digitalen Welt statt?_==
 Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction sinnvoll erscheinen, kann davon ausgegangen werden, dass sie unserem intuitiven Verständnis von Konzepten wie Gewicht, Material, Bewegung, Trägheit, Reibung, usw. nicht wiederspricht. Besonders zu beachten sind diese "Naturgesetze" bei der Gestaltung von [Animation](/animation).
 
-<figure class="content-skinny" style="max-width:16rem;">
-    <img data-src="/images/skeuomorphismus/reorder-movies.gif">
-    <figcaption>Die UI-Elemente hier verhalten sich in gewisser weise physikalischen Gesetzen entsprechend – die Interaktion fühlt sich dadurch natürlich an und ist intuitiv zu verstehen
-    <sup>
-        <a href="https://www.invisionapp.com/blog/animation-principles-in-ui/">Bildquelle</a>
-    </sup>
-    </figcaption>
-</figure>
+<div class="content-mid" style="display: flex;">
+    <figure class="content-half">
+        <img data-src="/images/skeuomorphismus/reorder-drag-drop-1.gif">
+        <figcaption>Die UI-Elemente hier verhalten sich in gewisser Weise physikalischen Gesetzen entsprechend – die Interaktion fühlt sich dadurch natürlich an und ist intuitiv zu verstehen.
+        <sup><a href="http://clauderic.github.io/react-sortable-hoc/">Bildquelle</a></sup>
+        </figcaption>
+    </figure>
+    <figure class="content-half">
+        <img data-src="/images/skeuomorphismus/reorder-drag-drop-2.gif">
+        <figcaption> Im Vergleich dazu fehlt hier der Bezug zwischen dem aufgenommenen und dem Ursprungselement. Diese Version ermöglicht vermutlich eine höhere Nutzungsgeschwindigkeit, ist aber weniger intuitiv.
+        <sup><a href="https://dribbble.com/shots/1234963-Animation-Drag-drop-reorder">Bildquelle</a></sup>
+        </figcaption>
+    </figure>
+</div>
 
 Bei der Entwicklung von neuartigen Interaktionsmedien, ist zu beobachten, dass wieder vermehrt auf Skeumorphistische Prinzipien zurückgegriffen wird. Aktuelles Beispiel hierfür sind sprachgesteuerte digitale Assistenten wie Apple Siri, Google Now, Amazon Echo und Co. Hier wird angestrebt, die "Unterhaltung" möglichst einer Unterhaltung von Mensch zu Mensch nachzuempfinden, während eine visuelle Benutzeroberfläche (wenn überhaupt) nur unterstützende Funktion hat. Die Geräte sollen mit Namen angesprochen werden ("Hey Siri"), haben Persönlichkeit und Humor. Zusätzliche Hürde sind also nicht nur Wahrnehmung, Verständnis und Einhaltung von Gepflogenheiten menschlicher Umgebungen, sondern die Nachbildung des menschlichen Verstandes selbst.
 Während sich einzelne Sätze der dieser KI-Systeme im Jahre 2018 kaum noch als künstlich erkennen lassen, macht der oft mangelnde Kontext eine natürliche Unterhaltung unmöglich^[vgl. [The Voice Assistant Battle! (2017) - Marques Brownlee/youtube](https://youtu.be/BkpAro4zIwU)]. --> XXXX Unsichtbare Trigger

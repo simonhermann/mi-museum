@@ -34,6 +34,10 @@ $content-full: 50rem;
     width: 100%;
     max-width: $content-narrow;
   }
+  .content-half {
+    width: 50%;
+    // @include cf;
+  }
 
   section {
     * {
