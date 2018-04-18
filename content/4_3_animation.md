@@ -18,7 +18,7 @@ Animation ist oft eine visuelle Bestätigung einer Nutzereingabe. Dies bedeutet,
 <figure class="content-skinny">
   <img data-src="">
   <figcaption>
-  Animierte Übergänge zeigen die Relation zwischen einzelnen Elementen und helfen so bei der Orientierung XXXX
+  Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung. 
   </figcaption>
 </figure>
 
@@ -29,7 +29,8 @@ Animation ist oft eine visuelle Bestätigung einer Nutzereingabe. Dies bedeutet,
 
 Einer Studie des MIT zufolge werden passive Wartezeiten durchschnittlich 36% länger eingeschätzt, als sie tatsächlich sind^[[Perspectives on Queues: Social Justice and psychology of Queueing](http://www.jstor.org/stable/171439?seq=1#page_scan_tab_contents) von Richard Larson, MIT].
 
--->Aktive Phasen verlängern
+-->Aktive Phasen verlängern: 
+Etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan haben keinerlei Funktion
 
 XXXX
 (skeleton UI, ..)
@@ -43,9 +44,9 @@ Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Za
 ::: md-container-standout
 
 Die Reaktionszeit einer Schnittstelle hat große Einfluss darauf, wie sie sich anfuhlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
-* 0.1 Sekunde: fühlt sich sofortig an
-* 1 Sekunde: fühlt sich überganslos an
-* 10 Sekunden: maximale Aufmerksamkeitsdauer
+* **100 Millisekunden:** fühlt sich sofortig an
+* **1 Sekunde:** fühlt sich überganslos an
+* **10 Sekunden:** maximale Aufmerksamkeitsspanne
 
 :::
 
@@ -54,11 +55,29 @@ People who experience flow:
   - sense of clarity, extasy and feels highly rewarding
   - --> thats how a designer wants people to feel
 
-Fortschrittsbalken mit beschleunigenden, quer verlaufenden Streifen fühlt sich 12% schneller an ^[[Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations](http://www.chrisharrison.net/projects/progressbars2/ProgressBarsHarrison.pdf) von Chris Harrison, Zhiquan Yeo & Scott E. Hudson, Carnegie Mellon University]
+<figure class="content-narrow">
+  <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload">
+  </video>
+  <!-- http://assets.eli.wtf/talks/perceived-perf-talk/#/36 -->
+</figure>
 
-^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen]
+Der Fortschrittsbalken mit sich beschleunigenden, rückwärts wandernden Schrägstreifen fühlt sich 12% schneller an^[[Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations](http://www.chrisharrison.net/projects/progressbars2/ProgressBarsHarrison.pdf) von Chris Harrison, Zhiquan Yeo & Scott E. Hudson, Carnegie Mellon University].
 
-^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen]
+
+XXXX^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen]
+
+_Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. 
+XXXX^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen]
+Wenn uns eine XXXX ohne merkliche Verzögerung die Antwort auf eine Komplexe Frage gibt, werden wir misstrauisch. Hier wird erneut die Relation zur echten Welt klar.
+Bsp
+
+<figure class="content-skinny">
+  <img data-src="/images/animation/calculating-savings.jpg">
+  <figcaption>
+    Manchmal sind künstliche Verzögerungen hilfreich, wenn ein sofortiges Ergebnis unglaubwürdig erscheint.
+    <sup><a href="http://uxmas.com/2013/wait-for-it">Bildquelle</a></sup>
+  </figcaption>
+</figure>
 
 #### Natürliche Bewegung
 
@@ -107,7 +126,7 @@ Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling 
 
 --> XXXX Animation immer durchdacht und zweckmäßig. Prototypen & Testen.
 
-## Die Möglichkeiten von Animation in Microinteractions zusammengefasst:
+### Die Möglichkeiten von Animation in Microinteractions zusammengefasst:
 
 * Interaktionen fühlen sich flüssig und angenehm an
 * schaffen von Personlichkeit

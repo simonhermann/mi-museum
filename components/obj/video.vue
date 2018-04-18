@@ -1,15 +1,22 @@
 <template>
+<div>
+  
+  <!-- <figure class="content-mid">
+    <video autoplay="" loop="" preload="none" poster="" src="" controls controlsList="nodownload">
+      <source src="" type="video/mp4">
+    </video>
+    <figcaption>
+      Caption text
+      <sup><a href="">Quelle</a></sup>
+    </figcaption>
+  </figure> -->
 
-<figure class="content-mid">
-  <video autoplay="" loop="" preload="none" poster="" src="" controls controlsList="nodownload">
-    <source src="" type="video/mp4">
+<figure class="content-narrow">
+  <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload">
   </video>
-  <figcaption>
-    Caption text
-    <sup><a href="">Quelle</a></sup>
-  </figcaption>
 </figure>
 
+</div> 
 </template>
 
 <script>
