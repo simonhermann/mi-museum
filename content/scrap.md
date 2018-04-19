@@ -39,11 +39,6 @@ asd
 
 
 
-> .. within ten Minutes, it was obvious to me that all computers would work like this some day.
-> <cite>Steve Jobs über seinen ersten Eindruck der Grafischen Nutzeroberfläche des Xerox Alto</cite> {#markup-3}
-
-
-
 [^fn1]: Here is the footnote.
 
 [^longnote]: Here's one with multiple blocks.

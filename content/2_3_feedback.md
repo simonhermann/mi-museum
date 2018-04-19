@@ -39,8 +39,8 @@ XXXX
 Fake Data/Behelfslösungen, 
 Optimistic UI (keep the flow!)
 
-> Don’t design to prove you're clever. Design to make the user think _she_ is.^[[Jeffrey Zeldman: The Year in Design](https://medium.com/let-me-repost-that-for-you-zeldman/the-year-in-design-9c06acf55b88)]
-> <cite>Jeffrey Zeldman</cite>
+> Don’t design to prove you're clever. Design to make the user think _she_ is.
+> <cite>Jeffrey Zeldman^[[Jeffrey Zeldman: The Year in Design](https://medium.com/let-me-repost-that-for-you-zeldman/the-year-in-design-9c06acf55b88)]</cite>
 
 <figure class="content-skinny">
   <img data-src="/images/feedback/windows3.1-drag.jpg">

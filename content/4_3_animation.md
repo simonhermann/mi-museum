@@ -5,8 +5,10 @@ Neue Nutzer eines Digitalen Produktes benötigen Hinweise, die zeigen, wie eine 
 
 Nachdem eine Microinteraction vom Nutzer ausgelöst wurde, kann Animation als visuelle Bestätigung der Nutzereingabe dienen. Dies bedeutet, dass Benutzer anhand dieser verstehen müssen, wie ihre Aktion mit den Reaktionen des Produktes verknüpft ist. Wie bereits [beschrieben](/feedback#unmittelbarkeit), sollte hier zwischen der Rückmeldung auf eine Eingabe und der Ausführung eines Befehls unterschieden werden.
 
-> Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic ease.^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]
-> <cite>"Motion" im Microsoft Fluent Design System</cite>
+> Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic ease.
+> <cite>"Motion" im Microsoft Fluent Design System^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]</cite>
+
+Evulotionär bedingt zieht Bewegung ganz natürlich die menschliche Aufmerksamkeit auf sich. Animation kann also genutzt werden, um den Fokus des Nutzers auf die entscheidenden Elemente eines Interfaces zu lenken.
 
 <!-- Wenn ein Teil des Interfaces entweder autonom arbeitet oder nicht standardkonforme Aktionen ausführt, kann es seine Benutzer verwirren oder sogar irritieren. Da die Bewegung der Objekte im wirklichen Leben bekannt ist, erwartet der Nutzer von einem Smartphone dies. -->
 
@@ -39,8 +41,8 @@ XXXX Markenbindung durch Verspieltheit: bekannte/standard Interaktionen (die ehe
 
 #### Gefühlte Geschwindikeit
 
-> Wenn man zwei Stunden lang mit einem Mädchen zusammensitzt, meint man, es wäre eine Minute. Sitzt man jedoch eine Minute auf einem heißen Ofen, meint man, es wären zwei Stunden. Das ist Relativität.^[[zitate-online.de](http://www.zitate-online.de/sprueche/wissenschaftler/689/wenn-man-zwei-stunden-lang-mit-einem-maedchen.html)]
-> <cite> Albert Einstein</cite>
+> Wenn man zwei Stunden lang mit einem Mädchen zusammensitzt, meint man, es wäre eine Minute. Sitzt man jedoch eine Minute auf einem heißen Ofen, meint man, es wären zwei Stunden. Das ist Relativität.
+> <cite> Albert Einstein^[[zitate-online.de](http://www.zitate-online.de/sprueche/wissenschaftler/689/wenn-man-zwei-stunden-lang-mit-einem-maedchen.html)]</cite>
 
 Das Gefühl für Zeit eines Menschen ist nicht absolut, sondern abhängig von unzähligen Faktoren wie Stimmung, Erwartungshaltung, Persönlichkeit oder Kontext. Wenn sich etwas _gut_ anfühlt, vergeht es meist viel zu schnell, während ungeliebte Aufgaben kaum zu enden scheinen. Die Selben Prinzipien treffen auch auf Benutzerschnittstellen zu, und Designer sollten sie sich zu Nutze machen.
 
@@ -48,7 +50,18 @@ Einer Studie des MIT zufolge werden _passive_ Wartezeiten durchschnittlich 36% l
 
 Angeblich haben etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan keinerlei Funktion^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen] – aber sie sorgen dafür, dass Menschen interagieren können und das Gefühl von Einfluss haben auf die Ampelphasen haben. Wenn man es eilig hat, fühlt es sich viel besser an, einen Knpf zu drücken, als untätig zu warten. Die Knöpfe funktionieren – nur eben nicht auf technische, sondern rein auf psychologische Weise. Hier findet eine direkte Manipulation des Nutzerverhaltens durch eine Mikro-Interaktion statt und es stellt sich die Frage, ob ein "Hintergehen" des Nutzers auf dese Weise moralisch vertretbar ist. In diesem Fall hilft es, Leben zu retten, da Fußgänger seltener über rote Ampeln gehen. Letztendlich muss diese Frage aber jeder für sich beantworten.
 
-skeleton UI
+> Progress indicators by definition call attention to the fact that someone needs to wait. It’s like watching the clock tick down — when you do, time seems to go slower.
+><cite>Luke Wroblewski^[[Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski]</cite>
+
+<figure class="content-skinny">
+  <img data-src="/images/animation/medium-skeleton.jpg">
+  <figcaption>
+    XXXX skeleton UI
+    <sup><a href="https://twitter.com/merhl/status/694259963225587712">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+
+
 
 200-500ms^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head]
 
