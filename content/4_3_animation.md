@@ -1,24 +1,19 @@
-# Animation und Geschwindigkeit von Microinteraction
+# Animation und Geschwindigkeit von Microinteractions
 
-XXXX
-vA Form von Feedback
+Animation in Kontext von Microinteractions ist meist eine Form von [Feedback](/feedback) oder [Trigger](triggers).
+Neue Nutzer eines Digitalen Produktes benötigen Hinweise, die zeigen, wie eine Microinteraction zu benutzen ist. Dies gilt insbesondere für Interfaces, die unbekannte oder einzigartige Interaktionen enthalten. Eine Reihe von visuellen Hinweisen sollte zeigen, welche Interaktionen möglich sind. Diese Art der funktionalen Animation lenkt die Aufmerksamkeit des Benutzers auf die möglichen Interaktionen und dient so als [Auslöser](/triggers) für diese.
+
+Nachdem eine Microinteraction vom Nutzer ausgelöst wurde, kann Animation als visuelle Bestätigung der Nutzereingabe dienen. Dies bedeutet, dass Benutzer anhand dieser verstehen müssen, wie ihre Aktion mit den Reaktionen des Produktes verknüpft ist. Wie bereits [beschrieben](/feedback#unmittelbarkeit), sollte hier zwischen der Rückmeldung auf eine Eingabe und der Ausführung eines Befehls unterschieden werden.
 
 > Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic ease.^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]
 > <cite>"Motion" im Microsoft Fluent Design System</cite>
 
-Erstbenutzer benötigen meist Hinweise, die zeigen, wie eine Microinteraction zu benutzen ist. Dies gilt insbesondere für Interfaces, die unbekannte oder einzigartige Interaktionen enthalten (z.B. gestengesteuerte Interfaces).
-Wenn es darum geht, den Benutzern die Verwendung einer Benutzungsoberfläche beizubringen, sollten eine Reihe von visuellen Hinweisen zeigen, welche Interaktionen möglich sind. Diese Art der funktionalen Animation lenkt die Aufmerksamkeit des Benutzers auf die möglichen Interaktionen.
-
-Mehr Platz auf kleinen Screens
-
-Animation ist oft eine visuelle Bestätigung einer Nutzereingabe. Dies bedeutet, dass Benutzer verstehen müssen, wie ihre Aktion mit den Reaktionen des Produktes verknüpft ist. Zum Beispiel das Erscheinen einer Liste bei Betätigung eines Buttons.
-
 <!-- Wenn ein Teil des Interfaces entweder autonom arbeitet oder nicht standardkonforme Aktionen ausführt, kann es seine Benutzer verwirren oder sogar irritieren. Da die Bewegung der Objekte im wirklichen Leben bekannt ist, erwartet der Nutzer von einem Smartphone dies. -->
 
-<figure class="content-skinny">
-  <img data-src="">
-  <figcaption>
-  Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung.
+<figure class="content-skinny" style="max-width:12rem;">
+  <video muted loop preload="none" poster="images/animation/shuttle-music.jpg" src="images/animation/shuttle-music.mp4" controls controlsList="nodownload">
+  </video>
+  <figcaption>Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung. Vor allem auf kleineren Bildschirmen ist dies von Vorteil, da hier weniger Fixpunkte vorhanden sind.
   </figcaption>
 </figure>
 

@@ -1,14 +1,14 @@
 <template>
 <div class="page page-home">
   <header class="page-home__header content-narrow">
+    <span style="font-style: italic; color:darkred;">Work in progress, please come back later</span>
     <h1 class="page-home__title">Micro&shy;interactions</h1>
     <p class="page-home__subtitle">
-      <span style="font-style: italic; color:darkred;">Work in progress, please come back later</span>
     </p>
   </header>
 
   <!-- intro text -->
-  <html-parser :content=text01></html-parser>
+  <!-- <html-parser :content=text01></html-parser> -->
 
   <div class="spacer2"></div>
 
@@ -26,19 +26,19 @@
       <tile link="history" topline="" heading="Historie" text="Eine kurze Geschichte der Mensch-Maschine-Interaktion"></tile>
       <v-flex align-start class="o-tile" xs12 sm6></v-flex>
 
-      <tile link="skeuomorphism" topline="" heading="Skeuomorphismus" text=""></tile>
-      <tile link="animation" topline="" heading="Animation" text=""></tile>
+      <tile link="skeuomorphism" topline="" heading="Skeuomorphismus" text="Der Einfluss der physischen Welt auf digitale Interfaces"></tile>
+      <tile link="animation" topline="" heading="Animation und Geschwindigkeit" text=""></tile>
     </v-layout>
   </v-container>
 
   <div class="spacer4"></div>
 
   <v-container style="padding: 0;" grid-list-md>
-    <h2>Beispiele für grundlegende Microinteractions</h2>
+    <!-- <h2>Beispiele für grundlegende Microinteractions</h2> -->
 
-    <v-layout row wrap>
+    <!-- <v-layout row wrap>
       <tile link="mi/buttons" topline="" heading="Buttons" text=""></tile>
-    </v-layout>
+    </v-layout> -->
 
   </v-container>
 

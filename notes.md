@@ -3,11 +3,12 @@
 ## Content
 
 * [ ] aus Pocket
+* [ ] "was sind .." überarbeiten // was sind + vorwort kombinieren?
 * [ ] Icons für Trigger/Rules/usw
 * [ ] Konzept f. Darstellung MIs
-* [ ] Timeline?
 * [ ] Meta desicription
 * [ ] einheitlicher meta title
+* [ ] Timeline?
 * [ ] Impressum+About
 
 ## Featues

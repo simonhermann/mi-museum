@@ -23,7 +23,7 @@ Sicht des designers auf app: klar, perfekt. Sicht eines users: verschwommen, da 
 
 ::: md-container-more
 
-### Mehr zum Thema Microinteractions in der Praxis:
+### Nützliche Links zum Thema Microinteractions in der Praxis:
 - Artikel: [Designing for Fingers, Touch and People](https://www.uxmatters.com/mt/archives/2017/03/design-for-fingers-touch-and-people-part-1.php) von Steven Hoober
 
 :::
