@@ -111,6 +111,7 @@
     }
   }
 
+  // actual page nav
   .nav-link {
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0);
@@ -254,29 +255,29 @@ export default {
         { title: "Auslöser", to: "/triggers" },
         { title: "Regeln", to: "/rules" },
         { title: "Rückmeldung", to: "/feedback" },
-        { title: "Schleifen und Modi", to: "/loops-and-modes" },
+        { title: "Schleifen & Modi", to: "/loops-and-modes" },
         { title: "Historie", to: "/history" },
         { title: "Skeuomorphismus", to: "/skeuomorphism" },
         { title: "Signature Moments", to: "/signature-moments" },
-        { title: "Animation", to: "/animation" },
+        { title: "Animation & Geschwindigkeit", to: "/animation" },
         { title: "Anwendung in der Praxis", to: "/practical" },
         //{ title: '_article', to: '/article' },
         //{ title: "_scrap", to: "/scrapyard" }
       ],
       practicePages: [
         { title: "buttons", to: "/mi/buttons" },
-        { title: "Pull-to-refresh", to: "/mi/" },
-        { title: "Fenster", to: "/mi/" },
-        { title: "Copy & Paste", to: "/mi/" },
-        { title: "Drag & Drop", to: "/mi/" },
-        { title: "Rückgängig (undo) & Wiederholen (redo)", to: "/mi/" },
-        { title: "Switch (Kipp-Schalter)", to: "/mi/" },
-        { title: "Radiobutton", to: "/mi/" },
-        { title: "Checkbox", to: "/mi/" },
-        { title: "Hover", to: "/mi/" },
-        { title: "Zoom", to: "/mi/" },
-        { title: "Handlebars", to: "/mi/" },
-        { title: "xyz", to: "/mi/" }
+        // { title: "Pull-to-refresh", to: "/mi/" },
+        // { title: "Fenster", to: "/mi/" },
+        // { title: "Copy & Paste", to: "/mi/" },
+        // { title: "Drag & Drop", to: "/mi/" },
+        // { title: "Rückgängig (undo) & Wiederholen (redo)", to: "/mi/" },
+        // { title: "Switch (Kipp-Schalter)", to: "/mi/" },
+        // { title: "Radiobutton", to: "/mi/" },
+        // { title: "Checkbox", to: "/mi/" },
+        // { title: "Hover", to: "/mi/" },
+        // { title: "Zoom", to: "/mi/" },
+        // { title: "Handlebars", to: "/mi/" },
+        // { title: "xyz", to: "/mi/" }
       ]
     };
   },

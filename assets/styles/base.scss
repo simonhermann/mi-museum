@@ -119,6 +119,13 @@ img {
   display: block;
   width: 100%;
   height: auto;
+  // &:not(.medium-zoom-image--open){
+  //   outline: 1px solid #ddd;
+  // }
+  &[lazy="loading"]{
+    max-height: 16em;
+    max-width: 16em;
+  }
 }
 
 p,
@@ -195,6 +202,7 @@ figcaption {
   text-align: center;
   font-style: italic;
   font-size: var(--font-size-small);
+  letter-spacing: .01em;
   sup a {
     text-decoration: none;
     &:before {

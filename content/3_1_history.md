@@ -145,7 +145,7 @@ http://dougengelbart.org/firsts/mouse.html
 <figure class="content-skinny">
   <img data-src="/images/history/engelbart-mouse-replica.jpg">
   <figcaption>
-    Replik des des Maus-Prototypen von Doug Engelbart und Bill English
+    Replik des Maus-Prototypen von Doug Engelbart und Bill English
     <sup><a href="http://www.computerhistory.org/revolution/input-output/14/350">Bildquelle</a></sup>
   </figcaption>
 </figure>

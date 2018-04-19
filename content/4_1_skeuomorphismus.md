@@ -21,12 +21,12 @@ Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction s
     <figure class="content-half">
         <img data-src="/images/skeuomorphismus/reorder-drag-drop-1.gif">
         <figcaption>Die UI-Elemente hier verhalten sich in gewisser Weise physikalischen Gesetzen entsprechend – die Interaktion fühlt sich dadurch natürlich an und ist intuitiv zu verstehen.
-        <sup><a href="http://clauderic.github.io/react-sortable-hoc/">Bildquelle</a></sup>
+        <!-- <sup><a href="http://clauderic.github.io/react-sortable-hoc/">Bildquelle</a></sup> -->
         </figcaption>
     </figure>
     <figure class="content-half">
         <img data-src="/images/skeuomorphismus/reorder-drag-drop-2.gif">
-        <figcaption> Im Vergleich dazu fehlt hier der Bezug zwischen dem aufgenommenen und dem Ursprungselement. Diese Version ermöglicht vermutlich eine höhere Nutzungsgeschwindigkeit, ist aber weniger intuitiv.
+        <figcaption> Im Vergleich dazu fehlt hier der Bezug zwischen dem aufgenommenen und dem ursprünglichen Element. Diese Version ermöglicht vermutlich eine höhere Nutzungsgeschwindigkeit, ist aber weniger intuitiv.
         <sup><a href="https://dribbble.com/shots/1234963-Animation-Drag-drop-reorder">Bildquelle</a></sup>
         </figcaption>
     </figure>

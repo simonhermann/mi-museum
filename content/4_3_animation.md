@@ -1,4 +1,4 @@
-# Animation
+# Animation und Geschwindigkeit von Microinteraction
 
 XXXX
 vA Form von Feedback
@@ -18,32 +18,56 @@ Animation ist oft eine visuelle Bestätigung einer Nutzereingabe. Dies bedeutet,
 <figure class="content-skinny">
   <img data-src="">
   <figcaption>
-  Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung. 
+  Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung.
   </figcaption>
 </figure>
 
-#### Nutzungsgeschwindigkeit und gefühlte Geschwindikeit
+#### Natürliche Bewegung
+
+In der physischen Welt gibt es kaum gerdade Bewegungen, abrupte Statusänderungen oder
+XXXX zb exponentiell statt linear, Kurven statt Geraden
+--> Bezug auf Regeln der Physischen Welt
+
+^[[Making CSS Animations Feel More Natural](https://css-tricks.com/making-css-animations-feel-natural/) von Brandon Gregory]
+
+<figure class="content-narrow">
+  <img data-src="/images/animation/ios-open-folder-distance.gif">
+  <figcaption>
+    Veranschaulichung der Distanz, die ein phyisches Objekt zurücklegen würde, dessen wahrgenommenes Größenwachstum dem Öffnen einer App in iOS 7 entspricht. (24.62 ft ≈ 7,5 m)
+    <sup><a href="https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+
+#### Branding durch Animationen
+
+XXXX Markenbindung durch Verspieltheit: bekannte/standard Interaktionen (die eher seltener genutzt werden) aufwerten durch verspielte Animation --> Nutzererfahrung verbessern ohne Usability zu beeinträchtigen, Nutzer überraschen und erheitern --> [Signature Moments](/signature-moments)
+
+#### Gefühlte Geschwindikeit
 
 > Wenn man zwei Stunden lang mit einem Mädchen zusammensitzt, meint man, es wäre eine Minute. Sitzt man jedoch eine Minute auf einem heißen Ofen, meint man, es wären zwei Stunden. Das ist Relativität.^[[zitate-online.de](http://www.zitate-online.de/sprueche/wissenschaftler/689/wenn-man-zwei-stunden-lang-mit-einem-maedchen.html)]
 > <cite> Albert Einstein</cite>
 
-Einer Studie des MIT zufolge werden passive Wartezeiten durchschnittlich 36% länger eingeschätzt, als sie tatsächlich sind^[[Perspectives on Queues: Social Justice and psychology of Queueing](http://www.jstor.org/stable/171439?seq=1#page_scan_tab_contents) von Richard Larson, MIT].
+Das Gefühl für Zeit eines Menschen ist nicht absolut, sondern abhängig von unzähligen Faktoren wie Stimmung, Erwartungshaltung, Persönlichkeit oder Kontext. Wenn sich etwas _gut_ anfühlt, vergeht es meist viel zu schnell, während ungeliebte Aufgaben kaum zu enden scheinen. Die Selben Prinzipien treffen auch auf Benutzerschnittstellen zu, und Designer sollten sie sich zu Nutze machen.
 
--->Aktive Phasen verlängern: 
-Etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan haben keinerlei Funktion
+Einer Studie des MIT zufolge werden _passive_ Wartezeiten durchschnittlich 36% länger eingeschätzt, als sie tatsächlich sind^[[Perspectives on Queues: Social Justice and psychology of Queueing](http://www.jstor.org/stable/171439?seq=1#page_scan_tab_contents) von Richard Larson, MIT]. Wartezeiten werden sich nie komplett vermeiden lassen, aber diese können _gefühlt kürzer_ werden, in dem der _passive_ Teil verkurzt und in _aktive_ Phasen umgewandelt wird. In Aufzügen sind Spiegel, in Wartezimmern Magazine und auf Youtube können schon während ein Video hochgeladen wird Titel und Beschreibung eingegeben werden.
 
-XXXX
-(skeleton UI, ..)
-200-500ms
+Angeblich haben etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan keinerlei Funktion^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen] – aber sie sorgen dafür, dass Menschen interagieren können und das Gefühl von Einfluss haben auf die Ampelphasen haben. Wenn man es eilig hat, fühlt es sich viel besser an, einen Knpf zu drücken, als untätig zu warten. Die Knöpfe funktionieren – nur eben nicht auf technische, sondern rein auf psychologische Weise. Hier findet eine direkte Manipulation des Nutzerverhaltens durch eine Mikro-Interaktion statt und es stellt sich die Frage, ob ein "Hintergehen" des Nutzers auf dese Weise moralisch vertretbar ist. In diesem Fall hilft es, Leben zu retten, da Fußgänger seltener über rote Ampeln gehen. Letztendlich muss diese Frage aber jeder für sich beantworten.
 
-^[[Making CSS Animations Feel More Natural](https://css-tricks.com/making-css-animations-feel-natural/) von Brandon Gregory]
-^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head]
+skeleton UI
+
+200-500ms^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head]
+
+When users accomplish what they set out to do on a site, they perceive that site to be fast.
+
+
+
 Bei Responsiven Webseiten sollte in Erwägung gezogen werden, bei großflächigen Übergängen die Dauer der Animation an die Größe des Ausgabemediums anzupassen.
 Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Zahlen dahinter.
 
 ::: md-container-standout
 
 Die Reaktionszeit einer Schnittstelle hat große Einfluss darauf, wie sie sich anfuhlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
+
 * **100 Millisekunden:** fühlt sich sofortig an
 * **1 Sekunde:** fühlt sich überganslos an
 * **10 Sekunden:** maximale Aufmerksamkeitsspanne
@@ -51,9 +75,10 @@ Die Reaktionszeit einer Schnittstelle hat große Einfluss darauf, wie sie sich a
 :::
 
 Flow/Tunnel
-People who experience flow: 
-  - sense of clarity, extasy and feels highly rewarding
-  - --> thats how a designer wants people to feel
+People who experience flow:
+
+* sense of clarity, extasy and feels highly rewarding
+* --> thats how a designer wants people to feel
 
 <figure class="content-narrow">
   <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload">
@@ -63,10 +88,12 @@ People who experience flow:
 
 Der Fortschrittsbalken mit sich beschleunigenden, rückwärts wandernden Schrägstreifen fühlt sich 12% schneller an^[[Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations](http://www.chrisharrison.net/projects/progressbars2/ProgressBarsHarrison.pdf) von Chris Harrison, Zhiquan Yeo & Scott E. Hudson, Carnegie Mellon University].
 
-
 XXXX^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen]
 
-_Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. 
+
+
+
+_Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_.
 XXXX^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen]
 Wenn uns eine XXXX ohne merkliche Verzögerung die Antwort auf eine Komplexe Frage gibt, werden wir misstrauisch. Hier wird erneut die Relation zur echten Welt klar.
 Bsp
@@ -79,23 +106,7 @@ Bsp
   </figcaption>
 </figure>
 
-#### Natürliche Bewegung
 
-In der physischen Welt gibt es kaum gerdade Bewegungen, abrupte Statusänderungen oder 
-XXXX zb exponentiell statt linear, Kurven statt Geraden
---> Bezug auf Regeln der Physischen Welt
-
-<figure class="content-narrow">
-  <img data-src="/images/animation/ios-open-folder-distance.gif">
-  <figcaption>
-    Veranschaulichung der Distanz, die ein phyisches Objekt zurücklegen würde, dessen wahrgenommenes Größenwachstum dem Öffnen einer App in iOS 7 entspricht. (24.62 ft ≈ 7,5 m) 
-    <sup><a href="https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7">Bildquelle</a></sup>
-  </figcaption>
-</figure>
-
-#### Branding durch Animationen
-
-XXXX Markenbindung durch Verspieltheit: bekannte/standard Interaktionen (die eher seltener genutzt werden) aufwerten durch verspielte Animation --> Nutzererfahrung verbessern ohne Usability zu beeinträchtigen, Nutzer überraschen und erheitern --> [Signature Moments](/signature-moments)
 
 ### Bewegung sinn- und verantwortungsvoll einsetzen
 
@@ -106,7 +117,7 @@ Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegang
 <figure class="content-skinny">
   <img data-src="/images/animation/paypal-reciept.gif">
   <figcaption>
-    Diese Animation mag auf den ersten Blick ansprechend wirken, jedoch dauert sie viel zu lange und geht weit über ihren Zweck hinaus. 
+    Diese Animation mag auf den ersten Blick ansprechend wirken, jedoch dauert sie viel zu lange und geht weit über ihren Zweck hinaus.
     <sup><a href="https://vimeo.com/197761851">Bildquelle</a></sup>
   </figcaption>
 </figure>

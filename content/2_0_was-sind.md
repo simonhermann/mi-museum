@@ -1,4 +1,4 @@
-# Was sind Microinteractions?
+# Was sind Microinter&shy;actions?
 
 > The difference between a good product and a great one are its details
 
