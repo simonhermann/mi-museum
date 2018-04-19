@@ -39,8 +39,11 @@ XXXX
 Fake Data/Behelfslösungen, 
 Optimistic UI (keep the flow!)
 
-> Don’t design to prove you're clever. Design to make the user think _she_ is.
-> <cite>Jeffrey Zeldman^[[Jeffrey Zeldman: The Year in Design](https://medium.com/let-me-repost-that-for-you-zeldman/the-year-in-design-9c06acf55b88)]</cite>
+Flow/Tunnel
+People who experience flow:
+
+* sense of clarity, extasy and feels highly rewarding
+* --> thats how a designer wants people to feel
 
 <figure class="content-skinny">
   <img data-src="/images/feedback/windows3.1-drag.jpg">
@@ -54,14 +57,14 @@ Optimistic UI (keep the flow!)
 
 XXXX
 
-## Arten von Feedback
+### Arten von Feedback
 
 Da die Rückmeldung, um die es hier geht, von Maschinen an Menschen ist, überträgt sie sich über die menschlichen Sinne an Nutzer. Sie ist bei heutigen digitalen Geräten meist visuell oder akustisch, manchmal haptisch und nur selten über Geschmak oder Geruch. Doch ein wichtiges das wichtigste Ziel ist immer, die "Black Box" der Technik zugänglich machen.
 Bei Verbreiteten Interaktionsmustern sollte meist aauf deren konvetnionelle Art der Rückmeldung zurückgegriffen werden, um nötige Lernzeit für Nutzer kurz zu halten.
 Wenn möglich, sollte ein direkter Bezug zwischen Eingabe und Rückmeldung hergestellt werden, zB XXXX
 Ist es nicht möglich, eine Verbindung herzustellen, sollte trotzdem in jedem Fall eine Veränderung des Zustandes des Objektes stattfinden, zum Beispiel durch Änderung der Farbe.
 
-### Visuell
+#### Visuell
 
 XXXX
 
@@ -75,7 +78,7 @@ XXXX
 
 --> [Animation](/animation)
 
-### Auditiv
+#### Auditiv
 
 ^[[Twenty Thousand Hertz Podcast #30: The bleeps, the sweeps, and the creeps!](https://www.20k.org/episodes/the-bleeps-the-sweeps-and-the-creeps)]
 
@@ -85,7 +88,7 @@ Car sound enhancement
 
 Die Art von Rückmeldung, die an einen Nutzer gegeben wird, kann diesen stark beeinflussen und sogar manipulieren. So ist das Feedback eines Spielautomaten darauf ausgelegt, den Spieler zu überzeugen, immer mehr zu spielen. Auf jede Eingabe reagiert das Gerät mit übermäßigem Feedback und sorgt dafür, dass sich der Nutzer in seiner Aktion bestätigt fühlt. Selbst kleine Gewinne werden durch zahlreiche blinkende Lichter und Fanfaren untermalt und dem Nutzer suggeriert, er hätte einen Jackpot gewonnen. Als Designer sollte man sich der Macht über Nutzer stets bewusst sein und [Dark Patterns](/triggers#dark-patterns) vermeiden.
 
-## Diese Fragen sollten sich Designer bei der Gestaltung von Feedback stellen:
+### Diese Fragen sollten sich Designer bei der Gestaltung von Feedback stellen:
 
 1.  _Was ist das geringstmögliche Feedback, das trotzdem klar macht, was geschieht?_
     --> Überlade Nutzer nicht mit unnötigen Feedback
@@ -101,7 +104,6 @@ Die Art von Rückmeldung, die an einen Nutzer gegeben wird, kann diesen stark be
 ### Sehens-, hörens- und lesenswert zum Thema Feedback
 
 * Kapitel _Feedback_ im Buch: Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [www.microinteractions.com](http://microinteractions.com/)
-* Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von
-  Ilya Birman
+* Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von Ilya Birman
 
 :::

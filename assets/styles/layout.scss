@@ -66,7 +66,9 @@ $content-full: 50rem;
     }
   }
 
-  .footnotes-sep, .footnotes {
+  .footnotes-sep,
+  .footnotes,
+  .ext-md-container {
     margin-left: auto;
     margin-right: auto;
     width: 100%;

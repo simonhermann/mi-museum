@@ -82,12 +82,6 @@ Die Reaktionszeit einer Schnittstelle hat große Einfluss darauf, wie sie sich a
 
 :::
 
-Flow/Tunnel
-People who experience flow:
-
-* sense of clarity, extasy and feels highly rewarding
-* --> thats how a designer wants people to feel
-
 <figure class="content-narrow">
   <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload">
   </video>

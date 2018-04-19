@@ -25,8 +25,18 @@ Vue.use(VueLazyload, {
   loading: '/images/loading.svg',
 })
 
+// Quickly hacking foldable footnotes for test
+// const toggleFootnotes = (el) => {
+//   el[0].classList.toggle('footnotes--hidden')
+// }
+// const initFoldableFootnotes = () => {
+//   var el = document.getElementsByClassName('footnotes')
+//   el[0].classList.add('footnotes--hidden')
+//   el[0].addEventListener('click', toggleFootnotes(el))
+// }
+
 /**
- * initialize DOM-dependent plugins after page change
+ * (re-)initialize DOM-dependent plugins after page change
  */
 const initAfterMount = () => {
   mediumZoom('.page img:not(.medium-zoom-image)')
