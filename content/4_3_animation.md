@@ -30,7 +30,7 @@ Balance zwischen natürlich und funktional
 
 ^[[Making CSS Animations Feel More Natural](https://css-tricks.com/making-css-animations-feel-natural/) von Brandon Gregory]
 
-<figure class="content-narrow">
+<figure class="content-normal">
   <img data-src="/images/animation/ios-open-folder-distance.gif">
   <figcaption>
     Veranschaulichung der Distanz, die ein phyisches Objekt zurücklegen würde, dessen wahrgenommenes Größenwachstum dem Öffnen einer App in iOS 7 entspricht. (24.62 ft ≈ 7,5 m)
@@ -91,7 +91,7 @@ Die tatsächliche Zeit, die eine Animation andauern sollte, ist stark Situations
 Bei Responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdauer von großflächigen Übergängen an die Größe des Ausgabemediums anzupassen. Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Zahlen dahinter.
 
 
-<figure class="content-narrow">
+<figure class="content-normal">
   <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload">
   </video>
   <figcaption> Der Fortschrittsbalken mit beschleunigenden, rückwärts wandernden Schrägstreifen fühlt sich 12% schneller an.
@@ -103,7 +103,7 @@ Bei Responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdaue
 _Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. Wenn uns jemand oder etwas ohne merkliche Verzögerung die Antwort auf eine Komplexe Frage gibt, werden wir misstrauisch. Hier wird erneut die Relation zur echten Welt klar; Wer im Restaurant nach einer Minute sein Essen bekommt, denkt sich "das kann ja nicht frisch sein" und ein Schlüsselnotdienst bekommt kein Trinkgeld, wenn er seine Arbeit in der tatsächlich benötigten Arbeit erledigt, da diese sehr kurz ist und daher nicht besonders wertvoll wirkt. Hier funktioniert unser Denken nach dem Grundsatz: _Wenn etwas schnell geht, muss es wohl einfach sein und etwas das einfach ist, sollte es billig sein._ Tatsächlich finden eine artifizielle Wartezeiten in zahlreichen Benutzerschnittstellen Anwendung, beispielsweise in Geldzählmaschinen.^[vgl. [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus]
 In Ausnahmefällen kann Wartezit sogar genutzt werden, um Spannung und Antizipation aufzubauen, meist sollte jedoch versucht werden, _passive_ Wartephasen möglichst kurz zu halten.
 
-<figure class="content-skinny">
+<figure class="content-thin">
   <img data-src="/images/animation/calculating-savings.jpg">
   <figcaption>
     Manchmal sind künstliche Verzögerungen hilfreich, wenn ein sofortiges Ergebnis unglaubwürdig erscheint.
@@ -117,7 +117,7 @@ Animationen sollten immer eine Aufgabe erfüllen. Wenn eine Animation keinen fun
 Bei der Planung und Gestaltung von Animationen in Microinteractions und generell in Interfaces sollte man sich die Frage stellen: _Wie hilft die Anmation ein Problem zu lösen, wie bereichert sie die Positive Erfahrung oder hilft dem Nutzer anderweitig?_ Wenn die Frage nicht zufriedenstellend beantwortet werden kann, sollte von der betrachteten Animation vermutlich abgesehen werden.
 Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegangen werden: Nutzer werden nach und nach und in einer bestimmten Reihenfolge an einzelne Elemente herangeführt. Mehrere Handlungsstränge gleichzeitig zu erzählen, erfordert sehr viel Aufmerksamkeit von Nutzern, daher sollte eindeutig sein, was im Mittelpunkt steht.
 
-<figure class="content-skinny">
+<figure class="content-thin">
   <img data-src="/images/animation/paypal-reciept.gif">
   <figcaption>
     Diese Animation mag auf den ersten Blick ansprechend wirken, jedoch dauert sie viel zu lange und geht weit über ihren Zweck hinaus.
@@ -126,7 +126,7 @@ Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegang
 </figure>
 
 
-<!-- ![Beispiel für eine misslungene UI-Animation^[https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97] ](/images/animation/poormotiondesign.gif ""){.content-skinny}  -->
+<!-- ![Beispiel für eine misslungene UI-Animation^[https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97] ](/images/animation/poormotiondesign.gif ""){.content-thin}  -->
 
 Leider ist es teilweise sehr aufwändig und teuer gute Animationen zu implementieren, hier sollte Qualität vor Quanitiät stehen, da sonst womöglich die Nutzererfahrung gar verschlechtert wird. Doch auch für hervorragende Animationen besteht die Gefahr, dass diese auf Dauer hinderlich werden. Was beim ersten Mal als nette Überraschung empfunden wird, kann beim zehnten Mal langweilig oder sogar lästig erscheinen. In einigen Fällen sollte die Option angeboten werden, Animation zu auszuschalten oder reduzieren und so Nutzern die Möglichkeit gegeben werden, das Interface ihren Präferenzen anzupassen.^[Bei Webseiten sollte die Browsereinstellung _prefers-reduced-motion_ beachtet werden. Mehr Informationen dazu im [Artikel von CSS Tricks](https://css-tricks.com/introduction-reduced-motion-media-query/)]
 Für Manche Nutzer bedeutet jede Animation, dass sich die Augen neu fokussieren müssen, Bei einigen können sogar gesundheitliche beschwerden wie Schwindel auftreten (vestibuläre Störungen). Besonders Effekte, bei denen sich mehrere Elemente in gegensätzliche Richtungen bewegen, wie Parallax-Scrolling können desorientierende Wirkung haben.^[Mehr Informationen zu möglichen gesundheitlichen Auswirkungen von Animation im Artikel [Designing Safer Web Animation For Motion Sensitivity](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) von Val Head]

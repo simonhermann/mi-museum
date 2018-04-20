@@ -32,6 +32,7 @@ body a {
   z-index: 101;
   padding: calc(var(--body-border-width) * 2);
   &[lazy='loading'] {
+    margin: auto;
     pointer-events: none;
   }
   &:active {

@@ -1,6 +1,6 @@
 <template>
 <div class="page page-home">
-  <header class="page-home__header content-narrow">
+  <header class="page-home__header content-normal">
     <span style="font-style: italic; color:darkred;">Work in progress, please come back later</span>
     <h1 class="page-home__title">Micro&shy;interactions</h1>
     <p class="page-home__subtitle">

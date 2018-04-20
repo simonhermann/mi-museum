@@ -13,7 +13,7 @@ Nur weil sich eine MI durchsetzt, heißt das nicht, dass sie perfekt ist. Beispi
 
 Sicht des designers auf app: klar, perfekt. Sicht eines users: verschwommen, da geringere Aufmerksamkeit --> tipp: blurry eye test
 
-<figure class="content-skinny">
+<figure class="content-thin">
   <img data-src="/images/practical/what-users-see.jpg">
   <figcaption>
     XXXX

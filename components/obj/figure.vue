@@ -1,6 +1,6 @@
 <template>
 
-<figure class="content-skinny">
+<figure class="content-thin">
   <img data-src="/image.jpg">
   <figcaption>
     Caption text

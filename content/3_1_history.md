@@ -83,7 +83,7 @@ Aus der physischen Welt entlehnte Bezeichnungen und Ikonografie erzeugen bei Nut
 Ivan Sutherland, einer der Pioniere der Computergrafik entwickelte 1962/63 am MIT einer der ersten interaktiven Grafikanwendungen als Teil seiner Doktorarbeit. _Sketchpad_ gilt als der Vorfahre von computergestützen Design-Programmen, wie _Adobe Photoshop_ und _InDesign_, _Sketch_, 3D-Programmen wie _Cinema4D_ oder Architektur- und Statikprogrammen wie _AutoCAD_. Außerdem war es ein wegweisender Durchbruch in der Computergrafik im Allgemeinen und Schuf durch den Einsatz von Objekten und Instanzen im Programmcode die grundlagen der Objektorientierten Programmierung.
 Mit Hilfe des kürzlich erfundenen _Lichtgriffels_ war es möglich, grafische Grundformen zu zeichnen und diese zu manipulieren.
 
-<figure class="content-skinny">
+<figure class="content-thin">
   <img data-src="/images/history/sketchpad.jpg">
   <figcaption>
     Arbeitsumgebung für Sketchpad: Die rechte Hand hält den Lichtgriffel, die linke bedient die Box mit etwa 40 Befehlstasten. Mit den schwarzen Drehknöpfen werden Skalierung und Position verändert.
@@ -142,7 +142,7 @@ https://youtu.be/USyoT_Ha_bA?t=5m30s "Mother of all Demos" 1968
 https://heise.de/-187657
 http://dougengelbart.org/firsts/mouse.html
 
-<figure class="content-skinny">
+<figure class="content-thin">
   <img data-src="/images/history/engelbart-mouse-replica.jpg">
   <figcaption>
     Replik des Maus-Prototypen von Doug Engelbart und Bill English
@@ -168,7 +168,7 @@ Um vorhandenen Text zu editieren, musste dieser mit Hilfe der Maus ausgewählt w
 Um Text zu kopieren und einzufügen, musste zuerst das Ziel mit der Maus ausgewählt werden, dann mit `i` in den "insert"-Modus gewechselt werden. Nun konnte mit der Maus die zu kopierende Quelle innerhalb des Dokumentes ausgewählt und der Vorgang mit `Escape` bestätigt werden.
 Mit Hilfe der Maus konnte zwar Text markiert (--> XXXX) werden, jedoch gab es keinerlei grafisches Menü. Bei der Nutzung von Bravo musste man daher stets das Handbuch verfügbar haben oder die Tastaturbefehle auswendig kennen.^[Demonsration des Layoutprogrammes _Bravo_: [Xerox Alto Restoration - CuriousMarc/Youtube](https://youtu.be/OKakermaQ68?t=10m30s)]^[[Xerox Alto Bravo Demo - Meadhbh Hamrick/Youtube](https://youtu.be/390hhDkiJFM)]^[@Smith99]
 
-<figure class="content-skinny">
+<figure class="content-thin">
   <img data-src="/images/history/bravo-manual-summary.jpg">
   <figcaption>
     Kurzanleitung für Bravo 7.2 (Ausschnitt). Aus dem Benutzerhandbuch des Xerox Alto zur Nutzung von Bravo (aus Seite 69/161), 1979

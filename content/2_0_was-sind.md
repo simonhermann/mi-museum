@@ -45,7 +45,8 @@ Es kann vorkommen, dass ein Produkt erfolgreich ist, allein weil es neu und einz
 Im umkämpften Markt um die Aufmerksamkeit von Nutzern sind Microinteractions entscheidend. _Wenn sich die Grundfunktionen der Wettbewerber prinzipiell auf dem selben Niveau befinden, sind es Microinteractions die einen großen Teil der Markenidendität ausmachen._
 bsp: Konkurrierende Betriebssysteme sind aus Sicht des Nutzers fast gleich, den Unterschied machen die Mikro-Interaktionen die ein Nutzer ständig mit ihnen hat.
 
-> Microinteractions are the _feel_ in _look-and-feel_ > <cite>Dan Saffer</cite>
+> Microinteractions are the _feel_ in _look-and-feel_ 
+> <cite>Dan Saffer</cite>
 
 Während sie sich je nach Gerät und Plattform zwat unterscheiden können, um plattformspezifische Konventionen einzuhalten, so können sie doch eine gewisse Konsistenz ermöglichen, welche bei großen _Features_ nicht möglich ist. Microinteractions sind ein die perfekte Möglichkeit, ein Produkt Plattformübergreifend markenbildend zu gestalten.
 
@@ -63,16 +64,14 @@ Features können heruntergebrochen werden, bis sie nur noch eine Aneinanderreihu
 
 Die von Saffer beschriebenen Bestandteile jeder Microinteraction sind _Auslöser_, _Regeln_, _Rückmeldung_ und _Schleifen / Modi_.
 
-> "Nothing big works"
+> Nothing big works
 > <cite>Victor Papanek</cite>
 
 Warum können vermeintlich "kleine" Interaktionen so wichtig sein?
 Wie misst man die größe einer Interaktion?
 Sind Micro-Interaktionen überhaupt klein?
 
-**Wann immer ein Nutzer mit einem Produkt jeglicher Art interagiert, kann die Interaktion in Auslöser, Regeln, Rückmeldung und Schleifen und Modi aufgeschlüsselt werden.**
-XXXX
+Wann immer ein Nutzer mit einem Produkt jeglicher Art interagiert, kann die Interaktion in Auslöser, Regeln, Rückmeldung und Schleifen und Modi aufgeschlüsselt werden.
+XXXX Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
 
-Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
-
-> Eine Interaktion kann ungewohnt sein, das heißt aber nicht, dass sie schlecht ist.
+<!-- > Eine Interaktion kann ungewohnt sein, das heißt aber nicht, dass sie schlecht ist. -->

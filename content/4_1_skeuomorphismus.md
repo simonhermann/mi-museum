@@ -3,7 +3,7 @@
 In der Vergangenheit haben sich Designer bei der Gestaltung von Interaktionen gerne auf Skeuomorphistische Darstellungsweisen und Muster und verlassen, bei dem es sich um sehr naturgetreue Nachbildungen aus dem wirklichen Leben handelt.
 Ein Digitaler Schalter sah genau aus wie sein physisches Vorbild und verhielt sich auch so.
 
-<figure class="content-skinny">
+<figure class="content-thin">
     <img data-src="/images/skeuomorphismus/switchanimation.gif">
     <figcaption>Skeumorphistische Darstellung eines Kippschalters
     <sup>
@@ -17,7 +17,7 @@ Die Regeln der uns Menschen seit Jahrtausenden umgebenden Welt haben sich so in 
 ==_Wie würde diese Interaktionen funktionieren, fände sie nicht in der digitalen Welt statt?_==
 Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction sinnvoll erscheinen, kann davon ausgegangen werden, dass sie unserem intuitiven Verständnis von Konzepten wie Gewicht, Material, Bewegung, Trägheit, Reibung, usw. nicht wiederspricht. Besonders zu beachten sind diese "Naturgesetze" bei der Gestaltung von [Animation](/animation).
 
-<div class="content-mid" style="display: flex;">
+<div class="content-wide" style="display: flex;">
     <figure class="content-half">
         <img data-src="/images/skeuomorphismus/reorder-drag-drop-1.gif">
         <figcaption>Die UI-Elemente hier verhalten sich in gewisser Weise physikalischen Gesetzen entsprechend – die Interaktion fühlt sich dadurch natürlich an und ist intuitiv zu verstehen.
@@ -39,7 +39,7 @@ XXXX uncanny valley
 
 Ein Problem des visuellen Skeuomorphismus ist seine hohe Geschmacks- und Kulturabhängigkeit. Außerdem werden zu exakte Kopien sehr schnell langweilig.
 
-<figure class="content-skinny">
+<figure class="content-thin">
     <img data-src="images/skeuomorphismus/recyclebin.jpg">
     <figcaption>Der Papierkorb besteht seit den Anfängen von Windows ohne Änderung der Regeln. Gefüllter Zustand aus Windows 95 (links) und Entleerter Zustand aus Windows 10 (rechts) </figcaption>
 </figure>

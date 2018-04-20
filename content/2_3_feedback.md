@@ -51,7 +51,7 @@ People who experience flow:
 
 XXXX^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen]
 
-<figure class="content-skinny">
+<figure class="content-thin">
   <img data-src="/images/feedback/windows3.1-drag.jpg">
   <figcaption>
   In Windows 3.1 war es technisch noch nicht möglich, die Verschiebung eines Fensters mit Hilfe des Cursors flüssig darzustellen, daher wurde in Echtzeit nur ein leerer Rahmen als als Platzhalter verschoben und das eigentiche Fenster beim Loslassen der Maustaste.
@@ -74,7 +74,7 @@ Ist es nicht möglich, eine Verbindung herzustellen, sollte trotzdem in jedem Fa
 
 XXXX
 
-<figure class="content-skinny">
+<figure class="content-thin">
   <img data-src="/images/feedback/1password-shake.gif">
   <figcaption>
   "Shake"-Feedback von 1password bei Eingabe eines falschen Master-Passwortes.

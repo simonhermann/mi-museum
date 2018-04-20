@@ -3,15 +3,15 @@
     <html-parser :content=text01></html-parser>
 
     <!-- <figure v-lazy-container="{ selector: 'img' }">
-        <img data-src="images/signature-moments/pull-to-refresh-planet.gif" class="content-skinny">
+        <img data-src="images/signature-moments/pull-to-refresh-planet.gif" class="content-thin">
         <figcaption>XXXX</figcaption>
     </figure> -->
     <!-- <figure v-lazy-container="{ selector: 'img' }">
-        <img :data-src="require('~/static/images/signature-moments/pull-to-refresh-planet.gif')" class="content-skinny">
+        <img :data-src="require('~/static/images/signature-moments/pull-to-refresh-planet.gif')" class="content-thin">
         <figcaption>XXXX</figcaption>
     </figure> -->
     <!-- <figure>
-        <img v-lazy="require('~/static/images/signature-moments/pull-to-refresh-planet.gif')" class="content-skinny">
+        <img v-lazy="require('~/static/images/signature-moments/pull-to-refresh-planet.gif')" class="content-thin">
         <figcaption>XXXX</figcaption>
     </figure> -->
 

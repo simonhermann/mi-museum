@@ -11,9 +11,9 @@
 }
 
 $content-tiny: 12rem;
-$content-skinny: 22rem;
-$content-narrow: 38rem;
-$content-mid: 42rem;
+$content-thin: 22rem;
+$content-normal: 38rem;
+$content-wide: 42rem;
 $content-full: 50rem;
 
 .page {
@@ -23,29 +23,30 @@ $content-full: 50rem;
   width: 100%;
   max-width: $content-full;
 
-  .content-tiny {
+  .ext-content {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+  }
+  .content-tiny {
+    @extend .ext-content;
     max-width: $content-tiny;
   }
-  .content-skinny {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: $content-skinny;
+  .content-thin {
+    @extend .ext-content;
+    max-width: $content-thin;
   }
-  .content-narrow {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: $content-narrow;
+  .content-normal {
+    @extend .ext-content;
+    max-width: $content-normal;
   }
-  .content-mid {
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    max-width: $content-mid;
+  .content-wide {
+    @extend .ext-content;
+    max-width: $content-wide;
+  }
+  .content-full {
+    @extend .ext-content;
+    max-width: $content-wide;
   }
   .content-half {
     width: 50%;
@@ -53,11 +54,8 @@ $content-full: 50rem;
   }
 
   section {
-    * {
-      margin-left: auto;
-      margin-right: auto;
-      width: 100%;
-      max-width: $content-full;
+    > * {
+      @extend .ext-content;
     }
 
     p,
@@ -66,16 +64,16 @@ $content-full: 50rem;
     h3,
     h4,
     h5 {
-      max-width: $content-narrow;
+      max-width: $content-normal;
     }
 
     ul,
     ol {
-      max-width: $content-narrow;
+      max-width: $content-normal;
     }
     blockquote,
     .md-container-standout {
-      max-width: $content-skinny;
+      max-width: $content-thin;
     }
   }
 
@@ -85,7 +83,7 @@ $content-full: 50rem;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    max-width: $content-narrow;
+    max-width: $content-normal;
   }
 }
 
@@ -100,6 +98,11 @@ figure {
 
 figcaption {
   padding-top: 0.5em;
+}
+
+img,
+video {
+  max-width: inherit;
 }
 /*
 figure.inline {

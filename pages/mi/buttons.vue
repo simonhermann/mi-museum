@@ -1,6 +1,6 @@
 <template>
   <div class="page">
-    <div class="content-narrow">   
+    <div class="content-normal">   
       <h1> Button / Knopf</h1>
 
       <laddaButton></laddaButton>
