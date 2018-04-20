@@ -102,7 +102,10 @@ figcaption {
 
 img,
 video {
+  display: block;
+  width: 100%;
   max-width: inherit;
+  height: auto;
 }
 /*
 figure.inline {

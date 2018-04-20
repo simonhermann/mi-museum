@@ -235,11 +235,11 @@ http://rosenfeldmedia.com/wp-content/uploads/2014/11/Make-It-So-Excerpt.pdf
 
 **Simplizität vs .Komplexität**
 
-> 99pi 170+171: automation paradox
-> Fly by wire system. Air France 447.
-> Automation acomodates incompetence, it is designed to do that.
-> Automation -> erosion of skills -> more automation.
-> Better: human centred automation. Make it a team player
+99pi 170+171: automation paradox:
+Fly by wire system. Air France 447.
+Automation acomodates incompetence, it is designed to do that.
+Automation -> erosion of skills -> more automation.
+Better: human centred automation. Make it a team player
 
 <!-- XXXX Fazit Phase 4 -->
 <!-- XXXX Fazit Historie -->

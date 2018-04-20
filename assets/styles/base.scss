@@ -115,24 +115,17 @@ textarea {
 }
 
 img {
-  max-width: 100%;
-  display: block;
-  width: 100%;
-  height: auto;
   // &:not(.medium-zoom-image--open){
   //   outline: 1px solid #ddd;
   // }
-  &[lazy="loading"]{
+  &[lazy='loading'] {
     max-height: 16em;
     max-width: 16em;
   }
 }
 
-p,
-span,
-em,
-b,
-i {
+section > p,
+section > p > * {
   // hyphenation
   -ms-word-break: break-word;
   -webkit-hyphens: auto;
@@ -157,11 +150,13 @@ pre {
 blockquote {
   margin-top: 3rem;
   margin-bottom: 3rem;
-  padding-left: 1.75em;
+  //padding-left: 1.75em;
   font-family: inherit;
   font-style: italic;
   width: 75%;
   quotes: '»' '«';
+  text-align: center;
+  white-space: normal;
 
   p::before {
     content: open-quote;
@@ -178,18 +173,14 @@ blockquote {
     font-style: normal;
     font-size: var(--font-size-small);
     text-align: center;
+    width: 100%;
     float: left;
     hyphens: none;
-
-    @include mq-sm {
-      width: 80%;
-    }
-    @include mq-md {
-      width: 60%;
-    }
   }
   cite::before {
     content: '— ';
+    position: absolute;
+    margin-left: -1.5em;
   }
   &::after {
     content: '';
@@ -202,7 +193,7 @@ figcaption {
   text-align: center;
   font-style: italic;
   font-size: var(--font-size-small);
-  letter-spacing: .01em;
+  letter-spacing: 0.01em;
   sup a {
     text-decoration: none;
     &:before {

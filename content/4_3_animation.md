@@ -5,8 +5,8 @@ Neue Nutzer eines Digitalen Produktes benötigen Hinweise, die zeigen, wie eine 
 
 Nachdem eine Microinteraction vom Nutzer ausgelöst wurde, kann Animation als visuelle Bestätigung der Nutzereingabe dienen. Dies bedeutet, dass Benutzer anhand dieser verstehen müssen, wie ihre Aktion mit den Reaktionen des Produktes verknüpft ist. Wie bereits [beschrieben](/feedback#unmittelbarkeit), sollte hier zwischen der Rückmeldung auf eine Eingabe und der Ausführung eines Befehls unterschieden werden.
 
-> Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic ease.
-> <cite>"Motion" im Microsoft Fluent Design System^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]</cite>
+> Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic&nbsp;ease.
+> <cite>"Motion" im Microsoft Fluent Design System^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]</cite>{.content-normal}
 
 Evulotionär bedingt zieht Bewegung ganz natürlich die menschliche Aufmerksamkeit auf sich. Animation kann also genutzt werden, um den Fokus des Nutzers auf die entscheidenden Elemente eines Interfaces zu lenken.
 
@@ -50,10 +50,10 @@ Bei Animationen für (Mikro-)Interaktionen sollte Effizienz immer einen höheren
 
 #### Gefühlte Geschwindikeit
 
+Das Gefühl eines Menschen für Zeit ist nicht absolut, sondern abhängig von unzähligen Faktoren wie Stimmung, Erwartungshaltung, Persönlichkeit oder Kontext. Wenn sich etwas _gut_ anfühlt, vergeht es meist viel zu schnell, während ungeliebte Aufgaben kaum zu enden scheinen. Die Selben Prinzipien treffen auch auf Benutzerschnittstellen zu, und Designer sollten sie sich zu Nutze machen.
+
 > Wenn man zwei Stunden lang mit einem Mädchen zusammensitzt, meint man, es wäre eine Minute. Sitzt man jedoch eine Minute auf einem heißen Ofen, meint man, es wären zwei Stunden. Das ist Relativität.
 > <cite> Albert Einstein^[[zitate-online.de](http://www.zitate-online.de/sprueche/wissenschaftler/689/wenn-man-zwei-stunden-lang-mit-einem-maedchen.html)]</cite>
-
-Das Gefühl für Zeit eines Menschen ist nicht absolut, sondern abhängig von unzähligen Faktoren wie Stimmung, Erwartungshaltung, Persönlichkeit oder Kontext. Wenn sich etwas _gut_ anfühlt, vergeht es meist viel zu schnell, während ungeliebte Aufgaben kaum zu enden scheinen. Die Selben Prinzipien treffen auch auf Benutzerschnittstellen zu, und Designer sollten sie sich zu Nutze machen.
 
 <!-- When users accomplish what they set out to do on a site, they perceive that site to be fast. -->
 
@@ -79,7 +79,7 @@ Unser Gehirn lebt in der Vergangenheit, unser Bewusstsein liegt 80 Millisekunden
 
 ::: md-container-standout
 
-Die Reaktionszeit einer Schnittstelle hat große Einfluss darauf, wie sie sich anfuhlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
+Die Reaktionszeit einer Schnittstelle hat großen Einfluss darauf, wie sie sich anfuhlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
 
 * **< 100 Millisekunden:** fühlt sich sofortig an
 * **< 1 Sekunde:** fühlt sich überganslos an
@@ -94,8 +94,8 @@ Bei Responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdaue
 <figure class="content-normal">
   <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload">
   </video>
-  <figcaption> Der Fortschrittsbalken mit beschleunigenden, rückwärts wandernden Schrägstreifen fühlt sich 12% schneller an.
-    <sup><a href="http://www.chrisharrison.net/projects/progressbars2/ProgressBarsHarrison.pdf">Quelle</a><sup>
+  <figcaption> Der Fortschrittsbalken mit beschleunigenden, rückwärts wandernden Streifen fühlt sich deutlich schneller an.
+    <sup><a href="http://www.chrisharrison.net/index.php/Research/ProgressBars2">Quelle</a><sup>
   </figcaption>
 </figure>
 <!-- ^[[Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations](http://www.chrisharrison.net/projects/progressbars2/ProgressBarsHarrison.pdf) von Chris Harrison, Zhiquan Yeo & Scott E. Hudson, Carnegie Mellon University] -->
@@ -160,7 +160,7 @@ Außerdem sollten sie von Anfang an und sorgfältig eingeplant werden und gegelm
 * Abschnitt [_Motion_ in den Material Design Guidlines](https://material.io/guidelines/motion/material-motion.html) von Google
 * Artikel: [Stop Gratuitous UI Animation](https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97) von Sophie Paxton
 * Vortrag: [Designing Motion: Smart Transitions in UI Design](https://youtu.be/NaqKjp14Xbg) von Adrian Zumbrunnen
-* Artikel: [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/) von Curt Arledge
+
 
 <!-- * Artikel: [Animation Principles in UI](https://www.invisionapp.com/blog/animation-principles-in-ui/) von Brittany Layton -->
 <!-- * Podcast: [Motion and Meaning](http://www.motionandmeaning.io/) mit Val Head & Cennydd Bowles -->

@@ -9,6 +9,8 @@ Eine Benutzerschnittstelle mit Personlichkeit hilft, einen Bezug herzustellen un
 
 Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es wirklich auf.
 
+^[vgl. [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/)]
+
 <figure class="content-thin">
   <img data-src="/images/signature-moments/weather-app.gif">
   <figcaption>
@@ -28,12 +30,14 @@ Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es
 <figure class="content-thin">
   <img data-src="/images/signature-moments/1password-open.gif">
   <figcaption>
-    Der Signature Moment beim öffnen des Passwort-Managers 1password soll zeigen, dass gespeicherte Passwörter so sicher wie in einem Tresor verwahrt werden.
+    Dieser Signature Moment beim öffnen des Passwort-Managers 1password soll zeigen, dass gespeicherte Passwörter so sicher wie in einem Tresor verwahrt werden.
   </figcaption>
 </figure>
 
 ::: md-container-more
 
 ### Mehr zum Thema Signature Moments
+
+* Artikel: [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/) von Curt Arledge
 
 :::
