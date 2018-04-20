@@ -6,6 +6,11 @@ Vue.config.productionTip = false
 /*
  * Global Vue components
  */
+// vue-lazyload
+import VueLazyload from 'vue-lazyload'
+Vue.use(VueLazyload, {
+  loading: '/images/loading.svg',
+})
 
 // makes a elements scroll, but always stay in viewport [UNUSED]
 // import VueAffix from 'vue-affix'
@@ -19,11 +24,6 @@ Vue.config.productionTip = false
 // import ScrollView from 'vue-scrollview'
 // Vue.use(ScrollView)
 
-// vue-lazyload
-import VueLazyload from 'vue-lazyload'
-Vue.use(VueLazyload, {
-  loading: '/images/loading.svg',
-})
 
 // Quickly hacking foldable footnotes for test
 // const toggleFootnotes = (el) => {
@@ -35,17 +35,12 @@ Vue.use(VueLazyload, {
 //   el[0].addEventListener('click', toggleFootnotes(el))
 // }
 
-/**
- * (re-)initialize DOM-dependent plugins after page change
- */
-const initAfterMount = () => {
-  mediumZoom('.page img:not(.medium-zoom-image)')
-  initSmoothScroll(scrollLinkHandler)
-}
 
-Vue.mixin({
-  mounted: function() {
-    // this will be called when any component is mounted!
-    initAfterMount()
-  },
-})
+// Vue.mixin({
+//   mounted: function() {
+//     // this will be called when any component is mounted!
+//     this.$nextTick(function() {
+//       //console.log('init');
+//     })
+//   },
+// })

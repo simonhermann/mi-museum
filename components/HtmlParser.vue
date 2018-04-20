@@ -4,16 +4,21 @@
 </template>
 
 <script>
+import {initAfterMount} from "~/plugins/init.js";
 // this component makes site-internal links in markdown work with nuxt-router
-// https://github.com/nuxt/nuxtjs.org/blob/master/components/HtmlParser.vue
+// partly from https://github.com/nuxt/nuxtjs.org/blob/master/components/HtmlParser.vue
 export default {
   props: ['content'],
   // beforeMount() {
-  //   this.content = this.content.replace(/<img src=/g, '<img v-lazy=')
+  //   this.content = this.content.replace(/<img src=/g, '<img data-src=')
   //   console.log(this.content)
   // },
   mounted() {
     this.addListeners()
+    this.$nextTick(function() {
+      //console.log('html parser mounted')
+      initAfterMount()
+    })
   },
   beforeDestroy() {
     this.removeListeners()
