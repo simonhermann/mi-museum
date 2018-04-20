@@ -1,7 +1,7 @@
 # Animation und Geschwindigkeit von Microinteractions
 
-Animation in Kontext von Microinteractions ist meist eine Form von [Feedback](/feedback) oder [Trigger](triggers).
-Neue Nutzer eines Digitalen Produktes benötigen Hinweise, die zeigen, wie eine Microinteraction zu benutzen ist. Dies gilt insbesondere für Interfaces, die unbekannte oder einzigartige Interaktionen enthalten. Eine Reihe von visuellen Hinweisen sollte zeigen, welche Interaktionen möglich sind. Diese Art der funktionalen Animation lenkt die Aufmerksamkeit des Benutzers auf die möglichen Interaktionen und dient so als [Auslöser](/triggers) für diese.
+Animation in Kontext von Microinteractions ist meist eine Form von [Feedback](/feedback) oder [Trigger](/triggers).
+Neue Nutzer eines Digitalen Produktes benötigen Hinweise, die zeigen, wie eine Microinteraction zu benutzen ist. Dies gilt insbesondere für Interfaces, die unbekannte oder einzigartige Interaktionen enthalten. Eine Reihe von visuellen Hinweisen sollte zeigen, welche Interaktionen möglich sind. Diese Art der funktionalen Animation lenkt die Aufmerksamkeit des Benutzers auf die möglichen Interaktionen und dient so als Auslöser für diese.
 
 Nachdem eine Microinteraction vom Nutzer ausgelöst wurde, kann Animation als visuelle Bestätigung der Nutzereingabe dienen. Dies bedeutet, dass Benutzer anhand dieser verstehen müssen, wie ihre Aktion mit den Reaktionen des Produktes verknüpft ist. Wie bereits [beschrieben](/feedback#unmittelbarkeit), sollte hier zwischen der Rückmeldung auf eine Eingabe und der Ausführung eines Befehls unterschieden werden.
 
@@ -29,6 +29,14 @@ XXXX zb exponentiell statt linear, Kurven statt Geraden
 Balance zwischen natürlich und funktional
 
 ^[[Making CSS Animations Feel More Natural](https://css-tricks.com/making-css-animations-feel-natural/) von Brandon Gregory]
+
+<figure class="content-thin">
+  <img data-src="/images/animation/curve.gif">
+  <figcaption>
+    Curve XXXX
+    <sup><a href="https://medium.com/mobify-design-team/designing-for-the-appearance-of-speed-aaabc7f568c2">Bildquelle</a></sup>
+  </figcaption>
+</figure>
 
 <figure class="content-normal">
   <img data-src="/images/animation/ios-open-folder-distance.gif">
