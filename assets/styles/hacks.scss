@@ -24,7 +24,6 @@ body a {
 }
 .medium-zoom--open .medium-zoom-overlay {
   opacity: 1;
-  // background-color: rgba(192,192,192,.93);
   box-shadow: 0 0 0 5vw var(--color-highlight);
   border-radius: 1rem;
 }
@@ -32,8 +31,12 @@ body a {
 .medium-zoom-image {
   z-index: 101;
   padding: calc(var(--body-border-width) * 2);
-  &[lazy="loading"]{
+  &[lazy='loading'] {
     pointer-events: none;
+  }
+  &:active {
+    opacity: 0.7;
+    //@extend a:active;
   }
 }
 .medium-zoom--open .medium-zoom-image--open {
