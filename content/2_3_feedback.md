@@ -39,11 +39,17 @@ XXXX
 Fake Data/Behelfslösungen, 
 Optimistic UI (keep the flow!)
 
+
 Flow/Tunnel
 People who experience flow:
 
 * sense of clarity, extasy and feels highly rewarding
 * --> thats how a designer wants people to feel
+
+<--x-xx-xx-xxx-> lots of short activities: remembered as long
+<--xxxxxxxxxxx-> one long continuus activity: remembered as short, memory conpresses, dont remember most of what happened
+
+XXXX^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen]
 
 <figure class="content-skinny">
   <img data-src="/images/feedback/windows3.1-drag.jpg">
