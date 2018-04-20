@@ -20,7 +20,7 @@ XXXX
 
 In einigen fällen kann es dagegen besser sein, dem Nutzer keinerlei Feedback zu geben. Wenn zum Beispiel im Hintergrund (durch einen unsichtbaren, systembasierten [Trigger](/triggers)) überprüft wird, ob neue E-Mails eingetroffen sind, sollte nur Rückmeldung stattfinden, **wenn tatsächlich ein relevantes Ereignis stattfindet**, in diesem Fall das Vorhandensein neuer Nachrichten. In allen anderen Fällen, wenn es also keine neuen E-Mails gibt, ist es nicht nötig, dies dem Nutzer jedes mal explizit mitzuteilen.
 
-#### Unmittelbarkeit
+### Unmittelbarkeit
 
 Rückmeldung sollte ohne merkliche Verzögerung auf Nutzereingaben sein.
 Wenn der Befehl aus technischen Gründen nicht unmittalbar ausgeführt werden kann, sollte stattdessen eine form von Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen.
@@ -35,8 +35,18 @@ Als Gestalter sollte man zwischen zwei Arten von Rückmeldung auf Aktionen des N
 
 :::
 
+### Flow
 XXXX
 Fake Data/Behelfslösungen, 
+
+<figure class="content-thin">
+  <img data-src="/images/feedback/windows3.1-drag.jpg">
+  <figcaption>
+  In Windows 3.1 war es technisch noch nicht möglich, die Verschiebung eines Fensters mit dem Cursor flüssig darzustellen, daher wurde in Echtzeit nur ein leerer Rahmen als als Platzhalter verschoben und das eigentiche Fenster beim Loslassen der Maustaste.
+  <sup><a href="http://toastytech.com/guis/win31.html">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+
 Optimistic UI (keep the flow!)
 
 
@@ -49,19 +59,27 @@ People who experience flow:
 <--x-xx-xx-xxx-> lots of short activities: remembered as long
 <--xxxxxxxxxxx-> one long continuus activity: remembered as short, memory conpresses, dont remember most of what happened
 
+Feedback sollte jedoch trotzdem ehrlich sein und kommunizieren was wichtig ist für Nutzer. Ein Fortschittsbalken, der anfangs extrem schnell bewegt und dann kurz vor dem Ende immer langsamer wird räpresentiert wohl kaum was tatsächlich vorgeht und ist nicht  von Nutzen. Wer in Ungewissen auf auf das letzte Prozent warten muss, wird den Schwindel schnell durchschauen und dies als negative Erfahrung in Erinnerung behalten.
+
 XXXX^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen]
 
+
+
+### Microcopy und Tonalität
+
+Die Art und Weise, wie Textliche Inhalte einer Grafischen Benutzerschnittstelle geschrieben sind, hat enorme Auswirkung auf dessen Wirkung. Zwischen Nutzer und Produkt findet eine "Unterhaltung" statt, diese kann förmlich oder locker, ausführlich oder sachlich kurz, neutral oder heiter sein. Microcopy beschreibt die Beschriftungen, Aufforderungen und Meldungen, die ein Interface an den Nutzer kommuniziert. Sie führt einen Nutzer durch die Erfahrung des Produktes. Lesen ist eine Art stilles Sprechen und die Art und Weise, wie wir sprechen hat Einfluss auf unsere Stimmung. 
+
 <figure class="content-thin">
-  <img data-src="/images/feedback/windows3.1-drag.jpg">
+  <img data-src="/images/feedback/mailchimp-login-error.jpg">
   <figcaption>
-  In Windows 3.1 war es technisch noch nicht möglich, die Verschiebung eines Fensters mit Hilfe des Cursors flüssig darzustellen, daher wurde in Echtzeit nur ein leerer Rahmen als als Platzhalter verschoben und das eigentiche Fenster beim Loslassen der Maustaste.
-  <sup><a href="http://toastytech.com/guis/win31.html">Bildquelle</a></sup>
+  Der Ärger, eine Benutzername/Passwort Kombination zu vergessen, wird bei MailChimp entschärft; Wenn der eingegebene Nutzername nicht existiert, wird dies bereits vor Eingabe des Passwortes mitgeteilt. Dem Nutzer wird proaktiv mitgeteilt, wie das Interface ihn unterstützen kann.
+  <sup><a href="https://freshsparks.com/user-experience-tips-best-error-messages/">Bildquelle</a></sup>
   </figcaption>
 </figure>
 
-#### Microcopy und Tonalität
+Da dieses Thema den Rahmen der Arbeit sprengen würde, hier nur eine kurze Übersicht über einige _Best Practices_: Texte sollten dem Anlass angemessen und dem Produkt und der Marke entsprechend formuliert sein. Oft sollten sie so kurz wie möglich gehalten werden. Bei Fehlermeldungen kann auch eine etwas längere humorvolle Nachricht die negative Erfahrung deutlich abmildern. Die Schuld an einem Fehler sollte niemals dem Nutzer gegeben werden, sondern auf die unzulänglichkeit des Systems zurückgeführt werden.
 
-XXXX
+
 
 ### Arten von Feedback
 
@@ -111,5 +129,6 @@ Die Art von Rückmeldung, die an einen Nutzer gegeben wird, kann diesen stark be
 
 * Kapitel _Feedback_ im Buch: Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [www.microinteractions.com](http://microinteractions.com/)
 * Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von Ilya Birman
+* Artikel: [Getting Practical With Microcopy](https://www.smashingmagazine.com/2016/07/getting-practical-with-microcopy/) von Rade Brujić
 
 :::
