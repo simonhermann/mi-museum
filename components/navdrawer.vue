@@ -66,7 +66,7 @@
 </template>
 
 <style lang="scss">
-@import "../assets/styles/mixins.scss";
+@import '../assets/styles/mixins.scss';
 
 .navigation-drawer {
   padding: 1em 0.5em 2em 2em;
@@ -88,7 +88,7 @@
     background-color: #fff !important;
   }
   .icon__chevron-left {
-    content: "‹";
+    content: '‹';
     color: inherit;
     font-size: 3em;
     line-height: 3em;
@@ -116,7 +116,7 @@
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0);
     // hack for Safari:
-    @supports not (text-decoration-color:  rgba(0, 0, 0, 0)) {
+    @supports not (text-decoration-color: rgba(0, 0, 0, 0)) {
       text-decoration: none;
     }
     // hack for Edge - obolete?:
@@ -126,7 +126,7 @@
     transition: all 300ms var(--transition-curve1);
     color: inherit; // vuetify hack XXXX
     &::before {
-      content: "›";
+      content: '›';
       color: transparent;
       transition: margin 200ms var(--transition-curve1);
       text-decoration: none !important;
@@ -188,7 +188,7 @@
 
         @include mq-md {
           &::after {
-            content: "Menü";
+            content: 'Menü';
             color: inherit;
             position: absolute;
             font-size: 1.25em;
@@ -226,7 +226,7 @@
     &:active {
       background: var(--grey-vlight);
       &::after {
-        content: "⤒";
+        content: '⤒';
         font-size: 2rem;
         position: absolute;
         top: 50%;
@@ -242,49 +242,25 @@
 </style>
 
 <script>
+import { theoryPages, practicePages } from '~/content/pages.js'
 export default {
   data() {
     return {
-      drawer: false, // set to false in production, undefined=open on bigger screens
-      theoryPages: [
-        { title: "Vorwort", to: "/preface" },
-        {
-          title: "Was sind Microinteractions?",
-          to: "/what-are-microinteractions"
-        },
-        { title: "Auslöser", to: "/triggers" },
-        { title: "Regeln", to: "/rules" },
-        { title: "Rückmeldung", to: "/feedback" },
-        { title: "Schleifen & Modi", to: "/loops-and-modes" },
-        { title: "Historie", to: "/history" },
-        { title: "Skeuomorphismus", to: "/skeuomorphism" },
-        { title: "Signature Moments", to: "/signature-moments" },
-        { title: "Animation & Geschwindigkeit", to: "/animation" },
-        { title: "Anwendung in der Praxis", to: "/practical" },
-        //{ title: '_article', to: '/article' },
-        //{ title: "_scrap", to: "/scrapyard" }
-      ],
-      practicePages: [
-        { title: "buttons", to: "/mi/buttons" },
-        // { title: "Pull-to-refresh", to: "/mi/" },
-        // { title: "Fenster", to: "/mi/" },
-        // { title: "Copy & Paste", to: "/mi/" },
-        // { title: "Drag & Drop", to: "/mi/" },
-        // { title: "Rückgängig (undo) & Wiederholen (redo)", to: "/mi/" },
-        // { title: "Switch (Kipp-Schalter)", to: "/mi/" },
-        // { title: "Radiobutton", to: "/mi/" },
-        // { title: "Checkbox", to: "/mi/" },
-        // { title: "Hover", to: "/mi/" },
-        // { title: "Zoom", to: "/mi/" },
-        // { title: "Handlebars", to: "/mi/" },
-        // { title: "xyz", to: "/mi/" }
-      ]
-    };
+      drawer: false, // undefined = open on bigger screens
+    }
   },
   methods: {
     scrollToTop() {
-      smoothScroll(0);
-    }
-  }
-};
+      smoothScroll(0)
+    },
+  },
+  computed: {
+    theoryPages() {
+      return theoryPages
+    },
+    practicePages() {
+      return practicePages
+    },
+  },
+}
 </script>

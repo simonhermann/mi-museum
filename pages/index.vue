@@ -1,10 +1,9 @@
 <template>
 <div class="page page-home">
   <header class="page-home__header content-normal">
-    <span style="font-style: italic; color:darkred;">Work in progress, please come back later</span>
+    <p style="font-style: italic; color:darkred; width:100%; text-align:center; font-size:.9em;">&mdash;&nbsp;Work in progress, please come back later&nbsp;&mdash;</p>
     <h1 class="page-home__title">Micro&shy;interactions</h1>
-    <p class="page-home__subtitle">
-    </p>
+    <p class="page-home__subtitle">Gestaltung von Konversation zwischen Mensch und Maschine</p>
   </header>
 
   <!-- intro text -->
@@ -50,7 +49,7 @@
 </template>
 
 <style lang="scss">
-@import "./assets/styles/mixins.scss";
+@import './assets/styles/mixins.scss';
 
 .page-home {
   margin-top: 16vh;
@@ -63,48 +62,57 @@
     }
   }
   &__subtitle {
-    margin: 0 0 10vh 0;
+    margin: 0 0 8vh 0;
     font-size: 1.5em;
     font-style: italic;
+    text-align: center;
   }
 }
 </style>
 
 <script>
-import tile from "~/components/obj/tile.vue";
-import text01 from "~/content/1_1_homepage.md";
-import HtmlParser from "~/components/HtmlParser.vue";
+import tile from '~/components/obj/tile.vue'
+import text01 from '~/content/1_1_homepage.md'
+import HtmlParser from '~/components/HtmlParser.vue'
+import { theoryPages, practicePages } from '~/content/pages.js'
+
 
 export default {
   data() {
-    return {};
+    return {}
   },
   components: {
     tile: tile,
-    HtmlParser
+    HtmlParser,
   },
   computed: {
     text01() {
-      return text01;
-    }
+      return text01
+    },
+    theoryPages() {
+      return theoryPages
+    },
+    practicePages() {
+      return practicePages
+    },
   },
 
   // html meta data for page
   head() {
     return {
-      title: "Microinteractions.design",
+      title: 'Microinteractions.design',
       meta: [
         {
-          hid: "description",
-          name: "description",
+          hid: 'description',
+          name: 'description',
           content:
-            "Geschichte und Zukunft der kleinsten Bausteine im Interactiondesign"
-        }
-      ]
-    };
+            'Geschichte und Zukunft der kleinsten Bausteine im Interactiondesign',
+        },
+      ],
+    }
   },
   mounted() {
     //console.log('frontpage mounted')
-  }
-};
+  },
+}
 </script>
