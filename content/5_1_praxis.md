@@ -24,6 +24,8 @@ Sicht des designers auf app: klar, perfekt. Sicht eines users: verschwommen, da 
 > Don’t design to prove you're clever. Design to make the user think _she_ is.
 > <cite>Jeffrey Zeldman^[[Jeffrey Zeldman: The Year in Design](https://medium.com/let-me-repost-that-for-you-zeldman/the-year-in-design-9c06acf55b88)]</cite>
 
+https://www.smashingmagazine.com/2017/03/improve-billing-form-ux/
+
 ::: md-container-more
 
 ### Nützliche Links zum Thema Microinteractions in der Praxis:

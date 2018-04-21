@@ -122,13 +122,16 @@ Die Art von Rückmeldung, die an einen Nutzer gegeben wird, kann diesen stark be
     --> Use what's there
 4.  _Werden nutzer dazu gebracht, etwas zu tun, das diese nicht wirklich wollen?_
     --> Gestalter sollten für Nutzer arbeiten, nicht für Geld.
+5.  _Ist die Nachricht an den Nutzer definiv korrekt?_ 
+    --> Wenn Nutzern eine sytemgenerierte Information mitgeteilt wird, sollte in Erwägung gezogen werden, die Zuversicht bezüglich der Wahrheit dieser ebenfalls mitzuteilen.
 
 ::: md-container-more
 
 ### Sehens-, hörens- und lesenswert zum Thema Feedback
 
 * Kapitel _Feedback_ im Buch: Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [www.microinteractions.com](http://microinteractions.com/)
-* Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von Ilya Birman
 * Artikel: [Getting Practical With Microcopy](https://www.smashingmagazine.com/2016/07/getting-practical-with-microcopy/) von Rade Brujić
+* Artikel: [Systems smart enough to know when they're not smart enough](https://bigmedium.com/ideas/systems-smart-enough-to-know-theyre-not-smart-enough.html) von Josh Clark
+* Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von Ilya Birman
 
 :::

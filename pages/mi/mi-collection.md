@@ -15,7 +15,7 @@ Selbstverständlich+erwartet seit Touchscreen
 
 ## Swipe
 
-## Sider 
+## Sider
 
 https://ilyabirman.net/meanwhile/all/slider/
 
@@ -29,3 +29,11 @@ https://youtu.be/Z7pbbSVerOU
 
 --> Bedeutung für VR/AR
 https://youtu.be/ChsmXg9d6Tc
+
+---
+---
+---
+
+## Search Box
+
+https://uxplanet.org/design-a-perfect-search-box-b6baaf9599c

@@ -74,4 +74,6 @@ Sind Micro-Interaktionen überhaupt klein?
 Wann immer ein Nutzer mit einem Produkt jeglicher Art interagiert, kann die Interaktion in Auslöser, Regeln, Rückmeldung und Schleifen und Modi aufgeschlüsselt werden.
 XXXX Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
 
+**Microinteractions sind die Worte einer Konversation zwischen Mensch und Maschine
+**
 <!-- > Eine Interaktion kann ungewohnt sein, das heißt aber nicht, dass sie schlecht ist. -->
