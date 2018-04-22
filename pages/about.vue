@@ -10,6 +10,8 @@
 <script>
 import text01 from '~/content/about.md'
 import HtmlParser from '~/components/HtmlParser.vue'
+import { setHighlightColor } from '~/content/pages.js'
+
 export default {
   components: {
     HtmlParser
@@ -18,6 +20,9 @@ export default {
     text01() {
       return text01
     },
+  },
+  beforeMount() {
+    setHighlightColor(0)
   },
   head() {
     return {

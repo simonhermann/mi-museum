@@ -34,6 +34,7 @@
 * [ ] (https://github.com/Va1/string-replace-loader ?)
 * [ ] replace all gifs with videos https://justmarkup.com/log/2018/02/gifhancement/
       (cloudinary: https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4)
+* [ ] refactor setHighlightColor to grab corresponding color for page automatically from page object
 
 ## Misc
 

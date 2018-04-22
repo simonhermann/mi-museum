@@ -9,11 +9,16 @@
 import text01 from '~/content/3_1_history.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
+import { setHighlightColor } from '~/content/pages.js'
+
 export default {
   computed: {
     text01() {
       return text01
     },
+  },
+  beforeMount() {
+    setHighlightColor(0)
   },
   components: {
     HtmlParser, nextPage

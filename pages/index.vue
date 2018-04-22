@@ -6,13 +6,12 @@
     <p class="page-home__subtitle">Gestaltung von Konversation zwischen Mensch und Maschine</p>
   </header>
 
-  <!-- intro text -->
-  <!-- <html-parser :content=text01></html-parser> -->
+  <homegrid></homegrid>
 
   <div class="spacer2"></div>
 
   <!-- cards with teaser to chapters -->
-  <v-container style="padding: 0;" grid-list-md>
+  <!-- <v-container style="padding: 0;" grid-list-md>
     <v-layout row wrap>
       <tile link="preface" topline="" heading="Vorwort" text=""></tile>
       <tile link="what-are-microinteractions" topline="" heading="Was sind Microinteractions?" text=""></tile>
@@ -33,13 +32,13 @@
   <div class="spacer4"></div>
 
   <v-container style="padding: 0;" grid-list-md>
-    <!-- <h2>Beispiele für grundlegende Microinteractions</h2> -->
+    <h2>Beispiele für grundlegende Microinteractions</h2>
 
-    <!-- <v-layout row wrap>
+     <v-layout row wrap>
       <tile link="mi/buttons" topline="" heading="Buttons" text=""></tile>
-    </v-layout> -->
+    </v-layout> 
 
-  </v-container>
+  </v-container> -->
 
   <div class="spacer16"></div>
 
@@ -72,10 +71,9 @@
 
 <script>
 import tile from '~/components/obj/tile.vue'
-import text01 from '~/content/1_1_homepage.md'
 import HtmlParser from '~/components/HtmlParser.vue'
-import { theoryPages, practicePages } from '~/content/pages.js'
-
+import homegrid from '~/components/homegrid.vue'
+import { theoryPages, practicePages, setHighlightColor } from '~/content/pages.js'
 
 export default {
   data() {
@@ -84,11 +82,9 @@ export default {
   components: {
     tile: tile,
     HtmlParser,
+    homegrid,
   },
   computed: {
-    text01() {
-      return text01
-    },
     theoryPages() {
       return theoryPages
     },
@@ -111,8 +107,8 @@ export default {
       ],
     }
   },
-  mounted() {
-    //console.log('frontpage mounted')
+  beforeMount() {
+    setHighlightColor(0)
   },
 }
 </script>
