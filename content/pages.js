@@ -51,9 +51,9 @@ const practicePages = [
 var colorHues = []
 const hueStart = 143
 const hueDistance = 17
-const numberOfPages = 15
+const numberOfColors = 15
 const defineColors = () => {
-  for (var i = 0; i < numberOfPages; i++) {
+  for (var i = 0; i < numberOfColors; i++) {
     colorHues[i] = hueStart + i * hueDistance
   }
 }
@@ -106,6 +106,9 @@ const setHighlightColor = () => {
       break
     case '/practical':
       setDocumentHighlightcolor(colors[11])
+      break
+    case '/about':
+      setDocumentHighlightcolor(colors[14])
       break
     default:
       break

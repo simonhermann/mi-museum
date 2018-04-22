@@ -40,7 +40,7 @@
 
     </v-navigation-drawer>
 
-    <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense :flat="$vuetify.breakpoint.mdAndUp" 
+    <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense 
     :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
 
       <button type="button" class="toolbar__side-icon btn btn--icon btn__menu" :class="{ transparent : drawer }" @click="drawer = !drawer" style="position: relative;" aria-label="Menu" tabindex="0">
@@ -167,15 +167,35 @@
  * Toolbar
 */
 .toolbar {
-  background-color: rgba(245, 245, 245, 1);
+  //background-color: rgba(245, 245, 245, 1);
+  background-color: transparent !important; //vuetify hack
+  padding-top: .5rem !important; //vuetify hack
+  box-shadow: none !important;
   @include mq-md {
-    padding-top: 1rem !important;
+    padding-top: 1rem !important; //vuetify hack
+  }
+  // hack to hide toolbar completely when scrolled offscreen
+  &.elevation-0 {
+    opacity: 0;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    top: var(--body-border-width);
+    left: var(--body-border-width);
+    right: var(--body-border-width);
+    bottom: 0;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    background: var(--white-bg);
   }
   &__content {
+    position: relative;
     background-color: inherit;
     justify-content: space-between;
 
     .btn__menu {
+      margin-left: 1rem !important; //vuetify hack
       transition: opacity 150ms ease-out;
       &.transparent {
         opacity: 0;
@@ -186,7 +206,7 @@
         width: 2em;
         margin-top: 0.2em;
 
-        @include mq-md {
+        @include mq-sm {
           &::after {
             content: 'Menü';
             color: inherit;
@@ -201,18 +221,15 @@
       }
     }
   }
-  &--floating {
-    background-color: transparent !important;
-  }
-  &.elevation-0 {
-    background-color: transparent;
-  }
   &__title {
     color: inherit; // vuetify hack XXXX
     a {
       font-weight: bold;
       text-decoration: none;
       color: inherit; // vuetify hack XXXX
+      &.nuxt-link-exact-active {
+        display: none;
+      }
     }
     @include mq-md {
       display: none;
@@ -220,14 +237,16 @@
   }
   .toplink {
     flex-grow: 1;
-    height: inherit;
+    height: 2rem;
+    max-width: 18rem;
+    border-radius: 1rem;
     display: block;
     position: relative;
     &:active {
       background: var(--grey-vlight);
       &::after {
         content: '⤒';
-        font-size: 2rem;
+        font-size: 1.3rem;
         position: absolute;
         top: 50%;
         left: 50%;

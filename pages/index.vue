@@ -40,7 +40,7 @@
 
   </v-container> -->
 
-  <div class="spacer16"></div>
+  <div class="spacer8"></div>
 
   <!-- footer? -->
 

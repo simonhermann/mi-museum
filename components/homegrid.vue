@@ -38,17 +38,19 @@ export default {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: auto;
-  grid-gap: 0.2em;
+  grid-column-gap: 0.2em;
+  grid-row-gap: 0.23em;
   border-radius: 1rem;
   overflow: hidden;
-  grid-template-areas: 'g0' 'g1' 'g2' 'g3' 'g4' 'g5' 'g6' 'g7' 'g8' 'g9' 'g10';
+  grid-template-areas: 
+    'g0' 'g1' 'g2' 'g3' 'g4' 'g5' 'g6' 'g7' 'g8' 'g9' 'g10';
   @include mq-sm {
-    grid-template-areas: 
-      'g0 g1 g1' 
-      'g2 g2 g3' 
-      'g4 g4 g3' 
-      'g5 g6 g7' 
-      'g8 g8 g10' 
+    grid-template-areas:
+      'g0 g1 g1'
+      'g2 g2 g3'
+      'g4 g4 g3'
+      'g5 g6 g7'
+      'g8 g8 g10'
       'g9 g9 g10';
   }
   @include mq-md {
@@ -75,12 +77,13 @@ export default {
       text-decoration: underline;
       text-decoration-color: transparent;
     }
-    &:hover, &:active {
+    &:hover,
+    &:active {
       .item-head {
         text-decoration-color: #fff;
       }
       border-radius: 1rem;
-      transform: scale(.95);
+      transform: scale(0.95);
     }
     .item-desc {
       margin: 0;
