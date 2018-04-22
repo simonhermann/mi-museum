@@ -15,7 +15,7 @@ export default {
   methods: {
     getItemStyles(i) {
       var itemArea = 'grid-area: g' + i + ';'
-      var itemColor = 'background-color:' + colors[i+1] + ';'
+      var itemColor = 'background-color:' + colors[i + 1] + ';'
       var itemStyles = itemArea + itemColor
       return itemStyles
     },
@@ -32,20 +32,35 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@import './assets/styles/mixins.scss';
+
 .homegrid {
   display: grid;
   grid-template-columns: auto;
-  grid-template-rows: 7em 6em 9em 9em 11em;
+  grid-template-rows: auto;
   grid-gap: 0.2em;
-  grid-template-areas:
-    'g0 g0 g1 g1 g1 g2 g2 g2'
-    'g3 g3 g3 g3 g3 g2 g2 g2'
-    'g4 g4 g4 g5 g5 g5 g5 g5'
-    'g4 g4 g4 g6 g6 g7 g7 g7'
-    'g8 g8 g8 g6 g6 g9 g9 g9'
-    'g10 g10 g10 g10 g10 g10 g10 g10';
   border-radius: 1rem;
   overflow: hidden;
+  grid-template-areas: 'g0' 'g1' 'g2' 'g3' 'g4' 'g5' 'g6' 'g7' 'g8' 'g9' 'g10';
+  @include mq-sm {
+    grid-template-areas: 
+      'g0 g1 g1' 
+      'g2 g2 g3' 
+      'g4 g4 g3' 
+      'g5 g6 g7' 
+      'g8 g8 g10' 
+      'g9 g9 g10';
+  }
+  @include mq-md {
+    rid-template-rows: 7em 6em 9em 9em 11em;
+    grid-template-areas:
+      'g0 g0 g1 g1 g1 g2 g2 g2'
+      'g3 g3 g3 g3 g3 g2 g2 g2'
+      'g4 g4 g4 g5 g5 g5 g5 g5'
+      'g4 g4 g4 g6 g6 g7 g7 g7'
+      'g8 g8 g8 g6 g6 g9 g9 g9'
+      'g10 g10 g10 g10 g10 g10 g10 g10';
+  }
 
   &-item {
     display: block;
@@ -60,12 +75,12 @@ export default {
       text-decoration: underline;
       text-decoration-color: transparent;
     }
-    &:hover {
+    &:hover, &:active {
       .item-head {
         text-decoration-color: #fff;
       }
       border-radius: 1rem;
-      //transform: scale(1.1);
+      transform: scale(.95);
     }
     .item-desc {
       margin: 0;

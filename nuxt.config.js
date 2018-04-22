@@ -22,7 +22,7 @@ module.exports = {
         name: 'google-site-verification',
         content: 'zFfzzzExdtmkb2XdhzZizsw40H-_tzzYgA0VTGZTqf8',
       },
-      { name: 'theme-color', content: '#1e6d0f' },
+      { name: 'theme-color', content: '#3AA162' },
       { name: 'msapplication-TileColor', content: '#00a300' },
     ],
     link: [
@@ -40,7 +40,7 @@ module.exports = {
         sizes: '16x16',
         href: '/favicon-16x16.png',
       },
-      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#1e6d0f' },
+      { rel: 'mask-icon', href: '/safari-pinned-tab.svg', color: '#3AA162' },
       {
         rel: 'apple-touch-icon',
         href: '/apple-touch-icon.png',
@@ -194,7 +194,7 @@ module.exports = {
     orientation: 'portrait-primary',
     start_url: '/',
     background_color: '#fff',
-    theme_color: '#1e6d0f',
+    theme_color: '#3AA162',
   },
   sitemap: {
     hostname: 'https://www.microinteractions.design',

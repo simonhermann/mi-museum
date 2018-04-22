@@ -18,6 +18,7 @@
 * [ ] dynamische Rahmenfarbe
 * [ ] Footer?
 * [ ] foldable footnotes?
+* [ ] refine grid layout
 
 ## Bugs
 

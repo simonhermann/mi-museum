@@ -102,7 +102,7 @@ export default {
           hid: 'description',
           name: 'description',
           content:
-            'Geschichte und Zukunft der kleinsten Bausteine im Interactiondesign',
+            'Gestaltung von Konversation zwischen Mensch und Maschine',
         },
       ],
     }
