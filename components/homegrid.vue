@@ -39,7 +39,7 @@ export default {
   grid-template-columns: auto;
   grid-template-rows: auto;
   grid-column-gap: 0.2em;
-  grid-row-gap: 0.23em;
+  grid-row-gap: 0.215em;
   border-radius: 1rem;
   overflow: hidden;
   grid-template-areas: 

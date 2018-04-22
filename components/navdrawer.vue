@@ -223,6 +223,8 @@
   }
   &__title {
     color: inherit; // vuetify hack XXXX
+    margin-right: 1.75rem !important; // vuetify hack XXXX
+    overflow: visible;
     a {
       font-weight: bold;
       text-decoration: none;
