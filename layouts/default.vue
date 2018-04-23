@@ -6,10 +6,10 @@
     <v-content>
       <v-container>
         <noscript> Please enable Javascript in your browser. </noscript>
-        <nuxt v-lazy-container="{ selector: 'img' }"/>
+        <nuxt v-lazy-container="{ selector: 'img' }" />
       </v-container>
     </v-content>
-    
+
   </v-app>
 </template>
 
@@ -26,9 +26,10 @@
 @import './assets/styles/objects/buttons';
 #app {
   z-index: 3;
-  opacity: 0; 
+  opacity: 0;
   transition: opacity 100ms var(--transition-curve1);
   background-color: var(--white-bg);
+  will-change: background-color;
   border-radius: 1rem;
   html.app-mounted & {
     opacity: 1;
@@ -36,9 +37,11 @@
 }
 .container {
   transition: all 800ms var(--transition-curve1);
-  transform: translate(0, -1em);
+  transform: translate3d(0, -1em, 0);
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
   html.app-mounted & {
-    transform: translate(0, 0);
+    transform: translate3d(0, 0, 0);
   }
 }
 </style>

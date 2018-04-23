@@ -1,7 +1,11 @@
 /*
 * page transitions
 */
-
+.page {
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-perspective: 1000;
+}
 .page-leave-active {
   transition: all 230ms var(--transition-curve1);
 }
@@ -10,15 +14,15 @@
 }
 .page-enter {
   opacity: 0;
-  transform: translate(0, -1em);
+  transform: translate3d(0, -1em, 0);
   @include reduced-motion {
-    transform: translate(0, 0);
+    transform: none;
   }
 }
 .page-leave-to {
   opacity: 0;
-  transform: translate(0, 0.3em);
+  transform: translate3d(0, 0.3em, 0);
   @include reduced-motion {
-    transform: translate(0, 0);
+    transform: none;
   }
 }
