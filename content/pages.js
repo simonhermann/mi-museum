@@ -49,7 +49,7 @@ const practicePages = [
 // define hue for each color
 //const colorHues = [143, 169, 188, 211, 234, 259, 271, 299, 321, 352, 12, 27]
 var colorHues = []
-const hueStart = 143
+const hueStart = 133
 const hueDistance = 17
 const numberOfColors = 15
 const defineColors = () => {
@@ -65,7 +65,7 @@ const colors = colorHues.map(i => 'hsl(' + i + ', 47%, 43%)')
 // function to set css property --color-hightlight on :root element
 const setDocumentHighlightcolor = (color) => {
   document.documentElement.style.setProperty('--color-highlight', color)
-  //console.log('--> your favourite color is now ' + color + '!')
+  console.log('--> your favourite color is now ' + color + '!')
 }
 
 const setHighlightColor = () => {

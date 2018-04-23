@@ -22,7 +22,7 @@ module.exports = {
         name: 'google-site-verification',
         content: 'zFfzzzExdtmkb2XdhzZizsw40H-_tzzYgA0VTGZTqf8',
       },
-      { name: 'theme-color', content: '#3AA162' },
+      { name: 'theme-color', content: '#424242' },
       { name: 'msapplication-TileColor', content: '#00a300' },
     ],
     link: [
@@ -193,8 +193,8 @@ module.exports = {
     display: 'standalone',
     orientation: 'portrait-primary',
     start_url: '/',
-    background_color: '#fff',
-    theme_color: '#3AA162',
+    background_color: '#276D36',
+    theme_color: '#424242',
   },
   sitemap: {
     hostname: 'https://www.microinteractions.design',

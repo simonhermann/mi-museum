@@ -12,16 +12,17 @@ Sobald eine Microinteraction initiiert wurde, wird eine Sequenz von Verhaltensmu
 
 Die Regeln eines Lichtschalters bilden die wohl grundlegendendste Microinteraction ab. Sie lassen sich jedoch durch weitere Regeln ergänzen, ein Dimmer könnte die Helligkeit ändern, eine Zeitschaltuhr oder ein Bewegungssensor könnte das Licht automatisch an und aus schalten.
 
-#### Beispiel für Regeln eines Lichtschalters mit Dimmer:
+##### Beispiel für Regeln eines Lichtschalters mit Dimmer:
 
-::: md-container-standout
+::: md-container-standout 
 
 * Drehregler auf Stufe 0 --> Licht _aus_
 * Drehregler auf Stufe 1-9 --> Licht _an_
 * Wenn _an_: Helligkeit entspricht Stufe, wobei Stufe 1 am wenigsten hell und Stufe 9 am hellsten ist
-  :::
 
-#### Beispiel für Regeln einer von Bewegungssensor gesteuerten Beleuchtung:
+:::
+
+##### Beispiel für Regeln einer von Bewegungssensor gesteuerten Beleuchtung:
 
 ::: md-container-standout
 Tag = Zwischen 8:00 und 18:00 Uhr
