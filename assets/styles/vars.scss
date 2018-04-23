@@ -1,9 +1,9 @@
 :root {
   // colors
+  --grey-dark: #424242;
   --grey-mid: #777;
   --grey-light: #ebe6df;
   --grey-vlight: #f1ece5;
-  --grey-dark: #424242;
   --white-bg: #fafafa;
 
   --color-start: hsl(143, 47%, 43%); //#3AA162
@@ -17,10 +17,9 @@
   --color-link: var(--grey-dark);
 
   // other vars
-  // --shadow-btn: inset 0.2em 0.2em 0 0 hsla(0, 0%, 100%, 0.3);
   --font-size-small: 0.75rem;
-  --body-border-base-width: 3px;
-  --body-border-width: calc(var(--body-border-base-width) + 0.5vw);
-
+  --body-border-width: calc(3px + 0.5vw);
+  
   --transition-curve1: cubic-bezier(0.25, 0.8, 0.5, 1);
+  // --shadow-btn: inset 0.2em 0.2em 0 0 hsla(0, 0%, 100%, 0.3);
 }

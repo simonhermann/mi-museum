@@ -69,7 +69,7 @@ Einer Studie des MIT zufolge werden _passive_ Wartezeiten durchschnittlich 36% l
 
 Angeblich haben etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan keinerlei Funktion^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen] – aber sie sorgen dafür, dass Menschen interagieren können und ein Gefühl von Einflussnahme auf die Ampelphasen haben. Wenn man es eilig hat, fühlt es sich viel besser an, einen Knpf zu drücken, als untätig zu warten. Die Knöpfe funktionieren – nur eben nicht auf technische, sondern rein auf psychologische Weise. Hier findet eine direkte Manipulation des Nutzerverhaltens durch eine Mikro-Interaktion statt und es stellt sich die Frage, ob ein "Hintergehen" des Nutzers auf dese Weise moralisch vertretbar ist. In diesem Fall hilft es, Leben zu retten, da Fußgänger seltener über rote Ampeln gehen. Letztendlich muss diese Frage aber jeder für sich beantworten.
 
-> Progress indicators by definition call attention to the fact that someone needs to wait. It’s like watching the clock tick down — when you do, time seems to go slower.
+> Progress indicators by definition call attention to the fact that someone needs to wait. It’s like watching the clock tick down — when you do, time seems to go&nbsp;slower.
 > <cite>Luke Wroblewski^[[Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski]</cite>
 
 Auch wenn reine Ladeanimationen den Nachteil haben, die Aufmerksamkeit des Nutzers auf die unangenehme Wartezeit zu lenken, haben sie doch eine Berechtigung. Sie sollten jedoch niemals die gesamte Applikation blocken und den Nutzer zur Untätigkeit verdammen. Es sollte versucht werden, diese möglichst in vorhanden UI-Elemente zu integrieren und damit eher unaufdringlich und informell zu gestalten.^[vgl. [The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen]
@@ -102,7 +102,7 @@ Bei Responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdaue
 <figure class="content-normal">
   <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload">
   </video>
-  <figcaption> Der Fortschrittsbalken mit beschleunigenden, rückwärts wandernden Streifen fühlt sich deutlich schneller an.
+  <figcaption> Der Fortschrittsbalken mit beschleunigenden, rückwärts wandernden Streifen fühlt sich deutlich schneller&nbsp;an.
     <sup><a href="http://www.chrisharrison.net/index.php/Research/ProgressBars2">Quelle</a><sup>
   </figcaption>
 </figure>

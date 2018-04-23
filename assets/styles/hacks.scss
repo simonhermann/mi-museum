@@ -10,15 +10,16 @@ body a {
   transition: box-shadow 250ms var(--transition-curve1),
     border-radius 500ms var(--transition-curve1),
     opacity 300ms var(--transition-curve1);
+  will-change: opacity;
   border-radius: 0;
   margin: var(--body-border-width);
   &::after {
     content: '✕';
-    color: var(--grey-mid);
-    font-size: 2em;
+    color: var(--grey-light);
+    font-size: 1.5rem;
     position: absolute;
     right: 1rem;
-    top: 0;
+    top: 0.2rem;
     cursor: pointer;
   }
 }
