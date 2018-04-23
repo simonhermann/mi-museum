@@ -29,7 +29,6 @@
   opacity: 0;
   transition: opacity 100ms var(--transition-curve1);
   background-color: var(--white-bg);
-  will-change: background-color;
   border-radius: 1rem;
   html.app-mounted & {
     opacity: 1;
@@ -39,7 +38,7 @@
   transition: all 800ms var(--transition-curve1);
   transform: translate3d(0, -1em, 0);
   backface-visibility: hidden;
-  -webkit-perspective: 1000;
+  -webkit-perspective: 1000; // causes content to be blurry in Safari?
   html.app-mounted & {
     transform: translate3d(0, 0, 0);
   }

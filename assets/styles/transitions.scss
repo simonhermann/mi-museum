@@ -4,7 +4,7 @@
 .page {
   will-change: transform;
   backface-visibility: hidden;
-  -webkit-perspective: 1000;
+  //-webkit-perspective: 1000; // causes content to be blurry in Safari
 }
 .page-leave-active {
   transition: all 230ms var(--transition-curve1);

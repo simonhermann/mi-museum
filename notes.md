@@ -45,6 +45,7 @@
 * [ ] svg stroke animation (Vivus.js)
 * [ ] Layout für Bilder in Text
 * [ ] pwa theme color should be neutral to fit all page colors
+* [ ] update favicon with new color
 
 ---
 

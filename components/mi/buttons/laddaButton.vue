@@ -49,7 +49,6 @@ export default {
   border: 1px solid transparent;
 
   -webkit-appearance: none;
-  -webkit-font-smoothing: antialiased;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 
   &:hover {
