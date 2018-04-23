@@ -1,20 +1,33 @@
 <template>
   <div class="error-wrapper">
-    <h1>~(◎_◎)~</h1>
     <div v-if="error.statusCode === 404">
+      <h1>~(◎_◎)~</h1>
       <p class="error-msg">Seite nicht gefunden. <br>
         <nuxt-link to="/">Hier geht's zurück zur Startseite</nuxt-link>
       </p>
-    </div>
-    <div v-else>
-      <p class="error-msg">Etwas ist schiefgelaufen, vermutlich weil ein Update eingespielt wurde (Yay!).
-        Bitte versuche, <br> <a href="javascript:location.reload()">die Seite neu zu laden</a>.
+      <p class="error-output">
+        Falls du etwas Zeit hast, schick mir bitte diese Nachricht an mail[ät]simonhermann.de: <br>
+        <code>{{ error }}</code>
       </p>
     </div>
-    <p class="error-output">
-      Falls du mich siehst, zeig mir diese Nachricht: <br>
-      <code>{{ error }}</code>
-    </p>
+    <div v-else-if="error.statusCode === 500">
+      <h1>Yay!</h1>
+      <p class="error-msg">Es gibt updates, bitte <br>
+        <a href="javascript:location.reload()">lade die Seite neu</a>.
+      </p>
+    </div>
+    <div v-else>
+      <h1>-.-</h1>
+      <p class="error-msg">
+        Oha, da ist was schiefgelaufen. Bitte versuche, die<br>
+        <a href="javascript:location.reload()">Seite neu zu laden</a> <br> oder kehre <br>
+        <nuxt-link to="/">zurück zur Startseite</nuxt-link>
+      </p>
+      <p class="error-output">
+        Falls du etwas Zeit hast, schick mir bitte diese Nachricht an mail[ät]simonhermann.de: <br>
+        <code>{{ error }}</code>
+      </p>
+    </div>
   </div>
 </template>
 
@@ -22,8 +35,10 @@
 export default {
   props: ['error'],
   beforeMount() {
+    //if (error.statusCode !== 500) {
     document.documentElement.style.setProperty('--color-highlight', 'darkred')
-  }
+    //}
+  },
 }
 </script>
 
@@ -39,7 +54,7 @@ export default {
 }
 .error-output {
   color: #999;
-  font-size: .75rem;
+  font-size: 0.75rem;
   code {
     white-space: normal;
   }
