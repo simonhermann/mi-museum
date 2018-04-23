@@ -36,6 +36,8 @@
 * [ ] replace all gifs with videos https://justmarkup.com/log/2018/02/gifhancement/
       (cloudinary: https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4)
 * [ ] refactor setHighlightColor to grab corresponding color for page automatically from page object
+* [ ] svg path traced image placeholders https://jmperezperez.com/svg-placeholders/ https://github.com/EmilTholin/image-trace-loader
+* [ ] better img lazyloader: https://github.com/aFarkas/lazysizes
 
 ## Misc
 
