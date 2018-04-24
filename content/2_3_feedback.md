@@ -107,6 +107,8 @@ Car sound enhancement
 
 Rückmeldung immer über mehrere Kanäle, zB Form und Farbe
 
+Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar ["belohnt"](/signature-moments).
+
 ### Abstraktion und Relevanz
 
 Mit Erfindung des Buttons+Elektrik ist Feedback das erste mal nicht mehr direkt von Eingabe abhängig. Das Ergebnis der menschlichen Bewegung kann vollkommen anders als die Art der Eingabe. [@DeRouchy]

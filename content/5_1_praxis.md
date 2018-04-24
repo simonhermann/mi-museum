@@ -69,7 +69,8 @@ Maschine: Not-Aus leicht zu erreichen, groß und rot
 Zeigt, wie wichtig Interdisziplinatität im Design ist.
 Zeigt, wie wichtig es ist, den Menschen zu kennen, der das Interface nutzen wird.
 
-[https://youtu.be/RBV01YDPnOA]
+Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
+
 
 
 

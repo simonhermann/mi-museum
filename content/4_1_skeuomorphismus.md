@@ -14,7 +14,7 @@ Ein Digitaler Schalter sah genau aus wie sein physisches Vorbild und verhielt si
 
 Während der visuelle heute oft Bezug nur noch zu erahnen ist, bleiben doch die [Regeln](/rules) digitaler Interaktionen meist nahe an an den Regeln ihrer gegenständlichen Equivalente.
 Die Regeln der uns Menschen seit Jahrtausenden umgebenden Welt haben sich so in unser unterbewusstsein eingeprägt, dass diese unmöglich zu ignorieren sind. Aus diesem Grund könnte man sich als Designer die Frage stellen:
-==_Wie würde diese Interaktionen funktionieren, fände sie nicht in der digitalen Welt statt?_==
+_Wie würde diese Interaktionen funktionieren, fände sie nicht in der digitalen Welt statt?_
 Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction sinnvoll erscheinen, kann davon ausgegangen werden, dass sie unserem intuitiven Verständnis von Konzepten wie Gewicht, Material, Bewegung, Trägheit, Reibung, usw. nicht wiederspricht. Besonders zu beachten sind diese "Naturgesetze" bei der Gestaltung von [Animation](/animation-and-pace).
 
 <div class="content-wide" style="display: flex;">
@@ -31,6 +31,8 @@ Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction s
         </figcaption>
     </figure>
 </div>
+
+Mikrointeraktionen, insbesondere in Kombination mit kleinen Animationen, können den Eindruck vermitteln, dass sich ein digitales Interface sehr ähnlich wie ein analoges Produkt verhält. Dies kann durch unmittelbares Feedback erfolgen, wie z.B. das Klicken auf einen Button, das Ziehen eines Sliders, das Anzeigen eines rotierenden Spinners während eines Downloads oder das Füllen eines Einkaufswagens nach dem Klicken auf Kaufen.
 
 Bei der Entwicklung von neuartigen Interaktionsmedien, ist zu beobachten, dass wieder vermehrt auf Skeumorphistische Prinzipien zurückgegriffen wird. Aktuelles Beispiel hierfür sind sprachgesteuerte digitale Assistenten wie Apple Siri, Google Now, Amazon Echo und Co. Hier wird angestrebt, die "Unterhaltung" möglichst einer Unterhaltung von Mensch zu Mensch nachzuempfinden, während eine visuelle Benutzeroberfläche (wenn überhaupt) nur unterstützende Funktion hat. Die Geräte sollen mit Namen angesprochen werden ("Hey Siri"), haben Persönlichkeit und Humor. Zusätzliche Hürde sind also nicht nur Wahrnehmung, Verständnis und Einhaltung von Gepflogenheiten menschlicher Umgebungen, sondern die Nachbildung des menschlichen Verstandes selbst.
 Während sich einzelne Sätze der dieser KI-Systeme im Jahre 2018 kaum noch als künstlich erkennen lassen, macht der oft mangelnde Kontext eine natürliche Unterhaltung unmöglich^[vgl. [The Voice Assistant Battle! (2017) - Marques Brownlee/youtube](https://youtu.be/BkpAro4zIwU)]. --> XXXX Unsichtbare Trigger
