@@ -1,8 +1,6 @@
 <template>
   <div class="homegrid">
-    <nuxt-link class="homegrid-item" :key="i" v-for="(theoryPage, i) in theoryPages" 
-    :to="theoryPage.to" :style="getItemStyles(i)"
-    >
+    <nuxt-link class="homegrid-item" :key="i" v-for="(theoryPage, i) in theoryPages" :to="theoryPage.to" :style="getItemStyles(i)">
       <h3 class="item-head">{{ theoryPage.title }}</h3>
       <p class="item-desc" v-if="theoryPage.desc">{{ theoryPage.desc }}</p>
     </nuxt-link>
@@ -42,8 +40,7 @@ export default {
   grid-row-gap: 0.215em;
   border-radius: 1rem;
   overflow: hidden;
-  grid-template-areas: 
-    'g0' 'g1' 'g2' 'g3' 'g4' 'g5' 'g6' 'g7' 'g8' 'g9' 'g10';
+  grid-template-areas: 'g0' 'g1' 'g2' 'g3' 'g4' 'g5' 'g6' 'g7' 'g8' 'g9' 'g10';
   @include mq-sm {
     grid-template-areas:
       'g0 g1 g1'
@@ -73,9 +70,13 @@ export default {
     text-decoration: none;
     color: #fff;
     .item-head {
-      margin: 0 0 1rem 0;
+      margin: 0 0 0.5rem 0;
+      &:only-child {
+        margin: 0;
+      }
       text-decoration: underline;
       text-decoration-color: transparent;
+      font-size: 1.75em;
     }
     &:hover,
     &:active {
