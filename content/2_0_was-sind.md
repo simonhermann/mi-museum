@@ -1,25 +1,26 @@
 # Was sind Microinter&shy;actions?
 
 <!-- > The difference between a good product and a great one are its details -->
+Microinteractions definieren, wie die Interaktion zwischen Mensch und Maschine im Detail von statten geht.
 
 Dan Saffer schuf mit dem Buch _Microinteractions - Designing with Details_^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] die Grundlage für den Diskurs über Mikro-Interaktionen. Erschienen ist es bereits im Mai 2013, der Großteil der Branche wurde meines Wissens nach aber erst Anfang 2015 auf das Thema aufmerksam.
 
 > The Details are not Details, they make the Design.
 > <cite>Charles Eames</cite>
 
-Doch auch vor Saffer wurde das Thema bereits behandelt, beispielsweise hielt Jeannie Walters bereits 2012 Vorträge dazu ^[@walters12]. Sie legt den Fokus jedoch haupsächlich auf die in Benutzoberflächen genutzte Sprache, und wie diese die Beuntzererfahrung ruinieren kann.
+<!-- Doch auch vor Saffer wurde das Thema bereits behandelt, beispielsweise hielt Jeannie Walters bereits 2012 Vorträge dazu ^[@walters12]. Sie legt den Fokus jedoch haupsächlich auf die in Benutzoberflächen genutzte Sprache, und wie diese die Beuntzererfahrung ruinieren kann.
 Beispielsweise die Fehlermeldung "You entered incorrect logon information." (etwa: Sie haben falsche Anmelde-Daten eingegeben.)
 XXXX
 Die Fokussierung Walters auf Microinteractions, die negativ wahrgenommene Situationen erzeugen, lässt das Protential dieser noch ungenutzt. Im Wesentlichen fordert sie auf, die im digtialen Alltagsleben auftretenden negativen Situationen in positive umzuwandeln.
-Bsp https://youtu.be/Y3qg6P3grWk?t=9m24s XXXX
+Bsp https://youtu.be/Y3qg6P3grWk?t=9m24s XXXX -->
 
 Die Unterteilung von Microinteractions in Aktionsphasen macht Saffers Konzept so herausragend, da sie zu einem intensiven Nachdenken über jeden einzelnen Teilschritt der Nutzerinteraktion innerhalb einer einizgen Mikro-Interaktion anregt.
 Die Analyse, wie Interaktionen und Mikro-Interaktionen tatsächlich funktionieren erfolgt in einer nicht da gewesenen Tiefe.
 
-Das Buch veranlasste zahlreiche Mitglieder der Design-Community dazu, Blog-Posts zum Thema Microinteractions zu verfassen.
+<!-- Das Buch veranlasste zahlreiche Mitglieder der Design-Community dazu, Blog-Posts zum Thema Microinteractions zu verfassen. -->
 
-Leider beschränken sich die allermeisten Artikel darauf, die Grundlagen von Saffers Buch in wenigen Absätzen zusammenzufassen und mit einigen Beispielen auszuschmücken.
-Mein Ziel ist es, ein Verständnis von Interaktionen zu schaffen, das über Saffers Microinteractions hinausgeht, das nicht nur Screen- sondern auch XXXX _tangible_, _Virtual_ und _Augmented Reality_ oder analoges Produktdesign mit einbezieht. Die Ansätze Saffers können tatsächlich auf fast alle Bereiche des Kommunikationsdesigns und XXXX angewendet werden.
+<!-- Leider beschränken sich die allermeisten Artikel darauf, die Grundlagen von Saffers Buch in wenigen Absätzen zusammenzufassen und mit einigen Beispielen auszuschmücken.
+Mein Ziel ist es, ein Verständnis von Interaktionen zu schaffen, das über Saffers Microinteractions hinausgeht, das nicht nur Screen- sondern auch XXXX _tangible_, _Virtual_ und _Augmented Reality_ oder analoges Produktdesign mit einbezieht. Die Ansätze Saffers können tatsächlich auf fast alle Bereiche des Kommunikationsdesigns und XXXX angewendet werden. -->
 
 ## Wann werden Microinteractions verwendet?
 
@@ -74,6 +75,12 @@ Sind Micro-Interaktionen überhaupt klein?
 Wann immer ein Nutzer mit einem Produkt jeglicher Art interagiert, kann die Interaktion in Auslöser, Regeln, Rückmeldung und Schleifen und Modi aufgeschlüsselt werden.
 XXXX Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
 
-**Microinteractions sind die Worte einer Konversation zwischen Mensch und Maschine
-**
+Auch kleine Interaktionen wie das Betätigen eines Schalters, das Nutzen eines Suchfelds oder das Absenden einer Nachricht wurden von Designern gestaltet und bestehen aus [Auslöser](/triggers), [Regeln](/rules), [Rückmeldung](/feedback) und [Meta-Regeln](/loops-and-modes).
+
+Mikrointeraktionen, insbesondere in Kombination mit kleinen Animationen, können den Eindruck vermitteln, dass sich ein digitales Produkt sehr [ähnlich wie ein analoges](/skeuomorphism) Produkt verhält. Dies kann durch unmittelbares Feedback erfolgen, wie z.B. das Klicken auf einen Button, das Ziehen eines Sliders, das Anzeigen eines rotierenden Spinners während eines Downloads oder das Füllen eines Einkaufswagens nach dem Klicken auf Kaufen.
+
+Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar ["belohnt"](/signature-moments).
+
+<!-- **Microinteractions sind die Worte einer Konversation zwischen Mensch und Maschine
+** -->
 <!-- > Eine Interaktion kann ungewohnt sein, das heißt aber nicht, dass sie schlecht ist. -->

@@ -63,13 +63,13 @@ export default {
   // html meta data for page
   head() {
     return {
-      title: 'Microinteractions.design',
+      title: 'Microinteractions',
       meta: [
         {
           hid: 'description',
           name: 'description',
           content:
-            'Gestaltung von Konversation zwischen Mensch und Maschine',
+            'Design von Momenten Konversation zwischen Mensch und Maschine',
         },
       ],
     }

@@ -25,7 +25,7 @@ export default {
   },
   head() {
     return {
-      title: "Animationen und Microinteractions",
+      title: "Animationen und Geschwindigkeit in Microinteractions",
     }
   },
 }

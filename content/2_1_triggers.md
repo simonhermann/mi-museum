@@ -1,4 +1,4 @@
-# Auslöser (Trigger)
+# Auslöser (Trigger) von Microinteractions
 
 Der erste Teil jeder (Mikro-)Interaktion ist ein Auslöser (engl. Trigger). Dieser kann entweder durch eine unmittelbare _Aktion des Nutzers_ oder _von Seiten des Gerätes_ initiiert werden.
 In Beiden fällen

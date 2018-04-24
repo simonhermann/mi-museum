@@ -6,7 +6,7 @@ Neue Nutzer eines Digitalen Produktes benötigen Hinweise, die zeigen, wie eine 
 Nachdem eine Microinteraction vom Nutzer ausgelöst wurde, kann Animation als visuelle Bestätigung der Nutzereingabe dienen. Dies bedeutet, dass Benutzer anhand dieser verstehen müssen, wie ihre Aktion mit den Reaktionen des Produktes verknüpft ist. Wie bereits [beschrieben](/feedback#unmittelbarkeit), sollte hier zwischen der Rückmeldung auf eine Eingabe und der Ausführung eines Befehls unterschieden werden.
 
 > Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic&nbsp;ease.
-> <cite>"Motion" im Microsoft Fluent Design System^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]</cite>{.content-normal}
+> <cite>'Motion' im Microsoft Fluent Design System^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]</cite>
 
 Evulotionär bedingt zieht Bewegung ganz natürlich die menschliche Aufmerksamkeit auf sich. Animation kann also genutzt werden, um den Fokus des Nutzers auf die entscheidenden Elemente eines Interfaces zu lenken.
 
@@ -60,7 +60,7 @@ Bei Animationen für (Mikro-)Interaktionen sollte Effizienz immer einen höheren
 
 Das Gefühl eines Menschen für Zeit ist nicht absolut, sondern abhängig von unzähligen Faktoren wie Stimmung, Erwartungshaltung, Persönlichkeit oder Kontext. Wenn sich etwas _gut_ anfühlt, vergeht es meist viel zu schnell, während ungeliebte Aufgaben kaum zu enden scheinen. Die Selben Prinzipien treffen auch auf Benutzerschnittstellen zu, und Designer sollten sie sich zu Nutze machen.
 
-> Wenn man zwei Stunden lang mit einem Mädchen zusammensitzt, meint man, es wäre eine Minute. Sitzt man jedoch eine Minute auf einem heißen Ofen, meint man, es wären zwei Stunden. Das ist Relativität.
+> Wenn man zwei Stunden lang mit einem Mädchen zusammensitzt, meint man, es wäre eine Minute. Sitzt man jedoch eine Minute auf einem heißen Ofen, meint man, es wären zwei Stunden. Das ist Relativität. 
 > <cite> Albert Einstein^[[zitate-online.de](http://www.zitate-online.de/sprueche/wissenschaftler/689/wenn-man-zwei-stunden-lang-mit-einem-maedchen.html)]</cite>
 
 <!-- When users accomplish what they set out to do on a site, they perceive that site to be fast. -->
