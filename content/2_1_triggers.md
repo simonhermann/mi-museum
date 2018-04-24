@@ -41,7 +41,9 @@ Wie auch bei nutzerseitigen Auslösern, können unterschiedliche Trigger natürl
     </figcaption>
 </figure>
 
-XXX
+XXXX
+
+Bring the data forward
 
 Welche Art von Auslöser für eine Interaktion geeignet ist, hängt direkt von den Bedürfnissen des Nutzers in ebendiesem Moment ab, daher sollte diesen in der Konzeptionsphase besondere Aufmerksamkeit zukommen. Was will der Nutzer erreichen? Wie und wie häufig will er dies tun?
 Trigger könnte die Ankuft einer neuen Nachricht, eine festgelegte Uhrzeit oder ein bestimmter Ort sein. Eine Integration mit dem Kalender des Nutzers könnte nun dessen Gerät automatisch stumm schalten, wenn dieser sich in einem Meeting oder in der Oper befindet. Dieser Trend zur Automatisierung hat in den letzen Jahren zugenommen und von _Künstlicher Intelligenz_ gesteuerte _persönliche Assistenten_ übernehmen immer mehr Entscheidungen, die vorher der Nutzer selbst getroffen hat.

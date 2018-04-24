@@ -1,43 +1,26 @@
 # Was sind Microinter&shy;actions?
 
 <!-- > The difference between a good product and a great one are its details -->
-Microinteractions definieren, wie die Interaktion zwischen Mensch und Maschine im Detail von statten geht.
 
-Dan Saffer schuf mit dem Buch _Microinteractions - Designing with Details_^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] die Grundlage für den Diskurs über Mikro-Interaktionen. Erschienen ist es bereits im Mai 2013, der Großteil der Branche wurde meines Wissens nach aber erst Anfang 2015 auf das Thema aufmerksam.
-
-> The Details are not Details,<br> they make the Design.
-> <cite>Charles Eames</cite>
-
-<!-- Doch auch vor Saffer wurde das Thema bereits behandelt, beispielsweise hielt Jeannie Walters bereits 2012 Vorträge dazu ^[@walters12]. Sie legt den Fokus jedoch haupsächlich auf die in Benutzoberflächen genutzte Sprache, und wie diese die Beuntzererfahrung ruinieren kann.
-Beispielsweise die Fehlermeldung "You entered incorrect logon information." (etwa: Sie haben falsche Anmelde-Daten eingegeben.)
-XXXX
-Die Fokussierung Walters auf Microinteractions, die negativ wahrgenommene Situationen erzeugen, lässt das Protential dieser noch ungenutzt. Im Wesentlichen fordert sie auf, die im digtialen Alltagsleben auftretenden negativen Situationen in positive umzuwandeln.
-Bsp https://youtu.be/Y3qg6P3grWk?t=9m24s XXXX -->
-
+Dan Saffer schuf mit dem Buch _Microinteractions - Designing with Details_^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] die Grundlage für den Diskurs über Microinteractions. Erschienen ist es bereits im Mai 2013, der Großteil der Branche wurde meines Wissens nach aber erst Anfang 2015 auf das Thema aufmerksam.
 Die Unterteilung von Microinteractions in Aktionsphasen macht Saffers Konzept so herausragend, da sie zu einem intensiven Nachdenken über jeden einzelnen Teilschritt der Nutzerinteraktion innerhalb einer einizgen Mikro-Interaktion anregt.
 Die Analyse, wie Interaktionen und Mikro-Interaktionen tatsächlich funktionieren erfolgt in einer nicht da gewesenen Tiefe.
 
-<!-- Das Buch veranlasste zahlreiche Mitglieder der Design-Community dazu, Blog-Posts zum Thema Microinteractions zu verfassen. -->
 
-<!-- Leider beschränken sich die allermeisten Artikel darauf, die Grundlagen von Saffers Buch in wenigen Absätzen zusammenzufassen und mit einigen Beispielen auszuschmücken.
-Mein Ziel ist es, ein Verständnis von Interaktionen zu schaffen, das über Saffers Microinteractions hinausgeht, das nicht nur Screen- sondern auch XXXX _tangible_, _Virtual_ und _Augmented Reality_ oder analoges Produktdesign mit einbezieht. Die Ansätze Saffers können tatsächlich auf fast alle Bereiche des Kommunikationsdesigns und XXXX angewendet werden. -->
+Microinteractions definieren, wie die Interaktion zwischen Mensch und Maschine im Detail von statten geht.
 
-## Wann werden Microinteractions verwendet?
+Selten gilt die Aufmerksamkeit des Designers, geschweige denn des Nutzers diesen kleinen Bausteinen der Nutzererfahrung. Wenn sie doch beachtung finden, liegt es daran, dass sie 
+a) schlecht oder ungewohnt implementiert sind 
+b) jemand eine bessere Lösung für ein altes Problem gefunden hat oder
+c) eine neue Technologie aufkommt und ein Umdenken ermöglicht oder gar erfordert.
 
-_Microinteractions_ oder Mikro-Interaktionen eignen sich nach Saffer gut für folgende Zwecke:
 
-* Bewältigung eine einzigen Aufgabe
-* Verbinden von Geräten
-* interagieren mit einer einzigen Datenelement wie z.B. einem Aktienpreis oder der Temparatur
-* Kontrolle eines laufenden Prozesses wie z.B. das Wechseln eines Fernsehkanals
-* Änderung einer Einstellung
-* Anzeigen oder Erstellen eines kurzen (Text-)Inhaltes, wie einer Statusmeldung
-* An- oder Ausschalten einer Funktion
 
 Im Unterschied zu _Features_, also den Hauptfunktionen eines Programmes, die oft komplex, zeitaufändig und geistig anspruchsvoll sind, sollten Microinteractions einfach, kurz und unaufändig sein. Beispielsweise ist ein Musikabspielprogramm ein _Feature_, die Anpassung der Lautstärke ist eine Microinteraction.
 In einigen Fällen kann eine Microinteraction aber auch das komplette Produkt sein; ein einfacher Toaster erfüllt seinen Zweck mit Hilfe einer einzigen Interaktion: Brot wird hineingesteckt, der Hebel hinuntergedrückt und nach das Fertige Toast kommt wieder zum Vorschein, sobald es fertig ist. (Natürlich sind die meisten Toaster heute komplexer und haben zumindest eine Möglichkeit der Einstellung des gewünschten Röstgrades). In ähnlicher weise können auch Programme auf Smartphones oder Computern aus einer Interaktion bestehen. Beispiele hierfür sind Taschenrechner- oder Wetter-Apps.
 
 Zumeist werden Microinteractions zu als letzter Teil eines Produktes gestaltet. Diese komplett zu übergehen kann jedoch ein großer Fehler sein.
+- Window snapping (Unterscheid zwischen modernen OS aus Nutzersicht ist gering, MI machen den Hauptunterschied im Alltag)
 
 ==_Wenn Mikro-Interaktionen schlecht sind, spielt es keine Rolle wie großartig die Kernfunktion eines Programmes ist, da die Nutzung dieser stets von Frustration begleitet ist. Ein Design ist nur so gut wie sein kleinster Teil._==
 
@@ -49,7 +32,7 @@ bsp: Konkurrierende Betriebssysteme sind aus Sicht des Nutzers fast gleich, den 
 > Microinteractions are the _feel_ in _look-and-feel_ 
 > <cite>Dan Saffer</cite>
 
-Während sie sich je nach Gerät und Plattform zwat unterscheiden können, um plattformspezifische Konventionen einzuhalten, so können sie doch eine gewisse Konsistenz ermöglichen, welche bei großen _Features_ nicht möglich ist. Microinteractions sind ein die perfekte Möglichkeit, ein Produkt Plattformübergreifend markenbildend zu gestalten.
+Während sie sich je nach Gerät und Plattform zwar unterscheiden können, um plattformspezifische Konventionen einzuhalten, so können sie doch eine gewisse Konsistenz ermöglichen, welche bei großen _Features_ nicht möglich ist. Microinteractions sind ein die perfekte Möglichkeit, ein Produkt Plattformübergreifend markenbildend zu gestalten.
 
 Speziell für kleinere Geräte wie Smartphones und -watches spielen Microinteractions eine große Rolle, da diese eine in Relation größere Rolle übernehmen.
 
@@ -81,6 +64,33 @@ Mikrointeraktionen, insbesondere in Kombination mit kleinen Animationen, können
 
 Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar ["belohnt"](/signature-moments).
 
+
 <!-- **Microinteractions sind die Worte einer Konversation zwischen Mensch und Maschine
 ** -->
 <!-- > Eine Interaktion kann ungewohnt sein, das heißt aber nicht, dass sie schlecht ist. -->
+
+
+#### Wann werden Microinteractions verwendet?
+
+_Microinteractions_ oder Mikro-Interaktionen eignen sich nach Saffer gut für folgende Zwecke:
+
+* Bewältigung einer einzigen Aufgabe
+* Verbinden von Geräten
+* interagieren mit einer einzigen Datenelement wie z.B. einem Aktienpreis oder der Temparatur
+* Kontrolle eines laufenden Prozesses wie z.B. das Wechseln eines Fernsehkanals
+* Änderung einer Einstellung
+* Anzeigen oder Erstellen eines kurzen (Text-)Inhaltes, wie einer Statusmeldung
+* An- oder Ausschalten einer Funktion
+
+
+
+<!-- Das Buch veranlasste zahlreiche Mitglieder der Design-Community dazu, Blog-Posts zum Thema Microinteractions zu verfassen. -->
+
+<!-- Leider beschränken sich die allermeisten Artikel darauf, die Grundlagen von Saffers Buch in wenigen Absätzen zusammenzufassen und mit einigen Beispielen auszuschmücken.
+Mein Ziel ist es, ein Verständnis von Interaktionen zu schaffen, das über Saffers Microinteractions hinausgeht, das nicht nur Screen- sondern auch XXXX _tangible_, _Virtual_ und _Augmented Reality_ oder analoges Produktdesign mit einbezieht. Die Ansätze Saffers können tatsächlich auf fast alle Bereiche des Kommunikationsdesigns und XXXX angewendet werden. -->
+
+<!-- Doch auch vor Saffer wurde das Thema bereits behandelt, beispielsweise hielt Jeannie Walters bereits 2012 Vorträge dazu ^[@walters12]. Sie legt den Fokus jedoch haupsächlich auf die in Benutzoberflächen genutzte Sprache, und wie diese die Beuntzererfahrung ruinieren kann.
+Beispielsweise die Fehlermeldung "You entered incorrect logon information." (etwa: Sie haben falsche Anmelde-Daten eingegeben.)
+XXXX
+Die Fokussierung Walters auf Microinteractions, die negativ wahrgenommene Situationen erzeugen, lässt das Protential dieser noch ungenutzt. Im Wesentlichen fordert sie auf, die im digtialen Alltagsleben auftretenden negativen Situationen in positive umzuwandeln.
+Bsp https://youtu.be/Y3qg6P3grWk?t=9m24s XXXX -->

@@ -12,7 +12,7 @@
   </figure> -->
 
 <figure class="content-normal">
-  <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload">
+  <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload" playsinline>
   </video>
 </figure>
 

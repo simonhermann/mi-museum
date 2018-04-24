@@ -111,7 +111,8 @@
       color: var(--the-color);
       position: absolute;
       margin-left: 0.6em;
-      content: ' zur\FC' 'ck zum Text';
+      content: ' zur\FC''ck zum Text';
+      background-color: var(--grey-light);
       // webpack or sass or something else behaves weird and inserts a space afer 'ü'. this hack solves it...
       //content: 'zurück'; // is converted to 'zur\FC ck' and redered as 'zurü ck'
     }

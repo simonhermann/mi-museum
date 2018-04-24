@@ -23,14 +23,14 @@
         </li>
       </ul>
 
-      <p><b>Grundlegende Beispiele</b></p>
+      <!-- <p><b>Grundlegende Beispiele</b></p>
       <ul class="nav-ul">
         <li class="nav-li" :key="i" v-for="(practicePage, i) in practicePages">
           <nuxt-link class="nav-link" :to="practicePage.to">
             {{ practicePage.title }}
           </nuxt-link>
         </li>
-      </ul>
+      </ul> -->
 
       <div class="secondary-links">
         <nuxt-link class="nav-link" to="/about"> Über & Impressum</nuxt-link>
@@ -171,6 +171,9 @@
   // hack to hide toolbar completely when scrolled offscreen
   &.elevation-0 {
     opacity: 0;
+  }
+  @media print {
+    display: none;
   }
   &:before {
     content: '';

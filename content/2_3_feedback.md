@@ -88,8 +88,7 @@ Bei Verbreiteten Interaktionsmustern sollte meist aauf deren konvetnionelle Art 
 Wenn möglich, sollte ein direkter Bezug zwischen Eingabe und Rückmeldung hergestellt werden, zB XXXX
 Ist es nicht möglich, eine Verbindung herzustellen, sollte trotzdem in jedem Fall eine Veränderung des Zustandes des Objektes stattfinden, zum Beispiel durch Änderung der Farbe.
 
-#### Visuell
-
+Visuell
 XXXX
 
 <figure class="content-thin">
@@ -102,15 +101,23 @@ XXXX
 
 --> [Animation](/animation-and-pace)
 
-#### Auditiv
-
-^[[Twenty Thousand Hertz Podcast #30: The bleeps, the sweeps, and the creeps!](https://www.20k.org/episodes/the-bleeps-the-sweeps-and-the-creeps)]
+Auditiv^[[Twenty Thousand Hertz Podcast #30: The bleeps, the sweeps, and the creeps!](https://www.20k.org/episodes/the-bleeps-the-sweeps-and-the-creeps)]
 
 Car sound enhancement
 
-### Feedback ist direkte Beeinflussung von Nutzern
+Rückmeldung immer über mehrere Kanäle, zB Form und Farbe
+
+### Abstraktion und Relevanz
+
+Mit Erfindung des Buttons+Elektrik ist Feedback das erste mal nicht mehr direkt von Eingabe abhängig. Das Ergebnis der menschlichen Bewegung kann vollkommen anders als die Art der Eingabe. [@DeRouchy]
+Diese Abstraktion des digitalen war besonders ausgeprägt bei Interfaces mit Kommandozeile. XXXX bsp
+In späteren grafischen Benutzeroberflächen wird meist versucht, die Art der Eingabe intuitiv zu gestalten, also wo möglich an die entsprechende Auswirkung auf die Analoge Welt anzupassen. Dies bedeutet keineswegs, dass die vom Computer ausgeführten Aktionen weniger komplex sind, tatsächlich ist das Gegenteil der Fall: Eine Handschrifterkennung auf einem Gerät mit Touchscreen funktioniert mit Hilfe vielschichtiger Algorithmen und imitiert doch nur das, was ein XXXX
+Diese Komplxität wird jedoch vor dem Endnutzer versteckt, da sie meist irrelevant für das Ergebnis ist.
+Mit Entwicklung der Technik und des Einzuges von Heimcomputern, Smartphones und zahlreicher weiterer digitaler Geräte entstand jedoch die Notwendigkeit, weitaus abstraktere Konzepte durch Microinteractions zu kontrollieren. 
 
 Die Art von Rückmeldung, die an einen Nutzer gegeben wird, kann diesen stark beeinflussen und sogar manipulieren. So ist das Feedback eines Spielautomaten darauf ausgelegt, den Spieler zu überzeugen, immer mehr zu spielen. Auf jede Eingabe reagiert das Gerät mit übermäßigem Feedback und sorgt dafür, dass sich der Nutzer in seiner Aktion bestätigt fühlt. Selbst kleine Gewinne werden durch zahlreiche blinkende Lichter und Fanfaren untermalt und dem Nutzer suggeriert, er hätte einen Jackpot gewonnen. Als Designer sollte man sich der Macht über Nutzer stets bewusst sein und [Dark Patterns](/triggers#dark-patterns) vermeiden.
+
+Eine Herausforderung für Designer wird sein, Regeln mit der Automatisierung von Entscheidungen durch Künstliche Intelligenzen und andere technische Systeme in Einklang zu bringen. und Nutzern die richtigen Informationen zu geben, um diese zu Verstehen. Zu wenig Information, und der Nutzer wird sein eigenes Gerät nicht verdammen, weil es unerwartete Dinge tut. Zu viel Information, und Nutzer werden sich schell überladen und genervt fühlen. Beide Fälle führen letztendlich zu Frustration und vermutlich zum Abschalten der Automatisierungsfunktionen.
 
 ### Diese Fragen sollten sich Designer bei der Gestaltung von Feedback stellen:
 

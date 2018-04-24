@@ -24,7 +24,7 @@ export default {
   },
   head() {
     return {
-      title: "Vorwort - Microinteractions",
+      title: "Vorwort · Microinteractions",
     }
   },
 }

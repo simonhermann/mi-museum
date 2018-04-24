@@ -43,6 +43,13 @@ Nacht = Zwischen 18:00 und 08:00 Uhr
 
 Schon diese einfachen Regeln erfordern einige Konzentration in der Konzipierung. Beispielsweise darf die Einschränkung der Uhrzeit nicht in Zusand B Anwendung finden, hier könnte sie dazu führen, dass das Licht dauerhaft eingeschaltet bleibt, wenn die 10 Zyklen auf den Übergang zwischen Tag und Nacht fallen. Wenn man nun noch manuelle Schalter, Helligkeitssensoren oder mehrere Beleuchtungszonen einbezieht, werden die Regeln weitaus komplexer.
 
+> What you're trying to create with rules is a simplified, nontechnical model of how the microinteraction operates.
+> <cite>Dan Saffer</cite>
+
+Wichtigster Teil: Ziel der MI. In einfachen, klaren Worten definieren.
+Ziel sollte für nachvollziehbar und erreichbar sein.
+Dem Nutzer sollte also klar sein, *warum* er etwas tut und dass er sein Ziel erreichen kann.
+
 ### Skeuomorphismus in Regeln
 
 Die Darstellung digitaler Interfaces mit Hilfe von skeuomorphistischen^[[Wikipedia: Skeuomorphismus](https://de.wikipedia.org/wiki/Skeuomorphismus)] Elementen hat in den letzen Jahren stark abgenommen, spätestens mit Einführung von iOS 7 durch Apple^[[Jony Ive Explains Why He Decided To Gut Skeuomorphism From iOS 7](https://www.cultofmac.com/246312/jony-ive-explains-why-he-decided-to-gut-skeuomorphism-out-of-ios/])] gelten visuelle Metaphern als verpönt XXXX.
@@ -52,3 +59,9 @@ Ganz anders jedoch hinsichtlich der Regeln von Microinteractions: hier wird vers
 
 iOS 11 Flugmodus
 ^[[Apples Flugmodus schaltet WLAN nicht immer ab - Golem.de](https://www.golem.de/news/neues-ios-11-2-apples-flugmodus-schaltet-wlan-nicht-immer-ab-1712-131582.html)]
+
+> „Dinge, die anders gemacht werden, um einfach nur anders zu sein, sind selten besser, aber das, was gemacht wird, um besser zu sein, ist fast immer anders.”
+> <cite>Dieter Rams, 1993</cite>
+
+
+Regeln sind unsichtbar, ein Nutzer kann diese ausschlließlich durch die gegebene [Rückmeldung](/feedback) erlernen.

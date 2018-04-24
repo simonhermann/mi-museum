@@ -44,8 +44,8 @@ Ein Problem des visuellen Skeuomorphismus ist seine hohe Geschmacks- und Kultura
     <figcaption>Der Papierkorb besteht seit den Anfängen von Windows ohne Änderung der Regeln. Gefüllter Zustand aus Windows 95 (links) und Entleerter Zustand aus Windows 10 (rechts) </figcaption>
 </figure>
 
-Heute, nachdem der Großteil der Nutzer mit Smartphones und co. vertraut sind, ist es nicht mehr so wichtig, visuelle Elemente zu entwerfen, die einen direkten Bezug zur analogen Welt in herstellen. Der digitale Alltag hat sich etabliert und bedarf keiner Erklärung durch Holzhammermethoden. Dennoch nimmt die Bedeutung von Mikrointeraktionen stetig zu.
-Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher und andere möglichkeiten der Markenbildung sind erforderlich.
+<!-- Heute, nachdem der Großteil der Nutzer mit Smartphones und co. vertraut sind, ist es nicht mehr so wichtig, visuelle Elemente zu entwerfen, die einen direkten Bezug zur analogen Welt in herstellen. Der digitale Alltag hat sich etabliert und bedarf keiner Erklärung durch Holzhammermethoden. Dennoch nimmt die Bedeutung von Mikrointeraktionen stetig zu.
+Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher und andere möglichkeiten der Markenbildung sind erforderlich. -->
 
 ::: md-container-more
 

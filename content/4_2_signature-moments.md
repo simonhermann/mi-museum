@@ -13,6 +13,8 @@ Eine Benutzerschnittstelle mit Personlichkeit hilft, einen Bezug herzustellen un
 
 Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es wirklich auf.
 
+Bsp page transitions mit signature Moment: https://www.dogstudio.co/
+
 ^[vgl. [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/)]
 
 <figure class="content-thin">

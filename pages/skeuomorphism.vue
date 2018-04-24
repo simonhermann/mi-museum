@@ -25,7 +25,7 @@ export default {
   },
   head() {
     return {
-      title: "Signature Moments durch Microinteractions",
+      title: "Skeuomorphismus in Microinteractions",
     }
   },
 }

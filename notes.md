@@ -33,8 +33,10 @@
 * [ ] add purgeCSS to strip unused styles https://github.com/FullHuman/purgecss/tree/master/examples/with-nuxt
 * [ ] add noreferrer noopener \_blank to external links
 * [ ] (https://github.com/Va1/string-replace-loader ?)
-* [ ] replace all gifs with videos https://justmarkup.com/log/2018/02/gifhancement/
-      (cloudinary: https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4)
+* [ ] replace all gifs with videos 
+  * [ ] https://justmarkup.com/log/2018/02/gifhancement/
+  * [ ] https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4
+  * [ ] https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/
 * [ ] refactor setHighlightColor to grab corresponding color for page automatically from page object
 * [ ] svg path traced image placeholders https://jmperezperez.com/svg-placeholders/ https://github.com/EmilTholin/image-trace-loader
 * [ ] better img lazyloader: https://github.com/aFarkas/lazysizes

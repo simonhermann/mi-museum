@@ -15,7 +15,7 @@ Die ersten Versionen von iOS liefen auf sehr schwacher Hardware, trotzdem wirkte
 <!-- Wenn ein Teil des Interfaces entweder autonom arbeitet oder nicht standardkonforme Aktionen ausführt, kann es seine Benutzer verwirren oder sogar irritieren. Da die Bewegung der Objekte im wirklichen Leben bekannt ist, erwartet der Nutzer von einem Smartphone dies. -->
 
 <figure class="content-tiny">
-  <video muted loop preload="none" poster="images/animation-and-pace/shuttle-music.jpg" src="images/animation-and-pace/shuttle-music.mp4" controls controlsList="nodownload">
+  <video muted autoplay loop preload="none" poster="images/animation-and-pace/shuttle-music.jpg" src="images/animation-and-pace/shuttle-music.mp4" controls controlsList="nodownload" playsinline>
   </video>
   <figcaption>Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung. Vor allem auf kleineren Bildschirmen ist dies von Vorteil, da hier weniger Fixpunkte vorhanden sind.
   </figcaption>
@@ -100,13 +100,16 @@ Bei Responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdaue
 
 
 <figure class="content-normal">
-  <video muted autoplay loop preload="none" poster="" src="/images/animation-and-pace/loading-stripes.mp4" controls controlsList="nodownload">
+  <video muted autoplay loop preload="none" poster="" src="/images/animation-and-pace/loading-stripes.mp4" controls controlsList="nodownload" playsinline>
   </video>
   <figcaption> Der Fortschrittsbalken mit beschleunigenden, rückwärts wandernden Streifen fühlt sich deutlich schneller&nbsp;an.
     <sup><a href="http://www.chrisharrison.net/index.php/Research/ProgressBars2">Quelle</a><sup>
   </figcaption>
 </figure>
 <!-- ^[[Faster Progress Bars: Manipulating Perceived Duration with Visual Augmentations](http://www.chrisharrison.net/projects/progressbars2/ProgressBarsHarrison.pdf) von Chris Harrison, Zhiquan Yeo & Scott E. Hudson, Carnegie Mellon University] -->
+
+XXXX https://www.ted.com/talks/daniel_engber_how_the_progress_bar_keeps_you_sane
+
 
 _Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. Wenn uns jemand oder etwas ohne merkliche Verzögerung die Antwort auf eine Komplexe Frage gibt, werden wir misstrauisch. Hier wird erneut die Relation zur echten Welt klar; Wer im Restaurant nach einer Minute sein Essen bekommt, denkt sich "das kann ja nicht frisch sein" und ein Schlüsselnotdienst bekommt kein Trinkgeld, wenn er seine Arbeit in der tatsächlich benötigten Arbeit erledigt, da diese sehr kurz ist und daher nicht besonders wertvoll wirkt. Hier funktioniert unser Denken nach dem Grundsatz: _Wenn etwas schnell geht, muss es wohl einfach sein und etwas das einfach ist, sollte es billig sein._ Tatsächlich finden eine artifizielle Wartezeiten in zahlreichen Benutzerschnittstellen Anwendung, beispielsweise in Geldzählmaschinen.^[vgl. [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus]
 In Ausnahmefällen kann Wartezit sogar genutzt werden, um Spannung und Antizipation aufzubauen, meist sollte jedoch versucht werden, _passive_ Wartephasen möglichst kurz zu halten.
