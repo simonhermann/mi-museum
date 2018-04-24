@@ -14,7 +14,8 @@ export default {
     getItemStyles(i) {
       var itemArea = 'grid-area: g' + i + ';'
       var itemColor = 'background-color:' + colors[i + 1] + ';'
-      var itemStyles = itemArea + itemColor
+      var itemTransitionDelay = 'transition-delay: ' + i * 100 + 'ms;'
+      var itemStyles = itemArea + itemColor + itemTransitionDelay
       return itemStyles
     },
   },
@@ -66,9 +67,16 @@ export default {
     grid-area: g0;
     background-color: #444;
     border-radius: 0;
-    padding: 1rem;
+    padding: 1rem 1.25rem;
     text-decoration: none;
     color: #fff;
+
+    opacity: 0;
+    transition: opacity 650ms ease-out;
+    .app-mounted & {
+      opacity: 1;
+    }
+
     .item-head {
       margin: 0 0 0.5rem 0;
       &:only-child {

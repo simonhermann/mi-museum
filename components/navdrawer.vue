@@ -67,6 +67,7 @@
 
 <style lang="scss">
 @import '../assets/styles/mixins.scss';
+@import '../assets/styles/extends.scss';
 
 .navigation-drawer {
   padding: 1em 0.5em 2em 2em;

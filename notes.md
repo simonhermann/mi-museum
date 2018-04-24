@@ -59,6 +59,7 @@
 
 ## Not now
 
+* [ ] Velocityjs for animations https://github.com/julianshapiro/velocity
 * [ ] loading placehoder images (blurry, svg, ..) [cloudinary]
 * [ ] Anmeldung VGWort https://tom.vgwort.de/portal/index
 * [ ] Vue Design System: Patterns/DevStyleguide/etc www.vueds.com

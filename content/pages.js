@@ -1,9 +1,9 @@
 const theoryPages = [
-  { title: 'Vorwort', to: '/preface', desc: 'XXXX' },
+  { title: 'Vorwort', to: '/preface', desc: '' },
   {
     title: 'Was sind Microinteractions?',
     to: '/what-are-microinteractions',
-    desc: 'XXXX',
+    desc: '',
   },
   {
     title: 'Auslöser',
@@ -21,7 +21,7 @@ const theoryPages = [
   {
     title: 'Skeuomorphismus',
     to: '/skeuomorphism',
-    desc: 'Der Einfluss der physischen Welt auf die digitale',
+    desc: 'Vom Einfluss der physischen Welt auf die digitale.',
   },
   { title: 'Signature Moments', to: '/signature-moments', desc: 'XXXX' },
   { title: 'Animation & Geschwindigkeit', to: '/animation-and-pace', desc: 'XXXX' },
