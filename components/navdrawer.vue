@@ -104,7 +104,7 @@
     font-size: 1.25em;
     color: var(--color-text-light);
     &:hover {
-      color: var(--color-highlight);
+      color: var(--the-color);
     }
     &.nuxt-link-exact-active {
       visibility: hidden;
@@ -136,7 +136,7 @@
       margin-top: -0.1em;
     }
     &:hover {
-      color: var(--color-highlight);
+      color: var(--the-color);
       text-decoration: underline;
       &::before {
         color: inherit;
@@ -152,7 +152,7 @@
     line-height: 2em;
   }
   .nuxt-link-exact-active {
-    color: var(--color-highlight);
+    color: var(--the-color);
     //text-decoration-color: currentColor;
     &::before {
       color: inherit;

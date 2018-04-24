@@ -22,7 +22,7 @@
 .md-container-standout {
   @extend .ext-md-container;
   /*color: white;*/
-  /*background: var(--color-highlight);*/
+  /*background: var(--the-color);*/
   background: var(--grey-light);
 }
 .md-container-more {
@@ -87,7 +87,7 @@
   text-decoration: none;
 }
 .footnote-ref a:hover {
-  color: var(--color-highlight);
+  color: var(--the-color);
 }
 
 .footnote-backref {
@@ -104,11 +104,11 @@
   &:focus {
     color: transparent;
     &::before {
-      color: var(--color-highlight);
+      color: var(--the-color);
       transform: translateY(-0.2em);
     }
     &::after {
-      color: var(--color-highlight);
+      color: var(--the-color);
       position: absolute;
       margin-left: 0.6em;
       content: ' zur\FC' 'ck zum Text';

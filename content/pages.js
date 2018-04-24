@@ -64,7 +64,7 @@ const colors = colorHues.map(i => 'hsl(' + i + ', 47%, 43%)')
 
 // function to set css property --color-hightlight on :root element
 const setDocumentHighlightcolor = (color) => {
-  document.documentElement.style.setProperty('--color-highlight', color)
+  document.documentElement.style.setProperty('--the-color', color)
   console.log('🎨 ' + color + ' 🖌')
 }
 

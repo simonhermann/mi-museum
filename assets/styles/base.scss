@@ -10,7 +10,7 @@ html {
   overflow-y: scroll;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  background-color: var(--color-highlight);
+  background-color: var(--the-color);
   transition: all 300ms ease-out;
 
   &:not(.app-mounted) {
@@ -45,22 +45,22 @@ a {
   -moz-outline-radius: .5rem;
 }
 a:hover {
-  color: var(--color-highlight);
+  color: var(--the-color);
   text-decoration-color: inherit;
   outline-offset: 3px;
 }
 a:focus {
   text-decoration-color: inherit;
-  color: var(--color-highlight);
-  outline-color: var(--color-highlight);
+  color: var(--the-color);
+  outline-color: var(--the-color);
   outline-style: dotted;
   outline-offset: 2px;
   outline-width: 1px;
 }
 a:active {
   text-decoration: none;
-  color: var(--color-highlight);
-  outline-color: var(--color-highlight);
+  color: var(--the-color);
+  outline-color: var(--the-color);
   outline-style: dotted;
   outline-offset: 2px;
   outline-width: 2px;
@@ -111,7 +111,7 @@ textarea {
 }
 
 ::selection {
-  background-color: var(--color-highlight);
+  background-color: var(--the-color);
   color: #fff;
 }
 

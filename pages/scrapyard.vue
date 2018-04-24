@@ -76,7 +76,7 @@ export default {
   methods: {
     changeColor() {
       console.log('color changed')
-      document.documentElement.style.setProperty('--color-highlight', '#aaff00');
+      document.documentElement.style.setProperty('--the-color', '#aaff00');
     },
   },
   computed: {

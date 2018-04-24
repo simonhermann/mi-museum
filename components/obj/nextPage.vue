@@ -42,7 +42,7 @@
   }
 }
 .o-next-page:hover {
-  color: var(--color-highlight);
+  color: var(--the-color);
   &__heading {
     text-decoration: underline;
   }

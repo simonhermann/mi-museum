@@ -36,7 +36,7 @@ export default {
   props: ['error'],
   beforeMount() {
     //if (error.statusCode !== 500) {
-    document.documentElement.style.setProperty('--color-highlight', 'darkred')
+    document.documentElement.style.setProperty('--the-color', 'darkred')
     //}
   },
 }
