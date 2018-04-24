@@ -5,7 +5,7 @@ Microinteractions definieren, wie die Interaktion zwischen Mensch und Maschine i
 
 Dan Saffer schuf mit dem Buch _Microinteractions - Designing with Details_^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] die Grundlage für den Diskurs über Mikro-Interaktionen. Erschienen ist es bereits im Mai 2013, der Großteil der Branche wurde meines Wissens nach aber erst Anfang 2015 auf das Thema aufmerksam.
 
-> The Details are not Details, they make the Design.
+> The Details are not Details,<br> they make the Design.
 > <cite>Charles Eames</cite>
 
 <!-- Doch auch vor Saffer wurde das Thema bereits behandelt, beispielsweise hielt Jeannie Walters bereits 2012 Vorträge dazu ^[@walters12]. Sie legt den Fokus jedoch haupsächlich auf die in Benutzoberflächen genutzte Sprache, und wie diese die Beuntzererfahrung ruinieren kann.

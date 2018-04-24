@@ -117,13 +117,7 @@
     text-decoration: underline;
     text-decoration-color: rgba(0, 0, 0, 0);
     // hack for Safari:
-    @supports not (text-decoration-color: rgba(0, 0, 0, 0)) {
-      text-decoration: none;
-    }
-    // hack for Edge - obolete?:
-    @supports (-ms-ime-align: auto) {
-      text-decoration: none;
-    }
+    @include underline-color-fallback;
     transition: all 300ms var(--transition-curve1);
     color: inherit; // vuetify hack XXXX
     &::before {
@@ -138,7 +132,6 @@
     }
     &:hover {
       color: var(--the-color);
-      text-decoration: underline;
       &::before {
         color: inherit;
         margin-left: -0.85em;

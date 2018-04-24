@@ -1,8 +1,10 @@
 <template>
   <div class="homegrid">
-    <nuxt-link class="homegrid-item" :key="i" v-for="(theoryPage, i) in theoryPages" :to="theoryPage.to" :style="getItemStyles(i)">
-      <h3 class="item-head">{{ theoryPage.title }}</h3>
-      <p class="item-desc" v-if="theoryPage.desc">{{ theoryPage.desc }}</p>
+    <nuxt-link class="homegrid__item" :key="i" v-for="(theoryPage, i) in theoryPages" :to="theoryPage.to" :style="getItemStyles(i)">
+      <div class="item__inner" :style="getInnerStyles(i)">
+        <h3 class="item__head">{{ theoryPage.title }}</h3>
+        <p class="item__desc" v-if="theoryPage.desc">{{ theoryPage.desc }}</p>
+      </div>
     </nuxt-link>
   </div>
 </template>
@@ -13,10 +15,14 @@ export default {
   methods: {
     getItemStyles(i) {
       var itemArea = 'grid-area: g' + i + ';'
-      var itemColor = 'background-color:' + colors[i + 1] + ';'
-      var itemTransitionDelay = 'transition-delay: ' + i * 100 + 'ms;'
-      var itemStyles = itemArea + itemColor + itemTransitionDelay
+      var itemTransitionDelay = 'transition-delay: ' + (i * 90) + 'ms;'
+      var itemStyles = itemArea + itemTransitionDelay
       return itemStyles
+    },
+    getInnerStyles(i) {
+      var itemColor = 'background-color:' + colors[i + 1] + ';'
+      var innerStyles = itemColor
+      return innerStyles
     },
   },
   computed: {
@@ -48,8 +54,8 @@ export default {
       'g2 g2 g3'
       'g4 g4 g3'
       'g5 g6 g7'
-      'g8 g8 g10'
-      'g9 g9 g10';
+      'g8 g8 g9'
+      'g10 g10 g9';
   }
   @include mq-md {
     rid-template-rows: 7em 6em 9em 9em 11em;
@@ -62,39 +68,50 @@ export default {
       'g10 g10 g10 g10 g10 g10 g10 g10';
   }
 
-  &-item {
-    display: block;
+  &__item {
+    display: inherit;
     grid-area: g0;
-    background-color: #444;
-    border-radius: 0;
-    padding: 1rem 1.25rem;
     text-decoration: none;
-    color: #fff;
-
     opacity: 0;
-    transition: opacity 650ms ease-out;
+    transition: opacity 600ms ease-out;
     .app-mounted & {
       opacity: 1;
     }
 
-    .item-head {
+    &:hover,
+    &:active,
+    &:focus {
+      .item__inner {
+        border-radius: 1rem;
+        transform: scale(0.96);
+      }
+      .item__head {
+        text-decoration: underline;
+        //transform: scale(1.02);
+      }
+    }
+
+    .item__inner {
+      background-color: #276d36;
+      color: #fff;
+      text-decoration-color: #fff;
+      border-radius: 0;
+      padding: 1rem 1.25rem;
+      transition: transform 150ms ease-out, border-radius 300ms ease-out;
+    }
+
+    .item__head {
       margin: 0 0 0.5rem 0;
+      font-size: 1.75em;
       &:only-child {
         margin: 0;
       }
-      text-decoration: underline;
-      text-decoration-color: transparent;
-      font-size: 1.75em;
+      // :hover &, :active & {
+      //   text-decoration: underline;
+      // }
     }
-    &:hover,
-    &:active {
-      .item-head {
-        text-decoration-color: #fff;
-      }
-      border-radius: 1rem;
-      transform: scale(0.95);
-    }
-    .item-desc {
+    .item__desc {
+      text-decoration: none;
       margin: 0;
       font-style: italic;
     }

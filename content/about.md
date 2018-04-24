@@ -7,6 +7,12 @@ Begriffe wie 'Mirko-Interaktion' und 'Microinteraction', 'Benutzerschnittstelle'
 Falls ihr Fragen, Anmerkungen, Lob, Verbesserungsvorschläge oder Rechtschreibfehler für mich habt, oder einfach *hi* sagen wollt, schreibt mir gerne eine E-Mail an [mail@simonhermann.de](mailto:mail@simonhermann.de).
 
 Ich bin [UX/UI Designer und (Möchtegern-)Front-End-Entwickler](https://simonhermann.de/). Im Moment arbeite ich hauptsächlich bei [Service Innovation Labs](http://www.si-labs.com/), ab und zu aber auch als Freelancer.
+<!-- 
+#### Erwähnenswerte Microinteraction auf dieser Website
+
+XXXX
+
+- img zoom -->
 
 <div class="spacer2"></div>
 

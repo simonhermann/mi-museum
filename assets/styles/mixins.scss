@@ -52,6 +52,20 @@ $xl-width: (1920px - 16px);
   }
 }
 
+@mixin underline-color-fallback {
+  &:hover {
+    text-decoration: underline;
+  }
+  // hack for Safari:
+  @supports not (text-decoration-color: rgba(0, 0, 0, 0)) {
+    text-decoration: none;
+  }
+  // hack for Edge:
+  @supports (-ms-ime-align: auto) {
+    text-decoration: none;
+  }
+}
+
 // @mixin mq-sm-only {
 //   @media (min-width: #{$sm-width}) and (max-width: #{$md-width - 1px}) {
 //     @content;
@@ -69,4 +83,3 @@ $xl-width: (1920px - 16px);
 //     @content;
 //   }
 // }
-

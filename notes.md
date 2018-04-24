@@ -38,6 +38,7 @@
 * [ ] refactor setHighlightColor to grab corresponding color for page automatically from page object
 * [ ] svg path traced image placeholders https://jmperezperez.com/svg-placeholders/ https://github.com/EmilTholin/image-trace-loader
 * [ ] better img lazyloader: https://github.com/aFarkas/lazysizes
+* [ ] better no-js handling
 
 ## Misc
 
