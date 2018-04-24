@@ -15,7 +15,7 @@ Ein Digitaler Schalter sah genau aus wie sein physisches Vorbild und verhielt si
 Während der visuelle heute oft Bezug nur noch zu erahnen ist, bleiben doch die [Regeln](/rules) digitaler Interaktionen meist nahe an an den Regeln ihrer gegenständlichen Equivalente.
 Die Regeln der uns Menschen seit Jahrtausenden umgebenden Welt haben sich so in unser unterbewusstsein eingeprägt, dass diese unmöglich zu ignorieren sind. Aus diesem Grund könnte man sich als Designer die Frage stellen:
 ==_Wie würde diese Interaktionen funktionieren, fände sie nicht in der digitalen Welt statt?_==
-Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction sinnvoll erscheinen, kann davon ausgegangen werden, dass sie unserem intuitiven Verständnis von Konzepten wie Gewicht, Material, Bewegung, Trägheit, Reibung, usw. nicht wiederspricht. Besonders zu beachten sind diese "Naturgesetze" bei der Gestaltung von [Animation](/animation).
+Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction sinnvoll erscheinen, kann davon ausgegangen werden, dass sie unserem intuitiven Verständnis von Konzepten wie Gewicht, Material, Bewegung, Trägheit, Reibung, usw. nicht wiederspricht. Besonders zu beachten sind diese "Naturgesetze" bei der Gestaltung von [Animation](/animation-and-pace).
 
 <div class="content-wide" style="display: flex;">
     <figure class="content-half">

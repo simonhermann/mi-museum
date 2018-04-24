@@ -107,7 +107,7 @@
       color: var(--color-highlight);
     }
     &.nuxt-link-exact-active {
-      color: transparent;
+      visibility: hidden;
     }
   }
 

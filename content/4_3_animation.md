@@ -15,7 +15,7 @@ Die ersten Versionen von iOS liefen auf sehr schwacher Hardware, trotzdem wirkte
 <!-- Wenn ein Teil des Interfaces entweder autonom arbeitet oder nicht standardkonforme Aktionen ausführt, kann es seine Benutzer verwirren oder sogar irritieren. Da die Bewegung der Objekte im wirklichen Leben bekannt ist, erwartet der Nutzer von einem Smartphone dies. -->
 
 <figure class="content-tiny">
-  <video muted loop preload="none" poster="images/animation/shuttle-music.jpg" src="images/animation/shuttle-music.mp4" controls controlsList="nodownload">
+  <video muted loop preload="none" poster="images/animation-and-pace/shuttle-music.jpg" src="images/animation-and-pace/shuttle-music.mp4" controls controlsList="nodownload">
   </video>
   <figcaption>Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung. Vor allem auf kleineren Bildschirmen ist dies von Vorteil, da hier weniger Fixpunkte vorhanden sind.
   </figcaption>
@@ -31,7 +31,7 @@ Balance zwischen natürlich und funktional
 ^[[Making CSS Animations Feel More Natural](https://css-tricks.com/making-css-animations-feel-natural/) von Brandon Gregory]
 
 <figure class="content-thin">
-  <img data-src="/images/animation/curve.gif">
+  <img data-src="/images/animation-and-pace/curve.gif">
   <figcaption>
     Curve XXXX
     <sup><a href="https://medium.com/mobify-design-team/designing-for-the-appearance-of-speed-aaabc7f568c2">Bildquelle</a></sup>
@@ -39,7 +39,7 @@ Balance zwischen natürlich und funktional
 </figure>
 
 <figure class="content-normal">
-  <img data-src="/images/animation/ios-open-folder-distance.gif">
+  <img data-src="/images/animation-and-pace/ios-open-folder-distance.gif">
   <figcaption>
     Veranschaulichung der Distanz, die ein phyisches Objekt zurücklegen würde, dessen wahrgenommenes Größenwachstum dem Öffnen einer App in iOS 7 entspricht. (24.62 ft ≈ 7,5 m)
     <sup><a href="https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7">Bildquelle</a></sup>
@@ -54,7 +54,7 @@ Auch rein dekorative Animationen sollten Sinn, Ort und Funktion haben, die sich 
 Bei Animationen für (Mikro-)Interaktionen sollte Effizienz immer einen höheren Stellenwert einnehmen als Dekoration.
 
 
-<!-- ^[[https://dribbble.com/shots/2440217-Fluid-Switch](/images/animation/switch-fluidswitch.gif)] -->
+<!-- ^[[https://dribbble.com/shots/2440217-Fluid-Switch](/images/animation-and-pace/switch-fluidswitch.gif)] -->
 
 #### Gefühlte Geschwindikeit
 
@@ -76,7 +76,7 @@ Auch wenn reine Ladeanimationen den Nachteil haben, die Aufmerksamkeit des Nutze
 Sogenannte _Skeleton Screens_ bieten oft eine bessere Alternative zu großflächigen Ladeanimationen. Da ein "Skelett" der UI sehr schnell angezeigt werden kann, haben Nutzer früher Zeit, sich zu orientieren und deren Fokus wird eher auf den nach und nach auftauchenden Inhalt gelenkt, als auf den Fakt, dass etwas noch geladen werden muss.^[vgl. [Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski] Inzwischen wird das Konzept von zahlreichen Webseiten und Apps wie Facebook, Slack oder Medium.com eingesetzt. 
 
 <figure class="content-tiny">
-  <img data-src="/images/animation/skeleton-facebook.gif">
+  <img data-src="/images/animation-and-pace/skeleton-facebook.gif">
   <figcaption>
     Skeleton Screen und Ladevorgang der Facebook-App
     <sup><a href="https://www.viget.com/articles/a-bone-to-pick-with-skeleton-screens/">Bildquelle</a></sup>
@@ -100,7 +100,7 @@ Bei Responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdaue
 
 
 <figure class="content-normal">
-  <video muted autoplay loop preload="none" poster="" src="/images/animation/loading-stripes.mp4" controls controlsList="nodownload">
+  <video muted autoplay loop preload="none" poster="" src="/images/animation-and-pace/loading-stripes.mp4" controls controlsList="nodownload">
   </video>
   <figcaption> Der Fortschrittsbalken mit beschleunigenden, rückwärts wandernden Streifen fühlt sich deutlich schneller&nbsp;an.
     <sup><a href="http://www.chrisharrison.net/index.php/Research/ProgressBars2">Quelle</a><sup>
@@ -112,7 +112,7 @@ _Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. Wenn uns jemand 
 In Ausnahmefällen kann Wartezit sogar genutzt werden, um Spannung und Antizipation aufzubauen, meist sollte jedoch versucht werden, _passive_ Wartephasen möglichst kurz zu halten.
 
 <figure class="content-thin">
-  <img data-src="/images/animation/calculating-savings.jpg">
+  <img data-src="/images/animation-and-pace/calculating-savings.jpg">
   <figcaption>
     Manchmal sind künstliche Verzögerungen hilfreich, wenn ein sofortiges Ergebnis unglaubwürdig erscheint.
     <sup><a href="http://uxmas.com/2013/wait-for-it">Bildquelle</a></sup>
@@ -126,7 +126,7 @@ Bei der Planung und Gestaltung von Animationen in Microinteractions und generell
 Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegangen werden: Nutzer werden nach und nach und in einer bestimmten Reihenfolge an einzelne Elemente herangeführt. Mehrere Handlungsstränge gleichzeitig zu erzählen, erfordert sehr viel Aufmerksamkeit von Nutzern, daher sollte eindeutig sein, was im Mittelpunkt steht.
 
 <figure class="content-thin">
-  <img data-src="/images/animation/paypal-reciept.gif">
+  <img data-src="/images/animation-and-pace/paypal-reciept.gif">
   <figcaption>
     Diese Animation mag auf den ersten Blick ansprechend wirken, jedoch dauert sie viel zu lange und geht weit über ihren Zweck hinaus.
     <sup><a href="https://vimeo.com/197761851">Bildquelle</a></sup>
@@ -134,7 +134,7 @@ Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegang
 </figure>
 
 
-<!-- ![Beispiel für eine misslungene UI-Animation^[https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97] ](/images/animation/poormotiondesign.gif ""){.content-thin}  -->
+<!-- ![Beispiel für eine misslungene UI-Animation^[https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97] ](/images/animation-and-pace/poormotiondesign.gif ""){.content-thin}  -->
 
 Leider ist es teilweise sehr aufwändig und teuer gute Animationen zu implementieren, hier sollte Qualität vor Quanitiät stehen, da sonst womöglich die Nutzererfahrung gar verschlechtert wird. Doch auch für hervorragende Animationen besteht die Gefahr, dass diese auf Dauer hinderlich werden. Was beim ersten Mal als nette Überraschung empfunden wird, kann beim zehnten Mal langweilig oder sogar lästig erscheinen. In einigen Fällen sollte die Option angeboten werden, Animation zu auszuschalten oder reduzieren und so Nutzern die Möglichkeit gegeben werden, das Interface ihren Präferenzen anzupassen.^[Bei Webseiten sollte die Browsereinstellung _prefers-reduced-motion_ beachtet werden. Mehr Informationen dazu im [Artikel von CSS Tricks](https://css-tricks.com/introduction-reduced-motion-media-query/)]
 Für Manche Nutzer bedeutet jede Animation, dass sich die Augen neu fokussieren müssen, Bei einigen können sogar gesundheitliche beschwerden wie Schwindel auftreten (vestibuläre Störungen). Besonders Effekte, bei denen sich mehrere Elemente in gegensätzliche Richtungen bewegen, wie Parallax-Scrolling können desorientierende Wirkung haben.^[Mehr Informationen zu möglichen gesundheitlichen Auswirkungen von Animation im Artikel [Designing Safer Web Animation For Motion Sensitivity](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) von Val Head]
@@ -170,7 +170,7 @@ Außerdem sollten sie von Anfang an und sorgfältig eingeplant werden und gegelm
 * Vortrag: [Designing Motion: Smart Transitions in UI Design](https://youtu.be/NaqKjp14Xbg) von Adrian Zumbrunnen
 
 
-<!-- * Artikel: [Animation Principles in UI](https://www.invisionapp.com/blog/animation-principles-in-ui/) von Brittany Layton -->
+<!-- * Artikel: [Animation Principles in UI](https://www.invisionapp.com/blog/animation-and-pace-principles-in-ui/) von Brittany Layton -->
 <!-- * Podcast: [Motion and Meaning](http://www.motionandmeaning.io/) mit Val Head & Cennydd Bowles -->
 <!-- * Artikel: [The Weird, Terrifying Physics Of iOS 7](https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7) von John Herrman & Jake Levy -->
 

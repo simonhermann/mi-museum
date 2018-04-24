@@ -100,7 +100,7 @@ XXXX
   </figcaption>
 </figure>
 
---> [Animation](/animation)
+--> [Animation](/animation-and-pace)
 
 #### Auditiv
 

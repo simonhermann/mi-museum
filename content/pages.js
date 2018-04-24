@@ -24,7 +24,7 @@ const theoryPages = [
     desc: 'Der Einfluss der physischen Welt auf die digitale',
   },
   { title: 'Signature Moments', to: '/signature-moments', desc: 'XXXX' },
-  { title: 'Animation & Geschwindigkeit', to: '/animation', desc: 'XXXX' },
+  { title: 'Animation & Geschwindigkeit', to: '/animation-and-pace', desc: 'XXXX' },
   { title: 'Anwendung in der Praxis', to: '/practical', desc: 'XXXX' },
   //{ title: '_article', to: '/article' },
   //{ title: "_scrap", to: "/scrapyard" }
@@ -101,7 +101,7 @@ const setHighlightColor = () => {
     case '/signature-moments':
       setDocumentHighlightcolor(colors[9])
       break
-    case '/animation':
+    case '/animation-and-pace':
       setDocumentHighlightcolor(colors[10])
       break
     case '/practical':

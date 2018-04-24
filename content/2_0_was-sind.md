@@ -68,7 +68,7 @@ Die von Saffer beschriebenen Bestandteile jeder Microinteraction sind _Auslöser
 > <cite>Victor Papanek</cite>
 
 Warum können vermeintlich "kleine" Interaktionen so wichtig sein?
-Wie misst man die größe einer Interaktion?
+Wie misst man die Größe einer Interaktion?
 Sind Micro-Interaktionen überhaupt klein?
 
 Wann immer ein Nutzer mit einem Produkt jeglicher Art interagiert, kann die Interaktion in Auslöser, Regeln, Rückmeldung und Schleifen und Modi aufgeschlüsselt werden.

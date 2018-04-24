@@ -15,7 +15,7 @@
         <figcaption>XXXX</figcaption>
     </figure> -->
 
-    <nextPage link="/animation" heading="Animation"></nextPage>
+    <nextPage link="/animation-and-pace" heading="Animation"></nextPage>
   </div>
 </template>
 
