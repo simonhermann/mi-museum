@@ -1,6 +1,9 @@
 <template>
   <div class="error-wrapper">
     <div v-if="error.statusCode === 404">
+      <script>
+      document.documentElement.style.setProperty('--the-color', 'darkred')
+      </script>
       <h1>~(◎_◎)~</h1>
       <p class="error-msg">Seite nicht gefunden. <br>
         <nuxt-link to="/">Hier geht's zurück zur Startseite</nuxt-link>
@@ -11,12 +14,16 @@
       </p>
     </div>
     <div v-else-if="error.statusCode === 500">
+      <!-- <script>location.reload();</script> -->
       <h1>Yay!</h1>
-      <p class="error-msg">Es gibt updates, bitte <br>
-        <a href="javascript:location.reload()">lade die Seite neu</a>.
+      <p class="error-msg">Es gibt Updates, bitte lade die Seite neu:<br>
+        <a href="javascript:location.reload()">hier klicken</a> <br> oder per pull-to-refresh Microinteraction.
       </p>
     </div>
     <div v-else>
+      <script>
+      document.documentElement.style.setProperty('--the-color', 'darkred')
+      </script>
       <h1>-.-</h1>
       <p class="error-msg">
         Oha, da ist was schiefgelaufen. Bitte versuche, die<br>
@@ -34,11 +41,6 @@
 <script>
 export default {
   props: ['error'],
-  beforeMount() {
-    //if (error.statusCode !== 500) {
-    document.documentElement.style.setProperty('--the-color', 'darkred')
-    //}
-  },
 }
 </script>
 
