@@ -40,6 +40,13 @@ Bsp page transitions mit signature Moment: https://www.dogstudio.co/
   </figcaption>
 </figure>
 
+<figure class="content-thin">
+  <img data-src="/images/signature-moments/mailchimp-send.gif">
+  <figcaption>
+    XXXX
+  </figcaption>
+</figure>
+
 ::: md-container-more
 
 ### Mehr zum Thema Signature Moments
