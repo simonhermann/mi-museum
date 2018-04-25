@@ -108,7 +108,7 @@ const setHighlightColor = () => {
       setDocumentHighlightcolor(colors[11])
       break
     case '/about':
-      setDocumentHighlightcolor(colors[14])
+      setDocumentHighlightcolor(colors[12])
       break
     default:
       break

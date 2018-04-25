@@ -65,3 +65,19 @@ iOS 11 Flugmodus
 
 
 Regeln sind unsichtbar, ein Nutzer kann diese ausschlließlich durch die gegebene [Rückmeldung](/feedback) erlernen.
+
+
+---
+
+define what can and what ca not be done
+
+* how it responds to trigger
+* what control user has (if any) over a MI in process
+* sequence of actions and timing
+* what data is used and from where
+* config and parameters of algorythms
+* what *feedback* is delivered and when
+* when to shwitch modes
+* if the MI repeats and how often (*loops*)
+* what happens when te MI ends
+* make a comment

@@ -3,13 +3,14 @@
 ## Content
 
 * [ ] aus Pocket
-* [ ] "was sind .." überarbeiten // was sind + vorwort kombinieren?
+* [ ] Bill DeRouchy - History of the Button
 * [ ] Icons für Trigger/Rules/usw
 * [ ] Konzept f. Darstellung MIs
 * [ ] Meta desicription
 * [ ] einheitlicher meta title
 * [ ] Timeline?
 * [ ] Impressum+About
+* [ ] https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950
 
 ## Featues
 
@@ -83,6 +84,38 @@
       https://github.com/stefanjudis/stefan-judis-website/blob/master/plugins/contentful.js
 - [ ] https://www.contentful.com/blog/2018/01/23/how-to-write-reusable-sane-api-based-components/
 - [ ] netlifycms?
+
+---
+---
+---
+
+## Präsentation
+
+- Ludus
+- Reveal.js [http://lab.hakim.se/reveal-js/](http://lab.hakim.se/reveal-js/)
+- = gitpitch
+- http://blog.invisionapp.com/improve-your-design-presentations/
+
+### Input Prof. Schellhorn:
+- information architect meets user interface meets graphic artist meets business = designer. Also die Visualisierung komplexer Vorgänge und der Entwicklung kommunikativer Strategien. 
+
+---
+---
+---
+
+#RANDOM
+
+# Nerdwriter: Arrival 
+
+https://www.youtube.com/watch?v=z18LY6NME1s
+
+* Communication is limited by perspective.
+* The mind is a process. Is language happening in time.
+* Stephen Fry: "A true thing, poorly expressed, is a lie."
+* There is no thought without expression, no content without form. An idea does not really exist, until you write it down.
+* Limits of our communication, by our culture, our body, our personality.
+* communication as a screen, a mediator that blurs intention. Screens can connect us, they can also devide us.
+* Communication is a link between two partys, but it's a link that often facilitates a split
 
 ## St Judis Meeting notes:
 
