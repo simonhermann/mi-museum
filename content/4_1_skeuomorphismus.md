@@ -49,6 +49,9 @@ Ein Problem des visuellen Skeuomorphismus ist seine hohe Geschmacks- und Kultura
 <!-- Heute, nachdem der Großteil der Nutzer mit Smartphones und co. vertraut sind, ist es nicht mehr so wichtig, visuelle Elemente zu entwerfen, die einen direkten Bezug zur analogen Welt in herstellen. Der digitale Alltag hat sich etabliert und bedarf keiner Erklärung durch Holzhammermethoden. Dennoch nimmt die Bedeutung von Mikrointeraktionen stetig zu.
 Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher und andere möglichkeiten der Markenbildung sind erforderlich. -->
 
+> Nothing big works
+> <cite>Victor Papanek^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]</cite>
+
 ::: md-container-more
 
 ### Mehr zum Thema Skeumorphismus:

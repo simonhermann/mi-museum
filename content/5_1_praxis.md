@@ -71,7 +71,7 @@ Zeigt, wie wichtig es ist, den Menschen zu kennen, der das Interface nutzen wird
 
 Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
 
-
+http://microinteractions.com/downloads/Microinteractions_QuickRef.pdf
 
 
 > Any darn fool can make something complex; it takes a genius to make something simple.

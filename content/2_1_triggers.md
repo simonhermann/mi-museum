@@ -1,25 +1,23 @@
 # Auslöser (Trigger) von Microinteractions
 
-Der erste Teil jeder (Mikro-)Interaktion ist ein Auslöser (engl. Trigger). Dieser kann entweder durch eine unmittelbare _Aktion des Nutzers_ oder _von Seiten des Gerätes_ initiiert werden.
+Bevor ein Dialog zwischen einer Benutzerschnittstelle und einem Nutzer aufgebaut werden kann, stellt sich die Frage: _Wer spricht wen an?_ Dieser Trigger oder Auslöser der Microinteraction kann entweder durch eine unmittelbare _Aktion des Nutzers_ oder _von Seiten des Gerätes_ initiiert werden.
 In Beiden fällen
-
-### Nutzerseitige Auslöser
 
 Nutzerseitige Trigger entstehen aus Bedürfnissen:
 
 ::: md-container-standout
 Bedürfnis/Trigger:
 _Nutzer will nachts etwas sehen können_
---> Interkation: _schaltet Licht ein_
+--> Reaktion: _schaltet Licht ein_
 :::
 
 ::: md-container-standout
 Bedürfnis/Trigger:
 _Nutzer will jemanden anrufen_
---> Interkation: _tippt auf Namen in Adressbuch_
+--> Reaktion: _tippt auf Namen in Adressbuch_
 :::
 
-### Geräteseitige Auslöser
+Geräteseitige Auslöser entstehen durch ein Systemereignis:
 
 ::: md-container-standout
 Trigger bei eingehender Nachricht auf Handy:
@@ -29,7 +27,7 @@ Trigger bei eingehender Nachricht auf Handy:
 * _LED Blinkt_
 * _Benchrichtigung wird angezeigt_
 
---> Interkation: _Nutzer öffnet Nachricht per Tipp auf Benachrichtigung_
+--> Reaktion: _Nutzer öffnet Nachricht per Tipp auf Benachrichtigung_
 :::
 
 Wie auch bei nutzerseitigen Auslösern, können unterschiedliche Trigger natürlich zur selben Interaktion führen.
