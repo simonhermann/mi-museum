@@ -3,11 +3,13 @@
 Das Wort _Interaktion_ kommt wohl vom lateinischen _inter_ 'zwischen' und _actio_ 'Handlung', 'Tätigkeit'. Somit beschreibt es eine Tätigkeit zwischen mehreren Beteiligten – in unserem Fall zwischen mindestens einem Menschen und einem technischen Gerät. In vielen Fällen wird das Gerät ein Medium der Kommunikation _zwischen_ Menschen sein, doch in dieser Arbeit geht es ausschließlich um den direkten Austausch zwischen Mensch und Maschine. Ein Benutzer interagiert mit der Benutzerschnittstelle, dem Teil einer Maschine, die für diesen Dialog zuständig ist.
 
 <center>
-Mensch <br>
-<strong class="colored">⇵</strong> <br>
-Mensch-Maschine-Schnittstelle <br>
-⇵ <br>
+
+Mensch
+<strong class="colored">⇵</strong>
+Mensch-Maschine-Schnittstelle
+⇵
 Maschine
+
 </center>
 
 Die Vorsilbe _Mikro_ kommt aus dem griechischen und bedeutet so viel wie _klein_. Es geht also um die kleinen Bausteine einer Kommunikation zwischen Mensch und Maschine. Übergrefende Themen wie Nutzerrecherche und -tests, Personas, Informationsarchitektur, Navigation, Designsysteme, Barrierefreiheit ('a11y') und andere Wichtige Themen des Interactiondesign werden deshalb nicht oder nur sekundär behandelt.

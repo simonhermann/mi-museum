@@ -2,12 +2,14 @@
 
 ## Content
 
-* [ ] aus Pocket
 * [ ] Bill DeRouchy - History of the Button
+* [ ] aus Pocket
 * [ ] Icons für Trigger/Rules/usw
-* [ ] Konzept f. Darstellung MIs
+* [ ] reorder homegrid
+* [ ] replace md standout by mark?
 * [ ] Meta desicription
 * [ ] einheitlicher meta title
+* [ ] Konzept f. Darstellung MIs
 * [ ] Timeline?
 * [ ] Impressum+About
 * [ ] https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950
@@ -30,7 +32,6 @@
 * [ ] prevent keybeard access (tabindex) in navdrawer if drawer is open
 * [ ] upgrade to nuxt 2 https://medium.com/nuxt/nuxt-2-is-coming-oh-yeah-212c1a9e1a67
 * [ ] update vuetify to enable deactivation of theme
-* [ ] obtimize images https://github.com/Klathmon/imagemin-webpack-plugin
 * [ ] add purgeCSS to strip unused styles https://github.com/FullHuman/purgecss/tree/master/examples/with-nuxt
 * [ ] add noreferrer noopener \_blank to external links
 * [ ] (https://github.com/Va1/string-replace-loader ?)
@@ -46,11 +47,9 @@
 ## Misc
 
 * [ ] remove scrapyard page
-* [ ] link back to home on last page!
 * [ ] update favicon with new color
-* [ ] svg stroke animation (Vivus.js)
 * [ ] Layout für Bilder in Text
-* [ ] pwa theme color should be neutral to fit all page colors
+* [ ] figure numbers?
 
 ---
 
@@ -59,6 +58,7 @@
 * Vue Stagger https://codepen.io/dizzyluo/pen/yJLwWm
 * 3D Parallax https://codepen.io/futekov/pen/JLGDr
 * Footnotes as Tooltip?
+* [ ] svg stroke animation (Vivus.js)
 
 ---
 
@@ -79,24 +79,37 @@
   * https://github.com/sparanoid/lightense-images
   * https://codepen.io/ktsn/pen/GMxwrm
 
+---
+
+## Obsolete
 - [ ] contentful environments / set env in netlify
       https://www.contentful.com/developers/docs/concepts/multiple-environments/
       https://github.com/stefanjudis/stefan-judis-website/blob/master/plugins/contentful.js
 - [ ] https://www.contentful.com/blog/2018/01/23/how-to-write-reusable-sane-api-based-components/
 - [ ] netlifycms?
+- [ ] optimize images https://github.com/Klathmon/imagemin-webpack-plugin
+
 
 ---
 ---
 ---
 
-## Präsentation
+used special chars:
+⇵ ↩︎
+
+---
+---
+---
+
+
+# Präsentation
 
 - Ludus
 - Reveal.js [http://lab.hakim.se/reveal-js/](http://lab.hakim.se/reveal-js/)
 - = gitpitch
 - http://blog.invisionapp.com/improve-your-design-presentations/
 
-### Input Prof. Schellhorn:
+# Input Prof. Schellhorn:
 - information architect meets user interface meets graphic artist meets business = designer. Also die Visualisierung komplexer Vorgänge und der Entwicklung kommunikativer Strategien. 
 
 ---
@@ -105,7 +118,7 @@
 
 #RANDOM
 
-# Nerdwriter: Arrival 
+## Nerdwriter: Arrival 
 
 https://www.youtube.com/watch?v=z18LY6NME1s
 

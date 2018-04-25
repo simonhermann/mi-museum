@@ -1,40 +1,38 @@
 # Auslöser (Trigger) von Microinteractions
 
-Bevor ein Dialog zwischen einer Benutzerschnittstelle und einem Nutzer aufgebaut werden kann, stellt sich die Frage: _Wer spricht wen an?_ Der 'Trigger' oder 'Auslöser' einer Microinteraction kann entweder durch eine unmittelbare _Aktion des Nutzers_ oder _von Seiten des Gerätes_ initiiert werden.
+Bevor ein Dialog zwischen einer Benutzerschnittstelle und einem Nutzer aufgebaut werden kann, stellt sich die Frage: _Wer spricht wen an?_ Der 'Trigger' oder 'Auslöser' einer Microinteraction kann entweder durch eine unmittelbare _Aktion des Nutzers_ oder _von Seiten des Gerätes_ initiiert werden. In beiden Fällen bildet dieser die erste Phase jeder Microinteraction. 
+Wenn Nutzer mit einem neuen Produkt in Berührung kommen, tun sie das oft über eine Mikro-Interaktion; sie schalten es 'ein', drücken 'Start' oder 'öffnen' ein Programm. 
+Diese nutzerseitigen Trigger entstehen aus Bedürfnissen des Nutzers:
 
+<center class="md-container-standout">
+
+Bedürfnis:
+_Nutzer will nachts etwas sehen können_
+↓
+Trigger:
+_(ausgeschalteter) Lichtschalter_
+↓
+Interaktion: 
+_Nutzer schaltet Licht ein_
+
+</center>
+
+Die wichtigste Eigenschaft eines Triggers sollte dessen gute Auffindbarkeit sein. Nutzer sollten nicht erst suchen müssen, um ein Vorhaben ausführen zu können. Aus diesem Grund sollte etwa das sogenannte 'Hamburger-Icon' und das damit einhergehende versteckte Off-Screen-Menü nur als sekundäre Art der Navigation genutzt werden.^[Mehr zu den Nachteilen des 'Hamburger-Menüs': [Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) von Luke Wroblewski]
 Bei der Gestaltung eines Auslösers sollte darauf geachtet werden, dass dieser vom Nutzer als ebendieser erkannt werden kann. Hier hängt viel vo Vorwissen des Nutzers ab – wer mit dem Internet vertraut ist, wird einen unterstrichenen Text schnell als Link erkennen, für alle Anderen ist es eben nur genau das: unterstrichener Text. Die jeweilige Situation spielt eine mindestens ebenso wichtige Rolle: zwischen den Gestaltungsanforderungen von Triggern für Chat-Apps, Fahrkartenautomaten, Alarmknöpfe oder Fahrzeuginnenräume bestehen erhebliche Unterschiede.
-Mit Hilfe von Nutzerrecherche sollten die individuelle Erfordernisse, der späteren Nutzergruppen ergründet und in den Gestaltungsprozess einbezogen werden. Ebenso sollten die [Barrierefreiheit bzw. Inklusivität](/practical) des Produktes hinsichtlich der Trigger sichergestellt werden, von einer Rot-Grün-Sehwchwäche sind beispielsweise etwa 9% aller Männer betroffen^[[Wikipedia.de: Rot-Grün-Sehschwäche](https://de.wikipedia.org/wiki/Rot-Grün-Sehschwäche)].
+Durch Nutzerrecherche sollten die individuelle Erfordernisse, der späteren Nutzergruppen ergründet und in den Gestaltungsprozess einbezogen werden. Ebenso sollten die [Barrierefreiheit bzw. Inklusivität](/practical) des Produktes hinsichtlich der Trigger sichergestellt werden, von einer Rot-Grün-Sehwchwäche sind beispielsweise etwa 9% aller Männer betroffen^[[Wikipedia.de: Rot-Grün-Sehschwäche](https://de.wikipedia.org/wiki/Rot-Grün-Sehschwäche)].
 
 <figure class="content-thin">
     <img data-src="/images/triggers/touch-start.jpg">
-    <figcaption>Bevor Touchscreens alltäglich waren, mussten Nutzer sehr direkt auf deren Funktionsweise hingewiesen werden, wie hier auf dem Startbildschirm eines Fahrkartenautomaten der New Yorker U-Bahn. Tatsächlich ist es egal, wo der Bildschirm berührt wird, die gesamte Fläche startete den Kaufvorgang.
+    <figcaption>Bevor Touchscreens alltäglich waren, mussten Nutzer sehr direkt auf deren Funktionsweise hingewiesen werden, wie hier auf dem Startbildschirm eines Fahrkartenautomaten der New Yorker U-Bahn. Tatsächlich war es egal, _wo_ der Bildschirm berührt wurde, die gesamte Fläche startete den Kaufvorgang.
     <sup><a href="http://fyi.oreilly.com/2009/02/communicating-interactive-gest.html">Bildquelle</a></sup>
     </figcaption>
 </figure>
 
 
-<!-- <figure class="content-thin">
-    <img data-src="/images/triggers/zones-of-engagement.jpg">
-    <figcaption>TODO "Three Zones of Engagement"
-    <sup><a href="http://fyi.oreilly.com/2009/02/communicating-interactive-gest.html">Bildquelle</a></sup>
-    </figcaption>
-</figure> -->
 
+> Obvious Always Wins
+> <cite>Luke Wroblewski^[[Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) von Luke Wroblewski]</cite>
 
-
-Nutzerseitige Trigger entstehen aus Bedürfnissen:
-
-::: md-container-standout
-Bedürfnis/Trigger:
-_Nutzer will nachts etwas sehen können_
---> Reaktion: _schaltet Licht ein_
-:::
-
-::: md-container-standout
-Bedürfnis/Trigger:
-_Nutzer will jemanden anrufen_
---> Reaktion: _tippt auf Namen in Adressbuch_
-:::
 
 Geräteseitige Auslöser entstehen durch ein Systemereignis:
 
@@ -46,8 +44,10 @@ Trigger bei eingehender Nachricht auf Handy:
 * _LED Blinkt_
 * _Benchrichtigung wird angezeigt_
 
---> Reaktion: _Nutzer öffnet Nachricht per Tipp auf Benachrichtigung_
+--> Interaktion: _Nutzer öffnet Nachricht per Tipp auf Benachrichtigung_
 :::
+
+Würde man es ganz genau nehmen, wäre ein App-Icon bereits ein visueller Trigger, der das Bedürfnis eines Nutzers auslöst, diese zu öffnen. Es empfiehlt sich jedoch, abzugrenzen zwischen einem unveränderlichen Element (z. B. Icon) und einem durch gewisse Ereignisse _veränderten Status_ und damit einhergehende _Adaption des Interfaces_ (z. B. Indikator für neue Nachricht).
 
 Wie auch bei nutzerseitigen Auslösern, können unterschiedliche Trigger natürlich zur selben Interaktion führen.
 
@@ -65,7 +65,7 @@ Bring the data forward
 Welche Art von Auslöser für eine Interaktion geeignet ist, hängt direkt von den Bedürfnissen des Nutzers in ebendiesem Moment ab, daher sollte diesen in der Konzeptionsphase besondere Aufmerksamkeit zukommen. Was will der Nutzer erreichen? Wie und wie häufig will er dies tun?
 Trigger könnte die Ankuft einer neuen Nachricht, eine festgelegte Uhrzeit oder ein bestimmter Ort sein. Eine Integration mit dem Kalender des Nutzers könnte nun dessen Gerät automatisch stumm schalten, wenn dieser sich in einem Meeting oder in der Oper befindet. Dieser Trend zur Automatisierung hat in den letzen Jahren zugenommen und von _Künstlicher Intelligenz_ gesteuerte _persönliche Assistenten_ übernehmen immer mehr Entscheidungen, die vorher der Nutzer selbst getroffen hat.
 
-### Unsichtbare Auslöser
+### Unsichtbare Trigger
 
 <figure class="content-thin">
     <img data-src="/images/triggers/pocket-copied-url.jpg">
@@ -135,3 +135,14 @@ Zeigt, wie wichtig es ist, den Menschen zu kennen, der das Interface nutzen wird
 ### Links zum Thema:
 
 :::
+
+
+
+
+
+<!-- <figure class="content-thin">
+    <img data-src="/images/triggers/zones-of-engagement.jpg">
+    <figcaption>TODO "Three Zones of Engagement"
+    <sup><a href="http://fyi.oreilly.com/2009/02/communicating-interactive-gest.html">Bildquelle</a></sup>
+    </figcaption>
+</figure> -->

@@ -1,9 +1,11 @@
 const theoryPages = [
   { title: 'Vorwort', to: '/preface', desc: '' },
   {
-    title: 'Was sind Microinteractions?',
+    title: 'Details sind essentiell',
     to: '/what-are-microinteractions',
-    desc: '',
+    // desc: '',
+    desc:
+      'Was Microinteractions sind und warum sie für jeden Designer wichtig sein sollten',
   },
   {
     title: 'Auslöser',
@@ -11,21 +13,41 @@ const theoryPages = [
     desc: 'Wie kommt die Interaktion zu Stande?',
   },
   { title: 'Regeln', to: '/rules', desc: 'Wie funktioniert die Interaktion?' },
-  { title: 'Rückmeldung', to: '/feedback', desc: 'XXXX' },
-  { title: 'Schleifen & Modi', to: '/loops-and-modes', desc: 'Welche Meta-Regeln beinflussen die Interaktion?' },
+  {
+    title: 'Rückmeldung',
+    to: '/feedback',
+    desc: 'Wie reagiert die Interaktion auf den Nutzer?',
+  },
+  {
+    title: 'Schleifen & Modi',
+    to: '/loops-and-modes',
+    desc: 'Welche Meta-Regeln beinflussen die Interaktion?',
+  },
   {
     title: 'Historie',
     to: '/history',
-    desc: 'Eine kurze Geschichte der Mensch-Maschine-Interaktion',
+    desc: 'Eine kurze Geschichte der Mensch-Maschine-Interaktion.',
   },
   {
     title: 'Skeuomorphismus',
     to: '/skeuomorphism',
-    desc: 'Vom Einfluss der physischen Welt auf die digitale.',
+    desc: 'Vom Einfluss der physischen Welt auf die digitale',
   },
-  { title: 'Signature Moments', to: '/signature-moments', desc: 'XXXX' },
-  { title: 'Animation & Geschwindigkeit', to: '/animation-and-pace', desc: 'XXXX' },
-  { title: 'Anwendung in der Praxis', to: '/practical', desc: 'XXXX' },
+  {
+    title: 'Signature Moments',
+    to: '/signature-moments',
+    desc: 'Wie die kleinen Momente den Unterschied machen können',
+  },
+  {
+    title: 'Animation & Geschwindigkeit',
+    to: '/animation-and-pace',
+    desc: 'Warum schneller nicht immer besser ist',
+  },
+  {
+    title: 'Anwendung in der Praxis',
+    to: '/practical',
+    desc: 'So gelingt Design & Umsetzung von Microinteractions im Alltag',
+  },
   //{ title: '_article', to: '/article' },
   //{ title: "_scrap", to: "/scrapyard" }
 ]
@@ -47,7 +69,6 @@ const practicePages = [
 ]
 
 // define hue for each color
-//const colorHues = [143, 169, 188, 211, 234, 259, 271, 299, 321, 352, 12, 27]
 var colorHues = []
 const hueStart = 133
 const hueDistance = 17
@@ -63,7 +84,7 @@ defineColors()
 const colors = colorHues.map(i => 'hsl(' + i + ', 47%, 43%)')
 
 // function to set css property --color-hightlight on :root element
-const setDocumentHighlightcolor = (color) => {
+const setDocumentHighlightcolor = color => {
   document.documentElement.style.setProperty('--the-color', color)
   console.log('🎨 ' + color + ' 🖌')
 }
