@@ -17,7 +17,8 @@
       <!-- <script>location.reload();</script> -->
       <h1>Yay!</h1>
       <p class="error-msg">Es gibt Updates, bitte lade die Seite neu:<br>
-        <a href="javascript:location.reload()">hier klicken</a> <br> oder per pull-to-refresh Microinteraction.
+        <a href="javascript:location.reload()">hier klicken</a> <br> 
+        <sup>oder auf Touchscreens auch per pull-to-refresh Microinteraction</sup>
       </p>
     </div>
     <div v-else>
@@ -46,7 +47,7 @@ export default {
 
 <style lang="scss" scoped>
 .error-wrapper {
-  max-width: 20rem;
+  max-width: 28rem;
   margin: auto;
   text-align: center;
 }
