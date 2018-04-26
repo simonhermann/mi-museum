@@ -2,7 +2,7 @@
   <div class="homegrid">
     <nuxt-link class="homegrid__item" :key="i" v-for="(theoryPage, i) in theoryPages" :to="theoryPage.to" :style="getItemStyles(i)">
       <div class="item__inner" :style="getInnerStyles(i)">
-        <h3 class="item__head">{{ theoryPage.title }}</h3>
+        <h2 class="item__head">{{ theoryPage.title }}</h2>
         <p class="item__desc" v-if="theoryPage.desc">{{ theoryPage.desc }}</p>
       </div>
     </nuxt-link>
@@ -102,6 +102,7 @@ export default {
     .item__head {
       margin: 0 0 0.5rem 0;
       font-size: 1.75em;
+      text-decoration: none;
       &:only-child {
         margin: 0;
       }

@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 200">
     <rect fill="#ebe6df" width="300" height="200" />
-    <rect fill="#f1ece5" x="0" y="-60" width="40" height="300" transform="translate(-17.78 8.58) rotate(10)">
-      <animate attributeName="x" calcMode="spline" values="-24;300" keyTimes="0;1" dur="2" keySplines="0.7 0.1 0.3 0" begin="0s" repeatCount="indefinite"></animate>
-      <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="2" keySplines="0.7 0.1 0.3 0" begin="0s" repeatCount="indefinite"></animate>
+    <rect fill="#f1ece5" x="-40" y="-100" width="40" height="300" transform="translate(-17.78 8.58) rotate(15)">
+      <animate attributeName="x" calcMode="spline" values="-35;370" keyTimes="0;1" dur="2.5" keySplines="0.7 0.1 0.3 0" begin="0s" repeatCount="indefinite"></animate>
+      <!-- <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="2" keySplines="0.7 0.1 0.3 0" begin="0s" repeatCount="indefinite"></animate> -->
     </rect>
-    <rect fill="#f1ece5" x="0" y="-60" width="30" height="300" transform="translate(-17.78 8.58) rotate(10)">
-      <animate attributeName="x" calcMode="spline" values="-24;300" keyTimes="0;1" dur="2" keySplines="0.7 0.1 0.3 0" begin="1s" repeatCount="indefinite"></animate>
-      <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="2" keySplines="0.7 0.1 0.3 0" begin="1s" repeatCount="indefinite"></animate>
+    <rect fill="#f1ece5" x="-40" y="-100" width="30" height="300" transform="translate(-17.78 8.58) rotate(15)">
+      <animate attributeName="x" calcMode="spline" values="-35;370" keyTimes="0;1" dur="2.5" keySplines="0.8 0.2 0.4 0.1" begin=".3s" repeatCount="indefinite"></animate>
+      <!-- <animate attributeName="opacity" calcMode="spline" values="1;0" keyTimes="0;1" dur="2" keySplines="0.7 0.1 0.3 0" begin="1s" repeatCount="indefinite"></animate> -->
     </rect>
 </svg>
