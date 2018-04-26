@@ -18,12 +18,12 @@ _Nutzer schaltet Licht ein_
 </center>
 
 Die wichtigste Eigenschaft eines Triggers sollte dessen gute Auffindbarkeit sein. Nutzer sollten nicht erst suchen müssen, um ein Vorhaben ausführen zu können. Aus diesem Grund sollte etwa das sogenannte 'Hamburger-Icon' und das damit einhergehende versteckte Off-Screen-Menü nur als sekundäre Art der Navigation genutzt werden.^[Mehr zu den Nachteilen des 'Hamburger-Menüs': [Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) von Luke Wroblewski]
-Bei der Gestaltung eines Auslösers sollte darauf geachtet werden, dass dieser vom Nutzer als ebendieser erkannt werden kann. Hier hängt viel vo Vorwissen des Nutzers ab – wer mit dem Internet vertraut ist, wird einen unterstrichenen Text schnell als Link erkennen, für alle Anderen ist es eben nur genau das: unterstrichener Text. Die jeweilige Situation spielt eine mindestens ebenso wichtige Rolle: zwischen den Gestaltungsanforderungen von Triggern für Chat-Apps, Fahrkartenautomaten, Alarmknöpfe oder Fahrzeuginnenräume bestehen erhebliche Unterschiede.
+Bei der Gestaltung eines Auslösers sollte darauf geachtet werden, dass dieser vom Nutzer als ebendieser erkannt werden kann. Hier hängt viel vo Vorwissen des Nutzers ab – wer mit dem Internet vertraut ist, wird einen unterstrichenen Text schnell als Link erkennen, für alle Anderen ist es eben nur genau das: unterstrichener Text. Die jeweilige Situation spielt eine mindestens ebenso wichtige Rolle: zwischen den Gestaltungs&shy;anforderungen von Triggern für Chat-Apps, Fahrkarten&shy;automaten, Alarmknöpfe oder Fahrzeug&shy;innenräume bestehen erhebliche Unterschiede.
 Durch Nutzerrecherche sollten die individuelle Erfordernisse, der späteren Nutzergruppen ergründet und in den Gestaltungsprozess einbezogen werden. Ebenso sollten die [Barrierefreiheit bzw. Inklusivität](/practical) des Produktes hinsichtlich der Trigger sichergestellt werden, von einer Rot-Grün-Sehwchwäche sind beispielsweise etwa 9% aller Männer betroffen^[[Wikipedia.de: Rot-Grün-Sehschwäche](https://de.wikipedia.org/wiki/Rot-Grün-Sehschwäche)].
 
 <figure class="content-thin">
     <img data-src="/images/triggers/touch-start.jpg">
-    <figcaption>Bevor Touchscreens alltäglich waren, mussten Nutzer sehr direkt auf deren Funktionsweise hingewiesen werden, wie hier auf dem Startbildschirm eines Fahrkartenautomaten der New Yorker U-Bahn. Tatsächlich war es egal, _wo_ der Bildschirm berührt wurde, die gesamte Fläche startete den Kaufvorgang.
+    <figcaption>Bevor Touchscreens alltäglich waren, mussten Nutzer sehr direkt auf deren Funktionsweise hingewiesen werden, wie hier auf dem Startbildschirm eines Fahrkartenautomaten der New Yorker U-Bahn. Tatsächlich war es egal, wo der Bildschirm berührt wurde, die gesamte Fläche startete den Kaufvorgang.
     <sup><a href="http://fyi.oreilly.com/2009/02/communicating-interactive-gest.html">Bildquelle</a></sup>
     </figcaption>
 </figure>

@@ -94,8 +94,9 @@
 ---
 ---
 
-used special chars:
-⇵ ↩︎
+used special chars / arrows:
+⇵ ↩︎ ⤴ ⤒
+»«›‹
 
 ---
 ---
@@ -104,13 +105,12 @@ used special chars:
 
 # Präsentation
 
-- Ludus
 - Reveal.js [http://lab.hakim.se/reveal-js/](http://lab.hakim.se/reveal-js/)
 - = gitpitch
+- Ludus
 - http://blog.invisionapp.com/improve-your-design-presentations/
 
-# Input Prof. Schellhorn:
-- information architect meets user interface meets graphic artist meets business = designer. Also die Visualisierung komplexer Vorgänge und der Entwicklung kommunikativer Strategien. 
+
 
 ---
 ---

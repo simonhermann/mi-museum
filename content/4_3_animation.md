@@ -89,9 +89,18 @@ Unser Gehirn lebt in der Vergangenheit, unser Bewusstsein liegt 80 Millisekunden
 
 Die Reaktionszeit einer Schnittstelle hat großen Einfluss darauf, wie sie sich anfuhlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
 
-* **< 100 Millisekunden:** fühlt sich sofortig an
-* **< 1 Sekunde:** fühlt sich überganslos an
-* **< 8-10 Sekunden:** maximale Aufmerksamkeitsspanne
+<center>
+
+< 100 Millisekunden: 
+_fühlt sich sofortig an_
+
+< 1 Sekunde: 
+_fühlt sich überganslos an_
+
+< 8-10 Sekunden:
+_maximale Aufmerksamkeitsspanne_
+
+</center>
 
 :::
 

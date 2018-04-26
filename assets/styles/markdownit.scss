@@ -2,27 +2,20 @@
 ** classes applied by markdownit
 */
 
-
-// Containers
+// md containers
 .ext-md-container {
   margin-top: 1em;
   padding: 1em;
-  border-radius: 0.5em;
+  border-radius: 0.75em;
   *:first-child {
     margin-top: 0;
   }
   *:last-child {
     margin-bottom: 0;
   }
-  
-  // ul, ol {
-  //   padding-left: 1em;
-  // }
 }
 .md-container-standout {
   @extend .ext-md-container;
-  /*color: white;*/
-  /*background: var(--the-color);*/
   background: var(--grey-light);
 }
 .md-container-more {
@@ -30,12 +23,7 @@
   background: var(--grey-light);
   border: 1px dashed var(--grey-mid);
   font-size: var(--font-size-small);
-  ul {
-    //list-style: none;
-    //padding-left: 0;
-  }
 }
-
 
 // Footnotes
 // .footnotes-line {
@@ -74,12 +62,9 @@
       display: none;
     }
   }
-  // &:after {
-  //   content: '';
-  //   display: block;
-  //   @extend .footnotes-line;
-  //   transform: rotate(180deg);
-  // }
+  .footnote-item {
+    padding-left: 0.5em;
+  }
 }
 
 .footnote-ref a {
@@ -111,7 +96,7 @@
       color: var(--the-color);
       position: absolute;
       margin-left: 0.6em;
-      content: ' zur\FC''ck zum Text';
+      content: ' zur\FC' 'ck zum Text';
       background-color: var(--grey-light);
       // webpack or sass or something else behaves weird and inserts a space afer 'ü'. this hack solves it...
       //content: 'zurück'; // is converted to 'zur\FC ck' and redered as 'zurü ck'

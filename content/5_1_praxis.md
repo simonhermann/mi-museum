@@ -71,7 +71,7 @@ https://ds.gpii.net/learn/accessibility-masterlist
 ### Nützliche Links zum Thema Microinteractions in der Praxis:
 - Artikel: [Designing for Fingers, Touch and People](https://www.uxmatters.com/mt/archives/2017/03/design-for-fingers-touch-and-people-part-1.php) von Steven Hoober
 - https://www.interaction-design.org/literature/article/user-interface-design-guidelines-10-rules-of-thumb
-- Pdf: [Inclusive Design Toolkit Manual](file:///Users/simonhermann/Desktop/Privat/exchange/INCLUSIVE_TOOLKIT_MANUAL_FINAL.pdf) von Microsoft Design
+- Pdf: [Inclusive Design Toolkit Manual](https://download.microsoft.com/download/B/0/D/B0D4BF87-09CE-4417-8F28-D60703D672ED/INCLUSIVE_TOOLKIT_MANUAL_FINAL.pdf) von Microsoft Design
 
 :::
 

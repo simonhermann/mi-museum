@@ -58,7 +58,6 @@ export default {
       'g10 g10 g9';
   }
   @include mq-md {
-    rid-template-rows: 7em 6em 9em 9em 11em;
     grid-template-areas:
       'g0 g0 g1 g1 g1 g2 g2 g2'
       'g3 g3 g3 g3 g3 g2 g2 g2'

@@ -48,7 +48,7 @@ module.exports = {
       },
       {
         rel: 'preconnect',
-        href: 'href="https://fonts.gstatic.com/',
+        href: 'https://fonts.gstatic.com/',
         crossorigin: 'anonymous',
       },
     ],
