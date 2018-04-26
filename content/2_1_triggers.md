@@ -9,7 +9,7 @@ Bevor ein Dialog zwischen einer Benutzerschnittstelle und einem Nutzer aufgebaut
 </figure>
 
 Welche Art von Auslöser für eine Interaktion geeignet ist, hängt direkt von den Bedürfnissen des Nutzers in ebendiesem Moment ab, daher sollte diesen in der Konzeptionsphase besondere Aufmerksamkeit zukommen. Was will der Nutzer erreichen? Wie und wie häufig will er dies tun? 
-Bei der Gestaltung von Triggern sollte darauf geachtet werden, dass dieser vom Nutzer _als Trigger erkannt werden kann_. Hier hängt viel vom Vorwissen des Nutzers ab – wer mit dem Internet vertraut ist, wird einen unterstrichenen Text schnell als Link erkennen, für alle Anderen ist es eben nur genau das: unterstrichener Text. Ferner sollte vermieden werden, nicht-interaktive wie interaktive Elemente aussehen zu lassen. Wenn ein Trigger wie en Button aussieht, sollte er auch wie ein Button funktionieren.^[vgl. Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] _Da die Existenz der Interaktion eines Interfaces mit Nutzern hier von deren Gewohnheiten und Erwartungen abhängig ist, sollten Trigger genau auf diesen aufbauen._
+Bei der Gestaltung von Triggern sollte darauf geachtet werden, dass dieser vom Nutzer _als Trigger erkannt werden kann_. Hier hängt viel vom Vorwissen des Nutzers ab – wer mit dem Internet vertraut ist, wird einen unterstrichenen Text schnell als Link erkennen, für alle Anderen ist es eben nur genau das: unterstrichener Text. Ferner sollte vermieden werden, nicht-interaktive wie interaktive Elemente aussehen zu lassen. Wenn ein Trigger wie en Button aussieht, sollte er auch wie ein Button funktionieren.^[vgl. Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] _Da die Existenz der Interaktion eines Interfaces mit Nutzern hier von deren Gewohnheiten und Erwartungen^[hierzu auch: [Jakob's Law of Internet UX](https://www.nngroup.com/videos/jakobs-law-internet-ux/) von Jakob Nielsen] abhängig ist, sollten Trigger genau auf diesen aufbauen._
 Die jeweilige Situation spielt ebenso eine wichtige Rolle: zwischen den Gestaltungs&shy;anforderungen von Triggern für Chat-Apps, Fahrkarten&shy;automaten, Alarmknöpfe oder Fahrzeug&shy;innenräume bestehen erhebliche Unterschiede. Durch Recherche und regelmäßige Nutzertests sollten Erfordernisse der späteren Nutzergruppen ergründet und in den Gestaltungsprozess einbezogen werden. Ebenso sollten die [Barrierefreiheit bzw. Inklusivität](/practical) des Produktes hinsichtlich der Trigger sichergestellt werden, von einer Rot-Grün-Sehwchwäche sind beispielsweise etwa 9% aller Männer betroffen^[[Wikipedia.de: Rot-Grün-Sehschwäche](https://de.wikipedia.org/wiki/Rot-Grün-Sehschwäche)].
 Ein weiteres wichtiges Kriterium eines Triggers ist dessen gute Auffindbarkeit. Nutzer sollten nicht erst suchen müssen, um ein Vorhaben ausführen zu können. Aus diesem Grund sollte etwa das sogenannte 'Hamburger-Icon' und das damit einhergehende, versteckte Off-Screen-Menü nur als sekundäre Art der Navigation genutzt werden^[Mehr zu den Nachteilen des 'Hamburger-Menüs': [Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) von Luke Wroblewski]. Je häufiger eine Microinteraction genutzt wird, desto leichter sollte sie auffindbar sein.
 Visuelle Möglichkeiten Aufmerksamkeit auf einen Trigger zu lenken, sind zum Beispiel Beschriftungen (Labels) und Icons Größe und Farbe des Elements oder [Animationen](/animation-and-pace). 
@@ -89,11 +89,15 @@ Zeigt, wie wichtig es ist, den Menschen zu kennen, der das Interface nutzen wird
 https://lawsofux.com/
 
 <figure class="content-thin">
-    <img data-src="/images/triggers/">
+    <img data-src="/images/triggers/XXXX.jpg">
     <figcaption>[woobrock08] Wenn Versuchspersonen zur Eile getrieben werden, wird deren Genauigkeit schlechter
     <sup><a href="">Bildquelle</a></sup>
     </figcaption>
 </figure>
+
+### Hick's Law
+
+XXXX
 
 
 <!-- <center class="md-container-standout">
