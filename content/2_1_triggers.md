@@ -1,25 +1,13 @@
 # Auslöser (Trigger) von Microinteractions
 
 Bevor ein Dialog zwischen einer Benutzerschnittstelle und einem Nutzer aufgebaut werden kann, stellt sich die Frage: _Wer spricht wen an?_ Der 'Trigger' oder 'Auslöser' einer Microinteraction kann entweder durch eine unmittelbare _Aktion des Nutzers_ oder _von Seiten des Gerätes_ initiiert werden. In beiden Fällen bildet dieser die erste Phase jeder Microinteraction. 
-Wenn Nutzer mit einem neuen Produkt in Berührung kommen, tun sie das oft über eine Mikro-Interaktion; sie schalten es 'ein', drücken 'Start' oder 'öffnen' ein Programm. 
-Diese nutzerseitigen Trigger entstehen aus Bedürfnissen des Nutzers:
 
-<center class="md-container-standout">
+Nutzerseitige Trigger entstehen aus Bedürfnissen des Nutzers: Das Bedürfnis nachts etwas sehen zu können, führt einen Nutzer dazu, mit einem Lichtschalter zu interagieren und so das Licht einzuschalten. Das Bedürfnis, keine lauten Unterbrechungen durch Anrufe zu haben, führt dazu, ein Telefon auf 'stumm' zu schalten. Das Bedürfnis einen Moment als Foto festzuhalten, führt zum Betätigen des Auslösers einer Kamera. Hier besteht natürlich keine Eins-zu-eins-Verbindung; ein Bedürfnis kann auf verschiedene Arten gestillt werden und eine einzige Interaktion kann durch verschiedenste Bedürfnisse ausgelöst werden. 
+Wenn Nutzer mit einem Produkt in Berührung kommen, tun sie das oft zuerst über eine Mikro-Interaktion; sie schalten es 'ein', drücken 'Start' oder 'öffnen' ein Programm. Je nach Zustand bzw. [Modus](loops-and-modes) eines Produktes, kann der selbe Trigger zu unterschiedlichen Ergebnissen führen; der Home-Button unter iOS führt entweder auf den Startbildschirm oder öffnet die Suche, wenn sich ein Nutzer bereits dort befindet. Genauso kann die Art der Nutzung einen Unterschied machen, langes Drücken, doppeltes Drücken, 'Force Touch' oder andere Versionen der Eingabe können variabel genutzt werden. Hier ist jedoch zu bedenken, dass diese Mehrfachbelegung eines Bedienelementes sparsam genutzt werden sollte, da sie meist unsichtbar ist und erlernt werden muss. _In der Regel sollte der selbe Trigger immer zum selben Ereignis führen_. 
 
-Bedürfnis:
-_Nutzer will nachts etwas sehen können_
-↓
-Trigger:
-_(ausgeschalteter) Lichtschalter_
-↓
-Interaktion: 
-_Nutzer schaltet Licht ein_
-
-</center>
-
-Die wichtigste Eigenschaft eines Triggers sollte dessen gute Auffindbarkeit sein. Nutzer sollten nicht erst suchen müssen, um ein Vorhaben ausführen zu können. Aus diesem Grund sollte etwa das sogenannte 'Hamburger-Icon' und das damit einhergehende versteckte Off-Screen-Menü nur als sekundäre Art der Navigation genutzt werden.^[Mehr zu den Nachteilen des 'Hamburger-Menüs': [Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) von Luke Wroblewski]
-Bei der Gestaltung eines Auslösers sollte darauf geachtet werden, dass dieser vom Nutzer als ebendieser erkannt werden kann. Hier hängt viel vo Vorwissen des Nutzers ab – wer mit dem Internet vertraut ist, wird einen unterstrichenen Text schnell als Link erkennen, für alle Anderen ist es eben nur genau das: unterstrichener Text. Die jeweilige Situation spielt eine mindestens ebenso wichtige Rolle: zwischen den Gestaltungs&shy;anforderungen von Triggern für Chat-Apps, Fahrkarten&shy;automaten, Alarmknöpfe oder Fahrzeug&shy;innenräume bestehen erhebliche Unterschiede.
+Bei der Gestaltung eines Auslösers sollte darauf geachtet werden, dass dieser vom Nutzer _als ebendieser erkannt werden kann_. Hier hängt viel vom Vorwissen des Nutzers ab – wer mit dem Internet vertraut ist, wird einen unterstrichenen Text schnell als Link erkennen, für alle Anderen ist es eben nur genau das: unterstrichener Text. Die jeweilige Situation spielt eine ebenso wichtige Rolle: zwischen den Gestaltungs&shy;anforderungen von Triggern für Chat-Apps, Fahrkarten&shy;automaten, Alarmknöpfe oder Fahrzeug&shy;innenräume bestehen erhebliche Unterschiede.
 Durch Nutzerrecherche sollten die individuelle Erfordernisse, der späteren Nutzergruppen ergründet und in den Gestaltungsprozess einbezogen werden. Ebenso sollten die [Barrierefreiheit bzw. Inklusivität](/practical) des Produktes hinsichtlich der Trigger sichergestellt werden, von einer Rot-Grün-Sehwchwäche sind beispielsweise etwa 9% aller Männer betroffen^[[Wikipedia.de: Rot-Grün-Sehschwäche](https://de.wikipedia.org/wiki/Rot-Grün-Sehschwäche)].
+Ein weiteres wichtiges Kriterium eines Triggers ist dessen gute Auffindbarkeit. Nutzer sollten nicht erst suchen müssen, um ein Vorhaben ausführen zu können. Aus diesem Grund sollte etwa das sogenannte 'Hamburger-Icon' und das damit einhergehende versteckte Off-Screen-Menü nur als sekundäre Art der Navigation genutzt werden.^[Mehr zu den Nachteilen des 'Hamburger-Menüs': [Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) von Luke Wroblewski]
 
 <figure class="content-thin">
     <img data-src="/images/triggers/touch-start.jpg">
@@ -138,6 +126,19 @@ Zeigt, wie wichtig es ist, den Menschen zu kennen, der das Interface nutzen wird
 
 
 
+
+<!-- <center class="md-container-standout">
+
+Bedürfnis:
+_Nutzer will nachts etwas sehen können_
+↓
+Trigger:
+_(ausgeschalteter) Lichtschalter_
+↓
+Interaktion: 
+_Nutzer schaltet Licht ein_
+
+</center> -->
 
 
 <!-- <figure class="content-thin">

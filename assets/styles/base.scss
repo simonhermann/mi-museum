@@ -239,7 +239,7 @@ figcaption {
 
 kbd {
   white-space: pre;
-  background: rgb(209, 209, 209);
+  background-color: var(--grey-light);
   border-radius: 3px;
   padding: 0 3px;
   box-shadow: 0px 0px 0px 1px rgb(117, 117, 117) inset;
