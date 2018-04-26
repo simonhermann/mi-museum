@@ -43,8 +43,9 @@ http://microinteractions.com/downloads/Microinteractions_QuickRef.pdf
 > Peter Smart https://youtu.be/m1zk4r6NWBc
 
 
-> Obious always wins.
-> --<cite>Luke W.</cite>
+> Obvious always Wins
+> <cite>Luke Wroblewski^[[Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) von Luke Wroblewski]</cite>
+
 
 > Think of everything as a Microinteraction.
 > <cite>Dan Saffer</cite>

@@ -13,6 +13,7 @@
 * [ ] Timeline?
 * [ ] Impressum+About
 * [ ] https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950
+* [ ] https://pdfs.semanticscholar.org/22ca/79765a0d024ce125f6ee0edf13856928c6ca.pdf
 
 ## Featues
 
@@ -22,6 +23,7 @@
 * [ ] Footer?
 * [ ] foldable footnotes?
 * [ ] refine grid layout
+* [ ] besseres System für Quellen, wie https://mprove.de/diplom/text/references.html
 
 ## Bugs
 
