@@ -48,14 +48,14 @@
   background: var(--grey-light);
   border: 1px dashed var(--grey-mid);
   font-size: var(--font-size-small);
-  &:before {
+  &::before {
     @extend h3;
     margin-top: 0;
     content: 'Einzelnachweise';
     display: inline-block;
   }
   &.footnotes--hidden {
-    &:before {
+    &::before {
       margin-bottom: 0;
     }
     ol {

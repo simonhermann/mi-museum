@@ -18,7 +18,7 @@
     padding: 1em;
     color: inherit;
     // z-index: 2;
-    // &:before {
+    // &::before {
     //   box-sizing: border-box;
     //   z-index: 1;
     //   content: ' ';

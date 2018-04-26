@@ -2,9 +2,9 @@
   <div>
     <v-navigation-drawer v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
 
-      <a class="btn btn--icon" @click="drawer = !drawer" style="margin-left:-1em" aria-label="Close" tabindex="0">
+      <a class="btn btn--icon btn-closemenu" @click="drawer = !drawer" style="margin-left:-1em" aria-label="Close" tabindex="0">
         <div class="btn__content">
-          <i aria-hidden="true" class="icon__chevron-left">‹</i>
+          <i aria-hidden="true" class="btn-closemenu__icon">‹</i>
         </div>
       </a>
 
@@ -41,15 +41,15 @@
 
     <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
 
-      <a class="toolbar__side-icon btn btn--icon btn-menu" :class="{ transparent : drawer }" @click="drawer = !drawer" style="position: relative;" aria-label="Menu" tabindex="0">
+      <a class="toolbar__side-icon btn btn--icon btn-openmenu" :class="{ transparent : drawer }" @click="drawer = !drawer" style="position: relative;" aria-label="Menu" tabindex="0">
         <div class="btn__content">
-          <i class="btn-menu__icon">
+          <i class="btn-openmenu__icon">
             <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 0h24v24H0z" fill="none" />
               <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
             </svg>
           </i>
-          <span class="btn-menu__label">Menü</span>
+          <span class="btn-openmenu__label">Menü</span>
         </div>
       </a>
 
@@ -64,7 +64,7 @@
   </div>
 </template>
 
-<style lang="scss">
+<style lang="scss" scoped>
 @import '../assets/styles/mixins.scss';
 @import '../assets/styles/extends.scss';
 
@@ -86,11 +86,10 @@
   &--is-mobile {
     background-color: #fff !important;
   }
-  .icon__chevron-left {
-    content: '‹';
+  .btn-closemenu__icon {
     color: inherit;
     font-size: 3em;
-    line-height: 3em;
+    line-height: 1em;
     display: block;
     margin-top: -0.23em;
     margin-left: -0.01em;
@@ -174,7 +173,7 @@
   @media print {
     display: none;
   }
-  &:before {
+  &::before {
     content: '';
     position: absolute;
     top: var(--body-border-width);
@@ -190,7 +189,7 @@
     background-color: inherit;
     justify-content: space-between;
 
-    .btn-menu {
+    .btn-openmenu {
       margin-left: 1rem !important; //vuetify hack
       transition: opacity 150ms ease-out;
       &.transparent {
@@ -208,6 +207,7 @@
         font-style: italic;
         font-size: 1rem;
         position: absolute;
+        left: 0;
         margin-top: -0.08em;
         margin-left: 2em;
         text-transform: none;
@@ -218,10 +218,10 @@
         }
       }
       &:hover {
-        .btn-menu__icon {
+        .btn-openmenu__icon {
           fill: var(--the-color);
         }
-        .btn-menu__label {
+        .btn-openmenu__label {
           transform: translateX(0.15rem);
         }
       }
@@ -270,8 +270,17 @@
     margin-top: -0.0325rem;
   }
 }
-.btn__content:before {
-  color: var(--the-color);
+.btn:active {
+  //outline-style: none;
+  // &__content {
+  //   outline: inherit;
+  //   outline-style: dotted;
+  // }
+}
+.btn__content {
+  &::before {
+    color: var(--the-color);
+  }
 }
 </style>
 
