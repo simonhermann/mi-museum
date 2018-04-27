@@ -36,8 +36,8 @@ Microinteractions wird zumeist erst am Ende eines Produktentwicklungsprozesses A
 <figure class="content-thin">
   <img data-src="/images/what-are/amazon-menu.gif">
   <figcaption>
-    In diesem Menü auf Amazon.com steckt sehr viel mehr Aufwand als es zunächst schein. Üblicherweise erscheinen Unterpunkte dieser Art erst nach einer Verzögerung, um XXXX 
-    <sup><a href="http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown">Bildquelle</a></sup>
+    In diesem Menü auf Amazon.com steckt sehr viel mehr Aufwand als es zunächst den Anschein hat. Üblicherweise erscheinen Untermenüs dieser Art erst nach einer Verzögerung, um die Diagonale Cursorbewegung zu einem Unterpunkt zuzulassen – hier ermöglicht ein von der Cursorposition ausgehendes Dreieck disese Bewegung ohne versehentliche Auswahl eines anderen Menüpunktes der ersten Ebene.<br>
+    <sup><a href="http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown">Details & Bildquelle</a></sup>
   </figcaption>
 </figure>
 

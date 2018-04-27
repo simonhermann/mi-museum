@@ -49,6 +49,18 @@ Gesten
 
 Speichern unter" ab OSX 10.8 nur über Tastenkürzel
 
+### Auslöseschwellen von Triggern (Thresholds)
+
+Bei Eingaben durch Gesten ist es meist erforderlich, für diese eine Auslöseschwelle festzulegen um versehentliche Eingaben zu vermeiden. Ist kein 'Threshold' implementiert kann es schnell vorkommen, dass zum Beispiel ein Tippen fälschlicherweise als Wischbewegung registriert wird.
+Durch kontinuierliches [Feedback](/feedback) zum aktuellen Verlauf einer Geste kann Nutzern verdeutlicht werden, dass diese noch weitergeführt werden muss, um sie erfolgreich durchzuführen. Wird die Schwelle bei der Eingabe nicht überschritten, sollte dies dem Nutzer ebenfalls mitgeteilt werden.
+
+<figure class="content-tiny">
+    <img data-src="/images/triggers/threshold.gif">
+    <figcaption>Veranschaulichung der Auslöseschwelle einer Microinteraction zum Öffnen der Kamera von Sperrbildschirm eines Android-Gerätes.
+    </figcaption>
+</figure>
+
+
 ### Dark Patterns
 
 Sogenannte Dark Patterns sind Methoden und Muster von im Interactiondesign, die Nutzer dazu verführen, etwas zu tun, das nicht deren (bewusste) Absicht ist.^[vgl. [https://darkpatterns.org](https://darkpatterns.org/)] Dark Patterns können nicht nur Teil des Triggers einer Microinteraction sein, sondern sich auch auf Rückmeldung, Regeln, Schleifen und Modi auswirken. Sie können sowohl dazu beeinflussen, etwas zu _tun_, als auch auch davon _abhalten_ etwas zu tun.
@@ -69,24 +81,15 @@ Die Geschwindigkeit einer Bewegung ist meist niedriger, je schwieriger die geste
 Zeigen ist Grundbestanteil jeder grafischen Benutzeroberfläche, daher sollten Designer verstehen, wie schnell und genau ein Mensch unter bestimmten Bedingungen zeigen kann. Fitts' Gesetzt ist seit Jahrzehnten sehr einflussreich in auf Designprozesse und Forschung. Es half beispielsweise Xerox Parc, das Potential der Maus zu erkennen, da mathematisch gezeigt werden konnte, dass diese sehr effektiv ist und zum Beispiel besser als ein Joystick.^[[Accuracy Measures for Evaluating Computer Pointing Devices](http://www.yorku.ca/mack/CHI01.htm) - Scott MacKenzie et al.] In Autos ist das Bremspedal groß und leicht zu erreichen, währen das Gaspedal eher kleiner und weiter weg ist. Not-Aus-Schalter an Maschinen sind unübersehbar groß und rot. 
 In visuellen Benutzerschnittstellen sollten also oft benötigte Elemente möglichst großflächig sein. Für Cursorbasierte Eingaben kann die Zielflläche elegant vergrößert werden, ohne dass Elemente viel Platz brauchen: Eine Platzierung direkt am Bildschirmrand bzw. in den Ecken macht die virtuell zu treffende Fläche praktisch unendlich groß.^[vgl. [User experience tutorial: Fitts's Law - lynda.com/Youtube](https://youtu.be/95RoKSFyQ_k)] Besonders exzessiv wird dieser Effekt beispielsweise von den 'Aktiven Ecken' in MacOS genutzt: der Trigger besteht aus nur wenigen Pixeln, ist aber doch leicht zu erreichen.
 
+<!-- ### Hick's Law
 
-
-<figure class="content-thin">
-    <img data-src="/images/triggers/XXXX.jpg">
-    <figcaption>[woobrock08] Wenn Versuchspersonen zur Eile getrieben werden, wird deren Genauigkeit schlechter
-    <sup><a href="">Bildquelle</a></sup>
-    </figcaption>
-</figure>
-
-### Hick's Law
-
-XXXX
+XXXX -->
 
 ::: md-container-more
 
 ### Links
 
- - Experimente zu Fitt's Law selbst ausprobieren: [An Interactive Visualisation of Fitts's Law with JavaScript and D3](http://simonwallner.at/ext/fitts/)
+ - Experimente zum Fitts'sches Gesetz selbst ausprobieren: [An Interactive Visualisation of Fitts's Law with JavaScript and D3](http://simonwallner.at/ext/fitts/)
  - Mehr "Gesetze" des UX-Design: [lawsofux.com](https://lawsofux.com/)
 
 :::
