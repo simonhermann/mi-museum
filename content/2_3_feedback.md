@@ -84,7 +84,7 @@ Da dieses Thema den Rahmen der Arbeit sprengen würde, hier nur eine kurze Über
 ### Arten von Feedback
 
 Da die Rückmeldung, um die es hier geht, von Maschinen an Menschen ist, überträgt sie sich über die menschlichen Sinne an Nutzer. Sie ist bei heutigen digitalen Geräten meist visuell oder akustisch, manchmal haptisch und nur selten über Geschmak oder Geruch. Doch ein wichtiges das wichtigste Ziel ist immer, die "Black Box" der Technik zugänglich machen.
-Bei Verbreiteten Interaktionsmustern sollte meist aauf deren konvetnionelle Art der Rückmeldung zurückgegriffen werden, um nötige Lernzeit für Nutzer kurz zu halten.
+Bei Verbreiteten Interaktionsmustern sollte meist auf deren konvetnionelle Art der Rückmeldung zurückgegriffen werden, um nötige Lernzeit für Nutzer kurz zu halten.
 Wenn möglich, sollte ein direkter Bezug zwischen Eingabe und Rückmeldung hergestellt werden, zB XXXX
 Ist es nicht möglich, eine Verbindung herzustellen, sollte trotzdem in jedem Fall eine Veränderung des Zustandes des Objektes stattfinden, zum Beispiel durch Änderung der Farbe.
 

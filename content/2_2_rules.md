@@ -50,6 +50,8 @@ Wichtigster Teil: Ziel der MI. In einfachen, klaren Worten definieren.
 Ziel sollte für nachvollziehbar und erreichbar sein.
 Dem Nutzer sollte also klar sein, *warum* er etwas tut und dass er sein Ziel erreichen kann.
 
+Bei der Definition von Regeln für Mikro-Interaktionen sollte möglichst auf dem Nutzer bereits bekannte Regeln zurückgegriffen werden.
+
 ### Skeuomorphismus in Regeln
 
 Die Darstellung digitaler Interfaces mit Hilfe von skeuomorphistischen^[[Wikipedia: Skeuomorphismus](https://de.wikipedia.org/wiki/Skeuomorphismus)] Elementen hat in den letzen Jahren stark abgenommen, spätestens mit Einführung von iOS 7 durch Apple^[[Jony Ive Explains Why He Decided To Gut Skeuomorphism From iOS 7](https://www.cultofmac.com/246312/jony-ive-explains-why-he-decided-to-gut-skeuomorphism-out-of-ios/])] gelten visuelle Metaphern als verpönt XXXX.

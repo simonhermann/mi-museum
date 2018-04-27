@@ -7,10 +7,10 @@
   margin-top: 1em;
   padding: 1em;
   border-radius: 0.75em;
-  *:first-child {
+  & > *:first-child {
     margin-top: 0;
   }
-  *:last-child {
+  & > *:last-child {
     margin-bottom: 0;
   }
 }
@@ -54,16 +54,19 @@
     content: 'Einzelnachweise';
     display: inline-block;
   }
-  &.footnotes--hidden {
-    &::before {
-      margin-bottom: 0;
-    }
-    ol {
-      display: none;
-    }
-  }
+  // &.footnotes--hidden {
+  //   &::before {
+  //     margin-bottom: 0;
+  //   }
+  //   ol {
+  //     display: none;
+  //   }
+  // }
   .footnote-item {
     padding-left: 0.5em;
+    p {
+      margin: 0;
+    }
   }
 }
 
@@ -76,7 +79,6 @@
 }
 
 .footnote-backref {
-  color: inherit;
   text-decoration: none;
   color: transparent;
   &::before {
@@ -86,7 +88,9 @@
     color: var(--color-text-light);
   }
   &:hover,
-  &:focus {
+  &:active,
+  &:focus,
+  &:focus:active {
     color: transparent;
     &::before {
       color: var(--the-color);

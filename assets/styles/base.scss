@@ -49,7 +49,7 @@ a {
 a:hover {
   color: var(--the-color);
   text-decoration-color: inherit;
-  outline-offset: 3px;
+  //outline-offset: 3px;
 }
 a:focus {
   text-decoration-color: inherit;
@@ -57,7 +57,7 @@ a:focus {
   outline-color: var(--the-color);
   outline-style: dotted;
   outline-offset: 2px;
-  outline-width: 1px;
+  outline-width: 2px;
 }
 a:active:focus {
   text-decoration: none;
@@ -65,7 +65,7 @@ a:active:focus {
   outline-color: var(--the-color);
   outline-style: dotted;
   outline-offset: 2px;
-  outline-width: 2px;
+  outline-width: 1px;
 }
 
 h1,

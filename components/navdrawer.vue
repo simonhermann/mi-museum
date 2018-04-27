@@ -1,8 +1,32 @@
 <template>
   <div>
+    <!-- toolbar -->
+    <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
+
+      <a class="toolbar__side-icon btn btn--icon btn-openmenu" :class="{ transparent : drawer }" @click="drawer = !drawer" aria-label="Menu" aria-controls="main-nav" role="button" :aria-expanded="drawer" tabindex="0">
+        <div class="btn__content">
+          <i class="btn-openmenu__icon">
+            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M0 0h24v24H0z" fill="none" />
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+          </i>
+          <span class="btn-openmenu__label">Menü</span>
+        </div>
+      </a>
+
+      <div class="toplink" v-on:click="scrollToTop"></div>
+
+      <v-toolbar-title class="right">
+        <nuxt-link to="/">Microinteractions</nuxt-link>
+      </v-toolbar-title>
+
+    </v-toolbar>
+
+    <!-- drawer -->
     <v-navigation-drawer v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
 
-      <a class="btn btn--icon btn-closemenu" @click="drawer = !drawer" style="margin-left:-1em" aria-label="Close" tabindex="0">
+      <a class="btn btn--icon btn-closemenu" @click="drawer = !drawer" aria-label="Close" tabindex="0">
         <div class="btn__content">
           <i aria-hidden="true" class="btn-closemenu__icon">‹</i>
         </div>
@@ -39,28 +63,6 @@
 
     </v-navigation-drawer>
 
-    <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
-
-      <a class="toolbar__side-icon btn btn--icon btn-openmenu" :class="{ transparent : drawer }" @click="drawer = !drawer" style="position: relative;" aria-label="Menu" tabindex="0">
-        <div class="btn__content">
-          <i class="btn-openmenu__icon">
-            <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-              <path d="M0 0h24v24H0z" fill="none" />
-              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
-            </svg>
-          </i>
-          <span class="btn-openmenu__label">Menü</span>
-        </div>
-      </a>
-
-      <div class="toplink" v-on:click="scrollToTop"></div>
-
-      <v-toolbar-title class="right">
-        <nuxt-link to="/">Microinteractions</nuxt-link>
-      </v-toolbar-title>
-
-    </v-toolbar>
-
   </div>
 </template>
 
@@ -85,6 +87,9 @@
 
   &--is-mobile {
     background-color: #fff !important;
+  }
+  .btn-closemenu {
+    margin-left:-1em
   }
   .btn-closemenu__icon {
     color: inherit;
@@ -191,6 +196,7 @@
 
     .btn-openmenu {
       margin-left: 1rem !important; //vuetify hack
+      position: relative;
       transition: opacity 150ms ease-out;
       &.transparent {
         opacity: 0;
