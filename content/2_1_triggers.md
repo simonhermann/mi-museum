@@ -62,31 +62,14 @@ Sogenannte Dark Patterns sind Methoden und Muster von im Interactiondesign, die 
 
 ### Fitt's Law
 
-Das 'Fitts'sches Gesetz' ist ein mathematisches Modell, das beschreibt, wie gut ein Mensch auf etwas Zeigen kann. Es wurde mitte des 20. Jahrhunderts vom Psychologen Paul Fitts entwickelt. Es beschreibt das Verhältnis der Größe und Entfernung einer Fläche und der benötigten Zeit, diese mit einem bestimmten Eingabegerät (z. B. Maus, Trackpad, Touchscreen) zu erreichen.^[vgl. [What is Fitts’ Law? - interaction-design.org](https://www.interaction-design.org/literature/topics/fitts-law)] Es ist eine der wenigen quantitativen Methoden, Interaktonen zu erforschen. Die in zahlreichen Versuchen erpobte Formel Formel wird beispielsweise auch von Algorithmen zur Gestenerkennung verwendet.
+Das 'Fitts'sches Gesetz' ist ein mathematisches Modell, das beschreibt, wie gut ein Mensch auf etwas Zeigen kann. Es wurde mitte des 20. Jahrhunderts vom Psychologen Paul Fitts entwickelt. Es beschreibt das Verhältnis der Größe und Entfernung einer Fläche und der benötigten Zeit, diese mit einem bestimmten Eingabegerät (z. B. Maus, Trackpad, Touchscreen) zu erreichen.^[vgl. [What is Fitts’ Law? - interaction-design.org](https://www.interaction-design.org/literature/topics/fitts-law)] Es ist eine der wenigen quantitativen Methoden, Interaktonen zu erforschen. Die in zahlreichen Versuchen erpobte Formel wird beispielsweise auch von Algorithmen zur Gestenerkennung verwendet.^[[Equating User Experience and Fitts’ Law in Gesture Based Input Modalities](https://repository.asu.edu/attachments/158068/content/Burno_asu_0010N_15289.pdf) von Rachael A. Burno, 2015]
 <!-- Versuche zeigen, wie die Distanz des und Größe eines Zieles die Geschwindigkeit einer Genauigkeit der Bewegung beeinflussen. Je schneller eine Bewegung, desto ungenauer wird sie in der Regel, da mehr Fehler gemacht werden.
 Es zeigt sich also, dass eine höhere Geschwindigkeit gegen niedrigere Genauigkeit getauscht werden kann. Je größer das Ziel oder je geringer die Entfernung, desto geringer ist die benötigte Zeit, dieses zu erreichen.
 Die Geschwindigkeit einer Bewegung ist meist niedriger, je schwieriger die gestellte Aufgabe wird, denn je höher die Geschwindigkeit einer Bewegung ist, desto mehr Variation tritt auf und desto ungenauer wird sie. Je höher die Distanz oder je kürzer die Bewegungsdauer desto niedriger ist die durchschnittlich gemessene Genauigkeit. Durch Übung kann die Genauigkeit und Geschwindigkeit aber erhöht werden. -->
-Zeigen ist Grundbestanteil jeder grafischen Benutzeroberfläche, daher sollten Designer verstehen, wie schnell und genau ein Mensch unter bestimmten Bedingungen zeigen kann. Fitts' Gesetzt ist seit Jahrzehnten sehr einflussreich in auf Designprozesse und Forschung. Es half beispielsweise Xerox Parc, das Potential der Maus zu erkennen, da mathematisch gezeigt werden konnte, dass diese sehr effektiv ist und zum Beispiel besser als ein Joystick.^[XXXX Quelle]
-<!-- Weitere Experimente zeigten, dass Maus und Trackpad bei einfachen Aufgaben etwa gleichauf sind, je schwieriger die Aufgabe jedoch wird, desto deutlicher Zeigt sich die Überlgenheit der Maus.^[XXXX Quelle] -->
+Zeigen ist Grundbestanteil jeder grafischen Benutzeroberfläche, daher sollten Designer verstehen, wie schnell und genau ein Mensch unter bestimmten Bedingungen zeigen kann. Fitts' Gesetzt ist seit Jahrzehnten sehr einflussreich in auf Designprozesse und Forschung. Es half beispielsweise Xerox Parc, das Potential der Maus zu erkennen, da mathematisch gezeigt werden konnte, dass diese sehr effektiv ist und zum Beispiel besser als ein Joystick.^[[Accuracy Measures for Evaluating Computer Pointing Devices](http://www.yorku.ca/mack/CHI01.htm) - Scott MacKenzie et al.] In Autos ist das Bremspedal groß und leicht zu erreichen, währen das Gaspedal eher kleiner und weiter weg ist. Not-Aus-Schalter an Maschinen sind unübersehbar groß und rot. 
+In visuellen Benutzerschnittstellen sollten also oft benötigte Elemente möglichst großflächig sein. Für Cursorbasierte Eingaben kann die Zielflläche elegant vergrößert werden, ohne dass Elemente viel Platz brauchen: Eine Platzierung direkt am Bildschirmrand bzw. in den Ecken macht die virtuell zu treffende Fläche praktisch unendlich groß.^[vgl. [User experience tutorial: Fitts's Law - lynda.com/Youtube](https://youtu.be/95RoKSFyQ_k)] Besonders exzessiv wird dieser Effekt beispielsweise von den 'Aktiven Ecken' in MacOS genutzt: der Trigger besteht aus nur wenigen Pixeln, ist aber doch leicht zu erreichen.
 
-Einfluss auf UI-Design:
 
-* Mache Dinge größer, die oft benötigt werden. zB Ribbon in MS Word
-* Bildschirmränder ermöglichen unendlich große Schaltflächen bei Nutzung von Cursor.
-bsp: Menü-Bar in MacOS: am oberen Bildschirmrand, daher effektiv unendlich hoch und sehr einfach zu treffen mit Maus/Trackpad. Ist ein großes Ziel, obwohl es relativ wenig Platz benötigt, durch Nutzung des Bildschirmrandes.
-  MacOS Fenster schließen: nicht mehr direkt am rand, da rund.
-
-Auto: Bremspedal nah und groß. Gaspedal klein und weiter weg.
-Maschine: Not-Aus leicht zu erreichen, groß und rot
-
-<!-- Zeigt, wie wichtig Interdisziplinatität im Design ist.
-Zeigt, wie wichtig es ist, den Menschen zu kennen, der das Interface nutzen wird. -->
-
-^[[An Error Model for Pointing Based on Fitts’ Law](https://www.microsoft.com/en-us/research/publication/an-error-model-for-pointing-based-on-fitts-law/) - Wobbrock et al., 2008]
-
-^[[An Interactive Visualisation of Fitts's Law with JavaScript and D3](http://simonwallner.at/ext/fitts/)]
-
-https://lawsofux.com/
 
 <figure class="content-thin">
     <img data-src="/images/triggers/XXXX.jpg">
@@ -99,19 +82,16 @@ https://lawsofux.com/
 
 XXXX
 
+::: md-container-more
 
-<!-- <center class="md-container-standout">
+### Links
 
-Bedürfnis:
-_Nutzer will nachts etwas sehen können_
-↓
-Trigger:
-_(ausgeschalteter) Lichtschalter_
-↓
-Interaktion:
-_Nutzer schaltet Licht ein_
+ - Experimente zu Fitt's Law selbst ausprobieren: [An Interactive Visualisation of Fitts's Law with JavaScript and D3](http://simonwallner.at/ext/fitts/)
+ - Mehr "Gesetze" des UX-Design: [lawsofux.com](https://lawsofux.com/)
 
-</center> -->
+:::
+
+<!-- ^[[An Error Model for Pointing Based on Fitts’ Law](https://www.microsoft.com/en-us/research/publication/an-error-model-for-pointing-based-on-fitts-law/) - Wobbrock et al., 2008] -->
 
 <!-- <figure class="content-thin">
     <img data-src="/images/triggers/zones-of-engagement.jpg">

@@ -5,7 +5,7 @@
 * [ ] Bill DeRouchy - History of the Button
 * [ ] aus Pocket
 * [ ] Icons für Trigger/Rules/usw
-* [ ] reorder homegrid
+* [ ] re-order homegrid
 * [ ] replace md standout by mark?
 * [ ] Meta desicription
 * [ ] einheitlicher meta title
@@ -18,6 +18,7 @@
 ## Featues
 
 * [ ] Kapitel-Fortschrittsbalken?
+* [ ] add noise to color bgs
 * [ ] oben: vorheriges Kapitel?
 * [ ] dynamische Rahmenfarbe
 * [ ] Footer?
@@ -35,7 +36,7 @@
 * [ ] upgrade to nuxt 2 https://medium.com/nuxt/nuxt-2-is-coming-oh-yeah-212c1a9e1a67
 * [ ] update vuetify to enable deactivation of theme
 * [ ] add purgeCSS to strip unused styles https://github.com/FullHuman/purgecss/tree/master/examples/with-nuxt
-* [ ] add noreferrer noopener \_blank to external links
+* [ ] add noreferrer noopener _blank to external links
 * [ ] (https://github.com/Va1/string-replace-loader ?)
 * [ ] replace all gifs with videos 
   * [ ] https://justmarkup.com/log/2018/02/gifhancement/
@@ -60,7 +61,7 @@
 * Vue Stagger https://codepen.io/dizzyluo/pen/yJLwWm
 * 3D Parallax https://codepen.io/futekov/pen/JLGDr
 * Footnotes as Tooltip?
-* [ ] svg stroke animation (Vivus.js)
+* [ ] svg stroke animation (Vivus.js) https://daverupert.com/2018/03/animated-svg-radial-progress-bars/
 
 ---
 

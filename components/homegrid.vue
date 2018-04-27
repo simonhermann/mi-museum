@@ -15,7 +15,7 @@ export default {
   methods: {
     getItemStyles(i) {
       var itemArea = 'grid-area: g' + i + ';'
-      var itemTransitionDelay = 'transition-delay: ' + (i * 90) + 'ms;'
+      var itemTransitionDelay = 'transition-delay: ' + i * 90 + 'ms;'
       var itemStyles = itemArea + itemTransitionDelay
       return itemStyles
     },
@@ -97,6 +97,10 @@ export default {
       border-radius: 0;
       padding: 1rem 1.25rem;
       transition: transform 150ms ease-out, border-radius 300ms ease-out;
+      //background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+      //background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+      //background-image: url('https://www.transparenttextures.com/patterns/dark-dotted-2.png');
+      background-repeat: repeat;
     }
 
     .item__head {

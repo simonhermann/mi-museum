@@ -14,10 +14,18 @@ Die ersten Versionen von iOS liefen auf sehr schwacher Hardware, trotzdem wirkte
 
 <!-- Wenn ein Teil des Interfaces entweder autonom arbeitet oder nicht standardkonforme Aktionen ausführt, kann es seine Benutzer verwirren oder sogar irritieren. Da die Bewegung der Objekte im wirklichen Leben bekannt ist, erwartet der Nutzer von einem Smartphone dies. -->
 
-<figure class="content-tiny">
+<!-- <figure class="content-tiny">
   <video muted autoplay loop preload="none" poster="images/animation-and-pace/shuttle-music.jpg" src="images/animation-and-pace/shuttle-music.mp4" controls controlsList="nodownload" playsinline>
   </video>
   <figcaption>Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung. Vor allem auf kleineren Bildschirmen ist dies von Vorteil, da hier weniger Fixpunkte vorhanden sind.
+  </figcaption>
+</figure> -->
+
+<figure class="content-thin">
+  <img data-src="/images/animation-and-pace/screen-transitions.gif">
+  <figcaption>
+    Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung. Vor allem auf kleineren Bildschirmen ist dies von Vorteil, da hier weniger Fixpunkte vorhanden sind.
+    <sup><a href="https://plat4m.com/blog/3-types-of-animations-that-improve-user-experience">Bildquelle</a></sup>
   </figcaption>
 </figure>
 
@@ -69,10 +77,12 @@ Einer Studie des MIT zufolge werden _passive_ Wartezeiten durchschnittlich 36% l
 
 Angeblich haben etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan keinerlei Funktion^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen] – aber sie sorgen dafür, dass Menschen interagieren können und ein Gefühl von Einflussnahme auf die Ampelphasen haben. Wenn man es eilig hat, fühlt es sich viel besser an, einen Knpf zu drücken, als untätig zu warten. Die Knöpfe funktionieren – nur eben nicht auf technische, sondern rein auf psychologische Weise. Hier findet eine direkte Manipulation des Nutzerverhaltens durch eine Mikro-Interaktion statt und es stellt sich die Frage, ob ein "Hintergehen" des Nutzers auf dese Weise moralisch vertretbar ist. In diesem Fall hilft es, Leben zu retten, da Fußgänger seltener über rote Ampeln gehen. Letztendlich muss diese Frage aber jeder für sich beantworten.
 
+Der sogenannte Zeigarnik-Effekt bewirkt, dass wir unfertige Vorgänge besser im Gedächtnis behalten als abgeschlossene. Eine Fortschrittsanzeige kann so die Wahrscheinlichkeit erhöhen, dass Nutzer einen angefangenen Prozess abschließen.^[vgl. [Lawsofux.com: Zeigarnik Effect](https://lawsofux.com/zeigarnik-effect)] Vor allem bei Registrierungs- oder Bestellvorgängen hat sich das Prinzip bewährt. Hier wird eine große, aufwändige Aufgabe in angenehmere Teilschritte aufgeteilt ohne Nutzer im Unklaren über die ungefähr zu erwartende Länge des Prozesses zu lassen. 
+
 > Progress indicators by definition call attention to the fact that someone needs to wait. It’s like watching the clock tick down — when you do, time seems to go&nbsp;slower.
 > <cite>Luke Wroblewski^[[Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski]</cite>
 
-Auch wenn reine Ladeanimationen den Nachteil haben, die Aufmerksamkeit des Nutzers auf die unangenehme Wartezeit zu lenken, haben sie doch eine Berechtigung. Sie sollten jedoch niemals die gesamte Applikation blocken und den Nutzer zur Untätigkeit verdammen. Es sollte versucht werden, diese möglichst in vorhanden UI-Elemente zu integrieren und damit eher unaufdringlich und informell zu gestalten.^[vgl. [The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen]
+Auch wenn rein passive Ladeanimationen den Nachteil haben, die Aufmerksamkeit des Nutzers auf die unangenehme Wartezeit zu lenken, haben sie doch eine Berechtigung. Sie sollten jedoch niemals die gesamte Applikation blocken und den Nutzer zur Untätigkeit verdammen. Es sollte versucht werden, diese möglichst in vorhanden UI-Elemente zu integrieren und damit eher unaufdringlich und informell zu gestalten.^[vgl. [The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen]
 Sogenannte _Skeleton Screens_ bieten oft eine bessere Alternative zu großflächigen Ladeanimationen. Da ein "Skelett" der UI sehr schnell angezeigt werden kann, haben Nutzer früher Zeit, sich zu orientieren und deren Fokus wird eher auf den nach und nach auftauchenden Inhalt gelenkt, als auf den Fakt, dass etwas noch geladen werden muss.^[vgl. [Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski] Inzwischen wird das Konzept von zahlreichen Webseiten und Apps wie Facebook, Slack oder Medium.com eingesetzt. 
 
 <figure class="content-tiny">
@@ -148,7 +158,7 @@ Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegang
 
 <!-- ![Beispiel für eine misslungene UI-Animation^[https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97] ](/images/animation-and-pace/poormotiondesign.gif ""){.content-thin}  -->
 
-Leider ist es teilweise sehr aufwändig und teuer gute Animationen zu implementieren, hier sollte Qualität vor Quanitiät stehen, da sonst womöglich die Nutzererfahrung gar verschlechtert wird. Doch auch für hervorragende Animationen besteht die Gefahr, dass diese auf Dauer hinderlich werden. Was beim ersten Mal als nette Überraschung empfunden wird, kann beim zehnten Mal langweilig oder sogar lästig erscheinen. In einigen Fällen sollte die Option angeboten werden, Animation zu auszuschalten oder reduzieren und so Nutzern die Möglichkeit gegeben werden, das Interface ihren Präferenzen anzupassen.^[Bei Webseiten sollte die Browsereinstellung _prefers-reduced-motion_ beachtet werden. Mehr Informationen dazu im [Artikel von CSS Tricks](https://css-tricks.com/introduction-reduced-motion-media-query/)]
+Leider ist es teilweise sehr aufwändig und teuer gute Animationen zu implementieren, hier sollte Qualität vor Quanitiät stehen, da sonst womöglich die Nutzererfahrung gar verschlechtert wird. Doch auch für hervorragende Animationen besteht die Gefahr, dass diese auf Dauer hinderlich werden. Was beim ersten Mal als nette Überraschung empfunden wird, kann beim zehnten Mal langweilig oder sogar lästig erscheinen. In einigen Fällen sollte die Option angeboten werden, Animation zu auszuschalten oder reduzieren und so Nutzern die Möglichkeit gegeben werden, das Interface ihren Präferenzen anzupassen.^[Bei Webseiten sollte die Browsereinstellung _prefers-reduced-motion_ beachtet werden. Mehr Informationen dazu: [Implementing a reduced-motion mode](https://hugogiraudel.com/2018/03/19/implementing-a-reduced-motion-mode/) von Hugo Giraudel]
 Für Manche Nutzer bedeutet jede Animation, dass sich die Augen neu fokussieren müssen, Bei einigen können sogar gesundheitliche beschwerden wie Schwindel auftreten (vestibuläre Störungen). Besonders Effekte, bei denen sich mehrere Elemente in gegensätzliche Richtungen bewegen, wie Parallax-Scrolling können desorientierende Wirkung haben.^[Mehr Informationen zu möglichen gesundheitlichen Auswirkungen von Animation im Artikel [Designing Safer Web Animation For Motion Sensitivity](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) von Val Head]
 
 ::: md-container-standout
