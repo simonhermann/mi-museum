@@ -1,6 +1,9 @@
 # Regeln von Microinteractions
 
 Sobald eine Microinteraction initiiert wurde, wird eine Sequenz von Verhaltensmustern eingeleitet. Diese Regeln definieren, wie die Interaktion ablaufen wird und welche Funktion sie hat.
+Wichtigster Teil: Ziel der MI. In einfachen, klaren Worten definieren.
+Ziel sollte für nachvollziehbar und erreichbar sein.
+Dem Nutzer sollte also klar sein, _warum_ er etwas tut und dass er sein Ziel erreichen kann.
 
 ##### Regeln eines simplen Lichtschalters:
 
@@ -8,13 +11,14 @@ Sobald eine Microinteraction initiiert wurde, wird eine Sequenz von Verhaltensmu
 
 * Schalter auf _ein_ --> Licht _an_
 * Schalter auf _aus_ --> Licht _aus_
-  :::
+
+:::
 
 Die Regeln eines Lichtschalters bilden die wohl grundlegendendste Microinteraction ab. Sie lassen sich jedoch durch weitere Regeln ergänzen, ein Dimmer könnte die Helligkeit ändern, eine Zeitschaltuhr oder ein Bewegungssensor könnte das Licht automatisch an und aus schalten.
 
 ##### Beispiel für Regeln eines Lichtschalters mit Dimmer:
 
-::: md-container-standout 
+::: md-container-standout
 
 * Drehregler auf Stufe 0 --> Licht _aus_
 * Drehregler auf Stufe 1-9 --> Licht _an_
@@ -39,18 +43,17 @@ Nacht = Zwischen 18:00 und 08:00 Uhr
 * Licht ist an
 * Alle 5 Sekunden: überprüfe ob Bewegung erkannt
 * Wenn keine Bewegung erkannt für 10 Zyklen: wechsle zu Zustand A
-  :::
+
+:::
 
 Schon diese einfachen Regeln erfordern einige Konzentration in der Konzipierung. Beispielsweise darf die Einschränkung der Uhrzeit nicht in Zusand B Anwendung finden, hier könnte sie dazu führen, dass das Licht dauerhaft eingeschaltet bleibt, wenn die 10 Zyklen auf den Übergang zwischen Tag und Nacht fallen. Wenn man nun noch manuelle Schalter, Helligkeitssensoren oder mehrere Beleuchtungszonen einbezieht, werden die Regeln weitaus komplexer.
 
 > What you're trying to create with rules is a simplified, nontechnical model of how the microinteraction operates.
 > <cite>Dan Saffer</cite>
 
-Wichtigster Teil: Ziel der MI. In einfachen, klaren Worten definieren.
-Ziel sollte für nachvollziehbar und erreichbar sein.
-Dem Nutzer sollte also klar sein, *warum* er etwas tut und dass er sein Ziel erreichen kann.
-
 Bei der Definition von Regeln für Mikro-Interaktionen sollte möglichst auf dem Nutzer bereits bekannte Regeln zurückgegriffen werden.
+
+Wie beeinflussen 'statische' Informationen wie die eingestellte Sprache oder genutzter Browser können die Regeln?
 
 ### Regeln für Systemseitige trigger
 
@@ -71,9 +74,7 @@ OSX Save as
 > „Dinge, die anders gemacht werden, um einfach nur anders zu sein, sind selten besser, aber das, was gemacht wird, um besser zu sein, ist fast immer anders.”
 > <cite>Dieter Rams, 1993</cite>
 
-
 Regeln sind unsichtbar, ein Nutzer kann diese ausschlließlich durch die gegebene [Rückmeldung](/feedback) erlernen.
-
 
 ---
 
@@ -84,8 +85,8 @@ define what can and what ca not be done
 * sequence of actions and timing
 * what data is used and from where
 * config and parameters of algorythms
-* what *feedback* is delivered and when
+* what _feedback_ is delivered and when
 * when to shwitch modes
-* if the MI repeats and how often (*loops*)
+* if the MI repeats and how often (_loops_)
 * what happens when te MI ends
 * make a comment
