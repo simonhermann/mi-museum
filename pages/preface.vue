@@ -9,7 +9,7 @@
 import text01 from '~/content/1_2_vorwort.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
-import { setHighlightColor } from '~/content/pages.js'
+import { setPageHighlightColor } from '~/content/pages.js'
 export default {
   computed: {
     text01() {
@@ -20,7 +20,7 @@ export default {
     HtmlParser, nextPage
   },
   beforeMount() {
-    setHighlightColor()
+    setPageHighlightColor()
   },
   head() {
     return {

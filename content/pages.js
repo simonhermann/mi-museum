@@ -81,59 +81,64 @@ const defineColors = () => {
 defineColors()
 
 // function to create HSL color from every hue
-const colors = colorHues.map(i => 'hsl(' + i + ', 47%, 43%)')
+const colors = colorHues.map((i) => 'hsl(' + i + ', 47%, 43%)')
 
 // function to set css property --color-hightlight on :root element
-const setDocumentHighlightcolor = color => {
+const setDocumentHighlightcolor = (color) => {
   document.documentElement.style.setProperty('--the-color', color)
   console.log('🎨 ' + color + ' 🖌')
 }
 
-const setHighlightColor = () => {
+const setDocumentHighlightColorsFromArray = (index) => {
+  document.documentElement.style.setProperty('--the-color', colors[index])
+  document.documentElement.style.setProperty('--the-color2', colors[index + 1])
+}
+
+const setPageHighlightColor = () => {
   // TODO: refactor this, to grab index from page object
   switch ($nuxt.$route.fullPath) {
     case '/':
-      setDocumentHighlightcolor(colors[0])
+      setDocumentHighlightColorsFromArray(0)
       break
     case '/preface':
-      setDocumentHighlightcolor(colors[1])
+      setDocumentHighlightColorsFromArray(1)
       break
     case '/what-are-microinteractions':
-      setDocumentHighlightcolor(colors[2])
+      setDocumentHighlightColorsFromArray(2)
       break
     case '/triggers':
-      setDocumentHighlightcolor(colors[3])
+      setDocumentHighlightColorsFromArray(3)
       break
     case '/rules':
-      setDocumentHighlightcolor(colors[4])
+      setDocumentHighlightColorsFromArray(4)
       break
     case '/feedback':
-      setDocumentHighlightcolor(colors[5])
+      setDocumentHighlightColorsFromArray(5)
       break
     case '/loops-and-modes':
-      setDocumentHighlightcolor(colors[6])
+      setDocumentHighlightColorsFromArray(6)
       break
     case '/history':
-      setDocumentHighlightcolor(colors[7])
+      setDocumentHighlightColorsFromArray(7)
       break
     case '/skeuomorphism':
-      setDocumentHighlightcolor(colors[8])
+      setDocumentHighlightColorsFromArray(8)
       break
     case '/signature-moments':
-      setDocumentHighlightcolor(colors[9])
+      setDocumentHighlightColorsFromArray(9)
       break
     case '/animation-and-pace':
-      setDocumentHighlightcolor(colors[10])
+      setDocumentHighlightColorsFromArray(10)
       break
     case '/practical':
-      setDocumentHighlightcolor(colors[11])
+      setDocumentHighlightColorsFromArray(11)
       break
     case '/about':
-      setDocumentHighlightcolor(colors[12])
+      setDocumentHighlightColorsFromArray(12)
       break
     default:
       break
   }
 }
 
-export { theoryPages, practicePages, colors, setHighlightColor }
+export { theoryPages, practicePages, colors, setPageHighlightColor }

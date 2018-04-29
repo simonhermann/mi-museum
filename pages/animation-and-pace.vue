@@ -9,7 +9,7 @@
 import text01 from '~/content/4_3_animation.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
-import { setHighlightColor } from '~/content/pages.js'
+import { setPageHighlightColor } from '~/content/pages.js'
 
 export default {
   computed: {
@@ -21,7 +21,7 @@ export default {
     HtmlParser, nextPage
   },
   beforeMount() {
-    setHighlightColor(0)
+    setPageHighlightColor(0)
   },
   head() {
     return {

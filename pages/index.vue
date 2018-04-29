@@ -41,7 +41,7 @@
 //import tile from '~/components/obj/tile.vue'
 import HtmlParser from '~/components/HtmlParser.vue'
 import homegrid from '~/components/homegrid.vue'
-import { theoryPages, practicePages, setHighlightColor } from '~/content/pages.js'
+import { theoryPages, practicePages, setPageHighlightColor } from '~/content/pages.js'
 
 export default {
   data() {
@@ -75,7 +75,7 @@ export default {
     }
   },
   beforeMount() {
-    setHighlightColor(0)
+    setPageHighlightColor(0)
   },
 }
 </script>
