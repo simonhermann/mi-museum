@@ -34,6 +34,8 @@ Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
 
 http://microinteractions.com/downloads/Microinteractions_QuickRef.pdf
 
+https://uxplanet.org/an-introduction-to-interaction-flows-a4f783402529
+
 
 > Any darn fool can make something complex; it takes a genius to make something simple.
 > <cite>Pete Seeger^[goodreads.com](https://www.goodreads.com/quotes/295217-any-darn-fool-can-make-something-complex-it-takes-a)</cite>
