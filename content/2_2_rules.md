@@ -52,6 +52,10 @@ Dem Nutzer sollte also klar sein, *warum* er etwas tut und dass er sein Ziel err
 
 Bei der Definition von Regeln für Mikro-Interaktionen sollte möglichst auf dem Nutzer bereits bekannte Regeln zurückgegriffen werden.
 
+### Regeln für Systemseitige trigger
+
+XXXX 46
+
 ### Skeuomorphismus in Regeln
 
 Die Darstellung digitaler Interfaces mit Hilfe von skeuomorphistischen^[[Wikipedia: Skeuomorphismus](https://de.wikipedia.org/wiki/Skeuomorphismus)] Elementen hat in den letzen Jahren stark abgenommen, spätestens mit Einführung von iOS 7 durch Apple^[[Jony Ive Explains Why He Decided To Gut Skeuomorphism From iOS 7](https://www.cultofmac.com/246312/jony-ive-explains-why-he-decided-to-gut-skeuomorphism-out-of-ios/])] gelten visuelle Metaphern als verpönt XXXX.
@@ -61,6 +65,8 @@ Ganz anders jedoch hinsichtlich der Regeln von Microinteractions: hier wird vers
 
 iOS 11 Flugmodus
 ^[[Apples Flugmodus schaltet WLAN nicht immer ab - Golem.de](https://www.golem.de/news/neues-ios-11-2-apples-flugmodus-schaltet-wlan-nicht-immer-ab-1712-131582.html)]
+
+OSX Save as
 
 > „Dinge, die anders gemacht werden, um einfach nur anders zu sein, sind selten besser, aber das, was gemacht wird, um besser zu sein, ist fast immer anders.”
 > <cite>Dieter Rams, 1993</cite>

@@ -21,6 +21,10 @@ Wenn Nutzer mit einem Produkt in Berührung kommen, tun sie das oft zuerst über
 _Unsichtbare Trigger_ sind haufig Bestandteil von Touchscreens und Gestensteuerung. Diese funktionieren oft am besten, wenn damit direkt Inhalte manipuliert werden, wie zum Beispiel die Zwei-Finger-Zoom-Geste zur Kontrolle des Zoomgrades eines Bildes. Da keine visuellen Hisweise bei der Auffindbarkeit dieser helfen, müssen sie immer erlernt werden, um effektiv genutzt werden zu können. Aus diesem Grund sollte soweit Möglich auf Konventionen zurückgegriffen werden.
 Tastenkürzel sind ebenfalls eine häufige Form von unsichtbarem Trigger, einmal erlernt, ermöglichen sie aber ein äußerst zeiteffektives Arbeiten. Die "Speichern unter"-Microinteraction sorgte bei Veröffentlichung von OSX 10.7 für einiges Aufsehen, da diese geläufige Funktion scheinbar verschwunden war. Mit Version 10.8 wurde sie als unsichtbarer Trigger durch ein neues (Vier-)Tastenkürzel wieder verfügbar gemacht.^[[Get Save As back on Mountain Lion's File menu easily and without hacks](https://www.engadget.com/2012/07/29/get-save-as-back-on-mountain-lions-file-menu-easily-and-without/)] 
 
+un'sichtbar': Voice input
+
+vermeiden bei wichtige Interaktonen
+
 <!-- Bring the data forward -->
 
 <figure class="content-thin">
@@ -41,10 +45,17 @@ Durch kontinuierliches [Feedback](/feedback) zum aktuellen Verlauf einer Geste k
 ### Systemseitige Trigger
 
 Systemseitige Auslöser entstehen durch ein Ereignis des Gerätes. Ein Trigger bei eingehender Nachricht auf dem Handy könnte durch Ton, Vibration und eine Benachrichtigung auf dem Bildschirm angezeigt werden – in diesem Fall führen sie zur Interaktion des Öffnens der Nachricht.
-Ein Trigger dieser Art könnte auch eine festgelegte Uhrzeit, ein bestimmter Ort sein oder eine Statusleuchte sein. Der Warnton einer Industriellen Maschine könnte auf Überhitzung hinweisen und die Einblendung einer Augmented-Reality-Brille könnte auf Sehenswürdigkeiten aufmerksam machen.
-Eine Integration mit dem Kalender des Nutzers könnte dessen Mobiltelefon nachts oder wenn dieser sich in einem Meeting befindet automatisch stumm schalten. Der Trend zur Automatisierung nimmt rapide zu und von _Künstlicher Intelligenz_ gesteuerte _persönliche Assistenten_ übernehmen immer mehr Entscheidungen, die vorher der Nutzer selbst getroffen hat.
+Ein Trigger dieser Art könnte auch eine festgelegte Uhrzeit, ein bestimmter Ort sein oder eine Statusleuchte sein. Der Warnton einer Industriellen Maschine könnte auf Überhitzung hinweisen und die Einblendung einer Augmented-Reality-Brille könnte auf Sehenswürdigkeiten aufmerksam machen. Eine Integration mit dem Kalender des Nutzers könnte dessen Mobiltelefon nachts oder wenn dieser sich in einem Meeting befindet automatisch stumm schalten. Häufige Ereignisse für Systemtrigger sind:
+
+- empfangene Daten von anderen Systemen oder Menschen, z. B. Chatnachricht
+- interne Algorithmen, z. B. Wecker
+- Sensordaten z. B. von GPS- oder Helligkeitssensor, Akkustand oder Empfangsstärke
+- Fehler, die für Nutzer relevant sind und deren Eingabe erfordern
+- andere Microinteractions
+
+Der Trend zur Automatisierung nimmt rapide zu und von _Künstlicher Intelligenz_ gesteuerte _persönliche Assistenten_ übernehmen immer mehr Entscheidungen, die vorher der Nutzer selbst getroffen hat.
 Je nach Betrachtungsweise kann ein App-Icon bereits als visueller Trigger angesehen werden, der das Bedürfnis diese zu öffnen auslöst. Es empfiehlt sich jedoch, abzugrenzen zwischen einem unveränderlichen Element (z. B. Icon) und einem durch gewisse Ereignisse _veränderten Status_ und damit einhergehende _Adaption des Interfaces_ (z. B. Indikator für neue Nachricht).
-Wie auch bei nutzerseitigen Auslösern, können unterschiedliche Systemtrigger natürlich zur selben Interaktion führen. Bei wichtigen Eignissen sollten _redundante systemseitige Trigger_ über verschiedene Kanäle genutzt werden. Ein eingehender Anruf wird beispielsweise meist durch Ton, Vibration und visuelle Hinweise gleichzeitig signalisiert, um sicherzustellen, dass dieser in verschiedensten Situationen wahrgenommen werden kann.
+Wie auch bei nutzerseitigen Auslösern, können unterschiedliche Systemtrigger natürlich zur selben Interaktion führen. Bei wichtigen Eignissen sollten _redundante systemseitige Trigger_ über verschiedene Kanäle genutzt werden. Ein eingehender Anruf wird beispielsweise meist durch Ton, Vibration und visuelle Hinweise gleichzeitig signalisiert, um sicherzustellen, dass dieser in verschiedensten Situationen wahrgenommen werden kann. Systemseitige Trigger sind nicht unter Kontrolle des Nutzers und Unterbrechungen dessen, dieser gerade tut, daher sollte gegebenenfalls die Möglichkeit gegeben werden, diese anzupassen oder abzuschalten.
 
 <figure class="content-thin">
     <img data-src="/images/triggers/incoming-call.gif">
