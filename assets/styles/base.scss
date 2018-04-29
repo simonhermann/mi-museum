@@ -134,24 +134,37 @@ section > p * {
 }
 
 ol {
-  padding-left: 2rem;
+  padding: 0;
+  padding-left: 1rem;
 }
 
 ul:not(.nav-ul) {
   list-style: none;
+  position: relative;
+  padding: 0;
   li {
-    padding-left: 1em;
-    text-indent: -0.75em;
+    padding-left: 1.5em;
   }
 
-  li::before {
+  li:before {
+    position: absolute;
     content: '›';
     font-weight: bold;
     color: var(--the-color);
-    display: inline-block;
-    width: 0.5em;
-    margin-left: -1em;
+    left: 0.5em;
   }
+  // li {
+  //   padding-left: 1em;
+  //   text-indent: -0.75em;
+  // }
+
+  // li::before {
+  //   content: '›';
+  //   color: var(--the-color);
+  //   display: inline-block;
+  //   width: 0.5em;
+  //   margin-left: -1em;
+  // }
 }
 
 pre,
