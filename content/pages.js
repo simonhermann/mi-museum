@@ -91,7 +91,7 @@ const setDocumentHighlightcolor = (color) => {
 
 const setDocumentHighlightColorsFromArray = (index) => {
   document.documentElement.style.setProperty('--the-color', colors[index])
-  document.documentElement.style.setProperty('--the-color2', colors[index + 1])
+  document.documentElement.style.setProperty('--next-color', colors[index + 1])
 }
 
 const setPageHighlightColor = () => {

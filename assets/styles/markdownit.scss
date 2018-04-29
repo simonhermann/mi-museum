@@ -21,8 +21,8 @@
 .md-container-more {
   @extend .ext-md-container;
   background: var(--grey-light);
-  border: 1px dashed var(--grey-mid);
-  font-size: var(--font-size-small);
+  //border: 1px dashed var(--grey-mid);
+  //font-size: var(--font-size-small);
 }
 
 // Footnotes
@@ -45,14 +45,15 @@
 }
 .footnotes {
   @extend .ext-md-container;
-  background: var(--grey-light);
-  border: 1px dashed var(--grey-mid);
-  font-size: var(--font-size-small);
+  //background: var(--grey-light);
+  //border: 1px dashed var(--grey-mid);
   &::before {
-    @extend h3;
+    //@extend h3;
+    font-weight: bold;
     margin-top: 0;
     content: 'Einzelnachweise';
     display: inline-block;
+    font-size: var(--font-size-small);
   }
   // &.footnotes--hidden {
   //   &::before {
@@ -62,7 +63,10 @@
   //     display: none;
   //   }
   // }
+  // &-list {
+  // }
   .footnote-item {
+    font-size: var(--font-size-small);
     padding-left: 0.5em;
     p {
       margin: 0;
@@ -101,7 +105,7 @@
       position: absolute;
       margin-left: 0.6em;
       content: ' zur\FC' 'ck zum Text';
-      background-color: var(--grey-light);
+      //background-color: var(--grey-light);
       // webpack or sass or something else behaves weird and inserts a space afer 'ü'. this hack solves it...
       //content: 'zurück'; // is converted to 'zur\FC ck' and redered as 'zurü ck'
     }
