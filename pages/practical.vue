@@ -7,7 +7,7 @@
 <script>
 import text01 from '~/content/5_1_praxis.md'
 import HtmlParser from '~/components/HtmlParser.vue';
-import { setPageHighlightColor } from '~/content/pages.js'
+import { setColorsForPage } from '~/content/pages.js'
 
 export default {
   computed: {
@@ -19,7 +19,7 @@ export default {
     HtmlParser
   },
   beforeMount() {
-    setPageHighlightColor(0)
+    setColorsForPage(0)
   },
   head() {
     return {

@@ -23,7 +23,7 @@
 import text01 from '~/content/4_2_signature-moments.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue'
-import { setPageHighlightColor } from '~/content/pages.js'
+import { setColorsForPage } from '~/content/pages.js'
 
 export default {
   computed: {
@@ -36,7 +36,7 @@ export default {
     nextPage,
   },
   beforeMount() {
-    setPageHighlightColor(0)
+    setColorsForPage(0)
   },
   head() {
     return {

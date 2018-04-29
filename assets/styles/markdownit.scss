@@ -16,12 +16,11 @@
 }
 .md-container-standout {
   @extend .ext-md-container;
-  background: var(--grey-light);
+  background: var(--the-color-trans);
 }
 .md-container-more {
   @extend .ext-md-container;
-  background: var(--grey-light);
-  //border: 1px dashed var(--grey-mid);
+  background: var(--the-color-trans);
 }
 
 // Footnotes

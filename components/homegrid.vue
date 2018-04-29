@@ -21,7 +21,7 @@ export default {
     },
     getInnerStyles(i) {
       //var itemColor = 'background-color:' + colors[i + 1] + ';'
-      var itemColor = 'background: linear-gradient(135deg,' + colors[i + 1] + '0%,' + colors[i + 2] + '100%;'
+      var itemColor = 'background-image: linear-gradient(135deg,' + colors[i + 1] + '0%,' + colors[i + 2] + '100%;'
       var innerStyles = itemColor
       return innerStyles
     },
@@ -92,7 +92,7 @@ export default {
     }
 
     .item__inner {
-      background-color: #276d36;
+      background-color: var(--the-color);
       color: #fff;
       text-decoration-color: #fff;
       border-radius: 0;

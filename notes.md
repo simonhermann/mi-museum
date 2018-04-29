@@ -42,7 +42,7 @@
   * [ ] https://justmarkup.com/log/2018/02/gifhancement/
   * [ ] https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4
   * [ ] https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/
-* [ ] refactor setPageHighlightColor to grab corresponding color for page automatically from page object
+* [ ] refactor setColorsForPage to grab corresponding color for page automatically from page object
 * [ ] svg path traced image placeholders https://jmperezperez.com/svg-placeholders/ https://github.com/EmilTholin/image-trace-loader
 * [ ] better img lazyloader: https://github.com/aFarkas/lazysizes
 * [ ] better no-js handling

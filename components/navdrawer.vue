@@ -17,9 +17,9 @@
 
       <div class="toplink" v-on:click="scrollToTop"></div>
 
-      <v-toolbar-title class="right">
+      <!-- <v-toolbar-title class="right">
         <nuxt-link to="/">Microinteractions</nuxt-link>
-      </v-toolbar-title>
+      </v-toolbar-title> -->
 
     </v-toolbar>
 
@@ -89,7 +89,7 @@
     background-color: #fff !important;
   }
   .btn-closemenu {
-    margin-left:-1em
+    margin-left: -1em;
   }
   .btn-closemenu__icon {
     color: inherit;
@@ -164,7 +164,6 @@
  * Toolbar
 */
 .toolbar {
-  //background-color: rgba(245, 245, 245, 1);
   background-color: transparent !important; //vuetify hack
   padding-top: 0.5rem !important; //vuetify hack
   box-shadow: none !important;
@@ -178,7 +177,7 @@
   @media print {
     display: none;
   }
-  &::before {
+  /*&::before {
     content: '';
     position: absolute;
     top: var(--body-border-width);
@@ -188,7 +187,7 @@
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
     background: var(--white-bg);
-  }
+  }*/
   &__content {
     position: relative;
     background-color: inherit;
@@ -200,6 +199,25 @@
       transition: opacity 150ms ease-out;
       &.transparent {
         opacity: 0;
+      }
+      .btn__content::after {
+        content: '';
+        z-index: -1;
+        background-color: var(--white-bg);
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin-left: -0.1rem;
+        margin-top: -0.0325rem;
+        border-radius: 1.1rem;
+        height: 100%;
+        width: 100%;
+        @include mq-sm {
+          // when label is visible:
+          border-radius: 0.5rem;
+          left: -0.3rem;
+          width: 5.3rem;
+        }
       }
       &__icon {
         color: inherit;
@@ -214,7 +232,7 @@
         font-size: 1rem;
         position: absolute;
         left: 0;
-        margin-top: -0.08em;
+        margin-top: -0.085em;
         margin-left: 2em;
         text-transform: none;
         transition: transform 200ms var(--transition-curve1);
@@ -233,7 +251,7 @@
       }
     }
   }
-  &__title {
+  /*&__title {
     color: inherit; // vuetify hack XXXX
     margin-right: 1.75rem !important; // vuetify hack XXXX
     overflow: visible;
@@ -242,24 +260,26 @@
       text-decoration: none;
       color: inherit; // vuetify hack XXXX
       &.nuxt-link-exact-active {
-        display: none;
+        //visibility: hidden;
       }
     }
     @include mq-md {
-      display: none;
+      //display: none;
     }
-  }
+  }*/
   .toplink {
     flex-grow: 1;
     height: 2rem;
-    max-width: 18rem;
+    margin-left: 3rem;
     border-radius: 1rem;
     display: block;
     position: relative;
-    &:active {
+    &:active,
+    &:hover {
       background: var(--grey-vlight);
       &::after {
         content: '⤒';
+        color: var(--the-color);
         font-size: 1.3rem;
         position: absolute;
         top: 50%;

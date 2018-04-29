@@ -10,8 +10,8 @@ html {
   overflow-y: scroll;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
-  //background-color: var(--the-color);
-  background: linear-gradient(135deg, var(--the-color) 0%, var(--next-color) 100%);
+  background-color: var(--next-color); // for nice overflow scrolling
+  background-image: linear-gradient(135deg, var(--the-color) 0%, var(--next-color) 100%);
   transition: background-color 1s ease-out;
 
   &:not(.app-mounted) {
