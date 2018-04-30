@@ -24,7 +24,7 @@ Da Microinteractions sehr unterschiedlich sein können, werden sich auch deren B
 
 Regeln sind unsichtbar, ein Nutzer kann diese ausschlließlich durch die gegebene [Rückmeldung](/feedback) erlernen. Nicht immer sind Regeln in ihrer Gänze für Nutzer erschließbar, häufig unterscheidet sich wie ein Nutzer _glaubt_ funktioniere etwas deutlich von dem wie es tatsächlich funktioniert. Bei der Konzipierung sollte daher möglichst auf dem Nutzer bereits bekannte Regeln aufgebaut werden.
 
-Wie beeinflussen 'statische' Informationen wie die eingestellte Sprache oder genutzter Browser können die Regeln?
+
 
 
 
@@ -57,6 +57,15 @@ Nacht = Zwischen 18:00 und 08:00 Uhr
 
 Schon diese einfachen Regeln erfordern einigen Aufwand in Konzeption und Implementierung. Beispielsweise darf die Einschränkung der Uhrzeit nicht in Zusand B Anwendung finden, hier könnte sie dazu führen, dass das Licht dauerhaft eingeschaltet bleibt, wenn die 10 Zyklen auf den Übergang zwischen Tag und Nacht fallen. Wenn man nun noch manuelle Schalter, Helligkeitssensoren oder mehrere Beleuchtungszonen einbezieht, werden die Regeln weitaus komplexer.
 
+Larry Tesler, bereits [angesprochener](/history) Erfinder von der heute üblichen Copy&Paste-Microinteraction formulierte das 'Gesetz der Erhaltung von Komplexität', das besagt, dass für jedes System ein gewisses Maß an Komplexität besteht, das nicht weiter Rediziert werden kann[Lawsofux.com: Tesler's Law](https://lawsofux.com/teslers-law). 
+Um die Komplexität für einen Nutzer dennoch weiter zu reduzieren, können ihm Entscheidungen vom Gerät abgenommen werden. Damit einher geht jedoch auch die Kontrolle des Nutzers verloren. 
+Ein Interface nötige Eingaben reduzieren, in dem das Nutzeraktionen vorhergesehen werden und wahrscheinliche Schritte automatisch ausgeführt werden. Google zeigt beispielsweise schon Ergebnisse an, bevor diese mit <kbd>Enter</kbd> bestätigt wurde. 
+
+Die Benutzung einer Microinteraction sollte möglichst einfach gehalten werden, dies kann teilweise durch auch intelligente Voreinstellungen erreicht werden. So wird Komplexität reduziert ohne Nutzern komplett die Kontrolle zu nehmen. Die Balance zwischen möglicher Kontrolle durch den Nutzer und Einfachheit ist stark abhängig von Produkt und Nutzergruppe. Beispiel für ein 'smart default' wäre etwa die automatische Auswahl des Landes in einem Formular, basierend auf dem Standort des Nutzers.
+
+
+Wird oft als Komfortfunktion wahrgenommen
+
 <figure class="content-thin">
   <img data-src="/images/rules/flowchart.jpg">
   <figcaption>
@@ -66,16 +75,14 @@ Schon diese einfachen Regeln erfordern einigen Aufwand in Konzeption und Impleme
 </figure>
 
 
+
+
 iOS 11 Flugmodus
 ^[[Apples Flugmodus schaltet WLAN nicht immer ab - Golem.de](https://www.golem.de/news/neues-ios-11-2-apples-flugmodus-schaltet-wlan-nicht-immer-ab-1712-131582.html)]
 
 OSX Save as
 
 
-
-### Regeln für Systemseitige trigger
-
-XXXX 46
 
 ### Skeuomorphismus in Regeln
 
@@ -84,4 +91,17 @@ Ganz anders jedoch hinsichtlich der Regeln von Microinteractions: hier wird vers
 
 > „Dinge, die anders gemacht werden, um einfach nur anders zu sein, sind selten besser, aber das, was gemacht wird, um besser zu sein, ist fast immer anders.”
 > <cite>Dieter Rams, 1993</cite>
+
+
+### Definitiv unvollständige Checkliste für die Gestaltung von Regeln:
+
+* Welche Regeln gelten für [systemseitige Trigger](/triggers)? Unter welchen Bedingugen werden sie ausgelöst?
+* Welche Eingabemöglichkeiten nutzt das Interface und wie werden Eingaben interpretiert?
+* Welche Begrenzungen haben Eingabemöglichkeiten? z. B. im Eingabefeld für Kreditkartennummer können nur Zahlen eingegeben werden
+* Welche Ausgabemöglichkeiten nutzt das Interface?
+* Welche Daten stehen zur Verfügung und wie werden sie genutzt?
+* Wie beeinflussen 'statische' Informationen wie die eingestellte Sprache oder genutzter Browser können die Regeln?
+* Welche Status können Interface-Elemente einnehmen? (initial, aktiv, verändert, ..)
+* Können sich Regeln gegenseitig beeinflussen? Gibt es Prioritäten, also höhere Wichtigkeit mancher Regeln?
+* Sind die Regeln technisch umsetzbar? Ist der Aufwand angemessen? 
 
