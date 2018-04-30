@@ -67,7 +67,7 @@ Schon diese einfachen Regeln erfordern einigen Aufwand in Konzeption und Impleme
 
 Larry Tesler, [Erfinder](/history) der heute üblichen Copy&Paste-Microinteraction formulierte das 'Gesetz der Erhaltung von Komplexität', das besagt, dass für jedes System ein gewisses Maß an Komplexität besteht, das nicht weiter Reduziert werden kann[Lawsofux.com: Tesler's Law](https://lawsofux.com/teslers-law). 
 Um die Komplexität für einen Nutzer dennoch weiter zu reduzieren, können ihm Entscheidungen vom Gerät abgenommen werden. Damit einher geht jedoch auch die Kontrolle des Nutzers verloren. 
-Ein Interface nötige Eingaben reduzieren, in dem das Nutzeraktionen vorhergesehen werden und wahrscheinliche Schritte automatisch ausgeführt werden. Die Google-Suche zeigt beispielsweise schon Ergebnisse an, bevor die Eingabe mit <kbd>Enter</kbd> bestätigt wurde. 
+Ein Interface nötige Eingaben reduzieren, in dem das Nutzeraktionen vorhergesehen werden und wahrscheinliche Schritte automatisch ausgeführt werden. Die Google-Suche zeigt beispielsweise schon Ergebnisse an, bevor die Eingabe mit <kbd>⏎</kbd> bestätigt wurde. 
 Die Benutzung einer Microinteraction sollte möglichst einfach gehalten werden, dies kann teilweise durch auch intelligente Voreinstellungen erreicht werden. So wird Komplexität reduziert ohne Nutzern komplett die Kontrolle zu nehmen. Die Balance zwischen möglicher Kontrolle durch den Nutzer und Einfachheit ist stark abhängig von Produkt und Nutzergruppe. Beispiel für ein 'smart default' wäre etwa die automatische Auswahl des Landes in einem Formular, basierend auf dem Standort des Nutzers. 
 
 <figure class="content-thin">

@@ -18,7 +18,7 @@ XXXX
 * ein nutzerrelevanter Prozess endet (z. B. Download abgeschlossen)
 * wenn sich der [Modus](/loops-and-modes) einer Microinteraction ändert
 
-In einigen fällen kann es dagegen besser sein, dem Nutzer keinerlei Feedback zu geben. Wenn zum Beispiel im Hintergrund (durch einen unsichtbaren, systembasierten [Trigger](/triggers)) überprüft wird, ob neue E-Mails eingetroffen sind, sollte nur Rückmeldung stattfinden, **wenn tatsächlich ein relevantes Ereignis stattfindet**, in diesem Fall das Vorhandensein neuer Nachrichten. In allen anderen Fällen, wenn es also keine neuen E-Mails gibt, ist es nicht nötig, dies dem Nutzer jedes mal explizit mitzuteilen.
+In einigen fällen kann es dagegen besser sein, dem Nutzer keinerlei Feedback zu geben. Wenn zum Beispiel im Hintergrund (durch einen versteckten, systembasierten [Trigger](/triggers)) überprüft wird, ob neue E-Mails eingetroffen sind, sollte nur Rückmeldung stattfinden, **wenn tatsächlich ein relevantes Ereignis stattfindet**, in diesem Fall das Vorhandensein neuer Nachrichten. In allen anderen Fällen, wenn es also keine neuen E-Mails gibt, ist es nicht nötig, dies dem Nutzer jedes mal explizit mitzuteilen.
 
 ### Unmittelbarkeit
 
@@ -138,7 +138,7 @@ Eine Herausforderung für Designer wird sein, Interfaces mit der [Automatisierun
 
 ### Sehens-, hörens- und lesenswert zum Thema Feedback
 
-* Kapitel _Feedback_ im Buch: Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [www.microinteractions.com](http://microinteractions.com/)
+* Kapitel _Feedback_ im Buch: Saffer, Dan: Microinteractions - Designing with Details (S. 83 - 107), O'Riley Media, Sebastopol CA, 2013, [www.microinteractions.com](http://microinteractions.com/)
 * Artikel: [Getting Practical With Microcopy](https://www.smashingmagazine.com/2016/07/getting-practical-with-microcopy/) von Rade Brujić
 * Artikel: [Systems smart enough to know when they're not smart enough](https://bigmedium.com/ideas/systems-smart-enough-to-know-theyre-not-smart-enough.html) von Josh Clark
 * Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von Ilya Birman

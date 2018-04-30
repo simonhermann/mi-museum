@@ -101,6 +101,8 @@
 used special chars / arrows:
 ⇵ ↩︎ ⤴ ⤒
 »«›‹
+⏎
+* †
 
 ---
 ---
