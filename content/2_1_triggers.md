@@ -88,7 +88,7 @@ XXXX -->
 
 ::: md-container-more
 
-### Links
+### Weiterführende Links
 
 * Experimente zum Fitts'sches Gesetz selbst ausprobieren: [An Interactive Visualisation of Fitts's Law with JavaScript and D3](http://simonwallner.at/ext/fitts/)
 * Mehr "Gesetze" des UX-Design: [lawsofux.com](https://lawsofux.com/)

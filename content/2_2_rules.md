@@ -6,7 +6,7 @@ Nutzer sollten Regeln nicht kennen oder mühevoll lernen müssen um interagieren
 > What you're trying to create with rules is a simplified, nontechnical model of how the microinteraction operates.
 > <cite>Dan Saffer^[Saffer, Dan: Microinteractions - Designing with Details (S. 52), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]</cite>
 
-Bevor Regeln erarbeitet werden, sollte das _Ziel_ der Microinteraction klar definiert werden. Das Ziel eines Login-Formulars ist nicht die Eingabe von Benutzername und Passwort, sondern die Anmeldung des Nutzers. Ein Ziel sollte für Nutzer immer _nachvollziehbar_ ("Ich weiß warum ich das tue") und erreichbar ("Ich weiß, das ich es tun kann") sein.^[vgl. Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
+Bevor Regeln erarbeitet werden, sollte das _Ziel_ der Microinteraction klar definiert werden. Das Ziel eines Login-Formulars ist nicht die Eingabe von Benutzername und Passwort, sondern die Anmeldung des Nutzers. Ein Ziel sollte für Nutzer immer _nachvollziehbar_ ("Ich weiß warum ich das tue") und erreichbar ("Ich weiß, das ich es tun kann") sein.^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 52f), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
 
 Es empfiehlt sich, zwischen zwei Arten von Regelnwerken zu unterscheiden: Das _komplette Regelwerk_ besteht sämtlichen zur Implementierung nötige Details. Während das _einfache Regelwerk_ ein simplifiziertes Modell der direkt nutzerrelevanten Regeln beinhaltet. Ersteres deckt Sonderfälle ab, wie Einhaltung von Konventionen verschiedener Betriebssysteme oder Adaptionen an verschiedene Bildschirmgrößen und kann technische Details beinhalten, wie z. B. "Auslöseschwelle bei 50% der Bildschirmbreite, jedoch maximal 150dp".
 Generell sollten Regeln möglichst leicht verständlich sein, dies ermöglicht nicht nur eine bessere Nutzererfahrung, sondern auch die reibungslose Zusammenarbeit bei der Entwicklung. Ersteres beschreibt die Komplexität der technischen Ausführung, zweiteres die gefühlte Komplexität für Nutzer.
@@ -78,13 +78,11 @@ Die Benutzung einer Microinteraction sollte möglichst einfach gehalten werden, 
   </figcaption>
 </figure>
 
-
-Automatisierung Komfortfunktion wahrgenommen
-
-
-iOS 11 Flugmodus^[[Apples Flugmodus schaltet WLAN nicht immer ab - Golem.de](https://www.golem.de/news/neues-ios-11-2-apples-flugmodus-schaltet-wlan-nicht-immer-ab-1712-131582.html)]
-
-OSX Save as
+Hersteller versuchen oft, mehr Komfort durch mehr Automatisierung zu schaffen. Doch wenn dadurch mit bekannten Regeln gebrochen wird, kann dies schnell zum Unmut der Nutzer führen. So mehrfach geschehen bei Apple: Mit OS X 10.7 wurden mit Einfuhrung des automatischen Speichern von Dateien die Regeln so sehr geändert, dass Nutzer äußerst verwirrt waren und sogar Daten verloren gingen.^[Regeln von 'Speichern unter' in OSX 10.7 nachzulesen in: Saffer, Dan: Microinteractions - Designing with Details (S. 49ff), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
+Mit iOS 11.2 hat hat Apple Ende 2017 die Regeln der Wifi-, Blothooth- und 'Flugmodus'-Schnelleinstellungen verändert. Bisher schaltete der Flugmodus sämtliche Funkverbindungen ab und lies diese ausgeschaltet, bis sie manuell wieder aktiviert wurden. Die Wifi- und Bluetooth-Buttons verhielten sich ähnlich. 
+Die neuen Regeln sind nicht komplett druchschaubar, aber nun kann unter Umständen WLAN oder Bluetooth im Flugmodus angeschaltet bleiben. Außerdem deaktiviert dieser sich nachts um Mitternacht von selbst.^[[Neues in iOS 11.2 - Apples Flugmodus schaltet WLAN nicht immer ab - Golem.de](https://www.golem.de/news/neues-ios-11-2-apples-flugmodus-schaltet-wlan-nicht-immer-ab-1712-131582.html)] Das 'Ausschalten' von Wifi bzw. Bluetooth bewirkt nicht wirklich eine Abschaltung, sondern deaktiviert nur einige Funktionen – Verbindungen zu Apple Watch oder die Dateiübertragung per Airdrop funktionieren weiterhin, obwohl diese bei abgeschaltetem Wifi/Bluetooth technisch nicht möglich sein sollten.
+Zudem ist das [Feedback](/feedback) an Nutzer inkonsistent: abgeschaltete Funktionen werden teilweise durch ein grauen Hintergrund, teilweise durch ein druchgestriches Symbol angezeigt.^[[Apple iOS 11.2 - Wer WLAN und Bluetooth abschaltet, benutzt es weiter - Golem.de](https://www.golem.de/news/apple-ios-11-wer-wlan-und-bluetooth-abschaltet-benutzt-es-weiter-1709-130177.html)]^[[Wi-Fi, Bluetooth, And Airplane Mode Controls Are A Confusing Mess In iOS 11 - Forbes.com](https://www.forbes.com/sites/anthonykarcz/2017/09/22/wi-fi-bluetooth-and-airplane-mode-controls-are-a-confusing-mess-in-ios-11/)]
+Vorhandene Regeln können (mit Bedacht) geändet werden, doch je grundlegener eine Interaktion, desto wahrscheinlicher ist es, damit Nutzer zu verärgern. Im Fall von Apple kam beide male hinzu, dass die neuen Regen nicht klar kommuniziert wurden und daher Nutzer verwirrten.
 
 
 > „Dinge, die anders gemacht werden, um einfach nur anders zu sein, sind selten besser, aber das, was gemacht wird, um besser zu sein, ist fast immer anders.”
@@ -101,6 +99,7 @@ OSX Save as
 * Wie beeinflussen 'statische' Informationen wie die eingestellte Sprache oder genutzter Browser können die Regeln?
 * Welche Status können Interface-Elemente einnehmen? (initial, aktiv, verändert, ..)
 * Können sich Regeln gegenseitig beeinflussen? Gibt es Prioritäten, also höhere Wichtigkeit mancher Regeln?
+* Werden Regeln geändert oder könnten als geänderte Regeln wahrgenommen werden? Wie kann der Übergang zu neuen Regeln möglichst Reibungslos ablaufen?
 * Sind die Regeln technisch umsetzbar? Ist der Aufwand angemessen? 
 * Kann das Ziel auch auf andere Weise erreicht werden?
 

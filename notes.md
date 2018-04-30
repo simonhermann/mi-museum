@@ -4,6 +4,7 @@
 
 * [ ] Bill DeRouchy - History of the Button
 * [ ] aus Pocket
+* [ ] Seiten in Buchquellen
 * [ ] Icons für Trigger/Rules/usw
 * [ ] re-order homegrid
 * [ ] replace md standout by mark?

@@ -123,6 +123,13 @@
     @include underline-color-fallback;
     transition: all 300ms var(--transition-curve1);
     color: inherit; // vuetify hack XXXX
+    &.nuxt-link-active {
+      color: var(--the-color);
+      //text-decoration-color: currentColor;
+      &::before {
+        color: inherit;
+      }
+    }
     &::before {
       content: '›';
       color: transparent;
@@ -141,19 +148,10 @@
       }
     }
   }
-  .nuxt-link-exact-active {
-  }
 
   .nav-ul {
     list-style: none;
     line-height: 2em;
-  }
-  .nuxt-link-exact-active {
-    color: var(--the-color);
-    //text-decoration-color: currentColor;
-    &::before {
-      color: inherit;
-    }
   }
   .secondary-links {
     line-height: 2em;
