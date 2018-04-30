@@ -181,18 +181,16 @@ Der _Xerox 8010_, genannt _Star_ war das erste kommerzielle System, das verschie
 ### Apple Lisa und Apple Macintosh
 
 Der Apple Macintosh, als erster kommerziell erfolgreicher Computer mit Grafischer Benutzeroberfläche hat eine neue Ära des Desktop-Publishing eingeleitet. Das Paradigma des _WYSIWYG_ – _what you see is what you get_ macht es zusammen mit erschwingbaren Laserdruckern für jedermann möglich, professionell aussehende Dokumente digital zu erzeugen und auszudrucken. Die Maus wird von nun an Standardeingabegerät und die Bedienung immer komfortabler.
+<!-- XXXX -->
 
-<!-- Das jahrelange Festhalten an der Apples an der Ein-Tasten-Maus XXXX
-
-Erste Touch-Screens '82:[https://youtu.be/JAcZpQCLb4E]
+<!-- Erste Touch-Screens '82:[https://youtu.be/JAcZpQCLb4E]
 Stylus/Lichtgriffel: https://youtu.be/r18i-uR6BD4, https://youtu.be/1EWQYAfuMYw?t=21m48s -->
 
 <!-- XXXX Fazit Phase 3 -->
 
 ## Phase 4: NUI – Microinteractions in Post-WIMP / SILK / Natural User Interfaces
 
-Seit Anbeginn der grafischen Benutzeroberflächen verwenden wir Buttons. Die ursprüngliche Benutzeroberfläche von Xerox PARC ist 44 Jahre alt, aber unsere Benutzeroberflächen sehen trotzdem noch verblüffend ähnlich aus. Obwohl sich Buttons im Einklang mit aktuellen Trends und Technologien entwickelt haben, ist ihr Ursprung zweifellos inspiriert durch reale Objekte der Vergangenheit.
-Warum halten wir daran fest, Interaktionsformen zu entwickeln, die auf den bekannten Objekten basieren, die uns umgeben? Die Form eines digitalen Knopfes ist nach wie vor an Werkzeugen und Mechanismen angelehnt, die wir im 19. Jahrhundert entwickelt haben.
+
 [https://www.toptal.com/designers/ui/future-ui-design-without-buttons]
 
 John Underkoffer: Future (of tangible) UI https://youtu.be/b6YTQJVzwlI
@@ -212,14 +210,6 @@ http://rosenfeldmedia.com/wp-content/uploads/2014/11/Make-It-So-Excerpt.pdf
 </figure>
 
 * BMW Vision Next100 https://youtu.be/ztfVoGqW5VU
-
-**Simplizität vs .Komplexität**
-
-99pi 170+171: automation paradox:
-Fly by wire system. Air France 447.
-Automation acomodates incompetence, it is designed to do that.
-Automation -> erosion of skills -> more automation.
-Better: human centred automation. Make it a team player
 
 <!-- XXXX Fazit Phase 4 -->
 <!-- XXXX Fazit Historie -->

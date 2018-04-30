@@ -1,7 +1,9 @@
 # Skeumorphismus in Microinteractions
 
-In der Vergangenheit haben sich Designer bei der Gestaltung von Interaktionen gerne auf skeuomorphistische Darstellungsweisen und Muster und verlassen, bei dem es sich um sehr naturgetreue Nachbildungen aus dem wirklichen Leben handelt^[vgl. [Wikipedia: Skeuomorphismus](https://de.wikipedia.org/wiki/Skeuomorphismus)].
-Ein Digitaler Schalter sah genau aus wie sein physisches Vorbild und verhielt sich auch so. Die Nutzung von skeuomorphistischen Elementen hat in den letzen Jahren stark abgenommen, spätestens mit Einführung von iOS 7 Mitte 2013 durch Apple^[[Jony Ive Explains Why He Decided To Gut Skeuomorphism From iOS 7](https://www.cultofmac.com/246312/jony-ive-explains-why-he-decided-to-gut-skeuomorphism-out-of-ios/])] gelten visuelle Metaphern als unzeitgemäß.
+Seit Anbeginn der grafischen Benutzeroberflächen verwenden wir Buttons. Die ursprüngliche Benutzeroberfläche von Xerox PARC ist 44 Jahre alt, aber unsere Benutzeroberflächen sehen trotzdem noch verblüffend ähnlich aus. Obwohl sich Buttons im Einklang mit aktuellen Trends und Technologien entwickelt haben, ist ihr Ursprung zweifellos inspiriert durch reale Objekte der Vergangenheit.
+Warum halten wir daran fest, Interaktionsformen zu entwickeln, die auf den bekannten Objekten basieren, die uns umgeben? Die Form eines digitalen Knopfes ist nach wie vor an Werkzeugen und Mechanismen angelehnt, die wir im 19. Jahrhundert entwickelt haben. 
+
+Lange zeit verließen sich Designer bei der Gestaltung von Interaktionen gerne auf skeuomorphistische Darstellungsweisen und Muster, teilweise mit sehr naturgetreuen Nachbildungen aus dem wirklichen Leben^[vgl. [Wikipedia: Skeuomorphismus](https://de.wikipedia.org/wiki/Skeuomorphismus)]. Doch die Nutzung von visuell skeuomorphistischen UI-Elementen hat in den letzen Jahren stark abgenommen, spätestens mit Einführung von iOS 7 Mitte 2013 durch Apple^[[Jony Ive Explains Why He Decided To Gut Skeuomorphism From iOS 7](https://www.cultofmac.com/246312/jony-ive-explains-why-he-decided-to-gut-skeuomorphism-out-of-ios/)] gelten visuelle Metaphern als unzeitgemäß.
 
 <figure class="content-thin">
     <img data-src="/images/skeuomorphismus/switchanimation.gif">
@@ -11,6 +13,8 @@ Ein Digitaler Schalter sah genau aus wie sein physisches Vorbild und verhielt si
     </sup>
     </figcaption>
 </figure>
+
+<!-- visuell nciht mehr nötig, da gewohnt und mehr kontakt zu virtuellen als zu physischen -->
 
 Während der visuelle heute oft Bezug nur noch zu erahnen ist, bleiben doch die [Regeln](/rules) digitaler Interaktionen meist nahe an an den Regeln ihrer gegenständlichen Equivalente. Es wird versucht, Gewohnheiten aus der physischen Welt aufzugreifen und auf digitale Produkte anzuwenden.
 Die Regeln der uns Menschen seit Jahrtausenden umgebenden Welt haben sich so in unser unterbewusstsein eingeprägt, dass diese unmöglich zu ignorieren sind. Aus diesem Grund könnte man sich als Designer die Frage stellen:
@@ -45,8 +49,7 @@ Ein Problem des visuellen Skeuomorphismus ist seine hohe Geschmacks- und Kultura
     <figcaption>Der Papierkorb besteht seit den Anfängen von Windows ohne Änderung der Regeln. Gefüllter Zustand aus Windows 95 (links) und Entleerter Zustand aus Windows 10 (rechts) </figcaption>
 </figure>
 
-<!-- Heute, nachdem der Großteil der Nutzer mit Smartphones und co. vertraut sind, ist es nicht mehr so wichtig, visuelle Elemente zu entwerfen, die einen direkten Bezug zur analogen Welt in herstellen. Der digitale Alltag hat sich etabliert und bedarf keiner Erklärung durch Holzhammermethoden. Dennoch nimmt die Bedeutung von Mikrointeraktionen stetig zu.
-Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher und andere möglichkeiten der Markenbildung sind erforderlich. -->
+Heute, nachdem der Großteil der Nutzer mit Smartphones und co. vertraut sind, ist es nicht mehr so wichtig, visuelle Elemente zu entwerfen, die einen direkten Bezug zur analogen Welt in herstellen. Der digitale Alltag hat sich etabliert und bedarf keiner Erklärung durch Holzhammermethoden. Dennoch nimmt die Bedeutung von Mikrointeraktionen stetig zu. Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher und andere möglichkeiten der Markenbildung sind erforderlich.
 
 XXXX
 

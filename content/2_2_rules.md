@@ -88,6 +88,14 @@ Vorhandene Regeln können (mit Bedacht) geändet werden, doch je grundlegener ei
 > „Dinge, die anders gemacht werden, um einfach nur anders zu sein, sind selten besser, aber das, was gemacht wird, um besser zu sein, ist fast immer anders.”
 > <cite>Dieter Rams, 1993</cite>
 
+<!-- **Simplizität vs .Komplexität**
+
+99pi 170+171: automation paradox:
+Fly by wire system. Air France 447.
+Automation acomodates incompetence, it is designed to do that.
+Automation -> erosion of skills -> more automation.
+Better: human centred automation. Make it a team player -->
+
 
 ### Definitiv unvollständige Checkliste für die Gestaltung von Regeln:
 
