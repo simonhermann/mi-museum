@@ -8,7 +8,7 @@ Nachdem eine Microinteraction vom Nutzer ausgelöst wurde, kann Animation als vi
 > Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic&nbsp;ease.
 > <cite>'Motion' im Microsoft Fluent Design System^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]</cite>
 
-Evulotionär bedingt zieht Bewegung ganz natürlich die menschliche Aufmerksamkeit auf sich. Animation kann also genutzt werden, um den Fokus des Nutzers auf die entscheidenden Elemente eines Interfaces zu lenken.
+Evolutionär bedingt zieht Bewegung ganz natürlich die menschliche Aufmerksamkeit auf sich. Animation kann also genutzt werden, um den Fokus des Nutzers auf die entscheidenden Elemente eines Interfaces zu lenken.
 
 Die ersten Versionen von iOS liefen auf sehr schwacher Hardware, trotzdem wirkte es sehr performant, da das UI-Set alle Übergänge während den ladezeiten animiert wurden.
 
@@ -49,7 +49,7 @@ Balance zwischen natürlich und funktional
 <figure class="content-normal">
   <img data-src="/images/animation-and-pace/ios-open-folder-distance.gif">
   <figcaption>
-    Veranschaulichung der Distanz, die ein phyisches Objekt zurücklegen würde, dessen wahrgenommenes Größenwachstum dem Öffnen einer App in iOS 7 entspricht. (24.62 ft ≈ 7,5 m)
+    Veranschaulichung der Distanz, die ein physisches Objekt zurücklegen würde, dessen wahrgenommenes Größenwachstum dem Öffnen einer App in iOS 7 entspricht. (24.62 ft ≈ 7,5 m)
     <sup><a href="https://www.buzzfeed.com/jwherrman/the-weird-terrifying-physics-of-ios-7">Bildquelle</a></sup>
   </figcaption>
 </figure>
@@ -64,7 +64,7 @@ Bei Animationen für (Mikro-)Interaktionen sollte Effizienz immer einen höheren
 
 <!-- ^[[https://dribbble.com/shots/2440217-Fluid-Switch](/images/animation-and-pace/switch-fluidswitch.gif)] -->
 
-#### Gefühlte Geschwindikeit
+#### Gefühlte Geschwindigkeit
 
 Das Gefühl eines Menschen für Zeit ist nicht absolut, sondern abhängig von unzähligen Faktoren wie Stimmung, Erwartungshaltung, Persönlichkeit oder Kontext. Wenn sich etwas _gut_ anfühlt, vergeht es meist viel zu schnell, während ungeliebte Aufgaben kaum zu enden scheinen. Die Selben Prinzipien treffen auch auf Benutzerschnittstellen zu, und Designer sollten sie sich zu Nutze machen.
 
@@ -73,9 +73,9 @@ Das Gefühl eines Menschen für Zeit ist nicht absolut, sondern abhängig von un
 
 <!-- When users accomplish what they set out to do on a site, they perceive that site to be fast. -->
 
-Einer Studie des MIT zufolge werden _passive_ Wartezeiten durchschnittlich 36% länger eingeschätzt, als sie tatsächlich sind^[[Perspectives on Queues: Social Justice and psychology of Queueing](http://www.jstor.org/stable/171439?seq=1#page_scan_tab_contents) von Richard Larson, MIT]. Wartezeiten werden sich nie komplett vermeiden lassen, aber diese können _gefühlt kürzer_ werden, in dem der _passive_ Teil verkurzt und in _aktive_ Phasen umgewandelt wird. In Aufzügen sind Spiegel, in Wartezimmern Magazine und auf Youtube können schon während ein Video hochgeladen wird Titel und Beschreibung eingegeben werden.
+Einer Studie des MIT zufolge werden _passive_ Wartezeiten durchschnittlich 36% länger eingeschätzt, als sie tatsächlich sind^[[Perspectives on Queues: Social Justice and psychology of Queueing](http://www.jstor.org/stable/171439?seq=1#page_scan_tab_contents) von Richard Larson, MIT]. Wartezeiten werden sich nie komplett vermeiden lassen, aber diese können _gefühlt kürzer_ werden, in dem der _passive_ Teil verkürzt und in _aktive_ Phasen umgewandelt wird. In Aufzügen sind Spiegel, in Wartezimmern Magazine und auf Youtube können schon während ein Video hochgeladen wird Titel und Beschreibung eingegeben werden.
 
-Angeblich haben etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan keinerlei Funktion^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen] – aber sie sorgen dafür, dass Menschen interagieren können und ein Gefühl von Einflussnahme auf die Ampelphasen haben. Wenn man es eilig hat, fühlt es sich viel besser an, einen Knpf zu drücken, als untätig zu warten. Die Knöpfe funktionieren – nur eben nicht auf technische, sondern rein auf psychologische Weise. Hier findet eine direkte Manipulation des Nutzerverhaltens durch eine Mikro-Interaktion statt und es stellt sich die Frage, ob ein "Hintergehen" des Nutzers auf dese Weise moralisch vertretbar ist. In diesem Fall hilft es, Leben zu retten, da Fußgänger seltener über rote Ampeln gehen. Letztendlich muss diese Frage aber jeder für sich beantworten.
+Angeblich haben etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan keinerlei Funktion^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen] – aber sie sorgen dafür, dass Menschen interagieren können und ein Gefühl von Einflussnahme auf die Ampelphasen haben. Wenn man es eilig hat, fühlt es sich viel besser an, einen Knopf zu drücken, als untätig zu warten. Die Knöpfe funktionieren – nur eben nicht auf technische, sondern rein auf psychologische Weise. Hier findet eine direkte Manipulation des Nutzerverhaltens durch eine Mikro-Interaktion statt und es stellt sich die Frage, ob ein "Hintergehen" des Nutzers auf dese Weise moralisch vertretbar ist. In diesem Fall hilft es, Leben zu retten, da Fußgänger seltener über rote Ampeln gehen. Letztendlich muss diese Frage aber jeder für sich beantworten.
 
 Der sogenannte Zeigarnik-Effekt bewirkt, dass wir unfertige Vorgänge besser im Gedächtnis behalten als abgeschlossene. Eine Fortschrittsanzeige kann so die Wahrscheinlichkeit erhöhen, dass Nutzer einen angefangenen Prozess abschließen.^[vgl. [Lawsofux.com: Zeigarnik Effect](https://lawsofux.com/zeigarnik-effect)] Vor allem bei Registrierungs- oder Bestellvorgängen hat sich das Prinzip bewährt. Hier wird eine große, aufwändige Aufgabe in angenehmere Teilschritte aufgeteilt ohne Nutzer im Unklaren über die ungefähr zu erwartende Länge des Prozesses zu lassen. 
 
@@ -97,7 +97,7 @@ Unser Gehirn lebt in der Vergangenheit, unser Bewusstsein liegt 80 Millisekunden
 
 ::: md-container-standout
 
-Die Reaktionszeit einer Schnittstelle hat großen Einfluss darauf, wie sie sich anfuhlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
+Die Reaktionszeit einer Schnittstelle hat großen Einfluss darauf, wie sie sich anfühlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
 
 <center>
 
@@ -115,7 +115,7 @@ _maximale Aufmerksamkeitsspanne_
 :::
 
 Die tatsächliche Zeit, die eine Animation andauern sollte, ist stark Situationsabhängig, eine Dauer zwischen 200 und 500ms scheint jedoch in vielen Fällen ein guter Richtwert zu sein.^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head]
-Bei Responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdauer von großflächigen Übergängen an die Größe des Ausgabemediums anzupassen. Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Zahlen dahinter.
+Bei responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdauer von großflächigen Übergängen an die Größe des Ausgabemediums anzupassen. Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Zahlen dahinter.
 
 
 <figure class="content-normal">

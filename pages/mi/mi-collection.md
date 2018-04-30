@@ -41,8 +41,8 @@ https://uxplanet.org/design-a-perfect-search-box-b6baaf9599c
 
 ## (Programm-)Fenster
 > a selected window displays above other windows – much like placing a piece of paper on top of a stack on a desk.
-> – <cite>Ein Xerox-Mitarbeiter erklärt Fenster bei einer Demonstration des Xerox Alto</cite>
-> [https://youtu.be/J33pVRdxWbw?t=8m19s]
+> <cite>Ein Xerox-Mitarbeiter erklärt Fenster bei einer Demonstration des Xerox Alto</cite>
+> https://youtu.be/J33pVRdxWbw?t=8m19s
 
 > ".. they occupy a portion of the screen, called a window. And window has a header with a title along the top and a few commands – usually towards the left end of it. Along the right edge of it is a vertical scrolling mechanism, along the bottom is a honrizontal scrolling mechanism.
 > [@XeroxStarUI82b, 0:30]

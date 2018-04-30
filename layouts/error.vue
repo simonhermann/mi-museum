@@ -17,8 +17,8 @@
       <!-- <script>location.reload();</script> -->
       <h1>Yay!</h1>
       <p class="error-msg">Es gibt Updates, bitte lade die Seite neu:<br>
-        <a href="javascript:location.reload()">hier klicken</a> <br> 
-        <sup>oder auf Touchscreens auch per pull-to-refresh Microinteraction</sup>
+        <a href="javascript:location.reload()">hier klicken</a> <br> <br>
+        <small>oder auf Touchscreens auch per pull-to-refresh Microinteraction</small>
       </p>
     </div>
     <div v-else>

@@ -2,8 +2,6 @@
 
 
 
-XXX Bild BVG Automat
-
 Das Beispiel des Fahrkartenautomaten zeigt, dass es je Anwendungsfall sinnvoll sein kann, nur eine einzige Interaktion pro Screen bereitzustellen. In diesem Fall dient der gesamte Touchscreens als Interaktionsfläche für den [Auslöser](/trigger) auf Nutzerseite.
 
 
@@ -35,6 +33,8 @@ Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
 http://microinteractions.com/downloads/Microinteractions_QuickRef.pdf
 
 https://uxplanet.org/an-introduction-to-interaction-flows-a4f783402529
+
+Inspiration: http://littlebigdetails.com
 
 
 > Any darn fool can make something complex; it takes a genius to make something simple.

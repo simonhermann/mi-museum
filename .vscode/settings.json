@@ -1,4 +1,20 @@
 {
   "problems.decorations.enabled": false,
-  "markdown.extension.showExplorer": true
+  "markdown.extension.showExplorer": true,
+  "cSpell.language": ",de",
+  "cSpell.words": [
+    "interactiondesign",
+    "intuitivität",
+    "microcopy",
+    "microinteraction",
+    "microinteractions",
+    "o'riley",
+    "personas",
+    "riley",
+    "saffer",
+    "sebastopol",
+    "systemtrigger",
+    "trigger",
+    "triggers"
+  ]
 }

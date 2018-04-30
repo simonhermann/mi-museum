@@ -12,7 +12,7 @@ Maschine
 
 </center>
 
-Die Vorsilbe _Mikro_ kommt aus dem griechischen und bedeutet so viel wie _klein_. Es geht also um die kleinen Bausteine einer Kommunikation zwischen Mensch und Maschine. Übergrefende Themen wie Nutzerrecherche und -tests, Personas, Informationsarchitektur, Navigation, Designsysteme, Barrierefreiheit ('a11y') und andere Wichtige Themen des Interactiondesign werden deshalb nicht oder nur sekundär behandelt.
+Die Vorsilbe _Mikro_ kommt aus dem griechischen und bedeutet so viel wie _klein_. Es geht also um die kleinen Bausteine einer Kommunikation zwischen Mensch und Maschine. Übergreifende Themen wie Nutzerrecherche und -tests, Personas, Informationsarchitektur, Navigation, Designsysteme, Barrierefreiheit ('a11y') und andere Wichtige Themen des Interactiondesign werden deshalb nicht oder nur sekundär behandelt.
 Wodurch wid eine (Mikro-)Interaktion [ausgelöst](/triggers)? Wie [funktioniert](/rules) sie und [woher](/feedback) weiß ein Nutzer wie sie funktioniert? Welche Rolle spielen [Zeit und Bewegung](/animation-and-pace)? [Woher](/history) kommen die grundlegenden Muster und Regeln, denen digitale Knöpfe, Schalter oder Fenster entlehnt sind? Wie haben sie sich im Verlauf der Zeit verändert und wie sieht deren Zukunft aus? Wie misst man die "Größe" einer Interaktion? Warum können vermeintlich kleine Interaktionen so wichtig sein? Wer sich Antworten auf diese Fragen erhofft, sollte weiterlesen.
 
 <div class="spacer2"></div>

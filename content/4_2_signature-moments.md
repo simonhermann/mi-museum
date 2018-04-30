@@ -9,7 +9,7 @@ Microinteractions haben zwei Hauptaufgaben: Erstens sollte die Nutzung sollte in
 
 Eine Differenzierung auf der Ebene der Design-Grundlagen ist kaum mehr möglich. Die Mikro-Interaktionen sind es, die uns Designern ermöglichen, ein Produkt von anderen abzuheben.
 Je überzeugender die Microinteractions sind, desto flüssiger fühlt sich die Anwendung an, was die Wahrscheinlichkeit erhöht, dass der Anwender Freude am Produkt hat. Ein Nutzer, der sich unterhalten fühlt, wird oft mehr Zeit mit dem Produkt verbringen und sich mit diesem verbunden fühlen.
-Eine Benutzerschnittstelle mit Personlichkeit hilft, einen Bezug herzustellen und erhöht damit die Markenwahrnehmung. Eine einzige gut gemachte Interaktion kann ein Produkt entscheidend von der Konkurrenz abheben.
+Eine Benutzerschnittstelle mit Persönlichkeit hilft, einen Bezug herzustellen und erhöht damit die Markenwahrnehmung. Eine einzige gut gemachte Interaktion kann ein Produkt entscheidend von der Konkurrenz abheben.
 
 Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es wirklich auf.
 
