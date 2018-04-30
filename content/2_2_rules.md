@@ -8,8 +8,8 @@ Nutzer sollten Regeln nicht kennen oder mühevoll lernen müssen um interagieren
 
 Bevor Regeln erarbeitet werden, sollte das _Ziel_ der Microinteraction klar definiert werden. Das Ziel eines Login-Formulars ist nicht die Eingabe von Benutzername und Passwort, sondern die Anmeldung des Nutzers. Ein Ziel sollte für Nutzer immer _nachvollziehbar_ ("Ich weiß warum ich das tue") und erreichbar ("Ich weiß, das ich es tun kann") sein.^[vgl. Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
 
-Es empfiehlt sich, zwischen zwei Arten von Regelnwerken zu unterscheiden: Das _komplette Regelwerk_ besteht sämtlichen zur Implementierung nötige Details. Während das _einfache Regelwerk_ ein simplifiziertes Modell der direkt nutzerrelevanten Regeln beinhaltet. Ersteres deckt zusätzlich Sonderfälle ab, wie Einhaltung von Konventionen verschiedener Betriebssysteme oder Adaptionen an verschiedene Bildschirmgrößen und kann technische Details beinhalten, wie z. B. "Auslöseschwelle bei 50% der Bildschirmbreite, jedoch maximal 150dp".
-Generell sollten Regeln möglichst leicht verständlich sein, dies ermöglicht nicht nur eine bessere Nutzererfahrung, sondern auch die reibungslose Zusammenarbeit bei der Entwicklung.
+Es empfiehlt sich, zwischen zwei Arten von Regelnwerken zu unterscheiden: Das _komplette Regelwerk_ besteht sämtlichen zur Implementierung nötige Details. Während das _einfache Regelwerk_ ein simplifiziertes Modell der direkt nutzerrelevanten Regeln beinhaltet. Ersteres deckt Sonderfälle ab, wie Einhaltung von Konventionen verschiedener Betriebssysteme oder Adaptionen an verschiedene Bildschirmgrößen und kann technische Details beinhalten, wie z. B. "Auslöseschwelle bei 50% der Bildschirmbreite, jedoch maximal 150dp".
+Generell sollten Regeln möglichst leicht verständlich sein, dies ermöglicht nicht nur eine bessere Nutzererfahrung, sondern auch die reibungslose Zusammenarbeit bei der Entwicklung. Ersteres beschreibt die Komplexität der technischen Ausführung, zweiteres die gefühlte Komplexität für Nutzer.
 
 Da Microinteractions sehr unterschiedlich sein können, werden sich auch deren Bestandteile von Regeln deutlich unterscheiden, meist beinhalten sie jedoch^[aus: Saffer, Dan: Microinteractions - Designing with Details (S. 53f) O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]:
 
@@ -22,11 +22,9 @@ Da Microinteractions sehr unterschiedlich sein können, werden sich auch deren B
 * ob und wie oft sich die Microinteraction [wiederholt](/loops-and-modes)
 * was passiert, nachdem die Microinteraction beendet wurde
 
-Regeln sind unsichtbar, ein Nutzer kann diese ausschlließlich durch die gegebene [Rückmeldung](/feedback) erlernen. Nicht immer sind Regeln in ihrer Gänze für Nutzer erschließbar, häufig unterscheidet sich wie ein Nutzer _glaubt_ funktioniere etwas deutlich von dem wie es tatsächlich funktioniert. Bei der Konzipierung sollte daher möglichst auf dem Nutzer bereits bekannte Regeln aufgebaut werden.
+Regeln sind unsichtbar, ein Nutzer kann diese ausschlließlich durch die gegebene [Rückmeldung](/feedback) erlernen. Nicht immer sind Regeln in ihrer Gänze für Nutzer erschließbar, häufig unterscheidet sich wie ein Nutzer _glaubt_ funktioniere etwas deutlich von dem wie es tatsächlich funktioniert. Bei der Konzipierung sollte daher möglichst auf dem Nutzer bereits bekannte Regeln aufgebaut werden. Da Nutzern die Regeln der physischen Welt wohlbekannt sind, sollte auch in digitalen Produkten auf diesen aufgebaut werden – mehr dazu im Kapitel [Skeumorphismus](/skeuomorphism).
 
-
-
-
+### Regeln am Beispiel einer Lampe
 
 Die Regeln eines Lichtschalters bilden die wohl grundlegendendste Microinteraction ab. Sie lassen sich jedoch durch weitere Regeln ergänzen, ein Dimmer könnte die Helligkeit ändern, eine Zeitschaltuhr oder ein Bewegungssensor könnte das Licht automatisch an und aus schalten.
 
@@ -57,37 +55,37 @@ Nacht = Zwischen 18:00 und 08:00 Uhr
 
 Schon diese einfachen Regeln erfordern einigen Aufwand in Konzeption und Implementierung. Beispielsweise darf die Einschränkung der Uhrzeit nicht in Zusand B Anwendung finden, hier könnte sie dazu führen, dass das Licht dauerhaft eingeschaltet bleibt, wenn die 10 Zyklen auf den Übergang zwischen Tag und Nacht fallen. Wenn man nun noch manuelle Schalter, Helligkeitssensoren oder mehrere Beleuchtungszonen einbezieht, werden die Regeln weitaus komplexer.
 
-Larry Tesler, bereits [angesprochener](/history) Erfinder von der heute üblichen Copy&Paste-Microinteraction formulierte das 'Gesetz der Erhaltung von Komplexität', das besagt, dass für jedes System ein gewisses Maß an Komplexität besteht, das nicht weiter Rediziert werden kann[Lawsofux.com: Tesler's Law](https://lawsofux.com/teslers-law). 
-Um die Komplexität für einen Nutzer dennoch weiter zu reduzieren, können ihm Entscheidungen vom Gerät abgenommen werden. Damit einher geht jedoch auch die Kontrolle des Nutzers verloren. 
-Ein Interface nötige Eingaben reduzieren, in dem das Nutzeraktionen vorhergesehen werden und wahrscheinliche Schritte automatisch ausgeführt werden. Google zeigt beispielsweise schon Ergebnisse an, bevor diese mit <kbd>Enter</kbd> bestätigt wurde. 
-
-Die Benutzung einer Microinteraction sollte möglichst einfach gehalten werden, dies kann teilweise durch auch intelligente Voreinstellungen erreicht werden. So wird Komplexität reduziert ohne Nutzern komplett die Kontrolle zu nehmen. Die Balance zwischen möglicher Kontrolle durch den Nutzer und Einfachheit ist stark abhängig von Produkt und Nutzergruppe. Beispiel für ein 'smart default' wäre etwa die automatische Auswahl des Landes in einem Formular, basierend auf dem Standort des Nutzers.
-
-
-Wird oft als Komfortfunktion wahrgenommen
-
 <figure class="content-thin">
   <img data-src="/images/rules/flowchart.jpg">
   <figcaption>
-    Mit Hilfe eines Flowcharts können Regeln visualisiert werden, so können Fehler vermieden und Ausnahmefälle früh erkannt werden. <!-- XXXX better example -->
+    Mit Hilfe eines Flowcharts können Regeln visualisiert werden, so können Ausnahmefälle früh erkannt und Fehler vermieden werden. <!-- XXXX better example -->
     <sup><a href="https://www.nngroup.com/articles/wireflows/">Bildquelle</a></sup>
   </figcaption>
 </figure>
 
+### Komplexität, Kontrolle und Automatisierung
+
+Larry Tesler, [Erfinder](/history) der heute üblichen Copy&Paste-Microinteraction formulierte das 'Gesetz der Erhaltung von Komplexität', das besagt, dass für jedes System ein gewisses Maß an Komplexität besteht, das nicht weiter Reduziert werden kann[Lawsofux.com: Tesler's Law](https://lawsofux.com/teslers-law). 
+Um die Komplexität für einen Nutzer dennoch weiter zu reduzieren, können ihm Entscheidungen vom Gerät abgenommen werden. Damit einher geht jedoch auch die Kontrolle des Nutzers verloren. 
+Ein Interface nötige Eingaben reduzieren, in dem das Nutzeraktionen vorhergesehen werden und wahrscheinliche Schritte automatisch ausgeführt werden. Die Google-Suche zeigt beispielsweise schon Ergebnisse an, bevor die Eingabe mit <kbd>Enter</kbd> bestätigt wurde. 
+Die Benutzung einer Microinteraction sollte möglichst einfach gehalten werden, dies kann teilweise durch auch intelligente Voreinstellungen erreicht werden. So wird Komplexität reduziert ohne Nutzern komplett die Kontrolle zu nehmen. Die Balance zwischen möglicher Kontrolle durch den Nutzer und Einfachheit ist stark abhängig von Produkt und Nutzergruppe. Beispiel für ein 'smart default' wäre etwa die automatische Auswahl des Landes in einem Formular, basierend auf dem Standort des Nutzers. 
+
+<figure class="content-thin">
+  <img data-src="/images/rules/slack-magic-link.jpg">
+  <figcaption>
+    Das Ziel, den Nutzer anzumelden, kann hier auch ohne Eingabe eines Passwortes erreicht werden: Der 'magic link' in der E-Mail von Slack muss einfach geöffnet werden, um die Anmeldung abzuschließen.
+    <sup><a href="http://joelcalifa.com/blog/patronizing-passwords/">Bildquelle</a></sup>
+  </figcaption>
+</figure>
 
 
+Automatisierung Komfortfunktion wahrgenommen
 
-iOS 11 Flugmodus
-^[[Apples Flugmodus schaltet WLAN nicht immer ab - Golem.de](https://www.golem.de/news/neues-ios-11-2-apples-flugmodus-schaltet-wlan-nicht-immer-ab-1712-131582.html)]
+
+iOS 11 Flugmodus^[[Apples Flugmodus schaltet WLAN nicht immer ab - Golem.de](https://www.golem.de/news/neues-ios-11-2-apples-flugmodus-schaltet-wlan-nicht-immer-ab-1712-131582.html)]
 
 OSX Save as
 
-
-
-### Skeuomorphismus in Regeln
-
-Die Darstellung digitaler Interfaces mit Hilfe von skeuomorphistischen^[[Wikipedia: Skeuomorphismus](https://de.wikipedia.org/wiki/Skeuomorphismus)] Elementen hat in den letzen Jahren stark abgenommen, spätestens mit Einführung von iOS 7 durch Apple^[[Jony Ive Explains Why He Decided To Gut Skeuomorphism From iOS 7](https://www.cultofmac.com/246312/jony-ive-explains-why-he-decided-to-gut-skeuomorphism-out-of-ios/])] gelten visuelle Metaphern als verpönt XXXX.
-Ganz anders jedoch hinsichtlich der Regeln von Microinteractions: hier wird versucht, Gewohnheiten aus der physischen Welt aufzugreifen und auf digitale Produkte anzuwenden. Diese werden dadurch greifbarer und XXXX
 
 > „Dinge, die anders gemacht werden, um einfach nur anders zu sein, sind selten besser, aber das, was gemacht wird, um besser zu sein, ist fast immer anders.”
 > <cite>Dieter Rams, 1993</cite>
@@ -104,4 +102,7 @@ Ganz anders jedoch hinsichtlich der Regeln von Microinteractions: hier wird vers
 * Welche Status können Interface-Elemente einnehmen? (initial, aktiv, verändert, ..)
 * Können sich Regeln gegenseitig beeinflussen? Gibt es Prioritäten, also höhere Wichtigkeit mancher Regeln?
 * Sind die Regeln technisch umsetzbar? Ist der Aufwand angemessen? 
+* Kann das Ziel auch auf andere Weise erreicht werden?
+
+
 
