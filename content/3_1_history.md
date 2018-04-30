@@ -96,7 +96,7 @@ Das Programm arbeitete mit Vektoren, Objekte konnten beliebig in Größe und Rot
 <!-- Bild: vgl. 3D-Ansicht in 4 Perspektiven in Sketchpad und Cinema4D(2017) -->
 
 Die beliebig zoombare Arbeitsfläche erstreckte sich über die Ränder des Bildschirms hinaus und wurde dort einfach nicht mehr dargestellt. Der Bildschirm verhielt sich wie ein Fenster in eine virtuelle Welt. Heute ist dieses Verhalten selbstversändlich, doch damals war die Interpretation des Bildschirms als "Fenster" revolutionär und bald wurde das Prinzip zu den heute bekannten Programmfenstern weiterentwickelt.
-Dreidimensionale Formen waren ebenfalls darstellbar. Der Bildschirm konnte in vier einzelne Fenster (Draufsicht, Seitenansicht, Frontalansicht und Dreidimensionale Darstellung) aufgeteilt werden. Die Manipulation des Objektes oder das Zeigen auf ein Teil des Objektes in einer der Ansichten, wurde in simultan auf alle Ansichten übertragen.^[Ivan Sutherland : Sketchpad Demo - bigkif/Youtube [Teil 1](https://youtu.be/USyoT_Ha_bA), [Teil 2](https://youtu.be/BKM3CmRqK2o) ]
+Dreidimensionale Formen waren ebenfalls darstellbar. Der Bildschirm konnte in vier einzelne Fenster (Draufsicht, Seitenansicht, Frontalansicht und Dreidimensionale Darstellung) aufgeteilt werden. Die Manipulation des Objektes oder das Zeigen auf ein Teil des Objektes in einer der Ansichten, wurde in simultan auf alle Ansichten übertragen.^[Ivan Sutherland : Sketchpad Demo - bigkif/Youtube [Teil 1](https://youtu.be/USyoT_Ha_bA), [Teil 2](https://youtu.be/BKM3CmRqK2o)]
 <!-- XXXX Snapping -->
 Sketchpad unterscheidet sich von heutigen Nachfolgern insofern, dass der Bildschirm ausschließlich zur Ausgabe des Ergebnisses genutzt wurde, es gab keine grafische Nutzeroberfläche mit virtuellen Knöpfen oder Menüs.
 Die Eingabe über physische Bedienelemente wird auch heute noch geschätzt und vor Allem im professionellen Bereich, z.B in der Videobearbeitung eingesetzt. 
@@ -191,27 +191,40 @@ Stylus/Lichtgriffel: https://youtu.be/r18i-uR6BD4, https://youtu.be/1EWQYAfuMYw?
 ## Phase 4: NUI – Microinteractions in Post-WIMP / SILK / Natural User Interfaces
 
 
-[https://www.toptal.com/designers/ui/future-ui-design-without-buttons]
+- [https://www.toptal.com/designers/ui/future-ui-design-without-buttons]
 
-John Underkoffer: Future (of tangible) UI https://youtu.be/b6YTQJVzwlI
+- John Underkoffer: Future (of tangible) UI https://youtu.be/b6YTQJVzwlI
 
-https://de.wikipedia.org/wiki/Natural_User_Interface
+- https://de.wikipedia.org/wiki/Natural_User_Interface
 
-https://en.wikipedia.org/wiki/Organic_user_interface
+- https://en.wikipedia.org/wiki/Organic_user_interface
 
-https://scifiinterfaces.com/
-http://rosenfeldmedia.com/wp-content/uploads/2014/11/Make-It-So-Excerpt.pdf
-
-<figure class="content-wide">
-  <img data-src="/images/history/Amidala-Anykey.jpg">
-  <figcaption>
-    Im Film Star Wars Episode I nutzt Königin Amidala den selben Button um eine Hologramm-Verbindung aufzubauen, eine Sternenkarte aufzurufen und das Raumschiff zu landen. <sup><a href="https://99percentinvisible.org/episode/future-screens-are-mostly-blue/">Bildquelle</a></sup>
-  </figcaption>
-</figure>
+- https://scifiinterfaces.com/
+- http://rosenfeldmedia.com/wp-content/uploads/2014/11/Make-It-So-Excerpt.pdf
 
 * BMW Vision Next100 https://youtu.be/ztfVoGqW5VU
 
+<figure class="content-normal">
+  <img data-src="/images/history/Amidala-Anykey.jpg">
+  <figcaption>
+    Im Film 'Star Wars: Episode I' nutzt Königin Amidala den selben Button um eine Hologramm-Verbindung aufzubauen, eine Sternenkarte aufzurufen und das Raumschiff zu landen. <sup><a href="https://99percentinvisible.org/episode/future-screens-are-mostly-blue/">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+
+
 <!-- XXXX Fazit Phase 4 -->
 <!-- XXXX Fazit Historie -->
+
+
+::: md-container-more
+
+### Erlesene Links zum Thema
+
+- Video: [Ivan Sutherland : Sketchpad Demo Teil 1](https://youtu.be/USyoT_Ha_bA) und [Teil 2](https://youtu.be/BKM3CmRqK2o)
+- Video: [The Mother of All Demos, presented by Douglas Engelbart (1968)](https://youtu.be/yJDv-zdhzMY)
+- Video: [Demonstration von Draw und Bravo auf dem Xerox Alto](https://youtu.be/OKakermaQ68?t=6m29s)
+- Webseite: [Vision & Reality of Hypertext and Graphical User Interfaces](https://mprove.de/diplom/)
+
+:::
 
 
