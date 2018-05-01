@@ -108,32 +108,6 @@ h5 {
   color: #fff;
 }
 
-img {
-  // &:not(.medium-zoom-image--open){
-  //   outline: 1px solid #ddd;
-  // }
-  &[lazy='loading'] {
-    height: 16rem;
-    width: 22rem;
-    max-width: 100%;
-    background-color: var(--grey-vlight);
-    padding: 1rem;
-    animation-name: breathing;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-timing-function: var(--transition-curve1);
-    @keyframes breathing {
-      0% {
-        opacity: 0.1;
-      }
-      100% {
-        opacity: 1;
-      }
-    }
-  }
-}
-
 p {
   margin-top: 1em;
   margin-bottom: 1em;
