@@ -8,9 +8,9 @@
 </template>
 
 <script>
+import HtmlParser from '~/components/HtmlParser.vue'
 import text01 from '~/content/about.md'
 import nextPage from '~/components/obj/nextPage.vue'
-import HtmlParser from '~/components/HtmlParser.vue'
 import { setColorsForPage } from '~/content/pages.js'
 
 export default {

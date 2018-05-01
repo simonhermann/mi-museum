@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import text01 from '~/content/2_1_triggers.md'
+import text01 from '~/content/ausloeser.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
 import { setColorsForPage } from '~/content/pages.js'

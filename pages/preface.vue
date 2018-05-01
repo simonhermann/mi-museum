@@ -7,9 +7,10 @@
 
 <script>
 import HtmlParser from '~/components/HtmlParser.vue';
-import text01 from '~/content/1_2_vorwort.md'
+import text01 from '~/content/vorwort.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import { setColorsForPage } from '~/content/pages.js'
+
 export default {
   computed: {
     text01() {

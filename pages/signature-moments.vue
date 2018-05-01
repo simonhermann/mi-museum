@@ -1,28 +1,14 @@
 <template>
   <div class="page">
     <html-parser :content=text01></html-parser>
-
-    <!-- <figure v-lazy-container="{ selector: 'img' }">
-        <img data-src="images/signature-moments/pull-to-refresh-planet.gif" class="content-thin">
-        <figcaption>XXXX</figcaption>
-    </figure> -->
-    <!-- <figure v-lazy-container="{ selector: 'img' }">
-        <img :data-src="require('~/static/images/signature-moments/pull-to-refresh-planet.gif')" class="content-thin">
-        <figcaption>XXXX</figcaption>
-    </figure> -->
-    <!-- <figure>
-        <img v-lazy="require('~/static/images/signature-moments/pull-to-refresh-planet.gif')" class="content-thin">
-        <figcaption>XXXX</figcaption>
-    </figure> -->
-
-    <nextPage link="/animation-and-pace" heading="Animation und Geschwindigkeit"></nextPage>
+    <nextPage link="/history" heading="Historie"></nextPage>
   </div>
 </template>
 
 <script>
-import text01 from '~/content/4_2_signature-moments.md'
-import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue'
+import text01 from '~/content/signature-moments.md'
+import nextPage from '~/components/obj/nextPage.vue'
 import { setColorsForPage } from '~/content/pages.js'
 
 export default {

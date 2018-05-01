@@ -38,8 +38,6 @@
 </style>
 
 <script>
-//import tile from '~/components/obj/tile.vue'
-import HtmlParser from '~/components/HtmlParser.vue'
 import homegrid from '~/components/homegrid.vue'
 import { theoryPages, practicePages, setColorsForPage } from '~/content/pages.js'
 
@@ -48,7 +46,6 @@ export default {
     return {}
   },
   components: {
-    HtmlParser,
     homegrid,
   },
   computed: {

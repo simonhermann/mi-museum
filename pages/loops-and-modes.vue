@@ -1,14 +1,14 @@
 <template>
   <div class="page">
     <html-parser :content=text01></html-parser>
-    <nextPage link="/history" heading="Historie"></nextPage>
+    <nextPage link="/signature-moments" heading="Signature Moments"></nextPage>
   </div>
 </template>
 
 <script>
-import text01 from '~/content/2_4_loopsmodes.md'
-import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
+import text01 from '~/content/schleifen-und-modi.md'
+import nextPage from '~/components/obj/nextPage.vue'
 import { setColorsForPage } from '~/content/pages.js'
 
 export default {

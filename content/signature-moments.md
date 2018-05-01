@@ -13,6 +13,8 @@ Eine Benutzerschnittstelle mit Persönlichkeit hilft, einen Bezug herzustellen u
 
 Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es wirklich auf.
 
+Anpassung an Nutzer über Zeit (-->long loops)
+
 Bsp page transitions mit signature Moment: https://www.dogstudio.co/
 
 iPod Clickwheel

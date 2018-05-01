@@ -3,7 +3,6 @@ const theoryPages = [
   {
     title: 'Details sind essentiell',
     to: '/what-are-microinteractions',
-    // desc: '',
     desc:
       'Was Microinteractions sind und warum sie für jeden Designer wichtig sein sollten',
   },
@@ -14,29 +13,14 @@ const theoryPages = [
   },
   { title: 'Regeln', to: '/rules', desc: 'Wie funktioniert die Interaktion?' },
   {
-    title: 'Rückmeldung',
-    to: '/feedback',
-    desc: 'Wie reagiert die Interaktion auf den Nutzer?',
-  },
-  {
-    title: 'Schleifen & Modi',
-    to: '/loops-and-modes',
-    desc: 'Welche Meta-Regeln beinflussen die Interaktion?',
-  },
-  {
-    title: 'Historie',
-    to: '/history',
-    desc: 'Eine kurze Geschichte der Mensch-Maschine-Interaktion.',
-  },
-  {
     title: 'Skeuomorphismus',
     to: '/skeuomorphism',
     desc: 'Vom Einfluss der physischen Welt auf die digitale',
   },
   {
-    title: 'Signature Moments',
-    to: '/signature-moments',
-    desc: 'Wie die kleinen Momente den Unterschied machen können',
+    title: 'Rückmeldung',
+    to: '/feedback',
+    desc: 'Wie reagiert die Interaktion auf den Nutzer?',
   },
   {
     title: 'Animation & Geschwindigkeit',
@@ -44,12 +28,25 @@ const theoryPages = [
     desc: 'Warum schneller nicht immer besser ist',
   },
   {
+    title: 'Schleifen & Modi',
+    to: '/loops-and-modes',
+    desc: 'Welche Meta-Regeln beeinflussen die Interaktion?',
+  },
+  {
+    title: 'Signature Moments',
+    to: '/signature-moments',
+    desc: 'Wie die kleinen Momente den Unterschied machen können',
+  },
+  {
+    title: 'Historie',
+    to: '/history',
+    desc: 'Eine kurze Geschichte der Mensch-Maschine-Interaktion.',
+  },
+  {
     title: 'Anwendung in der Praxis',
     to: '/practical',
     desc: 'So gelingt Design & Umsetzung von Microinteractions im Alltag',
   },
-  //{ title: '_article', to: '/article' },
-  //{ title: "_scrap", to: "/scrapyard" }
 ]
 
 const practicePages = [
@@ -84,7 +81,6 @@ defineColors()
 const colors = colorHues.map((i) => 'hsla(' + i + ', 47%, 43%, 1)')
 const colorsTrans = colorHues.map((i) => 'hsla(' + i + ', 47%, 43%, .13)')
 
-
 // function to set css property --color-hightlight on :root element
 const setDocumentHighlightcolor = (color) => {
   document.documentElement.style.setProperty('--the-color', color)
@@ -94,7 +90,10 @@ const setDocumentHighlightcolor = (color) => {
 const setHightlightColors = (pageIndex) => {
   document.documentElement.style.setProperty('--the-color', colors[pageIndex])
   document.documentElement.style.setProperty('--next-color', colors[pageIndex + 1])
-  document.documentElement.style.setProperty('--the-color-trans', colorsTrans[pageIndex])
+  document.documentElement.style.setProperty(
+    '--the-color-trans',
+    colorsTrans[pageIndex]
+  )
 }
 
 const setColorsForPage = () => {
@@ -115,22 +114,22 @@ const setColorsForPage = () => {
     case '/rules':
       setHightlightColors(4)
       break
-    case '/feedback':
+    case '/skeuomorphism':
       setHightlightColors(5)
       break
-    case '/loops-and-modes':
+    case '/feedback':
       setHightlightColors(6)
       break
-    case '/history':
+    case '/animation-and-pace':
       setHightlightColors(7)
       break
-    case '/skeuomorphism':
+    case '/loops-and-modes':
       setHightlightColors(8)
       break
     case '/signature-moments':
       setHightlightColors(9)
       break
-    case '/animation-and-pace':
+    case '/history':
       setHightlightColors(10)
       break
     case '/practical':

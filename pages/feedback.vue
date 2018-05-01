@@ -1,14 +1,14 @@
 <template>
   <div class="page">
     <html-parser :content=text01></html-parser>
-    <nextPage link="/loops-and-modes" heading="Schleifen und Modi"></nextPage>
+    <nextPage link="/animation-and-pace" heading="Animation & Geschwindigkeit"></nextPage>
   </div>
 </template>
 
 <script>
-import text01 from '~/content/2_3_feedback.md'
-import nextPage from '~/components/obj/nextPage.vue'
 import HtmlParser from '~/components/HtmlParser.vue';
+import text01 from '~/content/rueckmeldung.md'
+import nextPage from '~/components/obj/nextPage.vue'
 import { setColorsForPage } from '~/content/pages.js'
 
 export default {
