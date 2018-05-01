@@ -52,7 +52,7 @@ Gestalter sollten sich die Frage stellen: _Wie kann eine Microinteraction bei de
   </figcaption>
 </figure>
 
-Eine personalisierte Nutzererfahrung scheint für digitale Produkte immer bedeutender zu werden. Die mächtigen Firmen der Digitalwelt sammeln Produktübergreifend Daten und verwenden diese, um jedem Nutzer eine individuelle Produkterfahrung zu bieten.^[vgl. [Personalization trend in UX](https://blog.prototypr.io/personalization-trend-in-ux-678b6beaeeb6) von Nikita Gangwal] Mehr dazu, wie Microinteractions dazu beitragen können, einen nachhaltigen Eindruck zu hinterlassen im Kapitel [Signature Moments](/signature-moments).
+Eine personalisierte Nutzererfahrung scheint für digitale Produkte immer bedeutender zu werden. Die mächtigen Firmen der Digitalwelt sammeln Produktübergreifend Daten und verwenden diese, um jedem Nutzer eine individuelle Produkterfahrung zu bieten.^[vgl. [Personalization trend in UX](https://blog.prototypr.io/personalization-trend-in-ux-678b6beaeeb6) von Nikita Gangwal] Mehr dazu wie Microinteractions einen nachhaltigen Eindruck hinterlassen können im Kapitel [Signature Moments](/signature-moments).
 
 ::: md-container-more
 

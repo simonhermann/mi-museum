@@ -25,7 +25,7 @@ export default {
   },
   head() {
     return {
-      title: 'Praktische Gestaltung von Microinteractions',
+      title: 'Microinteractions in der Praxis',
     }
   },
 }

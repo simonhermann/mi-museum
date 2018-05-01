@@ -8,7 +8,7 @@ check all nextpage links
 * [ ] aus Pocket
 * [ ] Seiten in Buchquellen
 * [ ] Icons für Trigger/Rules/usw
-* [ ] re-order homegrid
+* [ ] refine grid layout, respond to importance of chapters
 * [ ] replace md standout by mark?
 * [ ] Meta desicription
 * [ ] einheitlicher meta title
@@ -16,22 +16,20 @@ check all nextpage links
 * [ ] Timeline?
 * [ ] Impressum+About
 * [ ] https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950
-* [ ] https://pdfs.semanticscholar.org/22ca/79765a0d024ce125f6ee0edf13856928c6ca.pdf
+* [ ] Enabling mobile interactions paper: https://pdfs.semanticscholar.org/22ca/79765a0d024ce125f6ee0edf13856928c6ca.pdf
 
 ## Featues
 
+* [ ] replace img loading placeholder svg by css styled box
 * [ ] Kapitel-Fortschrittsbalken?
-* [ ] add noise to color bgs
+* [ ] add noise to color bgs?
 * [ ] oben: vorheriges Kapitel?
-* [ ] dynamische Rahmenfarbe
-* [ ] Footer?
 * [ ] foldable footnotes?
-* [ ] refine grid layout
 * [ ] besseres System für Quellen, wie https://mprove.de/diplom/text/references.html
 
 ## Bugs
 
-* [ ] 
+* [ ] img placeholder flickering
 
 ## Technical
 
@@ -46,6 +44,7 @@ check all nextpage links
   * [ ] https://cloudinary.com/blog/reduce_size_of_animated_gifs_automatically_convert_to_webm_and_mp4
   * [ ] https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/replace-animated-gifs-with-video/
 * [ ] refactor setColorsForPage to grab corresponding color for page automatically from page object
+* [ ] refactor nexpage, to grab content from pages object
 * [ ] svg path traced image placeholders https://jmperezperez.com/svg-placeholders/ https://github.com/EmilTholin/image-trace-loader
 * [ ] better img lazyloader: https://github.com/aFarkas/lazysizes
 * [ ] better no-js handling
