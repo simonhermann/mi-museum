@@ -93,7 +93,7 @@ Sogenannte _Skeleton Screens_ bieten oft eine bessere Alternative zu großfläch
   </figcaption>
 </figure>
 
-Unser Gehirn lebt in der Vergangenheit, unser Bewusstsein liegt 80 Millisekunden hinter den tatsächlichen Ereignissen zurück. Zu dem Zeitpunkt, in dem man denkt, ein Ereignis passiere, liegt es bereits in der Vergangenheit. We bereits im Kapitel zu [Feedback](/feedback) angesprochen, kann eine positive der Rückmeldung bevor ein Prozess tatsächlich abgeschossen ist, die gefühlte Geschwindigkeit stark erhöhen. 
+Unser Gehirn lebt in der Vergangenheit, unser Bewusstsein liegt 80 Millisekunden hinter den tatsächlichen Ereignissen zurück. Zu dem Zeitpunkt, in dem man denkt, ein Ereignis passiere, liegt es bereits in der Vergangenheit. Wie bereits im Kapitel zu [Feedback](/feedback) angesprochen, kann eine positive der Rückmeldung bevor ein Prozess tatsächlich abgeschossen ist, die gefühlte Geschwindigkeit stark erhöhen. 
 
 ::: md-container-standout
 
@@ -105,7 +105,7 @@ Die Reaktionszeit einer Schnittstelle hat großen Einfluss darauf, wie sie sich 
 _fühlt sich sofortig an_
 
 < 1 Sekunde: 
-_fühlt sich überganslos an_
+_fühlt sich übergangslos an_
 
 < 8-10 Sekunden:
 _maximale Aufmerksamkeitsspanne_

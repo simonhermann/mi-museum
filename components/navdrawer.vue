@@ -15,7 +15,7 @@
         </div>
       </a>
 
-      <div class="toplink" v-on:click="scrollToTop"></div>
+      <a class="toplink" v-on:click="scrollToTop" aria-label="scroll to top"></a>
 
       <!-- <v-toolbar-title class="right">
         <nuxt-link to="/">Microinteractions</nuxt-link>
@@ -230,7 +230,6 @@
         font-size: 1rem;
         position: absolute;
         left: 0;
-        margin-top: -0.085em;
         margin-left: 2em;
         text-transform: none;
         transition: transform 200ms var(--transition-curve1);
@@ -274,7 +273,7 @@
     position: relative;
     &:active,
     &:hover {
-      background: var(--grey-vlight);
+      background: var(--the-color-trans);
       &::after {
         content: '⤒';
         color: var(--the-color);

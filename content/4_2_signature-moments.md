@@ -17,6 +17,8 @@ Bsp page transitions mit signature Moment: https://www.dogstudio.co/
 
 iPod Clickwheel
 
+http://dona.ai/
+
 ^[vgl. [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/)]
 
 <figure class="content-thin">

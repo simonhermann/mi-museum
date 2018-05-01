@@ -1,7 +1,7 @@
 {
   "problems.decorations.enabled": false,
   "markdown.extension.showExplorer": true,
-  "cSpell.language": ",de",
+  "cSpell.language": "de,en",
   "cSpell.words": [
     "interactiondesign",
     "intuitivität",
@@ -16,5 +16,16 @@
     "systemtrigger",
     "trigger",
     "triggers"
+  ],
+  "cSpell.enabledLanguageIds": [
+    "css",
+    "html",
+    "javascript",
+    "json",
+    "markdown",
+    "plaintext",
+    "text",
+    "vue",
+    "yml"
   ]
 }
