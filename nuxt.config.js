@@ -102,7 +102,7 @@ module.exports = {
   /*
   ** Plugins
   */
-  plugins: ['~/plugins/vuetify.js', '~/plugins/global.js'],
+  plugins: ['~/plugins/vuetify.js', '~/plugins/global.js', '~/plugins/vue-lazyload.js'],
   vendor: ['vuetify'],
   /*
   ** build, generate, render

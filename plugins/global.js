@@ -6,11 +6,6 @@ Vue.config.productionTip = false
 /*
  * Global Vue components
  */
-// vue-lazyload
-import VueLazyload from 'vue-lazyload'
-Vue.use(VueLazyload, {
-  loading: '/images/loading.svg',
-})
 
 // makes a elements scroll, but always stay in viewport [UNUSED]
 // import VueAffix from 'vue-affix'
@@ -24,7 +19,6 @@ Vue.use(VueLazyload, {
 // import ScrollView from 'vue-scrollview'
 // Vue.use(ScrollView)
 
-
 // Quickly hacking foldable footnotes for test
 // const toggleFootnotes = (el) => {
 //   el[0].classList.toggle('footnotes--hidden')
@@ -34,7 +28,6 @@ Vue.use(VueLazyload, {
 //   el[0].classList.add('footnotes--hidden')
 //   el[0].addEventListener('click', toggleFootnotes(el))
 // }
-
 
 // Vue.mixin({
 //   mounted: function() {
