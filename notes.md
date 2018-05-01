@@ -1,5 +1,7 @@
 # To Do:
 
+check all nextpage links
+
 ## Content
 
 * [ ] Bill DeRouchy - History of the Button
