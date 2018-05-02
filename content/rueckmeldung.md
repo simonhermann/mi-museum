@@ -103,13 +103,16 @@ Car sound enhancement
 
 Rückmeldung immer über mehrere Kanäle, zB Form und Farbe
 
+
+* BMW Vision Next100 https://youtu.be/ztfVoGqW5VU
+
 Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar ["belohnt"](/signature-moments).
 
 ### Abstraktion und Relevanz
 
 XXXX
 Mit Erfindung des Buttons + Elektrik ist Feedback das erste mal nicht mehr direkt von Eingabe abhängig.
-Das Ergebnis der menschlichen Bewegung kann vollkommen anders als die Art der Eingabe. [DeRouchy, Bill: [History of the Button](https://youtu.be/zdwUbhm-8Mw) UXLx/Youtube]
+Das Ergebnis der menschlichen Bewegung kann vollkommen anders als die Art der Eingabe. ^[DeRouchy, Bill: [History of the Button](https://youtu.be/zdwUbhm-8Mw) UXLx/Youtube]
 Diese Abstraktion des digitalen war besonders ausgeprägt bei Interfaces mit Kommandozeile. XXXX bsp
 
 In späteren grafischen Benutzeroberflächen wird meist versucht, die Art der Eingabe intuitiv zu gestalten, also wo möglich an die entsprechende Auswirkung auf die Analoge Welt anzupassen. Dies bedeutet keineswegs, dass die vom Computer ausgeführten Aktionen weniger komplex sind, tatsächlich ist das Gegenteil der Fall: Eine Handschrifterkennung auf einem Gerät mit Touchscreen funktioniert mit Hilfe vielschichtiger Algorithmen und imitiert doch nur das, was ein XXXX

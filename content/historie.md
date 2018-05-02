@@ -14,9 +14,24 @@ Die geschichtliche Betrachtung soll Einblicke ermöglichen, warum bestimmte Inte
 Die Idee führt die Hand
 Problem: Werkzeug und Hand beschränken das Denken -->
 
-## Phase 1: Microinteractions in mechanischen Mensch-Maschine-Schnittstellen
+## Phase 1: Microinteractions in mechanischen und elektrischen Mensch-Maschine-Schnittstellen
 
-Bevor elektronische oder gar digitale Rechenmaschinen gebaut wurden, sorgte die mechanische 'Hollerithmaschine' für Aufsehen. Erstmals in großem Maßstab eingesetzt wurde die Erfindung des Deutsch-Amerikaners Hermann Hollerith bei der amerikanischen Volkszählung im Jahre 1890. Sie war gebaut für Experten, die sich mit der technischen Funktionsweise und deren Tücken genau auskannten. Die Bedienung, beziehungsweise Programmierung erfolgte durch _Lochkarten_, welche händisch nach vorgegebenen Mustern gelocht wurden, um anschließend von einer Maschine gelesen zu werden. 
+Die bedienung früher Maschinen erfolgte durch Hebel, Kurbeln oder Tretmühlen und war mit schwerer körperlicher Arbeit verbunden. Die direkte physische Verbindung zwischen einem Eingabegerät und Mechanik der Maschine hatte den Vorteil, dass direkt zu sehen war, welche Auswirkung eine Eingabe hatte.
+<!-- Bild Tretmühle oÄ -->
+Mit Einführung der Elektrizität war diese unmittelbare Rückmeldung erstmals nicht mehr auf natürliche Weise vorhanden: Der selbe Knopf konnte eine Lampe anschalten oder eine Bombe explodieren lassen. Der elektrische Knopf abstrahierte Bewegung – mit nur minimaler Arbeit von seiten des Nutzers konnten nun große Bewegungen ausgelöst werden. Zudem konnte Ort der Eingabe konnte weit entfernt vom eigentlichen Geschehen in der Maschine sein. Die Art der Aktion eines Nutzers wurde erstmals unabhängig vom Ergebnis.^[vgl. DeRouchy, Bill: [History of the Button](https://youtu.be/zdwUbhm-8Mw) UXLx/Youtube]
+
+<figure class="content-thin">
+  <img data-src="/images/history/torch-patent.jpg">
+  <figcaption>
+    Eine der ersten Anwendungen von elektrischen Knöpfen in Alltag war in Taschenlampen.
+    <sup><a href="https://commons.wikimedia.org/wiki/File:Patent_617,592.png
+">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+
+Um zu wissen, was eine Maschine gerade tat, war eine neue Form der 'Sprache' von Geräten notwendig: Eine Benutzerschnittstelle wurde eigens für den Austausch zwischen Mensch und Maschine hinzugefügt. Sie teilte den Status einer Maschine an den Nutzer mit und nahm dessen Eingaben entgegen. Die neu hinzugekommene Ebene der [Rückmeldung](/feedback) ermöglichte die Bedienung neuer, weitaus komplexerer Maschinen. 
+
+Bevor elektronische oder gar digitale _Rechenmaschinen_ gebaut wurden, sorgte die mechanische 'Hollerithmaschine' für Aufsehen. Erstmals in großem Maßstab eingesetzt wurde die Erfindung des Deutsch-Amerikaners Herman Hollerith (\*1860 †1929) bei der amerikanischen Volkszählung im Jahre 1890. Sie war gebaut für Experten, die sich mit der technischen Funktionsweise und deren Tücken genau auskannten. Die Bedienung, beziehungsweise Programmierung erfolgte durch _Lochkarten_, welche händisch nach vorgegebenen Mustern gelocht wurden, um anschließend von einer Maschine gelesen zu werden. 
 Holleriths Erfindung war weltweit erfolgreich und er gründete die _Computing Tabulating Recording Corporation_, welche 1924 in _International Business Machines Corporation_, IBM umbenannt wurde und bis heute besteht. Auch in Deutschland wurde das System weiterentwickelt, in Berlin entstand die _Hollerith Maschinen-Gesellschaft_. Locher bekamen Tastaturen, Karten wurden automatisch zugeführt und sortiert und darauf befindliche Daten addiert.^[vgl. [Thomas Willenberg: Die Geschichte der Computertechnik](http://privat.swol.de/SvenBandel/Hollerith.htm), [Stefan Winterstein: Von Hollerith zu IBM -Die Geschichte der kommerziellen Datenverarbeitung](http://stefan-winterstein.de/papers/hollerith-ibm/), [Zeitnahtv: Von der Lochkarte zum Computer](https://youtu.be/2_73R_MrDIQ)]
 
 <figure class="content-thin">
@@ -59,7 +74,7 @@ OXO: erstes grafisches Computerspiel -->
 
 <!-- XXXX Fazit Phase 1 -->
 
-## Phase 2: CLI – Microinteractions in Command Line Interfaces / Tastatur & Text
+## Phase 2: Microinteractions in Command Line Interfaces
 
 Der Computer entwickelte sich langsam von einem Werkzeug des Mathematikers zum Universalwerkzeug. Doch noch immer waren Computer raumfüllend und tonnenschwer. Ob sie zur Forschung, im Militärbereich oder zur elektronischen Datenverarbeitung in Firmen eingesetzt wurden, sie blieben ein Werkzeug, das von Experten bedient wurde. Je kleiner Computer wurden, desto üblicher wurde die uns heute bekannte Computertastatur. Befehle wurden textbasiert eingegeben und die Darstellung erfolgte auf Röhrenbildschirmen.
 Diese auf Tastatur und Text basierende Benutzerschnittstelle wird Command line interface (CLI) genannt und ist noch heute weit verbreitet. Die _Kommandozeile_ wird genutzt, in dem Befehle und Modifikatoren eingetippt und mit <kbd>⏎</kbd> bestätigt werden. Wurde ein korrekter Befehl eingegeben, wird in den folgenden Zeilen dessen Ausgabe angezeigt. Beispielsweise werden mit dem Befehl `ls` unter UNIX-Systemen die Inhalte des momentanen Verzeichnisses gelistet, mit `ls -t` werden Inhalte nach Änderungsdatum sortiert angezeigt und `ls -R -S` gibt die Inhalte inklusive Unterverzeichnisse nach Dateigröße sortiert aus.
@@ -71,7 +86,7 @@ Ein Command Line Interface lässt sich Vorfahre von Chatbots bzw. Conversational
 
 <!-- XXXX Fazit Phase 2 -->
 
-## Phase 3: GUI – Microinteractions in Grafischen Benutzeroberflächen
+## Phase 3: Microinteractions in grafischen Benutzeroberflächen
 
 Eine grafische Benutzerschnittstelle (engl. graphical user interface, GUI) erlaubt Nutzern im gegensatz zum CLI die Funktionen eines Programms zu entdecken, anstatt diese von vornherein zu kennen oder in einer Dokumentation nachzulesen.
 Auch wenn sich Micro-Interaktionen nicht auf Nutzung von grafischen Benutzeroberflächen beschränken, so sind sie doch deren häufigste Ausprägung in den letzten 40 Jahren. Die Metapher des virtuellen Schreibtisches dirigiert seit der Vorstellung des _Macintosh_ den den Aufbau von Benutzeroberflächen: Daten werden als 'Dokumente' gespeichert und in 'Ordnern' abgelegt. Ordner können 'geöffnet' und Dokumente 'verschoben' werden. Dokumente können gelöscht werden, in dem sie in den 'Papierkorb' gelegt werden und verbleiben dort, bis dieser 'entleert' wird.
@@ -104,7 +119,7 @@ Die Eingabe über physische Bedienelemente wird auch heute noch geschätzt und v
 
 ### The Mother of all Demos
 
-Neben Sutherland war der US-Amerikaner Douglas Engelbart (\*1925 †2013) einer der bedeutendsten Erfinder von Ein- und Ausgebegeräten früher Computer. Das Ziel seines Teams am _Augmentation Research Center at Stanford Research Institute_ war die Erweiterung des menschlichen Intellekts durch Computer.
+Neben Sutherland war der US-Amerikaner Douglas Engelbart (\*1925 †2013) einer der bedeutendsten Erfinder von Ein- und Ausgebegeräten früher Computer. Das Ziel seines Teams am _Augmentation Research Center (ARC)_ war die Erweiterung des menschlichen Intellekts durch Computer.
 Er erkannte, dass Bildschirme für die Darstellung von interaktiven Elementen verwendet werden konnte und ermöglichte damit einen weit flexiblere Einsatz dieser. Bis Ende der 1950er Jahre wurden Röhrenbildschirme beispielsweise lediglich zur Darstellung von Radardaten für das Luftverteidigungssystem SAGE verwendet.
 Engelbart war der Meinung, dass Benutzer direkt mit dem Computersystem interagieren sollte, ohne sich mit Lochkarten, Teletype oder anderen Formen der Stapelverarbeitung auseinandersetzen zu müssen.
 
@@ -141,7 +156,7 @@ Die sogenannte _Chord-Tastatur_, die Engelbart zusätzlich bei seiner Demonstrat
 
 Ohne die 'Mother of all demos' und die Begeisterung, die diese ausgelöst hat, wären Computer vielleicht heute noch unbezahlbare Spielzeuge einer hochqualifizierten Elite. Engelbart war Pionier und Vordenker für die Entwicklung des Personal Computers. Seine arbeit machte Computer interaktiv, vernetzt, grafisch und persönlich.
 
-<!-- > "It's the next thing after acid"
+<!-- > It's the next thing after acid
 > <cite>LSD-Aktivist Ken Kesey kommentiert die "Mother of all Demos"</cite> -->
 
 ### Xerox Alto und Xerox Star
@@ -185,23 +200,23 @@ Stylus/Lichtgriffel: https://youtu.be/r18i-uR6BD4, https://youtu.be/1EWQYAfuMYw?
 
 <!-- XXXX Fazit Phase 3 -->
 
-## Phase 4: NUI – Microinteractions in Post-WIMP / SILK / Natural User Interfaces
+## Phase 4: Microinteractions in Interfaces der Zukunft
 
+Das wohlbekannte Konzept von Benutzeroberflächen bestehend aus Fenstern, Icons, Menüs und Cursor, kurz _WIMP (windows, icons, menus, pointer)_ wird seit einigen Jahren immer mehr von Touchscreens als vorherrschende Eingabemethode abgelöst. 
 
-Im Fahrradhelm eingebauter Blinker, der Gestensteuerung über die verbundene Apple Watch gesteuert werden kann https://www.golem.de/news/lumos-smarter-fahrradhelm-mit-gestenunterstuetzung-zum-blinken-1805-134164.html
+Die als 'natural user interface' bezeichnete Form von Benutzerschnittstellen basiert auf der direkten Interaktion des Nutzers mit dem Interface durch Gesten wie Tippen oder Wischen und Sprache ^[vgl. [Wikipedia.de: Natural User Interface](https://de.wikipedia.org/wiki/Natural_User_Interface)]. Es kann als Nachfahre des in Sketchpad angedeuteten und von Jef Raskin verfeinerten 'zooming user interface (ZUI)'^[[Specification of 'The Humane Envoronment (THE)'](https://ia800200.us.archive.org/0/items/Specification84B/Specification%2084B.txt), [Wikipedia.org: Zooming user interface](https://en.wikipedia.org/wiki/Zooming_user_interface)] gesehen werden. Beide verbindet, dass Inhalte 'direkt' angefasst und verändert werden können, also ohne Zuhilfenahme abstrakter externer Eingabegeräte wie Tasten oder Maus.
+Neben der Anwendung auf Touchscreens gewinnen Variationen von NUI auch mehr und mehr Bedeutung für Anwendungen in _Virtual Reality (VR)_ und _Augmented Reality (AR)_.
+Formen dieser 'Post-WIMP'-Interfaces finden sich in zahlreichen aktuellen Produkten, obwohl sie nicht selten eher Spielerei und 'Gimmick' als produktive Benutzerschnittstelle zu sein scheinen. 
+Fehlende _haptische Rückmeldung_ scheint der größte Schwachpunkt dieser Art von Interfaces zu sein^[[Pointing to the future of UI | John Underkoffler](https://youtu.be/b6YTQJVzwlI), 2010 - TED/Youtube], da sie sich auf das deutlich langsamer wahrgenommene visuelle Feedback verlassen müssen.  Prototypen für haptische Touchscreens, die dieses Problem minimieren könnten, existieren zwar seit vielen Jahren, scheinen aber noch immer nicht marktreif zu sein. Konzepte für haptisches Feedback in VR und AR sind ebenfalls in Arbeit, große pneumatische Handschuhe^[[A Real Life Haptic Glove (Ready Player One Technology Today) - Smarter Every Day 190](https://youtu.be/OK2y4Z5IkZ0) - SmarterEveryDay/Youtube] oder multidirektionale Laufbänder^[[The Infinadeck Omnidirectional Treadmill - Smarter Every Day 192 (VR Series)](https://youtu.be/fvu5FxKuqdQ) - SmarterEveryDay/Youtube] scheinen aber noch einige Jahre entfernt von der Nutzbarkeit im Alltag. Medizinische Chirurgie-Roboter wie das _Da Vinci-Operationssystem_ sind hier weiter, aber auch sie benötigen Training, bevor sie zuverlässig genutzt werden können.^[[Robotic Surgery Demonstration Using Da Vinci Surgical System](https://youtu.be/VJ_3GJNz4fg) - Future Trends/Youtube]
 
-- [https://www.toptal.com/designers/ui/future-ui-design-without-buttons]
+<figure class="content-normal">
+  <img data-src="/images/history/microsoft-hololens.gif">
+  <figcaption>Microsoft HoloLens soll durch eine Augmented-Reality-Brille jede Oberfläche zum Interface werden lassen.
+     <sup><a href="https://www.thestreet.com/story/13019564/1/is-microsofts-hololens-a-tech-breakthrough-or-the-next-kinnect.html">Bildquelle</a></sup>
+  </figcaption>
+</figure>
 
-- John Underkoffer: Future (of tangible) UI https://youtu.be/b6YTQJVzwlI
-
-- https://de.wikipedia.org/wiki/Natural_User_Interface
-
-- https://en.wikipedia.org/wiki/Organic_user_interface
-
-- https://scifiinterfaces.com/
-- http://rosenfeldmedia.com/wp-content/uploads/2014/11/Make-It-So-Excerpt.pdf
-
-* BMW Vision Next100 https://youtu.be/ztfVoGqW5VU
+Bill DeRouchy beschreibt eine Zukunft, in der der der die Grenze zwischen Nutzer und Interface verschwimmt, dieser selbst zum Button wird und dadurch mit jeder Oberfläche interagieren kann. ^[vgl. DeRouchy, Bill: [History of the Button](https://youtu.be/zdwUbhm-8Mw) UXLx/Youtube] Steht uns eine 'Zukunft ohne Buttons' bevor?^[[Future UI Design Without Buttons](https://www.toptal.com/designers/ui/future-ui-design-without-buttons) von  Wojciech Dobry] Schließlich sind direkte Schnittstellen zwischen Gehirn und Computern ('Brain-Computer-Interfaces, BCI') sind inzwischen gut genau genug um Roboterarmen steuern^[[Gehirn-Computer-Schnittstellen - Mit der Kraft der Gedanken](https://www.spektrum.de/news/gehirn-computer-schnittstellen-werden-alltagstauglicher/1398145) - Manuela Lenzen/spektrum.de]. Oder wird – wie in der Science Fiction – ein einziger 'Make-it-so-Button' immer die Aktion ausführen, die ein Nutzer gerade im Kopf hat?^[[Shedroff, Nathan &  Noessel, Christopher: Make it so - Interaction Design Lessons from Science Fiction](https://rosenfeldmedia.com/books/make-it-so/), Rosenfeld Media, 2012]
 
 <figure class="content-normal">
   <img data-src="/images/history/Amidala-Anykey.jpg">
@@ -226,4 +241,8 @@ Im Fahrradhelm eingebauter Blinker, der Gestensteuerung über die verbundene App
 
 :::
 
+<!-- Die Bedienung einer im Fahrradhelm verbauten Blinkanlage scheint über die verbundene Smartwatch doch eher umständlich zu sein, da diese nur die Gesten einer Hand erkennt.^[[Lumos Helmet - How To Calibrate The Apple Watch Feature, With The Folks At Mission Bicycle Company!](https://youtu.be/5x4JkxKJa_k) - Lumos Helmet
+/Youtube] -->
 
+<!-- Organic User Interface (OUI) https://en.wikipedia.org/wiki/Organic_user_interface -->
+<!-- SILK? -->

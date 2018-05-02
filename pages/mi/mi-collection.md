@@ -70,6 +70,10 @@ Sketchpad+Light pen [https://youtu.be/USyoT_Ha_bA?t=5m30s]
 
 ## Save, Open
 
+Radio Buttons: --> first concept of *saving* something
+https://youtu.be/zdwUbhm-8Mw
+
+
 
 ## Copy & Paste
 

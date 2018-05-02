@@ -76,7 +76,6 @@ img {
 
 .medium-zoom-image {
   z-index: 101;
-  padding: calc(var(--body-border-width) * 2);
   &[lazy='loading'] {
     margin: auto;
     pointer-events: none;
@@ -87,6 +86,7 @@ img {
   }
 }
 .medium-zoom--open .medium-zoom-image--open {
+  padding: calc(var(--body-border-width) * 2);
   z-index: 101;
 }
 
