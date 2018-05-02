@@ -58,6 +58,16 @@ Feedback sollte jedoch trotzdem ehrlich sein und kommunizieren was wichtig ist f
 
 XXXX^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen]
 
+<figure class="content-tiny">
+  <video muted autoplay loop preload="none" poster="" src="/images/feedback/goodtransition-cleardo-v3.mp4
+" controls controlsList="nodownload" playsinline>
+  </video>
+  <figcaption> 
+    Flow durch nahtlose, aber nicht ablenkende animierte Übergänge
+    <sup><a href="https://material.io/guidelines/motion/material-motion.html#material-motion-what-makes-a-good-transition">Quelle</a><sup>
+  </figcaption>
+</figure>
+
 ### Microcopy und Tonalität
 
 Die Art und Weise, wie textliche Inhalte einer grafischen Benutzerschnittstelle geschrieben sind, hat enorme Auswirkung auf dessen Wirkung. Zwischen Nutzer und Produkt findet eine 'Unterhaltung' statt, diese kann förmlich oder locker, ausführlich oder sachlich kurz, neutral oder heiter sein. Microcopy beschreibt die Beschriftungen, Aufforderungen und Meldungen, die ein Interface an den Nutzer kommuniziert. Sie führt einen Nutzer durch die Erfahrung des Produktes. Lesen ist eine Art stilles Sprechen und die Art und Weise, wie wir sprechen hat Einfluss auf unsere Stimmung.<!-- XXXX Beispiel/Nachweis? -->
