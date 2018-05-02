@@ -23,7 +23,7 @@ export default {
     },
   },
   beforeMount() {
-    setColorsForPage(0)
+    setColorsForPage()
   },
   head() {
     return {

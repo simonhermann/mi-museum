@@ -44,10 +44,6 @@ Bei der Entwicklung von neuartigen Interaktionsmedien, ist zu beobachten, dass v
 Heute, nachdem der Großteil der Nutzer mit Smartphones und co. vertraut sind, ist es nicht mehr so wichtig, visuelle Elemente zu entwerfen, die einen direkten Bezug zur analogen Welt in herstellen. Schließlich verbringen die meisten Nutzer mehr Zeit mit der Bedienung von digitalen Interfaces als mit analogen Knöpfen und Hebeln. 
 
 
-
-> Nothing big works
-> <cite>Victor Papanek^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]</cite>
-
 ::: md-container-more
 
 ### Weiterführende Links zum Thema Skeumorphismus:

@@ -2,10 +2,12 @@
 
 Wie verändert sich die Microinteraction mit der Zeit? Bleiben die Regeln die Selben oder ändern sie sich bei mehrfacher Nutzung? Was passiert, wenn sich äußere Faktoren ändern? Bleibt eine Funktion angeschaltet, bis sie manuell wieder deaktiviert wurde, oder schaltet sie sich unter umständen automatisch aus? Schleifen und Modi beeinflussen als 'Meta-Regeln' das Verhalten von Microinteractions.
 
+> Nothing big works.
+> <cite>Victor Papanek^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]</cite>
+
 ## Modi
 
-Ein _Modus_ ist ein Status eines Programms, in dem Befehle in dessen Kontext ausgeführt werden.
-Diese 'Verzweigung' der Regeln sollte in Microinteractions nur im Ausnahmefall erschaffen werden. Hauptgrund dafür ist, dass sie häufig Fehler des Nutzers auslösen, besonders wenn neue Regeln in einer bereits bekannten Oberfläche angewendet werden. Die Regeln eines Modus müssen von Nutzern neu erlernt werden, bevor ein Modus genutzt werden kann.^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 111 - 114), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
+Ein _Modus_ ist ein Status eines Programms, in dem Befehle in dessen Kontext ausgeführt werden. Diese 'Verzweigung' der Regeln sollte in Microinteractions jedoch die Ausnahme sein. Hauptgrund dafür ist, dass sie häufig Fehler des Nutzers auslösen, besonders wenn neue Regeln in einer bereits bekannten Oberfläche angewendet werden. Die Regeln eines Modus müssen von Nutzern neu erlernt werden, bevor ein Modus genutzt werden kann.^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 111 - 114), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
 Saffer plädiert, Modi in Microinteractions möglichst zu vermeiden, einzige Ausnahme seien selten genutzte Funktionen, die sonst den Flow des Interfaces unterbrechen würden.^[Saffer, Dan: Microinteractions - Designing with Details (S. 121), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] Doch Modi können – richtig eingesetzt – die Nutzungsgeschwindigkeit eines Interfaces deutlich erhöhen, ohne Abstriche bei der Nutzbarkeit zu machen. Sie benötigen meist etwas Einarbeitung von Seiten des Nutzers, doch einmal erlernt können sie die Produktivität enorm steigern, nicht umsonst sind sie häufig in professionellen Programmen mit hoher Nutzungsdauer zu finden.^[Beispiele für aktuell sehr erfolgreich eingesetzte Modi finden sich in: den Tasten <kbd>Shift</kbd>, <kbd>cmd</kbd>, <kbd>alt</kbd>, usw jeder Tastatur, den Texteditoren Vim, Visual Studio Code und sogar Microsoft Word, dem Designprogramm Sketch uvm.]
 
 ##### Rückfedernde Modi ('spring loaded modes')

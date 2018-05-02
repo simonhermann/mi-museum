@@ -18,7 +18,7 @@ export default {
     },
   },
   beforeMount() {
-    setColorsForPage(0)
+    setColorsForPage()
   },
   components: {
     HtmlParser, nextPage

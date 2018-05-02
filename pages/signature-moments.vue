@@ -22,7 +22,7 @@ export default {
     nextPage,
   },
   beforeMount() {
-    setColorsForPage(0)
+    setColorsForPage()
   },
   head() {
     return {

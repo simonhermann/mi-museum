@@ -21,7 +21,7 @@ export default {
     HtmlParser, nextPage
   },
   beforeMount() {
-    setColorsForPage(0)
+    setColorsForPage()
   },
   head() {
     return {

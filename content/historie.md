@@ -219,6 +219,8 @@ Fehlende _haptische Rückmeldung_ scheint der größte Schwachpunkt dieser Art v
 
 Bill DeRouchy beschreibt eine Zukunft, in der der der die Grenze zwischen Nutzer und Interface verschwimmt, dieser selbst zum Button wird und dadurch mit jeder Oberfläche interagieren kann. ^[vgl. DeRouchy, Bill: [History of the Button](https://youtu.be/zdwUbhm-8Mw) UXLx/Youtube] Steht uns eine 'Zukunft ohne Buttons' bevor?^[[Future UI Design Without Buttons](https://www.toptal.com/designers/ui/future-ui-design-without-buttons) von  Wojciech Dobry] Schließlich sind direkte Schnittstellen zwischen Gehirn und Computern ('brain-computer-interface, BCI') sind inzwischen gut genau genug um Roboterarmen steuern^[[Gehirn-Computer-Schnittstellen - Mit der Kraft der Gedanken](https://www.spektrum.de/news/gehirn-computer-schnittstellen-werden-alltagstauglicher/1398145) - Manuela Lenzen/spektrum.de]. Oder wird – wie in der Science Fiction – ein einziger 'Make-it-so-Button' immer die Aktion ausführen, die ein Nutzer gerade im Kopf hat?^[[Shedroff, Nathan &  Noessel, Christopher: Make it so - Interaction Design Lessons from Science Fiction](https://rosenfeldmedia.com/books/make-it-so/), Rosenfeld Media, 2012]
 
+<!-- feedback direkt ins Gehirn? -->
+
 <figure class="content-normal">
   <img data-src="/images/history/Amidala-Anykey.jpg">
   <figcaption>
