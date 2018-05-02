@@ -1,6 +1,6 @@
 # Historische Entwicklung von Microinteractions
 
-Die Geschichte der Mensch-Maschine-Interaktion ist tatsächlich die Geschichte der Mikro-Interaktionen, da sich diese über viele Jahrzehnte erhalten und weiterentwickelt haben. Auch heute selbstverständliche, grundlegende Dinge wie Links Scrollbalken oder Zoom wurden irgendwann erfunden.
+Die Geschichte der Mensch-Maschine-Interaktion ist tatsächlich die Geschichte der Mikro-Interaktionen, da sich diese über viele Jahrzehnte erhalten und weiterentwickelt haben. Auch heute selbstverständliche, grundlegende Interaktionen wie Links, Scrollbalken oder Zoom wurden irgendwann erfunden.
 Diese Evolution kann nach Andries van Damm in vier Hauptphasen eingeteilt werden:^[van Dam, Andries: Post-WIMP User Interfaces. In: Communications of the ACM 40(2), 1997] 
 
 1.  In der ersten Phase, den 1950er und 60er Jahren, werden Computer im _batch_-Modus bedient. Mit Hilfe von Lochkarten werden Befehle stapelweise nacheinander verarbeitet.
@@ -191,6 +191,8 @@ Stylus/Lichtgriffel: https://youtu.be/r18i-uR6BD4, https://youtu.be/1EWQYAfuMYw?
 
 ## Phase 4: NUI – Microinteractions in Post-WIMP / SILK / Natural User Interfaces
 
+
+Im Fahrradhelm eingebauter Blinker, der Gestensteuerung über die verbundene Apple Watch gesteuert werden kann https://www.golem.de/news/lumos-smarter-fahrradhelm-mit-gestenunterstuetzung-zum-blinken-1805-134164.html
 
 - [https://www.toptal.com/designers/ui/future-ui-design-without-buttons]
 

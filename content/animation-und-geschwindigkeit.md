@@ -1,16 +1,16 @@
 # Animation und Geschwindigkeit von Microinteractions
 
-Animation in Kontext von Microinteractions ist meist eine Form von [Feedback](/feedback) oder [Trigger](/triggers).
-Neue Nutzer eines Digitalen Produktes benötigen Hinweise, die zeigen, wie eine Microinteraction zu benutzen ist. Dies gilt insbesondere für Interfaces, die unbekannte oder einzigartige Interaktionen enthalten. Eine Reihe von visuellen Hinweisen sollte zeigen, welche Interaktionen möglich sind. Diese Art der funktionalen Animation lenkt die Aufmerksamkeit des Benutzers auf die möglichen Interaktionen und dient so als Auslöser für diese.
+Animation im Kontext von Microinteractions ist meist eine Form von [Feedback](/feedback) oder [Trigger](/triggers).
+Neue Nutzer eines digitalen Produktes benötigen Hinweise, die zeigen, wie eine Microinteraction zu benutzen ist. Dies gilt insbesondere für Interfaces, die unbekannte oder einzigartige Interaktionen enthalten. Eine Reihe von visuellen Hinweisen sollte zeigen, welche Interaktionen möglich sind. Diese Art der funktionalen Animation lenkt die Aufmerksamkeit des Benutzers auf die möglichen Interaktionen und dient so als Auslöser für diese.
 
 Nachdem eine Microinteraction vom Nutzer ausgelöst wurde, kann Animation als visuelle Bestätigung der Nutzereingabe dienen. Dies bedeutet, dass Benutzer anhand dieser verstehen müssen, wie ihre Aktion mit den Reaktionen des Produktes verknüpft ist. Wie bereits [beschrieben](/feedback#unmittelbarkeit), sollte hier zwischen der Rückmeldung auf eine Eingabe und der Ausführung eines Befehls unterschieden werden.
 
 > Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic&nbsp;ease.
 > <cite>'Motion' im Microsoft Fluent Design System^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]</cite>
 
-Evolutionär bedingt zieht Bewegung ganz natürlich die menschliche Aufmerksamkeit auf sich. Animation kann also genutzt werden, um den Fokus des Nutzers auf die entscheidenden Elemente eines Interfaces zu lenken.
+Evolutionär bedingt zieht Bewegung ganz natürlich die menschliche Aufmerksamkeit auf sich. Animation kann also genutzt werden, um den Fokus des Nutzers auf die entscheidenden Elemente eines Interfaces zu lenken. <!-- XXXX Beispiel/Nachweis? -->
 
-Die ersten Versionen von iOS liefen auf sehr schwacher Hardware, trotzdem wirkte es sehr performant, da das UI-Set alle Übergänge während den ladezeiten animiert wurden.
+Die ersten Versionen von iOS liefen auf sehr schwacher Hardware, trotzdem wirkte es sehr performant, da das UI-Set alle Übergänge während den ladezeiten animiert wurden.<!-- XXXX Quelle? -->
 
 <!-- Wenn ein Teil des Interfaces entweder autonom arbeitet oder nicht standardkonforme Aktionen ausführt, kann es seine Benutzer verwirren oder sogar irritieren. Da die Bewegung der Objekte im wirklichen Leben bekannt ist, erwartet der Nutzer von einem Smartphone dies. -->
 
@@ -31,7 +31,7 @@ Die ersten Versionen von iOS liefen auf sehr schwacher Hardware, trotzdem wirkte
 
 #### Natürliche Bewegung
 
-In der physischen Welt gibt es kaum gerdade Bewegungen, abrupte Statusänderungen oder
+In der physischen Welt gibt es kaum gerade Bewegungen, abrupte Statusänderungen oder
 XXXX zb exponentiell statt linear, Kurven statt Geraden
 --> Bezug auf Regeln der Physischen Welt
 Balance zwischen natürlich und funktional
@@ -58,7 +58,7 @@ Balance zwischen natürlich und funktional
 
 XXXX Markenbindung durch Verspieltheit: bekannte/standard Interaktionen (die eher seltener genutzt werden) aufwerten durch verspielte Animation --> Nutzererfahrung verbessern ohne Usability zu beeinträchtigen, Nutzer überraschen und erheitern --> [Signature Moments](/signature-moments)
 
-Auch rein dekorative Animationen sollten Sinn, Ort und Funktion haben, die sich am Gesamtkonzept orientieren. Animation, die für bloße Aufmerksamkeit genutzt wird, läuft in Gefahr, Nutzer zu überfrachten und die Erfahrung negativ zu beeinflussen.
+Auch rein dekorative Animationen sollten Sinn, Ort und Funktion haben, die sich am Gesamtkonzept orientieren. Animation, die für bloße Aufmerksamkeit genutzt wird, läuft Gefahr, Nutzer zu überfrachten und die Erfahrung negativ zu beeinflussen.
 Bei Animationen für (Mikro-)Interaktionen sollte Effizienz immer einen höheren Stellenwert einnehmen als Dekoration.
 
 
@@ -66,14 +66,14 @@ Bei Animationen für (Mikro-)Interaktionen sollte Effizienz immer einen höheren
 
 #### Gefühlte Geschwindigkeit
 
-Das Gefühl eines Menschen für Zeit ist nicht absolut, sondern abhängig von unzähligen Faktoren wie Stimmung, Erwartungshaltung, Persönlichkeit oder Kontext. Wenn sich etwas _gut_ anfühlt, vergeht es meist viel zu schnell, während ungeliebte Aufgaben kaum zu enden scheinen. Die Selben Prinzipien treffen auch auf Benutzerschnittstellen zu, und Designer sollten sie sich zu Nutze machen.
+Das Gefühl eines Menschen für Zeit ist nicht absolut, sondern abhängig von unzähligen Faktoren wie Stimmung, Erwartungshaltung, Persönlichkeit oder Kontext. Wenn sich etwas _gut_ anfühlt, vergeht es meist viel zu schnell, während ungeliebte Aufgaben kaum zu enden scheinen. Die selben Prinzipien treffen auch auf Benutzerschnittstellen zu, und Designer sollten sie sich zu Nutze machen.
 
 > Wenn man zwei Stunden lang mit einem Mädchen zusammensitzt, meint man, es wäre eine Minute. Sitzt man jedoch eine Minute auf einem heißen Ofen, meint man, es wären zwei Stunden. Das ist Relativität. 
 > <cite> Albert Einstein^[[zitate-online.de](http://www.zitate-online.de/sprueche/wissenschaftler/689/wenn-man-zwei-stunden-lang-mit-einem-maedchen.html)]</cite>
 
 <!-- When users accomplish what they set out to do on a site, they perceive that site to be fast. -->
 
-Einer Studie des MIT zufolge werden _passive_ Wartezeiten durchschnittlich 36% länger eingeschätzt, als sie tatsächlich sind^[[Perspectives on Queues: Social Justice and psychology of Queueing](http://www.jstor.org/stable/171439?seq=1#page_scan_tab_contents) von Richard Larson, MIT]. Wartezeiten werden sich nie komplett vermeiden lassen, aber diese können _gefühlt kürzer_ werden, in dem der _passive_ Teil verkürzt und in _aktive_ Phasen umgewandelt wird. In Aufzügen sind Spiegel, in Wartezimmern Magazine und auf Youtube können schon während ein Video hochgeladen wird Titel und Beschreibung eingegeben werden.
+Einer Studie des MIT zufolge werden _passive_ Wartezeiten durchschnittlich 36% länger eingeschätzt, als sie tatsächlich sind^[[Perspectives on Queues: Social Justice and psychology of Queueing](http://www.jstor.org/stable/171439?seq=1#page_scan_tab_contents) von Richard Larson, MIT]. Wartezeiten werden sich nie komplett vermeiden lassen, aber diese können _gefühlt kürzer_ werden, in dem der _passive_ Teil verkürzt und in _aktive_ Phasen umgewandelt wird. In Aufzügen sind Spiegel, in Wartezimmern Magazine und auf Youtube können – schon während ein Video hochgeladen wird – Titel und Beschreibung eingegeben werden.
 
 Angeblich haben etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan keinerlei Funktion^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen] – aber sie sorgen dafür, dass Menschen interagieren können und ein Gefühl von Einflussnahme auf die Ampelphasen haben. Wenn man es eilig hat, fühlt es sich viel besser an, einen Knopf zu drücken, als untätig zu warten. Die Knöpfe funktionieren – nur eben nicht auf technische, sondern rein auf psychologische Weise. Hier findet eine direkte Manipulation des Nutzerverhaltens durch eine Mikro-Interaktion statt und es stellt sich die Frage, ob ein "Hintergehen" des Nutzers auf dese Weise moralisch vertretbar ist. In diesem Fall hilft es, Leben zu retten, da Fußgänger seltener über rote Ampeln gehen. Letztendlich muss diese Frage aber jeder für sich beantworten.
 
@@ -114,7 +114,7 @@ _maximale Aufmerksamkeitsspanne_
 
 :::
 
-Die tatsächliche Zeit, die eine Animation andauern sollte, ist stark Situationsabhängig, eine Dauer zwischen 200 und 500ms scheint jedoch in vielen Fällen ein guter Richtwert zu sein.^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head]
+Die tatsächliche Zeit, die eine Animation andauern sollte, ist stark situationsabhängig, eine Dauer zwischen 200 und 500ms scheint jedoch in vielen Fällen ein guter Richtwert zu sein.^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head]
 Bei responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdauer von großflächigen Übergängen an die Größe des Ausgabemediums anzupassen. Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Zahlen dahinter.
 
 
@@ -130,7 +130,7 @@ Bei responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdaue
 XXXX https://www.ted.com/talks/daniel_engber_how_the_progress_bar_keeps_you_sane
 
 
-_Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. Wenn uns jemand oder etwas ohne merkliche Verzögerung die Antwort auf eine Komplexe Frage gibt, werden wir misstrauisch. Hier wird erneut die Relation zur echten Welt klar; Wer im Restaurant nach einer Minute sein Essen bekommt, denkt sich "das kann ja nicht frisch sein" und ein Schlüsselnotdienst bekommt kein Trinkgeld, wenn er seine Arbeit in der tatsächlich benötigten Arbeit erledigt, da diese sehr kurz ist und daher nicht besonders wertvoll wirkt. Hier funktioniert unser Denken nach dem Grundsatz: _Wenn etwas schnell geht, muss es wohl einfach sein und etwas das einfach ist, sollte es billig sein._ Tatsächlich finden eine artifizielle Wartezeiten in zahlreichen Benutzerschnittstellen Anwendung, beispielsweise in Geldzählmaschinen.^[vgl. [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus]
+_Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. Wenn uns jemand oder etwas ohne merkliche Verzögerung die Antwort auf eine komplexe Frage gibt, werden wir misstrauisch. Hier wird erneut die Relation zur echten Welt klar; Wer im Restaurant nach einer Minute sein Essen bekommt, denkt sich "das kann ja nicht frisch sein" und ein Schlüsselnotdienst bekommt kein Trinkgeld, wenn er seine Arbeit in der tatsächlich benötigten Arbeit erledigt, da diese sehr kurz ist und daher nicht besonders wertvoll wirkt. Hier funktioniert unser Denken nach dem Grundsatz: _Wenn etwas schnell geht, muss es wohl einfach sein und etwas das einfach ist, sollte es billig sein._ Tatsächlich finden eine artifizielle Wartezeiten in zahlreichen Benutzerschnittstellen Anwendung, beispielsweise in Geldzählmaschinen.^[vgl. [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus]
 In Ausnahmefällen kann Wartezit sogar genutzt werden, um Spannung und Antizipation aufzubauen, meist sollte jedoch versucht werden, _passive_ Wartephasen möglichst kurz zu halten.
 
 <figure class="content-thin">
@@ -159,22 +159,21 @@ Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegang
 <!-- ![Beispiel für eine misslungene UI-Animation^[https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97] ](/images/animation-and-pace/poormotiondesign.gif ""){.content-thin}  -->
 
 Leider ist es teilweise sehr aufwändig und teuer gute Animationen zu implementieren, hier sollte Qualität vor Quanitiät stehen, da sonst womöglich die Nutzererfahrung gar verschlechtert wird. Doch auch für hervorragende Animationen besteht die Gefahr, dass diese auf Dauer hinderlich werden. Was beim ersten Mal als nette Überraschung empfunden wird, kann beim zehnten Mal langweilig oder sogar lästig erscheinen. In einigen Fällen sollte die Option angeboten werden, Animation zu auszuschalten oder reduzieren und so Nutzern die Möglichkeit gegeben werden, das Interface ihren Präferenzen anzupassen.^[Bei Webseiten sollte die Browsereinstellung _prefers-reduced-motion_ beachtet werden. Mehr Informationen dazu: [Implementing a reduced-motion mode](https://hugogiraudel.com/2018/03/19/implementing-a-reduced-motion-mode/) von Hugo Giraudel]
-Für Manche Nutzer bedeutet jede Animation, dass sich die Augen neu fokussieren müssen, Bei einigen können sogar gesundheitliche beschwerden wie Schwindel auftreten (vestibuläre Störungen). Besonders Effekte, bei denen sich mehrere Elemente in gegensätzliche Richtungen bewegen, wie Parallax-Scrolling können desorientierende Wirkung haben.^[Mehr Informationen zu möglichen gesundheitlichen Auswirkungen von Animation im Artikel [Designing Safer Web Animation For Motion Sensitivity](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) von Val Head]
+Für manche Nutzer bedeutet jede Animation, dass sich die Augen neu fokussieren müssen, Bei einigen können sogar gesundheitliche Beschwerden wie Schwindel auftreten (vestibuläre Störungen). Besonders Effekte, bei denen sich mehrere Elemente in gegensätzliche Richtungen bewegen, wie Parallax-Scrolling können desorientierende Wirkung haben.^[Mehr Informationen zu möglichen gesundheitlichen Auswirkungen von Animation im Artikel [Designing Safer Web Animation For Motion Sensitivity](http://alistapart.com/article/designing-safer-web-animation-for-motion-sensitivity) von Val Head]
 
 ::: md-container-standout
 Als Faustregel gilt: Je größer die animierte Fläche, je ausschweifender und auffälliger die Animation und je öfter die Nutzung, diesto höher ist die Gefahr, dass diese als negativ empfunden werden könnte.
 :::
 
-Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling bedeutet die formalästhetische Überarbeitung eines Produkts im Sinne einer Verschönerung mit dem Ziel besserer Verkäuflichkeit. Funktionale Verbesserungen werden dabei nicht angestrebt. [...] Der Funktionalismus kritisierte das Styling als oberflächlich und nicht von einer funktionalen Notwendigkeit getragen. [...] - Quelle: [Designlexikon.net](http://www.designlexikon.net/Fachbegriffe/S/styling.html) ] abzurutschen. Der eigentliche Inhalt eines Produktes sollte immer im Vordergrund stehen und Animationen sind geradezu dafür gemacht, von diesem abzulenken. Wie bereits im Kapitel zu [Feedback](/feedback) angesprochen, sollte versucht werden, bereits vorhandene UI-Elemente umzuformen und zu integrieren, anstatt neue hinzuzufügen.
-Außerdem sollten sie von Anfang an und sorgfältig eingeplant werden und gegelmäßig mit Nutzern getestet werden.
+Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling bedeutet die formalästhetische Überarbeitung eines Produkts im Sinne einer Verschönerung mit dem Ziel besserer Verkäuflichkeit. Funktionale Verbesserungen werden dabei nicht angestrebt. [...] Der Funktionalismus kritisierte das Styling als oberflächlich und nicht von einer funktionalen Notwendigkeit getragen. [...] - Quelle: [Designlexikon.net](http://www.designlexikon.net/Fachbegriffe/S/styling.html) ] abzurutschen. Der eigentliche Inhalt eines Produktes sollte immer im Vordergrund stehen und Animationen sind geradezu dafür gemacht, von diesem abzulenken. Wie bereits im Kapitel zu [Feedback](/feedback) angesprochen, sollte versucht werden, bereits vorhandene UI-Elemente umzuformen und zu integrieren, anstatt neue hinzuzufügen. Außerdem sollten sie von Anfang an und sorgfältig eingeplant werden und regelmäßig mit Nutzern getestet werden.
 
 ### Die Möglichkeiten von Animation in Microinteractions zusammengefasst:
 
 * Interaktionen fühlen sich flüssig und angenehm an
-* schaffen von Personlichkeit
+* schaffen von Persönlichkeit
 * verbesserte Benutzbarkeit
-* Erhöhung der Geschwindikeit (besonders für neue Nutzer)
-* Erhöhung der gefühlten Geschwindikeit
+* Erhöhung der Nutzungsgeschwindigkeit (besonders für neue Nutzer)
+* Erhöhung der gefühlten Geschwindigkeit
 * die richtige Erwartungshaltung schaffen und Hinweise geben, was passieren wird
 * klares Feedback auf Eingaben geben
 * Orientierung über die momentane "Position" im Interface geben

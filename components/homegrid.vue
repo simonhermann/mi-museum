@@ -79,15 +79,17 @@ export default {
     }
 
     &:hover,
-    &:active,
     &:focus {
       .item__inner {
         border-radius: 1rem;
         transform: scale(0.96);
       }
+    }
+    &:hover,
+    &:active,
+    &:focus {
       .item__head {
         text-decoration: underline;
-        //transform: scale(1.02);
       }
     }
 
