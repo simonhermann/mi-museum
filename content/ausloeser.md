@@ -59,7 +59,7 @@ Der Trend zur Automatisierung nimmt rapide zu und von _Künstlicher Intelligenz_
 <figure class="content-thin">
     <img data-src="/images/triggers/incoming-call.gif">
     <figcaption>Diese Animation für einen eingehenden Anruf ist dem Klingeln eines klassischen analogen Telefons nachempfunden.
-    <sup><a href="https://material.io/">Bildquelle</a></sup>
+    <sup><a href="https://material.io/guidelines/motion/material-motion.html#material-motion-how-does-material-move">Bildquelle</a></sup>
     </figcaption>
 </figure>
 

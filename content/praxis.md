@@ -27,6 +27,7 @@ Verschiedne Geräte und Situationen erfordern unterschiedliche Herangehenweisen.
 > Don’t design to prove you're clever. Design to make the user think _she_ is.
 > <cite>Jeffrey Zeldman^[[Jeffrey Zeldman: The Year in Design](https://medium.com/let-me-repost-that-for-you-zeldman/the-year-in-design-9c06acf55b88)]</cite>
 
+Videoserie: [UX How-To with Luke Wroblewski | Intel Software](https://www.youtube.com/playlist?list=PLg-UKERBljNy2Yem3RJkYL1V70dpzkysC)
 
 Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
 

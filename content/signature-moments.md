@@ -19,6 +19,20 @@ Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es
 
 XXXX
 
+
+
+### Branding durch Animationen
+
+XXXX Markenbindung durch Verspieltheit: bekannte/standard Interaktionen (die eher seltener genutzt werden) aufwerten durch verspielte Animation --> Nutzererfahrung verbessern ohne Usability zu beeinträchtigen, Nutzer überraschen und erheitern --> [Signature Moments](/signature-moments)
+
+Auch rein dekorative Animationen sollten Sinn, Ort und Funktion haben, die sich am Gesamtkonzept orientieren. Animation, die für bloße Aufmerksamkeit genutzt wird, läuft Gefahr, Nutzer zu überfrachten und die Erfahrung negativ zu beeinflussen.
+Bei Animationen für (Mikro-)Interaktionen sollte Effizienz immer einen höheren Stellenwert einnehmen als Dekoration.
+
+<!-- ^[[https://dribbble.com/shots/2440217-Fluid-Switch](/images/animation-and-pace/switch-fluidswitch.gif)] -->
+
+
+
+
 Anpassung an Nutzer über Zeit (-->long loops)
 
 Bsp page transitions mit signature Moment: https://www.dogstudio.co/
