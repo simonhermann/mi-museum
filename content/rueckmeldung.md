@@ -65,7 +65,7 @@ XXXX^[[Smart Transitions In User Experience Design](https://www.smashingmagazine
 
 ### Microcopy und Tonalität
 
-Die Art und Weise, wie textliche Inhalte einer grafischen Benutzerschnittstelle geschrieben sind, hat enorme Auswirkung auf dessen Wirkung. Zwischen Nutzer und Produkt findet eine "Unterhaltung" statt, diese kann förmlich oder locker, ausführlich oder sachlich kurz, neutral oder heiter sein. Microcopy beschreibt die Beschriftungen, Aufforderungen und Meldungen, die ein Interface an den Nutzer kommuniziert. Sie führt einen Nutzer durch die Erfahrung des Produktes. Lesen ist eine Art stilles Sprechen und die Art und Weise, wie wir sprechen hat Einfluss auf unsere Stimmung.<!-- XXXX Beispiel/Nachweis? -->
+Die Art und Weise, wie textliche Inhalte einer grafischen Benutzerschnittstelle geschrieben sind, hat enorme Auswirkung auf dessen Wirkung. Zwischen Nutzer und Produkt findet eine 'Unterhaltung' statt, diese kann förmlich oder locker, ausführlich oder sachlich kurz, neutral oder heiter sein. Microcopy beschreibt die Beschriftungen, Aufforderungen und Meldungen, die ein Interface an den Nutzer kommuniziert. Sie führt einen Nutzer durch die Erfahrung des Produktes. Lesen ist eine Art stilles Sprechen und die Art und Weise, wie wir sprechen hat Einfluss auf unsere Stimmung.<!-- XXXX Beispiel/Nachweis? -->
 
 <figure class="content-thin">
   <img data-src="/images/feedback/mailchimp-login-error.jpg">
@@ -79,7 +79,7 @@ Da dieses Thema den Rahmen der Arbeit sprengen würde, hier nur eine kurze Über
 
 ### Arten von Feedback
 
-Da die Rückmeldung, um die es hier geht, von Maschinen an Menschen ist, überträgt sie sich über die menschlichen Sinne an Nutzer. Sie ist bei heutigen digitalen Geräten meist visuell oder akustisch, manchmal haptisch und nur selten über Geschmack oder Geruch. Doch ein wichtiges das wichtigste Ziel ist immer, die "Black Box" der Technik zugänglich machen.
+Da die Rückmeldung, um die es hier geht, von Maschinen an Menschen ist, überträgt sie sich über die menschlichen Sinne an Nutzer. Sie ist bei heutigen digitalen Geräten meist visuell oder akustisch, manchmal haptisch und nur selten über Geschmack oder Geruch. Doch ein wichtiges das wichtigste Ziel ist immer, die 'Black Box' der Technik zugänglich machen.
 Bei verbreiteten Interaktionsmustern sollte meist auf deren konventionelle Art der Rückmeldung zurückgegriffen werden, um nötige Lernzeit für Nutzer kurz zu halten.
 Wenn möglich, sollte ein direkter Bezug zwischen Eingabe und Rückmeldung hergestellt werden, z. B. ein Mauscursor, welcher den Bewegungen der Maus folgt.
 Ist es nicht möglich, eine unmittelbare Verbindung herzustellen, sollte trotzdem in jedem Fall eine Veränderung des Zustandes des Objektes stattfinden, zum Beispiel durch Änderung der Farbe.
@@ -90,7 +90,7 @@ XXXX
 <figure class="content-thin">
   <img data-src="/images/feedback/1password-shake.gif">
   <figcaption>
-  "Shake"-Feedback von 1password bei Eingabe eines falschen Master-Passwortes.
+  'Shake'-Feedback von 1password bei Eingabe eines falschen Master-Passwortes.
   Die Darstellung von Punkten für eingegebene Zeichen ist eine Form von Rückmeldung, die in der Kommandozeile üblicherweise nicht vorhanden&nbsp;ist.
   </figcaption>
 </figure>

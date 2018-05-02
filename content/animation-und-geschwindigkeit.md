@@ -75,7 +75,7 @@ Das Gefühl eines Menschen für Zeit ist nicht absolut, sondern abhängig von un
 
 Einer Studie des MIT zufolge werden _passive_ Wartezeiten durchschnittlich 36% länger eingeschätzt, als sie tatsächlich sind^[[Perspectives on Queues: Social Justice and psychology of Queueing](http://www.jstor.org/stable/171439?seq=1#page_scan_tab_contents) von Richard Larson, MIT]. Wartezeiten werden sich nie komplett vermeiden lassen, aber diese können _gefühlt kürzer_ werden, in dem der _passive_ Teil verkürzt und in _aktive_ Phasen umgewandelt wird. In Aufzügen sind Spiegel, in Wartezimmern Magazine und auf Youtube können – schon während ein Video hochgeladen wird – Titel und Beschreibung eingegeben werden.
 
-Angeblich haben etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan keinerlei Funktion^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen] – aber sie sorgen dafür, dass Menschen interagieren können und ein Gefühl von Einflussnahme auf die Ampelphasen haben. Wenn man es eilig hat, fühlt es sich viel besser an, einen Knopf zu drücken, als untätig zu warten. Die Knöpfe funktionieren – nur eben nicht auf technische, sondern rein auf psychologische Weise. Hier findet eine direkte Manipulation des Nutzerverhaltens durch eine Mikro-Interaktion statt und es stellt sich die Frage, ob ein "Hintergehen" des Nutzers auf dese Weise moralisch vertretbar ist. In diesem Fall hilft es, Leben zu retten, da Fußgänger seltener über rote Ampeln gehen. Letztendlich muss diese Frage aber jeder für sich beantworten.
+Angeblich haben etwa 90% der Knöpfe an Fußgängerüberwegen in Manhattan keinerlei Funktion^[[The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen] – aber sie sorgen dafür, dass Menschen interagieren können und ein Gefühl von Einflussnahme auf die Ampelphasen haben. Wenn man es eilig hat, fühlt es sich viel besser an, einen Knopf zu drücken, als untätig zu warten. Die Knöpfe funktionieren – nur eben nicht auf technische, sondern rein auf psychologische Weise. Hier findet eine direkte Manipulation des Nutzerverhaltens durch eine Mikro-Interaktion statt und es stellt sich die Frage, ob ein 'Hintergehen' des Nutzers auf dese Weise moralisch vertretbar ist. In diesem Fall hilft es, Leben zu retten, da Fußgänger seltener über rote Ampeln gehen. Letztendlich muss diese Frage aber jeder für sich beantworten.
 
 Der sogenannte Zeigarnik-Effekt bewirkt, dass wir unfertige Vorgänge besser im Gedächtnis behalten als abgeschlossene. Eine Fortschrittsanzeige kann so die Wahrscheinlichkeit erhöhen, dass Nutzer einen angefangenen Prozess abschließen.^[vgl. [Lawsofux.com: Zeigarnik Effect](https://lawsofux.com/zeigarnik-effect)] Vor allem bei Registrierungs- oder Bestellvorgängen hat sich das Prinzip bewährt. Hier wird eine große, aufwändige Aufgabe in angenehmere Teilschritte aufgeteilt ohne Nutzer im Unklaren über die ungefähr zu erwartende Länge des Prozesses zu lassen. 
 
@@ -83,7 +83,7 @@ Der sogenannte Zeigarnik-Effekt bewirkt, dass wir unfertige Vorgänge besser im 
 > <cite>Luke Wroblewski^[[Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski]</cite>
 
 Auch wenn rein passive Ladeanimationen den Nachteil haben, die Aufmerksamkeit des Nutzers auf die unangenehme Wartezeit zu lenken, haben sie doch eine Berechtigung. Sie sollten jedoch niemals die gesamte Applikation blocken und den Nutzer zur Untätigkeit verdammen. Es sollte versucht werden, diese möglichst in vorhanden UI-Elemente zu integrieren und damit eher unaufdringlich und informell zu gestalten.^[vgl. [The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen]
-Sogenannte _Skeleton Screens_ bieten oft eine bessere Alternative zu großflächigen Ladeanimationen. Da ein "Skelett" der UI sehr schnell angezeigt werden kann, haben Nutzer früher Zeit, sich zu orientieren und deren Fokus wird eher auf den nach und nach auftauchenden Inhalt gelenkt, als auf den Fakt, dass etwas noch geladen werden muss.^[vgl. [Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski] Inzwischen wird das Konzept von zahlreichen Webseiten und Apps wie Facebook, Slack oder Medium.com eingesetzt. 
+Sogenannte _Skeleton Screens_ bieten oft eine bessere Alternative zu großflächigen Ladeanimationen. Da ein 'Skelett' der UI sehr schnell angezeigt werden kann, haben Nutzer früher Zeit, sich zu orientieren und deren Fokus wird eher auf den nach und nach auftauchenden Inhalt gelenkt, als auf den Fakt, dass etwas noch geladen werden muss.^[vgl. [Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski] Inzwischen wird das Konzept von zahlreichen Webseiten und Apps wie Facebook, Slack oder Medium.com eingesetzt. 
 
 <figure class="content-tiny">
   <img data-src="/images/animation-and-pace/skeleton-facebook.gif">
@@ -131,7 +131,7 @@ XXXX https://www.ted.com/talks/daniel_engber_how_the_progress_bar_keeps_you_sane
 
 
 _Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. Wenn uns jemand oder etwas ohne merkliche Verzögerung die Antwort auf eine komplexe Frage gibt, werden wir misstrauisch. Hier wird erneut die Relation zur echten Welt klar; Wer im Restaurant nach einer Minute sein Essen bekommt, denkt sich "das kann ja nicht frisch sein" und ein Schlüsselnotdienst bekommt kein Trinkgeld, wenn er seine Arbeit in der tatsächlich benötigten Arbeit erledigt, da diese sehr kurz ist und daher nicht besonders wertvoll wirkt. Hier funktioniert unser Denken nach dem Grundsatz: _Wenn etwas schnell geht, muss es wohl einfach sein und etwas das einfach ist, sollte es billig sein._ Tatsächlich finden eine artifizielle Wartezeiten in zahlreichen Benutzerschnittstellen Anwendung, beispielsweise in Geldzählmaschinen.^[vgl. [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus]
-In Ausnahmefällen kann Wartezit sogar genutzt werden, um Spannung und Antizipation aufzubauen, meist sollte jedoch versucht werden, _passive_ Wartephasen möglichst kurz zu halten.
+In Ausnahmefällen kann Wartezeit sogar genutzt werden, um Spannung und Antizipation aufzubauen, meist sollte jedoch versucht werden, _passive_ Wartephasen möglichst kurz zu halten.
 
 <figure class="content-thin">
   <img data-src="/images/animation-and-pace/calculating-savings.jpg">
@@ -176,7 +176,7 @@ Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling 
 * Erhöhung der gefühlten Geschwindigkeit
 * die richtige Erwartungshaltung schaffen und Hinweise geben, was passieren wird
 * klares Feedback auf Eingaben geben
-* Orientierung über die momentane "Position" im Interface geben
+* Orientierung über die momentane 'Position' im Interface geben
 * Verdeutlichen von Hierarchie
 * den Fokus des Nutzers lenken
 
