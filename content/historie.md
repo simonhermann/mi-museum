@@ -222,7 +222,7 @@ Bill DeRouchy beschreibt eine Zukunft, in der der der die Grenze zwischen Nutzer
 <!-- feedback direkt ins Gehirn? -->
 
 <figure class="content-normal">
-  <img data-src="/images/history/Amidala-Anykey.jpg">
+  <img data-src="/images/history/starwars-makeitso.jpg">
   <figcaption>
     Im Film 'Star Wars: Episode I' nutzt Königin Amidala den selben Button um eine Hologramm-Verbindung aufzubauen, eine Sternenkarte aufzurufen und das Raumschiff zu landen. <sup><a href="https://99percentinvisible.org/episode/future-screens-are-mostly-blue/">Bildquelle</a></sup>
   </figcaption>
