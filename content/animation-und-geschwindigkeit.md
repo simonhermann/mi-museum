@@ -29,7 +29,7 @@ Die ersten Versionen von iOS liefen auf sehr schwacher Hardware, trotzdem wirkte
   </figcaption>
 </figure>
 
-#### Natürliche Bewegung
+### Natürliche Bewegung
 
 In der physischen Welt gibt es kaum gerade Bewegungen, abrupte Statusänderungen oder
 XXXX zb exponentiell statt linear, Kurven statt Geraden
@@ -54,7 +54,7 @@ Balance zwischen natürlich und funktional
   </figcaption>
 </figure>
 
-#### Branding durch Animationen
+### Branding durch Animationen
 
 XXXX Markenbindung durch Verspieltheit: bekannte/standard Interaktionen (die eher seltener genutzt werden) aufwerten durch verspielte Animation --> Nutzererfahrung verbessern ohne Usability zu beeinträchtigen, Nutzer überraschen und erheitern --> [Signature Moments](/signature-moments)
 
@@ -64,7 +64,7 @@ Bei Animationen für (Mikro-)Interaktionen sollte Effizienz immer einen höheren
 
 <!-- ^[[https://dribbble.com/shots/2440217-Fluid-Switch](/images/animation-and-pace/switch-fluidswitch.gif)] -->
 
-#### Gefühlte Geschwindigkeit
+### Gefühlte Geschwindigkeit
 
 Das Gefühl eines Menschen für Zeit ist nicht absolut, sondern abhängig von unzähligen Faktoren wie Stimmung, Erwartungshaltung, Persönlichkeit oder Kontext. Wenn sich etwas _gut_ anfühlt, vergeht es meist viel zu schnell, während ungeliebte Aufgaben kaum zu enden scheinen. Die selben Prinzipien treffen auch auf Benutzerschnittstellen zu, und Designer sollten sie sich zu Nutze machen.
 
@@ -86,7 +86,7 @@ Auch wenn rein passive Ladeanimationen den Nachteil haben, die Aufmerksamkeit de
 Sogenannte _Skeleton Screens_ bieten oft eine bessere Alternative zu großflächigen Ladeanimationen. Da ein 'Skelett' der UI sehr schnell angezeigt werden kann, haben Nutzer früher Zeit, sich zu orientieren und deren Fokus wird eher auf den nach und nach auftauchenden Inhalt gelenkt, als auf den Fakt, dass etwas noch geladen werden muss.^[vgl. [Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski] Inzwischen wird das Konzept von zahlreichen Webseiten und Apps wie Facebook, Slack oder Medium.com eingesetzt. 
 
 <figure class="content-tiny">
-  <img data-src="/images/animation-and-pace/skeleton-facebook.gif">
+  <img data-src="/images/animation-and-pace/skeleton-fb.gif">
   <figcaption>
     Skeleton Screen und Ladevorgang der Facebook-App
     <sup><a href="https://www.viget.com/articles/a-bone-to-pick-with-skeleton-screens/">Bildquelle</a></sup>

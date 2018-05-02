@@ -7,7 +7,7 @@ Für Nutzer sollten die [Regeln](/rules) einer Microinteraction keinerlei oder n
 
 <!-- Kontinuierlich + Authentisch => direkte Manipulation -->
 
-#### Feedback sollte üblicherweise vorhanden sein, wenn:
+##### Feedback sollte üblicherweise vorhanden sein, wenn:
 
 * eine Eingabe von Seiten des Nutzers stattfindet.
 * ein systembasierter Trigger den Status der Benutzerschnittstelle oder des Programms signifikant verändert (z. B. Eintreffen neuer Nachrichten).
@@ -107,7 +107,7 @@ Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmel
 Die Erfindung des elektrischen Knopfes sorgt zum ersten mal in der Geschichte dafür, dass Eingabe, Ergebnis und Feedback nicht mehr direkt verbunden sind. Die Art der Rückmeldung kann also frei gewählt werden und ist nicht mehr abhängig von der Art der Eingabe. Mehr dazu im Kapitel zur [Historie von Microinteractions](/history).
 
 Diese Abstraktion hat mit der Technisierung und Digitalisierung immer weiter zugenommen. Digitale Geräte bestehen aus unzähligen Schichten aufeinander aufbauender Teilsysteme und selbst die Funktionsweise einfacherer Geräte wie Taschenrechnern werden von den wenigsten Nutzern durchschaut. Komplexe Systeme wie Smartphones, Flugzeuge oder das Internet sind praktisch unmöglich in ihrer Gänze zu erfassen.
-Doch um ein Gerät Nutzen zu können ist es keineswegs nötig diese 'Black Boxen' zu verstehen. Die Aufgabe von Designern ist, diese Nutzbar zu machen, ohne interne Abläufe verstehen zu müssen.
+Doch um ein Gerät Nutzen zu können ist es keineswegs nötig diese 'Black Boxen' zu verstehen. Aufgabe von Designern ist, diese Nutzbar zu machen, ohne interne Abläufe verstehen zu müssen.
 Interfaces mit Kommandozeile erfordern eine besonders abstrakte Denkweise vom Nutzer, während in späteren grafischen oder ['natürlichen'](/history) Benutzeroberflächen meist versucht wird, die Art der Eingabe intuitiv zu gestalten – diese also möglichst an ihre Auswirkung auf die Analoge Welt anzupassen. Was keineswegs bedeutet, dass die vom Computer ausgeführten Aktionen weniger komplex sind, tatsächlich ist oft das Gegenteil der Fall: Eine Handschrifterkennung auf einem Gerät mit Touchscreen funktioniert mit Hilfe vielschichtiger Algorithmen und erfordert weitaus mehr Rechenleistung als eine Kommandozeile. Diese Komplexität wird jedoch vor dem Endnutzer versteckt, sie ist nicht Teil der Rückmeldung, da sie meist irrelevant für das Ergebnis ist.
 <!-- Mit Entwicklung der Technik und des Einzuges von Heimcomputern, Smartphones und zahlreicher weiterer digitaler Geräte entstand jedoch die Notwendigkeit, weitaus abstraktere Konzepte durch Microinteractions zu kontrollieren. -->
 

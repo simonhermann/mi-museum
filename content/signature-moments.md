@@ -1,5 +1,7 @@
 # Signature Moments durch Microinteractions
 
+XXXX
+
 Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher und andere möglichkeiten der Markenbildung sind erforderlich. XXXX
 
 Worin unterscheidet sich die Nutzung von iPhones von Android-Smartphones, MacOS von Windows, Cinema4D von 3ds Max, Google von Bing oder XXXX von YYYY? Mit den meisten modernen Werkzeugen lassen sich ähnliche Ergebnisse erzielen – aber auf unterschiedliche Weise.
