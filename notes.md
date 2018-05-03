@@ -26,10 +26,11 @@ check all nextpage links
 * [ ] oben: vorheriges Kapitel?
 * [ ] foldable footnotes?
 * [ ] besseres System für Quellen, wie https://mprove.de/diplom/text/references.html
+* [ ] pull up/down to prev/next page (https://github.com/stackjie/vue-pull-to?)
 
 ## Bugs
 
-* [ ] img placeholder flickering
+* [ ] 
 
 ## Technical
 
@@ -109,6 +110,8 @@ used special chars / arrows:
 ---
 ---
 
+# Konsultation
+- CD-Version ist nicht per Doppelklick ausführbar
 
 # Präsentation
 
