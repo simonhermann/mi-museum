@@ -90,13 +90,7 @@ Sogenannte _Skeleton Screens_ bieten oft eine bessere Alternative zu großfläch
 </figure>
 
 Unser Gehirn lebt in der Vergangenheit, unser Bewusstsein liegt 80 Millisekunden hinter den tatsächlichen Ereignissen zurück. Zu dem Zeitpunkt, in dem man denkt, ein Ereignis passiere, liegt es bereits in der Vergangenheit. Wie bereits im Kapitel zu [Feedback](/feedback) angesprochen, kann eine positive der Rückmeldung bevor ein Prozess tatsächlich abgeschossen ist, die gefühlte Geschwindigkeit stark erhöhen. 
-Die Reaktionszeit einer Schnittstelle hat großen Einfluss darauf, wie sie sich anfühlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
-
-- bis zu 100 Millisekunden: _fühlt sich sofortig an_
-- bis zu 1 Sekunde: _fühlt sich übergangslos an_
-- 8-10 Sekunden: _maximale Aufmerksamkeitsspanne_
-
-Die tatsächliche Zeit, die eine Animation andauern sollte, ist stark situationsabhängig, eine Dauer zwischen 200 und 500 Millisekunden scheint jedoch in vielen Fällen ein guter Richtwert zu sein.^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head] Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Zahlen dahinter. Bei responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdauer von großflächigen Übergängen an die Größe des Ausgabemediums anzupassen.
+Die Zeit, die eine Animation andauern sollte, ist stark situationsabhängig, eine Dauer zwischen 200 und 500 Millisekunden scheint jedoch in vielen Fällen ein guter Richtwert zu sein.^[[How fast should your UI animations be?](http://valhead.com/2016/05/05/how-fast-should-your-ui-animations-be/) von Val Head] Es ist wichtiger, dass sich UI-Animationen richtig anfühlen, als die genauen Zahlen dahinter. Bei responsiven Webseiten sollte in Erwägung gezogen werden, die Animationsdauer von großflächigen Übergängen an die Größe des Ausgabemediums anzupassen.
 
 <figure class="content-normal">
   <video muted autoplay loop preload="none" poster="" src="/images/animation-and-pace/loading-stripes.mp4" controls controlsList="nodownload" playsinline>
@@ -122,6 +116,13 @@ In Ausnahmefällen kann Wartezeit sogar genutzt werden, um Spannung und Antizipa
 
 ### Bewegung sinn- und verantwortungsvoll einsetzen
 
+<!-- TODO XXXX
+^[[Designing Motion: Smart Transitions in UI Design](https://youtu.be/NaqKjp14Xbg) von Adrian Zumbrunnen / UX Salon / YouTube]
+^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen / Smashingmagazine] 
+
+gutes design ist unsichtbar (fällt nicht auf), besonders bei MIs
+-->
+
 Animationen sollten immer eine Aufgabe erfüllen. Wenn eine Animation keinen funktionalen Zweck hat, kann sie sich unangenehm oder lästig anfühlen, besonders wenn sie einen Prozess verlangsamt, der ohne Animation schneller sein könnte.
 Bei der Planung und Gestaltung von Animationen in Microinteractions und generell in Interfaces sollte man sich die Frage stellen: _Wie hilft die Animation ein Problem zu lösen, wie bereichert sie die Positive Erfahrung oder hilft dem Nutzer anderweitig?_ Wenn die Frage nicht zufriedenstellend beantwortet werden kann, sollte von der betrachteten Animation vermutlich abgesehen werden.
 Die Animationen einer Benutzerschnittstelle sollten wie eine Geschichte angegangen werden: Nutzer werden nach und nach und in einer bestimmten Reihenfolge an einzelne Elemente herangeführt. Mehrere Handlungsstränge gleichzeitig zu erzählen, erfordert sehr viel Aufmerksamkeit von Nutzern, daher sollte eindeutig sein, was im Mittelpunkt steht.
@@ -140,18 +141,19 @@ Als Faustregel gilt: _Je größer die animierte Fläche, je ausschweifender und 
 
 Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling bedeutet die formalästhetische Überarbeitung eines Produkts im Sinne einer Verschönerung mit dem Ziel besserer Verkäuflichkeit. Funktionale Verbesserungen werden dabei nicht angestrebt. [...] Der Funktionalismus kritisierte das Styling als oberflächlich und nicht von einer funktionalen Notwendigkeit getragen. [...] - Quelle: [Designlexikon.net](http://www.designlexikon.net/Fachbegriffe/S/styling.html) ] abzurutschen. Der eigentliche Inhalt eines Produktes sollte immer im Vordergrund stehen und Animationen sind geradezu dafür gemacht, von diesem abzulenken. Wie bereits im Kapitel zu [Feedback](/feedback) angesprochen, sollte versucht werden, bereits vorhandene UI-Elemente umzuformen und zu integrieren, anstatt neue hinzuzufügen. Außerdem sollten sie von Anfang an und sorgfältig eingeplant werden und regelmäßig mit Nutzern getestet werden.^[vgl. [Making Motion Meaningful](https://design.google/library/making-motion-meaningful/) von Sharon Correa & John Schlemmer / Google Design]
 
-### Die Möglichkeiten von Animation in Microinteractions zusammengefasst:
+### Die Möglichkeiten von Animation in Microinteractions in Kürze:
 
+* Orientierung über 'räumliche' Verhältnisse im Interface geben
+* den Fokus des Nutzers lenken
 * Interaktionen flüssig und angenehm anfühlen lassen
-* Persönlichkeit des Produktes verstärken
+* eine Verbindung zwischen Eingabe und Feedback schaffen
 * die richtige Erwartungshaltung schaffen und Hinweise geben, was passieren wird
 * klares Feedback auf Eingaben geben
-* Orientierung über die momentane 'Position' im Interface geben
-* Hierarchie verdeutlichen
-* den Fokus des Nutzers lenken
-* Benutzbarkeit verbessern
-* erhöhen der Nutzungsgeschwindigkeit (besonders für neue Nutzer)
-* erhöhen der gefühlten Geschwindigkeit
+* Nutzungsgeschwindigkeit erhöhen (besonders für neue Nutzer)
+* die gefühlte Geschwindigkeit erhöhen
+* ein Produkt ausgefeilt und 'High-End' wirken lassen
+* Persönlichkeit und Marke des Produktes verstärken
+* ...
 
 ::: md-container-more
 

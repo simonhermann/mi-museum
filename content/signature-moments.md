@@ -20,6 +20,8 @@ Nutzer haben extrem inzwischen hohe Erwartungen. Nur bei Enttäuschung fällt es
 XXXX
 
 
+<--x-xx-xx-xxx-> lots of short activities: remembered as long
+<--xxxxxxxxxxx-> one long continuus activity: remembered as short, memory conpresses, dont remember most of what happened
 
 ### Branding durch Animationen
 

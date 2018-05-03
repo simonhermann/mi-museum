@@ -20,53 +20,50 @@ Für Nutzer sollten die [Regeln](/rules) einer Microinteraction keinerlei oder n
 
 In einigen fällen kann es dagegen besser sein, dem Nutzer keinerlei Feedback zu geben. Wenn zum Beispiel im Hintergrund (durch einen versteckten, systembasierten [Trigger](/triggers)) überprüft wird, ob neue E-Mails eingetroffen sind, sollte nur Rückmeldung stattfinden, _wenn tatsächlich ein relevantes Ereignis stattfindet_, in diesem Fall das Vorhandensein neuer Nachrichten. In allen anderen Fällen, wenn es also keine neuen E-Mails gibt, ist es nicht nötig, dies dem Nutzer jedes mal explizit mitzuteilen.
 
-### Unmittelbarkeit
+### Unmittelbarkeit und Flow
 
 Rückmeldung sollte ohne merkliche Verzögerung auf Nutzereingaben sein.
-Wenn der Befehl aus technischen Gründen nicht unmittelbar ausgeführt werden kann, sollte stattdessen eine Form von Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen.
+Wenn der Befehl aus technischen Gründen nicht unmittelbar ausgeführt werden kann, sollte stattdessen eine Form von Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen. Die Reaktionszeit einer Schnittstelle hat großen Einfluss darauf, wie sie sich anfühlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
+
+- bis zu 100 Millisekunden: _fühlt sich sofortig an_
+- bis zu 1 Sekunde: _fühlt sich übergangslos an_
+- 8-10 Sekunden: _maximale Aufmerksamkeitsspanne_
+
+Die Dauer eines Blinzelns liegt zwischen 100 und 150ms, diese Dauer wird normalerweise als Verzögerungsfrei wahrgenommen.^[[True Lies Of Optimistic User Interfaces](https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/) von Denys Mishunov / Smashingmagazine, 2016]
 Wenn ein Nutzer den Schließen-Buttons eines Fensters betätigt, sollte ebendieser Button sein Erscheinungsbild verändern. Das mag unnötig erscheinen, da das Fenster und damit der Button im Moment des Ausführens nicht mehr zu sehen sind – normalerweise. Auf veralteter Hardware, durch laufende Hintergrundprozesse oder aus zahlreichen anderen Gründen kann es vorkommen, dass ein Vorgang, der auf den Testgeräten der Gestalter und Programmierer sofort geschieht, hier etwas Zeit braucht. Aus diesem Grund sollte Rückmeldung ausnahmslos unmittelbar geschehen und technisch losgelöst von der Befehlausführung sein. Ein Nutzer, der auch nur eine Sekunde der kein Feedback bekommt, wird versuchen, den Button erneut zu drücken und damit vermutlich das System noch mehr überlasten oder Fehler auslösen. Als Gestalter sollte man also zwischen zwei Arten von Rückmeldung auf Aktionen des Nutzers unterscheiden:
 
 * Rückmeldung, dass eine _Eingabe des Nutzers_ erfolgt ist
 * Rückmeldung, dass ein Befehl vom System _ausgeführt_ wurde
 
-### Flow
-
-XXXX
-Ein wichtiges Ziel
-Fake Data/Behelfslösungen,
-
-<figure class="content-thin">
-  <img data-src="/images/feedback/windows3.1-drag.jpg">
-  <figcaption>
-  In Windows 3.1 war es technisch noch nicht möglich, die Verschiebung eines Fensters mit dem Cursor flüssig darzustellen, daher wurde in Echtzeit nur ein leerer Rahmen als als Platzhalter verschoben und das eigentliche Fenster beim Loslassen der Maustaste.
-  <sup><a href="http://toastytech.com/guis/win31.html">Bildquelle</a></sup>
-  </figcaption>
-</figure>
-
-Optimistic UI (keep the flow!)
-
-Flow/Tunnel
-People who experience flow:
-
-* sense of clarity, extasy and feels highly rewarding
-* --> thats how a designer wants people to feel
-
-<--x-xx-xx-xxx-> lots of short activities: remembered as long
-<--xxxxxxxxxxx-> one long continuus activity: remembered as short, memory conpresses, dont remember most of what happened
-
-Feedback sollte jedoch trotzdem ehrlich sein und kommunizieren was wichtig ist für Nutzer. Ein Fortschittsbalken, der anfangs extrem schnell bewegt und dann kurz vor dem Ende immer langsamer wird, repräsentiert wohl kaum was tatsächlich vorgeht und ist nicht von Nutzen. Wer im Ungewissen auf auf das letzte Prozent warten muss, wird den Schwindel schnell durchschauen und dies als negative Erfahrung in Erinnerung behalten.
-
-XXXX^[[Smart Transitions In User Experience Design](https://www.smashingmagazine.com/2013/10/smart-transitions-in-user-experience-design) von Adrian Zumbrunnen]
+Ein Nutzer sollte sich in das 'Erlebnis' eines Produktes vertiefen können ohne herausgerissen zu werden. Dieser mentale Zustand der völligen Vertiefung wird _Flow_ genannt und bewirkt, dass eine Aufgabe wie von selbst von der Hand geht,^[vgl. [Wikipedia.de: Flow (Psychologie)](https://de.wikipedia.org/wiki/Flow_(Psychologie))] was letztendlich die Freude am Produkt erhöhen wird.
+<!-- Wer sich im Flow befindet hat ein gefühl von Klarheit. -->
 
 <figure class="content-tiny">
   <video muted autoplay loop preload="none" poster="" src="/images/feedback/goodtransition-cleardo-v3.mp4
 " controls controlsList="nodownload" playsinline>
   </video>
   <figcaption> 
-    Flow durch nahtlose, aber nicht ablenkende animierte Übergänge
+    Das Beispiel aus Googles Material Design zeigt, wie durch nahtlose, aber nicht ablenkende animierte Übergänge der Eindruck einer flüssigen grafischen Benutzeroberfläche geschaffen werden kann.
     <sup><a href="https://material.io/guidelines/motion/material-motion.html#material-motion-what-makes-a-good-transition">Quelle</a><sup>
   </figcaption>
 </figure>
+
+Um eine Nutzererfahrung zu gestalten, die sich nahtlos und flüssig anfühlt, ist es wichtig, [_passive_ Wartezeiten](/animation-and-pace) auf eine Minimum zu reduzieren. Unter Umständen kann es daher von nutzen sein, positive Rückmeldung auf eine Eingabe zu geben, bevor das System die eigentliche technische Information hat, ob ein Ereignis erfolgreich war. Dieses Konzept nennt sich _optimistic user interface_ und wird etwa von Twitter oder Facebook eingesetzt. Wird beispielsweise ein Tweet abgeschickt, wird dem Nutzer _unmittelbar_ visuell mitgeteilt, dass dieser erfolgreich versandt wurde. In den (seltenen) Fällen, dass tatsächlich ein Fehler auftritt, kann dieser nachträglich angezeigt werden. Der Flow eines Nutzers sollte nicht unterbrochen werden, wenn dies nicht unbedingt notwendig ist.
+
+> As long as there is no error happening in the user interface, there's no reason to interrupt the user.
+> <cite>Adrian Zumbrunnen^[[Designing Motion: Smart Transitions in UI Design](https://youtu.be/NaqKjp14Xbg) von Adrian Zumbrunnen / UX Salon / YouTube]</cite>
+
+Die Anzeige 'falscher' Daten ist eine weitere Möglichkeit, technische Erfordernisse und Unzulänglichkeiten auf intelligente Weise zu verschleiern. In Photoshop wird bei rechenintensiven Transformationen oder Filtern beispielsweise nur eine niedriger aufgelöste Vorschau angezeigt, bis die Eingabe bestätigt wurde. Feedback sollte wann immer möglich kontinuierlich und unmittelbar Erfolgen, wenn nötig durch temporäre Platzhalter des eigentlichen Inhaltes der Rückmeldung.
+
+<figure class="content-thin">
+  <img data-src="/images/feedback/windows3.1-drag.jpg">
+  <figcaption>
+  In Windows 3.1 war es technisch noch nicht möglich, die Verschiebung eines Fensters mit dem Cursor flüssig darzustellen, daher wurde in Echtzeit nur ein leerer Rahmen als verschoben und das eigentliche Fenster erst beim Loslassen der Maustaste an der neuen Position angezeigt.
+  <sup><a href="http://toastytech.com/guis/win31.html">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+
+In den meisten Fällen sollte Feedback jedoch 'ehrlich' sein und kommunizieren was wichtig ist für Nutzer. Ein Fortschrittsbalken, der anfangs extrem schnell bewegt und dann kurz vor dem Ende immer langsamer wird, repräsentiert wohl kaum was tatsächlich vorgeht und ist nicht von Nutzen. Wer im Ungewissen auf auf das letzte Prozent warten muss, wird den Schwindel schnell durchschauen und dies als negative [Erfahrung in Erinnerung](/signature-moments) behalten. Die Grenze zu [Dark Patterns](/triggers#dark-patterns) ist fließend und die Befragung und Beobachtung von Nutzern sind der einzige Weg, deren Akzeptanz zu ergründen. 
 
 ### Microcopy und Tonalität
 
@@ -143,8 +140,9 @@ Eine Herausforderung für Designer wird sein, Interfaces mit der [Automatisierun
 ### Sehens-, hörens- und lesenswert zum Thema Feedback
 
 * Kapitel _Feedback_ im Buch: Saffer, Dan: Microinteractions - Designing with Details (S. 83 - 107), O'Riley Media, Sebastopol CA, 2013, [www.microinteractions.com](http://microinteractions.com/)
-* Artikel: [Getting Practical With Microcopy](https://www.smashingmagazine.com/2016/07/getting-practical-with-microcopy/) von Rade Brujić
+* Artikel: [Getting Practical With Microcopy](https://www.smashingmagazine.com/2016/07/getting-practical-with-microcopy/) von Rade Brujić / Smashingmagazine
 * Artikel: [Systems smart enough to know when they're not smart enough](https://bigmedium.com/ideas/systems-smart-enough-to-know-theyre-not-smart-enough.html) von Josh Clark
 * Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von Ilya Birman
+* Artikel: [True Lies Of Optimistic User Interfaces](https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/) von Denys Mishunov / Smashingmagazine
 
 :::

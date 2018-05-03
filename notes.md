@@ -64,6 +64,7 @@ check all nextpage links
 * 3D Parallax https://codepen.io/futekov/pen/JLGDr
 * Footnotes as Tooltip?
 * [ ] svg stroke animation (Vivus.js) https://daverupert.com/2018/03/animated-svg-radial-progress-bars/
+* [ ] Menu when scrolling to top (instead of drawer)
 
 ---
 
