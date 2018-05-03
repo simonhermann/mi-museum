@@ -211,11 +211,17 @@ Neben der Anwendung auf Touchscreens gewinnen Variationen von NUI auch mehr und 
 Fehlende _haptische Rückmeldung_ scheint der größte Schwachpunkt dieser Art von Interfaces zu sein^[[Pointing to the future of UI | John Underkoffler](https://youtu.be/b6YTQJVzwlI), 2010 - TED / YouTube], da sie sich auf das deutlich langsamer wahrgenommene visuelle Feedback verlassen müssen.  Prototypen für haptische Touchscreens, die dieses Problem minimieren könnten, existieren zwar seit vielen Jahren, scheinen aber noch immer nicht marktreif zu sein. Konzepte für haptisches Feedback in VR und AR sind ebenfalls in Arbeit, große pneumatische Handschuhe^[[A Real Life Haptic Glove (Ready Player One Technology Today) - Smarter Every Day 190](https://youtu.be/OK2y4Z5IkZ0) - SmarterEveryDay / YouTube] oder multidirektionale Laufbänder^[[The Infinadeck Omnidirectional Treadmill - Smarter Every Day 192 (VR Series)](https://youtu.be/fvu5FxKuqdQ) - SmarterEveryDay / YouTube] scheinen aber noch einige Jahre entfernt von der Nutzbarkeit im Alltag. Medizinische Chirurgie-Roboter wie das _Da Vinci-Operationssystem_ sind hier weiter, aber auch sie benötigen Training, bevor sie zuverlässig genutzt werden können.^[[Robotic Surgery Demonstration Using Da Vinci Surgical System](https://youtu.be/VJ_3GJNz4fg) - Future Trends / YouTube]
 
 <figure class="content-normal">
+  <video muted autoplay loop preload="none" poster="" src="/images/history/microsoft-hololens.mp4" controls controlsList="nodownload" playsinline></video>
+  <figcaption> Microsoft HoloLens soll mit Hilfe einer Augmented-Reality-Brille jede Oberfläche zum Interface werden lassen.
+    <sup><a href="https://www.thestreet.com/story/13019564/1/is-microsofts-hololens-a-tech-breakthrough-or-the-next-kinnect.html">Quelle</a><sup>
+  </figcaption>
+</figure>
+<!-- <figure class="content-normal">
   <img data-src="/images/history/microsoft-hololens.gif">
   <figcaption>Microsoft HoloLens soll durch eine Augmented-Reality-Brille jede Oberfläche zum Interface werden lassen.
      <sup><a href="https://www.thestreet.com/story/13019564/1/is-microsofts-hololens-a-tech-breakthrough-or-the-next-kinnect.html">Bildquelle</a></sup>
   </figcaption>
-</figure>
+</figure> -->
 
 Bill DeRouchy beschreibt eine Zukunft, in der der der die Grenze zwischen Nutzer und Interface verschwimmt, dieser selbst zum Button wird und dadurch mit jeder Oberfläche interagieren kann. ^[vgl. DeRouchy, Bill: [History of the Button](https://youtu.be/zdwUbhm-8Mw) UXLx / YouTube] Steht uns eine 'Zukunft ohne Buttons' bevor?^[[Future UI Design Without Buttons](https://www.toptal.com/designers/ui/future-ui-design-without-buttons) von  Wojciech Dobry] Schließlich sind direkte Schnittstellen zwischen Gehirn und Computern ('brain-computer-interface, BCI') inzwischen gut genau genug um Roboterarmen steuern^[[Gehirn-Computer-Schnittstellen - Mit der Kraft der Gedanken](https://www.spektrum.de/news/gehirn-computer-schnittstellen-werden-alltagstauglicher/1398145) - Manuela Lenzen/spektrum.de]. Oder wird – wie in der Science Fiction – ein einziger 'Make-it-so-Button' immer die Aktion ausführen, die ein Nutzer gerade im Kopf hat?^[[Shedroff, Nathan &  Noessel, Christopher: Make it so - Interaction Design Lessons from Science Fiction](https://rosenfeldmedia.com/books/make-it-so/), Rosenfeld Media, 2012]
 

@@ -99,11 +99,11 @@ export default {
       text-decoration-color: #fff;
       border-radius: 0;
       padding: 1rem 1.25rem;
-      transition: transform 150ms ease-out, border-radius 300ms ease-out;
+      transition: transform 150ms ease-out, border-radius 250ms ease-out;
       //background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
       //background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
       //background-image: url('https://www.transparenttextures.com/patterns/dark-dotted-2.png');
-      background-repeat: repeat;
+      //background-repeat: repeat;
     }
 
     .item__head {
@@ -113,9 +113,6 @@ export default {
       &:only-child {
         margin: 0;
       }
-      // :hover &, :active & {
-      //   text-decoration: underline;
-      // }
     }
     .item__desc {
       text-decoration: none;

@@ -20,13 +20,12 @@ check all nextpage links
 
 ## Featues
 
-* [ ] replace img loading placeholder svg by css styled box
 * [ ] Kapitel-Fortschrittsbalken?
-* [ ] add noise to color bgs?
 * [ ] oben: vorheriges Kapitel?
+* [ ] pull up/down to prev/next page (https://github.com/stackjie/vue-pull-to?)
 * [ ] foldable footnotes?
 * [ ] besseres System für Quellen, wie https://mprove.de/diplom/text/references.html
-* [ ] pull up/down to prev/next page (https://github.com/stackjie/vue-pull-to?)
+* [ ] add noise to color bgs?
 
 ## Bugs
 
