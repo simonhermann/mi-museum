@@ -3,9 +3,19 @@
 Die Hauptaufgabe der Rückmeldung (engl. Feedback) das eine Benutzerschnittstelle an den Nutzer gibt, ist diesem zu helfen, die [Regeln](/rules) einer (Mikro-)Interaktion zu verstehen. Wenn ein Nutzer beispielsweise einen Button antippt, sollte gezeigt werden, _dass_ dieser gedrückt wurde und _was das Ergebnis_ der Eingabe ist. Allein dadurch können Nutzer wissen, ob eine Eingabe erfolgreich war. Wäre keinerlei Feedback vorhanden, bestünde für Nutzer kaum eine Möglichkeit zu wissen, was passiert und wie eine Benutzerschnittstelle funktioniert.
 
 Für Nutzer sollten die [Regeln](/rules) einer Microinteraction keinerlei oder nur wenig Aufmerksamkeit einfordern. Am Beispiel des Lichtes mit Bewegungsmelder: allein wichtig ist, dass das Licht angeht, sobald Nutzer es benötigen, und sie sich nicht darum kümmern müssen, es wieder auszuschalten. Die einzige Rückmeldung des Produktes an den Nutzer ist hier das gewünschte Ergebnis selbst: Licht. Die meisten Microinteractions benötigen jedoch mehr Feedback.
-<!-- XXXX -->
 
-<!-- Kontinuierlich + Authentisch => direkte Manipulation -->
+<!-- ### Abstraktion und Relevanz -->
+
+Die Erfindung des elektrischen Knopfes sorgt zum ersten mal in der Geschichte dafür, dass Eingabe, Ergebnis und Feedback nicht mehr direkt verbunden sind. Die Art der Rückmeldung kann also frei gewählt werden und ist nicht mehr abhängig von der Art der Eingabe. Mehr dazu im Kapitel zur [Historie von Microinteractions](/history).
+
+Diese Abstraktion hat mit der Technisierung und Digitalisierung unseres Alltags immer weiter zugenommen. Digitale Geräte bestehen aus unzähligen Schichten aufeinander aufbauender Teilsysteme und selbst die Funktionsweise einfacherer Geräte wie Taschenrechnern werden von den wenigsten Nutzern durchschaut. Komplexe Systeme wie Smartphones, Flugzeuge oder das Internet sind praktisch unmöglich in ihrer Gänze zu erfassen.
+Doch um ein Gerät Nutzen zu können ist es keineswegs nötig diese 'Black Boxen' zu verstehen. Aufgabe von Designern ist, diese Nutzbar zu machen, ohne interne Abläufe verstehen zu müssen.
+Interfaces mit Kommandozeile erfordern eine besonders abstrakte Denkweise vom Nutzer, während in späteren grafischen oder [_natürlichen Benutzeroberflächen_](/history#microinteractions-in-interfaces-der-zukunft) meist versucht wird, die Art der Eingabe intuitiv zu gestalten – diese also möglichst an ihre Auswirkung auf die Analoge Welt und den Nutzer anzupassen. Was keineswegs bedeutet, dass die vom Computer ausgeführten Aktionen weniger komplex sind, tatsächlich ist oft das Gegenteil der Fall: Eine Handschrifterkennung auf einem Gerät mit Touchscreen funktioniert mit Hilfe vielschichtiger Algorithmen und erfordert weitaus mehr Rechenleistung als eine Kommandozeile. Diese Komplexität wird jedoch vor dem Endnutzer versteckt, sie ist nicht Teil der Rückmeldung, da sie meist irrelevant für das Ergebnis ist.
+<!-- Mit Entwicklung der Technik und des Einzuges von Heimcomputern, Smartphones und zahlreicher weiterer digitaler Geräte entstand jedoch die Notwendigkeit, weitaus abstraktere Konzepte durch Microinteractions zu kontrollieren. -->
+
+Die Rückmeldung, welche an einen Nutzer gegeben wird, kann diesen stark beeinflussen und sogar manipulieren. So ist das Feedback eines Spielautomaten darauf ausgelegt, den Spieler zu überzeugen, immer mehr zu spielen. Auf jede Eingabe reagiert das Gerät mit übermäßigem Feedback und sorgt dafür, dass sich der Nutzer in seiner Aktion bestätigt fühlt. Selbst kleine Gewinne werden durch zahlreiche blinkende Lichter und Fanfaren untermalt und dem Nutzer suggeriert, er hätte einen Jackpot gewonnen. Als Designer sollte man sich der Macht über Nutzer stets bewusst sein und [Dark Patterns](/triggers#dark-patterns) vermeiden.
+
+Eine Herausforderung für Designer wird sein, Interfaces mit der [Automatisierung von Entscheidungen](/rules#komplexitat-kontrolle-und-automatisierung) durch Künstliche Intelligenzen und andere technische Systeme in Einklang zu bringen und Nutzern die richtigen Informationen zu geben, um diese zu verstehen. Zu wenig Information, und der Nutzer wird sein eigenes Gerät verdammen, weil es unerwartete Dinge tut. Zu viel Information, und Nutzer werden sich schnell überladen und genervt fühlen. Beide Fälle führen letztendlich zu Frustration und vermutlich zum Abschalten der Automatisierungsfunktionen.
 
 ##### Feedback sollte üblicherweise vorhanden sein, wenn:
 
@@ -23,14 +33,14 @@ In einigen fällen kann es dagegen besser sein, dem Nutzer keinerlei Feedback zu
 ### Unmittelbarkeit und Flow
 
 Rückmeldung sollte ohne merkliche Verzögerung auf Nutzereingaben sein.
-Wenn der Befehl aus technischen Gründen nicht unmittelbar ausgeführt werden kann, sollte stattdessen eine Form von Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen. Die Reaktionszeit einer Schnittstelle hat großen Einfluss darauf, wie sie sich anfühlt: ^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
+Wenn der Befehl aus technischen Gründen nicht unmittelbar ausgeführt werden kann, sollte stattdessen eine Form von Fortschrittsanzeige o. Ä. diesen Umstand verdeutlichen. Die Reaktionszeit einer Schnittstelle hat großen Einfluss darauf, wie sie sich anfühlt:^[[Response Times: The 3 Important Limits](https://www.nngroup.com/articles/response-times-3-important-limits/) von Jakob Nielsen]
 
-- bis zu 100 Millisekunden: _fühlt sich sofortig an_
-- bis zu 1 Sekunde: _fühlt sich übergangslos an_
+- bis zu 100 Millisekunden: _fühlt sich sofortig&nbsp;an_
+- bis zu 1 Sekunde: _fühlt sich übergangslos&nbsp;an_
 - 8-10 Sekunden: _maximale Aufmerksamkeitsspanne_
 
 Die Dauer eines Blinzelns liegt zwischen 100 und 150ms, diese Dauer wird normalerweise als Verzögerungsfrei wahrgenommen.^[[True Lies Of Optimistic User Interfaces](https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/) von Denys Mishunov / Smashingmagazine, 2016]
-Wenn ein Nutzer den Schließen-Buttons eines Fensters betätigt, sollte ebendieser Button sein Erscheinungsbild verändern. Das mag unnötig erscheinen, da das Fenster und damit der Button im Moment des Ausführens nicht mehr zu sehen sind – normalerweise. Auf veralteter Hardware, durch laufende Hintergrundprozesse oder aus zahlreichen anderen Gründen kann es vorkommen, dass ein Vorgang, der auf den Testgeräten der Gestalter und Programmierer sofort geschieht, hier etwas Zeit braucht. Aus diesem Grund sollte Rückmeldung ausnahmslos unmittelbar geschehen und technisch losgelöst von der Befehlausführung sein. Ein Nutzer, der auch nur eine Sekunde der kein Feedback bekommt, wird versuchen, den Button erneut zu drücken und damit vermutlich das System noch mehr überlasten oder Fehler auslösen. Als Gestalter sollte man also zwischen zwei Arten von Rückmeldung auf Aktionen des Nutzers unterscheiden:
+Wenn ein Nutzer den Schließen-Buttons eines Fensters betätigt, sollte ebendieser Button sein Erscheinungsbild verändern. Das mag unnötig erscheinen, da das Fenster und damit der Button im Moment des Ausführens nicht mehr zu sehen sind – normalerweise. Auf veralteter Hardware, durch laufende Hintergrundprozesse, langsamer Internetverbindung oder aus zahlreichen anderen Gründen kann es jedoch vorkommen, dass ein Vorgang, der auf den Testgeräten der Gestalter und Programmierer sofort geschieht, etwas Zeit braucht. Aus diesem Grund sollte Rückmeldung ausnahmslos unmittelbar geschehen und technisch losgelöst von der Befehlausführung sein. Ein Nutzer, der auch nur wenige Sekunden kein Feedback bekommt, wird versuchen, den Button erneut zu drücken und damit vermutlich das System noch mehr überlasten oder Fehler auslösen. Als Gestalter sollte man also zwischen zwei Arten von Rückmeldung auf Aktionen des Nutzers unterscheiden:
 
 * Rückmeldung, dass eine _Eingabe des Nutzers_ erfolgt ist
 * Rückmeldung, dass ein Befehl vom System _ausgeführt_ wurde
@@ -48,7 +58,7 @@ Ein Nutzer sollte sich in das 'Erlebnis' eines Produktes vertiefen können ohne 
   </figcaption>
 </figure>
 
-Um eine Nutzererfahrung zu gestalten, die sich nahtlos und flüssig anfühlt, ist es wichtig, [_passive_ Wartezeiten](/animation-and-pace) auf eine Minimum zu reduzieren. Unter Umständen kann es daher von nutzen sein, positive Rückmeldung auf eine Eingabe zu geben, bevor das System die eigentliche technische Information hat, ob ein Ereignis erfolgreich war. Dieses Konzept nennt sich _optimistic user interface_ und wird etwa von Twitter oder Facebook eingesetzt. Wird beispielsweise ein Tweet abgeschickt, wird dem Nutzer _unmittelbar_ visuell mitgeteilt, dass dieser erfolgreich versandt wurde. In den (seltenen) Fällen, dass tatsächlich ein Fehler auftritt, kann dieser nachträglich angezeigt werden. Der Flow eines Nutzers sollte nicht unterbrochen werden, wenn dies nicht unbedingt notwendig ist.
+Um eine Nutzererfahrung zu gestalten, die sich nahtlos und flüssig anfühlt, ist es wichtig, [passive Wartezeiten](/animation-and-pace) auf ein Minimum zu reduzieren. Unter Umständen kann es daher von nutzen sein, positive Rückmeldung auf eine Eingabe zu geben, bevor das System die eigentliche technische Information hat, ob ein Ereignis erfolgreich war. Dieses Konzept nennt sich _optimistic user interface_ und wird etwa von Twitter oder Facebook eingesetzt. Wird beispielsweise ein Tweet abgeschickt, wird dem Nutzer _unmittelbar_ visuell mitgeteilt, dass dieser erfolgreich versandt wurde. In den (seltenen) Fällen, dass tatsächlich ein Fehler auftritt, kann dieser nachträglich angezeigt werden. Traditionellerweise würde ein Interface auf die Bestätigung des Servers warten, bevor eine Erfolgsmeldung vermittelt wird. Der Flow eines Nutzers sollte nicht unterbrochen werden, wenn dies nicht unbedingt notwendig ist.
 
 > As long as there is no error happening in the user interface, there's no reason to interrupt the user.
 > <cite>Adrian Zumbrunnen^[[Designing Motion: Smart Transitions in UI Design](https://youtu.be/NaqKjp14Xbg) von Adrian Zumbrunnen / UX Salon / YouTube]</cite>
@@ -58,7 +68,7 @@ Die Anzeige 'falscher' Daten ist eine weitere Möglichkeit, technische Erfordern
 <figure class="content-thin">
   <img data-src="/images/feedback/windows3.1-drag.jpg">
   <figcaption>
-  In Windows 3.1 war es technisch noch nicht möglich, die Verschiebung eines Fensters mit dem Cursor flüssig darzustellen, daher wurde in Echtzeit nur ein leerer Rahmen als verschoben und das eigentliche Fenster erst beim Loslassen der Maustaste an der neuen Position angezeigt.
+  In Windows 3.1 war es technisch noch nicht möglich, die Verschiebung eines Fensters mit dem Cursor flüssig darzustellen, daher wurde in Echtzeit nur ein leerer Rahmen verschoben und das eigentliche Fenster erst beim Loslassen der Maustaste an der neuen Position angezeigt.
   <sup><a href="http://toastytech.com/guis/win31.html">Bildquelle</a></sup>
   </figcaption>
 </figure>
@@ -109,18 +119,9 @@ Rückmeldung immer über mehrere Kanäle, zB Form und Farbe
 
 Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar ["belohnt"](/signature-moments). 
 
-### Abstraktion und Relevanz
+haptisch
+für Nutzer besteht kein Unterschied zwischen Hard- und Software, 
 
-Die Erfindung des elektrischen Knopfes sorgt zum ersten mal in der Geschichte dafür, dass Eingabe, Ergebnis und Feedback nicht mehr direkt verbunden sind. Die Art der Rückmeldung kann also frei gewählt werden und ist nicht mehr abhängig von der Art der Eingabe. Mehr dazu im Kapitel zur [Historie von Microinteractions](/history).
-
-Diese Abstraktion hat mit der Technisierung und Digitalisierung immer weiter zugenommen. Digitale Geräte bestehen aus unzähligen Schichten aufeinander aufbauender Teilsysteme und selbst die Funktionsweise einfacherer Geräte wie Taschenrechnern werden von den wenigsten Nutzern durchschaut. Komplexe Systeme wie Smartphones, Flugzeuge oder das Internet sind praktisch unmöglich in ihrer Gänze zu erfassen.
-Doch um ein Gerät Nutzen zu können ist es keineswegs nötig diese 'Black Boxen' zu verstehen. Aufgabe von Designern ist, diese Nutzbar zu machen, ohne interne Abläufe verstehen zu müssen.
-Interfaces mit Kommandozeile erfordern eine besonders abstrakte Denkweise vom Nutzer, während in späteren grafischen oder ['natürlichen'](/history) Benutzeroberflächen meist versucht wird, die Art der Eingabe intuitiv zu gestalten – diese also möglichst an ihre Auswirkung auf die Analoge Welt anzupassen. Was keineswegs bedeutet, dass die vom Computer ausgeführten Aktionen weniger komplex sind, tatsächlich ist oft das Gegenteil der Fall: Eine Handschrifterkennung auf einem Gerät mit Touchscreen funktioniert mit Hilfe vielschichtiger Algorithmen und erfordert weitaus mehr Rechenleistung als eine Kommandozeile. Diese Komplexität wird jedoch vor dem Endnutzer versteckt, sie ist nicht Teil der Rückmeldung, da sie meist irrelevant für das Ergebnis ist.
-<!-- Mit Entwicklung der Technik und des Einzuges von Heimcomputern, Smartphones und zahlreicher weiterer digitaler Geräte entstand jedoch die Notwendigkeit, weitaus abstraktere Konzepte durch Microinteractions zu kontrollieren. -->
-
-Die Rückmeldung, welche an einen Nutzer gegeben wird, kann diesen stark beeinflussen und sogar manipulieren. So ist das Feedback eines Spielautomaten darauf ausgelegt, den Spieler zu überzeugen, immer mehr zu spielen. Auf jede Eingabe reagiert das Gerät mit übermäßigem Feedback und sorgt dafür, dass sich der Nutzer in seiner Aktion bestätigt fühlt. Selbst kleine Gewinne werden durch zahlreiche blinkende Lichter und Fanfaren untermalt und dem Nutzer suggeriert, er hätte einen Jackpot gewonnen. Als Designer sollte man sich der Macht über Nutzer stets bewusst sein und [Dark Patterns](/triggers#dark-patterns) vermeiden.
-
-Eine Herausforderung für Designer wird sein, Interfaces mit der [Automatisierung](/rules) von Entscheidungen durch Künstliche Intelligenzen und andere technische Systeme in Einklang zu bringen und Nutzern die richtigen Informationen zu geben, um diese zu verstehen. Zu wenig Information, und der Nutzer wird sein eigenes Gerät verdammen, weil es unerwartete Dinge tut. Zu viel Information, und Nutzer werden sich schnell überladen und genervt fühlen. Beide Fälle führen letztendlich zu Frustration und vermutlich zum Abschalten der Automatisierungsfunktionen.
 
 ### Diese Fragen sollten sich Designer bei der Gestaltung von Feedback stellen:
 

@@ -14,24 +14,16 @@ Nachdem eine Microinteraction vom Nutzer ausgelöst wurde, kann Animation als vi
 </figure>
 
 Im Gespräch von Mensch zu Mensch nutzen wir subtile Gesten, um unsere Stimmung auszudrücken, bestimmte Worte zu unterstreichen, oder gar gänzlich nonverbal zu kommunizieren. Bevor die Antwort auf eine Frage durch Worte gegeben wird, können wir oft schon an Mimik und Gestik ablesen, wie diese ausfallen wird.
-Diese Verbindung zwischen Eingabe durch Nutzer ("Frage") und Feedback des Interfaces ("Antwort") lässt sich auf ähnliche Weise auch in grafischen Benutzeroberflächen herstellen, Animation ermöglicht hier die unmittelbare [Rückmeldung](/feedback) auf eine Eingabe. Beispielsweise fühlt sich eine 'Swipe'-Geste dann natürlich an, wenn der Inhalt direkt dem Finger folgt.
-<!-- XXXX Beispiel -->
-Evolutionär bedingt zieht Bewegung ganz natürlich die menschliche Aufmerksamkeit auf sich. Animation kann also genutzt werden, um den Fokus des Nutzers auf bestimmte Elemente eines Interfaces zu lenken. ^[vgl. Head, Val: [Designing Interface Animation](https://rosenfeldmedia.com/books/designing-interface-animation/) (S. 79 - 93), Rosenfeld Media, 2016] <!-- XXXX Beispiel --> Das Ziel der Rückmeldung einer Microinteraction ist, vom Nutzer gesehen zu werden, daher ist eine Animation perfekt dafür geeignet. Natürlich muss nicht ausnahmslos jede Rückmeldung animiert sein, doch vor allem für Situationen, in denen der Fokus des Nutzers auf ein bestimmtes Element gelenkt werden muss, um das Ziel des Nutzers zu erfüllen, kann Animation äußerst nützlich sein. Ein digitales Formular, welches nur Teilweise ausgefüllt wurde, könnte beispielsweise automatisch zum noch leeren Feld scrollen.
+Diese Verbindung zwischen Eingabe durch Nutzer ("Frage") und Feedback des Interfaces ("Antwort") lässt sich auf ähnliche Weise auch in grafischen Benutzeroberflächen herstellen, Animation ermöglicht hier ein unmittelbare [Rückmeldung](/feedback) auf eine Eingabe. Besonders in Gestenbasierten Interfaces, sollte Rückmeldung immer _kontinuierlich_ erfolgen. Die direkte Manipulation von Inhalten fühlt sich dann authentisch und unwillkürlich richtig an, da sie sich ähnlich einem Objekt der physischen Welt verhält. Beispielsweise fühlt sich eine 'Swipe'-Geste dann natürlich an, wenn der Inhalt direkt dem Finger folgt.
+Evolutionär bedingt zieht Bewegung ganz natürlich die menschliche Aufmerksamkeit auf sich. Animation kann also genutzt werden, um den Fokus des Nutzers auf bestimmte Elemente eines Interfaces zu lenken.^[vgl. Head, Val: [Designing Interface Animation](https://rosenfeldmedia.com/books/designing-interface-animation/) (S. 79 - 93), Rosenfeld Media, 2016] <!-- XXXX Beispiel --> Ein Ziel der Rückmeldung einer Microinteraction ist, vom Nutzer gesehen zu werden, daher eignet sich Animation oft perfekt dafür. Feedback bringt immer eine Veränderung der Benutzerschnittstelle mit sich, doch natürlich muss nicht ausnahmslos jede Rückmeldung animiert werden. Vor allem für Situationen, in denen der Fokus des Nutzers auf ein bestimmtes Element gelenkt werden muss, um das Ziel des Nutzers zu erfüllen, kann Animation äußerst nützlich sein. Ein digitales Formular, welches nur Teilweise ausgefüllt wurde, könnte beispielsweise automatisch zum noch leeren Feld scrollen.
 
 <!-- XXXX TODO head: ch7: cause & effect -->
 <!-- XXXX TODO head: ch7: feedback -->
 
-<!-- <figure class="content-tiny">
-  <video muted autoplay loop preload="none" poster="images/animation-and-pace/shuttle-music.jpg" src="images/animation-and-pace/shuttle-music.mp4" controls controlsList="nodownload" playsinline>
-  </video>
-  <figcaption>Animierte Übergänge zeigen die Relation zwischen einzelnen UI-Elementen und ermöglichen so die räumliche und zeitliche Orientierung. Vor allem auf kleineren Bildschirmen ist dies von Vorteil, da hier weniger Fixpunkte vorhanden sind.
-  </figcaption>
-</figure> -->
-
 > Think of motion design like a movie. Seamless transitions keep you focused on the story, and bring experiences to life. We can invite that feeling into our designs, leading people from one task to the next with cinematic&nbsp;ease.
 > <cite>'Motion' im Microsoft Fluent Design System^[[Fluent is Microsoft’s next generation design principle](https://developer.microsoft.com/en-us/windows/projects/campaigns/windows-dev-essentials-design-principles)]</cite>
 
-In der physischen Welt gibt es kaum gerade Bewegungen oder abrupte Statusänderungen. Damit sich eine Animation 'echt' anfühlt, sollten diese Eigenschaften übernommen werden. Animationen sollten eher in leichten Bögen als in perfekten Geraden verlaufen und der Zeitliche Verlauf zum Beispiel exponentiell statt linear verlaufen. Viele der in den 1930ern von Disney formulierten 12 Grundprinzipien der Animation^[[The illusion of life](https://vimeo.com/93206523) - Cento Lodigiani/Vimeo] finden auch im UI-Design Anwendung. Es gilt jedoch die Balance zu halten zwischen verspielter Animation und Funktionalität, das jeweilige Maß ist abhängig von Produkt und Nutzergruppe.
+In der physischen Welt gibt es kaum gerade Bewegungen oder abrupte Statusänderungen. Damit sich eine Animation 'echt' anfühlt, sollten diese Eigenschaften übernommen werden. Animationen sollten eher in leichten Bögen als in perfekten Geraden verlaufen und der Zeitliche Verlauf zum Beispiel exponentiell statt linear verlaufen. Viele der in den 1930ern von Disney formulierten 12 Grundprinzipien der Animation^[[The illusion of life](https://vimeo.com/93206523) - Cento Lodigiani / Vimeo] finden auch im UI-Design Anwendung. Es gilt jedoch die Balance zu halten zwischen verspielter Animation und Funktionalität, das jeweilige Maß ist abhängig von Produkt und Nutzergruppe.
 
 <figure class="content-normal">
   <video muted autoplay loop preload="none" poster="" src="/images/animation-and-pace/natural-01-easing-v1.mp4
@@ -41,10 +33,7 @@ In der physischen Welt gibt es kaum gerade Bewegungen oder abrupte Statusänderu
     <sup><a href="https://material.io/guidelines/motion/duration-easing.html">Quelle</a><sup>
   </figcaption>
 </figure>
-
-
-<!-- 
-<figure class="content-thin">
+<!-- <figure class="content-thin">
   <img data-src="/images/animation-and-pace/curve.gif">
   <figcaption>
     Curve XXXX
@@ -79,7 +68,7 @@ Der sogenannte Zeigarnik-Effekt bewirkt, dass wir unfertige Vorgänge besser im 
 > <cite>Luke Wroblewski^[[Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski]</cite>
 
 Auch wenn rein passive Ladeanimationen den Nachteil haben, die Aufmerksamkeit des Nutzers auf die unangenehme Wartezeit zu lenken, haben sie doch eine Berechtigung. Sie sollten jedoch niemals die gesamte Applikation blocken und den Nutzer zur Untätigkeit verdammen. Es sollte versucht werden, diese möglichst in vorhanden UI-Elemente zu integrieren und damit eher unaufdringlich und informell zu gestalten.^[vgl. [The Illusion of Time](https://medium.com/swlh/the-illusion-of-time-8f321fa2f191) von Adrian Zumbrunnen]
-Sogenannte _Skeleton Screens_ bieten oft eine bessere Alternative zu großflächigen Ladeanimationen. Da ein 'Skelett' der UI sehr schnell angezeigt werden kann, haben Nutzer früher Zeit, sich zu orientieren und deren Fokus wird eher auf den nach und nach auftauchenden Inhalt gelenkt, als auf den Fakt, dass etwas noch geladen werden muss.^[vgl. [Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski] Inzwischen wird das Konzept von zahlreichen Webseiten und Apps wie Facebook, Slack oder Medium.com eingesetzt. 
+Sogenannte _Skeleton Screens_ bieten oft eine bessere Alternative zu großflächigen Ladeanimationen. Da ein 'Skelett' der UI sehr schnell angezeigt werden kann, haben Nutzer früher Zeit, sich zu orientieren und deren Fokus wird eher auf den nach und nach auftauchenden Inhalt gelenkt, als auf den Fakt, dass etwas noch geladen werden muss.^[vgl. [Mobile Design Details: Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797) von Luke Wroblewski] Inzwischen wird das Konzept von zahlreichen Webseiten und Apps wie Facebook, Slack oder Medium eingesetzt. 
 
 <figure class="content-tiny">
   <img data-src="/images/animation-and-pace/skeleton-fb.gif">
@@ -103,7 +92,7 @@ Die Zeit, die eine Animation andauern sollte, ist stark situationsabhängig, ein
 
 <!-- XXXX https://www.ted.com/talks/daniel_engber_how_the_progress_bar_keeps_you_sane -->
 
-_Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. Wenn uns jemand oder etwas ohne merkliche Verzögerung die Antwort auf eine komplexe Frage gibt, werden wir misstrauisch. Hier wird erneut die Relation zur echten Welt klar; Wer im Restaurant nach einer Minute sein Essen bekommt, denkt sich "das kann ja nicht frisch sein" und ein Schlüsselnotdienst bekommt kein Trinkgeld, wenn er seine Arbeit in der tatsächlich benötigten Arbeit erledigt, da diese sehr kurz ist und daher nicht besonders wertvoll wirkt. Hier funktioniert unser Denken nach dem Grundsatz: _Wenn etwas schnell geht, muss es wohl einfach sein und etwas das einfach ist, sollte es billig sein._ Tatsächlich finden eine artifizielle Wartezeiten in zahlreichen Benutzerschnittstellen Anwendung, beispielsweise in Geldzählmaschinen.^[vgl. [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus]
+_Schneller_ ist jedoch nicht immer gleichzusetzen mit _besser_. Wenn uns jemand oder etwas ohne merkliche Verzögerung die Antwort auf eine komplexe Frage gibt, werden wir misstrauisch. Hier wird erneut die Relation zur echten Welt klar; Wer im Restaurant nach einer Minute sein Essen bekommt, denkt sich "das kann ja nicht frisch sein" und ein Schlüsselnotdienst bekommt kein Trinkgeld, wenn er seine Arbeit in der tatsächlich benötigten Arbeit erledigt, da diese sehr kurz ist und daher nicht besonders wertvoll wirkt. Hier funktioniert unser Denken nach dem Grundsatz: _Wenn etwas schnell geht, muss es wohl einfach sein und etwas das einfach ist, sollte es billig sein._ Tatsächlich finden artifizielle Wartezeiten in zahlreichen Benutzerschnittstellen Anwendung, beispielsweise in Geldzählmaschinen.^[vgl. [The Illusion of Speed](https://www.awwwards.com/paul-bakaus-from-google-the-illusion-of-speed-improving-the-perceived-speed-of-websites.html) von Paul Bakaus]
 In Ausnahmefällen kann Wartezeit sogar genutzt werden, um Spannung und Antizipation aufzubauen, meist sollte jedoch versucht werden, _passive_ Wartephasen möglichst kurz zu halten.
 
 <figure class="content-thin">
@@ -140,6 +129,14 @@ Für manche Nutzer bedeutet jede Animation, dass sich die Augen neu fokussieren 
 Als Faustregel gilt: _Je größer die animierte Fläche, je ausschweifender und auffälliger die Animation und je öfter die Nutzung, desto höher ist die Gefahr, dass diese als negativ empfunden werden könnte._
 
 Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling bedeutet die formalästhetische Überarbeitung eines Produkts im Sinne einer Verschönerung mit dem Ziel besserer Verkäuflichkeit. Funktionale Verbesserungen werden dabei nicht angestrebt. [...] Der Funktionalismus kritisierte das Styling als oberflächlich und nicht von einer funktionalen Notwendigkeit getragen. [...] - Quelle: [Designlexikon.net](http://www.designlexikon.net/Fachbegriffe/S/styling.html) ] abzurutschen. Der eigentliche Inhalt eines Produktes sollte immer im Vordergrund stehen und Animationen sind geradezu dafür gemacht, von diesem abzulenken. Wie bereits im Kapitel zu [Feedback](/feedback) angesprochen, sollte versucht werden, bereits vorhandene UI-Elemente umzuformen und zu integrieren, anstatt neue hinzuzufügen. Außerdem sollten sie von Anfang an und sorgfältig eingeplant werden und regelmäßig mit Nutzern getestet werden.^[vgl. [Making Motion Meaningful](https://design.google/library/making-motion-meaningful/) von Sharon Correa & John Schlemmer / Google Design]
+
+<figure class="content-thin">
+  <img data-src="/images/animation-and-pace/whatsapp-voicemail.gif">
+  <figcaption>
+    Die Voicemail-Funktion von WhatsApp ist nahtlos integriert in das Chat-Interface. Bei laufender Aufnahme bietet es die Möglichkeit, diese durch Wischen nach links abzubrechen – wird dies getan, antwortet die App mit verspieltem, aber trotzdem Funktionalem Feedback.
+    <sup><a href="https://www.androidpolice.com/2016/08/20/exclusive-google-allos-voice-messaging-interface-looks-awesome-eery-resemblance-whatsapps/">Bildquelle</a></sup>
+  </figcaption>
+</figure>
 
 ### Die Möglichkeiten von Animation in Microinteractions in Kürze:
 

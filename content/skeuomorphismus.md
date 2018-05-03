@@ -9,10 +9,20 @@ Lange verließen sich Designer bei der Gestaltung von Interaktionen gerne auf sk
     <figcaption>Der Papierkorb besteht seit den Anfängen von Windows ohne Änderung der Regeln. Gefüllter Zustand aus Windows 95 (links) und Entleerter Zustand aus Windows 10 (rechts) </figcaption>
 </figure>
 
+<!-- 
+Apple
+- Multitouch (kapazitiv) - erstmals direkte manipulation, ohne abstraktion
+- Skeumorphismus um Nutzern es beizubringen (bsp Taschenrechner nach Rams) 
+- The future of user interface design is the history of print design https://vimeo.com/22575738
+    - What's a UI that is all about information? = print design
+- Inhalt VOR Nachahmung! zB ebook
+-->
+
+
 Doch während der visuelle Bezug heute oft nur noch zu erahnen ist, bleiben doch die [Regeln](/rules) digitaler Interaktionen meist nahe an an den Regeln ihrer gegenständlichen Equivalente. Es wird versucht, Gewohnheiten aus der physischen Welt aufzugreifen und auf digitale Produkte anzuwenden.
 Die Gesetze der uns Menschen seit Jahrtausenden umgebenden Welt haben sich so in unser Unterbewusstsein eingeprägt, dass diese unmöglich zu ignorieren sind. Aus diesem Grund könnte man sich als Designer die Frage stellen:
 _Wie würde diese Interaktionen funktionieren, fände sie nicht in der digitalen Welt statt?_
-Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction sinnvoll erscheinen, kann davon ausgegangen werden, dass sie unserem intuitiven Verständnis von Konzepten wie Gewicht, Material, Bewegung, Trägheit, Reibung, usw. nicht wiederspricht. Besondere bedeutung finden diese "Naturgesetze" bei der Gestaltung von [Animation](/animation-and-pace).
+Wenn unter diesem Gesichtspunkt Regeln und Rückmeldung einer Microinteraction sinnvoll erscheinen, kann davon ausgegangen werden, dass sie unserem intuitiven Verständnis von Konzepten wie Gewicht, Material, Bewegung, Trägheit, Reibung, usw. nicht wiederspricht. Besondere bedeutung finden diese "Naturgesetze" bei der Gestaltung von [Animation](/animation-and-pace). User interface design bedeutet, Dinge, die Nutzer bereits kennen, zu nutzen um diesen zu helfen, neue dinge zu verstehen.
 
 <figure class="content-thin">
     <img data-src="/images/skeuomorphismus/reorder-drag-drop-1.gif">

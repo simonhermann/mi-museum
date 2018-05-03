@@ -180,7 +180,7 @@ module.exports = {
       //['markdown-it-hashmention', { href: 'http://twitter.com' }],
       //'markdown-it-hashmention',
     ],
-    linkify: true, // Autoconvert URL-like text to links
+    linkify: false, // Autoconvert URL-like text to links
     html: true,
     typographer: true,
     // quotes: '“”‘’',

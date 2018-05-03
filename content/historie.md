@@ -90,7 +90,7 @@ Ein Command Line Interface lässt sich Vorfahre von Chatbots bzw. Conversational
 
 Eine grafische Benutzerschnittstelle (engl. graphical user interface, GUI) erlaubt Nutzern im gegensatz zum CLI die Funktionen eines Programms zu entdecken, anstatt diese von vornherein zu kennen oder in einer Dokumentation nachzulesen.
 Auch wenn sich Micro-Interaktionen nicht auf Nutzung von grafischen Benutzeroberflächen beschränken, so sind sie doch deren häufigste Ausprägung in den letzten 40 Jahren. Die Metapher des virtuellen Schreibtisches dirigiert seit der Vorstellung des _Macintosh_ den den Aufbau von Benutzeroberflächen: Daten werden als 'Dokumente' gespeichert und in 'Ordnern' abgelegt. Ordner können 'geöffnet' und Dokumente 'verschoben' werden. Dokumente können gelöscht werden, in dem sie in den 'Papierkorb' gelegt werden und verbleiben dort, bis dieser 'entleert' wird.
-Aus der physischen Welt entlehnte Bezeichnungen und Ikonografie erzeugen bei Nutzern ein Gefühl von Bekanntheit. Die Art und Weise, wie ein Computer zu benutzen ist, ist stark an die analoge Welt angelehnt. Erst durch diese [Parallelen zu bereits Bekanntem](/skeumorphism), konnte eine Intuitivität erzeugt werden, die den Siegeszug des Computers als Alltagsobjekt herbeigeführt hat. 
+Aus der physischen Welt entlehnte Bezeichnungen und Ikonografie erzeugen bei Nutzern ein Gefühl von Bekanntheit. Die Art und Weise, wie ein Computer zu benutzen ist, ist stark an die analoge Welt angelehnt. Erst durch diese [Parallelen zu bereits Bekanntem](/skeumorphism), konnte eine Intuitivität erzeugt werden, die den Siegeszug des Computers als Alltagsobjekt herbeigeführt hat. Die Rolle von der Gestaltung von Interaktionen ist nicht mehr Nebenprodukt der Technologie, sondern wird zunehmend zum eigenen Berufsfeld.
 
 ### Sketchpad
 
@@ -190,10 +190,16 @@ Der _Xerox 8010_, genannt _Star_ war das erste kommerzielle System, das verschie
 
 <!-- WYSIWYG screen=print -->
 
-### Apple Lisa und Apple Macintosh
+### Apple Lisa und Macintosh bis heute
 
 Der Apple Macintosh, als erster kommerziell erfolgreicher Computer mit Grafischer Benutzeroberfläche hat eine neue Ära des Desktop-Publishing eingeleitet. Das Paradigma des _WYSIWYG_ – _what you see is what you get_ macht es zusammen mit erschwingbaren Laserdruckern für jedermann möglich, professionell aussehende Dokumente digital zu erzeugen und auszudrucken. Die Maus wird von nun an Standardeingabegerät und die Bedienung immer komfortabler.
-<!-- XXXX -->
+Apple wird unter Steve Jobs zum wichtigsten Innovationstreiber digitaler Benutzerschnittstellen, sei es mit dem 'Clickwheel' des iPod oder der Massentauglichkeit von Touchscreens mit iPhone und iPad. 
+<!-- TODO: mehr! 
+- T9, PDAs, Stylus, 
+- Don Norman (Apple): Design = usability und funktionalität ("The Design of Everyday Things")
+- Multitouch (kapazitiv) - erstmals direkte manipulation, ohne abstraktion = Skeumorphismus siehe kapitel
+A Brief History of User Interface: https://youtu.be/1p954cqfTHY
+XXXX -->
 
 <!-- Erste Touch-Screens '82:[https://youtu.be/JAcZpQCLb4E]
 Stylus/Lichtgriffel: https://youtu.be/r18i-uR6BD4, https://youtu.be/1EWQYAfuMYw?t=21m48s -->
