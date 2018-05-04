@@ -1,8 +1,8 @@
 # Rückmeldung (Feedback) von Microinteractions
 
-Die Hauptaufgabe der Rückmeldung (engl. Feedback) das eine Benutzerschnittstelle an den Nutzer gibt, ist diesem zu helfen, die [Regeln](/rules) einer (Mikro-)Interaktion zu verstehen. Wenn ein Nutzer beispielsweise einen Button antippt, sollte gezeigt werden, _dass_ dieser gedrückt wurde und _was das Ergebnis_ der Eingabe ist. Allein dadurch können Nutzer wissen, ob eine Eingabe erfolgreich war. Wäre keinerlei Feedback vorhanden, bestünde für Nutzer kaum eine Möglichkeit zu wissen, was passiert und wie eine Benutzerschnittstelle funktioniert.
+Die Hauptaufgabe der Rückmeldung (engl. Feedback) die eine Benutzerschnittstelle an den Nutzer gibt, ist diesem zu helfen, die [Regeln](/rules) einer (Mikro-)Interaktion zu verstehen. Wenn ein Nutzer beispielsweise einen Button antippt, sollte gezeigt werden, _dass_ dieser gedrückt wurde und _was das Ergebnis_ der Eingabe ist. Allein dadurch können Nutzer wissen, ob eine Eingabe erfolgreich war. Wäre keinerlei Feedback vorhanden, bestünde für Nutzer kaum eine Möglichkeit zu wissen, was passiert und wie eine Benutzerschnittstelle funktioniert.
 
-Für Nutzer sollten die [Regeln](/rules) einer Microinteraction keinerlei oder nur wenig Aufmerksamkeit einfordern. Am Beispiel des Lichtes mit Bewegungsmelder: allein wichtig ist, dass das Licht angeht, sobald Nutzer es benötigen, und sie sich nicht darum kümmern müssen, es wieder auszuschalten. Die einzige Rückmeldung des Produktes an den Nutzer ist hier das gewünschte Ergebnis selbst: Licht. Die meisten Microinteractions benötigen jedoch mehr Feedback.
+Für Nutzer sollten die [Regeln](/rules) einer Microinteraction keinerlei oder nur wenig Aufmerksamkeit einfordern. Am Beispiel des Lichtes mit Bewegungsmelder wird deutlich: allein wichtig ist, dass das Licht angeht, sobald Nutzer es benötigen, und sie sich nicht darum kümmern müssen, es wieder auszuschalten. Die einzige Rückmeldung des Produktes an den Nutzer ist hier das gewünschte Ergebnis selbst: Licht. Die meisten Microinteractions benötigen jedoch mehr Feedback.
 
 <!-- ### Abstraktion und Relevanz -->
 
@@ -19,10 +19,10 @@ Eine Herausforderung für Designer wird sein, Interfaces mit der [Automatisierun
 
 ##### Feedback sollte üblicherweise vorhanden sein, wenn:
 
-* eine Eingabe von Seiten des Nutzers stattfindet.
-* ein systembasierter Trigger den Status der Benutzerschnittstelle oder des Programms signifikant verändert (z. B. Eintreffen neuer Nachrichten).
-* ein Kommando des Nutzers auch nicht ausgeführt werden kann (z. B. E-Mail kann auch nach mehrmaligem Versuchen nicht gesendet werden, da offline).
-* ein nutzerrelevanter Fehler auftritt, der nicht von seiten des Systems korrigiert werden kann (z.B. Eingabe eines falschen Passwortes).
+* eine Eingabe von Seiten des Nutzers stattfindet
+* ein systembasierter Trigger den Status der Benutzerschnittstelle oder des Programms signifikant verändert (z. B. Eintreffen neuer Nachrichten)
+* ein Kommando des Nutzers nicht ausgeführt werden kann (z. B. E-Mail kann auch nach mehrmaligem Versuchen nicht gesendet werden, da offline)
+* ein nutzerrelevanter Fehler auftritt, der nicht von Seiten des Systems korrigiert werden kann (z.B. Eingabe eines falschen Passwortes)
 * ein nutzerrelevanter lange andauernder Prozess stattfindet (z. B. Anzeige der Restzeit bei Systemupdate)
 * ein nutzerrelevanter Prozess beginnt
 * ein nutzerrelevanter Prozess endet (z. B. Download abgeschlossen)
@@ -40,7 +40,7 @@ Wenn der Befehl aus technischen Gründen nicht unmittelbar ausgeführt werden ka
 - 8-10 Sekunden: _maximale Aufmerksamkeitsspanne_
 
 Die Dauer eines Blinzelns liegt zwischen 100 und 150ms, diese Dauer wird normalerweise als Verzögerungsfrei wahrgenommen.^[[True Lies Of Optimistic User Interfaces](https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/) von Denys Mishunov / Smashingmagazine, 2016]
-Wenn ein Nutzer den Schließen-Buttons eines Fensters betätigt, sollte ebendieser Button sein Erscheinungsbild verändern. Das mag unnötig erscheinen, da das Fenster und damit der Button im Moment des Ausführens nicht mehr zu sehen sind – normalerweise. Auf veralteter Hardware, durch laufende Hintergrundprozesse, langsamer Internetverbindung oder aus zahlreichen anderen Gründen kann es jedoch vorkommen, dass ein Vorgang, der auf den Testgeräten der Gestalter und Programmierer sofort geschieht, etwas Zeit braucht. Aus diesem Grund sollte Rückmeldung ausnahmslos unmittelbar geschehen und technisch losgelöst von der Befehlausführung sein. Ein Nutzer, der auch nur wenige Sekunden kein Feedback bekommt, wird versuchen, den Button erneut zu drücken und damit vermutlich das System noch mehr überlasten oder Fehler auslösen. Als Gestalter sollte man also zwischen zwei Arten von Rückmeldung auf Aktionen des Nutzers unterscheiden:
+Wenn ein Nutzer den Schließen-Button eines Fensters betätigt, sollte ebendieser Button sein Erscheinungsbild verändern. Das mag unnötig erscheinen, da das Fenster und damit der Button im Moment des Ausführens nicht mehr zu sehen sind – normalerweise. Auf veralteter Hardware, durch laufende Hintergrundprozesse, langsamer Internetverbindung oder aus zahlreichen anderen Gründen kann es jedoch vorkommen, dass ein Vorgang, der auf den Testgeräten der Gestalter und Programmierer sofort geschieht, etwas Zeit braucht. Aus diesem Grund sollte Rückmeldung ausnahmslos unmittelbar geschehen und technisch losgelöst von der Befehlausführung sein. Ein Nutzer, der auch nur wenige Sekunden kein Feedback bekommt, wird versuchen, den Button erneut zu drücken und damit vermutlich das System noch mehr überlasten oder Fehler auslösen. Als Gestalter sollte man also zwischen zwei Arten von Rückmeldung auf Aktionen des Nutzers unterscheiden:
 
 * Rückmeldung, dass eine _Eingabe des Nutzers_ erfolgt ist
 * Rückmeldung, dass ein Befehl vom System _ausgeführt_ wurde

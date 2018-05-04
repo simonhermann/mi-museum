@@ -1,6 +1,6 @@
 # Schleifen und Modi
 
-Wie verändert sich die Microinteraction mit der Zeit? Bleiben die Regeln die Selben oder ändern sie sich bei mehrfacher Nutzung? Was passiert, wenn sich äußere Faktoren ändern? Bleibt eine Funktion angeschaltet, bis sie manuell wieder deaktiviert wurde, oder schaltet sie sich unter umständen automatisch aus? Schleifen und Modi beeinflussen als 'Meta-Regeln' das Verhalten von Microinteractions.
+Wie verändert sich die Microinteraction mit der Zeit? Bleiben die Regeln dieselben oder ändern sie sich bei mehrfacher Nutzung? Was passiert, wenn sich äußere Faktoren ändern? Bleibt eine Funktion angeschaltet, bis sie manuell wieder deaktiviert wurde, oder schaltet sie sich unter umständen automatisch aus? Schleifen und Modi beeinflussen als 'Meta-Regeln' das Verhalten von Microinteractions.
 
 > Nothing big works.
 > <cite>Victor Papanek^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]</cite>

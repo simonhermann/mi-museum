@@ -1,7 +1,7 @@
 # Signature Moments durch Microinteractions
 
 Worin unterscheidet sich die Benutzung eines iPhones von der eines Android-Smartphones, MacOS von Windows, Cinema4D von 3ds Max, Google von Bing oder Siri von Alexa? Mit den meisten modernen Werkzeugen lassen sich ähnliche Ergebnisse erzielen – aber auf leicht unterschiedliche Weise.
-Eine Differenzierung auf der Ebene der Design-Grundlagen ist kaum mehr möglich. Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher. Neuauflagen von Corporate Designs der großen Firmen im Digitalbereich scheinen nur noch Abwandlungen der selben nichtssagenden serifenlosen Schrift nutzen zu dürfen^[Apple, Google, Ebay, Microsoft, Facebook, IBM, Netflix, Stripe, Uber, AirBnB, Spitify, Pinterest, Adobe, Coca Cola, ...]. Webdesign wurde zwischenzeitlich als sogar als tot bezeichnet^[[Web design is dead](https://mashable.com/2015/07/06/why-web-design-dead/) - Sergio Nouvel / Ux Magazine / Mashable.com, 2015]; Templates, Designsysteme, 'Patterns' und 'Best Practices' sorgen für Vereinheitlichung. Andere Möglichkeiten der Markenbildung werden daher erforderlich – einer Studie zufolge wird die Nutzererfahrung ab dem Jahre 2020 den Preis und das Produkt Hauptunterscheidungsmerkmal der Marke überholen^[[Customers 2020: A Progress Report](https://www.walkerinfo.com/knowledge-center/featured-research-reports/customers2020-1) - Walker, 2013]. 
+Eine Differenzierung auf der Ebene der Design-Grundlagen ist kaum mehr möglich. Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher. Neuauflagen von Corporate Designs der großen Firmen im Digitalbereich scheinen nur noch Abwandlungen der gleichen, nichtssagenden serifenlosen Schrift nutzen zu dürfen^[Apple, Google, Ebay, Microsoft, Facebook, IBM, Netflix, Stripe, Uber, AirBnB, Spitify, Pinterest, Adobe, Coca Cola, ...]. Webdesign wurde zwischenzeitlich als sogar als tot bezeichnet^[[Web design is dead](https://mashable.com/2015/07/06/why-web-design-dead/) - Sergio Nouvel / Ux Magazine / Mashable.com, 2015]; Templates, Designsysteme, 'Patterns' und 'Best Practices' sorgen für Vereinheitlichung. Andere Möglichkeiten der Markenbildung werden daher erforderlich – einer Studie zufolge wird die Nutzererfahrung ab dem Jahre 2020 den Preis und das Produkt Hauptunterscheidungsmerkmal der Marke überholen^[[Customers 2020: A Progress Report](https://www.walkerinfo.com/knowledge-center/featured-research-reports/customers2020-1) - Walker, 2013]. 
 
 <figure class="content-thin">
   <img data-src="/images/signature-moments/mailchimp-send.gif">
@@ -12,7 +12,11 @@ Eine Differenzierung auf der Ebene der Design-Grundlagen ist kaum mehr möglich.
 
 Ein _Signature Moment_ 
 
-Anpassung an Nutzer über Zeit (-->long loops)
+
+^[vgl. [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/)]
+
+
+Anpassung an Nutzer über Zeit (-->saffer long loops)
 
 Bsp page transitions mit signature Moment: https://www.dogstudio.co/
 -> unterschied zwischen "Erlebis-seite" und produktiv-seite
@@ -33,13 +37,13 @@ Eine Benutzerschnittstelle mit 'Persönlichkeit' hilft, einen Bezug herzustellen
 <figure class="content-thin">
   <img data-src="/images/signature-moments/weather-app.gif">
   <figcaption>
-    Dieses Konzept für eine Wetter-App schafft es, Inhalte und Interaktionen elegant durch einprägsame Animationen aufzubereiten.
+    Dieses Konzept für eine Wetter-App schafft es, Inhalte und Interaktionen elegant und einprägsam durch illustrative Animationen zu verbinden.
     <sup><a href="https://codepen.io/davidkpiano/full/ByNPQw">Bildquelle</a></sup>
   </figcaption>
 </figure>
 
 
-### Erinnerung durch Storytelling
+### Erinnerung und Storytelling
 
 Die Art und weise, wie wir etwas in Erinnerung behalten, beeinflusst ob wir es beispielsweise vergessen oder nicht abwarten können, es erneut zu tun. Einen positiven Eindruck zu hinterlassen sollte also ein wichtiges Ziel der meisten digitalen Produkte sein. 
 Durch Analogien einer Nutzererfahrung zum Erzählen einer Geschichte, also durch gutes _Storytelling_^[[storytelling.design](https://storytelling.design/)] kann die Nutzung eines Produktes tatsächlich zum Erlebnis werden. 
@@ -62,14 +66,12 @@ Niemand wird gerne beim lesen bzw. erleben einer guten Geschichte unterbrochen, 
 
 
 
-^[vgl. [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/)]
-
 
 
 <figure class="content-thin">
   <img data-src="/images/signature-moments/1password-open.gif">
   <figcaption>
-    Dieser Signature Moment beim öffnen des Passwort-Managers 1password soll zeigen, dass gespeicherte Passwörter so sicher wie in einem Tresor verwahrt werden.
+    Dieser skeumorphistische Signature Moment beim Öffnen des Passwort-Managers 1password soll zeigen, dass gespeicherte Passwörter so sicher wie in einem Tresor verwahrt werden.
   </figcaption>
 </figure>
 
