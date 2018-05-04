@@ -98,7 +98,7 @@ const setHightlightColors = (pageIndex) => {
 
 const setColorsForPage = () => {
   // TODO: refactor this, to grab index from page object
-  switch ($nuxt.$route.fullPath) {
+  switch ($nuxt.$route.path) {
     case '/':
       setHightlightColors(0)
       break
