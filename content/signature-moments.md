@@ -10,24 +10,20 @@ Eine Differenzierung auf der Ebene der Design-Grundlagen ist kaum mehr möglich.
   </figcaption>
 </figure>
 
-Ein _Signature Moment_ 
+_Signature Moments_ sind die Microinteractions, die ein Produkt von der Konkurrenz absetzen und uns in Erinnerung bleiben^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 19), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]. Dies könnte durch ein einzigartiges Bedienelement geschehen, wie beim 'click wheel' früherer iPods^[[iPod Nano 4th Gen Guided Tour](https://youtu.be/f-nvLQFQ5LQ) - harry20larry / YouTube]. Durch einen unverwechselbaren Ton wie der eines eingehenden Anrufes in Skype^[[Skype Sound](https://youtu.be/uehORTIuyPI) - Sound Effects / YouTube]. Oder durch eine elegante UI-Animation wie im folgenden Beispiel.
 
+<figure class="content-thin">
+  <img data-src="/images/signature-moments/1password-open.gif">
+  <figcaption>
+    Der (skeumorphistische) Signature Moment beim Öffnen des Passwort-Managers 1password soll zeigen, dass gespeicherte Passwörter so sicher wie in einem Tresor verwahrt werden.
+  </figcaption>
+</figure>
 
-^[vgl. [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/)]
-
-
-Anpassung an Nutzer über Zeit (-->saffer long loops)
-
-Bsp page transitions mit signature Moment: https://www.dogstudio.co/
--> unterschied zwischen "Erlebis-seite" und produktiv-seite
-http://dona.ai/
-
-iPod Clickwheel
-
+Eine einzige gut gemachte Interaktion kann ein Produkt entscheidend von der Konkurrenz abheben. Prominentes Beispiel ist der 'Like' von Facebook, beziehungsweise dessen Nachfolger 'Reactions'.
+Ein Signature Moment kann verspielter und ausgefallener als eine 'normale' Microinteraction sein. Eine Benutzerschnittstelle mit 'Persönlichkeit' hilft, einen Bezug herzustellen und stärkt die Markenwahrnehmung. Dies kann dazu beitragen, dass ein Anwender einfach Freude am Produkt hat. Ein Nutzer, der sich unterhalten fühlt, wird oft mehr Zeit mit dem Produkt verbringen und sich mit diesem verbunden fühlen.
+Die Anpassung eines Interfaces an den Nutzer, also ein gegenseitiges 'Kennenlernen' kann ebenfalls die emotionale Bindung stärken. Dies kann sowohl durch manuelle Einstellungen durch den Nutzer, als auch durch intelligente Analyse auf Systemseite funktionieren.
 
 Microinteractions werden generell kaum wahrgenommen, es sei denn, sie funktionieren nicht wie erwartet. Nutzer verbringen viel Zeit mit ausgefeilten Interfaces und haben inzwischen extrem hohe Erwartungen. Doch oft fällt uns ein Interface nur bei Enttäuschung überhaupt bewusst auf. Aus diesem Grund müssen die 'basics' jeder Benutzerschnittstelle, also die Microinteractions in ihrer Qualität und Funktionsweise (mindestens) den Erwartungen des Nutzers entsprechen. Gutes Design ist unsichtbar, und doch bleibt es zumindest unbewusst positiv im Gedächtnis.
-Microinteractions haben das Potential, Momente mit Wiedererkennungswert _plattformübergreifend_ zu schaffen. Je überzeugender sie sind, desto [flüssiger fühlt sich die Anwendung](/feedback) an, was die Wahrscheinlichkeit erhöht, dass der Anwender Freude am Produkt hat. Ein Nutzer, der sich unterhalten fühlt, wird oft mehr Zeit mit dem Produkt verbringen und sich mit diesem verbunden fühlen.
-Eine Benutzerschnittstelle mit 'Persönlichkeit' hilft, einen Bezug herzustellen und erhöht damit die Markenwahrnehmung. Eine einzige gut gemachte Interaktion kann ein Produkt entscheidend von der Konkurrenz abheben. Prominentes Beispiel ist der 'Like' von Facebook, beziehungsweise dessen Nachfolger 'Reactions'.
 
 > Microinteractions are the 'feel' <br>in 'look-and-feel'
 > <cite>Dan Saffer^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]</cite>
@@ -42,13 +38,12 @@ Eine Benutzerschnittstelle mit 'Persönlichkeit' hilft, einen Bezug herzustellen
   </figcaption>
 </figure>
 
-
 ### Erinnerung und Storytelling
 
 Die Art und weise, wie wir etwas in Erinnerung behalten, beeinflusst ob wir es beispielsweise vergessen oder nicht abwarten können, es erneut zu tun. Einen positiven Eindruck zu hinterlassen sollte also ein wichtiges Ziel der meisten digitalen Produkte sein. 
 Durch Analogien einer Nutzererfahrung zum Erzählen einer Geschichte, also durch gutes _Storytelling_^[[storytelling.design](https://storytelling.design/)] kann die Nutzung eines Produktes tatsächlich zum Erlebnis werden. 
 Die Geschichte unseres Helden, des Nutzers sollte diesen aktiv werden lassen und nicht durch [passive Wartezeiten langweilen](/animation-and-pace#gefuhlte-geschwindigkeit). Dennoch können kleine Kunstpausen Momente der Erwartung erzeugen und die Authentizität erhöhen. 
-Niemand wird gerne beim lesen bzw. erleben einer guten Geschichte unterbrochen, deshalb sollte ein Interface [nahtlos und unmittelbar](/feedback#unmittelbarkeit-und-flow) interagieren. Eine Aneinanderreihung vieler kurzer Aktivitäten kommt uns im nachhinein eher lang vor, während eine einzige, längere Aktivität das Gefühl von [Flow](/feedback#unmittelbarkeit-und-flow) erzeugen kann und die Zeit wie im Fluge vergeht. Wer sich im Flow befindet hat ein Gefühl von Klarheit und Selbstbewusstsein, das selbst die großten Drachen besiegbar macht.
+Niemand wird gerne beim lesen beziehungsweise erleben einer guten Geschichte unterbrochen, deshalb sollte ein Interface [nahtlos und unmittelbar](/feedback#unmittelbarkeit-und-flow) interagieren. Eine Aneinanderreihung vieler kurzer Aktivitäten kommt uns im nachhinein eher lang vor, während eine einzige, längere Aktivität das Gefühl von [Flow](/feedback#unmittelbarkeit-und-flow) erzeugen kann und die Zeit wie im Fluge vergeht. Wer sich im Flow befindet hat ein Gefühl von Klarheit und Selbstbewusstsein, das selbst die großten Drachen besiegbar macht.
 
 > Microinteractions sind die Sätze der Geschichte eines Helden in der Welt eines&nbsp;Produktes.
 <!-- > <cite>Simon Hermann</cite> -->
@@ -65,22 +60,7 @@ Niemand wird gerne beim lesen bzw. erleben einer guten Geschichte unterbrochen, 
 
 
 
-
-
-
-<figure class="content-thin">
-  <img data-src="/images/signature-moments/1password-open.gif">
-  <figcaption>
-    Dieser skeumorphistische Signature Moment beim Öffnen des Passwort-Managers 1password soll zeigen, dass gespeicherte Passwörter so sicher wie in einem Tresor verwahrt werden.
-  </figcaption>
-</figure>
-
 <!-- ^[[https://dribbble.com/shots/2440217-Fluid-Switch](/images/animation-and-pace/switch-fluidswitch.gif)] -->
-
-
-
-
-
 
 
 <!-- <figure class="content-thin">

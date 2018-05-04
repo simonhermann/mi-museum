@@ -190,7 +190,7 @@ Der _Xerox 8010_, genannt _Star_, war das erste kommerzielle System, das verschi
 
 <!-- WYSIWYG screen=print -->
 Der Apple Macintosh, als erster kommerziell erfolgreicher Computer mit grafischer Benutzeroberfläche hat eine neue Ära des Desktop-Publishing eingeleitet. Das Paradigma des _WYSIWYG_ macht es zusammen mit erschwingbaren Laserdruckern für jedermann möglich, professionell aussehende Dokumente digital zu erzeugen und auszudrucken. Die Maus wird von nun an Standardeingabegerät und die Bedienung immer komfortabler.
-Apple wird unter Steve Jobs zum wichtigsten Innovationstreiber digitaler Benutzerschnittstellen, sei es mit dem 'Clickwheel' des iPod oder der Massentauglichkeit von Touchscreens mit iPhone und iPad. 
+Apple wird unter Steve Jobs zum wichtigsten Innovationstreiber digitaler Benutzerschnittstellen, sei es mit dem 'click wheel' des iPod oder der Massentauglichkeit von Touchscreens mit iPhone und iPad. 
 <!-- TODO: mehr! 
 - T9, PDAs, Stylus, 
 - Don Norman (Apple): Design = usability und funktionalität ("The Design of Everyday Things")
