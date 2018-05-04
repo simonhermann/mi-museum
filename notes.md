@@ -29,7 +29,7 @@ check all nextpage links
 
 ## Bugs
 
-* [ ] 
+* [ ] footnote highlighting
 
 ## Technical
 

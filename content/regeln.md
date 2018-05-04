@@ -22,7 +22,7 @@ Da Microinteractions sehr unterschiedlich sein können, werden sich auch deren B
 * ob und wie oft sich die Microinteraction [wiederholt](/loops-and-modes)
 * was passiert, nachdem die Microinteraction beendet wurde
 
-Regeln sind unsichtbar, ein Nutzer kann diese ausschlließlich durch die gegebene [Rückmeldung](/feedback) erlernen. Nicht immer sind Regeln in ihrer Gänze für Nutzer erschließbar, häufig unterscheidet sich wie ein Nutzer _glaubt_ funktioniere etwas deutlich von dem wie es tatsächlich funktioniert. Bei der Konzipierung sollte daher möglichst auf dem Nutzer bereits bekannte Regeln aufgebaut werden. Da Nutzern die Regeln der physischen Welt wohlbekannt sind, sollte auch in digitalen Produkten auf diesen aufgebaut werden – mehr dazu im Kapitel [Skeumorphismus](/skeuomorphism).
+Regeln sind unsichtbar, ein Nutzer kann diese ausschließlich durch die gegebene [Rückmeldung](/feedback) erlernen. Nicht immer sind Regeln in ihrer Gänze für Nutzer erschließbar, häufig unterscheidet sich wie ein Nutzer _glaubt_ funktioniere etwas deutlich von dem wie es tatsächlich funktioniert. Bei der Konzipierung sollte daher möglichst auf dem Nutzer bereits bekannte Regeln aufgebaut werden. Da Nutzern die Regeln der physischen Welt wohlbekannt sind, sollte auch in digitalen Produkten auf diesen aufgebaut werden – mehr dazu im Kapitel [Skeumorphismus](/skeuomorphism).
 
 ### Regeln am Beispiel einer Lampe
 
@@ -110,6 +110,7 @@ Better: human centred automation. Make it a team player -->
 * Werden Regeln geändert oder könnten als geänderte Regeln wahrgenommen werden? Wie kann der Übergang zu neuen Regeln möglichst Reibungslos ablaufen?
 * Sind die Regeln technisch umsetzbar? Ist der Aufwand angemessen? 
 * Kann das Ziel auch auf andere Weise erreicht werden?
+* Wie beeinflussen all diese Faktoren die [Rückmeldung](/feedback)? Wann muss dieses angepasst werden?
 
 
 

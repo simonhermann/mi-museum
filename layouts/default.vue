@@ -7,6 +7,9 @@
       <v-container>
         <noscript> Please enable Javascript in your browser. </noscript>
         <nuxt v-lazy-container="{ selector: 'img' }" />
+        <div class="footer">
+          Simon Hermann / microinteractions.design
+        </div>
       </v-container>
     </v-content>
 
@@ -43,6 +46,16 @@
     transform: translate3d(0, 0, 0);
   }
 }
+.footer {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 38rem;
+  margin-top: 3rem;
+  text-align: center;
+  font-size: var(--font-size-small);
+  color: var(--grey-light);
+}
 </style>
 
 
@@ -55,10 +68,10 @@ export default {
   },
   mounted: function() {
     this.$nextTick(function() {
-      const el1 = document.getElementsByTagName('html')[0]
-      el1.classList.add('app-mounted')
-      const el2 = document.getElementById('app')
-      el2.classList.remove('theme--light') // vuetify hack XXXX
+      const el_html = document.getElementsByTagName('html')[0]
+      el_html.classList.add('app-mounted')
+      const el_app = document.getElementById('app')
+      el_app.classList.remove('theme--light') // vuetify hack XXXX
     })
   },
 }
