@@ -1,6 +1,6 @@
-# Schleifen und Modi
+# Schleifen und Modi in Microinteractions
 
-Wie verändert sich die Microinteraction mit der Zeit? Bleiben die Regeln dieselben oder ändern sie sich bei mehrfacher Nutzung? Was passiert, wenn sich äußere Faktoren ändern? Bleibt eine Funktion angeschaltet, bis sie manuell wieder deaktiviert wurde, oder schaltet sie sich unter umständen automatisch aus? Schleifen und Modi beeinflussen als 'Meta-Regeln' das Verhalten von Microinteractions.
+Wie verändert sich die Microinteraction mit der Zeit? Bleiben die Regeln dieselben oder ändern sie sich bei mehrfacher Nutzung? Was passiert, wenn sich äußere Faktoren ändern? Bleibt eine Funktion angeschaltet, bis sie manuell wieder deaktiviert wurde, oder schaltet sie sich unter Umständen automatisch aus? Schleifen und Modi beeinflussen als 'Meta-Regeln' das Verhalten von Microinteractions.
 
 > Nothing big works.
 > <cite>Victor Papanek^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]</cite>
@@ -8,7 +8,7 @@ Wie verändert sich die Microinteraction mit der Zeit? Bleiben die Regeln diesel
 ## Modi
 
 Ein _Modus_ ist ein Status eines Programms, in dem Befehle in dessen Kontext ausgeführt werden. Diese 'Verzweigung' der Regeln sollte in Microinteractions jedoch die Ausnahme sein. Hauptgrund dafür ist, dass sie häufig Fehler des Nutzers auslösen, besonders wenn neue Regeln in einer bereits bekannten Oberfläche angewendet werden. Die Regeln eines Modus müssen von Nutzern neu erlernt werden, bevor ein Modus genutzt werden kann.^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 111 - 114), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
-Saffer plädiert, Modi in Microinteractions möglichst zu vermeiden, einzige Ausnahme seien selten genutzte Funktionen, die sonst den Flow des Interfaces unterbrechen würden.^[Saffer, Dan: Microinteractions - Designing with Details (S. 121), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] Doch Modi können – richtig eingesetzt – die Nutzungsgeschwindigkeit eines Interfaces deutlich erhöhen, ohne Abstriche bei der Nutzbarkeit zu machen. Sie benötigen meist etwas Einarbeitung von Seiten des Nutzers, doch einmal erlernt können sie die Produktivität enorm steigern, nicht umsonst sind sie häufig in professionellen Programmen mit hoher Nutzungsdauer zu finden.^[Beispiele für aktuell sehr erfolgreich eingesetzte Modi finden sich in: den Tasten <kbd>Shift</kbd>, <kbd>cmd</kbd>, <kbd>alt</kbd>, usw jeder Tastatur, den Texteditoren Vim, Visual Studio Code und sogar Microsoft Word, dem Designprogramm Sketch uvm.]
+Saffer plädiert, Modi in Microinteractions möglichst zu vermeiden, einzige Ausnahme seien selten genutzte Funktionen, die sonst den Flow des Interfaces unterbrechen würden.^[Saffer, Dan: Microinteractions - Designing with Details (S. 121), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] Doch Modi können – richtig eingesetzt – die Nutzungsgeschwindigkeit eines Interfaces deutlich erhöhen, ohne Abstriche bei der Nutzbarkeit zu machen. Sie benötigen meist etwas Einarbeitung von Seiten des Nutzers, doch einmal erlernt können sie die Produktivität enorm steigern. Nicht umsonst sind sie häufig in professionellen Programmen mit hoher Nutzungsdauer zu finden.^[Beispiele für aktuell sehr erfolgreich eingesetzte Modi finden sich in: den Tasten <kbd>Shift</kbd>, <kbd>cmd</kbd>, <kbd>alt</kbd>, usw jeder Tastatur, den Texteditoren Vim, Visual Studio Code und sogar Microsoft Word, dem Designprogramm Sketch uvm.]
 
 ##### Rückfedernde Modi ('spring loaded modes')
 
@@ -33,8 +33,8 @@ Unter Android bringt längeres Gedrückthalten des Fingers auf Text die Textausw
 
 Eine _Schleife_ (englisch _loop_) beschreibt eine Anweisung in den Regeln, welche wiederholt wird, meist bis eine bestimmte Bedingung erfüllt ist. Während deutliche Parallelen zu Schleifen in der Programmierung liegen, sind diese nicht gleichzusetzten, denn eine Schleife in den Regeln einer Microinteraction bedeutet nicht zwangsweise die technische Umsetzung durch eine Schleife. Die grundlegenden Arten von Schleifen sind^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 114f), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]:
 
-* Die _Während-Schleife_ ('while loop') wiederholt sich, solange bestimmte Bedingungen erfüllt sind. Bei jedem Zyklus wird überprüft ob dem so ist.
-  Beispiel: Während nacht ist überprüft ein Bewegungsmelder alle 5 Sekunden ob Bewegung erkannt wurde.
+* Die _Während-Schleife_ ('while loop') wiederholt sich, solange bestimmte Bedingungen erfüllt sind. Bei jedem Zyklus wird überprüft, ob dem so ist.
+  Beispiel: Während nacht ist, überprüft ein Bewegungsmelder alle 5 Sekunden ob Bewegung erkannt wurde.
 * Die _Zählschleife_ ('for loop') wiederholt sich so oft, bis eine definierte Anzahl von Zyklen erreicht ist.
   Beispiel: Liste die neuesten E-Mails auf bis 50 Einträge zu sehen sind.
 * Die _Mengenschleife_ ('foreach loop') wird für jeden Eintrag einer vorgegebenen Liste einmal ausgeführt.
@@ -43,8 +43,8 @@ Eine _Schleife_ (englisch _loop_) beschreibt eine Anweisung in den Regeln, welch
   Beispiel: Überprüfe alle 5 Sekunden, ob eine Netzwerkverbindung besteht.
 
 Diese Zeitspanne einer Microinteraction und damit die [Geschwindigkeit](animation-and-pace) haben erhebliche Auswirkung darauf, wie diese vom Nutzer wahrgenommen wird. Der _Zyklus_ einer Schleife kann von wenigen Millisekunden bis mehreren Jahren reichen. Obwohl Microinteractions in der Regel von kurzer Dauer sind, kann eine Schleife die erneute Ausführung dieser auslösen und so die 'Lebensdauer' verlängern.
-Wenn Microinteractions wiederholt werden, kann deren Funktionsweise angepasst werden, häufig verwendete [Auslöser](/triggers) könnten beispielsweise prominenter dargestellt werden oder durch Anpassung an den Schlafrhythmus eines Nutzers und damit einhergehende Ladezeiten eines Smartphones könnte dessen Akkulebensdauer verlängert werden. Ein Nutzer, der ein Produkt über längere Zeit nutzt, ist mit diesem vermutlich recht vertraut und benötigt daher weniger Hinweise _wie_ etwas zu benutzen ist.
-Diese Personalisierung kann nicht nur extrem nützlich sein, sondern auch die emotionale Bindung eines Nutzers zum Produkt stärken. Richtig eingesetzt kann eine Erfahrung geschaffen werden, die Nutzer immer wieder neues entdecken lässt und neue 'Wow'-Momente erzeugt.^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 118), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
+Wenn Microinteractions wiederholt werden, kann deren Funktionsweise angepasst werden, häufig verwendete [Auslöser](/triggers) könnten beispielsweise prominenter dargestellt werden. Durch Anpassung an den Schlafrhythmus eines Nutzers, und damit einhergehende Ladezeiten eines Smartphones, könnte dessen Akkulebensdauer verlängert werden. Ein Nutzer, der ein Produkt über längere Zeit nutzt, ist mit diesem vermutlich recht vertraut und benötigt daher weniger Hinweise, _wie_ etwas zu benutzen ist.
+Diese Personalisierung kann nicht nur extrem nützlich sein, sondern auch die emotionale Bindung eines Nutzers zum Produkt stärken. Richtig eingesetzt kann eine Erfahrung geschaffen werden, die Nutzer immer wieder Neues entdecken lässt und neue 'Wow'-Momente erzeugt.^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 118), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
 Gestalter sollten sich die Frage stellen: _Wie kann eine Microinteraction bei der zweiten, fünften oder hundertsten Nutzung verbessert werden?_
 
 <figure class="content-tiny">
@@ -54,7 +54,7 @@ Gestalter sollten sich die Frage stellen: _Wie kann eine Microinteraction bei de
   </figcaption>
 </figure>
 
-Eine personalisierte Nutzererfahrung scheint für digitale Produkte immer bedeutender zu werden. Die mächtigen Firmen der Digitalwelt sammeln Produktübergreifend Daten und verwenden diese, um jedem Nutzer eine individuelle Produkterfahrung zu bieten.^[vgl. [Personalization trend in UX](https://blog.prototypr.io/personalization-trend-in-ux-678b6beaeeb6) von Nikita Gangwal] Mehr dazu wie Microinteractions einen nachhaltigen Eindruck hinterlassen können im Kapitel [Signature Moments](/signature-moments).
+Eine personalisierte Nutzererfahrung scheint für digitale Produkte immer bedeutender zu werden. Die mächtigen Firmen der Digitalwelt sammeln produktübergreifend Daten und verwenden diese, um jedem Nutzer eine individuelle Produkterfahrung zu bieten.^[vgl. [Personalization trend in UX](https://blog.prototypr.io/personalization-trend-in-ux-678b6beaeeb6) von Nikita Gangwal] Mehr dazu wie Microinteractions einen nachhaltigen Eindruck hinterlassen können im Kapitel [Signature Moments](/signature-moments).
 
 ::: md-container-more
 
