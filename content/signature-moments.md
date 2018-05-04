@@ -10,7 +10,9 @@ Eine Differenzierung auf der Ebene der Design-Grundlagen ist kaum mehr möglich.
   </figcaption>
 </figure>
 
-_Signature Moments_ sind die Microinteractions, die ein Produkt von der Konkurrenz absetzen und uns in Erinnerung bleiben^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 19), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]. Dies könnte durch ein einzigartiges Bedienelement geschehen, wie beim 'click wheel' früherer iPods^[[iPod Nano 4th Gen Guided Tour](https://youtu.be/f-nvLQFQ5LQ) - harry20larry / YouTube]. Durch einen unverwechselbaren Ton wie der eines eingehenden Anrufes in Skype^[[Skype Sound](https://youtu.be/uehORTIuyPI) - Sound Effects / YouTube]. Oder durch eine elegante UI-Animation wie im folgenden Beispiel.
+_Signature Moments_ sind die Microinteractions, die ein Produkt von der Konkurrenz absetzen und uns in Erinnerung bleiben^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 19), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]. 
+Eine einzige gut gemachte Interaktion kann ein Produkt entscheidend von der Konkurrenz abheben. Einflussreiches Beispiel ist der 'Like' von Facebook, beziehungsweise dessen Nachfolger 'Reactions'. 
+Dies könnte auch durch ein einzigartiges Bedienelement geschehen, wie beim 'click wheel' früherer iPods^[[iPod Nano 4th Gen Guided Tour](https://youtu.be/f-nvLQFQ5LQ) - harry20larry / YouTube]. Durch unverwechselbaren Ton, wie der Soundeffekt jeden Sprunges des Charakters in der 'Super Mario'-Reihe^[[Mario Jump - Gaming Sound Effect (HD)](https://youtu.be/37-paiEz0mQ) - Gaming Sound FX / YouTube]. Oder durch eine elegante UI-Animation wie in 1password (siehe unten). Das Problem von erfolgreichen Signature Moments ist, dass sie schnell Nachahmer finden und dann gar nicht mehr so einzigartig sind – doch das ist wohl in vielen Bereichen des Design der Fall.
 
 <figure class="content-thin">
   <img data-src="/images/signature-moments/1password-open.gif">
@@ -19,7 +21,6 @@ _Signature Moments_ sind die Microinteractions, die ein Produkt von der Konkurre
   </figcaption>
 </figure>
 
-Eine einzige gut gemachte Interaktion kann ein Produkt entscheidend von der Konkurrenz abheben. Prominentes Beispiel ist der 'Like' von Facebook, beziehungsweise dessen Nachfolger 'Reactions'.
 Ein Signature Moment kann verspielter und ausgefallener als eine 'normale' Microinteraction sein. Eine Benutzerschnittstelle mit 'Persönlichkeit' hilft, einen Bezug herzustellen und stärkt die Markenwahrnehmung. Dies kann dazu beitragen, dass ein Anwender einfach Freude am Produkt hat. Ein Nutzer, der sich unterhalten fühlt, wird oft mehr Zeit mit dem Produkt verbringen und sich mit diesem verbunden fühlen.
 Die Anpassung eines Interfaces an den Nutzer, also ein gegenseitiges 'Kennenlernen' kann ebenfalls die emotionale Bindung stärken. Dies kann sowohl durch manuelle Einstellungen durch den Nutzer, als auch durch intelligente Analyse auf Systemseite funktionieren.
 

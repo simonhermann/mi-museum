@@ -34,5 +34,8 @@ export default {
 </script>
 
 <style lang="scss">
-
+.smallprint *{
+  font-size: 75%;
+  color: var(--color-text-light);
+}
 </style>

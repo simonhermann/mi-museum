@@ -1,7 +1,8 @@
 <template>
   <div class="page">
     <html-parser :content=text01></html-parser>
-    <nextPage link="/" heading="Zurück zur Startseite" nextText="Vielen Dank, das war's!"></nextPage>
+    <nextPage link="/about" heading="Hallo sagen" nextText="Das war's! Lass mir doch dein Feedback da:"></nextPage>
+    <nextPage link="/" heading="zurück zur Startseite" nextText="oder"></nextPage>
   </div>
 </template>
 

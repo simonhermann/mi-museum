@@ -11,7 +11,6 @@
 <style lang="scss">
 .o-next-page {
   display: inline-block;
-  margin-top: 4em;
   width: 100%;
   height: 5em;
   box-sizing: border-box;
@@ -19,6 +18,10 @@
   transition: all 0.2s ease-out;
   color: var(--color-text);
   text-decoration: none;
+  &:nth-of-type(-n+1) {
+    // styles for first element of its type: <a></a>
+   margin-top: 4em;
+  }
 
   &__nexttext {
     margin: 0;
