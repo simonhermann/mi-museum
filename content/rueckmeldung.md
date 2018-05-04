@@ -91,36 +91,37 @@ Da dieses Thema den Rahmen der Arbeit sprengen würde, hier nur eine kurze Über
 
 ### Arten von Feedback
 
-Da die Rückmeldung, um die es hier geht, von Maschinen an Menschen ist, überträgt sie sich über die menschlichen Sinne an Nutzer. Sie ist bei heutigen digitalen Geräten meist visuell oder akustisch, manchmal haptisch und nur selten über Geschmack oder Geruch. Doch ein wichtiges das wichtigste Ziel ist immer, die 'Black Box' der Technik zugänglich machen.
+Da die Rückmeldung, um die es hier geht, von Maschinen an Menschen ist, überträgt sie sich über die menschlichen Sinne an Nutzer. Sie ist bei heutigen digitalen Geräten meist visuell, haptisch oder akustisch und nur selten über Geschmack oder Geruch. Doch ein wichtiges Ziel ist immer, die 'Black Box' der Technik zugänglich machen. Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar ["belohnt"](/signature-moments). 
 Bei verbreiteten Interaktionsmustern sollte meist auf deren konventionelle Art der Rückmeldung zurückgegriffen werden, um nötige Lernzeit für Nutzer kurz zu halten.
 Wenn möglich, sollte ein direkter Bezug zwischen Eingabe und Rückmeldung hergestellt werden, z. B. ein Mauscursor, welcher den Bewegungen der Maus folgt.
-Ist es nicht möglich, eine unmittelbare Verbindung herzustellen, sollte trotzdem in jedem Fall eine Veränderung des Zustandes des Objektes stattfinden, zum Beispiel durch Änderung der Farbe.
-
-Visuell
-XXXX
+Ist es nicht möglich, eine unmittelbare Verbindung herzustellen, sollte in jedem Fall irgendeine Veränderung des Zustandes des Objektes stattfinden, zum Beispiel durch Änderung der Farbe.
 
 <figure class="content-thin">
   <img data-src="/images/feedback/1password-shake.gif">
   <figcaption>
-  'Shake'-Feedback von 1password bei Eingabe eines falschen Master-Passwortes.
-  Die Darstellung von Punkten für eingegebene Zeichen ist eine Form von Rückmeldung, die in der Kommandozeile üblicherweise nicht vorhanden&nbsp;ist.
+  Das 'Shake'-Feedback von 1password bei Eingabe eines falschen Master-Passwortes funktioniert ohne Texthinweis, da es die Geste des Kopfschüttelns imitiert.
+  (Die Darstellung von Punkten für eingegebene Zeichen ist eine Form von Rückmeldung, die in einer Kommandozeile üblicherweise nicht vorhanden&nbsp;ist.)
   </figcaption>
 </figure>
 
---> [Animation](/animation-and-pace)
+Das häufigste Medium für Feedback heutiger Benutzeroberflächen ist visueller Art. Da diese Rückmeldung einen fest definierten Ort hat, etwa einen Bildschirm oder eine Statusleuchte, ist es notwendig, dass das Auge des Nutzers beziehungsweise dessen Aufmerksamkeit bereits auf das Gerät gerichtet ist. Jede Eingabe in einer visuellen beziehungsweise grafischen Benutzerschnittstelle sollte durch visuelle Rückmeldung bestätigt werden. Aus Gründen der Zugänglichkeit sogar oft über mehrere redundante Kanäle wie zm Beispiel Farbe und Unterstreichung eines Hyperlinks. Mehr zu visueller Rückmeldung im nächsten Kapitel zu [Animation und Geschwindigkeit](animation-and-pace).
 
-Auditiv^[[Twenty Thousand Hertz Podcast #30: The bleeps, the sweeps, and the creeps!](https://www.20k.org/episodes/the-bleeps-the-sweeps-and-the-creeps)]
+Im Unterschied dazu hat auditives Feedback den Vorteil, nicht im Gerät "gefangen" zu sein. Je nach Art und Lautstärke des Tones kann auch die Aufmerksamkeit eines abgelenkten Nutzers gewonnen werden. Besonders geeignet ist es daher für [systemseitige Auslöser](/triggers) wie eingehende Anrufe oder die Warnung eines zur Neige gehenden Akkus. Wird auditives Feedback in einer GUI verwendet, sollte es niemals alleinstehen sondern immer auch visuell begleitet werden. 
+Geräusche waren schon immer ein wichtiges Mittel der Markenbildung. Sei es der Startton von OS X oder Windows, das Klingeln eines Skype-Anrufs oder das typische Geräusch jeden Flugzeugs, das verkündet, man möge sich bitte wieder anschnallen – Klänge bleiben im Kopf hängen. Schon ein einziges unangenehmes Geräusch kann die Nutzung eines Produktes für manche Nutzer ruinieren^[[Twenty Thousand Hertz Podcast #30: The bleeps, the sweeps, and the creeps!](https://www.20k.org/episodes/the-bleeps-the-sweeps-and-the-creeps)]. Das Feld des UI-Sounddesign ist recht jung, aber Autohersteller perfektionieren und modifizieren schon seit Langem die Klänge von Motoren oder dem Schließen einer Tür. Mit Einzug der Elektromobilität in den Alltag stehen sie vor dem Problem, dass nicht mehr unserer Gewohnheit von lautem Verkehr entsprechen. Sie sind zu leise und werden dadurch oft nicht wahrgenommen – nötig wird also ein systemseitiger Trigger, der die Aufmerksamkeit von Verkehrsteilnehmern auf sich zieht.
 
-Car sound enhancement
+<figure class="content-thin">
+  <img data-src="/images/feedback/bmw-vision-next100.jpg">
+  <figcaption>
+    Die Leuchte in der Mitte des Konzeptfahrzeugs 'BMW Vision Next 100' soll nicht nur anzeigen, ob Mensch oder Autopilot steuert, sondern auch aktiv darauf hinweisen, dass einem Fußgänger der Vortritt gelassen wird. Die auffallend rote Färbung der flexiblen Karosserie zeigt macht eine Abbiegeintention trotz versteckter Räder deutlich.
+    <sup><a href="https://youtu.be/SBaR0oqjWIo">Bildquelle</a></sup>
+  </figcaption>
+</figure>
 
-Rückmeldung immer über mehrere Kanäle, zB Form und Farbe
-
-* BMW Vision Next100 https://youtu.be/ztfVoGqW5VU
-
-Durch den gezielten Einsatz von visueller, auditiver oder anderweitiger Rückmeldung werden Fehler vermieden und der Nutzer wird in seinen Handlungen bestätigt oder gar ["belohnt"](/signature-moments). 
-
-haptisch
-für Nutzer besteht kein Unterschied zwischen Hard- und Software, 
+Das Klickgeräusch beim Scrollen durch die Musiksammlung in iPods fühlt sich beinahe taktil an, und schlägt so die Brücke zum taktilen Feedback. Dessen Nachfahre, bei Apple 'Force Touch' genannt, wurde von Stephen Brewster an der Universität Glasgow erforscht und entwickelt. Um eine virtuelle Taste auf einem Touchscreen fühlbar zu machen, ist es gar nicht nötig, dass der Bildschirm erhaben ist oder eingedrückt werden kann. Stattdessen reicht eine punktuelle Vibration um die Haptik einer Taste zu simulieren. Brewster zeigte, dass hierdurch weniger Fehler beim Schreiben mit der virtuellen Tastatur passieren.^[Stapelkamp, Torsten: Interaction- und Interfacedesign (S. 256f), X.media.press / Springer, 2010] Das Beispiel macht deutlich, dass für Nutzer kein Unterschied zwischen Hard- und Software besteht und deren Gestaltung daher nicht getrennt werden sollte.
+Taktile Rückmeldung kann einerseits durch den natürlichen Einfluss der physischen Beschaffenheiten des genutzten Eingabegerätes beeinflusst werden. Andererseits können künstliche Effekte wie Vibration hinzugefügt werden.
+<!-- Gefühl von Tasten von Piano (zeit.de) -->
+Die Erkennung des Anpressdrucks mit dem Stylus eines modernen Grafiktabletts ist mit mehreren Tausend Druckstufen extrem genau, obwohl sich die Spitze des Stiftes nur um wenige Mikrometer bewegt. Dagegen beträgt der 'Hubweg' einer mechanischen Computertastatur meist mehrere Millimeter und trotzdem sendet diese nur 'an' oder 'aus' an den Computer. Die größe einer Bewegung und damit der taktilen Rückmeldung steht also nicht immer in Relation zur Information, die über ein Interface eingegeben wird.
+Die Forschungsprojekte von Katherine Kuchenbecker zeigen, wie haptische Interfaces einmal aussehen könnten. Ein Stylus mit Vibrationselement kann im Zusammenspiel mit Bild und Geräusch den Eindruck verschiedener Oberflächenbeschaffenheiten erzeugen.
 
 
 ### Diese Fragen sollten sich Designer bei der Gestaltung von Feedback stellen:
