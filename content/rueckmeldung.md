@@ -45,7 +45,7 @@ Wenn ein Nutzer den Schließen-Buttons eines Fensters betätigt, sollte ebendies
 * Rückmeldung, dass eine _Eingabe des Nutzers_ erfolgt ist
 * Rückmeldung, dass ein Befehl vom System _ausgeführt_ wurde
 
-Ein Nutzer sollte sich in das 'Erlebnis' eines Produktes vertiefen können ohne herausgerissen zu werden. Dieser mentale Zustand der völligen Vertiefung wird _Flow_ genannt und bewirkt, dass eine Aufgabe wie von selbst von der Hand geht,^[vgl. [Wikipedia.de: Flow (Psychologie)](https://de.wikipedia.org/wiki/Flow_(Psychologie))] was letztendlich die Freude am Produkt erhöhen wird.
+Ein Nutzer sollte sich in das 'Erlebnis' eines Produktes vertiefen können ohne herausgerissen zu werden. Dieser mentale Zustand der völligen Vertiefung wird _Flow_ genannt und bewirkt, dass eine Aufgabe wie von selbst von der Hand geht,^[vgl. [Wikipedia.de: Flow (Psychologie)](https://de.wikipedia.org/wiki/Flow_(Psychologie))] was letztendlich die Produktivität und Freude am Produkt erhöhen wird. Um diesen möglich zu machen, ist es wichtig, dass Nutzer nicht darüber nachdenken müssen, _wie_ etwas zu benutzen ist. Die Bestandteile von Microinteractions, besonders Auslöser, Regeln und Feedback sollten sich daher an bereits bekanntem orientieren.
 <!-- Wer sich im Flow befindet hat ein gefühl von Klarheit. -->
 
 <figure class="content-tiny">
