@@ -4,28 +4,31 @@ check all nextpage links
 
 ## Content
 
-* [ ] Bill DeRouchy - History of the Button
-* [ ] aus Pocket
-* [ ] Seiten in Buchquellen
-* [ ] Icons für Trigger/Rules/usw
 * [ ] refine grid layout, respond to importance of chapters
 * [ ] replace md standout by mark?
 * [ ] Meta desicription
 * [ ] einheitlicher meta title
+* [ ] update favicon with new color
+* [ ] figure numbers?
+* [ ] aus Pocket
+* [ ] Seiten in Buchquellen
+* [ ] Icons für Trigger/Rules/usw
 * [ ] Konzept f. Darstellung MIs
 * [ ] Timeline?
-* [ ] Impressum+About
 * [ ] https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950
 * [ ] Enabling mobile interactions paper: https://pdfs.semanticscholar.org/22ca/79765a0d024ce125f6ee0edf13856928c6ca.pdf
 
 ## Featues
 
-* [ ] Kapitel-Fortschrittsbalken?
-* [ ] oben: vorheriges Kapitel?
-* [ ] pull up/down to prev/next page (https://github.com/stackjie/vue-pull-to?)
 * [ ] foldable footnotes?
+* [ ] oben: vorheriges Kapitel?
+* [ ] Kontaktfomular
+* [ ] Kapitel-Fortschrittsbalken?
+* [ ] pull up/down to prev/next page (https://github.com/stackjie/vue-pull-to?)
 * [ ] besseres System für Quellen, wie https://mprove.de/diplom/text/references.html
 * [ ] add noise to color bgs?
+* [ ] Layout für Bilder in Text
+
 
 ## Bugs
 
@@ -51,10 +54,6 @@ check all nextpage links
 
 ## Misc
 
-* [ ] remove scrapyard page
-* [ ] update favicon with new color
-* [ ] Layout für Bilder in Text
-* [ ] figure numbers?
 
 ---
 
