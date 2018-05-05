@@ -4,12 +4,11 @@
 > Obvious always Wins
 > <cite>Luke Wroblewski^[[Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) von Luke Wroblewski]</cite>
 
-Sicht des designers auf app: klar, perfekt. Sicht eines users: verschwommen, da geringere Aufmerksamkeit --> tipp: blurry eye test
 
 <figure class="content-thin">
   <img data-src="/images/practical/what-users-see.jpg">
   <figcaption>
-    XXXX
+    Mit dem 'blurry-eye-test' kann auf einfache Weise das Erscheinungsbild bei geringerer Aufmerksamkeit getestet werden.
     <sup><a href="https://youtu.be/Qpz5jpRnEho">Bildquelle</a></sup>
   </figcaption>
 </figure>
@@ -21,9 +20,10 @@ Designentscheidungen XXXX
 Wenn nicht genug budget zur Verfügung steht um alles zumindest "gut" zu machen, sollte auf die hauptinteraktion des Produktes fokusiert werden und diese perfektioniert werden. zB Datepicker bei Flugsuchmaschine
 
 
-empfundene Simplizität != technische/operative Simplizität
+### Außerdem zu berücksichtigen
 
-Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
+- Die von nutzern empfundene Simplizität bedeutet nicht technische oder operative Simplizität.
+- Wie kann die Einsteigerfreundlichkeit und die Produktivität für erfahrene Nutzer verbessert werden?
 
 Budget ggü Kunden/Stakeholdern erklären / diese überzeugen
 
