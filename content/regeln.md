@@ -66,8 +66,11 @@ Schon diese einfachen Regeln erfordern einigen Aufwand in Konzeption und Impleme
 ### Komplexität, Kontrolle und Automatisierung
 
 Larry Tesler, [Erfinder](/history) der heute üblichen Copy&Paste-Microinteraction formulierte das 'Gesetz der Erhaltung von Komplexität', das besagt, dass für jedes System ein gewisses Maß an Komplexität besteht, das nicht weiter reduziert werden kann^[[Lawsofux.com: Tesler's Law](https://lawsofux.com/teslers-law)]. 
-Um die Komplexität für einen Nutzer dennoch weiter zu reduzieren, können ihm Entscheidungen vom Gerät abgenommen werden. Damit einher geht jedoch auch die Kontrolle des Nutzers verloren. 
-Ein Interface kann nötige Eingaben reduzieren, in dem Nutzeraktionen vorhergesehen werden und wahrscheinliche Schritte automatisch ausgeführt werden. Die Google-Suche zeigt beispielsweise schon Ergebnisse an, bevor die Eingabe mit <kbd>⏎</kbd> bestätigt wurde. 
+Um die Komplexität für einen Nutzer dennoch weiter zu reduzieren, können ihm Entscheidungen vom Gerät abgenommen werden. Damit einher geht jedoch auch die Kontrolle des Nutzers verloren. Ein Interface kann die Anzahl der nötigen Eingaben verringern, in dem Nutzeraktionen vorhergesehen werden und wahrscheinliche Schritte automatisch ausgeführt werden. Die Google-Suche zeigt beispielsweise schon Ergebnisse an, bevor die Eingabe mit <kbd>⏎</kbd> bestätigt wurde. 
+
+> Don’t design to prove you're clever. Design to make the user think _she_ is.
+> <cite>Jeffrey Zeldman^[[Jeffrey Zeldman: The Year in Design](https://medium.com/let-me-repost-that-for-you-zeldman/the-year-in-design-9c06acf55b88)]</cite>
+
 Die Benutzung einer Microinteraction sollte möglichst einfach gehalten werden, dies kann teilweise durch intelligente Voreinstellungen erreicht werden. So wird Komplexität reduziert ohne Nutzern komplett die Kontrolle zu nehmen. Die Balance zwischen möglicher Kontrolle durch den Nutzer und Einfachheit ist stark abhängig von Produkt und Nutzergruppe. Beispiel für ein 'smart default' wäre etwa die automatische Auswahl des Landes in einem Formular, basierend auf dem Standort des Nutzers. 
 
 <figure class="content-thin">

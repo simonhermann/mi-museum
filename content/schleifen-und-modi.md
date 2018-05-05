@@ -10,6 +10,9 @@ Wie verändert sich die Microinteraction mit der Zeit? Bleiben die Regeln diesel
 Ein _Modus_ ist ein Status eines Programms, in dem Befehle in dessen Kontext ausgeführt werden. Diese 'Verzweigung' der Regeln sollte in Microinteractions jedoch die Ausnahme sein. Hauptgrund dafür ist, dass sie häufig Fehler des Nutzers auslösen, besonders wenn neue Regeln in einer bereits bekannten Oberfläche angewendet werden. Die Regeln eines Modus müssen von Nutzern neu erlernt werden, bevor ein Modus genutzt werden kann.^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 111 - 114), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)]
 Saffer plädiert, Modi in Microinteractions möglichst zu vermeiden, einzige Ausnahme seien selten genutzte Funktionen, die sonst den Flow des Interfaces unterbrechen würden.^[Saffer, Dan: Microinteractions - Designing with Details (S. 121), O'Riley Media, Sebastopol CA, 2013, [microinteractions.com](http://microinteractions.com/)] Doch Modi können – richtig eingesetzt – die Nutzungsgeschwindigkeit eines Interfaces deutlich erhöhen, ohne Abstriche bei der Nutzbarkeit zu machen. Sie benötigen meist etwas Einarbeitung von Seiten des Nutzers, doch einmal erlernt können sie die Produktivität enorm steigern. Nicht umsonst sind sie häufig in professionellen Programmen mit hoher Nutzungsdauer zu finden.^[Beispiele für aktuell sehr erfolgreich eingesetzte Modi finden sich in: den Tasten <kbd>Shift</kbd>, <kbd>cmd</kbd>, <kbd>alt</kbd>, usw jeder Tastatur, den Texteditoren Vim, Visual Studio Code und sogar Microsoft Word, dem Designprogramm Sketch uvm.]
 
+> Any darn fool can make something complex; it takes a genius to make something simple.
+> <cite>Pete Seeger^[[goodreads.com: Pete Seeger > Quotes](https://www.goodreads.com/author/quotes/30113.Pete_Seeger)]</cite>
+
 ##### Rückfedernde Modi ('spring loaded modes')
 
 Ein _rückfedernder Modus_ (oder _Quasimodus_ nach Jef Raskin^[Raskin, Jef: The Humane Interface, Addison-Wesley, 2000, [Download bei acm.org](https://dl.acm.org/citation.cfm?id=333103)]) ist so lange aktiv, wie ein Auslöser (typischerweise eine Taste) _gehalten_ wird oder auf andere Weise aktiv ist. Sobald dieser wieder losgelassen wird, kehrt der Auslöser in den Ursprungszustand zurück und der Modus endet.
@@ -54,7 +57,7 @@ Gestalter sollten sich die Frage stellen: _Wie kann eine Microinteraction bei de
   </figcaption>
 </figure>
 
-Eine personalisierte Nutzererfahrung scheint für digitale Produkte immer bedeutender zu werden. Die mächtigen Firmen der Digitalwelt sammeln produktübergreifend Daten und verwenden diese, um jedem Nutzer eine individuelle Produkterfahrung zu bieten.^[vgl. [Personalization trend in UX](https://blog.prototypr.io/personalization-trend-in-ux-678b6beaeeb6) von Nikita Gangwal] Mehr dazu wie Microinteractions einen nachhaltigen Eindruck hinterlassen können im Kapitel [Signature Moments](/signature-moments).
+Eine personalisierte Nutzererfahrung scheint für digitale Produkte immer bedeutender zu werden. Die mächtigen Firmen der Digitalwelt sammeln produktübergreifend Daten und verwenden diese, um jedem Nutzer eine individuelle Produkterfahrung zu bieten.^[vgl. [Personalization trend in UX](https://blog.prototypr.io/personalization-trend-in-ux-678b6beaeeb6) von Nikita Gangwal] Mehr dazu, wie Microinteractions einen nachhaltigen Eindruck hinterlassen können, im folgenden Kapitel [Signature Moments](/signature-moments).
 
 ::: md-container-more
 

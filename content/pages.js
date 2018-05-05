@@ -1,7 +1,7 @@
 const theoryPages = [
   { title: 'Vorwort', to: '/preface', desc: '' },
   {
-    title: 'Details sind essentiell',
+    title: 'Was & warum?',
     to: '/what-are-microinteractions',
     desc:
       'Was Microinteractions sind und warum sie für jeden Designer wichtig sein sollten',

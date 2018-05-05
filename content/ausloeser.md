@@ -16,6 +16,9 @@ Visuelle Möglichkeiten Aufmerksamkeit auf einen Trigger zu lenken, sind zum Bei
 
 <!-- XXXX img beispiel Aufmerksamkeit lenken -->
 
+> Obvious always wins.
+> <cite>Luke Wroblewski^[[Obvious Always Wins](https://www.lukew.com/ff/entry.asp?1945) von Luke Wroblewski]</cite>
+
 ### Nutzerseitige Trigger
 
 Nutzerseitige oder manuelle Trigger entstehen aus Bedürfnissen des Nutzers: Das Bedürfnis nachts etwas sehen zu können, führt einen Nutzer dazu, mit einem Lichtschalter zu interagieren und so das Licht einzuschalten. Das Bedürfnis, keine lauten Unterbrechungen durch Anrufe zu haben, führt dazu, ein Telefon auf 'stumm' zu schalten. Das Bedürfnis einen Moment als Foto festzuhalten, führt zum Betätigen des Auslösers einer Kamera. Hier besteht natürlich keine Eins-zu-eins-Verbindung; ein Bedürfnis kann auf verschiedene Arten gestillt werden und eine einzige Interaktion kann durch verschiedenste Bedürfnisse ausgelöst werden.

@@ -21,6 +21,7 @@
 }
 .md-container-more {
   @extend .ext-md-container;
+  margin-top: 3rem;
   background: var(--the-color-trans);
 }
 
