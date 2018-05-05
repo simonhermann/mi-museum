@@ -42,6 +42,7 @@
 ## Technical
 
 * [ ] prevent keybeard access (tabindex) in navdrawer if drawer is open
+* [ ] img alt tags
 * [ ] upgrade to nuxt 2 https://medium.com/nuxt/nuxt-2-is-coming-oh-yeah-212c1a9e1a67
 * [ ] update vuetify to enable deactivation of theme
 * [ ] add purgeCSS to strip unused styles https://github.com/FullHuman/purgecss/tree/master/examples/with-nuxt

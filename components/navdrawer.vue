@@ -3,7 +3,7 @@
     <!-- toolbar -->
     <v-toolbar fixed :scroll-off-screen="!$vuetify.breakpoint.mdAndUp" app dense :scroll-threshold="50" :floating="$vuetify.breakpoint.mdAndUp">
 
-      <a class="toolbar__side-icon btn btn--icon btn-openmenu" :class="{ transparent : drawer }" @click="drawer = !drawer" aria-label="Menu" aria-controls="main-nav" role="button" :aria-expanded="drawer" tabindex="0">
+      <a class="toolbar__side-icon btn btn--icon btn-openmenu" :class="{ transparent : drawer }" @click="drawer = !drawer" aria-label="Menu" aria-controls="navigation-drawer" role="button" :aria-expanded="drawer" tabindex="0">
         <div class="btn__content">
           <i class="btn-openmenu__icon">
             <svg height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
@@ -24,7 +24,7 @@
     </v-toolbar>
 
     <!-- drawer -->
-    <v-navigation-drawer v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
+    <v-navigation-drawer id="navigation-drawer" v-model="drawer" fixed app floating :touchless="$vuetify.breakpoint.mdAndUp" width="300" mobile-break-point="1264">
 
       <a class="btn btn--icon btn-closemenu" @click="drawer = !drawer" aria-label="Close" tabindex="0">
         <div class="btn__content">

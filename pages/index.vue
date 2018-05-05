@@ -8,10 +8,6 @@
 
   <homegrid></homegrid>
 
-  <div class="spacer8"></div>
-
-  <!-- footer? -->
-
 </div>
 </template>
 

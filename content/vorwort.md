@@ -1,4 +1,4 @@
-# Microinteractions sind allgegenwärtig
+# Microinteractions sind die Grundlage jeder Benutzerschnittstelle
 
 Das Wort _Interaktion_ kommt wohl vom Lateinischen _inter_ 'zwischen' und _actio_ 'Handlung', 'Tätigkeit'. Somit beschreibt es eine Tätigkeit zwischen mehreren Beteiligten – in unserem Fall zwischen mindestens einem Menschen und einem technischen Gerät. Meist wird das Gerät ein Medium der Kommunikation _zwischen_ Menschen sein, doch in dieser Arbeit geht es ausschließlich um den direkten Austausch zwischen Mensch und Maschine. Ein Benutzer interagiert mit der Benutzerschnittstelle, dem Teil einer Maschine, die für diesen Dialog zuständig ist.
 
