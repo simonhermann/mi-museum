@@ -5,6 +5,10 @@
 - remove WIP message on homepage
 - check all nextpage links
 - Verteidigung Termin
+- anderes Beispiel statt mailchimp login
+- animated gifs annoy
+  - animated only fullscreen
+  - https://jsfiddle.net/jkovzels/75kg0tz1/
 
 ## Content
 

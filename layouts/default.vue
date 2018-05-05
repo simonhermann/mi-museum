@@ -27,6 +27,7 @@
 @import './assets/styles/util';
 @import './assets/styles/layout';
 @import './assets/styles/transitions';
+@import './assets/styles/images';
 @import './assets/styles/elements';
 
 #app {

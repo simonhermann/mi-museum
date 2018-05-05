@@ -28,7 +28,7 @@ Eine Herausforderung für Designer wird sein, Interfaces mit der [Automatisierun
 * ein nutzerrelevanter Prozess endet (z. B. Download abgeschlossen)
 * wenn sich der [Modus](/loops-and-modes) einer Microinteraction ändert
 
-In einigen fällen kann es dagegen besser sein, dem Nutzer keinerlei Feedback zu geben. Wenn zum Beispiel im Hintergrund (durch einen versteckten, systembasierten [Trigger](/triggers)) überprüft wird, ob neue E-Mails eingetroffen sind, sollte nur Rückmeldung stattfinden, _wenn tatsächlich ein relevantes Ereignis stattfindet_, in diesem Fall das Vorhandensein neuer Nachrichten. In allen anderen Fällen, wenn es also keine neuen E-Mails gibt, ist es nicht nötig, dies dem Nutzer jedes mal explizit mitzuteilen.
+In einigen Fällen kann es dagegen besser sein, dem Nutzer keinerlei Feedback zu geben. Wenn zum Beispiel im Hintergrund (durch einen versteckten, systembasierten [Trigger](/triggers)) überprüft wird, ob neue E-Mails eingetroffen sind, sollte nur Rückmeldung stattfinden, _wenn tatsächlich ein relevantes Ereignis stattfindet_, in diesem Fall das Vorhandensein neuer Nachrichten. In allen anderen Fällen, wenn es also keine neuen E-Mails gibt, ist es nicht nötig, dies dem Nutzer jedes mal explizit mitzuteilen.
 
 ### Unmittelbarkeit und Flow
 

@@ -7,16 +7,17 @@ Microinteractions sollten nicht blind kopiert werden, nur weil sie gerade in Mod
 > Think of everything as a Microinteraction.
 > <cite>Dan Saffer</cite>
 
-Vitaly Friedmann, Gründer des Smashingmagazine beschreibt in der Artikelserie "[Designing the Perfect ...](https://www.smashingmagazine.com/search/?q=Designing%20Perfect)" detaillierte Einblicke in die Gestaltung ausgefeilter Features, UI-Elemente und Microinteractions.
-Ein Konzept zur übersichtlichen Darstellung und Erläuterung von Microinteractions wurde von Havana Nguyen entwickelt: [_Interaction Flows_](https://uxplanet.org/an-introduction-to-interaction-flows-a4f783402529). 
+Vitaly Friedmann, Gründer des Smashingmagazine, beschreibt in der Artikelreihe "[Designing the Perfect ...](https://www.smashingmagazine.com/search/?q=Designing%20Perfect)" detaillierte Einblicke in die Gestaltung ausgefeilter Features, UI-Elemente und Microinteractions.
+Ein Konzept zur übersichtlichen Darstellung und Erläuterung von Microinteractions wurde von Havana Nguyen entwickelt: _[Interaction Flows](https://uxplanet.org/an-introduction-to-interaction-flows-a4f783402529)_. 
 
-Seit der Schaffung des Begriffes _Microinteractions_ durch Dan Saffer scheint dieser zum festen Benstandteil der Kommunikation im digitalen Design geworden zu sein. Die zahlreichen Artikel und Blog-Einträge, die das Thema erwähnen, scheinen jedoch gespickt von Halbwissen oder durchweg falschem Verständnis der Intention Saffers (in etwa: "Eine Interaktion durch zahlreiche üppige Animationen verschönern").
+Seit der Schaffung des Begriffes _Microinteractions_ durch Dan Saffer scheint dieser zum festen Benstandteil der Kommunikation im Bereich des digitalen Design geworden zu sein. Zahlreiche Artikel und Blog-Einträge, die das Thema erwähnen, scheinen jedoch gespickt von Halbwissen oder falschem Verständnis der Intention Saffers (in etwa: "Eine Interaktion durch zahlreiche üppige Animationen verschönern").
 Des Repertoire eines Gestalters für Benutzerschnittstellen sollte jedoch Grundlagen nicht nur einschließen, sondern auf diesen aufbauen. Erst wenn 
-Komplexe aufgabe in Bestandteile herunterbrechen
 
 XXXX
 
 Designer sind Problemlöser – und Probleme lassen sich am Besten lösen, indem sie in kleinere Probleme unterteilt werden. 
+
+<div class="spacer2"></div>
 
 ## Appendix
 

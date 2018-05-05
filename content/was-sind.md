@@ -40,11 +40,25 @@ Ein komplexes Problem in Einzelschritte zu unterteilen und damit lösbar zu mach
 Selten gilt die Aufmerksamkeit des Designers – geschweige denn des Nutzers – diesen kleinen Bausteinen der Nutzererfahrung. Wenn sie doch Beachtung finden, liegt es daran, dass sie schlecht oder ungewohnt implementiert sind (z. B. Flugmodus in iOS 11.2^[[Apples Flugmodus schaltet WLAN nicht immer ab - Golem.de](https://www.golem.de/news/neues-ios-11-2-apples-flugmodus-schaltet-wlan-nicht-immer-ab-1712-131582.html), 11.12.2017]), jemand eine bessere Lösung für ein altes Problem gefunden hat (z. B. Drag&Drop^[[1982 Xerox Star User Interface - Gunnar Trossö / Youtube](https://youtu.be/wOAm7EiFNu8)]) oder eine neue Technologie aufkommt und ein Umdenken ermöglicht bzw. erfordert (z. B. Sprachassistenten und Conversational Interfaces^[[Adrian Zumbrunnen - Technical and Social Challenges of Conversational Design](https://vimeo.com/232158810)]).
 Microinteractions werden zumeist erst am Ende eines Produktentwicklungsprozesses Aufmerksamkeit geschenkt. Wenn dabei auf übliche Muster und Komponenten zurückgegriffen wird, mag das Ergebnis ein nutzbares Produkt sein. Wenn jedoch ein herausragendes digitales Interface geschaffen werden soll, führt kein Weg daran vorbei, viel Zeit und Arbeit in Microinteractions zu investieren. Werden die Details eines digitalen Produktes nicht ausreichend gut umgesetzt, kann daraus entstehende Frustration schnell den Gesamteidruck der Nutzererfahrung zerstören. Negative Erfahrungen bleiben meist leichter im Gedächtnis als positive und da sich schlechte Nachrichten einfacher verbreiten als gute, den Gesamteindruck des Produktes trüben.
 
-<figure class="content-thin">
-  <img data-src="/images/what-are/amazon-menu.gif">
+<figure class="content-thin figure--gifzoom">
+  <img data-src="/images/what-are/menu-delay.jpg" data-zoom-target="/images/what-are/menu-delay.gif">
   <figcaption>
-    In diesem Menü auf Amazon.com steckt sehr viel mehr Aufwand als es zunächst den Anschein hat. Üblicherweise erscheinen Untermenüs dieser Art erst nach einer Verzögerung, um die diagonale Cursorbewegung zu einem Unterpunkt zuzulassen – hier ermöglicht ein von der Cursorposition ausgehendes Dreieck diese Bewegung ohne versehentliche Auswahl eines anderen Menüpunktes der ersten Ebene.<br>
-    <sup><a href="http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown">Details & Bildquelle</a></sup>
+    Eine häufige Microinteractions mit dem Optimierungsbedarf: In fast jedem Untermenü dieser Art erscheinen Unterpunkte erst nach einer Verzögerung.
+    <sup><a href="http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+<figure class="content-thin figure--gifzoom">
+  <img data-src="/images/what-are/menu-instant.jpg" data-zoom-target="/images/what-are/menu-instant.gif">
+  <figcaption>
+    Ohne diese Verzögerung ist eine diagonale Cursorbewegung zu einem Unterpunkt nicht möglich.
+    <sup><a href="http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown">Bildquelle</a></sup>
+  </figcaption>
+</figure>
+<figure class="content-thin figure--gifzoom">
+  <img data-src="/images/what-are/amazon-menu-trick.jpg" data-zoom-target="/images/what-are/amazon-menu-trick.gif">
+  <figcaption>
+    In dem Menü auf Amazon.com steckt sehr viel mehr Aufwand als es zunächst den Anschein hat: Hier ermöglicht ein von der Cursorposition ausgehendes Dreieck diese Bewegung ohne versehentliche Auswahl eines anderen Menüpunktes der ersten Ebene.
+    <sup><a href="http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown">Bildquelle</a></sup>
   </figcaption>
 </figure>
 

@@ -17,7 +17,7 @@ Dies könnte auch durch ein einzigartiges Bedienelement geschehen, wie beim 'cli
 <figure class="content-thin">
   <img data-src="/images/signature-moments/1password-open.gif">
   <figcaption>
-    Der (skeumorphistische) Signature Moment beim Öffnen des Passwort-Managers 1password soll zeigen, dass gespeicherte Passwörter so sicher wie in einem Tresor verwahrt werden.
+    Der (skeuomorphistische) Signature Moment beim Öffnen des Passwort-Managers 1password soll zeigen, dass gespeicherte Passwörter so sicher wie in einem Tresor verwahrt werden.
   </figcaption>
 </figure>
 
