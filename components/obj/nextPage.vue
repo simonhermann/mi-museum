@@ -16,15 +16,15 @@
   box-sizing: border-box;
   text-align: center;
   transition: all 0.2s ease-out;
-  color: var(--color-text);
   text-decoration: none;
-  &:nth-of-type(-n+1) {
+  &:nth-of-type(-n + 1) {
     // styles for first element of its type: <a></a>
-   margin-top: 4em;
+    margin-top: 4em;
   }
 
   &__nexttext {
     margin: 0;
+    color: var(--color-text);
   }
   &__heading {
     margin: 0;
@@ -37,16 +37,18 @@
       font-size: 1.5em;
       margin-left: -0.5em;
       margin-top: -0.25em;
-      transition: margin 200ms var(--transition-curve1);
+      transition: margin 150ms var(--transition-curve1);
+      color: transparent;
     }
   }
   &:hover &__heading::before {
     margin-left: -0.6em;
+    color: inherit;
   }
 }
 .o-next-page:hover {
-  color: var(--next-color);
   &__heading {
+    color: var(--next-color);
     text-decoration: underline;
   }
 }

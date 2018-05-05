@@ -125,32 +125,30 @@
     @include underline-color-fallback;
     transition: all 300ms var(--transition-curve1);
     color: inherit; // vuetify hack XXXX
-    &.nuxt-link-active {
-      color: var(--the-color);
-      //text-decoration-color: currentColor;
-      &::before {
-        color: inherit;
-      }
-    }
     position: relative;
-    &::before {
-      content: '›';
-      color: transparent;
-      transition: transform 200ms var(--transition-curve1);
-      text-decoration: none !important;
-      position: absolute;
-      font-size: 1.5em;
-      top: 50%;
-      transform: translate(0, -50%);
-      margin-left: -0.75em;
-      // margin-top: -0.1em;
-    }
     &:hover {
       color: var(--the-color);
       &::before {
         color: inherit;
         transform: translate(-0.125rem, -50%);
       }
+    }
+    &.nuxt-link-active {
+      color: var(--the-color);
+      &::before {
+        color: inherit;
+      }
+    }
+    &::before {
+      content: '›';
+      color: transparent;
+      transition: transform 150ms var(--transition-curve1);
+      text-decoration: none !important;
+      position: absolute;
+      font-size: 1.5em;
+      top: 42%;
+      transform: translate(0, -50%);
+      margin-left: -0.75em;
     }
   }
 
