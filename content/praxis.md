@@ -25,6 +25,8 @@ empfundene Simplizität != technische/operative Simplizität
 
 Nutzerfreundlichkeit vs. Einsteigerfreundlichkeit
 
+Budget ggü Kunden/Stakeholdern erklären / diese überzeugen
+
 
 Verschiedne Geräte und Situationen erfordern unterschiedliche Herangehenweisen. 10-foot-UI^[[Wikipedia.de: 10-foot user interface](https://en.wikipedia.org/wiki/10-foot_user_interface)]
 

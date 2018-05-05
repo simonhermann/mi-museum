@@ -56,7 +56,7 @@
       </ul> -->
 
       <div class="secondary-links">
-        <nuxt-link class="nav-link" to="/about"> Über & Impressum</nuxt-link>
+        <nuxt-link class="nav-link" to="/about">Über & Impressum</nuxt-link>
       </div>
 
       <div class="spacer8"></div>
@@ -151,11 +151,12 @@
 
   .nav-ul {
     list-style: none;
-    line-height: 2em;
+    line-height: 2.3rem;
+    padding-left: 1rem;
   }
   .secondary-links {
-    line-height: 2em;
-    margin-top: 2em;
+    line-height: 2.3rem;
+    margin-top: 4rem;
   }
 }
 /*
@@ -205,17 +206,15 @@
         position: absolute;
         left: 0;
         top: 0;
-        margin-left: -0.1rem;
-        margin-top: -0.0325rem;
-        border-radius: 1.1rem;
         height: 100%;
         width: 100%;
-        @include mq-sm {
-          // when label is visible:
-          border-radius: 0.5rem;
-          left: -0.3rem;
-          width: 5.3rem;
-        }
+        left: -0.3rem;
+        width: 5.3rem;
+        border-radius: 0.5rem;
+        /*without label:
+        margin-left: -0.1rem;
+        margin-top: -0.0325rem;
+        border-radius: 1.1rem;*/
       }
       &__icon {
         color: inherit;
@@ -232,18 +231,15 @@
         left: 0;
         margin-left: 2em;
         text-transform: none;
-        transition: transform 200ms var(--transition-curve1);
-        display: none;
-        @include mq-sm {
-          display: inline-block;
-        }
+        transition: transform 150ms var(--transition-curve1);
+        display: inline-block;
       }
       &:hover {
         .btn-openmenu__icon {
           fill: var(--the-color);
         }
         .btn-openmenu__label {
-          transform: translateX(0.15rem);
+          transform: translateX(0.2rem);
         }
       }
     }
@@ -268,9 +264,10 @@
     flex-grow: 1;
     height: 2rem;
     margin-left: 3rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
     display: block;
     position: relative;
+    text-decoration: none;
     &:active,
     &:hover {
       background: var(--the-color-trans);

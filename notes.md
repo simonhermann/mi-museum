@@ -1,10 +1,10 @@
 # To Do:
 
-- check all nextpage links
 - Verteidigung Termin
 - Amazon Menu bsp besser erklären
 - Post 
 - remove WIP message on homepage
+- check all nextpage links
 - 
 
 ## Content
@@ -12,7 +12,7 @@
 * [ ] Vorwort: für wen
 * [ ] refine grid layout, respond to importance of chapters
 * [ ] replace md standout by mark?
-* [ ] Meta desicription
+* [ ] Meta desc
 * [ ] einheitlicher meta title
 * [ ] update favicon with new color
 * [ ] figure numbers?

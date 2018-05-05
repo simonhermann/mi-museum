@@ -1,15 +1,10 @@
-const nodeExternals = require('webpack-node-externals');
-const resolve = dir => require('path').join(__dirname, dir);
+const nodeExternals = require('webpack-node-externals')
+const resolve = (dir) => require('path').join(__dirname, dir)
 
 module.exports = {
   head: {
     title: 'Microinteractions',
     meta: [
-      {
-        hid: 'description',
-        name: 'description',
-        content: 'Microinteractions',
-      },
       { charset: 'utf-8' },
       {
         name: 'viewport',
@@ -24,6 +19,12 @@ module.exports = {
       },
       { name: 'theme-color', content: '#424242' },
       { name: 'msapplication-TileColor', content: '#00a300' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Microinteractions sind die Grundlage der Interfaces zwischen Mensch und Maschine. Sie sind die kritischen Details, die den Unterschied jeder Benutzerschnittstelle ausmachen.',
+      },
     ],
     link: [
       { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -102,7 +103,11 @@ module.exports = {
   /*
   ** Plugins
   */
-  plugins: ['~/plugins/vuetify.js', '~/plugins/global.js', '~/plugins/vue-lazyload.js'],
+  plugins: [
+    '~/plugins/vuetify.js',
+    '~/plugins/global.js',
+    '~/plugins/vue-lazyload.js',
+  ],
   vendor: ['vuetify'],
   /*
   ** build, generate, render

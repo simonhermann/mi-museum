@@ -11,7 +11,11 @@ const theoryPages = [
     to: '/triggers',
     desc: 'Wie kommt die Interaktion zu Stande?',
   },
-  { title: 'Regeln', to: '/rules', desc: 'Wie funktioniert die Interaktion?' },
+  {
+    title: 'Regeln',
+    to: '/rules',
+    desc: 'Wie funktioniert die Interaktion im Detail?',
+  },
   {
     title: 'Skeuomorphismus',
     to: '/skeuomorphism',
@@ -25,7 +29,7 @@ const theoryPages = [
   {
     title: 'Animation & Geschwindigkeit',
     to: '/animation-and-pace',
-    desc: 'Warum schneller nicht immer besser ist',
+    desc: 'Wie Bewegung hilft, zu begreifen und warum schneller nicht immer besser ist',
   },
   {
     title: 'Schleifen & Modi',
@@ -35,35 +39,35 @@ const theoryPages = [
   {
     title: 'Signature Moments',
     to: '/signature-moments',
-    desc: 'Wie die kleinen Momente den Unterschied machen können',
+    desc: 'Wie die kleinen Momente in Erinnerung bleiben',
   },
   {
     title: 'Historie',
     to: '/history',
-    desc: 'Eine kurze Geschichte der Mensch-Maschine-Interaktion.',
+    desc: 'Eine kurze Geschichte der Mensch-Maschine-Interaktion',
   },
   {
     title: 'Anwendung in der Praxis',
     to: '/practical',
-    desc: 'So gelingt Design & Umsetzung von Microinteractions im Alltag',
+    desc: 'Zur Umsetzung von Microinteractions im Alltag',
   },
 ]
 
-const practicePages = [
+/* const practicePages = [
   { title: 'buttons', to: '/mi/buttons' },
-  // { title: "Pull-to-refresh", to: "/mi/" },
-  // { title: "Fenster", to: "/mi/" },
-  // { title: "Copy & Paste", to: "/mi/" },
-  // { title: "Drag & Drop", to: "/mi/" },
-  // { title: "Rückgängig (undo) & Wiederholen (redo)", to: "/mi/" },
-  // { title: "Switch (Kipp-Schalter)", to: "/mi/" },
-  // { title: "Radiobutton", to: "/mi/" },
-  // { title: "Checkbox", to: "/mi/" },
-  // { title: "Hover", to: "/mi/" },
-  // { title: "Zoom", to: "/mi/" },
-  // { title: "Handlebars", to: "/mi/" },
-  // { title: "xyz", to: "/mi/" }
-]
+  { title: "Pull-to-refresh", to: "/mi/" },
+  { title: "Fenster", to: "/mi/" },
+  { title: "Copy & Paste", to: "/mi/" },
+  { title: "Drag & Drop", to: "/mi/" },
+  { title: "Rückgängig (undo) & Wiederholen (redo)", to: "/mi/" },
+  { title: "Switch (Kipp-Schalter)", to: "/mi/" },
+  { title: "Radiobutton", to: "/mi/" },
+  { title: "Checkbox", to: "/mi/" },
+  { title: "Hover", to: "/mi/" },
+  { title: "Zoom", to: "/mi/" },
+  { title: "Handlebars", to: "/mi/" },
+  { title: "xyz", to: "/mi/" }
+] */
 
 // define hue for each color
 var colorHues = []

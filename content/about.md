@@ -1,14 +1,12 @@
-# Hallo, ich bin Simon <br> und dies ist meine Diplomarbeit (BETA)
-
-Die Seite entsteht 2017/2018 im Rahmen meines Studiums [Kommunikationsdesign & Medien](https://fg.hs-wismar.de/studium/studienangebot/kommunikationsdesign-und-medien/) an der [Hochschule Wismar](https://www.hs-wismar.de/).
-
-Begriffe wie 'Mirko-Interaktion' und 'Microinteraction', 'Benutzerschnittstelle' und 'Interface' oder 'Nutzerin' und 'Nutzer' werden austauschbar verwendet.
-
-Falls ihr Fragen, Anmerkungen, Lob, Verbesserungsvorschläge oder Rechtschreibfehler für mich habt, oder einfach *hi* sagen wollt, schreibt mir gerne eine E-Mail an [mail@simonhermann.de](mailto:mail@simonhermann.de).
+# Hallo, ich bin Simon <br> und dies ist meine Diplomarbeit
 
 Ich bin [UX/UI Designer und (Möchtegern-)Front-End-Entwickler](https://simonhermann.de/). Im Moment arbeite ich hauptsächlich bei [Service Innovation Labs](http://www.si-labs.com/), ab und zu aber auch als Freelancer.
 
+Die Seite entsteht 2017/2018 im Rahmen meines Studiums [Kommunikationsdesign & Medien](https://fg.hs-wismar.de/studium/studienangebot/kommunikationsdesign-und-medien/) an der [Hochschule Wismar](https://www.hs-wismar.de/).
 
+Falls ihr Fragen, Anmerkungen, Lob, Verbesserungsvorschläge oder Rechtschreibfehler für mich habt, oder einfach *hi* sagen wollt, schreibt mir gerne eine E-Mail an [mail@simonhermann.de](mailto:mail@simonhermann.de).
+
+Begriffe wie 'Mirko-Interaktion' und 'Microinteraction', 'Benutzerschnittstelle' und 'Interface' oder 'Nutzerin' und 'Nutzer' werden austauschbar verwendet.
 
 <!-- 
 #### Erwähnenswerte Microinteraction auf dieser Website

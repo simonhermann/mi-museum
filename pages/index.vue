@@ -60,15 +60,7 @@ export default {
   // html meta data for page
   head() {
     return {
-      title: 'Microinteractions',
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content:
-            'Design von Momenten Konversation zwischen Mensch und Maschine',
-        },
-      ],
+      title: 'Microinteractions - Gestaltung von Momenten Konversation zwischen Mensch und Maschine',
     }
   },
   beforeMount() {
