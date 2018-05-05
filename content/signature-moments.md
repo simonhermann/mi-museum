@@ -1,7 +1,7 @@
 # Signature Moments durch Microinteractions
 
 Worin unterscheidet sich die Benutzung eines iPhones von der eines Android-Smartphones, MacOS von Windows, Cinema4D von 3ds Max, Google von Bing oder Siri von Alexa? Mit den meisten modernen Werkzeugen lassen sich ähnliche Ergebnisse erzielen – aber auf leicht unterschiedliche Weise.
-Eine Differenzierung auf der Ebene der Design-Grundlagen ist kaum mehr möglich. Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher. Neuauflagen von Corporate Designs der großen Firmen im Digitalbereich scheinen nur noch Abwandlungen der gleichen, nichtssagenden serifenlosen Schrift nutzen zu dürfen^[Apple, Google, Ebay, Microsoft, Facebook, IBM, Netflix, Stripe, Uber, AirBnB, Spitify, Pinterest, Adobe, Coca Cola, ...]. Webdesign wurde zwischenzeitlich als sogar als tot bezeichnet^[[Web design is dead](https://mashable.com/2015/07/06/why-web-design-dead/) - Sergio Nouvel / Ux Magazine / Mashable.com, 2015]; Templates, Designsysteme, 'Patterns' und 'Best Practices' sorgen für Vereinheitlichung. Andere Möglichkeiten der Markenbildung werden daher erforderlich – einer Studie zufolge wird die Nutzererfahrung ab dem Jahre 2020 den Preis und das Produkt Hauptunterscheidungsmerkmal der Marke überholen^[[Customers 2020: A Progress Report](https://www.walkerinfo.com/knowledge-center/featured-research-reports/customers2020-1) - Walker, 2013]. 
+Eine Differenzierung auf der Ebene der Design-Grundlagen ist kaum mehr möglich. Durch eine einheitliche Designsprache werden digitale Produkte visuell immer ähnlicher. Neuauflagen von Corporate Designs der großen Firmen im Digitalbereich scheinen nur noch Abwandlungen der gleichen, nichtssagenden serifenlosen Schrift nutzen zu dürfen^[Apple, Google, Ebay, Microsoft, Facebook, IBM, Netflix, Stripe, Uber, AirBnB, Spitify, Pinterest, Adobe, Coca Cola, ...]. Webdesign wurde zwischenzeitlich als sogar als tot bezeichnet^[[Web design is dead](https://mashable.com/2015/07/06/why-web-design-dead/) - Sergio Nouvel / Ux Magazine / Mashable.com, 2015]; 'Templates', 'Designsysteme', 'Patterns' und 'Best Practices' sorgen für Vereinheitlichung. Andere Möglichkeiten der Markenbildung werden daher erforderlich – einer Studie zufolge wird die Nutzererfahrung ab dem Jahre 2020 den Preis und das Produkt Hauptunterscheidungsmerkmal der Marke überholen^[[Customers 2020: A Progress Report](https://www.walkerinfo.com/knowledge-center/featured-research-reports/customers2020-1) - Walker, 2013]. 
 
 <figure class="content-thin">
   <img data-src="/images/signature-moments/mailchimp-send.gif">
@@ -56,6 +56,7 @@ Niemand wird gerne beim lesen beziehungsweise erleben einer guten Geschichte unt
 
 * Artikel: [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/) von Curt Arledge
 * Artikel: [Strategic Storytelling for Designers](https://uxdesign.cc/strategic-storytelling-for-designers-e6fdc6a9cbfc) von Eli Silva Montgomery
+* Buch: [Branded Interactions - Digitale Markenerlebnisse planen & gestalten](http://www.brandedinteractions.de/) von Marco Spies
 
 :::
 

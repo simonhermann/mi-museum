@@ -74,7 +74,7 @@ export default {
     text-decoration: none;
     opacity: 0;
     transition: opacity 600ms ease-out;
-    .app-mounted & {
+    .application-mounted & {
       opacity: 1;
     }
 

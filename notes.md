@@ -1,9 +1,15 @@
 # To Do:
 
-check all nextpage links
+- check all nextpage links
+- Verteidigung Termin
+- Amazon Menu bsp besser erklären
+- Post 
+- remove WIP message on homepage
+- 
 
 ## Content
 
+* [ ] Vorwort: für wen
 * [ ] refine grid layout, respond to importance of chapters
 * [ ] replace md standout by mark?
 * [ ] Meta desicription
@@ -12,6 +18,8 @@ check all nextpage links
 * [ ] figure numbers?
 * [ ] aus Pocket
 * [ ] Seiten in Buchquellen
+* [ ] Animation: Zumbrunnen Smart Transitions
+* [ ] Historie: Mehr zu Phase 4
 * [ ] Icons für Trigger/Rules/usw
 * [ ] Konzept f. Darstellung MIs
 * [ ] Timeline?

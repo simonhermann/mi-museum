@@ -1,0 +1,25 @@
+.notification {
+  margin: 2rem auto;
+  padding: .5em;
+  border-radius: 1rem;
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  text-align: center;
+  background-color: var(--the-color);
+  color: white;
+  font-weight: bold;
+  font-family: monospace;
+  font-size: var(--font-size-small);
+}
+
+noscript.notification {
+  background-color: rgb(182, 70, 70);
+}
+
+.offline-hint {
+  display: none;
+  .application-offline & {
+    display: block;
+  }
+}
