@@ -1,23 +1,20 @@
 # To Do:
 
-- Verteidigung Termin
 - Amazon Menu bsp besser erklären
 - Post 
 - remove WIP message on homepage
 - check all nextpage links
-- 
+- Verteidigung Termin
 
 ## Content
 
-* [ ] Vorwort: für wen
 * [ ] refine grid layout, respond to importance of chapters
-* [ ] replace md standout by mark?
-* [ ] Meta desc
-* [ ] einheitlicher meta title
 * [ ] update favicon with new color
+* [ ] einheitlicher meta title
 * [ ] figure numbers?
 * [ ] aus Pocket
 * [ ] Seiten in Buchquellen
+* [ ] replace md standout by mark?
 * [ ] Animation: Zumbrunnen Smart Transitions
 * [ ] Historie: Mehr zu Phase 4
 * [ ] Icons für Trigger/Rules/usw
