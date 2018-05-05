@@ -33,6 +33,7 @@
 * [ ] besseres System für Quellen, wie https://mprove.de/diplom/text/references.html
 * [ ] add noise to color bgs?
 * [ ] Layout für Bilder in Text
+* [ ] bigger base font size (18px)
 
 
 ## Bugs

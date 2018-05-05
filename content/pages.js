@@ -19,7 +19,7 @@ const theoryPages = [
   {
     title: 'Skeuomorphismus',
     to: '/skeuomorphism',
-    desc: 'Vom Einfluss der physischen Welt auf die digitale',
+    desc: 'Vom Einfluss der physischen Welt auf digitale Produkte',
   },
   {
     title: 'Rückmeldung',

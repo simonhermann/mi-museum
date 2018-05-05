@@ -88,6 +88,11 @@
   &--is-mobile {
     background-color: #fff !important;
   }
+  &:not(.navigation-drawer--is-mobile) {
+    .nav-homelink.nuxt-link-exact-active {
+      visibility: hidden;
+    }
+  }
   .btn-closemenu {
     margin-left: -1em;
   }
@@ -110,9 +115,6 @@
     &:hover {
       color: var(--the-color);
     }
-    &.nuxt-link-exact-active {
-      visibility: hidden;
-    }
   }
 
   // actual page nav
@@ -130,6 +132,7 @@
         color: inherit;
       }
     }
+    position: relative;
     &::before {
       content: '›';
       color: transparent;
@@ -137,21 +140,23 @@
       text-decoration: none !important;
       position: absolute;
       font-size: 1.5em;
+      top: 50%;
+      transform: translate(0, -50%);
       margin-left: -0.75em;
-      margin-top: -0.1em;
+      // margin-top: -0.1em;
     }
     &:hover {
       color: var(--the-color);
       &::before {
         color: inherit;
-        transform: translateX(-0.125rem);
+        transform: translate(-0.125rem, -50%);
       }
     }
   }
 
   .nav-ul {
     list-style: none;
-    line-height: 2.3rem;
+    line-height: 2.4;
     padding-left: 1rem;
   }
   .secondary-links {
@@ -264,7 +269,7 @@
     flex-grow: 1;
     height: 2rem;
     margin-left: 3rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     display: block;
     position: relative;
     text-decoration: none;
