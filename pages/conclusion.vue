@@ -8,7 +8,7 @@
 
 <script>
 import HtmlParser from '~/components/HtmlParser.vue'
-import text01 from '~/content/praxis.md'
+import text01 from '~/content/conclusion.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import { setColorsForPage } from '~/content/pages.js'
 

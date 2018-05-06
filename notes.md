@@ -3,21 +3,22 @@
 # Konsultation
 - CD-Version ist nicht per Doppelklick ausführbar
 - (C) HS Wismar, Betreut von XY (Deckblatt) in Web?
+- fazit unfertig
+- Verteidigung Termin
 
 ## Vor Abgabe:
 
-- Amazon Menu bsp besser erklären
 - Post 
+- Amazon Menu bsp besser erklären
 - remove WIP message on homepage
-- check all nextpage links
+- check all nextpage links, esp. ->zu fazit
 - feedback Ute
-- Verteidigung Termin
-- anderes Beispiel statt mailchimp login
 - animated gifs annoy
   - animated only fullscreen
   - https://jsfiddle.net/jkovzels/75kg0tz1/
 * [ ] refine grid layout, respond to importance of chapters
 * [ ] update favicon with new color
+* [ ] bug: homegrid width
 
 ## Content
 
@@ -49,7 +50,9 @@
 
 ## Bugs
 
+* [ ] device width 650-700 px homegrid broken 
 * [ ] footnote highlighting
+* [ ] png favicons are fetched new on every route?!
 
 ## Technical
 

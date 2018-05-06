@@ -48,7 +48,7 @@ const theoryPages = [
   },
   {
     title: 'Fazit',
-    to: '/practical',
+    to: '/conclusion',
     desc: 'Microinteractions sind Alltag jeden Interface-Designers',
   },
 ]
@@ -136,7 +136,7 @@ const setColorsForPage = () => {
     case '/history':
       setHightlightColors(10)
       break
-    case '/practical':
+    case '/conclusion':
       setHightlightColors(11)
       break
     case '/about':

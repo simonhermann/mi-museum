@@ -1,7 +1,7 @@
 <template>
   <div class="page">
     <html-parser :content=text01></html-parser>
-    <nextPage link="/practical" heading="Anwendung in der Praxis" nextText="Letztes Kapitel:"></nextPage>
+    <nextPage link="/conclusion" heading="Details machen den Unterschied " nextText="Fazit:"></nextPage>
   </div>
 </template>
 

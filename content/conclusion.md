@@ -1,7 +1,6 @@
-# Microinteractions sind Alltag jeden Gestalters für Benutzerschnittstellen
+# Details machen den Unterschied 
 
-
-Leider steht in den wenigsten Fällen genug Budget und Zeit zur Verfügung, um sämtliche Interaktionen eines Produktes zu Perfektionieren. Daher sollten die kritischen Microinteractions identifiziert werden: Was sind die Schritte, die ein Nutzer meist unternimmt, um das Ziel des Produktes zu erreichen? Was ist die Haupt-Microinteraction des Haupt-Features (z. B. der Datepicker einer Flugsuchmaschine)? Was sind die bewussten und unbewussten 'pain points' der Nutzer? Wie kann die Einsteigerfreundlichkeit und wie die Produktivität für erfahrene Nutzer verbessert werden?
+Leider steht in den wenigsten Fällen genug Budget und Zeit zur Verfügung, um sämtliche Interaktionen eines Produktes zu Perfektionieren. Daher sollten die kritischen Microinteractions identifiziert werden: Was sind die Schritte, die ein Nutzer meist unternimmt, um das Ziel des Produktes zu erreichen? Was ist die Haupt-Microinteraction des Haupt-Features (z. B. der _Datepicker_ einer Flugsuchmaschine)? Was sind die bewussten und unbewussten 'pain points' der Nutzer? Wie kann die Einsteigerfreundlichkeit und wie die Produktivität für erfahrene Nutzer verbessert werden?
 Häufig ist es sinnvoll, das zu optimieren, was von den meisten Nutzern am meisten genutzt wird. Außerdem sollten eine Registrierung und andere Hürden, die genommen werden müssen, um das Produkt zu Nutzen, möglichst reibungslos gestaltet werden. 
 Microinteractions sollten nicht blind kopiert werden, nur weil sie gerade in Mode oder einfach üblich sind. Nur weil sich sich eine Microinteraction durchsetzt, heißt das nicht, dass sie perfekt ist. Beispielsweise wird von vielen Nutzern nicht verstanden wann ein Doppel- und wann ein einfacher Klick verwendet wird. 
 Die Frage, wann eine geläufige Microinteraction überarbeitet bzw. ersetzt werden sollte, lässt sich nicht leicht beantworten. Die Ergänzung einer vorhandenen und daher bekannten Eingabemöglichkeit durch eine neuartige scheint eine Gute Herangehensweise zu sein.
@@ -13,7 +12,7 @@ Seit der Schaffung des Begriffes _Microinteractions_ durch Dan Saffer scheint di
 Vitaly Friedmann, Gründer des 'Smashing Magazine', beschreibt in der Artikelreihe '[Designing the Perfect ...](https://www.smashingmagazine.com/search/?q=Designing%20Perfect)' detaillierte Einblicke in die Gestaltung ausgeklügelter Features, UI-Elemente und Microinteractions.
 Ein Konzept zur übersichtlichen Darstellung und Erläuterung von Microinteractions wurde von Havana Nguyen entwickelt: _[Interaction Flows](https://uxplanet.org/an-introduction-to-interaction-flows-a4f783402529)_. 
 Zahlreiche Artikel und Blog-Einträge, die das Thema erwähnen, scheinen jedoch gespickt von Halbwissen oder falschem Verständnis der Intention Saffers (in etwa: "Eine Interaktion durch zahlreiche üppige Animationen verschönern"). 
-Trotz dieser regen Diskussion scheinen Microinteractions häufig noch immer vernachlässigt zu werden. Von Nutzern empfundene Simplizität bedeutet nicht immer operative Simplizität, häufig wird also der hohe technische Aufwand dahinter stehen. Doch die Werkzeuge zur Erschaffung digitaler Produkte werden immer ausgefeilter – sie werden die _bewusste_ Gestaltung von Microinteractions zum neuen Maßstab machen. Designer sind Problemlöser – und Probleme lassen sich am Besten lösen, indem sie in kleinere Probleme unterteilt werden. 
+Bei der Nutzung Trotz dieser regen Diskussion scheinen Microinteractions häufig noch immer vernachlässigt zu werden. Von Nutzern empfundene Simplizität bedeutet nicht immer operative Simplizität, häufig wird also der hohe technische Aufwand dahinter stehen. Doch die Werkzeuge zur Erschaffung digitaler Produkte werden immer ausgefeilter – sie werden die _bewusste_ Gestaltung von Microinteractions zum neuen Maßstab machen. Designer sind Problemlöser – und Probleme lassen sich am Besten lösen, indem sie in kleinere Probleme unterteilt werden. 
 
 <!-- 
 XXXX
@@ -26,7 +25,7 @@ Des Repertoire eines Gestalters für Benutzerschnittstellen sollte jedoch Grundl
 <figure class="content-thin">
     <img data-src="/images/misc/volume-throw.gif">
     <figcaption>
-    Für Alle, die tatsächlich so weit gelesen haben, gibt es hier die besten Microinteractions der Welt: <a href="https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950">klick</a>.
+    Für Alle, die tatsächlich so weit gelesen haben, gibt es zum Schluss eine der 'besten' Microinteractions der Welt. <a href="https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950">Mehr davon</a>.
     </figcaption>
 </figure>
 
@@ -41,12 +40,6 @@ Des Repertoire eines Gestalters für Benutzerschnittstellen sollte jedoch Grundl
 - [Principle](http://principleformac.com): Gutes Tool für animierte Interaktionen
 - [Invision + Invision Studio](https://www.invisionapp.com/) Vielversprechendes Allround-Paket
 - Übersichtlicher [Vergleich zahlreicher Prototyping-Tools](https://www.cooper.com/prototyping-tools)
-
-### Informationen zu inklusivem Design / Accessibility
-
-- [Inclusive Design Toolkit Manual](https://download.microsoft.com/download/B/0/D/B0D4BF87-09CE-4417-8F28-D60703D672ED/INCLUSIVE_TOOLKIT_MANUAL_FINAL.pdf) von Microsoft Design
-- Sketch-Plugin u. A. zur Simulation verschiedener Farbfehlsichtigkeiten: [Stark](https://github.com/stark-contrast/stark-sketch-plugin) 
-
 
 ::: md-container-more
 
@@ -70,7 +63,7 @@ Des Repertoire eines Gestalters für Benutzerschnittstellen sollte jedoch Grundl
 - Von Nutzern empfundene Simplizität bedeutet nicht technische oder operative Simplizität.
 
  <figure class="content-thin">
-  <img data-src="/images/practical/what-users-see.jpg">
+  <img data-src="/images/XY/what-users-see.jpg">
   <figcaption>
     Mit dem 'blurry-eye-test' kann auf einfache Weise das Erscheinungsbild bei geringerer Aufmerksamkeit getestet werden.
     <sup><a href="https://youtu.be/Qpz5jpRnEho">Bildquelle</a></sup>
