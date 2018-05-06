@@ -66,12 +66,3 @@ Quellverweis: [Disclaimer eRecht24](https://www.e-recht24.de/muster-disclaimer.h
 </div>
 
 <div class="spacer4"></div>
-
-<figure class="content-thin">
-    <img data-src="/images/misc/volume-throw.gif">
-    <figcaption>
-    Für Alle, die tatsächlich so weit gelesen haben, gibt es hier die besten Microinteractions der Welt: <a href="https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950">klick</a>.
-    </figcaption>
-</figure>
-
-<div class="spacer4"></div>

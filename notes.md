@@ -1,5 +1,11 @@
 # To Do:
 
+# Konsultation
+- CD-Version ist nicht per Doppelklick ausführbar
+- (C) HS Wismar, Betreut von XY (Deckblatt) in Web?
+
+## Vor Abgabe:
+
 - Amazon Menu bsp besser erklären
 - Post 
 - remove WIP message on homepage
@@ -10,11 +16,11 @@
 - animated gifs annoy
   - animated only fullscreen
   - https://jsfiddle.net/jkovzels/75kg0tz1/
+* [ ] refine grid layout, respond to importance of chapters
+* [ ] update favicon with new color
 
 ## Content
 
-* [ ] refine grid layout, respond to importance of chapters
-* [ ] update favicon with new color
 * [ ] einheitlicher meta title
 * [ ] figure numbers?
 * [ ] aus Pocket
@@ -38,8 +44,8 @@
 * [ ] besseres System für Quellen, wie https://mprove.de/diplom/text/references.html
 * [ ] add noise to color bgs?
 * [ ] Layout für Bilder in Text
-* [ ] bigger base font size (18px)
-
+* [x] bigger base font size (18px)
+* [ ] Indikator für externe Links
 
 ## Bugs
 
@@ -120,9 +126,6 @@ used special chars / arrows:
 ---
 ---
 ---
-
-# Konsultation
-- CD-Version ist nicht per Doppelklick ausführbar
 
 # Präsentation
 

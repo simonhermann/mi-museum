@@ -82,7 +82,7 @@ Die Art und Weise, wie textliche Inhalte einer grafischen Benutzerschnittstelle 
 <figure class="content-thin">
   <img data-src="/images/feedback/mailchimp-login-error.jpg">
   <figcaption>
-  Der Ärger, eine Benutzername/Passwort Kombination zu vergessen, wird bei MailChimp entschärft; Wenn der eingegebene Nutzername nicht existiert, wird dies bereits vor Eingabe des Passwortes mitgeteilt. Dem Nutzer wird proaktiv mitgeteilt, wie das Interface ihn unterstützen kann.
+  Der Ärger, eine Benutzername/Passwort Kombination zu vergessen, wird bei MailChimp entschärft: Wenn der eingegebene Nutzername nicht existiert, wird dies bereits vor Eingabe des Passwortes mitgeteilt. Dem Nutzer wird proaktiv mitgeteilt, wie das Interface ihn unterstützen kann. Aus Gründen des Datenschutzes ist solch ein Verhalten jedoch oft leider nicht anwendbar.
   <sup><a href="https://freshsparks.com/user-experience-tips-best-error-messages/">Bildquelle</a></sup>
   </figcaption>
 </figure>

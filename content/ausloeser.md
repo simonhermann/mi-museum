@@ -27,8 +27,6 @@ _Versteckte Trigger_ sind häufig Bestandteil von Touchscreens und Gestensteueru
 Tastenkürzel sind ebenfalls eine häufige Form versteckter Trigger, einmal erlernt, ermöglichen sie aber ein äußerst zeiteffektives Arbeiten. Die 'Speichern unter'-Microinteraction sorgte bei Veröffentlichung von OSX 10.7 für einiges Aufsehen, da diese geläufige Funktion scheinbar verschwunden war. Mit Version 10.8 wurde sie als versteckter Trigger durch ein neues (Vier-)Tastenkürzel wieder verfügbar gemacht.^[[Get Save As back on Mountain Lion's File menu easily and without hacks](https://www.engadget.com/2012/07/29/get-save-as-back-on-mountain-lions-file-menu-easily-and-without/)] 
 Üblicherweise sollten versteckte Trigger bei wichtigen Interaktionen vermieden werden. Ausnahmen können hier Interfaces über Spracheingabe sein, die den direkten Dialog von Mensch zu Mensch imitieren. 'Versteckt' im im Zusammenhang mit Triggern bedeutet die Abwesenheit von jeglicher Art von Hinweisen auf mögliche Interaktionen, nicht nur visueller Art.
 
-<!-- Bring the data forward -->
-
 <figure class="content-thin">
     <img data-src="/images/triggers/pocket-copied-url.jpg">
     <figcaption>Wenn die App Pocket geöffnet wird, während sich ein Link in der Zwischenablage befindet, wird ein versteckter Trigger ausgelöst und sie fragt ob man den Link zur Leseliste hinzufügen möchte.
@@ -65,7 +63,7 @@ Der Trend zur Automatisierung nimmt rapide zu und von _Künstlicher Intelligenz_
 
 <figure class="content-thin">
     <img data-src="/images/triggers/incoming-call.gif">
-    <figcaption>Diese Animation für einen eingehenden Anruf ist dem Klingeln eines klassischen analogen Telefons nachempfunden.
+    <figcaption>Diese Animation für einen eingehenden Anruf ist dem Klingeln eines klassischen analogen Telefons nachempfunden. Der pulsierende Kreis nimmt die visuelle Umsetzung der auszulösenden Interaktion vorweg.
     <sup><a href="https://material.io/guidelines/motion/material-motion.html#material-motion-how-does-material-move">Bildquelle</a></sup>
     </figcaption>
 </figure>

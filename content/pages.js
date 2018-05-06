@@ -47,9 +47,9 @@ const theoryPages = [
     desc: 'Eine kurze Geschichte der Mensch-Maschine-Interaktion',
   },
   {
-    title: 'Anwendung in der Praxis',
+    title: 'Fazit',
     to: '/practical',
-    desc: 'Zur Umsetzung von Microinteractions im Alltag',
+    desc: 'Microinteractions sind Alltag jeden Interface-Designers',
   },
 ]
 

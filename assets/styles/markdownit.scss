@@ -61,6 +61,13 @@
     p {
       margin: 0;
     }
+    &:focus {
+      // not working, since a <li> can not get focused 
+      outline-color: var(--the-color);
+      outline-style: dotted;
+      outline-offset: 2px;
+      outline-width: 2px;
+    }
   }
 }
 

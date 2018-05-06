@@ -67,6 +67,8 @@ Schon diese einfachen Regeln erfordern einigen Aufwand in Konzeption und Impleme
 
 Larry Tesler, [Erfinder](/history) der heute üblichen Copy&Paste-Microinteraction formulierte das 'Gesetz der Erhaltung von Komplexität', das besagt, dass für jedes System ein gewisses Maß an Komplexität besteht, das nicht weiter reduziert werden kann^[[Lawsofux.com: Tesler's Law](https://lawsofux.com/teslers-law)]. 
 Um die Komplexität für einen Nutzer dennoch weiter zu reduzieren, können ihm Entscheidungen vom Gerät abgenommen werden. Damit einher geht jedoch auch die Kontrolle des Nutzers verloren. Ein Interface kann die Anzahl der nötigen Eingaben verringern, in dem Nutzeraktionen vorhergesehen werden und wahrscheinliche Schritte automatisch ausgeführt werden. Die Google-Suche zeigt beispielsweise schon Ergebnisse an, bevor die Eingabe mit <kbd>⏎</kbd> bestätigt wurde. 
+Durch die Anzeige relevanter Daten, bevor ein Nutzer diese manuell anfordern muss, ist oft sehr praktisch und komfortabel.
+<!-- Bring the data forward -->
 
 > Don’t design to prove you're clever. Design to make the user think _she_ is.
 > <cite>Jeffrey Zeldman^[[Jeffrey Zeldman: The Year in Design](https://medium.com/let-me-repost-that-for-you-zeldman/the-year-in-design-9c06acf55b88)]</cite>
