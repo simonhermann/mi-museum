@@ -33,6 +33,9 @@ export default {
         event.preventDefault()
         // open link via nuxt router:
         this.$router.push(href)
+      } else if (href.indexOf('javascript:') != -1) {
+        console.log('js link clicked');
+        return true
       } else if (href.indexOf('#fn') == -1) {
         // TODO: improve this XXXX
         // I actually just check if the link contains "#fn", since this is my indicator for footnote links

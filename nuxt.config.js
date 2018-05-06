@@ -56,6 +56,7 @@ module.exports = {
     script: [
       { src: '/js/medium-zoom.min.js', body: true },
       { src: '/js/smoothscroll.js', body: true },
+      { src: '/js/ga-optout.js', body: true },
     ],
   },
   css: [
