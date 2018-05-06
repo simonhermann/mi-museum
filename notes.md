@@ -4,6 +4,9 @@
 - Post 
 - remove WIP message on homepage
 - check all nextpage links
+- feedback Carl
+- feedbck Sina
+- feedback Ute
 - Verteidigung Termin
 - anderes Beispiel statt mailchimp login
 - animated gifs annoy
