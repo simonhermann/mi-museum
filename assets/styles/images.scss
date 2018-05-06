@@ -99,19 +99,19 @@ img {
 
 
 .figure--gifzoom {
-  position: relative;
-  // ToDo: show this only afer img child has loaded [lazy='loaded']
-  &::after {
-    content: '▶';
-    //text-shadow: 0 0 5em #fff;
-    font-size: 3rem;
-    position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    pointer-events: none;
-  }
-  &:hover::after {
-    color: var(--the-color);
-  }
+  // position: relative;
+  // // ToDo: show this only afer img child has loaded [lazy='loaded']
+  // &::after {
+  //   content: '▶';
+  //   //text-shadow: 0 0 5em #fff;
+  //   font-size: 3rem;
+  //   position: absolute;
+  //   top: 45%;
+  //   left: 50%;
+  //   transform: translate(-50%, -50%);
+  //   pointer-events: none;
+  // }
+  // &:hover::after {
+  //   color: var(--the-color);
+  // }
 }

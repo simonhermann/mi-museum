@@ -43,7 +43,7 @@ Microinteractions werden zumeist erst am Ende eines Produktentwicklungsprozesses
 <figure class="content-thin figure--gifzoom">
   <img data-src="/images/what-are/menu-delay.jpg" data-zoom-target="/images/what-are/menu-delay.gif">
   <figcaption>
-    Eine häufige Microinteractions mit dem Optimierungsbedarf: In fast jedem Untermenü dieser Art erscheinen Unterpunkte erst nach einer Verzögerung.
+    Eine häufige Microinteractions mit dem Optimierungsbedarf: In fast jedem Untermenü dieser Art erscheinen Unterpunkte erst nach einer Verzögerung. (Zum Abspielen auf Bild klicken)
     <sup><a href="http://bjk5.com/post/44698559168/breaking-down-amazons-mega-dropdown">Bildquelle</a></sup>
   </figcaption>
 </figure>
