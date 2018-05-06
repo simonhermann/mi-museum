@@ -15,7 +15,6 @@
 @import './assets/styles/mixins.scss';
 
 .page-home {
-  margin-top: 16vh;
   &__title {
     font-size: 3em;
     margin-bottom: 0.1em;

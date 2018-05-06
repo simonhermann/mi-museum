@@ -7,17 +7,14 @@
 
 ## Vor Abgabe:
 
+* [ ] refine grid layout, respond to importance of chapters
+* [ ] bug: homegrid width
+* [ ] update favicon with new color
 - Post 
 - Amazon Menu bsp besser erklären
-- remove WIP message on homepage
 - check all nextpage links, esp. ->zu fazit
 - feedback Ute
-- animated gifs annoy
-  - animated only fullscreen
-  - https://jsfiddle.net/jkovzels/75kg0tz1/
-* [ ] refine grid layout, respond to importance of chapters
-* [ ] update favicon with new color
-* [ ] bug: homegrid width
+- animated only fullscreen
 
 ## Content
 

@@ -49,7 +49,8 @@ export default {
   border-radius: 1rem;
   overflow: hidden;
   grid-template-areas: 'g0' 'g1' 'g2' 'g3' 'g4' 'g5' 'g6' 'g7' 'g8' 'g9' 'g10';
-  @include mq-sm {
+  @media (min-width: 720px) {
+  //@include mq-sm {
     grid-template-areas:
       'g0 g1 g1'
       'g2 g2 g3'
@@ -58,7 +59,8 @@ export default {
       'g8 g8 g9'
       'g10 g10 g9';
   }
-  @include mq-md {
+  @media (min-width: 960px) {
+  //@include mq-md {
     grid-template-areas:
       'g0 g0 g1 g1 g1 g2 g2 g2'
       'g3 g3 g3 g3 g3 g2 g2 g2'

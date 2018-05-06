@@ -49,7 +49,7 @@ Des Repertoire eines Gestalters für Benutzerschnittstellen sollte jedoch Grundl
 - Artikel: [Designing for Fingers, Touch and People](https://www.uxmatters.com/mt/archives/2017/03/design-for-fingers-touch-and-people-part-1.php) von Steven Hoober
 - Nielsen and Molich's [10 User Interface Design Guidelines](https://www.interaction-design.org/literature/article/user-interface-design-guidelines-10-rules-of-thumb)
 - Dieter Rams’ [Zehn Thesen für gutes Design](https://www.vitsoe.com/de/ueber-vitsoe/gutes-design)
-- Pdf: [Microinteractions small but mighty Quick Reference](http://microinteractions.com/downloads/Microinteractions_QuickRef.pdf) with Official Saffer Seal
+- Pdf: [Microinteractions -small but mighty- Quick Reference](http://microinteractions.com/downloads/Microinteractions_QuickRef.pdf) with Official Saffer Seal
 - Sammlung inspirierender Microinteractions und anderer UI-Details: [littlebigdetails.com](http://littlebigdetails.com)
 
 :::

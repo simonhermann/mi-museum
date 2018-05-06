@@ -140,7 +140,7 @@ Zahlreiche Forschungsprojekte zeigen, wie haptische Interfaces einmal aussehen k
 
 ### Sehens-, hörens- und lesenswert zum Thema Feedback
 
-* Kapitel _Feedback_ im Buch: Saffer, Dan: Microinteractions - Designing with Details (S. 83 - 107), O'Riley Media, Sebastopol CA, 2013, [www.microinteractions.com](http://microinteractions.com/)
+* Kapitel _Feedback_ im Buch: Saffer, Dan: Microinteractions - Designing with Details (S. 83 - 107), O'Riley Media, 2013, [www.microinteractions.com](http://microinteractions.com/)
 * Artikel: [Getting Practical With Microcopy](https://www.smashingmagazine.com/2016/07/getting-practical-with-microcopy/) von Rade Brujić / Smashingmagazine
 * Artikel: [Systems smart enough to know when they're not smart enough](https://bigmedium.com/ideas/systems-smart-enough-to-know-theyre-not-smart-enough.html) von Josh Clark
 * Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von Ilya Birman
