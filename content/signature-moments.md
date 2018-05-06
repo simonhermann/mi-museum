@@ -44,11 +44,7 @@ Microinteractions werden generell kaum wahrgenommen, es sei denn, sie funktionie
 Die Art und Weise, wie wir etwas in Erinnerung behalten, beeinflusst ob wir es vergessen oder nicht abwarten können, es erneut zu tun. Einen positiven Eindruck zu hinterlassen, sollte also ein wichtiges Ziel der meisten digitalen Produkte sein. 
 Durch Analogien einer Nutzererfahrung zum Erzählen einer Geschichte, also durch gutes _Storytelling_^[[storytelling.design](https://storytelling.design/)] kann die Nutzung eines Produktes tatsächlich zum Erlebnis werden. 
 Die Geschichte unseres Helden, des Nutzers, sollte diesen aktiv werden lassen und nicht durch [passive Wartezeiten langweilen](/animation-and-pace#gefuhlte-geschwindigkeit). Dennoch können kleine Kunstpausen Momente der Erwartung erzeugen und die Authentizität erhöhen. 
-Niemand wird gerne beim Lesen beziehungsweise Erleben einer guten Geschichte unterbrochen, deshalb sollte ein Interface [nahtlos und unmittelbar](/feedback#unmittelbarkeit-und-flow) interagieren. Eine Aneinanderreihung vieler kurzer Aktivitäten kommt uns im nachhinein eher lang vor, während eine einzige, längere Aktivität das Gefühl von [Flow](/feedback#unmittelbarkeit-und-flow) erzeugen kann und die Zeit wie im Fluge vergeht. Wer sich im Flow befindet hat ein Gefühl von Klarheit und Selbstbewusstsein, das selbst die 'größten Drachen besiegbar' macht.
-
-> Microinteractions sind die Sätze der Geschichte eines Helden in der Welt eines&nbsp;Produktes.
-<!-- > <cite>Simon Hermann</cite> -->
-
+Niemand wird gerne beim Lesen beziehungsweise Erleben einer guten Geschichte unterbrochen, deshalb sollte ein Interface [nahtlos und unmittelbar](/feedback#unmittelbarkeit-und-flow) interagieren. Eine Aneinanderreihung vieler kurzer Aktivitäten kommt uns im nachhinein eher lang vor, während eine einzige, längere Aktivität das Gefühl von [Flow](/feedback#unmittelbarkeit-und-flow) erzeugen kann und die Zeit wie im Fluge vergeht. Wer sich im Flow befindet hat ein Gefühl von Klarheit und Selbstbewusstsein, das selbst die 'größten Drachen besiegbar' macht. Microinteractions sind die 'Sätze' der 'Geschichte' eines 'Helden' in der Welt eines&nbsp;Produktes.
 
 ::: md-container-more
 

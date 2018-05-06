@@ -162,7 +162,7 @@ module.exports = {
     },
   },
   render: {
-    resourceHints: false, // don't prefetch+preload pages
+    resourceHints: true, //if enabled, routes are prefetched+preloaded
     http2: { push: true },
   },
   env: {},

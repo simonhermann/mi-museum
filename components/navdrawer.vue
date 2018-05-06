@@ -146,6 +146,7 @@
       text-decoration: none !important;
       position: absolute;
       font-size: 1.5em;
+      line-height: 0;
       top: 42%;
       transform: translate(0, -50%);
       margin-left: -0.75em;

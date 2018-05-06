@@ -81,7 +81,7 @@ Sogenannte 'Dark Patterns' sind Methoden und Muster im Interactiondesign, die Nu
 
 ### Fitt's Law
 
-Das 'Fitts'sches Gesetz' ist ein mathematisches Modell, das beschreibt, wie gut ein Mensch auf etwas zeigen kann. Es wurde Mitte des 20. Jahrhunderts vom Psychologen Paul Fitts entwickelt. Es beschreibt das Verhältnis der Größe und Entfernung einer Fläche zu der benötigten Zeit, diese mit einem bestimmten Eingabegerät (z. B. Maus, Trackpad, Touchscreen) zu erreichen.^[vgl. [What is Fitts’ Law? - interaction-design.org](https://www.interaction-design.org/literature/topics/fitts-law)] Es ist eine der wenigen quantitativen Methoden, Interaktionen zu erforschen. Die in zahlreichen Versuchen erprobte Formel wird beispielsweise auch von Algorithmen zur Gestenerkennung verwendet.^[[Equating User Experience and Fitts’ Law in Gesture Based Input Modalities](https://repository.asu.edu/attachments/158068/content/Burno_asu_0010N_15289.pdf) von Rachael A. Burno, 2015]
+Das 'Fitts'sche Gesetz' ist ein mathematisches Modell, das beschreibt, wie gut ein Mensch auf etwas zeigen kann. Es wurde Mitte des 20. Jahrhunderts vom Psychologen Paul Fitts entwickelt. Es beschreibt das Verhältnis der Größe und Entfernung einer Fläche zu der benötigten Zeit, diese mit einem bestimmten Eingabegerät (z. B. Maus, Trackpad, Touchscreen) zu erreichen.^[vgl. [What is Fitts’ Law? - interaction-design.org](https://www.interaction-design.org/literature/topics/fitts-law)] Es ist eine der wenigen quantitativen Methoden, Interaktionen zu erforschen. Die in zahlreichen Versuchen erprobte Formel wird beispielsweise auch von Algorithmen zur Gestenerkennung verwendet.^[[Equating User Experience and Fitts’ Law in Gesture Based Input Modalities](https://repository.asu.edu/attachments/158068/content/Burno_asu_0010N_15289.pdf) von Rachael A. Burno, 2015]
 
 <!-- Versuche zeigen, wie die Distanz des und Größe eines Zieles die Geschwindigkeit einer Genauigkeit der Bewegung beeinflussen. Je schneller eine Bewegung, desto ungenauer wird sie in der Regel, da mehr Fehler gemacht werden.
 Es zeigt sich also, dass eine höhere Geschwindigkeit gegen niedrigere Genauigkeit getauscht werden kann. Je größer das Ziel oder je geringer die Entfernung, desto geringer ist die benötigte Zeit, dieses zu erreichen.
@@ -97,7 +97,7 @@ XXXX -->
 
 ### Weiterführende Links
 
-* Experimente zum Fitts'sches Gesetz selbst ausprobieren: [An Interactive Visualisation of Fitts's Law with JavaScript and D3](http://simonwallner.at/ext/fitts/)
+* Experimente zum Fitts'schen Gesetz selbst ausprobieren: [An Interactive Visualisation of Fitts's Law with JavaScript and D3](http://simonwallner.at/ext/fitts/)
 * Mehr "Gesetze" des UX-Design: [lawsofux.com](https://lawsofux.com/)
 * [Inclusive Design Toolkit Manual](https://download.microsoft.com/download/B/0/D/B0D4BF87-09CE-4417-8F28-D60703D672ED/INCLUSIVE_TOOLKIT_MANUAL_FINAL.pdf) von Microsoft Design
 

@@ -3,7 +3,6 @@
 # Konsultation
 - CD-Version ist nicht per Doppelklick ausführbar
 - (C) HS Wismar, Betreut von XY (Deckblatt) in Web?
-- fazit unfertig
 - Verteidigung Termin
 
 ## Vor Abgabe:
@@ -72,6 +71,7 @@
 * [ ] svg path traced image placeholders https://jmperezperez.com/svg-placeholders/ https://github.com/EmilTholin/image-trace-loader
 * [ ] better img lazyloader, also for video! (https://github.com/aFarkas/lazysizes ?)
 * [ ] better no-js handling
+* [ ] prevent breaking before footnotes: &zwj;^[...]
 
 ## Misc
 
