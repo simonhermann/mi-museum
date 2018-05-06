@@ -13,13 +13,12 @@ Seit der Schaffung des Begriffes _Microinteractions_ durch Dan Saffer scheint di
 Vitaly Friedmann, Gründer des 'Smashing Magazine', beschreibt in der Artikelreihe '[Designing the Perfect ...](https://www.smashingmagazine.com/search/?q=Designing%20Perfect)' detaillierte Einblicke in die Gestaltung ausgeklügelter Features, UI-Elemente und Microinteractions.
 Ein Konzept zur übersichtlichen Darstellung und Erläuterung von Microinteractions wurde von Havana Nguyen entwickelt: _[Interaction Flows](https://uxplanet.org/an-introduction-to-interaction-flows-a4f783402529)_. 
 Zahlreiche Artikel und Blog-Einträge, die das Thema erwähnen, scheinen jedoch gespickt von Halbwissen oder falschem Verständnis der Intention Saffers (in etwa: "Eine Interaktion durch zahlreiche üppige Animationen verschönern"). 
-Trotz dieser regen Diskussion scheinen Microinteractions häufig noch immer vernachlässigt zu werden. Von Nutzern empfundene Simplizität bedeutet nicht immer operative Simplizität, häufig wird also der hohe technische Aufwand dahinter stehen. Doch die Werkzeuge zur Erschaffung digitaler Produkte werden immer ausgefeilter –  XXXX
-Designer sind Problemlöser – und Probleme lassen sich am Besten lösen, indem sie in kleinere Probleme unterteilt werden. 
+Trotz dieser regen Diskussion scheinen Microinteractions häufig noch immer vernachlässigt zu werden. Von Nutzern empfundene Simplizität bedeutet nicht immer operative Simplizität, häufig wird also der hohe technische Aufwand dahinter stehen. Doch die Werkzeuge zur Erschaffung digitaler Produkte werden immer ausgefeilter – sie werden die _bewusste_ Gestaltung von Microinteractions zum neuen Maßstab machen. Designer sind Problemlöser – und Probleme lassen sich am Besten lösen, indem sie in kleinere Probleme unterteilt werden. 
 
 <!-- 
+XXXX
 Des Repertoire eines Gestalters für Benutzerschnittstellen sollte jedoch Grundlagen nicht nur einschließen, sondern auf diesen aufbauen.  -->
 
-XXXX
 
 
 <div class="spacer4"></div>
