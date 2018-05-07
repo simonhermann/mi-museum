@@ -25,7 +25,7 @@ export default {
   },
   head() {
     return {
-      title: "Schleifen und Modi von Microinteractions",
+      title: "Schleifen & Modi von Microinteractions",
     }
   },
 }

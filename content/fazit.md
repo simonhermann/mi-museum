@@ -1,4 +1,4 @@
-# Details machen den Unterschied 
+# Details machen<br> den Unterschied 
 
 Designer sind Problemlöser – und Probleme lassen sich am Besten lösen, indem sie in kleinere Probleme unterteilt werden. Leider steht in den wenigsten Fällen genug Budget und Zeit zur Verfügung, um sämtliche Interaktionen eines Produktes zu perfektionieren. Daher sollten die kritischen Microinteractions identifiziert werden: Was sind die Schritte, die ein Nutzer meist unternimmt, um das Ziel des Produktes zu erreichen? Was ist die Haupt-Microinteraction des Haupt-Features (z. B. der _Datepicker_ einer Flugsuchmaschine)? Was sind die bewussten und unbewussten 'pain points' der Nutzer? Wie kann die Einsteigerfreundlichkeit und wie die Produktivität für erfahrene Nutzer verbessert werden?
 Häufig ist es sinnvoll, das zu optimieren, was von den meisten Nutzern am meisten genutzt wird. Außerdem sollten eine Registrierung und andere Hürden, die genommen werden müssen, um das Produkt zu Nutzen, möglichst reibungslos gestaltet werden. 

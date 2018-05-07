@@ -37,7 +37,7 @@
 
 <script>
 import homegrid from '~/components/homegrid.vue'
-import { theoryPages, practicePages, setColorsForPage } from '~/content/pages.js'
+import { theoryPages, setColorsForPage } from '~/content/pages.js'
 
 export default {
   data() {
@@ -50,15 +50,15 @@ export default {
     theoryPages() {
       return theoryPages
     },
-    practicePages() {
-      return practicePages
-    },
+    // practicePages() {
+    //   return practicePages
+    // },
   },
 
   // html meta data for page
   head() {
     return {
-      title: 'Microinteractions - Gestaltung von Momenten Konversation zwischen Mensch und Maschine',
+      title: 'Microinteractions · Gestaltung von Momenten in der Konversation zwischen Mensch und Maschine',
     }
   },
   beforeMount() {

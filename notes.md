@@ -10,7 +10,6 @@
 * [ ] refine grid layout, respond to importance of chapters
 * [ ] update favicon with new color
 - Post 
-- Amazon Menu bsp besser erklären
 - check all nextpage links, esp. ->zu fazit
 - feedback Ute
 - animated only fullscreen
@@ -93,8 +92,6 @@
 
 ## Done but keep
 
-* [x] target blank für externe Links
-* [x]custom loading animation
 * [x] Image Zoom
   * https://github.com/francoischalifour/medium-zoom
   * https://www.npmjs.com/package/vue-image-zoom

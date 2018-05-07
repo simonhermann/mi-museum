@@ -8,7 +8,7 @@
 
 <script>
 import HtmlParser from '~/components/HtmlParser.vue'
-import text01 from '~/content/conclusion.md'
+import text01 from '~/content/fazit.md'
 import nextPage from '~/components/obj/nextPage.vue'
 import { setColorsForPage } from '~/content/pages.js'
 
@@ -26,7 +26,7 @@ export default {
   },
   head() {
     return {
-      title: 'Microinteractions in der Praxis',
+      title: 'Fazit · Microinteractions',
     }
   },
 }
