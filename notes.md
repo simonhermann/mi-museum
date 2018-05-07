@@ -1,19 +1,25 @@
 # To Do:
 
 # Konsultation
-- CD-Version ist nicht per Doppelklick ausführbar
-- (C) HS Wismar, Betreut von XY (Deckblatt) in Web?
 - Verteidigung Termin
 
-## Vor Abgabe:
+## Abgabe:
 
 - feedback Ute
-- Post 
-- animated gif only fullscreen
+
+- CD digital
+  - Anleitung
+  - CD-Version generieren
+  - PDF aus online version drucken
+  - Selbständigkeitserkärung + Unterschrift
+- CD analog
+  - CD
+  - Deckblatt
+  - Selbständigkeitserkärung + Unterschrift
+
 
 ## Content
 
-* [ ] einheitlicher meta title
 * [ ] figure numbers?
 * [ ] aus Pocket
 * [ ] Seiten in Buchquellen
@@ -28,6 +34,7 @@
 
 ## Featues
 
+- improve animated gif only fullscreen
 * [ ] foldable footnotes?
 * [ ] oben: vorheriges Kapitel?
 * [ ] Kontaktfomular
