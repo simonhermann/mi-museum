@@ -21,7 +21,12 @@ export default {
     },
     getInnerStyles(i) {
       //var itemColor = 'background-color:' + colors[i + 1] + ';'
-      var itemColor = 'background-image: linear-gradient(135deg,' + colors[i + 1] + '0%,' + colors[i + 2] + '100%;'
+      var itemColor =
+        'background-image: linear-gradient(135deg,' +
+        colors[i + 1] +
+        '0%,' +
+        colors[i + 2] +
+        '100%;'
       var innerStyles = itemColor
       return innerStyles
     },
@@ -49,25 +54,27 @@ export default {
   border-radius: 1rem;
   overflow: hidden;
   grid-template-areas: 'g0' 'g1' 'g2' 'g3' 'g4' 'g5' 'g6' 'g7' 'g8' 'g9' 'g10';
-  @media (min-width: 720px) {
-  //@include mq-sm {
+  // @media (min-width: 720px) {
+  // //@include mq-sm {
+  //   grid-template-areas:
+  //     'g0 g1 g1 g1 g1 g1'
+  //     'g2 g2 g2 g2 g3 g3'
+  //     'g4 g4 g4 g4 g3 g3'
+  //     'g5 g5 g6 g6 g6 g6'
+  //     'g8 g8 g8 g7 g7 g7'
+  //     'g9 g9 g9 g9 g10 g10';
+  // }
+  @media (min-width: 768px) {
+    // chrome: grid ignores width setting in media query ?!?!
+    // but can not reproduce in codepen https://codepen.io/anon/pen/wjPoYm?editors=1100
     grid-template-areas:
-      'g0 g1 g1'
-      'g2 g2 g3'
-      'g4 g4 g3'
-      'g5 g6 g7'
-      'g8 g8 g9'
-      'g10 g10 g9';
-  }
-  @media (min-width: 960px) {
-  //@include mq-md {
-    grid-template-areas:
-      'g0 g0 g1 g1 g1 g2 g2 g2'
-      'g3 g3 g3 g3 g3 g2 g2 g2'
+      'g0 g0 g1 g1 g1 g1 g2 g2'
+      'g3 g3 g3 g3 g3 g3 g2 g2'
       'g4 g4 g4 g5 g5 g5 g5 g5'
-      'g4 g4 g4 g6 g6 g7 g7 g7'
-      'g8 g8 g8 g6 g6 g9 g9 g9'
-      'g10 g10 g10 g10 g10 g10 g10 g10';
+      'g4 g4 g4 g6 g6 g6 g7 g7'
+      'g4 g4 g4 g6 g6 g6 g7 g7'
+      'g8 g8 g8 g6 g6 g6 g7 g7'
+      'g9 g9 g9 g9 g9 g10 g10 g10';
   }
 
   &__item {

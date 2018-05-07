@@ -6,18 +6,15 @@
   backface-visibility: hidden;
   //-webkit-perspective: 1000; // causes content to be blurry in Safari
 }
-.page-leave-active {
-  transition: all 230ms var(--transition-curve1);
-}
-.page-enter-active {
-  transition: all 330ms var(--transition-curve1);
-}
 .page-enter {
   opacity: 0;
-  transform: translate3d(0, -1em, 0);
+  transform: translate3d(0, -0.6em, 0);
   @include reduced-motion {
     transform: none;
   }
+}
+.page-enter-active {
+  transition: all 330ms var(--transition-curve1);
 }
 .page-leave-to {
   opacity: 0;
@@ -25,4 +22,7 @@
   @include reduced-motion {
     transform: none;
   }
+}
+.page-leave-active {
+  transition: all 230ms var(--transition-curve1);
 }

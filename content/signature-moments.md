@@ -48,7 +48,7 @@ Niemand wird gerne beim Lesen beziehungsweise Erleben einer guten Geschichte unt
 
 ::: md-container-more
 
-### Mehr zum Thema Signature Moments
+### Interessantes zum Thema
 
 * Artikel: [User Memory Design: How To Design For Experiences That Last](https://www.smashingmagazine.com/2016/08/user-memory-design-how-to-design-for-experiences-that-last/) von Curt Arledge
 * Artikel: [Strategic Storytelling for Designers](https://uxdesign.cc/strategic-storytelling-for-designers-e6fdc6a9cbfc) von Eli Silva Montgomery

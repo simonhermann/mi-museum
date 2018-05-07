@@ -8,7 +8,6 @@
 ## Vor Abgabe:
 
 * [ ] refine grid layout, respond to importance of chapters
-* [ ] bug: homegrid width
 * [ ] update favicon with new color
 - Post 
 - Amazon Menu bsp besser erklären

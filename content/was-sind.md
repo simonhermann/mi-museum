@@ -67,20 +67,6 @@ Das 'Paretoprinzip' (umgangssprachlich '80-20-Regel') besagt, dass 80% der Ergeb
 > I consider details more important than a great draft. Nothing works without the details. Details are the essentials. The standard to measure quality&nbsp;by.
 > <cite>Dieter Rams^[[Microinteractions Quick Reference](http://microinteractions.com/downloads/Microinteractions_QuickRef.pdf) von Dan Saffer]</cite>
 
-<!-- Auch kleine Interaktionen wie das Betätigen eines Schalters, das Nutzen eines Suchfelds oder das Absenden einer Nachricht wurden irgendwann von Designern gestaltet.  -->
 
-<!-- **Microinteractions sind die Worte einer Konversation zwischen Mensch und Maschine
-** -->
+<!-- Eine Interaktion kann ungewohnt sein, das heißt aber nicht, dass sie schlecht ist. -->
 
-<!-- > Eine Interaktion kann ungewohnt sein, das heißt aber nicht, dass sie schlecht ist. -->
-
-<!-- Das Buch veranlasste zahlreiche Mitglieder der Design-Community dazu, Blog-Posts zum Thema Microinteractions zu verfassen. -->
-
-<!-- Leider beschränken sich die allermeisten Artikel darauf, die Grundlagen von Saffers Buch in wenigen Absätzen zusammenzufassen und mit einigen Beispielen auszuschmücken.
-Mein Ziel ist es, ein Verständnis von Interaktionen zu schaffen, das über Saffers Microinteractions hinausgeht, das nicht nur Screen- sondern auch XXXX _tangible_, _Virtual_ und _Augmented Reality_ oder analoges Produktdesign mit einbezieht. Die Ansätze Saffers können tatsächlich auf fast alle Bereiche des Kommunikationsdesigns und XXXX angewendet werden. -->
-
-<!-- Doch auch vor Saffer wurde das Thema bereits behandelt, beispielsweise hielt Jeannie Walters bereits 2012 Vorträge dazu ^[@walters12]. Sie legt den Fokus jedoch hauptsächlich auf die in Benutzoberflächen genutzte Sprache, und wie diese die Beuntzererfahrung ruinieren kann.
-Beispielsweise die Fehlermeldung "You entered incorrect logon information." (etwa: Sie haben falsche Anmelde-Daten eingegeben.)
-XXXX
-Die Fokussierung Walters auf Microinteractions, die negativ wahrgenommene Situationen erzeugen, lässt das Protential dieser noch ungenutzt. Im Wesentlichen fordert sie auf, die im digtialen Alltagsleben auftretenden negativen Situationen in positive umzuwandeln.
-Bsp https://youtu.be/Y3qg6P3grWk?t=9m24s XXXX -->

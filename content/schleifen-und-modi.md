@@ -61,9 +61,11 @@ Eine personalisierte Nutzererfahrung scheint für digitale Produkte immer bedeut
 
 ::: md-container-more
 
-### Interessantes zum Thema
+### Mehr zum Thema
 
-* Kapitel _Loops and Modes_ im Buch: Saffer, Dan: Microinteractions - Designing with Details (S. 83 - 107), O'Riley Media, 2013, [www.microinteractions.com](http://microinteractions.com/)
-* Nicht nur als Kind spielerisch die Grundlagen der Programmierung lernen mit [Lego Mindstorms](https://www.lego.com/de-de/mindstorms) oder [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) 
+* Kapitel _Loops and Modes_ im Buch: [Microinteractions](http://microinteractions.com/) von Dan Saffer
+* Buch: [The Humane Interface](https://dl.acm.org/citation.cfm?id=333103) von Jef Raskin
+* Artikel: [Poor UI Design Can Kill - Air Inter Flight 148, a harsh lesson learned](https://blog.martindoms.com/2011/01/24/poor-ui-design-can-kill) von Martin Doms
+* Nicht nur als Kind spielerisch die Grundlagen der Programmierung lernen: mit [Lego Mindstorms](https://www.lego.com/de-de/mindstorms) oder [Swift Playgrounds](https://www.apple.com/swift/playgrounds/) 
 
 :::

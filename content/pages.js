@@ -4,7 +4,7 @@ const theoryPages = [
     title: 'Was & warum?',
     to: '/what-are-microinteractions',
     desc:
-      'Was Microinteractions sind und warum sie für jeden Designer wichtig sein sollten',
+      'Die Grundlagen von Microinteractions warum sie für jeden Designer wichtig sein sollten',
   },
   {
     title: 'Auslöser',
@@ -49,7 +49,7 @@ const theoryPages = [
   {
     title: 'Fazit',
     to: '/conclusion',
-    desc: 'Microinteractions sind Alltag jeden Interface-Designers',
+    desc: '',
   },
 ]
 
