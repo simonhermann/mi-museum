@@ -116,7 +116,19 @@
 ---
 ---
 
-used special chars / arrows:
+# kursiv / einfache / doppelte Anführungszeichen
+
+- kursiv
+  - Fachwörter 
+  - Hervorhebungen
+- einfache
+  - Eigennamen bei der ersten Nutzung des Wortes
+  - sozusagen
+- doppelte
+  - wörtliche Rede
+  - ähnliches Wort / nicht ganz ernst gemeint / ..?
+
+# used special chars / arrows:
 ⇵ ↩︎ ⤴ ⤒
 »«›‹
 ⏎
