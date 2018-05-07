@@ -5,8 +5,6 @@
 
 ## Abgabe:
 
-- feedback Ute
-
 - CD digital
   - Anleitung
   - CD-Version generieren
