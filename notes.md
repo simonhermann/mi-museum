@@ -7,12 +7,9 @@
 
 ## Vor Abgabe:
 
-* [ ] refine grid layout, respond to importance of chapters
-* [ ] update favicon with new color
-- Post 
-- check all nextpage links, esp. ->zu fazit
 - feedback Ute
-- animated only fullscreen
+- Post 
+- animated gif only fullscreen
 
 ## Content
 
