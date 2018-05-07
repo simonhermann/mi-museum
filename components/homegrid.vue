@@ -2,7 +2,8 @@
   <div class="homegrid">
     <nuxt-link class="homegrid__item" :key="i" v-for="(theoryPage, i) in theoryPages" :to="theoryPage.to" :style="getItemStyles(i)">
       <div class="item__inner" :style="getInnerStyles(i)">
-        <h2 class="item__head">{{ theoryPage.title }}</h2>
+        <!-- <span class="item__number">{{i+1}} &mdash;</span> -->
+        <h2 class="item__head">{{theoryPage.title }}</h2>
         <p class="item__desc" v-if="theoryPage.desc">{{ theoryPage.desc }}</p>
       </div>
     </nuxt-link>
@@ -45,6 +46,14 @@ export default {
 <style lang="scss" scoped>
 @import './assets/styles/mixins.scss';
 
+$gridbreak-width: 768px;
+
+@mixin mq-gridbreak {
+  @media (min-width: #{$gridbreak-width}) {
+    @content;
+  }
+}
+
 .homegrid {
   display: grid;
   grid-template-columns: auto;
@@ -54,19 +63,7 @@ export default {
   border-radius: 1rem;
   overflow: hidden;
   grid-template-areas: 'g0' 'g1' 'g2' 'g3' 'g4' 'g5' 'g6' 'g7' 'g8' 'g9' 'g10';
-  // @media (min-width: 720px) {
-  // //@include mq-sm {
-  //   grid-template-areas:
-  //     'g0 g1 g1 g1 g1 g1'
-  //     'g2 g2 g2 g2 g3 g3'
-  //     'g4 g4 g4 g4 g3 g3'
-  //     'g5 g5 g6 g6 g6 g6'
-  //     'g8 g8 g8 g7 g7 g7'
-  //     'g9 g9 g9 g9 g10 g10';
-  // }
-  @media (min-width: 768px) {
-    // chrome: grid ignores width setting in media query ?!?!
-    // but can not reproduce in codepen https://codepen.io/anon/pen/wjPoYm?editors=1100
+  @include mq-gridbreak {
     grid-template-areas:
       'g0 g0 g1 g1 g1 g1 g2 g2'
       'g3 g3 g3 g3 g3 g3 g2 g2'
@@ -76,58 +73,63 @@ export default {
       'g8 g8 g8 g6 g6 g6 g7 g7'
       'g9 g9 g9 g9 g9 g10 g10 g10';
   }
+}
 
-  &__item {
-    display: inherit;
-    grid-area: g0;
-    text-decoration: none;
-    opacity: 0;
-    transition: opacity 600ms ease-out;
-    .application-mounted & {
-      opacity: 1;
-    }
+.homegrid__item {
+  display: inherit;
+  grid-area: g0;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 600ms ease-out;
+  .application-mounted & {
+    opacity: 1;
+  }
 
-    &:hover,
-    &:focus {
-      .item__inner {
-        border-radius: 1rem;
-        transform: scale(0.96);
-      }
-    }
-    &:hover,
-    &:active,
-    &:focus {
-      .item__head {
-        text-decoration: underline;
-      }
-    }
-
+  &:hover,
+  &:focus {
     .item__inner {
-      background-color: var(--the-color);
-      color: #fff;
-      text-decoration-color: #fff;
-      border-radius: 0;
-      padding: 1rem 1.25rem;
-      transition: transform 150ms ease-out, border-radius 250ms ease-out;
-      //background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
-      //background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
-      //background-image: url('https://www.transparenttextures.com/patterns/dark-dotted-2.png');
-      //background-repeat: repeat;
+      border-radius: 1rem;
+      transform: scale(0.96);
     }
-
+  }
+  &:hover,
+  &:active,
+  &:focus {
     .item__head {
-      margin: 0 0 0.5rem 0;
-      font-size: 1.75em;
-      text-decoration: none;
-      &:only-child {
-        margin: 0;
-      }
+      text-decoration: underline;
     }
-    .item__desc {
-      text-decoration: none;
+  }
+
+  .item__inner {
+    background-color: var(--the-color);
+    color: #fff;
+    text-decoration-color: #fff;
+    border-radius: 0;
+    padding: 1.5rem 1.25rem;
+    @media (min-width: #{$gridbreak-width}) and (max-width: 840px) {
+      padding: 1.5rem 0.75rem;
+    }
+    transition: transform 150ms ease-out, border-radius 250ms ease-out;
+    //background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+    //background-image: url("https://www.transparenttextures.com/patterns/brilliant.png");
+    //background-image: url('https://www.transparenttextures.com/patterns/dark-dotted-2.png');
+    //background-repeat: repeat;
+  }
+
+  .item__number {
+  }
+  .item__head {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.75em;
+    text-decoration: none;
+    &:only-child {
       margin: 0;
-      font-style: italic;
     }
+  }
+  .item__desc {
+    text-decoration: none;
+    margin: 0;
+    font-style: italic;
   }
 }
 </style>

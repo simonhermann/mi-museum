@@ -16,9 +16,12 @@
 
 .page-home {
   &__title {
-    font-size: 3em;
+    margin-top: calc(3rem + 5vh);
     margin-bottom: 0.1em;
-
+    font-size: 3em;
+    @include mq-sm {
+      font-size: 3.5em;
+    }
     @include mq-md {
       font-size: 4em;
     }

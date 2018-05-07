@@ -4,17 +4,17 @@ const theoryPages = [
     title: 'Was & warum?',
     to: '/what-are-microinteractions',
     desc:
-      'Die Grundlagen von Microinteractions warum sie für jeden Designer wichtig sein sollten',
+      'Die Grundlagen von Microinteractions und warum sie für jeden Designer wichtig sein sollten',
   },
   {
     title: 'Auslöser',
     to: '/triggers',
-    desc: 'Wie kommt die Interaktion zu Stande?',
+    desc: 'Auf welche Weise kommt die Interaktion zu Stande?',
   },
   {
     title: 'Regeln',
     to: '/rules',
-    desc: 'Wie funktioniert die Interaktion im Detail?',
+    desc: 'Welche Funktion hat die Interaktion und wie läuft sie im Detail ab?',
   },
   {
     title: 'Skeuomorphismus',
@@ -24,12 +24,13 @@ const theoryPages = [
   {
     title: 'Rückmeldung',
     to: '/feedback',
-    desc: 'Wie reagiert die Interaktion auf den Nutzer?',
+    desc: 'Woher wissen Nutzer, wie die Interaktion funktioniert?',
   },
   {
     title: 'Animation & Geschwindigkeit',
     to: '/animation-and-pace',
-    desc: 'Wie Bewegung hilft, zu begreifen und warum schneller nicht immer besser ist',
+    desc:
+      'Wie Bewegung die Wahrnehmung beeinflussen kann und dabei hilft, zu begreifen',
   },
   {
     title: 'Schleifen & Modi',
@@ -49,7 +50,7 @@ const theoryPages = [
   {
     title: 'Fazit',
     to: '/conclusion',
-    desc: '',
+    desc: 'Details machen den Unterschied',
   },
 ]
 
