@@ -11,7 +11,7 @@
 <script>
 export default {
   mounted() {
-    const shareUrl = window.location.href
+    const shareUrl = window.location.origin + window.location.pathname
     const shareBtn = document.querySelector('div.shareWrapper a')
 
     // detect if native sharing is supported
