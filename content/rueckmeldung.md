@@ -1,4 +1,4 @@
-# Rückmeldung (Feedback) von Microinteractions
+# Rückmeldung (Feedback) von Micro&shy;interactions
 
 Die Hauptaufgabe der _Rückmeldung_ (engl. _Feedback_), die eine Benutzerschnittstelle an den Nutzer gibt, ist diesem zu helfen, die [Regeln](/rules) einer (Mikro-)Interaktion zu verstehen. Wenn ein Nutzer beispielsweise einen Button antippt, sollte gezeigt werden, _dass_ dieser gedrückt wurde und _was das Ergebnis_ der Eingabe ist. Allein dadurch können Nutzer wissen, ob eine Eingabe erfolgreich war. Wäre keinerlei Feedback vorhanden, bestünde für Nutzer kaum eine Möglichkeit zu wissen, was passiert und wie eine Benutzerschnittstelle funktioniert.
 

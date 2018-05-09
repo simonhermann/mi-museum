@@ -23,7 +23,7 @@ Die Seite basiert auf dem großartigen [Vue.js](https://vuejs.org/) & [Nuxt](htt
 Alles weitere findet ihr im [Projekt auf Github](https://github.com/simonhermann/mi-museum).
 
 
-#### At all the non-German-speaking Visitors
+#### To all the non-German-speaking Visitors
 
 I'd love to see an english version as well, feel free to [contact me](mailto:mail@simonhermann.de) if you'd like to support.
 

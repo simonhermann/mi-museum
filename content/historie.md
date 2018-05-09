@@ -1,4 +1,4 @@
-# Historische Entwicklung von Microinteractions
+# Historische Entwicklung von Micro&shy;interactions
 
 Die Geschichte der Mensch-Maschine-Interaktion ist tatsächlich die Geschichte der Mikro-Interaktionen, da sich diese über viele Jahrzehnte erhalten und weiterentwickelt haben. Auch heute selbstverständliche, grundlegende Interaktionen wie Links, Scrollbalken oder Zoom wurden irgendwann erfunden.
 Diese Evolution kann nach Andries van Damm in vier Hauptphasen eingeteilt werden:^[van Dam, Andries: Post-WIMP User Interfaces. In: Communications of the ACM 40(2), 1997] 

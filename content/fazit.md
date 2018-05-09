@@ -26,7 +26,7 @@ Des Repertoire eines Gestalters für Benutzerschnittstellen sollte jedoch Grundl
 <figure class="content-thin">
     <img data-src="/images/misc/volume-throw.gif">
     <figcaption>
-    Für Alle, die tatsächlich so weit gelesen haben, gibt es zum Schluss eine der 'besten' Microinteractions der Welt. <a href="https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950">Mehr davon</a>.
+    Für Alle, die tatsächlich so weit gelesen haben, gibt es zum Schluss eine der ›besten‹ Microinteractions der Welt. <a href="https://uxdesign.cc/the-worst-volume-control-ui-in-the-world-60713dc86950">Mehr davon</a>.
     </figcaption>
 </figure>
 

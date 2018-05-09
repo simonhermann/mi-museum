@@ -1,4 +1,4 @@
-# Animation und Geschwindigkeit von Microinteractions
+# Animation und Geschwin&shy;digkeit von Micro&shy;interactions
 
 Animation im Kontext von Microinteractions ist meist eine Form von [Feedback](/feedback) oder [Trigger](/triggers). Besonders neue Nutzer eines digitalen Produktes benötigen Hinweise, die zeigen, wie eine Microinteraction zu benutzen ist. Dies gilt insbesondere für Interfaces, die unbekannte oder einzigartige Interaktionen enthalten. Eine Reihe von visuellen Hinweisen sollte zeigen, welche Interaktionen möglich sind. Diese Art der funktionalen Animation lenkt die Aufmerksamkeit des Benutzers auf die möglichen Interaktionen und dient so als Auslöser für diese.
 

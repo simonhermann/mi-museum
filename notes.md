@@ -3,17 +3,6 @@
 # Konsultation
 - Verteidigung Termin
 
-## Abgabe:
-
-- CD digital
-  - Anleitung
-  - CD-Version generieren
-  - PDF aus online version drucken
-  - Selbständigkeitserkärung + Unterschrift
-- CD analog
-  - CD
-  - Deckblatt
-  - Selbständigkeitserkärung + Unterschrift
 
 
 ## Content

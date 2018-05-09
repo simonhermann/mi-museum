@@ -1,4 +1,4 @@
-# Auslöser (Trigger) von Microinteractions
+# Auslöser (Trigger) von Micro&shy;interactions
 
 Bevor ein Dialog zwischen einer Benutzerschnittstelle und einem Nutzer aufgebaut werden kann, stellt sich die Frage: _Wer spricht wen an?_ Der 'Trigger' oder 'Auslöser' einer Microinteraction kann entweder durch eine unmittelbare _Aktion des Nutzers_ oder _von Seiten des Systems_ initiiert werden. In beiden Fällen bildet dieser die erste Phase jeder Microinteraction.
 

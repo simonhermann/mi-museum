@@ -1,4 +1,4 @@
-# Regeln von Microinteractions
+# Regeln von Micro&shy;interactions
 
 Sobald eine Microinteraction initiiert wurde, definieren Regeln, wie sie ablaufen wird und welche Funktion sie hat. Während in einem (hypothetischen) System ohne Regeln alles und zu jeder Zeit möglich ist, bedeuten Regeln, dass Aktionen eingeschränkt sind – das heißt entweder gar nicht möglich oder nur unter bestimmten Umständen. Die Regeln einer Microinteraction schränken also mögliche Aktionen eines Interfaces ein oder ermöglichen sie nur unter Voraussetzungen. Hierbei erweitern sie die Regeln der physischen Welt und der genutzten Mensch-Maschine-Schnittstelle.
 Nutzer sollten Regeln nicht kennen oder mühevoll lernen müssen, um interagieren zu können. Viele Regeln, die uns alltäglich umgeben, wie Schwerkraft oder gesellschaftliche Konventionen, nehmen wir kaum bewusst wahr. Regeln für Microinteractions sollten sich ebenfalls natürlich anfühlen und nicht den Eindruck auf Nutzer erwecken, sie schränkten deren Möglichkeiten ein. Im besten Fall kanalisieren sie die 'Konversation' zwischen Mensch und Maschine, geben ihr eine Richtung und führen so zum Ziel, ohne überhaupt wahrgenommen zu werden.

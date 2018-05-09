@@ -1,4 +1,4 @@
-# Schleifen und Modi in Microinteractions
+# Schleifen und Modi in Micro&shy;interactions
 
 Wie verändert sich die Microinteraction mit der Zeit? Bleiben die Regeln dieselben oder ändern sie sich bei mehrfacher Nutzung? Was passiert, wenn sich äußere Faktoren ändern? Bleibt eine Funktion angeschaltet, bis sie manuell wieder deaktiviert wurde oder schaltet sie sich unter Umständen automatisch aus? Schleifen und Modi beeinflussen als 'Meta-Regeln' das Verhalten von Microinteractions.
 

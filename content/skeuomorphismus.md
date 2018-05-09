@@ -1,4 +1,4 @@
-# Skeuo&shy;morphismus <br>in Microinter&shy;actions
+# Skeuo&shy;morphismus <br>in Micro&shy;interactions
 
 Skeuomorphismus ist eine Stilrichtung im Design, bei der Objekte in ihrer Gestaltung ein anderes Material oder die Form eines anderen Gegenstandes nachahmen, ohne dass diese durch ihre Funktion begründet ist^[vgl. [Wikipedia: Skeuomorphismus](https://de.wikipedia.org/wiki/Skeuomorphismus)].
 Seit Anbeginn der grafischen Benutzeroberflächen verwenden wir Buttons. Die Form eines digitalen Knopfes ist nach wie vor an Werkzeuge und Mechanismen angelehnt, die wir im 19. Jahrhundert entwickelt haben. Obwohl sich Interfaces im Einklang mit aktuellen Trends und Technologien entwickelt haben, ist ihr Ursprung inspiriert durch reale Objekte der Vergangenheit. Die ursprüngliche Benutzeroberfläche von Xerox PARC ist 44 Jahre alt, aber unsere Benutzeroberflächen sehen trotzdem noch verblüffend ähnlich aus. Warum halten wir daran fest, Interaktionsformen zu entwickeln, die auf den bekannten Objekten basieren, die uns umgeben? 
