@@ -24,7 +24,7 @@ export default {
         navigator
           .share({
             title: document.title,
-            text: shareUrl,
+            //text: "",
             url: shareUrl,
           })
           .then(

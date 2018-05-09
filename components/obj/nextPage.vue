@@ -1,10 +1,12 @@
 <template>
 
-  <nuxt-link class="o-next-page" :to="link" exact>
-    <p class="o-next-page__nexttext">{{ nextText }}</p>
-    <h3 class="o-next-page__heading">{{ heading }} </h3>
-    <p v-if="text" class="o-next-page__text"> {{ text }} </p>
-  </nuxt-link>
+  <div class="o-next-page">
+    <nuxt-link class="o-next-page__link" :to="link" exact>
+      <p class="o-next-page__nexttext">{{ nextText }}</p>
+      <h3 class="o-next-page__heading">{{ heading }} </h3>
+      <p v-if="text" class="o-next-page__text"> {{ text }} </p>
+    </nuxt-link>
+  </div>
 
 </template>
 
@@ -16,10 +18,14 @@
   box-sizing: border-box;
   text-align: center;
   transition: all 0.2s ease-out;
-  text-decoration: none;
+  margin-top: 4em;
   &:nth-of-type(-n + 1) {
-    // styles for first element of its type: <a></a>
-    margin-top: 4em;
+    // styles for first element of its type
+  }
+
+  &__link {
+    text-decoration: none;
+    display: inline-block;
   }
 
   &__nexttext {
@@ -36,7 +42,7 @@
       position: absolute;
       font-size: 1.5em;
       margin-left: -0.5em;
-      margin-top: -0.25em;
+      margin-top: -0.3em;
       transition: margin 150ms var(--transition-curve1);
       color: transparent;
     }

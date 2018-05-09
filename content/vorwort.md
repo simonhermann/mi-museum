@@ -18,7 +18,7 @@ Wodurch wird eine (Mikro-)Interaktion [ausgelöst](/triggers)? Wie [funktioniert
 <div class="spacer2"></div>
 
 <center>
-  <em> &mdash; <a href="/about" style="text-decoration:none;">Simon</a> &mdash; <br> </em>
+  <em> &mdash; <a href="/about" style="text-decoration:none;">Simon Hermann</a> &mdash; <br> </em>
   <sup>Sommer 2018</sup>
 </center>
 
