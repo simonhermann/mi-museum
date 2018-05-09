@@ -202,6 +202,8 @@ module.exports = {
     start_url: '/',
     background_color: '#fafafa',
     theme_color: '#424242',
+    ogDescription:
+      'Microinteractions sind die Grundlage der Interfaces zwischen Mensch und Maschine. Sie sind die kritischen Details, die den Unterschied jeder Benutzerschnittstelle ausmachen.',
   },
   sitemap: {
     hostname: 'https://www.microinteractions.design',

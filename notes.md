@@ -35,7 +35,6 @@
 
 ## Bugs
 
-* [ ] device width 650-700 px homegrid broken 
 * [ ] footnote highlighting
 * [ ] png favicons are fetched new on every route?!
 
