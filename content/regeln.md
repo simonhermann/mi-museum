@@ -105,7 +105,7 @@ Better: human centred automation. Make it a team player -->
 ### Definitiv unvollständige Checkliste für die Gestaltung von Regeln:
 
 * Welche Regeln gelten für [systemseitige Trigger](/triggers)? Unter welchen Bedingungen werden sie ausgelöst?
-* Welche Eingabemöglichkeiten nutzt das Interface und wie werden Eingaben interpretiert?
+* Welche Eingabemöglichkeiten nutzt das Interface und wie werden Eingaben interpretiert? (z. B. Zwei-Finger-Pinch-Geste als Zoom)
 * Welche Begrenzungen haben Eingabemöglichkeiten? z. B. im Eingabefeld für Kreditkartennummer können nur Zahlen eingegeben werden
 * Welche Ausgabemöglichkeiten nutzt das Interface?
 * Welche Daten stehen zur Verfügung und wie werden sie genutzt?

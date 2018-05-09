@@ -1,5 +1,8 @@
 # To Do:
 
+3
+- Trigger definition
+
 # Konsultation
 - Verteidigung Termin
 

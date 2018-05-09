@@ -7,7 +7,7 @@ Mensch<br>
 <strong class="colored">⇵</strong><br>
 Mensch-Maschine-Schnittstelle<br>
 ⇵<br>
-Maschine
+›technische‹ Maschine
 </center>
 
 Die Vorsilbe _Mikro_ kommt aus dem Griechischen und bedeutet so viel wie _klein_. Es geht also um die kleinen Bausteine einer Kommunikation zwischen Mensch und Maschine. Übergreifende Themen wie Nutzerrecherche und -tests, Personas, Informationsarchitektur, Navigation, Designsysteme, Barrierefreiheit ('a11y') und andere wichtige Themen des Interactiondesign werden deshalb nicht oder nur sekundär behandelt.
