@@ -8,9 +8,7 @@
         <noscript class="notification"> Bitte aktiviere JavaScript </noscript>
         <div class="notification offline-hint"> Keine Netzwerkverbindung...<br> Zeige Offline-Version </div>
         <nuxt v-lazy-container="{ selector: 'img' }" />
-        <div class="footer">
-          Simon Hermann / microinteractions.design
-        </div>
+        <foot></foot>
       </v-container>
     </v-content>
 
@@ -49,25 +47,16 @@
     transform: translate3d(0, 0, 0);
   }
 }
-.footer {
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  max-width: 38rem;
-  margin-top: 3rem;
-  text-align: center;
-  font-size: var(--font-size-small);
-  color: var(--grey-light);
-}
 </style>
 
 
 <script>
 import navdrawer from '~/components/navdrawer.vue'
+import foot from '~/components/foot.vue'
 
 export default {
   components: {
-    navdrawer,
+    navdrawer, foot
   },
   mounted: function() {
     this.$nextTick(function() {

@@ -6,7 +6,7 @@
 <script>
 import {initAfterMount} from "~/plugins/init.js";
 // this component makes site-internal links in markdown work with nuxt-router
-// partly from https://github.com/nuxt/nuxtjs.org/blob/master/components/HtmlParser.vue
+// partly taken from https://github.com/nuxt/nuxtjs.org/blob/master/components/HtmlParser.vue
 export default {
   props: ['content'],
   // beforeMount() {
