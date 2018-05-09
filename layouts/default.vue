@@ -4,7 +4,7 @@
     <navdrawer></navdrawer>
 
     <v-content>
-      <v-container>
+      <v-container class="myContainer">
         <noscript class="notification"> Bitte aktiviere JavaScript </noscript>
         <div class="notification offline-hint"> Keine Netzwerkverbindung...<br> Zeige Offline-Version </div>
         <nuxt v-lazy-container="{ selector: 'img' }" />
@@ -38,7 +38,8 @@
     opacity: 1;
   }
 }
-.container {
+.container.myContainer {
+  padding: 16px;
   transition: all 800ms var(--transition-curve1);
   transform: translate3d(0, -1em, 0);
   backface-visibility: hidden;
