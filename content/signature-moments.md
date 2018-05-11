@@ -10,7 +10,7 @@ Eine Differenzierung auf der Ebene der Design-Grundlagen ist kaum mehr möglich.
   </figcaption>
 </figure>
 
-_Signature Moments_ sind die Microinteractions, die ein Produkt von der Konkurrenz absetzen und uns in Erinnerung bleiben^[vgl. Saffer, Dan: Microinteractions - Designing with Details (S. 19), O'Riley Media, 2013, [microinteractions.com](http://microinteractions.com/)]. 
+_Signature Moments_ sind die Micro&shy;interactions, die ein Produkt von der Konkurrenz absetzen und uns in Erinnerung bleiben^[vgl. Saffer, Dan: [Microinteractions - Designing with Details](http://microinteractions.com/) (S. 19), O'Riley Media, 2013]. 
 Eine einzige gut gemachte Interaktion kann ein Produkt entscheidend von der Konkurrenz abheben. Ein einflussreiches Beispiel ist der 'Like' von Facebook, beziehungsweise dessen Nachfolger 'Reactions'. 
 Dies könnte auch durch ein einzigartiges Bedienelement geschehen, wie beim 'click wheel' früherer iPods^[[iPod Nano 4th Gen Guided Tour](https://youtu.be/f-nvLQFQ5LQ) - harry20larry / YouTube]. Durch unverwechselbaren Ton, wie der Soundeffekt jeden Sprunges des Charakters in der 'Super Mario'-Reihe^[[Mario Jump - Gaming Sound Effect (HD)](https://youtu.be/37-paiEz0mQ) - Gaming Sound FX / YouTube]. Oder durch eine elegante UI-Animation wie in 1password (siehe unten). Das Problem von erfolgreichen Signature Moments ist, dass sie schnell Nachahmer finden und dann gar nicht mehr so einzigartig sind – doch das ist wohl in vielen Bereichen des Design der Fall.
 
@@ -27,7 +27,7 @@ Die Anpassung eines Interfaces an den Nutzer, also ein gegenseitiges 'Kennenlern
 Microinteractions werden generell kaum wahrgenommen, es sei denn, sie funktionieren nicht wie erwartet. Nutzer verbringen viel Zeit mit ausgefeilten Interfaces und haben inzwischen extrem hohe Erwartungen. Doch oft fällt uns ein Interface nur bei Enttäuschung überhaupt bewusst auf. Aus diesem Grund müssen die 'basics' jeder Benutzerschnittstelle, also die Microinteractions in ihrer Qualität und Funktionsweise (mindestens) den Erwartungen des Nutzers entsprechen. Gutes Design ist unsichtbar und doch bleibt es zumindest unbewusst positiv im Gedächtnis.
 
 > Microinteractions are the 'feel' <br>in 'look-and-feel'
-> <cite>Dan Saffer^[Saffer, Dan: Microinteractions - Designing with Details, O'Riley Media, 2013, [microinteractions.com](http://microinteractions.com/)]</cite>
+> <cite>Dan Saffer^[Saffer, Dan: [Microinteractions - Designing with Details](http://microinteractions.com/), O'Riley Media, 2013]</cite>
 
 [Animationen](/animation-and-pace) bieten die Möglichkeit, bekannte (Mikro-)Interaktionen einprägsam zu machen, ohne deren Usability zu beeinträchtigen. So können Nutzer überrascht und erheitert werden und die Persönlichkeit eines Produktes veranschaulicht werden. Doch auch rein dekorative Animationen sollten Sinn, Ort und Funktion haben, die sich an einem Gesamtkonzept orientieren. Animation, die für bloße Aufmerksamkeit genutzt wird, läuft Gefahr, Nutzer zu überfrachten und die Erfahrung negativ zu beeinflussen. Hier sollte Funktionalität immer einen höheren Stellenwert einnehmen als Dekoration.
 

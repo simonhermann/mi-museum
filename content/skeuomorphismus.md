@@ -59,7 +59,7 @@ Während visuelle Interfaces Parallelen zu Maschinen herstellen, versuchen Sprac
 ### Weiterführende Links zum Thema Skeuomorphismus:
 
 * Artikel: [The New Skeuomorphism is in Your Voice Assistant](https://uxdesign.cc/the-new-skeuomorphism-is-in-your-voice-assistant-3b14a6553a0e) von Bert Brautigam
-* Podcast-Episode: [The Sound of the Artificial World](https://99percentinvisible.org/episode/episode-15-the-sound-of-the-artificial-world/) des von _99% Invisible_
+* Podcast-Episode: [The Sound of the Artificial World](https://99percentinvisible.org/episode/episode-15-the-sound-of-the-artificial-world/) von _99% Invisible_
 
 :::
 

@@ -40,7 +40,7 @@ Wenn der Befehl aus technischen Gründen nicht unmittelbar ausgeführt werden ka
 * bis zu 1 Sekunde: _fühlt sich übergangslos&nbsp;an_
 * 8-10 Sekunden: _maximale Aufmerksamkeitsspanne_
 
-Die Dauer eines Blinzelns liegt zwischen 100 und 150 ms, diese Dauer wird normalerweise als verzögerungsfrei wahrgenommen.^[[True Lies Of Optimistic User Interfaces](https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/) von Denys Mishunov / Smashingmagazine, 2016]
+Die Dauer eines Blinzelns liegt zwischen 100 und 150 ms, diese Dauer wird normalerweise als verzögerungsfrei wahrgenommen.^[[True Lies Of Optimistic User Interfaces](https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/) von Denys Mishunov / Smashing Magazine, 2016]
 Wenn ein Nutzer den Schließen-Button eines Fensters betätigt, sollte ebendieser Button sein Erscheinungsbild verändern. Das mag unnötig erscheinen, da das Fenster und damit der Button im Moment des Ausführens nicht mehr zu sehen sind – normalerweise. Auf veralteter Hardware, durch laufende Hintergrundprozesse, langsamer Internetverbindung oder aus zahlreichen anderen Gründen kann es jedoch vorkommen, dass ein Vorgang, der auf den Testgeräten der Gestalter und Programmierer sofort geschieht, etwas Zeit braucht. Aus diesem Grund sollte Rückmeldung ausnahmslos unmittelbar geschehen und technisch losgelöst von der Befehlsausführung sein. Ein Nutzer, der auch nur wenige Sekunden kein Feedback bekommt, wird versuchen, den Button erneut zu drücken und damit vermutlich das System noch mehr überlasten oder Fehler auslösen. Als Gestalter sollte man also zwischen zwei Arten von Rückmeldung auf Aktionen des Nutzers unterscheiden:
 
 * Rückmeldung, dass eine _Eingabe des Nutzers_ erfolgt ist
@@ -62,7 +62,7 @@ Ein Nutzer sollte sich in das 'Erlebnis' eines Produktes vertiefen können, ohne
 
 Um eine Nutzererfahrung zu gestalten, die sich nahtlos und flüssig anfühlt, ist es wichtig, [passive Wartezeiten](/animation-and-pace) auf ein Minimum zu reduzieren. Unter Umständen kann es daher von Nutzen sein, positive Rückmeldung auf eine Eingabe zu geben, bevor das System die eigentliche technische Information hat, ob ein Ereignis erfolgreich war. Dieses Konzept nennt sich _optimistic user interface_ und wird etwa von Twitter oder Facebook eingesetzt. Wird beispielsweise ein Tweet abgeschickt, wird dem Nutzer _unmittelbar_ visuell mitgeteilt, dass dieser erfolgreich versandt wurde. In den (seltenen) Fällen, dass tatsächlich ein Fehler auftritt, kann dieser nachträglich angezeigt werden. Traditionellerweise würde ein Interface auf die Bestätigung des Servers warten, bevor eine Erfolgsmeldung vermittelt wird. Der Flow eines Nutzers sollte nicht unterbrochen werden, wenn dies nicht unbedingt notwendig ist.
 
-> As long as there is no error happening in the user interface, there's no reason to interrupt the user.
+> As long as there is no error happening in the user interface, there's no reason to interrupt the&nbsp;user.
 > <cite>Adrian Zumbrunnen^[[Designing Motion: Smart Transitions in UI Design](https://youtu.be/NaqKjp14Xbg) von Adrian Zumbrunnen / UX Salon / YouTube]</cite>
 
 Die Anzeige 'falscher' Daten ist eine weitere Möglichkeit, technische Erfordernisse und Unzulänglichkeiten auf intelligente Weise zu verschleiern. In Photoshop wird bei rechenintensiven Transformationen oder Filtern beispielsweise nur eine niedriger aufgelöste Vorschau angezeigt, bis die Eingabe bestätigt wurde. Feedback sollte wann immer möglich kontinuierlich und unmittelbar erfolgen, wenn nötig durch temporäre Platzhalter des eigentlichen Inhaltes.
@@ -142,9 +142,9 @@ Zahlreiche Forschungsprojekte zeigen, wie haptische Interfaces einmal aussehen k
 ### Sehens- und lesenswert zum Thema Feedback
 
 * Kapitel _Feedback_ im Buch: [Microinteractions](http://microinteractions.com/) von Dan Saffer
-* Artikel: [Getting Practical With Microcopy](https://www.smashingmagazine.com/2016/07/getting-practical-with-microcopy/) von Rade Brujić / Smashingmagazine
+* Artikel: [Getting Practical With Microcopy](https://www.smashingmagazine.com/2016/07/getting-practical-with-microcopy/) von Rade Brujić / Smashing Magazine
 * Artikel: [Systems smart enough to know when they're not smart enough](https://bigmedium.com/ideas/systems-smart-enough-to-know-theyre-not-smart-enough.html) von Josh Clark
 * Vortrag: [Feedback first](https://youtu.be/zZ6XgD8xe1s) von Ilya Birman
-* Artikel: [True Lies Of Optimistic User Interfaces](https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/) von Denys Mishunov / Smashingmagazine
+* Artikel: [True Lies Of Optimistic User Interfaces](https://www.smashingmagazine.com/2016/11/true-lies-of-optimistic-user-interfaces/) von Denys Mishunov / Smashing Magazine
 
 :::
