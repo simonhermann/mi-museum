@@ -149,7 +149,7 @@ Gerade bei Animationen besteht schnell die Gefahr, ins reine _Styling_^[Styling 
 * die gefühlte Geschwindigkeit erhöhen
 * ein Produkt ausgefeilt und 'High-End' wirken lassen
 * Persönlichkeit und Marke des Produktes verstärken
-* ...
+* und vieles andere mehr
 
 ::: md-container-more
 
