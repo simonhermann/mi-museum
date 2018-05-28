@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Page Title</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="./css/reveal.css">
+  <link rel="stylesheet" href="./css/theme-mi.css" id="theme">
+  <link rel="stylesheet" href="./css/alegreya.css">
+  <link rel="stylesheet" href="./css/theme-overrides.css">
+
+</head>
+
+<body>
+
+  <div class="reveal">
+    <div class="slides">
+      <!-- https://github.com/hakimel/reveal.js/ -->
+      <section>
+        <section>
+          <small>Diplomarbeit</small>
+          <h3>Microinteractions</h3>
+          <small style="margin-top:-2rem;">www.microinteractions.design</small><br>
+          <small><strong>Simon Hermann</strong></small>
+          <br><br>
+          <small>Betreut von: <br>
+            Prof. Henning Schellhorn & Richard Stickel
+          </small>
+          <br><br><br>
+          <small>Hochschule Wismar
+          <br>
+          19. Juni 2018</small>
+
+
+          <aside class="notes" data-markdown>
+            run `$ lite-server`
+          </aside>
+        </section>
+  
+        <section>
+          <h1>Microinteractions</h1>
+          <e><em>Gestaltung von Momenten in der Konversation <br> zwischen Mensch und Maschine</em></p>
+  
+          <aside class="notes" data-markdown>
+            Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes
+            window (hit »S« on your keyboard).
+          </aside>
+        </section>
+      </section>
+
+      <section data-background-color="#aaffaa">
+        <h2>2</h2>
+      </section>
+
+      <section data-transition="zoom-in fade-out">
+        <h3>4 data-transition: zoom-in fade-out</h3>
+      </section>
+
+      <section>
+        <section data-transition="zoom">
+          <h3>Default</h3>
+        </section>
+        <section data-transition="concave">
+          <h3>data-transition: concave</h3>
+        </section>
+        <section data-transition="convex-in fade-out">
+          <h3>data-transition: convex-in fade-out</h3>
+        </section>
+        <section>
+          <h3>Default</h3>
+        </section>
+      </section>
+
+      <section data-transition="none">
+        <h3>data-transition: none</h3>
+      </section>
+
+      <section>
+        <h3>Default</h3>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+        ## Page title
+        
+        A paragraph with some text and a [link](http://hakim.se).
+        </textarea>
+      </section>
+
+    </div>
+
+  </div>
+
+  <script src="./js/reveal.js"></script>
+  <script src="./js/head.min.js"></script>
+  <!-- <script src="./js/plugin/markdown/marked.js"></script>
+  <script src="./js/plugin/markdown/markdown.js"></script>
+  <script src="./js/plugin/zoom-js/zoom.js"></script>
+  <script src="./js/plugin/notes/notes.js"></script> -->
+
+  <script>
+    Reveal.initialize( {
+      center: true,
+      history: true,
+      transition: 'slide',
+      backgroundTransition: 'slide',
+      transitionSpeed: 'default',
+      controls: true,
+      showSlideNumber: 'all',// set to speaker
+      slideNumber: 'c/t', 
+      overview: true,
+      //margin: 0.1,
+      //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', 
+      //parallaxBackgroundSize: '2100px 900px',
+      //controlsLayout: 'edges',
+      dependencies: [
+
+        // Interpret Markdown in <section> elements
+        { src: 'js/plugin/markdown/marked.js', condition: function () { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector( '[data-markdown]' ); } },
+
+        // Syntax highlight for <code> elements
+        //{ src: 'js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+
+        // Zoom in and out with Alt+click
+        { src: 'js/plugin/zoom-js/zoom.js', async: true },
+
+        // Speaker notes
+        { src: 'js/plugin/notes/notes.js', async: true },
+
+        // MathJax
+        //{ src: 'js/plugin/math/math.js', async: true }
+      ]
+    } );
+  </script>
+
+</body>
+
+</html>
