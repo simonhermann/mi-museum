@@ -17,6 +17,7 @@ section.has-dark-background h6 {
  *********************************************/
 :root {
   --color1: hsla(133, 47%, 43%, 1); /*#276D36*/
+  --grey-dark: #424242;
 }
 html {
   font-size: 16px;
@@ -32,12 +33,15 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0.05);
   text-decoration-skip: ink;
   background-color: var(--color1);
+  color: var(--grey-dark);
 }
 
 .reveal {
   font-size: 40px;
   font-weight: normal;
-  color: #000;
+}
+.reveal.overview {
+  background: #fafafa;
 }
 
 .backgrounds {
@@ -81,7 +85,6 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #000;
   font-weight: normal;
   line-height: 1.2;
   letter-spacing: normal;
@@ -92,7 +95,7 @@ body {
 }
 
 .reveal h1 {
-  font-size: 3em;
+  font-size: 2.4em;
 }
 
 .reveal h2 {
@@ -335,7 +338,9 @@ body {
  *********************************************/
 .reveal .progress {
   background: rgba(0, 0, 0, 0.2);
-  color: #00008b;
+  color: #fff;
+  top: 0;
+  bottom: unset;
 }
 
 .reveal .progress span {

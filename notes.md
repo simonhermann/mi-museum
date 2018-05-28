@@ -4,7 +4,6 @@
 - Trigger definition
 
 # Konsultation
-- Verteidigung Termin
 
 
 
