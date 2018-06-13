@@ -18,7 +18,7 @@ module.exports = {
         content: 'zFfzzzExdtmkb2XdhzZizsw40H-_tzzYgA0VTGZTqf8',
       },
       { name: 'theme-color', content: '#424242' },
-      { name: 'msapplication-TileColor', content: '#276D36' },
+      { name: 'msapplication-TileColor', content: '#3AA150' },
       {
         hid: 'description',
         name: 'description',

@@ -67,7 +67,7 @@ OXO: erstes grafisches Computerspiel -->
 <figure class="content-thin">
   <img data-src="/images/history/ibm-sage.jpg">
   <figcaption>
-    Die Kombination aus Lichtpistole und Röhrenbildschirm des _SAGE_ ermöglichte erstmals eine unmittelbare Rückmeldung auf die Eingabe eines Nutzers.  
+    Die Kombination aus Lichtpistole und Röhrenbildschirm des SAGE ermöglichte erstmals eine unmittelbare Rückmeldung auf die Eingabe eines Nutzers.  
     <sup><a href="http://www.tested.com/tech/pcs/453111-cold-war-era-governement-computer-created-first-art/">Bildquelle</a></sup>
   </figcaption>
 </figure>

@@ -92,6 +92,23 @@ const setDocumentHighlightcolor = (color) => {
   console.log('🎨 ' + color + ' 🖌')
 }
 
+/*
+0  #3AA150
+1  #3AA16E
+2  #3AA18B
+3  #3A9AA1
+4  #3A7DA1
+5  #3A60A1
+6  #3A43A1
+7  #4F3AA1
+8  #6C3AA1
+9  #893AA1
+10 #A13A9C
+11 #A13A7F
+12 #A13A62
+13 #A13A44
+*/
+
 const setHightlightColors = (pageIndex) => {
   document.documentElement.style.setProperty('--the-color', colors[pageIndex])
   document.documentElement.style.setProperty('--next-color', colors[pageIndex + 1])
