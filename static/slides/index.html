@@ -3,14 +3,14 @@
 
 <head>
   <meta charset="utf-8" />
-  <title>Page Title</title>
+  <title>Microinteractions</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="stylesheet" href="./css/reveal.css">
-  <link rel="stylesheet" href="./css/theme-mi.css" id="theme">
-  <link rel="stylesheet" href="./css/alegreya.css">
-  <link rel="stylesheet" href="./css/theme-overrides.css">
+  <link rel="stylesheet" href="css/reveal.css">
+  <link rel="stylesheet" href="css/theme-mi.css" id="theme">
+  <link rel="stylesheet" href="css/alegreya.css">
+  <link rel="stylesheet" href="css/theme-overrides.css">
 
 </head>
 
@@ -18,28 +18,24 @@
 
   <div class="reveal">
     <div class="slides">
-      <!-- https://github.com/hakimel/reveal.js/ -->
+      <!-- 
+        run `$ cd static/slides/`
+            `$ lite-server`
+        https://github.com/hakimel/reveal.js/ 
+      -->
       <section>
         <section style="font-size:.6em;">
           <p>Diplomarbeit</p>
           <h1>Microinteractions</h1>
-          <p style="margin-top:-2rem;">www.microinteractions.design</p>
-          <br>
+          <p style="margin-top:-2rem;">www.microinteractions.design</p> <br>
           <p>
             <h3>Simon Hermann</h3>
           </p>
           <p>Betreut von: <br> 
             Prof. Henning Schellhorn <br> Richard Stickel
           </p>
-          <br>
-          <br>
-          <br>
+          <br> <br> <br>
           <p>Hochschule Wismar <br> 19. Juni 2018</p>
-
-
-          <aside class="notes" data-markdown>
-            run `$ lite-server`
-          </aside>
         </section>
 
         <section>
@@ -47,29 +43,37 @@
             <em>Gestaltung von Momenten in der Konversation <br> zwischen Mensch und Maschine</em>
             
             <aside class="notes" data-markdown>
-              Oh hey, these are some notes. They'll be hidden in your presentation, but you can see them if you open the speaker notes
-              window (hit »S« on your keyboard).
+              Oh hey, these are some notes (hit »S« on your keyboard).
             </aside>
         </section>
-        <section>
-          Struktur
+
+        <section data-markdown>
+          <textarea data-template>
+
+              ## Struktur
+
+              - 1
+              - 2
+
+          	</textarea>
         </section>
+
       </section>
 
-      <section data-background-color="#aaffaa">
-        <h2>2</h2>
+      <section class="slide-background--colored">
+        <h2>?</h2>
       </section>
 
+      <section data-markdown="md/1.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
 
-
-      <section>
+      <!-- <section>
         <section data-transition="zoom">
           <h3>Default</h3>
         </section>
         <section>
           <h3>Default</h3>
         </section>
-      </section>
+      </section> -->
 
       <!-- <section data-transition="none">
         <h3>data-transition: none</h3>
@@ -78,28 +82,16 @@
       <h3>4 data-transition: zoom-in fade-out</h3>
       </section> -->
 
-      <section>
-        <h3>Default</h3>
-      </section>
-
-      <section data-markdown>
-        <textarea data-template>
-        ## Page title
-        
-        A paragraph with some text and a [link](http://hakim.se).
-        </textarea>
-      </section>
-
     </div>
 
   </div>
 
-  <script src="./js/reveal.js"></script>
-  <script src="./js/head.min.js"></script>
-  <!-- <script src="./js/plugin/markdown/marked.js"></script>
-  <script src="./js/plugin/markdown/markdown.js"></script>
-  <script src="./js/plugin/zoom-js/zoom.js"></script>
-  <script src="./js/plugin/notes/notes.js"></script> -->
+  <script src="js/reveal.js"></script>
+  <script src="js/head.min.js"></script>
+  <!-- <script src="js/plugin/markdown/marked.js"></script>
+  <script src="js/plugin/markdown/markdown.js"></script>
+  <script src="js/plugin/zoom-js/zoom.js"></script>
+  <script src="js/plugin/notes/notes.js"></script> -->
 
   <script>
     Reveal.initialize( {

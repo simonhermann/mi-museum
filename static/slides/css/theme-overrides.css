@@ -1,3 +1,7 @@
 .reveal .slides {
   zoom: 1!important;
 }
+
+.colored {
+  color: var(--the-color);
+}
