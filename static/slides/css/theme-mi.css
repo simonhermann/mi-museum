@@ -16,7 +16,7 @@ section.has-dark-background h6 {
  * GLOBAL STYLES
  *********************************************/
 :root {
-  --the-color: hsla(133, 47%, 43%, 1); /*#276D36*/
+  --the-color: hsla(133, 47%, 43%, 1); /*#3AA150*/
   --grey-dark: #424242;
 }
 html {
@@ -50,7 +50,7 @@ body {
 }
 
 .slide-background.present {
-  border-radius: 1rem;
+  border-radius: 1.5rem;
   box-sizing: border-box;
   background-color: #fafafa;
   width: calc(100% - 2rem);

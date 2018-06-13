@@ -1,21 +1,16 @@
 <!DOCTYPE html>
 <html lang="de">
-
 <head>
   <meta charset="utf-8" />
   <title>Microinteractions</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
   <link rel="stylesheet" href="./css/reveal.css">
   <link rel="stylesheet" href="./css/theme-mi.css" id="theme">
   <link rel="stylesheet" href="./css/alegreya.css">
   <link rel="stylesheet" href="./css/theme-overrides.css">
-
 </head>
-
 <body>
-
   <div class="reveal">
     <div class="slides">
       <!-- 
@@ -23,62 +18,16 @@
             `$ lite-server`
         https://github.com/hakimel/reveal.js/ 
       -->
-      <section>
-        <section style="font-size:.6em;">
-          <p>Diplomarbeit</p>
-          <h1>Microinteractions</h1>
-          <p style="margin-top:-2rem;">www.microinteractions.design</p>
-          <br>
-          <p>
-            <h3>Simon Hermann</h3>
-          </p>
-          <p>Betreut von:
-            <br> Prof. Henning Schellhorn
-            <br> Richard Stickel
-          </p>
-          <br>
-          <br>
-          <br>
-          <p>Hochschule Wismar
-            <br> 19. Juni 2018</p>
-        </section>
+      <section data-markdown="md/0-deckblatt.md" data-separator-vertical="^\r?\nVVV\r?\n$" data-background-transition="fade"></section>
+      <section data-markdown="md/0.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
 
-        <section>
-          <h1>Microinteractions</h1>
-          <em>Gestaltung von Momenten in der Konversation
-            <br> zwischen Mensch und Maschine</em>
+      <section data-markdown="md/_bestandteile.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
 
-          <aside class="notes" data-markdown>
-            Oh hey, these are some notes (hit »S« on your keyboard).
-          </aside>
-        </section>
-
-        <section data-markdown>
-          <textarea data-template>
-
-              ## Struktur
-
-              - 1
-              - 2
-
-          	</textarea>
-        </section>
-
-      </section>
+      <section data-markdown="md/1.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
 
       <section class="slide-background--colored">
         <h2>?</h2>
       </section>
-
-      <section>
-        Mensch <br>
-        <strong class="colored">⇵</strong> <br> 
-        Mensch-Maschine-Schnittstelle <br> 
-        ⇵ <br> 
-        (technisch-funktionale) Maschine
-      </section>
-
-      <section data-markdown="md/1.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
 
       <!-- <section>
         <section data-transition="zoom">
@@ -112,12 +61,15 @@
       center: true,
       history: true,
       transition: 'slide',
-      backgroundTransition: 'slide',
+      backgroundTransition: 'none',
       transitionSpeed: 'default',
       controls: true,
       showSlideNumber: 'all',// set to speaker
       slideNumber: 'c/t',
       overview: true,
+      keyboard: {
+        66: 'prev' // previous key when b is pressed
+      },
       //margin: 0.1,
       //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', 
       //parallaxBackgroundSize: '2100px 900px',

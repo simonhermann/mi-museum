@@ -1,7 +1,64 @@
 .reveal .slides {
-  zoom: 1!important;
+  zoom: 1 !important;
 }
 
+/* colors */
+.white {
+  color:white;
+}
 .colored {
   color: var(--the-color);
+}
+.bg-colored {
+  background: var(--the-color);
+}
+
+.color0{  color:#3AA150}
+.color1{  color:#3AA16E}
+.color2{  color:#3AA18B}
+.color3{  color:#3A9AA1}
+.color4{  color:#3A7DA1}
+.color5{  color:#3A60A1}
+.color6{  color:#3A43A1}
+.color7{  color:#4F3AA1}
+.color8{  color:#6C3AA1}
+.color9{  color:#893AA1}
+.color10{ color:#A13A9C}
+.color11{ color:#A13A7F}
+.color12{ color:#A13A62}
+.color13{ color:#A13A44}
+.bg-color0{  background-color:#3AA150}
+.bg-color1{  background-color:#3AA16E}
+.bg-color2{  background-color:#3AA18B}
+.bg-color3{  background-color:#3A9AA1}
+.bg-color4{  background-color:#3A7DA1}
+.bg-color5{  background-color:#3A60A1}
+.bg-color6{  background-color:#3A43A1}
+.bg-color7{  background-color:#4F3AA1}
+.bg-color8{  background-color:#6C3AA1}
+.bg-color9{  background-color:#893AA1}
+.bg-color10{ background-color:#A13A9C}
+.bg-color11{ background-color:#A13A7F}
+.bg-color12{ background-color:#A13A62}
+.bg-color13{ background-color:#A13A44}
+
+
+/* special elements */
+.grid-quarters {
+  border-radius: 1rem;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  grid-template: 1fr 1fr / 1fr 1fr;
+  grid-gap: 0.3rem;
+  /* align-items: center; */
+}
+.grid-quarters > div {
+  display: block;
+  float: left;
+  padding: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
