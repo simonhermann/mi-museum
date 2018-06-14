@@ -36,11 +36,12 @@ Des Repertoire eines Gestalters für Benutzerschnittstellen sollte jedoch Grundl
 
 ### Empfehlenswerte Tools für die Gestaltung von Microinteractions
 
-- [Framer](https://framer.com/): Prototyping bis ins Detail, Perfekt für Microinteractions, aber steile Lernkurve
-- [Flinto](https://www.flinto.com): Unkompliziert Interaktionen gestalten und ausprobieren
+- [Framer](https://framer.com/) – Prototyping bis ins Detail, Perfekt für Microinteractions, aber steile Lernkurve
+- [Flinto](https://www.flinto.com) – Unkompliziert Interaktionen gestalten und ausprobieren
 - [Principle](http://principleformac.com): Gutes Tool für animierte Interaktionen
-- [Invision + Invision Studio](https://www.invisionapp.com/) Vielversprechendes Allround-Paket
+- [Invision + Invision Studio](https://www.invisionapp.com/) – Vielversprechendes Allround-Paket
 - Übersichtlicher [Vergleich zahlreicher Prototyping-Tools](https://www.cooper.com/prototyping-tools)
+- [Sketch.systems](https://sketch.systems/) – Erstellung interaktiver Logik-Diagramme, gut zur Ausarbeitung komplexer Regeln
 
 ::: md-container-more
 

@@ -9,6 +9,7 @@
 
 ## Content
 
+* [ ] https://boagworld.com/marketing/dark-patterns/
 * [ ] figure numbers?
 * [ ] aus Pocket
 * [ ] Seiten in Buchquellen
