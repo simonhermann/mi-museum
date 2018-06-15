@@ -78,7 +78,7 @@ Die Benutzung einer Microinteraction sollte möglichst einfach gehalten werden, 
 <figure class="content-thin">
   <img data-src="/images/rules/slack-magic-link.jpg">
   <figcaption>
-    Das Ziel, den Nutzer anzumelden, kann hier auch ohne Eingabe eines Passwortes erreicht werden: Der 'magic link' in der E-Mail von Slack muss einfach geöffnet werden, um die Anmeldung abzuschließen.
+    Das Ziel, den Nutzer anzumelden, kann hier auch ohne Eingabe eines Passwortes erreicht werden: Der ›magic link‹ in der E-Mail von Slack muss einfach geöffnet werden, um die Anmeldung abzuschließen.
     <sup><a href="http://joelcalifa.com/blog/patronizing-passwords/">Bildquelle</a></sup>
   </figcaption>
 </figure>
