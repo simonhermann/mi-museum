@@ -14,23 +14,22 @@
   <div class="reveal">
     <div class="slides">
       <!-- 
-        run `$ cd static/slides/`
+        run `$ cd slides`
             `$ lite-server`
         https://github.com/hakimel/reveal.js/ 
       -->
-      <section data-markdown="md/0-deckblatt.md" data-separator-vertical="^\r?\nVVV\r?\n$" data-background-transition="fade"></section>
+      <section data-markdown="md/0-deckblatt.md" data-separator-vertical="^\r?\nVVV\r?\n$" data-background-transition="fade" data-transition="fade"></section>
       <section data-markdown="md/0.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
       <section data-markdown="md/1.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
       <section data-markdown="md/3-was.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
 
       <section data-markdown="md/ausloeser.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
       <section data-markdown="md/regeln.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
+      <section data-markdown="md/skeu.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
       <section data-markdown="md/rueckmeldung.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
       <section data-markdown="md/signature-moments.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
-
-      <section class="slide-background--colored">
-        <h2>?</h2>
-      </section>
+      
+      <section data-separator-vertical="^\r?\nVVV\r?\n$" class="slide-background--colored">X</section>
 
       <!-- <section>
         <section data-transition="zoom">
@@ -54,10 +53,6 @@
 
   <script src="js/reveal.js"></script>
   <script src="js/head.min.js"></script>
-  <!-- <script src="js/plugin/markdown/marked.js"></script>
-  <script src="js/plugin/markdown/markdown.js"></script>
-  <script src="js/plugin/zoom-js/zoom.js"></script>
-  <script src="js/plugin/notes/notes.js"></script> -->
 
   <script>
     Reveal.initialize( {
@@ -68,6 +63,7 @@
       transitionSpeed: 'default',
       controls: true,
       showSlideNumber: 'all',// set to speaker
+      //controlsLayout: 'edges',
       slideNumber: 'c/t',
       overview: true,
       controlsTutorial: false,
@@ -79,10 +75,6 @@
       keyboard: {
         66: 'prev' // previous key when b is pressed
       },
-      //margin: 0.1,
-      //parallaxBackgroundImage: 'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg', 
-      //parallaxBackgroundSize: '2100px 900px',
-      //controlsLayout: 'edges',
       dependencies: [
 
         // Interpret Markdown in <section> elements
