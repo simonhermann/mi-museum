@@ -1,9 +1,8 @@
-# Repo for https:www.microinteractions.design
+# Repo for <a href="https://www.microinteractions.design">www.microinteractions.design</a>
 
-_Work in Progress._
+Static site based on [Vue](https://github.com/vuejs) + [Nuxt.js](https://github.com/nuxt/nuxt.js), using [markdownit](https://github.com/nuxt-community/modules/tree/master/packages/markdownit) for content parsing.
 
-
-
+For detailed explanation on how things work, checkout the [Nuxt.js docs](https://nuxtjs.org/guide).
 
 
 ## Build Setup
@@ -26,4 +25,3 @@ $ npm run generate
 $ npm run build && npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
