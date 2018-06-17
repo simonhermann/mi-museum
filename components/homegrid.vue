@@ -3,7 +3,7 @@
     <nuxt-link class="homegrid__item" :key="i" v-for="(theoryPage, i) in theoryPages" :to="theoryPage.to" :style="getItemStyles(i)">
       <div class="item__inner" :style="getInnerStyles(i)">
         <!-- <span class="item__number">{{i+1}} &mdash;</span> -->
-        <h2 class="item__head">{{theoryPage.title }}</h2>
+        <h2 class="item__head">{{ theoryPage.title }}</h2>
         <p class="item__desc" v-if="theoryPage.desc">{{ theoryPage.desc }}</p>
       </div>
     </nuxt-link>

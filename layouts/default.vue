@@ -39,13 +39,19 @@
   }
 }
 .container.myContainer {
-  padding: 16px;
   transition: all 800ms var(--transition-curve1);
   transform: translate3d(0, -1em, 0);
   backface-visibility: hidden;
   -webkit-perspective: 1000; // causes content to be blurry in Safari?
   html.application-mounted & {
     transform: translate3d(0, 0, 0);
+  }
+  padding: 6px;
+  @media (min-width: 361px) {
+    padding: 10px;
+  }
+  @media (min-width: 321px) {
+    padding: 16px;
   }
 }
 </style>
