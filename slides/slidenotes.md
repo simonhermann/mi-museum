@@ -1,10 +1,4 @@
-# Notizen zur Präsentation
-
-## ToDo
-- Raum buchen
-- Dauer Verteidigung
-- Verpflegung
-- Plakat
+# ToDo
 
 
 ## Content
@@ -13,9 +7,6 @@
 - https://youtu.be/F_brnKz_2tI - BCI Mind controlled Bionic Arm
 - https://sketch.systems/
 - https://boagworld.com/marketing/dark-patterns/
-
-
-
 
 
 ## Sonst

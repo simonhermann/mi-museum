@@ -28,5 +28,39 @@ VVV
 note:
 - Computer sind komplexe, vielschichtige "Black Boxes", deren Funktionsweise praktisch nicht nachvollziehbar ist 
 - dank Interface = auch nicht nötig!
+- Komplexität kann versteckt werden
+  - Aufgabe Designer: herausfinden was für N relevant ist und entscheiden, was gezeigt wird
 
 VVV
+
+<ol>
+  <li class="fragment">Rückmeldung, dass eine Eingabe des Nutzers erfolgt ist</li>
+  <li class="fragment">Rückmeldung, dass ein Befehl vom System ausgeführt wurde</li>
+</ol>
+
+<!--<div class="fragment">
+  <button style="" class="demo-btn">
+    XXXX
+  </button>
+</div>-->
+
+note:
+- wichtige Unterscheidung
+
+VVV
+
+![Drag in Win 3.1](img/windows3.1-drag.jpg "noshadow")
+
+VVV
+
+Optimistic UI
+
+VVV
+
+#### Arten von Feedback
+
+XXXX
+
+VVV
+
+#### "Checkliste/Tipps"
