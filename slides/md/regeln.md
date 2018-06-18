@@ -1,3 +1,5 @@
+<span class="slide-metadata" data-chapter="Regeln"></span>
+
 ## Regeln 
 
 VVV
@@ -78,17 +80,17 @@ note:
 
 VVV
 
-#### _KISS_
+_KISS_
 
-<p class="fragment"> keep it simple stupid </p>
-
-VVV
-
-#### _Balance zwischen Komplexität und Kontrolle_
+<p class="fragment"> (keep it simple stupid) </p>
 
 VVV
 
-#### _Bring the data forward_
+_Balance zwischen Komplexität und Kontrolle_
+
+VVV
+
+_Bring the data forward_
 
 note:
 - Google Suche
@@ -97,9 +99,10 @@ note:
 
 VVV
 
-#### _Smart defaults_
+_Smart defaults_
 
 note:
+- "intelligente Standartwerte"
 - Formular Land basierend auf Sprache/IP/Standort
 
 

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
   <meta charset="utf-8" />
   <title>Microinteractions</title>
@@ -10,13 +11,20 @@
   <link rel="stylesheet" href="./css/alegreya.css">
   <link rel="stylesheet" href="./css/theme-overrides.css">
 </head>
+
 <body>
+  <div class="slides-overlay">
+    <strong>Microinteractions</strong>&nbsp; <span id="chapterSpan"></span>
+    <div style="float: right;">
+      <span style="text-align: right;">Simon Hermann / HS Wismar / 19. Juni 2018</span>
+    </div>
+  </div>
   <div class="reveal">
     <div class="slides">
       <section data-markdown="md/0-deckblatt.md" data-separator-vertical="^\r?\nVVV\r?\n$" data-background-transition="fade" data-transition="fade"></section>
-      <section data-markdown="md/0.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
-      <section data-markdown="md/1.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
-      <section data-markdown="md/3-was.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
+      <section data-chapter="Chaptername" data-markdown="md/0.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
+      <section data-chapter="Chaptername2" data-markdown="md/1.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
+      <section data-chapter="Chaptername3" data-markdown="md/3-was.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
 
       <section data-markdown="md/ausloeser.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
       <section data-markdown="md/regeln.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
@@ -24,7 +32,7 @@
       <section data-markdown="md/rueckmeldung.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
       <section data-markdown="md/animation.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
       <section data-markdown="md/signature-moments.md" data-separator-vertical="^\r?\nVVV\r?\n$"></section>
-      
+
       <section data-separator-vertical="^\r?\nVVV\r?\n$" class="slide-background--colored">X</section>
 
       <!-- <section>
@@ -51,14 +59,14 @@
   <script src="js/head.min.js"></script>
 
   <script>
-    Reveal.initialize( {
+    Reveal.initialize({
       center: true,
       history: true,
       transition: 'slide',
       backgroundTransition: 'none',
       transitionSpeed: 'default',
-      controls: true,
-      showSlideNumber: 'all',// set to speaker
+      controls: false,
+      showSlideNumber: 'speaker',// set to speaker
       //controlsLayout: 'edges',
       slideNumber: 'c/t',
       overview: true,
@@ -74,8 +82,8 @@
       dependencies: [
 
         // Interpret Markdown in <section> elements
-        { src: 'js/plugin/markdown/marked.js', condition: function () { return !!document.querySelector( '[data-markdown]' ); } },
-        { src: 'js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'js/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
+        { src: 'js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
 
         // Syntax highlight for <code> elements
         //{ src: 'js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
@@ -89,7 +97,33 @@
         // MathJax
         //{ src: 'js/plugin/math/math.js', async: true }
       ]
-    } );
+    });
+
+
+    let chapterSpan = document.getElementById("chapterSpan");
+    var currentindexh = 0;
+    var previndexh = 0;
+
+    Reveal.addEventListener('slidechanged', function (event) {
+      // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+      //console.log("slidechanged");
+      
+      var slideObj = event.currentSlide;
+      try {
+        var currentChapter = slideObj.childNodes[0].childNodes[0].dataset.chapter; // hacky way to define metadata, refactor XXXX
+      } catch (err) {
+        // do nothing
+      }
+          
+      currentindexh = event.indexh;
+      if (currentChapter && currentindexh != previndexh) {
+          // update if current chapter is defined and a horizontal slide happened
+          console.log("Chapter:" + currentChapter);
+          chapterSpan.textContent = currentChapter;
+      }
+      previndexh = event.indexh;
+    });
+
   </script>
 
 </body>

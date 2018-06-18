@@ -1,3 +1,5 @@
+<span class="slide-metadata" data-chapter="Skeuo­morphismus"></span>
+
 ## Skeuo­morphismus
 
 VVV
@@ -34,15 +36,15 @@ note:
 VVV
 
 <p style="padding:4em;">
-  <span class="fragment">Papierkorb</span>
-  <span class="fragment">, Schreibtisch</span>
-  <span class="fragment">, Ordner</span>
-  <span class="fragment">, Dateien</span>
-  <span class="fragment">, Kopieren & Ausschneiden</span>
-  <span class="fragment">, Drag & Drop</span>
-  <span class="fragment">, Fenster</span>
-  <span class="fragment">, Buttons</span>
-  <span class="fragment">, ...</span>
+  <span class="fragment">Papierkorb, </span>
+  <span class="fragment">Schreibtisch, </span>
+  <span class="fragment">Ordner, </span>
+  <span class="fragment">Dateien, </span>
+  <span class="fragment">Kopieren & Ausschneiden, </span>
+  <span class="fragment">Drag & Drop, </span>
+  <span class="fragment">Fenster, </span>
+  <span class="fragment">Buttons, </span>
+  <span class="fragment">...</span>
 </p>
 
 note:

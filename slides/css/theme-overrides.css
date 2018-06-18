@@ -1,6 +1,22 @@
+/* Overlay */
+.slides-overlay {
+  font-size: .9rem;
+  opacity: .7;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2rem 3rem;
+  z-index: 1000;
+  box-sizing: border-box;
+}
+
 /* hacks */
 .reveal .slides {
   zoom: 1.2 !important;
+}
+.slide-metadata {
+  display: none;
 }
 
 .reveal section img {
@@ -10,11 +26,17 @@
 .reveal section img[title*='w30'] {
   max-width: 30%;
 }
+.reveal section img[title*='w50'] {
+  max-width: 50%;
+}
 .reveal section img[title*='w60'] {
   max-width: 60%;
 }
 .reveal section img[title*='w70'] {
   max-width: 70%;
+}
+.reveal section img[title*='h70'] {
+  max-height: 70%;
 }
 .reveal section img[title*='noshadow'] {
   box-shadow: none;

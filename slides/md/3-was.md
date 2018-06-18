@@ -1,10 +1,12 @@
+<span class="slide-metadata" data-chapter="Definition"></span>
+
 ### Microinteractions
 
 <p class="fragment">definieren, wie die Interaktion zwischen Mensch und Maschine **im Detail** funktioniert.</p>
 
 VVV
 
-![Gboard](img/gboard-cursor.gif)
+![Gboard](img/gboard-cursor.gif "w30")
 
 note:
 - Leertaste: cursor verschieben
@@ -13,7 +15,7 @@ note:
 
 VVV
 
-![Toaster](img/toaster.jpg "noshadow")
+![Toaster](img/toaster.jpg "noshadow w60")
 
 note:
 - aber! nicht nur für Apps und Webseiten, sondern für sämtliche Maschinen, die wir nutzen
