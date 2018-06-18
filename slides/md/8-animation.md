@@ -1,9 +1,13 @@
-<span class="slide-metadata" data-chapter="Animation & Geschwindigkeit"></span>
+<span class="slide-metadata" data-chapter="› Animation & Geschwindigkeit"></span>
+
+## Animation & Geschwindigkeit
+
+VVV
 
 ### Animation
 
 note:
-- meist form von Feedback, manchmal aber auch Trigger
+- meist Form von Feedback, wird aber zB auch für Trigger verwendet
 
 VVV
 
@@ -11,18 +15,21 @@ VVV
   <video data-src="img/goodtransition-cleardo-v3.mp4" data-autoplay style="height:10em;" loop controls muted></video>
 </div>
 
-<div style="width:50%; float:left;">
+<div style="width:50%; float:left; text-align:left;">
+  Animation kann <br> <br>
   <ul>
-    <li class="fragment">Fokus lenken</li>
-    <li class="fragment">Orientierung über ›räumliche‹ Verhältnisse</li>
-    <li class="fragment">Verbindung zwischen Eingabe & Feedback</li>
-    <li class="fragment">Persönlichkeit / Marke</li>
-    <li class="fragment">Flow</li>
-    <li class="fragment">"High-End"</li>
+    <li class="fragment">Fokus von Nutzern lenken</li>
+    <li class="fragment">Orientierung schffen</li>
+    <li class="fragment">Verbinden zwischen Eingabe & Feedback</li>
+    <li class="fragment">Persönlichkeit / Marke stärken</li>
+    <li class="fragment">Flow ermöglichen</li>
+    <li class="fragment">...</li>
   </ul>
 </div>
 
 note:
+- Fokus: video lenkt ab!
+- Orientierung: über ›räumliche‹ Verhältnisse
 - nahtlose, aber nicht ablenkende animierte Übergänge => Eindruck einer flüssigen GUI 
 
 VVV
@@ -38,13 +45,14 @@ VVV
 
 ![poor paypal animation](img/paypal-reciept.gif)
 
-Bewegung sinnvoll einsetzen
+Bewegung sinnvoll einsetzen!
+
 
 note:
 - Bewegung sollte immer einen Sinn haben
 - Problem lösen 
 - oder positive Erfahrung bereichern
-- erste Nutzung: in Ordnung, danach nur noch nervig
+- BILD: erste Nutzung: in Ordnung, danach nur noch nervig
 
 VVV
 
@@ -66,7 +74,7 @@ Umformung vorhandener Elemente
 
 note:
 - wie können vorhandene UI-Elemente umgeformt und integriert werden?
-- verspielt ohne anstregend zu sein
+- verspielt ohne anstrengend zu sein
 
 VVV
 
@@ -81,11 +89,12 @@ VVV
 ![Spiegel im Aufzug](img/elevator-mirror.jpg "w50")
 
 note:
-- Geschichte: New York 1930er(?): In Bürogebäude ständig Beschwerden über langsamen Aufzug. 
+- Geschichte, wie Spiegel in Aufzüge kamen:
+  - New York vor ca 100 Jahren: In Bürogebäude ständig Beschwerden über langsamen Aufzug. 
   - Zuerst Versuch, schneller zu machen, aber gescheitert. 
-  - Junger Psychologe bekam Problem mit, und vermutete, dass Menschen in den wenigen Minuten gelangweit waren, da es nichts zu tun gab. 
+  - Junger Psychologe bekam Problem mit, und vermutete, dass Menschen in während mehrminütiger Fahrt gelangweit waren, da es nichts zu tun gab. 
   - Schlug vor Spiegel einzubauen. Siehe da: Danach gab es keine Beschwerden mehr. (weiß nicht ob wahr).
-- Ähnlich: Tür schließen Knopf
+- Aber wahr: Tür schließen Knopf ist Placebo
 
 VVV
 
@@ -96,6 +105,9 @@ VVV
 
 note:
 - Knöpfe and Fußgängerüberwegen: 90% in Manhatten sind deaktiviert (Automatische Schaltung)
+- Technisch zwar keine Wirkung
+- aber noch immer psychologisch: 
+- nicht: wie lange man wartet, sondern wie gelangweilt
 
 VVV
 
@@ -122,6 +134,9 @@ VVV
 ![non-Optimistic](img/send-optimistic.gif) <!-- .element: class="fragment" data-fragment-index="2" -->
 
 Optimistic UI ⤴<!-- .element: class="fragment" data-fragment-index="2" -->
+
+note:
+- (positive) Rückmeldung wartet nicht auf tatsächlich technische Ausführung
 
 VVV
 

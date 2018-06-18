@@ -1,18 +1,40 @@
-<span class="slide-metadata" data-chapter="Rückmeldung"></span>
+<span class="slide-metadata" data-chapter="› Rückmeldung"></span>
 
-## Rückmeldung<br> (Feedback)
+## Rückmeldung
+(Feedback)
 
 VVV
 
-<ul>
-  <li class="fragment">zeigen, wie die Regeln funktionieren</li>
-  <li class="fragment">zeigen, dass Eingabe erfolgt ist</li>
-  <li class="fragment">zeigen, was das Resultat der Eingabe ist</li>
-  <li class="fragment">...</li>
-</ul>
+
+Rückmeldung erfolgt<br><br>
+<p class="fragment">
+  von Maschine bzw. Interface<br>
+  an Nutzer<br><br>
+</p>
+
+<p class="fragment">
+  als Reaktion<br>
+  auf Aktionen des Nutzers
+</p>
+
+VVV
+
+<div style="width:50%; float:left;">
+![Password Eye](img/showpassword.gif "w70")
+</div>
+
+<div style="width:50%; float:left; text-align:left;">
+  Rückmeldung verdeutlicht <br> <br>
+
+  <ul>
+    <li class="fragment">wie die Regeln funktionieren</li>
+    <li class="fragment">dass Eingaben erfolgt sind</li>
+    <li class="fragment">was Resultate der Eingaben sind</li>
+    <li class="fragment">...</li>
+  </ul>
+</div>
 
 note:
-- "zeigen" nicht nur im visuellen Sinn!
 - Bsp: Lichtschalter
   - was will ich erreichen? (etwas sehen)
   - und woher weiß ich dass ich erfolgreich war? (Licht geht an)
@@ -21,6 +43,8 @@ note:
 VVV
 
 ![Black Box](img/black-box.png "noshadow")
+
+Digitale Geräte sind komplex und undurchschaubar
 
 note:
 - Computer sind komplexe, vielschichtige "Black Boxes", deren Funktionsweise praktisch nicht nachvollziehbar ist 
@@ -37,14 +61,11 @@ VVV
   <li class="fragment">Rückmeldung, dass ein Befehl vom System ausgeführt wurde</li>
 </ol>
 
-<!--<div class="fragment">
-  <button style="" class="demo-btn">
-    XXXX
-  </button>
-</div>-->
-
 note:
 - wichtige Unterscheidung
+- bsp: Licht => 
+  - 1 Position des Lichtschalters
+  - 2 Licht geht an
 
 
 VVV
@@ -63,10 +84,12 @@ VVV
 
 VVV
 
-#### Arten von Feedback
-
-XXXX
+_Nutze mehrere Kanäle für redundante Rückmeldung_
 
 VVV
 
-#### "Checkliste/Tipps"
+_Überlade Nutzer nicht mit unnötigen Feedback_
+
+VVV
+
+_stelle einen Bezug zur Eingabe her_

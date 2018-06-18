@@ -1,10 +1,14 @@
+<span class="slide-metadata" data-chapter=" "></span>
+
 ### Microinteractions
 
 sind die Grundlage jeder Benutzerschnittstelle <!-- .element: class="fragment" -->
 
 note:
+- sind die Grundlage [...] 
 - nicht nur für digitale Produkte
 - doch bekommen sie selten die Nötige Aufmerksamkeit von Designern
+- oder Zeit/Budget für Umsetzung
 - Ziel sollte sein: Details bewusst gestalten 
 
 VVV
@@ -17,12 +21,12 @@ VVV
 
 VVV
 
-### Mikro-Interactionen
+### Mikro-Interaktionen
 
 Machen größere Probleme lösbar<!-- .element: class="fragment" -->
 
 note:
-- Aufgabe von Designern: große Probleme lösbar zu machen, in dem sie in kleine unterteilt werden
+- Aufgabe von Designern: große Probleme in kleine unterteilen und damit lösbar zu machen
 
 VVV
 
@@ -32,6 +36,10 @@ Details are the essentials. <br>
 The standard to measure quality by._ 
 
 <small>&mdash; Dieter Rams &mdash;</small>
+
+note:
+- Dass Details wichtig sind, ist keine neue Erkenntnis
+- erkennen, welche Details, die wichtigen sind ist die Herausforderung
 
 VVV
 

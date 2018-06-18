@@ -1,10 +1,9 @@
-<span class="slide-metadata" data-chapter="Signature Moments"></span>
+<span class="slide-metadata" data-chapter="› Signature Moments"></span>
 
-Microinteractions als Momente die in Erinnerung bleiben
+Microinteractions als Momente, die in Erinnerung bleiben
 
 note:
-- einer Studie zufolge wird die **Nutzererfahrung** ab dem Jahre 2020 den Preis und die Produktleistung selbst als Hauptunterscheidungsmerkmal einer Marke ablösen
-- kaum Unterschiede in den Möglichkeiten konkurrierender Produkte
+- einer Studie ab 2020 Hauptunterscheidungsmerkmal einer Marke: nicht mehr Preis oder Produktleistung sondern **Nutzererfahrung** 
 
 VVV
 
@@ -25,20 +24,21 @@ note:
   - man kann das selbe damit machen, surfen, schreiben, Videos schauen, telefonieren, gleiche/ähnliche Apps
   - 1 vs 3 Buttons unter Screen
   - hauptsächlich **Kleinigkeiten** (aha!)
+- kaum Unterschiede in den Möglichkeiten konkurrierender Produkte
 - MI => **wie** sich die Nutzung anfühlt
   - daher sehr wichtig
   - obwohl kaum bewusst wahrgenommen
 - Wettbewerb auf sehr hohem Niveau
   - hohe Erwartungen von Nutzern
   - fällt nur auf, wenn etwas nicht funktioniert
-- "Gutes design ist unsichtbar" 
+- Designer: Gute Arbeit oft unsichtbar 
 
 VVV
 
 ![Encrypto](img/encrypto.gif "w30")
 
 note:
-- hier wird außerdem die Wartezeit verschönert
+- hier wird außerdem die Wartezeit verschönert durch Fortschrittsanzeige
 - seriös genug für Zweck: Dateien verschlüsseln?
 
 VVV
@@ -54,7 +54,7 @@ note:
 
 VVV
 
-![mailchimp send](img/fb-like.png "w30 noshadow")
+![FB like](img/fb-like.png "w30 noshadow")
 
 note:
 - inzwischen oft kopiert

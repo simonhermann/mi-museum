@@ -1,4 +1,4 @@
-<span class="slide-metadata" data-chapter="Definition"></span>
+<span class="slide-metadata" data-chapter="› Definition"></span>
 
 ### Microinteractions
 

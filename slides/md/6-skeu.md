@@ -1,6 +1,9 @@
-<span class="slide-metadata" data-chapter="Skeuo­morphismus"></span>
+<span class="slide-metadata" data-chapter="› Skeuo­morphismus"></span>
 
 ## Skeuo­morphismus
+
+note:
+- Skeu-o-­morphismus
 
 VVV
 
@@ -14,7 +17,7 @@ VVV
 ![iOS Notes](img/recyclebin.jpg 'noshadow')
 
 note:
-- Skeu-o-­morphismus?
+- Skeu?
 - Tatsächlich: Aussehen ist begründet!
   - Funktion entspricht physischen Papierkorb
   - Regeln sind die Selben [...]
@@ -56,10 +59,10 @@ VVV
 ![iOS Notes](img/google-assistant.jpg 'noshadow')
 
 note:
-- nicht nur Naturgesetze, sondern auch zwischenmenschliche und kulturelle Regeln
-- besonders: Sprachinterfaces
+- kürzlich besonders: Sprachinterfaces
   - Ziel: Unterhaltung wie von Mensch zu Mensch
   - ist aber: Maschine mit versteckten Auslösern
 - Je neuartiger, ungewohnter eine Interaktion, desto mehr skeu 
 - Für gewohnte Prinzipien sollte auf bekanntes aus der _digitalen_ Welt zurückgegriffen werden
   - Nutzer: mehr digitale Knöpfe als analoge
+- nicht nur Naturgesetze, sondern auch zwischenmenschliche und kulturelle Regeln
