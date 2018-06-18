@@ -44,9 +44,6 @@ VVV
 note:
 - wichtige Unterscheidung
 
-VVV
-
-Skeleton UI XXXX
 
 VVV
 
@@ -61,9 +58,6 @@ VVV
 
 <video class="fragment" data-src="img/attributes-response-01-do.mp4" data-autoplay style="height:10em; margin-left: 3rem;" loop controls muted></video>
 
-VVV
-
-Optimistic UI XXXX
 
 VVV
 

@@ -80,14 +80,22 @@ VVV
 
 ![Spiegel im Aufzug](img/elevator-mirror.jpg "w50")
 
+note:
+- Geschichte: New York 1930er(?): In Bürogebäude ständig Beschwerden über langsamen Aufzug. 
+  - Zuerst Versuch, schneller zu machen, aber gescheitert. 
+  - Junger Psychologe bekam Problem mit, und vermutete, dass Menschen in den wenigen Minuten gelangweit waren, da es nichts zu tun gab. 
+  - Schlug vor Spiegel einzubauen. Siehe da: Danach gab es keine Beschwerden mehr. (weiß nicht ob wahr).
+- Ähnlich: Tür schließen Knopf
+
+VVV
+
+![Fußgängerampel](img/ampel.jpg "w50")
+
 <em class="fragment">Es geht nicht darum wie <strong>lange</strong> man wartet, </em><br>
 <em class="fragment">sondern, wie <strong>gelangweilt</strong> man wartet.</em>
 
 note:
-- Geschichte: New York 1930er(?): In Bürogebäude ständig Beschwerden über langsamen Aufzug. 
-- Zuerst Versuch, schneller zu machen, aber gescheitert. 
-- Junger Psychologe bekam Problem mit, und vermutete, dass Menschen in den wenigen Minuten gelangweit waren, da es nichts zu tun gab. 
-- Schlug vor Spiegel einzubauen. Siehe da: Danach gab es keine Beschwerden mehr. (weiß nicht ob wahr).
+- Knöpfe and Fußgängerüberwegen: 90% in Manhatten sind deaktiviert (Automatische Schaltung)
 
 VVV
 
@@ -96,17 +104,32 @@ VVV
 
 note:
 - zB: Youtube: kann Titel, Beschreibung usw eingeben, bevor Upload abgeschlossen ist
+- MIT Studie: passives Warten wird 36% länger eingeschätzt als es ist
 
 VVV
 
 ### <span class="fragment">Gefühlte</span> Geschwindigkeit
 
-note:
-- wer im Restaurant nach einer Minute sein Essen bekommt, denkt sich »das kann ja nicht frisch sein« 
-- Schlüsselnotdienst bekommt kein Trinkgeld, wenn er seine Arbeit in der tatsächlich benötigten Zeit erledigt, da diese sehr kurz ist und daher nicht besonders wertvoll wirkt
+VVV
+
+![FB Skeleton](img/skeleton-fb.gif "h60")
+
+Skeleton UI
+
+VVV
+
+![non-Optimistic](img/send-non-optimistic.gif) 
+![non-Optimistic](img/send-optimistic.gif) <!-- .element: class="fragment" data-fragment-index="2" -->
+
+Optimistic UI ⤴<!-- .element: class="fragment" data-fragment-index="2" -->
 
 VVV
 
 ![Künstliche Wartezeit](img/calculating-savings.jpg)
 
 <span class="fragment">Schneller ist nicht immer besser</span>
+
+note:
+- wer im Restaurant nach einer Minute sein Essen bekommt, denkt sich »das kann ja nicht frisch sein« 
+- Schlüsselnotdienst bekommt kein Trinkgeld, wenn er seine Arbeit in der tatsächlich benötigten Zeit erledigt, da diese sehr kurz ist und daher nicht besonders wertvoll wirkt
+- in digitalen Produkten: Preissuchmaschinen, Geldzählmaschinen

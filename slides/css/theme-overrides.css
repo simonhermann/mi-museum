@@ -32,11 +32,14 @@
 .reveal section img[title*='w60'] {
   max-width: 60%;
 }
+.reveal section img[title*='h60'] {
+  max-height: 60vh;
+}
 .reveal section img[title*='w70'] {
   max-width: 70%;
 }
 .reveal section img[title*='h70'] {
-  max-height: 70%;
+  max-height: 70vh;
 }
 .reveal section img[title*='noshadow'] {
   box-shadow: none;
