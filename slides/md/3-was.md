@@ -2,16 +2,18 @@
 
 ### Microinteractions
 
-<p class="fragment">definieren, wie die Interaktion zwischen Mensch und Maschine **im Detail** funktioniert.</p>
+<p class="fragment">definieren, wie die Interaktion zwischen Mensch und Maschine <br>**im Detail** funktioniert.</p>
 
 VVV
 
 ![Gboard](img/gboard-cursor.gif "w30")
 
 note:
-- Leertaste: cursor verschieben
-- von Löschen-Taste nach links wischen: markieren und löschen
-- Unterschied zu "Feature/Hauptfunktion" eines Programmes: einfach, kurz, unkompliziert sein.
+- Leertaste: cursor verschieben [...]
+- von Löschen-Taste nach links wischen: markieren und löschen [...]
+- Aber(!): nicht nur "Sonderfunktionen", sondern auch erwähnte Grundlagen
+  - hier Tippen auf Buchstabe oder Senden, Scrollen durch Nachrichten
+- Unterschied zu "Hauptfunktionen" eines Programmes: einfach, kurz, unkompliziert
 
 VVV
 
@@ -23,32 +25,15 @@ note:
 
 VVV
 
-![ios vs anrdroid](img/ios-or-android.png "noshadow")
-
-note:
-- hier fokus trotzdem auf digitalen Nutzerschnittstellen
-- was ist eigentlich der Unterschied?
-  - man kann das selbe damit machen, surfen, schreiben, Videos schauen, telefonieren, gleiche/ähnliche Apps
-  - 1 vs 3 Buttons unter Screen
-  - hauptsächlich **Kleinigkeiten** (aha!)
-- MI => **wie** sich die Nutzung anfühlt
-  - daher sehr wichtig
-  - obwohl kaum bewusst wahrgenommen
-- Wettbewerb auf sehr hohem Niveau
-  - hohe Erwartungen von Nutzern
-  - fällt nur auf, wenn etwas nicht funktioniert
-- "Gutes design ist unsichtbar" 
-
-VVV
-
 <video data-src="img/n26-cta-2.mp4" data-autoplay style="max-width:70%;" loop controls muted></video>
 
 notes:
-- XXXX
+- mein fokus trotzdem auf digitalen Nutzerschnittstellen
+- n26: ...
 
 VVV
 
-### Bestandteile von Microinteractions
+### Bestandteile jeder Microinteraction
 
 _nach Dan Saffer_
 
@@ -69,5 +54,6 @@ _nach Dan Saffer_
 </div>
 
 note:
-- Aufgabe von Designern: große Probleme lösbar zu machen, in dem sie in kleine unterteilt werden
-- kann nicht alles heute zeigen
+- [...]
+- heute nicht Schleifen & Modi
+- aber viele andere interessante Aspekte

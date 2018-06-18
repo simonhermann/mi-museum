@@ -1,5 +1,5 @@
 <section style="font-size:.6em;">
-    <span class="slide-metadata" data-chapter=""></span>
+    <span class="slide-metadata" data-chapter=" "></span>
     <p>Diplomarbeit</p>
     <h1>Microinteractions</h1>
     <p style="margin-top:-2rem;">www.microinteractions.design</p>
