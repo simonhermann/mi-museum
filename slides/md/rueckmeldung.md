@@ -30,6 +30,8 @@ note:
 
 VVV
 
+#### Unterscheide zwischen:
+
 <ol>
   <li class="fragment">Rückmeldung, dass eine Eingabe des Nutzers erfolgt ist</li>
   <li class="fragment">Rückmeldung, dass ein Befehl vom System ausgeführt wurde</li>

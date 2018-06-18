@@ -1,20 +1,9 @@
 <span class="slide-metadata" data-chapter="Signature Moments"></span>
 
-## Signature Moments
-
-VVV
-
 Microinteractions als Momente die in Erinnerung bleiben
 
 note:
 - einer Studie zufolge wird die Nutzererfahrung ab dem Jahre 2020 den Preis und das Produkt als Hauptunterscheidungsmerkmal einer Marke ablösen
-
-VVV
-
-![mailchimp send](img/fb-like.png "w30 noshadow")
-
-note:
-- inzwischen oft kopiert
 
 VVV
 
@@ -35,3 +24,18 @@ note:
 
 VVV
 
+<audio controls>
+  <source src="img/Mario-jump-sound.mp3" type="audio/mpeg">
+  Your browser does not support the audio tag.
+</audio>
+
+note:
+- S.M. kann nicht nur visuell sein, auch zB Audio
+- oder iPod clickwheel
+
+VVV
+
+![mailchimp send](img/fb-like.png "w30 noshadow")
+
+note:
+- inzwischen oft kopiert
