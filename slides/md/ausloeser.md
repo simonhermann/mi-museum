@@ -28,7 +28,7 @@ VVV
 
 <p class="fragment"> kein Hinweis auf Vorhandensein der Interaktion </p> 
 
-![swipe,zoom](XXXX)
+<video data-src="img/attributes-imply-03.mp4" data-autoplay style="height:10em;" loop controls muted></video>
 
 note:
 - oft in gestenbasierten Interfaces

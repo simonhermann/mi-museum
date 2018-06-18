@@ -8,5 +8,6 @@ in Terminal:
 - alt+click to zoom
 - S for speaker notes
 - F for fullscreen
+- V to fade to black screen temporarily
 
 

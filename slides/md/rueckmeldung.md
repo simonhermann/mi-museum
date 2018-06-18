@@ -13,15 +13,10 @@ VVV
 
 note:
 - "zeigen" nicht nur im visuellen Sinn!
-
-VVV
-
-Lichtschalter
-
-note:
-- was will ich erreichen? (etwas sehen)
-- und woher weiß ich dass ich erfolgreich war? (Licht geht an)
-- =>ist das Selbe!
+- Bsp: Lichtschalter
+  - was will ich erreichen? (etwas sehen)
+  - und woher weiß ich dass ich erfolgreich war? (Licht geht an)
+  - =>ist das Selbe!
 
 VVV
 
@@ -51,7 +46,20 @@ note:
 
 VVV
 
-![Drag in Win 3.1](img/windows3.1-drag.jpg "noshadow")
+Skeleton UI XXXX
+
+VVV
+
+### Kontinuität
+
+note:
+- besonders bei gestenbasierten Intrfcs: Swipe: Inhalt folgt direkt Finger
+
+VVV
+
+<video data-src="img/attributes-response-01-dont.mp4" data-autoplay style="height:10em;" loop controls muted></video>
+
+<video class="fragment" data-src="img/attributes-response-01-do.mp4" data-autoplay style="height:10em; margin-left: 3rem;" loop controls muted></video>
 
 VVV
 

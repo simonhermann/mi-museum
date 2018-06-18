@@ -14,7 +14,8 @@
 
 <body>
   <div class="slides-overlay">
-    <strong>Microinteractions</strong>&nbsp; <span id="chapterSpan"></span>
+    <strong>Microinteractions</strong>&nbsp;
+    <span id="chapterSpan"></span>
     <div style="float: right;">
       <span style="text-align: right;">Simon Hermann / HS Wismar / 19. Juni 2018</span>
     </div>
@@ -80,47 +81,70 @@
         66: 'prev' // previous key when b is pressed
       },
       dependencies: [
-
         // Interpret Markdown in <section> elements
         { src: 'js/plugin/markdown/marked.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
         { src: 'js/plugin/markdown/markdown.js', condition: function () { return !!document.querySelector('[data-markdown]'); } },
-
         // Syntax highlight for <code> elements
         //{ src: 'js/plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
-
         // Zoom in and out with Alt+click
         { src: 'js/plugin/zoom-js/zoom.js', async: true },
-
         // Speaker notes
         { src: 'js/plugin/notes/notes.js', async: true },
-
         // MathJax
         //{ src: 'js/plugin/math/math.js', async: true }
       ]
     });
 
+    /* 
+    colors 
+    */
+    var colorHues = []
+    const hueStart = 133
+    const hueDistance = 17
+    const numberOfColors = 20
+    const defineColors = () => {
+      for (var i = 0; i < numberOfColors; i++) {
+        colorHues[i] = hueStart + i * hueDistance
+      }
+    }
+    defineColors()
 
+    const setDocumentHighlightcolor = (color) => {
+      document.documentElement.style.setProperty('--the-color', color)
+      console.log('🎨 ' + color + ' 🖌')
+    }
+
+    // function to create HSL color from every hue
+    const colors = colorHues.map((i) => 'hsla(' + i + ', 47%, 43%, 1)')
+
+
+    /* 
+    updates on Slide change 
+    */
     let chapterSpan = document.getElementById("chapterSpan");
+    var currentChapter = "";
     var currentindexh = 0;
     var previndexh = 0;
 
     Reveal.addEventListener('slidechanged', function (event) {
       // event.previousSlide, event.currentSlide, event.indexh, event.indexv
       //console.log("slidechanged");
-      
+      setDocumentHighlightcolor(colors[currentindexh]);
+
       var slideObj = event.currentSlide;
       try {
-        var currentChapter = slideObj.childNodes[0].childNodes[0].dataset.chapter; // hacky way to define metadata, refactor XXXX
+        var newCurrentChapter = slideObj.childNodes[0].childNodes[0].dataset.chapter; // hacky way to define metadata, refactor! XXXX
       } catch (err) {
         // do nothing
       }
-          
+
       currentindexh = event.indexh;
-      if (currentChapter && currentindexh != previndexh) {
-          // update if current chapter is defined and a horizontal slide happened
-          console.log("Chapter:" + currentChapter);
-          chapterSpan.textContent = currentChapter;
+      if (newCurrentChapter && currentindexh != previndexh) {
+        // update if current chapter is defined and a horizontal slide happened
+        console.log("Chapter:" + newCurrentChapter);
+        currentChapter = newCurrentChapter;
       }
+      chapterSpan.textContent = currentChapter;
       previndexh = event.indexh;
     });
 
