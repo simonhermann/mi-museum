@@ -25,6 +25,41 @@ module.exports = {
         content:
           'Microinteractions sind die Grundlage der Interfaces zwischen Mensch und Maschine. Sie sind die kritischen Details, die den Unterschied jeder Benutzerschnittstelle ausmachen.',
       },
+      { hid: 'og-title', property: 'og-title', content: 'Microinteractions' },
+      { hid: 'og-type', property: 'og-type', content: 'website' },
+      {
+        hid: 'og-url',
+        property: 'og-url',
+        content: 'https://www.microinteractions.design/',
+      },
+      {
+        hid: 'og-image',
+        property: 'og-image',
+        content:
+          'https://www.microinteractions.design/images/www.microinteractions.design.jpg',
+      },
+      {
+        hid: 'twitter:card',
+        property: 'twitter:card',
+        content: 'summary_large_image',
+      },
+      {
+        hid: 'twitter:title',
+        property: 'twitter:title',
+        content: 'Microinteractions',
+      },
+      {
+        hid: 'twitter:description',
+        property: 'twitter:description',
+        content:
+          'Microinteractions sind die Grundlage der Interfaces zwischen Mensch und Maschine. Sie sind die kritischen Details, die den Unterschied jeder Benutzerschnittstelle ausmachen.',
+      },
+      {
+        hid: 'twitter:image',
+        property: 'twitter:image',
+        content:
+          'https://www.microinteractions.design/images/www.microinteractions.design.jpg',
+      },
     ],
     link: [
       { rel: 'shortcut icon', type: 'image/x-icon', href: '/favicon.ico' },

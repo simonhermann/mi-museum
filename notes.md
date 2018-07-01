@@ -1,10 +1,6 @@
 # To Do:
 
-3
-- Trigger definition
-
-# Konsultation
-
+- html definition <dfn> of microinteractions
 
 
 ## Content
