@@ -1,19 +1,13 @@
-# Hallo, ich bin Simon <br> und dies ist meine Diplomarbeit
+# Hallo, ich bin Simon <br>
 
 Ich bin [UX/UI Designer und (Möchtegern-)Front-End-Entwickler](https://simonhermann.de/). Im Moment arbeite ich hauptsächlich bei [Service Innovation Labs](http://www.si-labs.com/), ab und zu aber auch als Freelancer.
 
-Die Seite entstand 2017/2018 im Rahmen meines Studiums [Kommunikationsdesign & Medien](https://fg.hs-wismar.de/studium/studienangebot/kommunikationsdesign-und-medien/) an der [Hochschule Wismar](https://www.hs-wismar.de/).
+Die Seite ist Teil meiner Diplomarbeit und entstand im Rahmen meines Studiums [Kommunikationsdesign & Medien](https://fg.hs-wismar.de/studium/studienangebot/kommunikationsdesign-und-medien/) an der [Hochschule Wismar](https://www.hs-wismar.de/).
 
 Falls ihr Fragen, Anmerkungen, Lob, Verbesserungsvorschläge oder Rechtschreibfehler für mich habt, oder einfach *hi* sagen wollt, schreibt mir gerne eine E-Mail an [mail@simonhermann.de](mailto:mail@simonhermann.de).
 
 Begriffe wie 'Mirko-Interaktion' und 'Microinteraction', 'Benutzerschnittstelle' und 'Interface' oder 'Nutzerin' und 'Nutzer' werden austauschbar verwendet.
 
-<!-- 
-#### Erwähnenswerte Microinteraction auf dieser Website
-
-XXXX
-
-- img zoom -->
 
 <div class="spacer2"></div>
 
@@ -30,6 +24,7 @@ Alles weitere findet ihr im [Projekt auf Github](https://github.com/simonhermann
 ## Impressum
 
 Simon Hermann
+Diplom-Designer (fh)
 Wittekindstr. 60
 12103 Berlin
 
