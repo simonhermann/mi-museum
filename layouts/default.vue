@@ -65,6 +65,16 @@ export default {
   components: {
     navdrawer, foot
   },
+  head() {
+    return {
+      link: [
+        {
+          rel: 'canonical',
+          href: 'https://microinteractions.swjh.io' + this.$route.path,
+        },
+      ],
+    }
+  },
   mounted: function() {
     this.$nextTick(function() {
       const el_html = document.getElementsByTagName('html')[0]
