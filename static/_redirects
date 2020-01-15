@@ -1,0 +1,5 @@
+# Redirect domain aliases to primary domain
+https://www.microinteractions.design/* https://microinteractions.swjh.io/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://microinteractionsdesign.netlify.com/* https://microinteractions.swjh.io/:splat 301!
