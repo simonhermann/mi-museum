@@ -1,4 +1,4 @@
-# Repo for <a href="https://www.microinteractions.design">www.microinteractions.design</a>
+# Repo for <a href="https://microinteractions.swjh.io">microinteractions.swjh.io</a>
 
 Static site based on [Vue](https://github.com/vuejs) + [Nuxt.js](https://github.com/nuxt/nuxt.js), using [markdownit](https://github.com/nuxt-community/modules/tree/master/packages/markdownit) for content parsing.
 
