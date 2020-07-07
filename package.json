@@ -25,7 +25,7 @@
     "markdown-it-include": "^1.0.0",
     "markdown-it-mark": "^2.0.0",
     "markdown-it-smartarrows": "^1.0.1",
-    "npm": "^5.8.0",
+    "npm": "^6.14.6",
     "nuxt": "^1.0.0",
     "postcss-custom-properties": "^7.0.0",
     "vue-scrollactive": "^0.5.3",
