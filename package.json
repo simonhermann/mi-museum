@@ -43,7 +43,7 @@
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "markdown-it-named-headers": "^0.0.4",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "postcss": "^6.0.16",
     "sass-loader": "^6.0.6",
     "stylus": "^0.54.5",
